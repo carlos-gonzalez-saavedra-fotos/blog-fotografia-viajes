@@ -12,7 +12,7 @@ export const Navbar = () => {
     { name: 'Inicio', path: '/', id: 'inicio' },
     { name: 'Viajes', path: '/#viajes', id: 'viajes' },
     { name: 'Galería', path: '/#galeria', id: 'galeria' },
-    { name: 'Sobre Mí', path: '/#sobre-mi', id: 'sobre-mi' }
+    { name: 'El Autor', path: '/#el-autor', id: 'el-autor' }
   ];
 
   return (

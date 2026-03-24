@@ -47,36 +47,44 @@ export const Home = () => {
           <PhotographySection />
 
           {/* About Section */}
-          <section id="sobre-mi" className="py-24 px-6 bg-black">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-              <motion.div
-                initial={{ opacity: 0, x: -50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                className="relative aspect-[3/4] overflow-hidden"
-              >
-                <img 
-                  src="https://i.postimg.cc/hGT4nDHZ/Chat-GPT-Image-6-mar-2026-12-43-29.webp" 
-                  alt="Carlos González Saavedra"
-                  className="w-full h-full object-cover grayscale"
-                  referrerPolicy="no-referrer"
-                />
-              </motion.div>
+          <section id="el-autor" className="py-32 px-6 bg-black border-t border-white/5">
+            <div className="max-w-4xl mx-auto">
+              <div className="flex flex-col md:flex-row gap-16 items-start">
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="w-32 md:w-48 shrink-0 mx-auto md:mx-0"
+                >
+                  <div className="aspect-[3/4] overflow-hidden grayscale opacity-60 hover:opacity-100 transition-opacity duration-1000">
+                    <img 
+                      src="https://i.postimg.cc/GhB8RZvM/Carlos-Gonzalez-Saavedra.webp" 
+                      alt="Carlos González Saavedra"
+                      className="w-full h-full object-cover"
+                      referrerPolicy="no-referrer"
+                    />
+                  </div>
+                </motion.div>
 
-              <motion.div
-                initial={{ opacity: 0, x: 50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                className="space-y-8"
-              >
-                <h2 className="font-serif text-4xl md:text-6xl">Carlos González Saavedra</h2>
-                <p className="text-white/60 leading-relaxed">
-                  La fotografía y los viajes son formas de meditación en tránsito. El cuerpo se desplaza temporalmente, y la mente se sumerge en un estado de concentrada atención, dispuesta a descubrir la cotidiana belleza que cada lugar ofrece, generoso, a quien sabe observar con paciencia y apertura.
-                </p>
-                <p className="text-white/60 leading-relaxed">
-                  La senda habrá sido provechosa si, con el paso del tiempo, al volver la vista atrás, constatamos complacidos como aún palpitan en nosotros los fúlgidos ecos del sublime mundo que hemos conocido.
-                </p>
-              </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.2 }}
+                  className="space-y-6 flex-grow"
+                >
+                  <p className="text-gold text-[10px] uppercase tracking-[0.5em]">El Autor</p>
+                  <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl">Carlos González Saavedra</h2>
+                  <div className="space-y-6 text-white/50 leading-relaxed text-sm md:text-base font-light">
+                    <p>
+                      La fotografía y los viajes son formas de meditación en tránsito. El cuerpo se desplaza temporalmente, y la mente se sumerge en un estado de concentrada atención, dispuesta a descubrir la cotidiana belleza que cada lugar ofrece, generoso, a quien sabe observar con paciencia y apertura.
+                    </p>
+                    <p>
+                      La senda habrá sido provechosa si, con el paso del tiempo, al volver la vista atrás, constatamos complacidos como aún palpitan en nosotros los fúlgidos ecos del sublime mundo que hemos conocido.
+                    </p>
+                  </div>
+                </motion.div>
+              </div>
             </div>
           </section>
         </div>

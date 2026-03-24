@@ -228,7 +228,7 @@ Tras estas intensas jornadas extremeñas, el sol andaluz nos recibió en Sevilla
 El Ayuntamiento, con sus delicados detalles platerescos, contrastaba magníficamente con la modernidad del Metropol Parasol, esa fascinante estructura que los sevillanos han bautizado como "Las Setas". Sus ondulantes formas de madera, que parecen desafiar la gravedad, crean un atractivo entramado de luces y sombras sobre la Plaza de la Encarnación.
 Al atardecer, paseamos por la Plaza del Altozano de Triana que, sin saber muy bien por qué, ofrecía ese ambiente auténtico propio de los barrios con solera, y desde la orilla del Guadalquivir, contemplamos la Torre del Oro, bañada a esas horas por la luz dorada del ocaso. Pero fue al caer la noche cuando Sevilla nos regaló su momento más mágico: sentados desde la terraza de nuestro hotel, admiramos la Catedral iluminada, que parecía así más grande y hermosa, como la luna llena cuando aparece por el horizonte.
 La mañana siguiente, aunque el tiempo apremiaba, no resistimos la tentación de caminar por las estrechas callejuelas del barrio de Santa Cruz, donde cada rincón y cada plaza merecen una foto. El Parque María Luisa nos ofreció un respiro verde antes de contemplar la moderna Torre Sevilla, ese coloso rojizo que se ha convertido en el nuevo hito del skyline sevillano. La obra de César Pelli, con sus 180,5 metros de altura, representa perfectamente esa Sevilla que mira al futuro sin olvidar su pasado.`,
-  urlImagen: "https://picsum.photos/seed/andalucia-history/1200/800",
+  urlImagen: "https://i.postimg.cc/RV7ZR4mc/Huelva_004.webp",
   categoria: "España",
   fecha: "Mayo 2016",
   equipo: "Sony ILSE-6000"
@@ -246,7 +246,7 @@ Seguimos ruta hacia Logroño. Tras contemplar la solemne grandeza de su catedral
 El día del sepelio amaneció frío pero sereno. El cementerio de Haro, rodeado de viñedos invernales, parecía un lugar de paz más que de tristeza. La presencia de una bodega junto al camposanto, con su bien surtida tienda, nos pareció un guiño del destino: nuestros amigos, amantes del buen vivir y conocedores del mundo del vino, seguramente habrían apreciado esta peculiar vecindad.
 Como broche final del viaje, ya en el camino de regreso, admiramos la Bodega Baigorri en Samaniego, diseño del arquitecto vasco Iñaki Aspiazu Iza. Este impresionante cubo de cristal, que emerge entre los viñedos, representa la perfecta fusión de tradición e innovación. La estructura, mayormente enterrada y coronada por ese lucernario cristalino, nos recordó cómo la vida siempre encuentra formas de brotar desde las profundidades.
 Regresamos a Cambrils en paz pues este viaje, aunque nacido de la tristeza, nos regaló momentos de belleza, reflexión y esperanza. Como los vinos de las tierras riojanas, la vida está hecha de capas complejas donde se mezclan la alegría y la pena, la tradición y la modernidad, la muerte y la renovación.`,
-  urlImagen: "https://picsum.photos/seed/haro-wine/1200/800",
+  urlImagen: "https://i.postimg.cc/NFP7CmmK/Pais-Vasco.webp",
   categoria: "España",
   fecha: "Febrero 2016",
   equipo: "Sony ILSE-6000"
@@ -274,7 +274,7 @@ La montaña llama de nuevo y esta vez subo por medio de un tren de cremallera qu
 De regreso en Montreux, camino por las pequeñas calles del casco antiguo que suben hasta el templo de St.Vincent, con el lago por un lado y las montañas por el otro. El paisaje también manda en el trayecto de tren que va hasta Puidoux‐Chexbres: lo llaman el tren de las vides pues atraviesa las terrazas de viñedos del Lavaux, la zona de viticultura más grande de Suiza, con una superficie de cultivo de 800 hectáreas, declarada patrimonio de la humanidad por la UNESCO. Recorro más tarde estas terrazas imposibles, aradas en las laderas casi verticales de las montañas, en un tren turístico neumático que atraviesa los estrechos caminos de acceso a los viñedos. Entre las vides y el lago, reposa feliz el minúsculo pueblo de St‐Saphorin. 
 Otro tren me lleva a Lausana, sede del olimpismo mundial como recuerda un reloj del puerto que marca la cuenta atrás para el comienzo de los próximos juegos. Desde allí subo al casco antiguo en el primer metro de montaña de Suiza, que avanza sin conductor y en el que cada parada se anuncia por la megafonía interna con sonidos alegóricos a su nombre: Lausanne‐Gare, locomotoras llegando a la estación de trenes; Riponne‐M.Béjart, música de La consagración de la primavera, la coreografía más famosa de Maurice Béjart; Ours, las campanas de una iglesia… Allí me bajo para pasear por la cercana catedral gótica de Notre‐Dame, con su rosetón de principios del siglo XIII; por el castillo de St‐Maire, construido entre 1397 y 1427, y el edificio del ayuntamiento del siglo XVII. 
 De regreso a Ginebra y, antes de cerrar el viaje, voy en un momento a Francia, que está a 25 minutos en autobús, para subir al Teleférico de Salève, desde donde las vistas confirman la pequeña grandeza de estas ciudades, que reposan elegantes alrededor del lago Léman, con su mágico juego de escalas alteradas.`,
-  urlImagen: "https://picsum.photos/seed/geneva-lake/1200/800",
+  urlImagen: "https://i.postimg.cc/gcqvw97X/Lago-Leman-007.webp",
   categoria: "Europa",
   fecha: "Septiembre 2015",
   equipo: "Canon PowerShot SX200 IS"
@@ -290,7 +290,7 @@ El sábado amaneció con promesas artísticas en la Fundación Mapfre. Las fotog
 A la salida del museo, me dirigí a la Gran Vía y la encontré inusualmente descongestionada, liberada de coches por una manifestación contra la violencia de género. Esta arteria urbana, normalmente saturada de tráfico, se había transformado en un espacio de reivindicación social y de disfrute peatonal. Entre los paseantes, destacaba una pareja de recién casados, ella de largo traje blanco, él de oscuro esmoquin, que posaban encantados en la inusual pasarela. Después de esta pausa contemplativa, me fui al barrio de Vallecas, donde, no sin esfuerzo, había logrado reservar una mesa en la Cervecería Cruz Blanca, para lo que sería una experiencia gastronómica memorable. El cocido madrileño de allí, servido con la tradicional ceremonia de tres vuelcos, fue un prodigio de sabores que justificaba plenamente su fama entre los entendidos.
 La tarde la dediqué a un peregrinaje por dos templos del arte. En el Prado, me detuve ante Las meninas, donde el juego de miradas entre Velázquez y sus personajes sigue tan enigmático como siempre. Las pinturas negras de Goya me sobrecogieron una vez más, especialmente ese Perro semihundido que parece mirarnos desde el abismo del tiempo. El jardín de las delicias de El Bosco me mantuvo absorto, descubriendo nuevos detalles en ese universo de fantasía y moral medieval.
 Mi última parada fue una visita rasante al Museo Reina Sofía, apenas con tiempo para someterme al magnetismo habitual del Guernica de Picasso y para sentarme un momento en el patio, exhausto pero satisfecho, junto al móvil Carmen de Alexander Calder, cuyas formas abstractas y coloridas danzaban suavemente con la brisa de la otoñal tarde madrileña.`,
-  urlImagen: "https://picsum.photos/seed/madrid-city/1200/800",
+  urlImagen: "https://i.postimg.cc/PJxYsJMd/Gran-Via-de-Madrid-sin-trafico-2015.webp",
   categoria: "España",
   fecha: "Noviembre 2015",
   equipo: "Samsung GT-I9505"
@@ -306,7 +306,7 @@ Pero nunca el esfuerzo es en vano: por las calles te esperan cuidados empedrados
 Se come bien por estos lares, donde el frío anima a probar solomillos de jabalí, guisos de ciervo, cecinas de vaca, perdices salvajes escabechadas en aceite, panes dormidos y dulces cuajadas de leche de oveja.
 Son grandes pueblos de reducido tamaño y escasa población, emplazados en paisajes tan sobrios como encantadores.
 Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otros no menos singulares, como Peñíscola, en la vecina provincia de Castellón. En el imponente castillo templario que domina este peñón metido en el mar, ejerció su papado Benedicto XIII, conocido como el Papa Luna. Y a pocos kilómetros de allí, en la desembocadura del río Ebro, las piedras dan paso a un paisaje horizontal, donde se mezclan los intensos azules del Mediterráneo con el verdor profundo de los arrozales.`,
-  urlImagen: "https://picsum.photos/seed/maestrazgo-landscape/1200/800",
+  urlImagen: "https://i.postimg.cc/FzWqNf56/Morella-026.webp",
   categoria: "España",
   fecha: "Noviembre 2014",
   equipo: "Nikon COOLPIX L820"
@@ -327,7 +327,7 @@ Dejo atrás las medievales torres de Brujas con destino a Bruselas. Desde la maj
 Al mediodía, la prometedora recomendación de un crítico gastronómico me conduce hacia la taberna Greenwich, un establecimiento que respira señorío por cada uno de sus rincones de madera pulida. Aquí me aguarda una experiencia culinaria memorable: el Lapin à la Kriek, un conejo marinado durante 24 horas en cerveza de cerezas y bien condimentado con hierbas aromáticas. La combinación de la carne tierna y la ligera salsa, que incorpora cerezas deshuesadas, es un deleite para el paladar. Acompañan a este plato una generosa ración de patatas fritas, cocinadas en grasa de buey según establece la tradición belga: crujientes por fuera y suaves por dentro. Marido la comida con una robusta cerveza negra de Abadía, que parece contener toda la sabiduría de los monjes cerveceros.
 De regreso a las calles, el arte público cobra vida: me topo con la esculpida figura pensativa de Béla Bartók y con las bronceas siluetas inmortales de Don Quijote y Sancho. Pero lo que verdaderamente distingue a Bruselas es su amor por el cómic: grandes murales urbanos transforman las fachadas en viñetas gigantes. Me detengo fascinado ante una pared donde los personajes de Astérix se asoman a una cancha deportiva, mientras que en otro edificio, Tintín y Milú parecen a punto de embarcarse en una nueva aventura. 
 Este registro urbano cambia en las elegantes Galerías Hubert, con sus techos de cristal y sus tiendas refinadas. No muy lejos, el diminuto Manneken Pis cumple resignado con su eterna tarea fisiológica, rodeado de turistas sonrientes que buscan el ángulo perfecto para una foto millones de veces tomada. El Palacio Real, con sus salones suntuosos, enormes lámparas de araña y decoración exquisita, me recuerdan que estoy en un Reino con monarquía constitucional y parlamentaria, aunque su papel en la política sea fundamentalmente simbólico y representativo. Y avanzada la tarde, paseo hasta la silueta futurista del Atomium, esa estructura de hierro gigantesca que simula un átomo, aunque aumentado 165 mil millones de veces.`,
-  urlImagen: "https://picsum.photos/seed/bruges-brussels/1200/800",
+  urlImagen: "https://i.postimg.cc/NF6LThY2/Brujas-015.webp",
   categoria: "Europa",
   fecha: "Septiembre 2014",
   equipo: "Canon PowerShot SX200 IS"
