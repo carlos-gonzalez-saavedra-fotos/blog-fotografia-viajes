@@ -38,10 +38,10 @@ export const BlogSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
           <div>
-            <p className="text-gold text-[10px] uppercase tracking-[0.4em] mb-4">Crónicas & Experiencias</p>
-            <h2 className="font-serif text-4xl md:text-6xl mb-4">Diario de Viaje</h2>
+            <p className="text-gold text-[10px] uppercase tracking-[0.4em] mb-4">Crónicas</p>
+            <h2 className="font-serif text-4xl md:text-6xl mb-4">Sendas y relatos</h2>
             <p className="text-white/50 max-w-md uppercase text-[10px] tracking-[0.2em]">
-              Explora mis aventuras a través de {MIS_VIAJES.length} reseñas detalladas.
+              Caminos transformados en recuerdos a través de {MIS_VIAJES.length} reseñas detalladas.
             </p>
           </div>
 

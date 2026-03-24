@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Mail } from 'lucide-react';
+import { Instagram, Youtube, Linkedin } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -7,38 +7,44 @@ export const Footer = () => {
         <div className="space-y-6">
           <h3 className="font-serif text-2xl tracking-widest uppercase">CGS</h3>
           <p className="text-white/40 text-sm leading-relaxed max-w-xs">
-            Dedicado a documentar la belleza de los rincones más remotos del planeta a través de una mirada honesta y cinematográfica.
+            Una mirada entregada a la quietud contemplativa de un teatro abierto, donde la vida misma es el espectáculo más cautivador.
           </p>
         </div>
 
         <div className="space-y-6">
-          <h4 className="text-[10px] uppercase tracking-[0.3em] text-gold">Contacto</h4>
+          <h4 className="text-[10px] uppercase tracking-[0.3em] text-gold">Cuentas</h4>
           <ul className="space-y-4 text-sm text-white/60">
-            <li className="flex items-center gap-3 hover:text-white cursor-pointer transition-colors">
-              <Mail size={16} /> hola@carlosgs.com
+            <li>
+              <a 
+                href="http://www.youtube.com/@cgsaavedra" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 hover:text-white transition-colors"
+              >
+                <Youtube size={16} /> @cgsaavedra
+              </a>
             </li>
-            <li className="flex items-center gap-3 hover:text-white cursor-pointer transition-colors">
-              <Instagram size={16} /> @carlosgs_photo
+            <li>
+              <a 
+                href="https://www.instagram.com/cg.saavedra/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 hover:text-white transition-colors"
+              >
+                <Instagram size={16} /> cg.saavedra
+              </a>
             </li>
-            <li className="flex items-center gap-3 hover:text-white cursor-pointer transition-colors">
-              <Twitter size={16} /> @carlosgs_travel
+            <li>
+              <a 
+                href="https://www.linkedin.com/in/carlos-gonzalez-saavedra" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 hover:text-white transition-colors"
+              >
+                <Linkedin size={16} /> LinkedIn
+              </a>
             </li>
           </ul>
-        </div>
-
-        <div className="space-y-6">
-          <h4 className="text-[10px] uppercase tracking-[0.3em] text-gold">Newsletter</h4>
-          <p className="text-white/40 text-xs">Recibe mis últimas reseñas y consejos de fotografía directamente en tu correo.</p>
-          <div className="flex gap-2">
-            <input 
-              type="email" 
-              placeholder="Email" 
-              className="bg-white/5 border border-white/10 px-4 py-2 text-sm w-full focus:outline-none focus:border-gold transition-colors"
-            />
-            <button className="bg-gold text-black px-6 py-2 text-xs uppercase font-bold hover:bg-white transition-colors">
-              Unirse
-            </button>
-          </div>
         </div>
       </div>
 

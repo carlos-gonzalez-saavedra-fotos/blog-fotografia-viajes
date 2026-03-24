@@ -32,8 +32,8 @@ export const PhotographySection = () => {
     <section id="galeria" className="py-24 px-6 bg-[#050505] min-h-screen">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <p className="text-gold text-[10px] uppercase tracking-[0.4em] mb-4">Archivo Visual</p>
-          <h2 className="font-serif text-4xl md:text-6xl mb-6 text-white">Galería de Expediciones</h2>
+          <p className="text-gold text-[10px] uppercase tracking-[0.4em] mb-4">Archivo visual</p>
+          <h2 className="font-serif text-4xl md:text-6xl mb-6 text-white">Quietud contemplativa</h2>
           <div className="w-24 h-[1px] bg-gold mx-auto" />
         </div>
 

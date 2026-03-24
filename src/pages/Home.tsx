@@ -38,9 +38,9 @@ export const Home = () => {
               className="max-w-3xl"
             >
               <h2 className="font-serif text-3xl md:text-5xl italic leading-relaxed text-balance">
-                "La fotografía es un secreto sobre un secreto, cuanto más te dice, menos sabes."
+                "La fotografía es un arte de observación. He descubierto que tiene poco que ver con las cosas que ves y todo que ver con la forma en que las ves."
               </h2>
-              <p className="mt-8 text-[10px] uppercase tracking-[0.5em] text-gold">Diane Arbus</p>
+              <p className="mt-8 text-[10px] uppercase tracking-[0.5em] text-gold">Elliott Erwitt</p>
             </motion.div>
           </section>
 
@@ -56,12 +56,11 @@ export const Home = () => {
                 className="relative aspect-[3/4] overflow-hidden"
               >
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1974" 
+                  src="https://i.postimg.cc/hGT4nDHZ/Chat-GPT-Image-6-mar-2026-12-43-29.webp" 
                   alt="Carlos González Saavedra"
                   className="w-full h-full object-cover grayscale"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute inset-0 border-[20px] border-black/20" />
               </motion.div>
 
               <motion.div
@@ -72,16 +71,11 @@ export const Home = () => {
               >
                 <h2 className="font-serif text-4xl md:text-6xl">Carlos González Saavedra</h2>
                 <p className="text-white/60 leading-relaxed">
-                  Nacido con una cámara en la mano y un mapa en el corazón. Llevo más de una década recorriendo el mundo buscando historias que merezcan ser contadas. Mi enfoque combina la precisión técnica de la fotografía de paisaje con la narrativa íntima del periodismo de viajes.
+                  La fotografía y los viajes son formas de meditación en tránsito. El cuerpo se desplaza temporalmente, y la mente se sumerge en un estado de concentrada atención, dispuesta a descubrir la cotidiana belleza que cada lugar ofrece, generoso, a quien sabe observar con paciencia y apertura.
                 </p>
                 <p className="text-white/60 leading-relaxed">
-                  Este espacio es mi diario visual y mi cuaderno de bitácora. Aquí comparto no solo lo que veo, sino lo que siento al estar frente a la inmensidad de la naturaleza o la complejidad de una nueva cultura.
+                  La senda habrá sido provechosa si, con el paso del tiempo, al volver la vista atrás, constatamos complacidos como aún palpitan en nosotros los fúlgidos ecos del sublime mundo que hemos conocido.
                 </p>
-                <div className="pt-8">
-                  <button className="px-8 py-4 border border-gold text-gold text-xs uppercase tracking-[0.3em] hover:bg-gold hover:text-black transition-all duration-500">
-                    Conoce mi equipo
-                  </button>
-                </div>
               </motion.div>
             </div>
           </section>

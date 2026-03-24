@@ -416,6 +416,19 @@ export const MIS_FOTOS = [
     "https://i.postimg.cc/rsH7hsGM/Mundial_Voley_Playa_2009_4.webp"
   ]
   },
+  { id: "GaleMusic", 
+  url: "https://i.postimg.cc/vTqQQ3GF/Concierto_Rosario_Flores_2.webp", 
+  titulo: "Música", 
+  ubicacion: "Barcelona",
+  galeriaTematica: [
+      "https://i.postimg.cc/WpXp6bgq/Shakira_de_paseo_2.webp",
+      "https://i.postimg.cc/qqbkkjpT/Concha_Buika_Chucho_Valdés_3.webp",
+      "https://i.postimg.cc/vTqQQ3GF/Concierto_Rosario_Flores_2.webp",
+      "https://i.postimg.cc/qqbkkjpd/Esperanza_Spalding_BCN_2009.webp",
+      "https://i.postimg.cc/zD0DSXKb/Música_en_La_Barceloneta_2010.webp",
+      "https://i.postimg.cc/Zn7TTVJz/Festival_Asia_1.webp"
+  ]
+   },
   { id: "GaleSalamanca", 
     url: "https://i.postimg.cc/MHzrdRj1/Catedral_de_Salamanca_14.webp", 
     titulo: "   ", 
@@ -451,7 +464,7 @@ export const MIS_FOTOS = [
       "https://i.postimg.cc/GtJ9102Q/La_Alhambra_Palacios_Nazaríes_Patio_del_cuarto_dorado_Palacios_Nazaríes_7.webp"
     ]    
   },
-  { id: "f5", url: "https://picsum.photos/seed/5/800/1000", titulo: "Bosques de Niebla", ubicacion: "Costa Rica" },
-  { id: "f6", url: "https://picsum.photos/seed/6/800/1000", titulo: "Mercados Flotantes", ubicacion: "Tailandia" },
+  
+  { id: "f6", url: "https://i.postimg.cc/65Pvchn0/Gego-en-el-Macba-2006-04.webp", titulo: "Arte & Museos", ubicacion: "" },
   // --- LA IA PUEDE AYUDARTE A LLENAR ESTA LISTA HASTA 500 ---
 ];
