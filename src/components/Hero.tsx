@@ -7,8 +7,8 @@ export const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2070" 
-          alt="Mountain Landscape"
+          src="https://i.postimg.cc/5NPDKYtR/Playa-de-las-Catedrales.webp" 
+          alt="Playa de las Catedrales - Galicia"
           className="w-full h-full object-cover opacity-60"
           referrerPolicy="no-referrer"
         />
