@@ -22,7 +22,7 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
           className="text-xs md:text-sm uppercase tracking-[0.4em] text-gold mb-6"
         >
-          Fotógrafo & Explorador
+          Fotografía & Relatos
         </motion.p>
         
         <motion.h1 
