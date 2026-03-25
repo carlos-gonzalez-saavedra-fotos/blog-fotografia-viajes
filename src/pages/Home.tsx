@@ -53,9 +53,9 @@ export const Home = () => {
               className="max-w-3xl"
             >
               <h2 className="font-serif text-3xl md:text-5xl italic leading-relaxed text-balance">
-                "La fotografía es un arte de observación. He descubierto que tiene poco que ver con las cosas que ves y todo que ver con la forma en que las ves."
+                "Un extraño tejido de espacio y tiempo: la aparición única de una lejanía, por cercana que pueda estar."
               </h2>
-              <p className="mt-8 text-[10px] uppercase tracking-[0.5em] text-gold">Elliott Erwitt</p>
+              <p className="mt-8 text-[10px] uppercase tracking-[0.5em] text-gold">Walter Benjamin</p>
             </motion.div>
           </section>
 
