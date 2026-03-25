@@ -49,7 +49,7 @@ export const Hero = () => {
       {/* Decorative Side Text */}
       <div className="hidden lg:block absolute left-12 bottom-24 rotate-[-90deg] origin-left">
         <p className="text-[10px] uppercase tracking-[0.5em] opacity-40">
-          Carlos González Saavedra — Portfolio 2025
+          Carlos González Saavedra — Portfolio 2026
         </p>
       </div>
     </section>

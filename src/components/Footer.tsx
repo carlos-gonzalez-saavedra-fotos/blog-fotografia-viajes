@@ -1,4 +1,5 @@
 import { Instagram, Youtube, Linkedin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
@@ -51,8 +52,8 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto mt-24 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/20">
         <p>© 2026 Carlos González Saavedra. Todos los derechos reservados.</p>
         <div className="flex gap-8">
-          <a href="#" className="hover:text-white">Privacidad</a>
-          <a href="#" className="hover:text-white">Términos</a>
+          <Link to="/aviso-legal" className="hover:text-white">Aviso Legal</Link>
+          <Link to="/aviso-legal" className="hover:text-white">Privacidad</Link>
         </div>
       </div>
     </footer>
