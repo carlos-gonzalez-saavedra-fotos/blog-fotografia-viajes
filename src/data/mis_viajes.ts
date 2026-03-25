@@ -505,7 +505,6 @@ export const MIS_FOTOS = [
     galeriaTematica: [
       "https://i.postimg.cc/d3KDXQqt/El_Albaycín.webp",
       "https://i.postimg.cc/4yTnM4J3/El_Albaycín_2.webp",
-      "https://i.postimg.cc/FzQ1qF9X/El_Generalife.webp",
       "https://i.postimg.cc/vTdDj8Q8/El_Generalife_12.webp",
       "https://i.postimg.cc/8cVs3k1v/La_Alhambra_desde_el_restaurant_Mirador_de_Morayma_8.webp",
       "https://i.postimg.cc/4yTnM4JV/La_Alhambra_Palacio_de_Carlos_V_6.webp",
