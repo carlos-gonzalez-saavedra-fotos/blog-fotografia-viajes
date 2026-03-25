@@ -495,7 +495,6 @@ export const MIS_FOTOS = [
       "https://i.postimg.cc/vTX2jBW5/Universidad_de_Salamanca_03.webp",
       "https://i.postimg.cc/j2v395zH/Universidad_de_Salamanca_07.webp",
       "https://i.postimg.cc/vTGS396W/Catedral_de_Salamanca_08.webp",
-      "https://i.postimg.cc/2yCX2vBh/Catedral_de_Salamanca_10.webp",
       "https://i.postimg.cc/sxKH8XpM/Casa_de_las_Conchas_01.webp"
     ]
      },

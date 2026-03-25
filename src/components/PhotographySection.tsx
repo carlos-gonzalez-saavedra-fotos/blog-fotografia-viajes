@@ -17,11 +17,14 @@ export const PhotographySection = () => {
   React.useEffect(() => {
     if (selectedId) {
       document.body.style.overflow = 'hidden';
+      document.body.classList.add('gallery-active');
     } else {
       document.body.style.overflow = 'unset';
+      document.body.classList.remove('gallery-active');
     }
     return () => {
       document.body.style.overflow = 'unset';
+      document.body.classList.remove('gallery-active');
     };
   }, [selectedId]);
 
@@ -80,12 +83,12 @@ export const PhotographySection = () => {
       <AnimatePresence>
         {selectedId && selectedExpedition && (
           <div 
-            className="fixed inset-0 z-[2000] bg-black/98 flex flex-col items-center justify-center"
+            className="fixed inset-0 z-[9999] bg-black/98 flex flex-col items-center justify-center"
             onClick={() => setSelectedId(null)}
           >
             {/* Header del Lightbox */}
-            <div className="absolute top-0 left-0 w-full p-6 md:p-10 grid grid-cols-3 items-center z-[1010] bg-gradient-to-b from-black/80 to-transparent">
-              {/* Izquierda: Logo/Cierre alternativo */}
+            <div className="absolute top-0 left-0 w-full p-6 md:p-10 grid grid-cols-3 items-center z-[10000] bg-gradient-to-b from-black/80 to-transparent">
+              {/* Izquierda: Logo que también cierra */}
               <div 
                 className="flex items-center gap-2 cursor-pointer group w-fit"
                 onClick={(e) => { e.stopPropagation(); setSelectedId(null); }}
@@ -98,15 +101,14 @@ export const PhotographySection = () => {
               <div className="text-center">
                 <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
                   <span className="block text-gold/80 mb-1">{selectedExpedition.ubicacion}</span>
-                  <span className="font-serif text-sm md:text-base text-white tracking-normal normal-case block mb-1">{selectedExpedition.titulo}</span>
-                  <span className="opacity-50">{subIndex + 1} / {currentGallery.length}</span>
+                  <span className="font-serif text-sm md:text-base text-white tracking-normal normal-case block">{selectedExpedition.titulo}</span>
                 </div>
               </div>
 
               {/* Derecha: Botón Cerrar principal */}
               <div className="flex justify-end">
                 <button 
-                  className="text-white/40 hover:text-gold transition-all hover:rotate-90 p-2"
+                  className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
                   onClick={(e) => { e.stopPropagation(); setSelectedId(null); }}
                   aria-label="Cerrar galería"
                 >
@@ -119,13 +121,13 @@ export const PhotographySection = () => {
             {currentGallery.length > 1 && (
               <>
                 <button 
-                  className="absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[1010] p-4 transition-all"
+                  className="absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
                   onClick={(e) => { e.stopPropagation(); navigate(-1); }}
                 >
                   <ChevronLeft size={56} strokeWidth={1} />
                 </button>
                 <button 
-                  className="absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[1010] p-4 transition-all"
+                  className="absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
                   onClick={(e) => { e.stopPropagation(); navigate(1); }}
                 >
                   <ChevronRight size={56} strokeWidth={1} />
@@ -133,22 +135,33 @@ export const PhotographySection = () => {
               </>
             )}
 
-            {/* Imagen Principal - Sin forzar tamaños que rompan la resolución */}
-            <div className="w-full h-full flex items-center justify-center p-4 md:p-24">
-              <motion.img 
-                key={currentGallery[subIndex]}
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                src={currentGallery[subIndex]} 
-                alt={selectedExpedition.titulo}
-                className="shadow-2xl max-w-full max-h-full object-contain"
-                style={{ 
-                  maxWidth: '90vw', 
-                  maxHeight: '75vh'
-                }}
-                referrerPolicy="no-referrer"
-                onClick={(e) => e.stopPropagation()}
-              />
+            {/* Imagen Principal y Numeración */}
+            <div className="w-full h-full flex flex-col items-center justify-center p-4 md:p-24">
+              <div className="relative flex flex-col items-center">
+                <motion.img 
+                  key={currentGallery[subIndex]}
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  src={currentGallery[subIndex]} 
+                  alt={selectedExpedition.titulo}
+                  className="shadow-2xl max-w-full max-h-full object-contain"
+                  style={{ 
+                    maxWidth: '90vw', 
+                    maxHeight: '75vh'
+                  }}
+                  referrerPolicy="no-referrer"
+                  onClick={(e) => e.stopPropagation()}
+                />
+                
+                {/* Numeración elegante en la parte inferior */}
+                <motion.div 
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="mt-6 text-gold font-medium text-[10px] md:text-xs tracking-[0.5em] uppercase"
+                >
+                  {subIndex + 1} / {currentGallery.length}
+                </motion.div>
+              </div>
             </div>
 
             {/* El pie de foto se ha movido al header para evitar redundancia */}

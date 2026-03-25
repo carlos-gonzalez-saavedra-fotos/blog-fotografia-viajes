@@ -6,14 +6,6 @@ export const LegalNotice = () => {
   return (
     <div className="min-h-screen bg-black text-white pt-32 pb-24 px-6">
       <div className="max-w-3xl mx-auto">
-        <Link 
-          to="/" 
-          className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-12 group"
-        >
-          <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
-          <span className="text-xs uppercase tracking-widest">Volver al inicio</span>
-        </Link>
-
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

@@ -30,6 +30,20 @@ export const ReviewDetail = () => {
     galleryRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  useEffect(() => {
+    if (selectedIndex !== null) {
+      document.body.style.overflow = 'hidden';
+      document.body.classList.add('gallery-active');
+    } else {
+      document.body.style.overflow = 'unset';
+      document.body.classList.remove('gallery-active');
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+      document.body.classList.remove('gallery-active');
+    };
+  }, [selectedIndex]);
+
   if (!viaje) {
     return (
       <div className="min-h-screen bg-black flex flex-col items-center justify-center text-white p-6">
@@ -74,14 +88,6 @@ export const ReviewDetail = () => {
             </h1>
           </motion.div>
         </div>
-
-        <button 
-          onClick={() => navigate(-1)}
-          className="absolute top-12 left-6 md:left-12 flex items-center gap-3 text-[10px] uppercase tracking-[0.3em] text-white/60 hover:text-gold transition-colors z-50"
-        >
-          <ArrowLeft size={16} />
-          Volver
-        </button>
       </div>
 
       {/* Content */}
@@ -167,11 +173,11 @@ export const ReviewDetail = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={() => setSelectedIndex(null)}
-            className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-4 md:p-12 cursor-zoom-out"
+            className="fixed inset-0 z-[10000] bg-black/95 flex items-center justify-center p-4 md:p-12 cursor-zoom-out"
           >
             <button 
               onClick={() => setSelectedIndex(null)}
-              className="absolute top-8 right-8 text-white/60 hover:text-white transition-colors z-[110]"
+              className="absolute top-8 right-8 text-white/60 hover:text-white transition-colors z-[10001]"
             >
               <X size={32} />
             </button>
@@ -179,7 +185,7 @@ export const ReviewDetail = () => {
             {viaje.galeria.length > 1 && (
               <>
                 <button 
-                  className="absolute left-4 md:left-8 text-white/30 hover:text-gold transition-colors z-[110]"
+                  className="absolute left-4 md:left-8 text-white/30 hover:text-gold transition-colors z-[10001]"
                   onClick={(e) => { 
                     e.stopPropagation(); 
                     setSelectedIndex((prev) => (prev! - 1 + viaje.galeria!.length) % viaje.galeria!.length); 
@@ -189,7 +195,7 @@ export const ReviewDetail = () => {
                 </button>
 
                 <button 
-                  className="absolute right-4 md:right-8 text-white/30 hover:text-gold transition-colors z-[110]"
+                  className="absolute right-4 md:right-8 text-white/30 hover:text-gold transition-colors z-[10001]"
                   onClick={(e) => { 
                     e.stopPropagation(); 
                     setSelectedIndex((prev) => (prev! + 1) % viaje.galeria!.length); 
@@ -214,9 +220,14 @@ export const ReviewDetail = () => {
                 className="max-w-full max-h-[85vh] object-contain shadow-2xl"
                 referrerPolicy="no-referrer"
               />
-              <div className="mt-4 text-white/40 text-[10px] uppercase tracking-widest">
+              {/* Numeración elegante en la parte inferior */}
+              <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="mt-6 text-gold font-medium text-[10px] md:text-xs tracking-[0.5em] uppercase"
+              >
                 {selectedIndex + 1} / {viaje.galeria.length}
-              </div>
+              </motion.div>
             </motion.div>
           </motion.div>
         )}
