@@ -4,14 +4,31 @@ import { BlogSection } from '../components/BlogSection';
 import { PhotographySection } from '../components/PhotographySection';
 import { Footer } from '../components/Footer';
 import { motion, useScroll, useSpring } from 'motion/react';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export const Home = () => {
   const { scrollYProgress } = useScroll();
+  const location = useLocation();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
     restDelta: 0.001
   });
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace('#', '');
+      const element = document.getElementById(id);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
 
   return (
     <div className="min-h-screen bg-black selection:bg-gold selection:text-black">

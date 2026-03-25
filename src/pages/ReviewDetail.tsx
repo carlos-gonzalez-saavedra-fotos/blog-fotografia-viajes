@@ -236,7 +236,7 @@ export const ReviewDetail = () => {
       {/* Footer Navigation */}
       <div className="border-t border-white/5 py-24 px-6 text-center">
         <p className="text-white/20 text-[10px] uppercase tracking-[0.5em] mb-8">Siguiente Aventura</p>
-        <Link to="/" className="font-serif text-3xl md:text-5xl hover:text-gold transition-colors">
+        <Link to="/#viajes" className="font-serif text-3xl md:text-5xl hover:text-gold transition-colors">
           Explorar más crónicas
         </Link>
       </div>
