@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useLocation } from 'react-router-dom';
 import { MIS_FOTOS } from '../data/mis_viajes';
-import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
 
 export const PhotographySection = () => {
   const [selectedId, setSelectedId] = React.useState<string | null>(null);
@@ -13,6 +13,17 @@ export const PhotographySection = () => {
     setSelectedId(null);
     setSubIndex(0);
   }, [location]);
+
+  React.useEffect(() => {
+    if (selectedId) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [selectedId]);
 
   const selectedExpedition = React.useMemo(() => 
     MIS_FOTOS.find(p => p.id === selectedId), 
@@ -69,20 +80,39 @@ export const PhotographySection = () => {
       <AnimatePresence>
         {selectedId && selectedExpedition && (
           <div 
-            className="fixed inset-0 z-[999] bg-black/95 flex flex-col items-center justify-center"
+            className="fixed inset-0 z-[2000] bg-black/98 flex flex-col items-center justify-center"
             onClick={() => setSelectedId(null)}
           >
             {/* Header del Lightbox */}
-            <div className="absolute top-0 left-0 w-full p-8 flex justify-between items-center z-[1010]">
-              <div className="text-white/40 text-[10px] uppercase tracking-[0.5em]">
-                {selectedExpedition.titulo} — {subIndex + 1} / {currentGallery.length}
-              </div>
-              <button 
-                className="text-white/50 hover:text-gold transition-colors p-2"
+            <div className="absolute top-0 left-0 w-full p-6 md:p-10 grid grid-cols-3 items-center z-[1010] bg-gradient-to-b from-black/80 to-transparent">
+              {/* Izquierda: Logo/Cierre alternativo */}
+              <div 
+                className="flex items-center gap-2 cursor-pointer group w-fit"
                 onClick={(e) => { e.stopPropagation(); setSelectedId(null); }}
               >
-                <X size={32} />
-              </button>
+                <Camera className="w-5 h-5 text-gold group-hover:scale-110 transition-transform" />
+                <span className="font-serif text-lg tracking-widest uppercase text-white hidden sm:inline">CGS</span>
+              </div>
+
+              {/* Centro: Info de la Galería */}
+              <div className="text-center">
+                <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
+                  <span className="block text-gold/80 mb-1">{selectedExpedition.ubicacion}</span>
+                  <span className="font-serif text-sm md:text-base text-white tracking-normal normal-case block mb-1">{selectedExpedition.titulo}</span>
+                  <span className="opacity-50">{subIndex + 1} / {currentGallery.length}</span>
+                </div>
+              </div>
+
+              {/* Derecha: Botón Cerrar principal */}
+              <div className="flex justify-end">
+                <button 
+                  className="text-white/40 hover:text-gold transition-all hover:rotate-90 p-2"
+                  onClick={(e) => { e.stopPropagation(); setSelectedId(null); }}
+                  aria-label="Cerrar galería"
+                >
+                  <X size={32} className="w-6 h-6 md:w-8 md:h-8" />
+                </button>
+              </div>
             </div>
 
             {/* Navegación */}
@@ -104,28 +134,24 @@ export const PhotographySection = () => {
             )}
 
             {/* Imagen Principal - Sin forzar tamaños que rompan la resolución */}
-            <div className="w-full h-full flex items-center justify-center p-4 md:p-16">
+            <div className="w-full h-full flex items-center justify-center p-4 md:p-24">
               <motion.img 
                 key={currentGallery[subIndex]}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
                 src={currentGallery[subIndex]} 
                 alt={selectedExpedition.titulo}
                 className="shadow-2xl max-w-full max-h-full object-contain"
                 style={{ 
-                  maxWidth: '95vw', 
-                  maxHeight: '85vh'
+                  maxWidth: '90vw', 
+                  maxHeight: '75vh'
                 }}
                 referrerPolicy="no-referrer"
                 onClick={(e) => e.stopPropagation()}
               />
             </div>
 
-            {/* Pie de foto */}
-            <div className="absolute bottom-12 text-center z-[1010]">
-               <p className="text-gold text-[10px] uppercase tracking-[0.6em] mb-2">{selectedExpedition.ubicacion}</p>
-               <h3 className="font-serif text-2xl md:text-4xl text-white">{selectedExpedition.titulo}</h3>
-            </div>
+            {/* El pie de foto se ha movido al header para evitar redundancia */}
           </div>
         )}
       </AnimatePresence>
