@@ -482,6 +482,31 @@ A las seis de la tarde llegamos a una Barcelona arropada todavía por la luz med
  */
 export const MIS_FOTOS = [
   {
+    id: "GaleBCN2025",
+    url: "https://i.postimg.cc/rFChHGMn/Tibidabo_vistas_aereas_(2).webp",
+    titulo: "Escenas 2025",
+    ubicacion: "Barcelona",
+    galeriaTematica: [
+      "https://i.postimg.cc/Y9hZKvbL/Jardines_de_la_Torre_Girona_Pedralbes.webp",
+      "https://i.postimg.cc/vBckF431/Palau_Nacional_atardecer.webp",
+      "https://i.postimg.cc/9Fj81g5k/Mar_Bella_Kite_Surf.webp",
+      "https://i.postimg.cc/Yqwn8DKs/Mercart_Encants.webp",
+      "https://i.postimg.cc/bNjCLVcW/Puente_Madera_Villa_Olimpica_105742.webp",
+      "https://i.postimg.cc/rFChHGMn/Tibidabo_vistas_aereas_(2).webp",
+      "https://i.postimg.cc/X7c2PK41/Torre_Glories_luna_llena_1.webp",
+      "https://i.postimg.cc/T36zLYYk/Can_Saladrigas_094616(1)(1)(1).webp",
+      "https://i.postimg.cc/RhgPb4z0/Andamios_La_Mercé_2025_(1).webp",
+      "https://i.postimg.cc/2y0HXrf3/Cabeza_Olmeca_Pedralbes_(2).webp",
+      "https://i.postimg.cc/mkmd6BGD/Can_Saladrigas.webp",
+      "https://i.postimg.cc/j2M8ktr2/Chimenea_Ramón_Turró_con_Gigant.webp",
+      "https://i.postimg.cc/6qMH1tN8/Crucero.webp",
+      "https://i.postimg.cc/90LxNCjr/La_Pedrera_con_farolas_(1).webp",
+      "https://i.postimg.cc/wMwWbgdt/Teleferico.webp",
+      "https://i.postimg.cc/prs01Rth/Torre_Glories_con_flor.webp",
+      "https://i.postimg.cc/prs01Rtz/Torre_Glories_luna_llena_2.webp"
+    ]
+  },
+  {
     id: "GaleMalmo",
     url: "https://i.postimg.cc/PqV7swvH/Castillo_(4).jpg",
     titulo: "Luz nórdica",
