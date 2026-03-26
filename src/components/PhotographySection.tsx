@@ -34,7 +34,8 @@ export const PhotographySection = () => {
 
   const currentGallery = React.useMemo(() => {
     if (!selectedExpedition) return [];
-    return selectedExpedition.galeriaTematica || [selectedExpedition.url];
+    const items = selectedExpedition.galeriaTematica || [selectedExpedition.url];
+    return items.map(item => typeof item === 'string' ? { url: item, caption: '' } : item);
   }, [selectedExpedition]);
 
   const navigate = (direction: number) => {
@@ -139,28 +140,44 @@ export const PhotographySection = () => {
             <div className="w-full h-full flex flex-col items-center justify-center p-4 md:p-24">
               <div className="relative flex flex-col items-center">
                 <motion.img 
-                  key={currentGallery[subIndex]}
+                  key={currentGallery[subIndex].url}
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  src={currentGallery[subIndex]} 
-                  alt={selectedExpedition.titulo}
+                  src={currentGallery[subIndex].url} 
+                  alt={currentGallery[subIndex].caption || selectedExpedition.titulo}
                   className="shadow-2xl max-w-full max-h-full object-contain"
                   style={{ 
                     maxWidth: '90vw', 
-                    maxHeight: '75vh'
+                    maxHeight: '70vh'
                   }}
                   referrerPolicy="no-referrer"
                   onClick={(e) => e.stopPropagation()}
                 />
                 
-                {/* Numeración elegante en la parte inferior */}
-                <motion.div 
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 text-gold font-medium text-[10px] md:text-xs tracking-[0.5em] uppercase"
-                >
-                  {subIndex + 1} / {currentGallery.length}
-                </motion.div>
+                {/* Leyenda y Numeración */}
+                <div className="mt-8 text-center max-w-2xl px-6">
+                  <AnimatePresence mode="wait">
+                    {currentGallery[subIndex].caption && (
+                      <motion.p
+                        key={`caption-${subIndex}`}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        className="font-serif font-normal text-base md:text-lg text-white/80 mb-4 italic"
+                      >
+                        {currentGallery[subIndex].caption}
+                      </motion.p>
+                    )}
+                  </AnimatePresence>
+                  
+                  <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    className="text-gold font-normal text-[10px] md:text-xs tracking-[0.5em] uppercase"
+                  >
+                    {subIndex + 1} / {currentGallery.length}
+                  </motion.div>
+                </div>
               </div>
             </div>
 
