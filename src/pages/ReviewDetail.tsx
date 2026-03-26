@@ -1,4 +1,5 @@
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { MIS_VIAJES } from '../data/mis_viajes';
 import { motion, AnimatePresence } from 'motion/react';
 import { MapPin, ArrowLeft, Quote, X, Search, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -62,6 +63,17 @@ export const ReviewDetail = () => {
       exit={{ opacity: 0 }}
       className="min-h-screen bg-black text-white"
     >
+      <Helmet>
+        <title>{`${viaje.titulo} | Carlos González Saavedra`}</title>
+        <meta name="description" content={viaje.resumen} />
+        <meta property="og:title" content={`${viaje.titulo} | Carlos González Saavedra`} />
+        <meta property="og:description" content={viaje.resumen} />
+        <meta property="og:image" content={viaje.urlImagen} />
+        <meta property="twitter:title" content={`${viaje.titulo} | Carlos González Saavedra`} />
+        <meta property="twitter:description" content={viaje.resumen} />
+        <meta property="twitter:image" content={viaje.urlImagen} />
+      </Helmet>
+
       {/* Hero Header */}
       <div className="relative h-[70vh] w-full overflow-hidden">
         <img 

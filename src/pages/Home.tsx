@@ -6,6 +6,7 @@ import { Footer } from '../components/Footer';
 import { motion, useScroll, useSpring } from 'motion/react';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 export const Home = () => {
   const { scrollYProgress } = useScroll();
@@ -32,6 +33,12 @@ export const Home = () => {
 
   return (
     <div className="min-h-screen bg-black selection:bg-gold selection:text-black">
+      <Helmet>
+        <title>Carlos González Saavedra | Fotografía & Relatos de Viaje</title>
+        <meta name="description" content="Explora el mundo a través de la lente y la pluma de Carlos González Saavedra. Fotografía artística, crónicas de viaje y relatos que capturan la esencia de cada destino." />
+        <meta name="keywords" content="Carlos González Saavedra, fotografía, relatos de viaje, crónicas, viajes, arte, fotografía artística, blog de viajes" />
+        <link rel="canonical" href="https://carlos-gonzalez-saavedra.vercel.app/" />
+      </Helmet>
       {/* Progress Bar */}
       <motion.div
         className="fixed top-0 left-0 right-0 h-1 bg-gold z-[60] origin-left"

@@ -1,10 +1,16 @@
 import { motion } from 'motion/react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 export const LegalNotice = () => {
   return (
     <div className="min-h-screen bg-black text-white pt-32 pb-24 px-6">
+      <Helmet>
+        <title>Aviso Legal | Carlos González Saavedra</title>
+        <meta name="description" content="Aviso legal y condiciones de uso del sitio web de Carlos González Saavedra. Información sobre propiedad intelectual y protección de datos." />
+        <link rel="canonical" href="https://carlos-gonzalez-saavedra.vercel.app/aviso-legal" />
+      </Helmet>
       <div className="max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
