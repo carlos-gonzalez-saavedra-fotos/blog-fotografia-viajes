@@ -148,28 +148,33 @@ export const ReviewDetail = () => {
                   </div>
                   
                   <div className="columns-1 md:columns-2 gap-6 space-y-6">
-                    {viaje.galeria.map((img, index) => (
-                      <motion.div
-                        key={index}
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: index * 0.1 }}
-                        className="break-inside-avoid overflow-hidden border border-white/5 group relative cursor-zoom-in"
-                        onClick={() => setSelectedIndex(index)}
-                      >
-                        <img 
-                          src={img} 
-                          alt={`${viaje.titulo} - ${index + 1}`}
-                          className="w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-700"
-                          loading="lazy"
-                          referrerPolicy="no-referrer"
-                        />
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                          <Search className="text-white w-6 h-6" />
-                        </div>
-                      </motion.div>
-                    ))}
+                    {viaje.galeria.map((item, index) => {
+                      const imgUrl = typeof item === 'string' ? item : item.url;
+                      const caption = typeof item === 'string' ? '' : item.caption;
+                      
+                      return (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true }}
+                          transition={{ delay: index * 0.1 }}
+                          className="break-inside-avoid overflow-hidden border border-white/5 group relative cursor-zoom-in"
+                          onClick={() => setSelectedIndex(index)}
+                        >
+                          <img 
+                            src={imgUrl} 
+                            alt={caption || `${viaje.titulo} - ${index + 1}`}
+                            className="w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-700"
+                            loading="lazy"
+                            referrerPolicy="no-referrer"
+                          />
+                          <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <Search className="text-white w-6 h-6" />
+                          </div>
+                        </motion.div>
+                      );
+                    })}
                   </div>
                 </div>
               )}
@@ -227,16 +232,31 @@ export const ReviewDetail = () => {
               onClick={(e) => e.stopPropagation()}
             >
               <img
-                src={viaje.galeria[selectedIndex]}
+                src={typeof viaje.galeria[selectedIndex] === 'string' 
+                  ? viaje.galeria[selectedIndex] as string 
+                  : (viaje.galeria[selectedIndex] as {url: string}).url}
                 alt="Full screen view"
-                className="max-w-full max-h-[85vh] object-contain shadow-2xl"
+                className="max-w-full max-h-[80vh] object-contain shadow-2xl"
                 referrerPolicy="no-referrer"
               />
-              {/* Numeración elegante en la parte inferior */}
+              
+              {/* Pie de foto elegante */}
+              {typeof viaje.galeria[selectedIndex] !== 'string' && (viaje.galeria[selectedIndex] as {caption: string}).caption && (
+                <motion.p 
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  className="mt-6 text-white/80 text-center max-w-2xl px-4 italic font-light tracking-[0.05em]"
+                  style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.1rem' }}
+                >
+                  {(viaje.galeria[selectedIndex] as {caption: string}).caption}
+                </motion.p>
+              )}
+
+              {/* Numeración elegante */}
               <motion.div 
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 text-gold font-medium text-[10px] md:text-xs tracking-[0.5em] uppercase"
+                className="mt-4 text-gold/60 font-light text-[10px] md:text-xs tracking-[0.5em] uppercase"
               >
                 {selectedIndex + 1} / {viaje.galeria.length}
               </motion.div>

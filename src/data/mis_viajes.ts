@@ -12,7 +12,7 @@
  * }
  */
 
-import { Viaje } from '../types';
+import { Viaje, Photo } from '../types';
 
 export const MIS_VIAJES: Viaje[] = [
   {
@@ -462,13 +462,13 @@ A las seis de la tarde llegamos a una Barcelona arropada todavía por la luz med
   fecha: "Mayo 2013",
   equipo: "Canon PowerShot SX200 IS",
   galeria: [
-      "https://i.postimg.cc/GtMMRm0W/Bilbao_Guggenheim_011.webp",
-      "https://i.postimg.cc/3NLLhxMP/Centro_Niemeyer_006.webp",
-      "https://i.postimg.cc/Znffm5tk/Oviedo_027.webp",
-      "https://i.postimg.cc/d3WWFVPJ/Vistas_de_Bilbao_001.webp",
-      "https://i.postimg.cc/gjMMp2Fp/Paseos_en_Burgos_003.webp",
-      "https://i.postimg.cc/x8ssQ1DD/Castillo_de_Loarre_024.webp",
-      "https://i.postimg.cc/1RBQYGd7/Santander_037.webp"
+      { url: "https://i.postimg.cc/GtMMRm0W/Bilbao_Guggenheim_011.webp", caption: "El titanio del Guggenheim reflejando la luz de Bilbao" },
+      { url: "https://i.postimg.cc/3NLLhxMP/Centro_Niemeyer_006.webp", caption: "Curvas blancas y vanguardia en el Centro Niemeyer de Avilés" },
+      { url: "https://i.postimg.cc/Znffm5tk/Oviedo_027.webp", caption: "La elegancia clásica de las calles de Oviedo" },
+      { url: "https://i.postimg.cc/d3WWFVPJ/Vistas_de_Bilbao_001.webp", caption: "Panorámica de la ciudad desde las alturas" },
+      { url: "https://i.postimg.cc/gjMMp2Fp/Paseos_en_Burgos_003.webp", caption: "Paseo sombreado junto al río Arlanzón en Burgos" },
+      { url: "https://i.postimg.cc/x8ssQ1DD/Castillo_de_Loarre_024.webp", caption: "La imponente silueta del Castillo de Loarre contra el cielo" },
+      { url: "https://i.postimg.cc/1RBQYGd7/Santander_037.webp", caption: "El Palacio de la Magdalena presidiendo la bahía de Santander" }
     ]
 },
   // --- PEGA AQUÍ TUS PRÓXIMOS 40+ VIAJES ---
@@ -480,7 +480,7 @@ A las seis de la tarde llegamos a una Barcelona arropada todavía por la luz med
  * 
  * Para la galería de 500+ fotos, añade los enlaces aquí.
  */
-export const MIS_FOTOS = [
+export const MIS_FOTOS: Photo[] = [
   {
     id: "GaleBCN2025",
     url: "https://i.postimg.cc/rFChHGMn/Tibidabo_vistas_aereas_(2).webp",
@@ -512,23 +512,23 @@ export const MIS_FOTOS = [
     titulo: "Luz nórdica",
     ubicacion: "Malmö",
     galeriaTematica: [
-      "https://i.postimg.cc/PqV7swvH/Castillo_(4).jpg",
-      "https://i.postimg.cc/R0ZYDRF8/Malmö_(11).jpg",
-      "https://i.postimg.cc/3wxqcBRV/Parque_Pildam_(2).jpg",
-      "https://i.postimg.cc/xd1Z4R8D/Playa_de_Ribergsborg_(4).jpg",
-      "https://i.postimg.cc/rpwHPJsM/Playa_Ribergsborg_(10).jpg",
-      "https://i.postimg.cc/fbRPrKyM/Plaza_Lilla_(5).jpg",
-      "https://i.postimg.cc/wBjrGVMx/Puente_de_Oresund_(7).jpg",
-      "https://i.postimg.cc/DzwNMg00/Suecos_(2).jpg",
-      "https://i.postimg.cc/KvZGCxrp/Estación_Triangeln_(4).jpg",
-      "https://i.postimg.cc/PrtX0Tz0/Estación_Triangeln_(8).jpg",
-      "https://i.postimg.cc/J737TGJK/Kungsparken_(17).jpg",
-      "https://i.postimg.cc/hPSDNcbY/Parque_Pildam_(11).jpg",
-      "https://i.postimg.cc/gkYz1mqS/Plaza_Lilla_(4).jpg",
-      "https://i.postimg.cc/pVQV0p8G/Tourning_Torso_(11).jpg",
-      "https://i.postimg.cc/HW0WSV52/Kungsparken_(19).jpg",
-      "https://i.postimg.cc/HLkNh2xh/Iglesia_San_Pedro_(11).jpg",
-      "https://i.postimg.cc/XNKN2pFL/Western_Harbour_(4).jpg"
+      { url: "https://i.postimg.cc/PqV7swvH/Castillo_(4).jpg", caption: "Silueta del castillo bajo el cielo plomizo del norte" },
+      { url: "https://i.postimg.cc/R0ZYDRF8/Malmö_(11).jpg", caption: "Arquitectura contemporánea en el horizonte sueco" },
+      { url: "https://i.postimg.cc/3wxqcBRV/Parque_Pildam_(2).jpg", caption: "Reflejos otoñales en las aguas del parque Pildamm" },
+      { url: "https://i.postimg.cc/xd1Z4R8D/Playa_de_Ribergsborg_(4).jpg", caption: "La soledad del muelle frente al estrecho de Øresund" },
+      { url: "https://i.postimg.cc/rpwHPJsM/Playa_Ribergsborg_(10).jpg", caption: "Casetas de baño tras la despedida del verano" },
+      { url: "https://i.postimg.cc/fbRPrKyM/Plaza_Lilla_(5).jpg", caption: "El encanto medieval de Lilla Torg al atardecer" },
+      { url: "https://i.postimg.cc/wBjrGVMx/Puente_de_Oresund_(7).jpg", caption: "Ingeniería que une mundos sobre el mar Báltico" },
+      { url: "https://i.postimg.cc/DzwNMg00/Suecos_(2).jpg", caption: "Dos suecos y un bote bajo la luz de Escandinavia" },
+      { url: "https://i.postimg.cc/KvZGCxrp/Estación_Triangeln_(4).jpg", caption: "Geometrías futuristas en el corazón de la ciudad" },
+      { url: "https://i.postimg.cc/PrtX0Tz0/Estación_Triangeln_(8).jpg", caption: "Luz y acero en el subsuelo de Malmö" },
+      { url: "https://i.postimg.cc/J737TGJK/Kungsparken_(17).jpg", caption: "Senderos de paz en el jardín del Rey" },
+      { url: "https://i.postimg.cc/hPSDNcbY/Parque_Pildam_(11).jpg", caption: "La quietud del bosque urbano en Pildam" },
+      { url: "https://i.postimg.cc/gkYz1mqS/Plaza_Lilla_(4).jpg", caption: "Fachadas de entramado de madera en la plaza pequeña" },
+      { url: "https://i.postimg.cc/pVQV0p8G/Tourning_Torso_(11).jpg", caption: "El giro infinito de Santiago Calatrava hacia las nubes" },
+      { url: "https://i.postimg.cc/HW0WSV52/Kungsparken_(19).jpg", caption: "Gran molino en Kungsparken" },
+      { url: "https://i.postimg.cc/HLkNh2xh/Iglesia_San_Pedro_(11).jpg", caption: "Lustrosos metales en la Iglesia de San Pedro" },
+      { url: "https://i.postimg.cc/XNKN2pFL/Western_Harbour_(4).jpg", caption: "El mar en el barrio sostenible de Western Harbour" }
     ]
   },
   { 
@@ -537,18 +537,18 @@ export const MIS_FOTOS = [
   titulo: "Despertares", 
   ubicacion: "Praga",
   galeriaTematica: [
-    "https://i.postimg.cc/tC1yGQMt/Casas_danzantes_3_(3).webp",
-    "https://i.postimg.cc/tC1yGQMD/Casas_danzantes_Frank_Ghery.webp",
-    "https://i.postimg.cc/GhBrnw5q/Catedral_de_San_Vito_10.webp",
-    "https://i.postimg.cc/9F4VH5nL/Cementeria_judío_05.webp",
-    "https://i.postimg.cc/L6qRFKb0/DSCN1014.webp",
-    "https://i.postimg.cc/Yq4kBKss/DSCN1145.webp",
-    "https://i.postimg.cc/yYJBC4bG/Hus_e_Iglesia_del_Tÿn.webp",
-    "https://i.postimg.cc/4NKZRkSq/Paseos_por_Praga_06.webp",
-    "https://i.postimg.cc/X7TWVHRx/Paseos_por_Praga_08.webp",
-    "https://i.postimg.cc/fT6sw2Gq/Paseos_por_Praga_09.webp",
-    "https://i.postimg.cc/BQd3qYrm/Vistas_desde_el_parque_de_Petrin_04.webp",
-    "https://i.postimg.cc/bNKPzC76/Vistas_desde_el_parque_de_Petrin_08.webp"
+    { url: "https://i.postimg.cc/tC1yGQMt/Casas_danzantes_3_(3).webp", caption: "El baile asimétrico de Ginger y Fred sobre el Moldava" },
+    { url: "https://i.postimg.cc/tC1yGQMD/Casas_danzantes_Frank_Ghery.webp", caption: "Deconstrucción y movimiento en la arquitectura de Gehry" },
+    { url: "https://i.postimg.cc/GhBrnw5q/Catedral_de_San_Vito_10.webp", caption: "Gótico majestuoso en la Catedral de San Vito" },
+    { url: "https://i.postimg.cc/9F4VH5nL/Cementeria_judío_05.webp", caption: "Lápidas amontonadas por el tiempo en el barrio de Josefov" },
+    { url: "https://i.postimg.cc/L6qRFKb0/DSCN1014.webp", caption: "Rincones ocultos en las callejuelas de la Ciudad Vieja" },
+    { url: "https://i.postimg.cc/Yq4kBKss/DSCN1145.webp", caption: "La pátina del tiempo en los muros de la capital bohemia" },
+    { url: "https://i.postimg.cc/yYJBC4bG/Hus_e_Iglesia_del_Tÿn.webp", caption: "Las torres negras de Týn vigilando la Plaza de la Ciudad Vieja" },
+    { url: "https://i.postimg.cc/4NKZRkSq/Paseos_por_Praga_06.webp", caption: "Sombras y luces en fachadas que cruzan la historia" },
+    { url: "https://i.postimg.cc/X7TWVHRx/Paseos_por_Praga_08.webp", caption: "Siluetas que narran leyendas de Praga" },
+    { url: "https://i.postimg.cc/fT6sw2Gq/Paseos_por_Praga_09.webp", caption: "La melancolía de una ciudad que nunca duerme del todo" },
+    { url: "https://i.postimg.cc/BQd3qYrm/Vistas_desde_el_parque_de_Petrin_04.webp", caption: "El mar de tejados rojos desde la colina de Petrín" },
+    { url: "https://i.postimg.cc/bNKPzC76/Vistas_desde_el_parque_de_Petrin_08.webp", caption: "Plano inclinado bajo la luz de la tarde" }
   ]
   },
   { 
@@ -557,13 +557,13 @@ export const MIS_FOTOS = [
   titulo: "Deportes", 
   ubicacion: "   ",
   galeriaTematica: [
-    "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCN_2010_(3).webp",
-    "https://i.postimg.cc/hvvHbTmq/Ciclista_en_Atocha.webp",
-    "https://i.postimg.cc/1XXLcwFy/Europeos_atletismo_BCN_2010_(1).webp",
-    "https://i.postimg.cc/RhhjQKtm/Europeos_atletismo_BCN_2010_(2).webp",
-    "https://i.postimg.cc/j22GQPf2/Mundial_Voley_Playa_2009.webp",
-    "https://i.postimg.cc/8ccqBMvC/Mundial_Voley_Playa_2009_12.webp",
-    "https://i.postimg.cc/rsH7hsGM/Mundial_Voley_Playa_2009_4.webp"
+    { url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCN_2010_(3).webp", caption: "Esfuerzo y superación en la pista de Montjuïc" },
+    { url: "https://i.postimg.cc/hvvHbTmq/Ciclista_en_Atocha.webp", caption: "El ritmo frenético del ciclismo urbano en Madrid" },
+    { url: "https://i.postimg.cc/1XXLcwFy/Europeos_atletismo_BCN_2010_(1).webp", caption: "Salto de pértiga en europeos de atletismo BCN 2010" },
+    { url: "https://i.postimg.cc/RhhjQKtm/Europeos_atletismo_BCN_2010_(2).webp", caption: "Calentamiento previo al salto de altura" },
+    { url: "https://i.postimg.cc/8ccqBMvC/Mundial_Voley_Playa_2009_12.webp", caption: "Acción y espera sobre la arena" },
+    { url: "https://i.postimg.cc/rsH7hsGM/Mundial_Voley_Playa_2009_4.webp", caption: "La plástica del remate ante las fuestes de Montjuïc" },
+    { url: "https://i.postimg.cc/j22GQPf2/Mundial_Voley_Playa_2009.webp", caption: "Simbiosis en el mundial de voley playa BCN 2009" }
   ]
   },
   { id: "GaleMusic", 
@@ -571,12 +571,12 @@ export const MIS_FOTOS = [
   titulo: "Música", 
   ubicacion: "Barcelona",
   galeriaTematica: [
-      "https://i.postimg.cc/WpXp6bgq/Shakira_de_paseo_2.webp",
-      "https://i.postimg.cc/qqbkkjpT/Concha_Buika_Chucho_Valdés_3.webp",
-      "https://i.postimg.cc/vTqQQ3GF/Concierto_Rosario_Flores_2.webp",
-      "https://i.postimg.cc/qqbkkjpd/Esperanza_Spalding_BCN_2009.webp",
-      "https://i.postimg.cc/zD0DSXKb/Música_en_La_Barceloneta_2010.webp",
-      "https://i.postimg.cc/Zn7TTVJz/Festival_Asia_1.webp"
+      { url: "https://i.postimg.cc/WpXp6bgq/Shakira_de_paseo_2.webp", caption: "La cantante Shakira en la Barceloneta. Verano 2010" },
+      { url: "https://i.postimg.cc/qqbkkjpT/Concha_Buika_Chucho_Valdés_3.webp", caption: "Chucho Valdés y Concha Buika. Peralada 2009" },
+      { url: "https://i.postimg.cc/vTqQQ3GF/Concierto_Rosario_Flores_2.webp", caption: "Rosario Flores. La Mercè 2009" },
+      { url: "https://i.postimg.cc/qqbkkjpd/Esperanza_Spalding_BCN_2009.webp", caption: "Esperanza Spalding. Festival Grec 2009" },
+      { url: "https://i.postimg.cc/zD0DSXKb/Música_en_La_Barceloneta_2010.webp", caption: "Hombre orquesta. Barceloneta 2010" },
+      { url: "https://i.postimg.cc/Zn7TTVJz/Festival_Asia_1.webp", caption: "Música toca el guzheng. Festival Asia - Grec 2010" }
   ]
    },
   { id: "GaleSalamanca", 
@@ -584,13 +584,13 @@ export const MIS_FOTOS = [
     titulo: "   ", 
     ubicacion: "Salamanca",
     galeriaTematica: [
-      "https://i.postimg.cc/MHzrdRj1/Catedral_de_Salamanca_14.webp",
-      "https://i.postimg.cc/gj4t5JvZ/Catedral_y_puente_romano_01.webp",
-      "https://i.postimg.cc/vTX2jBW9/Catedral_y_puente_romano_02.webp",
-      "https://i.postimg.cc/vTX2jBW5/Universidad_de_Salamanca_03.webp",
-      "https://i.postimg.cc/j2v395zH/Universidad_de_Salamanca_07.webp",
-      "https://i.postimg.cc/vTGS396W/Catedral_de_Salamanca_08.webp",
-      "https://i.postimg.cc/sxKH8XpM/Casa_de_las_Conchas_01.webp"
+      { url: "https://i.postimg.cc/MHzrdRj1/Catedral_de_Salamanca_14.webp", caption: "La piedra de Villamayor encendida por el sol poniente" },
+      { url: "https://i.postimg.cc/gj4t5JvZ/Catedral_y_puente_romano_01.webp", caption: "Dos milenios de historia reflejados en el río Tormes" },
+      { url: "https://i.postimg.cc/vTX2jBW9/Catedral_y_puente_romano_02.webp", caption: "La silueta eterna de Salamanca sobre el puente romano" },
+      { url: "https://i.postimg.cc/vTX2jBW5/Universidad_de_Salamanca_03.webp", caption: "Sabiduría grabada en la fachada plateresca" },
+      { url: "https://i.postimg.cc/j2v395zH/Universidad_de_Salamanca_07.webp", caption: "Detalles minuciosos en la cuna del saber castellano" },
+      { url: "https://i.postimg.cc/vTGS396W/Catedral_de_Salamanca_08.webp", caption: "Torres que buscan el cielo en la ciudad dorada" },
+      { url: "https://i.postimg.cc/sxKH8XpM/Casa_de_las_Conchas_01.webp", caption: "Símbolos de peregrinaje en los muros de la Casa de las Conchas" }
     ]
      },
   { id: "GaleGranada", 
@@ -598,18 +598,18 @@ export const MIS_FOTOS = [
     titulo: "Piedras milenarias", 
     ubicacion: "Granada",
     galeriaTematica: [
-      "https://i.postimg.cc/d3KDXQqt/El_Albaycín.webp",
-      "https://i.postimg.cc/4yTnM4J3/El_Albaycín_2.webp",
-      "https://i.postimg.cc/vTdDj8Q8/El_Generalife_12.webp",
-      "https://i.postimg.cc/8cVs3k1v/La_Alhambra_desde_el_restaurant_Mirador_de_Morayma_8.webp",
-      "https://i.postimg.cc/4yTnM4JV/La_Alhambra_Palacio_de_Carlos_V_6.webp",
-      "https://i.postimg.cc/rsCzL6mR/La_Alhambra_Palacio_de_Carlos_V_7.webp",
-      "https://i.postimg.cc/VvB5cy6X/La_Alhambra_Palacios_Nazaríes_Cuarto_Dorado_Palacios_Nazaríes_3.webp",
-      "https://i.postimg.cc/3NCWHMRX/La_Alhambra_Palacios_Nazaríes_Cuarto_Dorado_Palacios_Nazaríes_5.webp",
-      "https://i.postimg.cc/Kjr4yXzn/La_Alhambra_Palacios_Nazaríes_Patio_de_los_Arrayanes_Palacios_Nazaríes_24.webp",
-      "https://i.postimg.cc/gjqrP9Jq/La_Alhambra_Palacios_Nazaríes_Patio_de_los_Leones_Palacios_Nazaríes_51.webp",
-      "https://i.postimg.cc/VvB5cy64/La_Alhambra_Palacios_Nazaríes_Patio_del_cuarto_dorado_Palacios_Nazaríes_13.webp",
-      "https://i.postimg.cc/GtJ9102Q/La_Alhambra_Palacios_Nazaríes_Patio_del_cuarto_dorado_Palacios_Nazaríes_7.webp"
+      { url: "https://i.postimg.cc/d3KDXQqt/El_Albaycín.webp", caption: "Laberinto de cal y flores en el barrio más antiguo" },
+      { url: "https://i.postimg.cc/4yTnM4J3/El_Albaycín_2.webp", caption: "Miradas furtivas a la Alhambra desde los callejones del Albaicín" },
+      { url: "https://i.postimg.cc/vTdDj8Q8/El_Generalife_12.webp", caption: "El susurro del agua en los jardines del Generalife" },
+      { url: "https://i.postimg.cc/8cVs3k1v/La_Alhambra_desde_el_restaurant_Mirador_de_Morayma_8.webp", caption: "Comida con vistas a la fortaleza roja" },
+      { url: "https://i.postimg.cc/4yTnM4JV/La_Alhambra_Palacio_de_Carlos_V_6.webp", caption: "Renacimiento circular en el corazón de la ciudad nazarí" },
+      { url: "https://i.postimg.cc/rsCzL6mR/La_Alhambra_Palacio_de_Carlos_V_7.webp", caption: "Columnas y sombras en el patio del emperador" },
+      { url: "https://i.postimg.cc/VvB5cy6X/La_Alhambra_Palacios_Nazaríes_Cuarto_Dorado_Palacios_Nazaríes_3.webp", caption: "Intrincados arabescos en el Cuarto Dorado" },
+      { url: "https://i.postimg.cc/3NCWHMRX/La_Alhambra_Palacios_Nazaríes_Cuarto_Dorado_Palacios_Nazaríes_5.webp", caption: "La luz filtrada por las celosías milenarias" },
+      { url: "https://i.postimg.cc/Kjr4yXzn/La_Alhambra_Palacios_Nazaríes_Patio_de_los_Arrayanes_Palacios_Nazaríes_24.webp", caption: "Espejo de agua y arquitectura en el Patio de los Arrayanes" },
+      { url: "https://i.postimg.cc/gjqrP9Jq/La_Alhambra_Palacios_Nazaríes_Patio_de_los_Leones_Palacios_Nazaríes_51.webp", caption: "La armonía perfecta del Patio de los Leones" },
+      { url: "https://i.postimg.cc/VvB5cy64/La_Alhambra_Palacios_Nazaríes_Patio_del_cuarto_dorado_Palacios_Nazaríes_13.webp", caption: "Detalles que cuentan historias de sultanes" },
+      { url: "https://i.postimg.cc/GtJ9102Q/La_Alhambra_Palacios_Nazaríes_Patio_del_cuarto_dorado_Palacios_Nazaríes_7.webp", caption: "Piedras que guardan el eco de Al-Ándalus" }
     ]    
   },
   

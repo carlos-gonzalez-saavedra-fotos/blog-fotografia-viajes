@@ -163,7 +163,7 @@ export const PhotographySection = () => {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
-                        className="font-serif font-normal text-base md:text-lg text-white/80 mb-4 italic"
+                        className="font-cormorant font-normal text-lg md:text-xl text-white/80 mb-4 italic tracking-[0.05em]"
                       >
                         {currentGallery[subIndex].caption}
                       </motion.p>

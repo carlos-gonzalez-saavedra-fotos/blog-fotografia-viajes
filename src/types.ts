@@ -1,3 +1,8 @@
+export interface GalleryItem {
+  url: string;
+  caption?: string;
+}
+
 export interface Viaje {
   id: string;
   titulo: string;
@@ -8,7 +13,7 @@ export interface Viaje {
   categoria: string;
   fecha?: string;
   equipo?: string;
-  galeria?: string[];
+  galeria?: (string | GalleryItem)[];
 }
 
 export interface Photo {
@@ -16,4 +21,5 @@ export interface Photo {
   url: string;
   titulo: string;
   ubicacion: string;
+  galeriaTematica?: (string | GalleryItem)[];
 }
