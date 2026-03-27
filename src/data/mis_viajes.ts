@@ -552,6 +552,30 @@ export const MIS_FOTOS: Photo[] = [
   ]
   },
   { 
+  id: "GaleBCN2024", 
+  url: "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp", 
+  titulo: "Escenas 2024", 
+  ubicacion: "Barcelona",
+  galeriaTematica: [
+    { url: "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp", caption: "Puerto de Barcelona" },
+    { url: "https://i.postimg.cc/SQXN6fCB/Copa_America_Experience240130_121801.webp", caption: "Copa America Experience" },
+    { url: "https://i.postimg.cc/qB9Bj6xj/Dragado_Playa_Nueva_Mar_Bella.webp", caption: "Dragado en playa Nueva Mar Bella" },
+    { url: "https://i.postimg.cc/3ryJXFmP/Llum_BCN_Llum_BCN_2024_24_240202_193700.webp", caption: "Llum Barcelona 2024" },
+    { url: "https://i.postimg.cc/J797PH5K/Manifesta_15_Tres_chimeneas_(2).webp", caption: "Manifesta 15. Las Tres Chimeneas" },
+    { url: "https://i.postimg.cc/j2yp82sw/Manifesta_15_Tres_chimeneas_(3).webp", caption: "Manifesta 15. Las Tres Chimeneas" },
+    { url: "https://i.postimg.cc/d3GbW3qD/Manifesta_15_Tres_chimeneas_(4).webp", caption: "Manifesta 15. Las Tres Chimeneas. Sala de máquinas" },
+    { url: "https://i.postimg.cc/d3GbW3q3/Sagrada_Familia_04518.webp", caption: "La Sagrada Familia" },
+    { url: "https://i.postimg.cc/vT5JPTQ4/Seafood_Expo_2024.webp", caption: "Seafood Expo 2024" },
+    { url: "https://i.postimg.cc/5y8hPyxC/Tibidabo_Estela.webp", caption: "Estela en el Tibidabo" },
+    { url: "https://i.postimg.cc/8CWjmd21/Copa_America_Vela_(24)a.webp", caption: "Copa América de Vela" },
+    { url: "https://i.postimg.cc/43tmQvDf/Drones_La_Merce_2024.webp", caption: "Espectáculo de drones en La Barceloneta" },
+    { url: "https://i.postimg.cc/25vV7dsj/Luz_Natural.webp", caption: "Luz natural" },
+    { url: "https://i.postimg.cc/cHS69gSV/Manifesta_15_Tres_chimeneas_(1).webp", caption: "Manifesta 15. Las Tres Chimeneas" },
+    { url: "https://i.postimg.cc/9Mhz8R23/Sagrada_Familia_04522.webp", caption: "Lo que estás haciendo, hazlo de prisa. Juan 13.27" },
+    { url: "https://i.postimg.cc/Kz24qk26/Torre_Glories_Mirador.webp", caption: "Mirador de la Torre Glòries" }
+  ]
+  },
+  { 
   id: "GaleDeporte", 
   url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCN_2010_(3).webp", 
   titulo: "Deportes", 
