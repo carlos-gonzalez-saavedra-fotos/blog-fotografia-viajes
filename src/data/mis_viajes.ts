@@ -562,7 +562,7 @@ export const MIS_FOTOS: Photo[] = [
     { url: "https://i.postimg.cc/1XXLcwFy/Europeos_atletismo_BCN_2010_(1).webp", caption: "Salto de pértiga en europeos de atletismo BCN 2010" },
     { url: "https://i.postimg.cc/RhhjQKtm/Europeos_atletismo_BCN_2010_(2).webp", caption: "Calentamiento previo al salto de altura" },
     { url: "https://i.postimg.cc/8ccqBMvC/Mundial_Voley_Playa_2009_12.webp", caption: "Acción y espera sobre la arena" },
-    { url: "https://i.postimg.cc/rsH7hsGM/Mundial_Voley_Playa_2009_4.webp", caption: "La plástica del remate ante las fuestes de Montjuïc" },
+    { url: "https://i.postimg.cc/rsH7hsGM/Mundial_Voley_Playa_2009_4.webp", caption: "La plástica del remate ante las fuentes de Montjuïc" },
     { url: "https://i.postimg.cc/j22GQPf2/Mundial_Voley_Playa_2009.webp", caption: "Simbiosis en el mundial de voley playa BCN 2009" }
   ]
   },
