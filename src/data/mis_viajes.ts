@@ -48,12 +48,12 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
     fecha: "Septiembre 2019",
     equipo: "Sony ILSE-6000",
     galeria: [
-      "https://i.postimg.cc/FKC65LkF/Canal_(2).jpg",
-      "https://i.postimg.cc/25StKwyk/Puente_de_Oresund_(5).jpg",
-      "https://i.postimg.cc/4xNwf3gH/Palacio_de_Rosenborg_017.jpg",
-      "https://i.postimg.cc/YCq8rSH8/Gliptoteca_Ny_Carlsberg_004.jpg",
-      "https://i.postimg.cc/jjS1FX51/Estación_Triangeln_(7).jpg",
-      "https://i.postimg.cc/6p5zWQXM/Desde_el_Ayuntamiento_011.jpg"
+      { url: "https://i.postimg.cc/FKC65LkF/Canal_(2).jpg", caption: "Los apacibles canales que definen el ritmo de Copenhague" },
+      { url: "https://i.postimg.cc/25StKwyk/Puente_de_Oresund_(5).jpg", caption: "El puente de Oresund, nexo de unión entre dos mundos nórdicos" },
+      { url: "https://i.postimg.cc/4xNwf3gH/Palacio_de_Rosenborg_017.jpg", caption: "La majestuosidad histórica del Palacio de Rosenborg" },
+      { url: "https://i.postimg.cc/YCq8rSH8/Gliptoteca_Ny_Carlsberg_004.jpg", caption: "Arte y luz en el jardín de invierno de la Gliptoteca Ny Carlsberg" },
+      { url: "https://i.postimg.cc/jjS1FX51/Estación_Triangeln_(7).jpg", caption: "Arquitectura futurista en la estación de Triangeln, Malmö" },
+      { url: "https://i.postimg.cc/6p5zWQXM/Desde_el_Ayuntamiento_011.jpg", caption: "Panorámica de los tejados de Copenhague desde la torre del Ayuntamiento" }
     ]
   },
   {
@@ -77,12 +77,12 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
     fecha: "Enero 2002",
     equipo: "Minolta X300s",
     galeria: [
-      "https://i.postimg.cc/kGnr7J5b/Alto_Belvedere_01a.webp",
-      "https://i.postimg.cc/4ywDdDK3/Alto_Belvedere_a.webp",
-      "https://i.postimg.cc/zvpsBsLB/Arcos_de_la_Colina_HMoore.webp",
-      "https://i.postimg.cc/J0Kfnfyz/Danubio_congelado_a.webp",
-      "https://i.postimg.cc/MHtCTCcH/Jesuitenkirche_a.webp",
-      "https://i.postimg.cc/tJDKTK1s/Schönbrunn_02.webp"
+      { url: "https://i.postimg.cc/kGnr7J5b/Alto_Belvedere_01a.webp", caption: "La elegancia barroca del Palacio Belvedere Superior" },
+      { url: "https://i.postimg.cc/4ywDdDK3/Alto_Belvedere_a.webp", caption: "Detalles escultóricos que sostienen la historia imperial" },
+      { url: "https://i.postimg.cc/zvpsBsLB/Arcos_de_la_Colina_HMoore.webp", caption: "La modernidad de Henry Moore frente a la tradición vienesa" },
+      { url: "https://i.postimg.cc/J0Kfnfyz/Danubio_congelado_a.webp", caption: "El Danubio rindiéndose al abrazo del invierno" },
+      { url: "https://i.postimg.cc/MHtCTCcH/Jesuitenkirche_a.webp", caption: "Haces de luz teatral en la Iglesia de los Jesuitas" },
+      { url: "https://i.postimg.cc/tJDKTK1s/Schönbrunn_02.webp", caption: "La inmensidad de los jardines del Palacio de Schönbrunn" }
     ]
   },
   {
@@ -102,12 +102,12 @@ El último tramo hacia Barcelona fue como un suspiro. Cuando finalmente llegué,
     fecha: "Enero 2021",
     equipo: "Samsung SM-G975F",
     galeria: [
-      "https://i.postimg.cc/W30fjSPx/Parque_del_Este_001.webp",
-      "https://i.postimg.cc/vB5SMXdL/El_Rey_del_Pescado_Frito_001.webp",
-      "https://i.postimg.cc/cHf5ZTNm/Los_Proceres.webp",
-      "https://i.postimg.cc/mD76RVGv/Teatro_Teresa_Carreño_002.webp",
-      "https://i.postimg.cc/JnjdmKWZ/Aereopuerto_Milan_Malpensa_004.webp",
-      "https://i.postimg.cc/NMRPYbwx/Aereopuerto_Estambul_004.webp"
+      { url: "https://i.postimg.cc/W30fjSPx/Parque_del_Este_001.webp", caption: "El verdor tropical del Parque del Este en Caracas" },
+      { url: "https://i.postimg.cc/vB5SMXdL/El_Rey_del_Pescado_Frito_001.webp", caption: "Sabores del litoral venezolano antes de la partida" },
+      { url: "https://i.postimg.cc/cHf5ZTNm/Los_Proceres.webp", caption: "La solemnidad de Los Próceres bajo el sol caraqueño" },
+      { url: "https://i.postimg.cc/mD76RVGv/Teatro_Teresa_Carreño_002.webp", caption: "Arquitectura brutalista del Teatro Teresa Carreño" },
+      { url: "https://i.postimg.cc/JnjdmKWZ/Aereopuerto_Milan_Malpensa_004.webp", caption: "Escala técnica en Milán, puerta de entrada a Europa" },
+      { url: "https://i.postimg.cc/NMRPYbwx/Aereopuerto_Estambul_004.webp", caption: "El bullicio cosmopolita del aeropuerto de Estambul" }
     ]
   },
   {
@@ -135,14 +135,14 @@ En verano la pequeña playa del parque del lago de Burdeos se llena de bañistas
     fecha: "Septiembre 2018",
     equipo: "Sony ILSE-6000",
      galeria: [
-      "https://i.postimg.cc/PJs4kVqJ/Cours_de_la_Intendance_01.webp",
-      "https://i.postimg.cc/WzLnPY43/Espejo_de_agua_009.webp",
-      "https://i.postimg.cc/qqsGBctg/Monumento_a_los_Girondinos_003_01.webp",
-      "https://i.postimg.cc/6qrh6V79/Plaza_de_la_Bolsa_005.webp",
-      "https://i.postimg.cc/VvQRcZN5/Plaza_de_la_Bolsa_01.webp",
-      "https://i.postimg.cc/SRFrp1KK/Rue_Vital_Carles.webp",
-      "https://i.postimg.cc/J0NQ73yr/Playa_del_Lago_001.webp",
-      "https://i.postimg.cc/k58JdFVk/Burdeos_desde_Torre_de_Pey_Berland_004_01.webp"
+      { url: "https://i.postimg.cc/PJs4kVqJ/Cours_de_la_Intendance_01.webp", caption: "La elegancia peatonal del Cours de l'Intendance" },
+      { url: "https://i.postimg.cc/WzLnPY43/Espejo_de_agua_009.webp", caption: "Reflejos y juegos en el Miroir d'eau de la Plaza de la Bolsa" },
+      { url: "https://i.postimg.cc/qqsGBctg/Monumento_a_los_Girondinos_003_01.webp", caption: "La fuerza escultórica del Monumento a los Girondinos" },
+      { url: "https://i.postimg.cc/6qrh6V79/Plaza_de_la_Bolsa_005.webp", caption: "Simetría clásica en la Plaza de la Bolsa" },
+      { url: "https://i.postimg.cc/VvQRcZN5/Plaza_de_la_Bolsa_01.webp", caption: "La herradura arquitectónica abierta al Garona" },
+      { url: "https://i.postimg.cc/SRFrp1KK/Rue_Vital_Carles.webp", caption: "Perspectiva urbana hacia la Catedral de San Andrés" },
+      { url: "https://i.postimg.cc/J0NQ73yr/Playa_del_Lago_001.webp", caption: "Relajo estival en la playa del lago de Burdeos" },
+      { url: "https://i.postimg.cc/k58JdFVk/Burdeos_desde_Torre_de_Pey_Berland_004_01.webp", caption: "Vistas infinitas desde la torre de Pey-Berland" }
     ]
   },
   {
@@ -494,10 +494,10 @@ A las seis de la tarde llegamos a una Barcelona arropada todavía por la luz med
       { url: "https://i.postimg.cc/GtMMRm0W/Bilbao_Guggenheim_011.webp", caption: "El titanio del Guggenheim reflejando la luz de Bilbao" },
       { url: "https://i.postimg.cc/3NLLhxMP/Centro_Niemeyer_006.webp", caption: "Curvas blancas y vanguardia en el Centro Niemeyer de Avilés" },
       { url: "https://i.postimg.cc/Znffm5tk/Oviedo_027.webp", caption: "La elegancia clásica de las calles de Oviedo" },
-      { url: "https://i.postimg.cc/d3WWFVPJ/Vistas_de_Bilbao_001.webp", caption: "Panorámica de la ciudad desde las alturas" },
-      { url: "https://i.postimg.cc/gjMMp2Fp/Paseos_en_Burgos_003.webp", caption: "Paseo sombreado junto al río Arlanzón en Burgos" },
-      { url: "https://i.postimg.cc/x8ssQ1DD/Castillo_de_Loarre_024.webp", caption: "La imponente silueta del Castillo de Loarre contra el cielo" },
-      { url: "https://i.postimg.cc/1RBQYGd7/Santander_037.webp", caption: "El Palacio de la Magdalena presidiendo la bahía de Santander" }
+      { url: "https://i.postimg.cc/d3WWFVPJ/Vistas_de_Bilbao_001.webp", caption: "Panorámica de Bilbao desde las alturas" },
+      { url: "https://i.postimg.cc/gjMMp2Fp/Paseos_en_Burgos_003.webp", caption: "Color tras los soportales en el centro de Burgos" },
+      { url: "https://i.postimg.cc/x8ssQ1DD/Castillo_de_Loarre_024.webp", caption: "Una ventana al valle desde el Castillo de Loarre" },
+      { url: "https://i.postimg.cc/1RBQYGd7/Santander_037.webp", caption: "Una casona verde en Santander" }
     ]
 },
   // --- PEGA AQUÍ TUS PRÓXIMOS 40+ VIAJES ---
@@ -524,15 +524,15 @@ export const MIS_FOTOS: Photo[] = [
       { url: "https://i.postimg.cc/rFChHGMn/Tibidabo_vistas_aereas_(2).webp", caption: "Vistas aéreas desde el Tibidabo" },
       { url: "https://i.postimg.cc/X7c2PK41/Torre_Glories_luna_llena_1.webp", caption: "Luna llena sobre la Torre Glòries" },
       { url: "https://i.postimg.cc/T36zLYYk/Can_Saladrigas_094616(1)(1)(1).webp", caption: "Detalle arquitectónico en Can Saladrigas" },
-      { url: "https://i.postimg.cc/RhgPb4z0/Andamios_La_Mercé_2025_(1).webp", caption: "Andamios durante las fiestas de La Mercè" },
-      { url: "https://i.postimg.cc/2y0HXrf3/Cabeza_Olmeca_Pedralbes_(2).webp", caption: "Cabeza Olmeca en los jardines de Pedralbes" },
-      { url: "https://i.postimg.cc/mkmd6BGD/Can_Saladrigas.webp", caption: "Fachada histórica de Can Saladrigas" },
-      { url: "https://i.postimg.cc/j2M8ktr2/Chimenea_Ramón_Turró_con_Gigant.webp", caption: "Chimenea de la calle Ramón Turró con Gigante" },
-      { url: "https://i.postimg.cc/6qMH1tN8/Crucero.webp", caption: "Crucero en el puerto de Barcelona" },
-      { url: "https://i.postimg.cc/90LxNCjr/La_Pedrera_con_farolas_(1).webp", caption: "La Pedrera enmarcada por farolas modernistas" },
-      { url: "https://i.postimg.cc/wMwWbgdt/Teleferico.webp", caption: "Teleférico del puerto cruzando el cielo" },
-      { url: "https://i.postimg.cc/prs01Rth/Torre_Glories_con_flor.webp", caption: "Torre Glòries y primer plano floral" },
-      { url: "https://i.postimg.cc/prs01Rtz/Torre_Glories_luna_llena_2.webp", caption: "Composición nocturna con la Torre Glòries" }
+      { url: "https://i.postimg.cc/T1cjHY6V/Andamios_La_Merce_2025_hires.webp", caption: "Andamios durante las fiestas de La Mercè" },
+      { url: "https://i.postimg.cc/hv083PBV/Cabeza_Olmeca_Pedralbes_(2).webp", caption: "Cabeza Olmeca en los jardines de Pedralbes" },
+      { url: "https://i.postimg.cc/rs9GYFkD/Can_Saladrigas.webp", caption: "Fachada histórica de Can Saladrigas" },
+      { url: "https://i.postimg.cc/RhT1bVB6/Chimenea_Ramón_Turró_con_Gigant.webp", caption: "Chimenea de la calle Ramón Turró con Gigante" },
+      { url: "https://i.postimg.cc/4y1vFNgV/Crucero.webp", caption: "Crucero en el puerto de Barcelona" },
+      { url: "https://i.postimg.cc/T1cjHY6h/La_Pedrera_con_farolas_(1).webp", caption: "La Pedrera enmarcada por farolas modernistas" },
+      { url: "https://i.postimg.cc/J0Q3d4Lh/Teleferico.webp", caption: "Teleférico del puerto cruzando el cielo" },
+      { url: "https://i.postimg.cc/qqGcZMTq/Torre_Glories_con_flor.webp", caption: "Torre Glòries y primer plano floral" },
+      { url: "https://i.postimg.cc/4y1vFNgm/Torre_Glories_luna_llena_2.webp", caption: "Cae la tarde sobre la Torre Glòries" }
     ]
   },
   {
@@ -551,7 +551,7 @@ export const MIS_FOTOS: Photo[] = [
       { url: "https://i.postimg.cc/DzwNMg00/Suecos_(2).jpg", caption: "Dos suecos y un bote bajo la luz de Escandinavia" },
       { url: "https://i.postimg.cc/KvZGCxrp/Estación_Triangeln_(4).jpg", caption: "Geometrías futuristas en el corazón de la ciudad" },
       { url: "https://i.postimg.cc/PrtX0Tz0/Estación_Triangeln_(8).jpg", caption: "Luz y acero en el subsuelo de Malmö" },
-      { url: "https://i.postimg.cc/J737TGJK/Kungsparken_(17).jpg", caption: "Senderos de paz en el jardín del Rey" },
+      { url: "https://i.postimg.cc/7YgfgQVH/Kungsparken-(4).webp", caption: "Senderos de paz en el jardín del Rey" },
       { url: "https://i.postimg.cc/hPSDNcbY/Parque_Pildam_(11).jpg", caption: "La quietud del bosque urbano en Pildam" },
       { url: "https://i.postimg.cc/gkYz1mqS/Plaza_Lilla_(4).jpg", caption: "Fachadas de entramado de madera en la plaza pequeña" },
       { url: "https://i.postimg.cc/pVQV0p8G/Tourning_Torso_(11).jpg", caption: "El giro infinito de Santiago Calatrava hacia las nubes" },
