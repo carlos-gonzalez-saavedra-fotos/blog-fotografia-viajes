@@ -57,8 +57,37 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
     ]
   },
   {
+    id: "viena",
+    titulo: "Dulce y acompasado vaivén vienés",
+    ubicacion: "Austria",
+    resumen: "Uno visita Viena y tiene la impresión de haber retrocedido en el tiempo para encontrarse de nuevo en la capital de un gran Imperio.",
+    reseña: `Uno visita Viena y tiene la impresión de haber retrocedido en el tiempo para encontrarse de nuevo en la capital de un gran Imperio. La densidad de monumentos, palacios, museos e iglesias por kilómetro cuadrado debe ser de las más altas del mundo y aunque todos se distribuyen en un área más bien pequeña, tienen la extraña particularidad de no competir entre ellos. 
+El primer día allá, las nubes amenazadoras y el fuerte viento no invitaban precisamente a caminar por la ciudad, así que me recluí en un museo tan grande como su nombre, Kunsthistorichemuseum, a ver su impresionante colección de pinturas y de arte egipcio, además de una "brillante" muestra temporal sobre el Oro de los Faraones. A las cinco de la tarde, noche cerrada, iniciamos un recorrido a pie por el Ring (anterior límite amurallado de la ciudad antigua, donde se ubican algunos de los monumentos más importantes) en medio de una intensa nevada, que añadía un especial color local al asunto. La osada caminata finalizó hora y media más tarde, cuando la mezcla de viento, frío y nieve comenzaba a congelar hasta las palabras. Decidimos entonces lanzar la toalla, abandonar el Ring, y dirigirnos vía metro a un agradable restaurante, donde dos músicos celebraban un cumpleaños, con acordeón y violín, y se comía a discreción cerdo asado cortado en rodajas que incorporaba su propio ring de torreznos, col fermentada (chucrut), salsas varias, panes contundentes y vino blanco de la casa. 
+Los siguientes días el sol brilló sin calentar y aunque las temperaturas bajaron hasta los siete grados negativos, me dediqué a recorrer con calma palacios, jardines y parques de la ciudad. En el Belvedere, admiré los dos gigantes que sostienen sobre sus espaldas la pesada estructura de uno de los salones: en sentido artísticamente literal, el espacio lo soportan dos columnas vertebrales. En los jardines del palacio de Schönbrunn, emergía, cual oasis en un níveo paisaje, el verde esqueleto del invernadero, conocido como el Palmenhaus, todo un hito de la arquitectura de hierro y vidrio del siglo XIX. Del Palacio de Hofburg me impresionaron la fachada y las cúpulas de Michaelertrakt y, especialmente, la Sala Imperial de la Biblioteca Nacional, el Prunksaal: 77 metros de largo, 30 de altura, elevados frescos que exaltan la sabiduría y el poder imperial, y estanterías de madera tallada con más de 200.000 libros, incluyendo incunables y manuscritos antiguos. 
+Por los vitrales de la barroca Jesuitenkirche se colaban teatrales haces de luz para iluminar los redondeados pilares de mármol de la capilla de San Francisco Javier. En el interior de la Catedral de San Esteban (Stephansdom) busqué el exuberante púlpito del siglo XVI para ver el curioso relieve que de sí mismo incluyó su escultor (Anton Pilgram), y en la fachada localicé las barras metálicas que, según la historia fabulada (desmentida por la historia fáctica), servían como estándares para medir el tamaño de los panes de panadería. En otra iglesia, el neogótico templo de Votivkirche, resulta llamativa la elegante simetría de sus dos torres gemelas, que alcanzan los 99 metros de altura. No son torres, sino columnas, las que adornan la fachada de la Iglesia de San Carlos Borromeo (Karlskirche): se inspiran en la columna Trajana de Roma y su ornato espiral recrea escenas de la vida del Santo. Afuera, en la plaza, los niños jugaban metiéndose por las bronceadas oquedades de la gran escultura de Henry Moore, Arcos de la Colina (Hill Arches): arte al servicio de la lúdica chiquillería. 
+Camino luego hasta el céntrico Parque de la Ciudad (Stadtpark), donde brilla sobre su pedestal el impoluto bronce dedicado a Johan Strauss. Toca el violín sonriente y con energía, y lo hace rodeado de unas musas que, aunque de piedra, parecen bailar lívidas alguno de sus valses.
+Hay en Viena algunos edificios singulares del movimiento modernista: el Pabellón de la Secesión, diseñado por Joseph Maria Olbrich, en cuya monocromática fachada destaca un trío de búhos togados; y los Apartamentos Wagner, proyectados por el arquitecto Otto Wagner, de fachadas coloridas y brillantes, y en el techo de uno de los cuales un busto gigante lanza al aire un grito sordo. Otra obra singular es el edificio diseñado por el arquitecto Friedensreich Hundertwasser (Hundertwasserhaus), pues sus formas orgánicas y colorido evocan las creaciones del catalán Antoni Gaudí.
+Hubo tiempo también para ir a la ópera (una representación de La flauta mágica, de Wolfgang Amadeus Mozart), comer gulasch, strudel de manzana, y knödels (bolas de masa hervidas). En un puesto callejero del parque Prater, devoré unas salchichas rellenas de queso y empanadas que sabían a cine, pues muy cerca estaba la célebre noria Ferris, donde dos personajes de la película "El Tercer Hombre" (1949), interpretados por Orson Welles y Joseph Cotten, tienen un encuentro que resulta crucial para el desarrollo de la trama.
+Disfruté igualmente de la institución vienesa del Café, un recinto sagrado en el que puedes permanecer horas sin ser molestado. En uno de estos locales, el café del hotel-templo donde nació la tarta Sacher (Sachertorte), pasé un buen rato saboreando ese goloso pastel de chocolate, relleno de mermelada de albaricoque, cubierto por otra capa de chocolate y acompañado de nata montada: toda una proeza culinaria nada empalagosa a pesar de la temeraria combinación de endulzados ingredientes.
+Regresé de nuevo a la fría realidad exterior para pasear por los Canales del Danubio, un brazo del río que se adentra en la ciudad. No era azul, como el del vals, sino blanco: estaba totalmente congelado y lugareños y foráneos caminaban confiados por su sólido cauce, junto a embarcaderos de madera que en otra época del año servirían para adentrarse en el agua, pero que ahora resultaban del todo inútiles.
+Austria debe ser uno de los pocos países que siguen confiando en la honradez de la gente: el metro no tiene ningún tipo de barreras de entrada o salida; en las autopistas no hay peajes porque las autoridades suponen que todo el que las utiliza ha pagado la anualidad correspondiente; y los periódicos del domingo se disponen en las calles dentro de unos casilleros abiertos, junto a una especie de alcancía donde el comprador deposita responsablemente su importe.
+Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a unos ochenta kilómetros de Viena. En este edificio imponente se desarrolla la novela de Umberto Eco El nombre de la rosa, y el pequeño pueblo que la acoge es en invierno una tranquila villa renacentista por donde el Danubio solía correr hasta que el frío de este invierno lo congeló irremediablemente. De allí avanzamos por carreteras secundarias hasta Dürnstein, donde se pueden ver las ruinas del castillo que en el siglo XI sirvió de cárcel a Ricardo Corazón de León. Y tras recorrer un paisaje adornado por fortalezas, Iglesias, ciudades vinícolas y un Danubio ahora sí fluido y descongelado, llegamos a Krems e instintivamente entramos a otro de esos templos de la repostería donde había tal cantidad de pasteles que alineados unirían a Viena con el Paraíso Terrenal. Tartas, bizcochos, melindres, hojaldres, buñuelos, pudines y mazapanes elaboradísimos bailaban constantemente entre las mesas de la numerosa clientela, mientras que otras delicias ocupaban raudas los espacios abiertos por aquellas en las elegantes vitrinas, todo en un acompasado vaivén de colores, olores y sabores digno del más famoso vals del insigne músico austríaco Johann Strauss.`,
+    urlImagen: "https://i.postimg.cc/J0Kfnfyz/Danubio_congelado_a.webp",
+    categoria: "Europa",
+    fecha: "Enero 2002",
+    equipo: "Minolta X300s",
+    galeria: [
+      "https://i.postimg.cc/kGnr7J5b/Alto_Belvedere_01a.webp",
+      "https://i.postimg.cc/4ywDdDK3/Alto_Belvedere_a.webp",
+      "https://i.postimg.cc/zvpsBsLB/Arcos_de_la_Colina_HMoore.webp",
+      "https://i.postimg.cc/J0Kfnfyz/Danubio_congelado_a.webp",
+      "https://i.postimg.cc/MHtCTCcH/Jesuitenkirche_a.webp",
+      "https://i.postimg.cc/tJDKTK1s/Schönbrunn_02.webp"
+    ]
+  },
+  {
     id: "uyuni",
-    titulo: "Tres continentes en 32 horas: una odisea personal",
+    titulo: "Tres continentes en 32 horas",
     ubicacion: "América-Asia-Europa",
     resumen: "El sol apenas despuntaba sobre los cerros de Caracas cuando inicié uno de esos viajes que quedan grabados en la memoria, no tanto por su destino final sino por la aventura misma de atravesar tres continentes en poco más de un día.",
     reseña: `El sol apenas despuntaba sobre los cerros de Caracas cuando inicié uno de esos viajes que quedan grabados en la memoria, no tanto por su destino final sino por la aventura misma de atravesar tres continentes en poco más de un día. Era el 11 de enero, y mientras la ciudad despertaba entre el bullicio de las primeras cornetas y el aroma del café recién hecho, me despedía de esta tierra con esa mezcla de expectación y nostalgia que acompaña a todo viajero.
@@ -168,7 +197,7 @@ Tras caminar por el entramado de calles del casco antiguo de Santiago, algunas f
 },
 {
   id: "narbonaagde",
-  titulo: "Cálidos destellos del sur de Francia",
+  titulo: "Cálidos destellos",
   ubicacion: "Narbona-Agde-Toulouse",
   resumen: "Avanza el tren hacia Narbona un luminoso día de septiembre. Apenas pongo un pie en sus calles, me encuentro con una imagen que parece darme la bienvenida: una loba amamantando a dos niños...",
   reseña: `Avanza el tren hacia Narbona un luminoso día de septiembre. Apenas pongo un pie en sus calles, me encuentro con una imagen que parece darme la bienvenida: una loba amamantando a dos niños, escultura que presagia el rico pasado romano que estoy a punto de descubrir. Esta antigua capital de la Galia Narbonense, estratégicamente ubicada entre los Pirineos y los Alpes, conserva en sus entrañas las huellas de su glorioso pasado como Narbo Martius.
@@ -197,7 +226,7 @@ Al atardecer, en la estación de trenes, unas chicas interpretan a cuatro manos 
 },
 {
   id: "andaextrema",
-  titulo: "Andalucía y Extremadura: paisajes e historia",
+  titulo: "Paisajes e historia",
   ubicacion: "Andalucía-Extremadura",
   resumen: "El sol de mayo ya brillaba con fuerza en las tierras del sur cuando nuestro avión aterrizó en Sevilla aquella mañana. Con la emoción de un viaje que se inicia, recogimos nuestro coche de alquiler y pusimos rumbo hacia el oeste, donde nos esperaba una jornada llena de descubrimientos.",
   reseña: `El sol de mayo ya brillaba con fuerza en las tierras del sur cuando nuestro avión aterrizó en Sevilla aquella mañana. Con la emoción de un viaje que se inicia, recogimos nuestro coche de alquiler y pusimos rumbo hacia el oeste, donde nos esperaba una jornada llena de descubrimientos.
@@ -245,7 +274,7 @@ La mañana siguiente, aunque el tiempo apremiaba, no resistimos la tentación de
 },
 {
   id: "harorioja",
-  titulo: "Al corazón de La Rioja, entre el dolor y el esplendor",
+  titulo: "Al corazón de La Rioja",
   ubicacion: "Haro-La Rioja",
   resumen: "En aquel febrero riojano el cielo era plomizo y soplaba una brisa fría incapaz de mover los viñedos desnudos. Habíamos partido desde Cambrils con el corazón encogido...",
   reseña: `En aquel febrero riojano el cielo era plomizo y soplaba una brisa fría incapaz de mover los viñedos desnudos. Habíamos partido desde Cambrils con el corazón encogido, pues el motivo de nuestro viaje era dar el último adiós a dos queridos amigos que el destino nos arrebató demasiado pronto en tierras estadounidenses. 
@@ -307,7 +336,7 @@ Mi última parada fue una visita rasante al Museo Reina Sofía, apenas con tiemp
 },
 {
   id: "maestrazgo",
-  titulo: "Pueblos encaramados y otras gratas rarezas del Maestrazgo",
+  titulo: "Pueblos encaramados y otras gratas rarezas",
   ubicacion: "El Maestrazgo-España",
   resumen: "Parece que están ahí desde el comienzo de los tiempos y que se mantienen en pie gracias a un misterioso equilibrio entre las piedras y los precipicios. Son pueblos añejados en el Maestrazgo aragonés, que cuelgan de montañas, se protegen con murallas medievales y a los que coronan castillos desde donde se contempla la sosegada grandeza del paisaje circundante.",
   reseña: `Parece que están ahí desde el comienzo de los tiempos y que se mantienen en pie gracias a un misterioso equilibrio entre las piedras y los precipicios. Son pueblos añejados en el Maestrazgo aragonés, que cuelgan de montañas, se protegen con murallas medievales y a los que coronan castillos desde donde se contempla la sosegada grandeza del paisaje circundante.    
@@ -411,7 +440,7 @@ Dejé la capital neerlandesa tras haber recorrido en sus calles, parques, canale
 },
 {
   id: "nortepeninsular",
-  titulo: "2884 kilómetros por el Norte de España",
+  titulo: "2884 kilómetros",
   ubicacion: "España",
   resumen: "La cifra definitiva no se desveló hasta el final del viaje, pero aquella mañana del 24 de abril cuando salimos de Barcelona en un reluciente Mercedes, ya sabíamos que el recorrido de una semana planeado por el norte peninsular era ambicioso.",
   reseña: `La cifra definitiva no se desveló hasta el final del viaje, pero aquella mañana del 24 de abril cuando salimos de Barcelona en un reluciente Mercedes, ya sabíamos que el recorrido de una semana planeado por el norte peninsular era ambicioso. Aun así, nos lanzamos a la carretera con fuerza e ilusión. 
