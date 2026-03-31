@@ -217,11 +217,7 @@ export const ReviewDetail = () => {
               {/* Centro: Info de la Galería */}
               <div className="text-center">
                 <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
-                  <span className="block text-gold/80 mb-1">{viaje.ubicacion}</span>
-                  <span className="font-serif text-sm md:text-base text-white tracking-normal normal-case block">{viaje.titulo}</span>
-                  {viaje.equipo && (
-                    <span className="block text-gold/60 mt-1 text-[8px] md:text-[9px] tracking-[0.2em]">{viaje.equipo}</span>
-                  )}
+                  <span className="block text-gold/80">{viaje.ubicacion}</span>
                 </div>
               </div>
 

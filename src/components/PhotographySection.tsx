@@ -116,11 +116,7 @@ export const PhotographySection = () => {
               {/* Centro: Info de la Galería */}
               <div className="text-center">
                 <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
-                  <span className="block text-gold/80 mb-1">{selectedExpedition.ubicacion}</span>
-                  <span className="font-serif text-sm md:text-base text-white tracking-normal normal-case block">{selectedExpedition.titulo}</span>
-                  {selectedExpedition.equipo && (
-                    <span className="block text-gold/60 mt-1 text-[8px] md:text-[9px] tracking-[0.2em]">{selectedExpedition.equipo}</span>
-                  )}
+                  <span className="block text-gold/80">{selectedExpedition.ubicacion}</span>
                 </div>
               </div>
 
