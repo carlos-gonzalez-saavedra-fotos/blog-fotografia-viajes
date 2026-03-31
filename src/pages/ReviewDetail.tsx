@@ -201,10 +201,10 @@ export const ReviewDetail = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={() => setSelectedIndex(null)}
-            className="fixed inset-0 z-[10000] bg-black/98 flex flex-col items-center justify-center"
+            className="fixed inset-0 z-[10000] bg-black/98 flex flex-col"
           >
             {/* Header del Lightbox */}
-            <div className="absolute top-0 left-0 w-full p-6 md:p-10 grid grid-cols-3 items-center z-[10000] bg-gradient-to-b from-black/80 to-transparent">
+            <div className="w-full p-6 md:p-10 grid grid-cols-3 items-center z-[10000]">
               {/* Izquierda: Logo que también cierra */}
               <div 
                 className="flex items-center gap-2 cursor-pointer group w-fit"
@@ -259,8 +259,8 @@ export const ReviewDetail = () => {
             )}
 
             {/* Imagen Principal y Numeración */}
-            <div className="w-full h-full flex flex-col items-center justify-center p-4 md:p-24">
-              <div className="relative flex flex-col items-center">
+            <div className="flex-grow w-full flex flex-col items-center justify-center p-4 md:px-24 md:pb-12 overflow-y-auto">
+              <div className="relative flex flex-col items-center min-h-min">
                 <motion.img
                   key={selectedIndex}
                   initial={{ scale: 0.95, opacity: 0 }}
@@ -269,17 +269,17 @@ export const ReviewDetail = () => {
                     ? viaje.galeria[selectedIndex] as string 
                     : (viaje.galeria[selectedIndex] as {url: string}).url}
                   alt="Full screen view"
-                  className="shadow-2xl max-w-full max-h-full object-contain"
+                  className="shadow-2xl object-contain"
                   style={{ 
-                    maxWidth: '90vw', 
-                    maxHeight: '70vh'
+                    maxWidth: '95vw', 
+                    maxHeight: '65vh'
                   }}
                   referrerPolicy="no-referrer"
                   onClick={(e) => e.stopPropagation()}
                 />
                 
                 {/* Leyenda y Numeración */}
-                <div className="mt-8 text-center max-w-2xl px-6">
+                <div className="mt-8 text-center max-w-2xl px-6 pb-8">
                   <AnimatePresence mode="wait">
                     {typeof viaje.galeria[selectedIndex] !== 'string' && (viaje.galeria[selectedIndex] as {caption: string}).caption && (
                       <motion.p 
