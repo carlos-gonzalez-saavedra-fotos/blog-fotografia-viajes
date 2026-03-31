@@ -605,6 +605,28 @@ export const MIS_FOTOS: Photo[] = [
   ]
   },
   { 
+  id: "GaleBCN2023", 
+  url: "https://i.postimg.cc/wvtX95Y3/Pont_del_Diable_004.webp", 
+  titulo: "Escenas 2023", 
+  ubicacion: "Barcelona",
+  galeriaTematica: [
+    { url: "https://i.postimg.cc/26qQCdNN/Playa_Mar_Bella.webp", caption: "Atardecer en la Playa de la Mar Bella" },
+    { url: "https://i.postimg.cc/G2BFbPn1/Invernadero_Ciutadella_restaurado.webp", caption: "El Invernadero de la Ciutadella tras su restauración" },
+    { url: "https://i.postimg.cc/V6Sqz9P6/Silvia_Batet_Oblivion_Festival_Nadal.webp", caption: "Silvia Batet presenta 'Oblivion' en el Festival de Nadal" },
+    { url: "https://i.postimg.cc/QtBQjgZ3/Manresa.webp", caption: "Vistas de Manresa desde el Pont Vell" },
+    { url: "https://i.postimg.cc/wvtX95Yz/Grupo_Danza_UK_Cornella_004.webp", caption: "Grupo de danza del Reino Unido en Cornellà" },
+    { url: "https://i.postimg.cc/wvtX95Y3/Pont_del_Diable_004.webp", caption: "El histórico Pont del Diable en Martorell" },
+    { url: "https://i.postimg.cc/mDcYT3Wc/Trena_Laia_Estruch_MNAC_(1).webp", caption: "Trena de Laia Estruch en el MNAC: Sala de máquinas" },
+    { url: "https://i.postimg.cc/PfQWT5Bm/Libreria_Gracia.webp", caption: "Rincón literario en el barrio de Gràcia" },
+    { url: "https://i.postimg.cc/c41QHNSf/Niebla_Mar_Bella.webp", caption: "Niebla matutina sobre la playa de la Mar Bella" },
+    { url: "https://i.postimg.cc/dQj2wVzr/Desde_Museo_Historia_Barcelona_003.webp", caption: "Panorámica desde el Museo de Historia de Barcelona" },
+    { url: "https://i.postimg.cc/4N4zdTgQ/Nuevo_Rompeolas.webp", caption: "El nuevo rompeolas de Barcelona al anochecer" },
+    { url: "https://i.postimg.cc/RCL74Zjw/Jaume_Plensa_El_cor_secret.webp", caption: "El cor secret de Jaume Plensa en el Hospital Clínic" },
+    { url: "https://i.postimg.cc/kXMx4dmx/Palacio_Macaya.webp", caption: "Detalles modernistas del Palacio Macaya" },
+    { url: "https://i.postimg.cc/tRN3p4LP/Merce_23_Antigua_i_Barbuda_(4)_01.webp", caption: "Espectáculo de Antigua i Barbuda en La Mercè 2023" }
+  ]
+  },
+  { 
   id: "GaleDeporte", 
   url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCN_2010_(3).webp", 
   titulo: "Deportes", 
