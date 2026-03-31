@@ -2,7 +2,7 @@ import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { MIS_VIAJES } from '../data/mis_viajes';
 import { motion, AnimatePresence } from 'motion/react';
-import { MapPin, ArrowLeft, Quote, X, Search, ChevronLeft, ChevronRight } from 'lucide-react';
+import { MapPin, ArrowLeft, Quote, X, Search, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
 
 export const ReviewDetail = () => {
@@ -148,9 +148,10 @@ export const ReviewDetail = () => {
                   </div>
                   
                   <div className="columns-1 md:columns-2 gap-6 space-y-6">
-                    {viaje.galeria.map((item, index) => {
+                    {viaje.galeria.slice(0, 6).map((item, index) => {
                       const imgUrl = typeof item === 'string' ? item : item.url;
                       const caption = typeof item === 'string' ? '' : item.caption;
+                      const isLastVisible = index === 5 && viaje.galeria!.length > 6;
                       
                       return (
                         <motion.div
@@ -165,13 +166,23 @@ export const ReviewDetail = () => {
                           <img 
                             src={imgUrl} 
                             alt={caption || `${viaje.titulo} - ${index + 1}`}
-                            className="w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-700"
+                            className={`w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-700 ${isLastVisible ? 'blur-[2px]' : ''}`}
                             loading="lazy"
                             referrerPolicy="no-referrer"
                           />
                           <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <Search className="text-white w-6 h-6" />
+                            {isLastVisible ? (
+                              <div className="text-center">
+                                <span className="block text-gold text-2xl font-serif">+{viaje.galeria!.length - 6}</span>
+                                <span className="text-[10px] uppercase tracking-widest text-white/80">Ver todas</span>
+                              </div>
+                            ) : (
+                              <Search className="text-white w-6 h-6" />
+                            )}
                           </div>
+                          {isLastVisible && (
+                            <div className="absolute inset-0 bg-black/20 pointer-events-none" />
+                          )}
                         </motion.div>
                       );
                     })}
@@ -190,77 +201,113 @@ export const ReviewDetail = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={() => setSelectedIndex(null)}
-            className="fixed inset-0 z-[10000] bg-black/95 flex items-center justify-center p-4 md:p-12 cursor-zoom-out"
+            className="fixed inset-0 z-[10000] bg-black/98 flex flex-col items-center justify-center"
           >
-            <button 
-              onClick={() => setSelectedIndex(null)}
-              className="absolute top-8 right-8 text-white/60 hover:text-white transition-colors z-[10001]"
-            >
-              <X size={32} />
-            </button>
+            {/* Header del Lightbox */}
+            <div className="absolute top-0 left-0 w-full p-6 md:p-10 grid grid-cols-3 items-center z-[10000] bg-gradient-to-b from-black/80 to-transparent">
+              {/* Izquierda: Logo que también cierra */}
+              <div 
+                className="flex items-center gap-2 cursor-pointer group w-fit"
+                onClick={(e) => { e.stopPropagation(); setSelectedIndex(null); }}
+              >
+                <Camera className="w-5 h-5 text-gold group-hover:scale-110 transition-transform" />
+                <span className="font-serif text-lg tracking-widest uppercase text-white hidden sm:inline">CGS</span>
+              </div>
 
+              {/* Centro: Info de la Galería */}
+              <div className="text-center">
+                <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
+                  <span className="block text-gold/80 mb-1">{viaje.ubicacion}</span>
+                  <span className="font-serif text-sm md:text-base text-white tracking-normal normal-case block">{viaje.titulo}</span>
+                  {viaje.equipo && (
+                    <span className="block text-gold/60 mt-1 text-[8px] md:text-[9px] tracking-[0.2em]">{viaje.equipo}</span>
+                  )}
+                </div>
+              </div>
+
+              {/* Derecha: Botón Cerrar principal */}
+              <div className="flex justify-end">
+                <button 
+                  className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
+                  onClick={(e) => { e.stopPropagation(); setSelectedIndex(null); }}
+                  aria-label="Cerrar galería"
+                >
+                  <X size={32} className="w-6 h-6 md:w-8 md:h-8" />
+                </button>
+              </div>
+            </div>
+
+            {/* Navegación */}
             {viaje.galeria.length > 1 && (
               <>
                 <button 
-                  className="absolute left-4 md:left-8 text-white/30 hover:text-gold transition-colors z-[10001]"
+                  className="absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
                   onClick={(e) => { 
                     e.stopPropagation(); 
                     setSelectedIndex((prev) => (prev! - 1 + viaje.galeria!.length) % viaje.galeria!.length); 
                   }}
                 >
-                  <ChevronLeft size={48} strokeWidth={1} />
+                  <ChevronLeft size={56} strokeWidth={1} />
                 </button>
 
                 <button 
-                  className="absolute right-4 md:right-8 text-white/30 hover:text-gold transition-colors z-[10001]"
+                  className="absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
                   onClick={(e) => { 
                     e.stopPropagation(); 
                     setSelectedIndex((prev) => (prev! + 1) % viaje.galeria!.length); 
                   }}
                 >
-                  <ChevronRight size={48} strokeWidth={1} />
+                  <ChevronRight size={56} strokeWidth={1} />
                 </button>
               </>
             )}
 
-            <motion.div
-              key={selectedIndex}
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
-              className="relative max-w-full max-h-full flex flex-col items-center"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <img
-                src={typeof viaje.galeria[selectedIndex] === 'string' 
-                  ? viaje.galeria[selectedIndex] as string 
-                  : (viaje.galeria[selectedIndex] as {url: string}).url}
-                alt="Full screen view"
-                className="max-w-full max-h-[80vh] object-contain shadow-2xl"
-                referrerPolicy="no-referrer"
-              />
-              
-              {/* Pie de foto elegante */}
-              {typeof viaje.galeria[selectedIndex] !== 'string' && (viaje.galeria[selectedIndex] as {caption: string}).caption && (
-                <motion.p 
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  className="mt-6 text-white/80 text-center max-w-2xl px-4 italic font-light tracking-[0.05em]"
-                  style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.1rem' }}
-                >
-                  {(viaje.galeria[selectedIndex] as {caption: string}).caption}
-                </motion.p>
-              )}
+            {/* Imagen Principal y Numeración */}
+            <div className="w-full h-full flex flex-col items-center justify-center p-4 md:p-24">
+              <div className="relative flex flex-col items-center">
+                <motion.img
+                  key={selectedIndex}
+                  initial={{ scale: 0.95, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  src={typeof viaje.galeria[selectedIndex] === 'string' 
+                    ? viaje.galeria[selectedIndex] as string 
+                    : (viaje.galeria[selectedIndex] as {url: string}).url}
+                  alt="Full screen view"
+                  className="shadow-2xl max-w-full max-h-full object-contain"
+                  style={{ 
+                    maxWidth: '90vw', 
+                    maxHeight: '70vh'
+                  }}
+                  referrerPolicy="no-referrer"
+                  onClick={(e) => e.stopPropagation()}
+                />
+                
+                {/* Leyenda y Numeración */}
+                <div className="mt-8 text-center max-w-2xl px-6">
+                  <AnimatePresence mode="wait">
+                    {typeof viaje.galeria[selectedIndex] !== 'string' && (viaje.galeria[selectedIndex] as {caption: string}).caption && (
+                      <motion.p 
+                        key={`caption-${selectedIndex}`}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        className="font-cormorant font-normal text-lg md:text-xl text-white/80 mb-4 italic tracking-[0.05em]"
+                      >
+                        {(viaje.galeria[selectedIndex] as {caption: string}).caption}
+                      </motion.p>
+                    )}
+                  </AnimatePresence>
 
-              {/* Numeración elegante */}
-              <motion.div 
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="mt-4 text-gold/60 font-light text-[10px] md:text-xs tracking-[0.5em] uppercase"
-              >
-                {selectedIndex + 1} / {viaje.galeria.length}
-              </motion.div>
-            </motion.div>
+                  <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    className="text-gold font-normal text-[10px] md:text-xs tracking-[0.5em] uppercase"
+                  >
+                    {selectedIndex + 1} / {viaje.galeria.length}
+                  </motion.div>
+                </div>
+              </div>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

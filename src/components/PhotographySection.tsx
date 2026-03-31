@@ -1,13 +1,28 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useLocation } from 'react-router-dom';
-import { MIS_FOTOS } from '../data/mis_viajes';
+import { MIS_FOTOS, MIS_VIAJES } from '../data/mis_viajes';
 import { X, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
 
 export const PhotographySection = () => {
   const [selectedId, setSelectedId] = React.useState<string | null>(null);
   const [subIndex, setSubIndex] = React.useState(0);
   const location = useLocation();
+
+  const allGalleries = React.useMemo(() => {
+    const tripGalleries = MIS_VIAJES
+      .filter(v => v.galeria && v.galeria.length > 0)
+      .map(v => ({
+        id: v.id,
+        url: v.urlImagen,
+        titulo: v.titulo,
+        ubicacion: v.ubicacion,
+        equipo: v.equipo,
+        galeriaTematica: v.galeria
+      }));
+    
+    return [...MIS_FOTOS, ...tripGalleries];
+  }, []);
 
   React.useEffect(() => {
     setSelectedId(null);
@@ -29,8 +44,8 @@ export const PhotographySection = () => {
   }, [selectedId]);
 
   const selectedExpedition = React.useMemo(() => 
-    MIS_FOTOS.find(p => p.id === selectedId), 
-  [selectedId]);
+    allGalleries.find(p => p.id === selectedId), 
+  [selectedId, allGalleries]);
 
   const currentGallery = React.useMemo(() => {
     if (!selectedExpedition) return [];
@@ -53,7 +68,7 @@ export const PhotographySection = () => {
         </div>
 
         <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-          {MIS_FOTOS.map((photo) => (
+          {allGalleries.map((photo) => (
             <motion.div
               key={photo.id}
               initial={{ opacity: 0 }}
@@ -103,6 +118,9 @@ export const PhotographySection = () => {
                 <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
                   <span className="block text-gold/80 mb-1">{selectedExpedition.ubicacion}</span>
                   <span className="font-serif text-sm md:text-base text-white tracking-normal normal-case block">{selectedExpedition.titulo}</span>
+                  {selectedExpedition.equipo && (
+                    <span className="block text-gold/60 mt-1 text-[8px] md:text-[9px] tracking-[0.2em]">{selectedExpedition.equipo}</span>
+                  )}
                 </div>
               </div>
 

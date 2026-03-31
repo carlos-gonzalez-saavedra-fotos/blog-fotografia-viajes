@@ -53,7 +53,24 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
       { url: "https://i.postimg.cc/4xNwf3gH/Palacio_de_Rosenborg_017.jpg", caption: "La majestuosidad histórica del Palacio de Rosenborg" },
       { url: "https://i.postimg.cc/YCq8rSH8/Gliptoteca_Ny_Carlsberg_004.jpg", caption: "Arte y luz en la Gliptoteca Ny Carlsberg" },
       { url: "https://i.postimg.cc/jjS1FX51/Estación_Triangeln_(7).jpg", caption: "Arquitectura futurista en la estación de Triangeln, Malmö" },
-      { url: "https://i.postimg.cc/6p5zWQXM/Desde_el_Ayuntamiento_011.jpg", caption: "Colorido matrimonio en el Ayuntamiento de Copenhague" }
+      { url: "https://i.postimg.cc/6p5zWQXM/Desde_el_Ayuntamiento_011.jpg", caption: "Colorido matrimonio en el Ayuntamiento de Copenhague" },
+      { url: "https://i.postimg.cc/PqV7swvH/Castillo_(4).jpg", caption: "Silueta del castillo bajo el cielo plomizo del norte" },
+      { url: "https://i.postimg.cc/R0ZYDRF8/Malmö_(11).jpg", caption: "Arquitectura contemporánea en el horizonte sueco" },
+      { url: "https://i.postimg.cc/3wxqcBRV/Parque_Pildam_(2).jpg", caption: "Reflejos otoñales en las aguas del parque Pildamm" },
+      { url: "https://i.postimg.cc/xd1Z4R8D/Playa_de_Ribergsborg_(4).jpg", caption: "La soledad del muelle frente al estrecho de Øresund" },
+      { url: "https://i.postimg.cc/rpwHPJsM/Playa_Ribergsborg_(10).jpg", caption: "Casetas de baño tras la despedida del verano" },
+      { url: "https://i.postimg.cc/fbRPrKyM/Plaza_Lilla_(5).jpg", caption: "El encanto medieval de Lilla Torg al atardecer" },
+      { url: "https://i.postimg.cc/wBjrGVMx/Puente_de_Oresund_(7).jpg", caption: "Ingeniería que une mundos sobre el mar Báltico" },
+      { url: "https://i.postimg.cc/DzwNMg00/Suecos_(2).jpg", caption: "Dos suecos y un bote bajo la luz de Escandinavia" },
+      { url: "https://i.postimg.cc/KvZGCxrp/Estación_Triangeln_(4).jpg", caption: "Geometrías futuristas en el corazón de la ciudad" },
+      { url: "https://i.postimg.cc/PrtX0Tz0/Estación_Triangeln_(8).jpg", caption: "Luz y acero en el subsuelo de Malmö" },
+      { url: "https://i.postimg.cc/7YgfgQVH/Kungsparken-(4).webp", caption: "Senderos de paz en el jardín del Rey" },
+      { url: "https://i.postimg.cc/hPSDNcbY/Parque_Pildam_(11).jpg", caption: "La quietud del bosque urbano en Pildam" },
+      { url: "https://i.postimg.cc/gkYz1mqS/Plaza_Lilla_(4).jpg", caption: "Fachadas de entramado de madera en la plaza pequeña" },
+      { url: "https://i.postimg.cc/pVQV0p8G/Tourning_Torso_(11).jpg", caption: "El giro infinito de Santiago Calatrava hacia las nubes" },
+      { url: "https://i.postimg.cc/HW0WSV52/Kungsparken_(19).jpg", caption: "Gran molino en Kungsparken" },
+      { url: "https://i.postimg.cc/HLkNh2xh/Iglesia_San_Pedro_(11).jpg", caption: "Lustrosos metales en la Iglesia de San Pedro" },
+      { url: "https://i.postimg.cc/XNKN2pFL/Western_Harbour_(4).jpg", caption: "El mar en el barrio sostenible de Western Harbour" }
     ]
   },
   {
@@ -541,31 +558,6 @@ export const MIS_FOTOS: Photo[] = [
       { url: "https://i.postimg.cc/J0Q3d4Lh/Teleferico.webp", caption: "Teleférico del puerto cruzando el cielo" },
       { url: "https://i.postimg.cc/qqGcZMTq/Torre_Glories_con_flor.webp", caption: "Torre Glòries y primer plano floral" },
       { url: "https://i.postimg.cc/4y1vFNgm/Torre_Glories_luna_llena_2.webp", caption: "Cae la tarde sobre la Torre Glòries" }
-    ]
-  },
-  {
-    id: "GaleMalmo",
-    url: "https://i.postimg.cc/PqV7swvH/Castillo_(4).jpg",
-    titulo: "Luz nórdica",
-    ubicacion: "Malmö",
-    galeriaTematica: [
-      { url: "https://i.postimg.cc/PqV7swvH/Castillo_(4).jpg", caption: "Silueta del castillo bajo el cielo plomizo del norte" },
-      { url: "https://i.postimg.cc/R0ZYDRF8/Malmö_(11).jpg", caption: "Arquitectura contemporánea en el horizonte sueco" },
-      { url: "https://i.postimg.cc/3wxqcBRV/Parque_Pildam_(2).jpg", caption: "Reflejos otoñales en las aguas del parque Pildamm" },
-      { url: "https://i.postimg.cc/xd1Z4R8D/Playa_de_Ribergsborg_(4).jpg", caption: "La soledad del muelle frente al estrecho de Øresund" },
-      { url: "https://i.postimg.cc/rpwHPJsM/Playa_Ribergsborg_(10).jpg", caption: "Casetas de baño tras la despedida del verano" },
-      { url: "https://i.postimg.cc/fbRPrKyM/Plaza_Lilla_(5).jpg", caption: "El encanto medieval de Lilla Torg al atardecer" },
-      { url: "https://i.postimg.cc/wBjrGVMx/Puente_de_Oresund_(7).jpg", caption: "Ingeniería que une mundos sobre el mar Báltico" },
-      { url: "https://i.postimg.cc/DzwNMg00/Suecos_(2).jpg", caption: "Dos suecos y un bote bajo la luz de Escandinavia" },
-      { url: "https://i.postimg.cc/KvZGCxrp/Estación_Triangeln_(4).jpg", caption: "Geometrías futuristas en el corazón de la ciudad" },
-      { url: "https://i.postimg.cc/PrtX0Tz0/Estación_Triangeln_(8).jpg", caption: "Luz y acero en el subsuelo de Malmö" },
-      { url: "https://i.postimg.cc/7YgfgQVH/Kungsparken-(4).webp", caption: "Senderos de paz en el jardín del Rey" },
-      { url: "https://i.postimg.cc/hPSDNcbY/Parque_Pildam_(11).jpg", caption: "La quietud del bosque urbano en Pildam" },
-      { url: "https://i.postimg.cc/gkYz1mqS/Plaza_Lilla_(4).jpg", caption: "Fachadas de entramado de madera en la plaza pequeña" },
-      { url: "https://i.postimg.cc/pVQV0p8G/Tourning_Torso_(11).jpg", caption: "El giro infinito de Santiago Calatrava hacia las nubes" },
-      { url: "https://i.postimg.cc/HW0WSV52/Kungsparken_(19).jpg", caption: "Gran molino en Kungsparken" },
-      { url: "https://i.postimg.cc/HLkNh2xh/Iglesia_San_Pedro_(11).jpg", caption: "Lustrosos metales en la Iglesia de San Pedro" },
-      { url: "https://i.postimg.cc/XNKN2pFL/Western_Harbour_(4).jpg", caption: "El mar en el barrio sostenible de Western Harbour" }
     ]
   },
   { 

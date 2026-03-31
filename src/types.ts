@@ -21,5 +21,6 @@ export interface Photo {
   url: string;
   titulo: string;
   ubicacion: string;
+  equipo?: string;
   galeriaTematica?: (string | GalleryItem)[];
 }
