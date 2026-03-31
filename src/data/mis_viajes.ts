@@ -173,7 +173,7 @@ Salgo de Basilea reconfortado por el espíritu de aquella Helvetia del Mittlere 
       { url: "https://i.postimg.cc/HsXkHxZV/Basilea_001.webp", caption: "Augustinergasse, casco antiguo de Basilea" },
       { url: "https://i.postimg.cc/KvB8Fzq4/Catedral_de_Basile_011.webp", caption: "La imponente Catedral de Basilea (Münster)" },
       { url: "https://i.postimg.cc/Jz84hLvm/Fondation_Beyeler_017.webp", caption: "Arquitectura de Renzo Piano en la Fundación Beyeler" },
-      { url: "https://i.postimg.cc/T3xYP6FR/Kantonale_Verwaltung_Basel_Stadt_Marktplatz.webp", caption: "Fachada rojiza del Ayuntamiento en la Marktplatz (efgecto esférico)" },
+      { url: "https://i.postimg.cc/T3xYP6FR/Kantonale_Verwaltung_Basel_Stadt_Marktplatz.webp", caption: "Fachada rojiza del Ayuntamiento en la Marktplatz (efecto esférico)" },
       { url: "https://i.postimg.cc/wjzTBpZt/Rio_Rin_Torre_Roche_002_01.webp", caption: "El río Rin y la silueta de la Torre Roche" },
       { url: "https://i.postimg.cc/sf05xsHX/Elisabethenanlage-001-01.webp", caption: "La glorieta de Elisabethenanlage en un día de invierno" }
     ]
