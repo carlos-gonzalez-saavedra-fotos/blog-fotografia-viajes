@@ -48,12 +48,12 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
     fecha: "Septiembre 2019",
     equipo: "Sony ILSE-6000",
     galeria: [
-      { url: "https://i.postimg.cc/FKC65LkF/Canal_(2).jpg", caption: "Los apacibles canales que definen el ritmo de Copenhague" },
+      { url: "https://i.postimg.cc/FKC65LkF/Canal_(2).jpg", caption: "Los apacibles canales que definen el ritmo de Malmö" },
       { url: "https://i.postimg.cc/25StKwyk/Puente_de_Oresund_(5).jpg", caption: "El puente de Oresund, nexo de unión entre dos mundos nórdicos" },
       { url: "https://i.postimg.cc/4xNwf3gH/Palacio_de_Rosenborg_017.jpg", caption: "La majestuosidad histórica del Palacio de Rosenborg" },
-      { url: "https://i.postimg.cc/YCq8rSH8/Gliptoteca_Ny_Carlsberg_004.jpg", caption: "Arte y luz en el jardín de invierno de la Gliptoteca Ny Carlsberg" },
+      { url: "https://i.postimg.cc/YCq8rSH8/Gliptoteca_Ny_Carlsberg_004.jpg", caption: "Arte y luz en la Gliptoteca Ny Carlsberg" },
       { url: "https://i.postimg.cc/jjS1FX51/Estación_Triangeln_(7).jpg", caption: "Arquitectura futurista en la estación de Triangeln, Malmö" },
-      { url: "https://i.postimg.cc/6p5zWQXM/Desde_el_Ayuntamiento_011.jpg", caption: "Panorámica de los tejados de Copenhague desde la torre del Ayuntamiento" }
+      { url: "https://i.postimg.cc/6p5zWQXM/Desde_el_Ayuntamiento_011.jpg", caption: "Colorido matrimonio en el Ayuntamiento de Copenhague" }
     ]
   },
   {
