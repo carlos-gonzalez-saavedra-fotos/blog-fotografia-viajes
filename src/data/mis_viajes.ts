@@ -627,6 +627,26 @@ export const MIS_FOTOS: Photo[] = [
   ]
   },
   { 
+  id: "GaleARP", 
+  url: "https://i.postimg.cc/pL8yp3hf/UCV_Caracas_Jean_Arp_Pastor_de_nubes_003.webp", 
+  titulo: "Jean ARP", 
+  ubicacion: "   ",
+  galeriaTematica: [
+    { url: "https://i.postimg.cc/Dwsm8RJq/Museo_Louisiana_de_arte_moderno_Dinamarca_Arp_Concrétion_humaine_sur_coupe_ovale_1948.webp", caption: "Concrétion humaine sur coupe ovale (1948) en el Museo Louisiana de Arte Moderno, Dinamarca" },
+    { url: "https://i.postimg.cc/x1HqcBJm/Jean_Arp_Feuille_se_reposant_1965_Calle_de_Ginebra.webp", caption: "Feuille se reposant (1965) en una calle de Ginebra" },
+    { url: "https://i.postimg.cc/pL8yp3hf/UCV_Caracas_Jean_Arp_Pastor_de_nubes_003.webp", caption: "Pastor de nubes en la Ciudad Universitaria de Caracas (UCV)" },
+    { url: "https://i.postimg.cc/1zDkV1ZC/Paris-invierno-1997-Centro-Pompidou-Copia-Pastor-de-Nubes-ARP.webp", caption: "Copia de Pastor de Nubes en el Centro Pompidou, París (Invierno 1997)" },
+    { url: "https://i.postimg.cc/sgS1vbQG/Museo_Louisiana_de_arte_moderno_Arp_Dinamarca_Vénus_de_Meudon_1956.webp", caption: "Vénus de Meudon (1956) en el Museo Louisiana de Arte Moderno, Dinamarca" },
+    { url: "https://i.postimg.cc/kg8DBL6G/Kunstmuseum_Basilea_013_Hans_Arp_Torse_preadamite.webp", caption: "Torse préadamite de Hans Arp en el Kunstmuseum de Basilea" },
+    { url: "https://i.postimg.cc/MKJ7ZkpC/Jean-Arp-Pistilo-1950-Caixaforum-BCN.webp", caption: "Pistilo (1950) de Jean Arp en CaixaForum Barcelona" },
+    { url: "https://i.postimg.cc/KvbTSn9k/Jean-Arp-Torso-preadamita-1938-Caixaforum-BCN.webp", caption: "Torso preadamita (1938) de Jean Arp en CaixaForum Barcelona" },
+    { url: "https://i.postimg.cc/cLY6rPgg/Expo_Surrealismo_Caixaforum_Arp_1.webp", caption: "Torse-fruit (1960) en la exposición Surrealismo en CaixaForum (2020)" },
+    { url: "https://i.postimg.cc/g2Rrn1XR/Jean_Arp_Concha_nube_I_1932_Caixaforum_2019.webp", caption: "Concha nube I (1932) en CaixaForum (2019)" },
+    { url: "https://i.postimg.cc/XYFXptGv/Kunstmuseum_Basilea_011_Hans_Arp.webp", caption: "Configuration (1928) en el Kunstmuseum de Basilea" },
+    { url: "https://i.postimg.cc/Hk5jVFcj/Kunstmuseum_Basilea_012_Hans_Arp_Nombrils.webp", caption: "Nombrils (Ombligos, 1928) en el Kunstmuseum de Basilea" }
+  ]
+  },
+  { 
   id: "GaleDeporte", 
   url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCN_2010_(3).webp", 
   titulo: "Deportes", 
