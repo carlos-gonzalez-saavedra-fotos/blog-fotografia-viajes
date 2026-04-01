@@ -259,7 +259,7 @@ export const ReviewDetail = () => {
             <div className="flex-grow w-full flex flex-col items-center justify-center pt-24 px-4 pb-24 md:px-24 overflow-hidden">
               <div className={`relative flex flex-col items-center transition-all duration-500 ${isPortrait ? 'lg:max-w-[45%]' : 'w-full max-w-5xl'}`}>
                 {/* Header de Información (Ubicación + Contador) */}
-                <div className="w-full flex justify-between items-end mb-6 border-b border-white/5 pb-2">
+                <div className="w-full flex justify-between items-center mb-6">
                   <div className="text-left pr-8">
                     <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
                       <span className="block text-gold">{viaje.ubicacion}</span>
