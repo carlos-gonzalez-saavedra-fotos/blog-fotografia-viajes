@@ -7,6 +7,7 @@ import { X, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
 export const PhotographySection = () => {
   const [selectedId, setSelectedId] = React.useState<string | null>(null);
   const [subIndex, setSubIndex] = React.useState(0);
+  const [isPortrait, setIsPortrait] = React.useState(false);
   const location = useLocation();
 
   const allGalleries = React.useMemo(() => {
@@ -27,7 +28,12 @@ export const PhotographySection = () => {
   React.useEffect(() => {
     setSelectedId(null);
     setSubIndex(0);
+    setIsPortrait(false);
   }, [location]);
+
+  React.useEffect(() => {
+    setIsPortrait(false);
+  }, [subIndex]);
 
   React.useEffect(() => {
     if (selectedId) {
@@ -102,34 +108,25 @@ export const PhotographySection = () => {
             className="fixed inset-0 z-[9999] bg-black/98 flex flex-col"
             onClick={() => setSelectedId(null)}
           >
-            {/* Header del Lightbox */}
-            <div className="w-full p-6 md:p-10 grid grid-cols-3 items-center z-[10000] flex-shrink-0">
-              {/* Izquierda: Logo que también cierra */}
+            {/* Barra de Navegación Superior (Logo y Cerrar) */}
+            <div className="w-full px-6 py-4 md:px-10 md:py-6 flex justify-between items-center z-[10000] flex-shrink-0">
+              {/* Izquierda: Logo */}
               <div 
-                className="flex items-center gap-2 cursor-pointer group w-fit"
+                className="flex items-center gap-2 cursor-pointer group"
                 onClick={(e) => { e.stopPropagation(); setSelectedId(null); }}
               >
                 <Camera className="w-5 h-5 text-gold group-hover:scale-110 transition-transform" />
                 <span className="font-serif text-lg tracking-widest uppercase text-white hidden sm:inline">CGS</span>
               </div>
 
-              {/* Centro: Info de la Galería */}
-              <div className="text-center">
-                <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
-                  <span className="block text-gold">{selectedExpedition.ubicacion}</span>
-                </div>
-              </div>
-
-              {/* Derecha: Botón Cerrar principal */}
-              <div className="flex justify-end">
-                <button 
-                  className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
-                  onClick={(e) => { e.stopPropagation(); setSelectedId(null); }}
-                  aria-label="Cerrar galería"
-                >
-                  <X size={32} className="w-6 h-6 md:w-8 md:h-8" />
-                </button>
-              </div>
+              {/* Derecha: Cerrar */}
+              <button 
+                className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
+                onClick={(e) => { e.stopPropagation(); setSelectedId(null); }}
+                aria-label="Cerrar galería"
+              >
+                <X size={32} className="w-6 h-6 md:w-8 md:h-8" />
+              </button>
             </div>
 
             {/* Navegación */}
@@ -151,25 +148,44 @@ export const PhotographySection = () => {
             )}
 
             {/* Imagen Principal y Numeración */}
-            <div className="flex-grow w-full flex flex-col items-center justify-center p-4 md:px-24 md:pb-12 overflow-y-auto">
-              <div className="relative flex flex-col items-center min-h-min">
-                <motion.img 
-                  key={currentGallery[subIndex].url}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  src={currentGallery[subIndex].url} 
-                  alt={currentGallery[subIndex].caption || selectedExpedition.titulo}
-                  className="shadow-2xl object-contain"
-                  style={{ 
-                    maxWidth: '95vw', 
-                    maxHeight: '65vh'
-                  }}
-                  referrerPolicy="no-referrer"
-                  onClick={(e) => e.stopPropagation()}
-                />
+            <div className="flex-grow w-full flex flex-col items-center justify-center pt-24 px-4 pb-24 md:px-24 overflow-hidden">
+              <div className={`relative flex flex-col items-center transition-all duration-500 ${isPortrait ? 'lg:max-w-[45%]' : 'w-full max-w-5xl'}`}>
+                {/* Header de Información (Ubicación + Contador) */}
+                <div className="w-full flex justify-between items-end mb-6 border-b border-white/5 pb-2">
+                  <div className="text-left pr-8">
+                    <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
+                      <span className="block text-gold">{selectedExpedition.ubicacion}</span>
+                    </div>
+                  </div>
+                  <div className="text-right whitespace-nowrap">
+                    <span className="text-gold font-normal text-[10px] md:text-xs tracking-[0.5em] uppercase opacity-80">
+                      {subIndex + 1} / {currentGallery.length}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="relative w-full flex justify-center">
+                  <motion.img 
+                    key={currentGallery[subIndex].url}
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    src={currentGallery[subIndex].url} 
+                    alt={currentGallery[subIndex].caption || selectedExpedition.titulo}
+                    className="shadow-2xl object-contain w-full"
+                    style={{ 
+                      maxHeight: '60vh'
+                    }}
+                    onLoad={(e) => {
+                      const img = e.currentTarget;
+                      setIsPortrait(img.naturalHeight > img.naturalWidth);
+                    }}
+                    referrerPolicy="no-referrer"
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                </div>
                 
-                {/* Leyenda y Numeración */}
-                <div className="mt-8 text-center max-w-2xl px-6 pb-8">
+                {/* Leyenda */}
+                <div className="mt-6 text-center w-full px-4">
                   <AnimatePresence mode="wait">
                     {currentGallery[subIndex].caption && (
                       <motion.p
@@ -177,25 +193,15 @@ export const PhotographySection = () => {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
-                        className="font-cormorant font-normal text-lg md:text-xl text-white/80 mb-4 italic tracking-[0.05em]"
+                        className="font-cormorant font-normal text-lg md:text-xl text-white/80 mb-4 italic tracking-[0.05em] leading-relaxed"
                       >
                         {currentGallery[subIndex].caption}
                       </motion.p>
                     )}
                   </AnimatePresence>
-                  
-                  <motion.div 
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    className="text-gold font-normal text-[10px] md:text-xs tracking-[0.5em] uppercase"
-                  >
-                    {subIndex + 1} / {currentGallery.length}
-                  </motion.div>
                 </div>
               </div>
             </div>
-
-            {/* El pie de foto se ha movido al header para evitar redundancia */}
           </div>
         )}
       </AnimatePresence>
