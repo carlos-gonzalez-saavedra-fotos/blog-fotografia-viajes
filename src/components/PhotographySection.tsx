@@ -103,7 +103,7 @@ export const PhotographySection = () => {
             onClick={() => setSelectedId(null)}
           >
             {/* Header del Lightbox */}
-            <div className="w-full p-6 md:p-10 grid grid-cols-3 items-center z-[10000]">
+            <div className="w-full p-6 md:p-10 grid grid-cols-3 items-center z-[10000] flex-shrink-0">
               {/* Izquierda: Logo que también cierra */}
               <div 
                 className="flex items-center gap-2 cursor-pointer group w-fit"
@@ -116,7 +116,7 @@ export const PhotographySection = () => {
               {/* Centro: Info de la Galería */}
               <div className="text-center">
                 <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
-                  <span className="block text-gold/80">{selectedExpedition.ubicacion}</span>
+                  <span className="block text-gold">{selectedExpedition.ubicacion}</span>
                 </div>
               </div>
 

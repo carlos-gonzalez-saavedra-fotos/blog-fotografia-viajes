@@ -204,7 +204,7 @@ export const ReviewDetail = () => {
             className="fixed inset-0 z-[10000] bg-black/98 flex flex-col"
           >
             {/* Header del Lightbox */}
-            <div className="w-full p-6 md:p-10 grid grid-cols-3 items-center z-[10000]">
+            <div className="w-full p-6 md:p-10 grid grid-cols-3 items-center z-[10000] flex-shrink-0">
               {/* Izquierda: Logo que también cierra */}
               <div 
                 className="flex items-center gap-2 cursor-pointer group w-fit"
@@ -217,7 +217,7 @@ export const ReviewDetail = () => {
               {/* Centro: Info de la Galería */}
               <div className="text-center">
                 <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
-                  <span className="block text-gold/80">{viaje.ubicacion}</span>
+                  <span className="block text-gold">{viaje.ubicacion}</span>
                 </div>
               </div>
 
