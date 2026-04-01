@@ -68,9 +68,18 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
       { url: "https://i.postimg.cc/hPSDNcbY/Parque_Pildam_(11).jpg", caption: "La quietud del bosque urbano en Pildam" },
       { url: "https://i.postimg.cc/gkYz1mqS/Plaza_Lilla_(4).jpg", caption: "Fachadas de entramado de madera en la plaza pequeña" },
       { url: "https://i.postimg.cc/pVQV0p8G/Tourning_Torso_(11).jpg", caption: "El giro infinito de Santiago Calatrava hacia las nubes" },
-      { url: "https://i.postimg.cc/HW0WSV52/Kungsparken_(19).jpg", caption: "Gran molino en Kungsparken" },
       { url: "https://i.postimg.cc/HLkNh2xh/Iglesia_San_Pedro_(11).jpg", caption: "Lustrosos metales en la Iglesia de San Pedro" },
-      { url: "https://i.postimg.cc/XNKN2pFL/Western_Harbour_(4).jpg", caption: "El mar en el barrio sostenible de Western Harbour" }
+      { url: "https://i.postimg.cc/XNKN2pFL/Western_Harbour_(4).jpg", caption: "El mar en el barrio sostenible de Western Harbour" },
+      { url: "https://i.postimg.cc/dVH6LKs2/Biblioteca_Real_Danesa_Diamante_negro_002.jpg", caption: "El Diamante Negro, la audaz extensión de la Biblioteca Real Danesa" },
+      { url: "https://i.postimg.cc/mgXjtGLy/Blox_Centro_de_Arquitectura_Danesa_001.jpg", caption: "Blox, el vibrante hogar del Centro de Arquitectura Danesa" },
+      { url: "https://i.postimg.cc/nhcTFLJY/Desde_el_Ayuntamiento_002_(2).jpg", caption: "Vistas panorámicas desde las alturas del Ayuntamiento" },
+      { url: "https://i.postimg.cc/t4CDqgjm/Museo_Louisiana_Calder_001.jpg", caption: "Esculturas de Alexander Calder en los jardines del Museo Louisiana" },
+      { url: "https://i.postimg.cc/htPMDGBJ/Palacio_Rosenborg.jpg", caption: "El esplendor renacentista del Palacio de Rosenborg" },
+      { url: "https://i.postimg.cc/3xJ98wT4/Parque_Churchill_001.jpg", caption: "Paseo matutino por el histórico Parque Churchill" },
+      { url: "https://i.postimg.cc/T3YQdP6K/Puerto_Nuevo_007.jpg", caption: "Nyhavn, el icónico canal de fachadas coloridas y barcos clásicos" },
+      { url: "https://i.postimg.cc/SxNVSKhL/The_Royal_Cast_Collection_moldes_esculturas_002.jpg", caption: "Moldes de yeso históricos en The Royal Cast Collection" },
+      { url: "https://i.postimg.cc/2S8Tk5DH/Iglesia_de_Mármol_(2).jpg", caption: "La imponente cúpula de la Iglesia de Mármol (Frederiks Kirke)" },
+      { url: "https://i.postimg.cc/5NX9K78v/Dinamarca-Suecia-desde-el-aire-001.jpg", caption: "El puente de Oresund desde al aire" }
     ]
   },
   {
@@ -99,7 +108,10 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
       { url: "https://i.postimg.cc/zvpsBsLB/Arcos_de_la_Colina_HMoore.webp", caption: "La modernidad de Henry Moore frente a la tradición vienesa" },
       { url: "https://i.postimg.cc/J0Kfnfyz/Danubio_congelado_a.webp", caption: "El Danubio rindiéndose al abrazo del invierno" },
       { url: "https://i.postimg.cc/MHtCTCcH/Jesuitenkirche_a.webp", caption: "Haces de luz teatral en la Iglesia de los Jesuitas" },
-      { url: "https://i.postimg.cc/tJDKTK1s/Schönbrunn_02.webp", caption: "La inmensidad de los jardines del Palacio de Schönbrunn" }
+      { url: "https://i.postimg.cc/tJDKTK1s/Schönbrunn_02.webp", caption: "La inmensidad de los jardines del Palacio de Schönbrunn" },
+      { url: "https://i.postimg.cc/wj07Sy7s/Música_silente.webp", caption: "Música silente: el alma de Viena capturada en sus monumentos" },
+      { url: "https://i.postimg.cc/fRBJ6tJ3/Hundertwasser.webp", caption: "La explosión de color y formas orgánicas de la Hundertwasserhaus" },
+      { url: "https://i.postimg.cc/MpdvhMvM/Abadía_de_Melk_3.webp", caption: "La majestuosidad barroca de la Abadía de Melk sobre el Danubio" }
     ]
   },
   {
@@ -466,7 +478,7 @@ Dejé la capital neerlandesa tras haber recorrido en sus calles, parques, canale
 {
   id: "nortepeninsular",
   titulo: "2884 kilómetros",
-  ubicacion: "España",
+  ubicacion: "Norte de España",
   resumen: "La cifra definitiva no se desveló hasta el final del viaje, pero aquella mañana del 24 de abril cuando salimos de Barcelona en un reluciente Mercedes, ya sabíamos que el recorrido de una semana planeado por el norte peninsular era ambicioso.",
   reseña: `La cifra definitiva no se desveló hasta el final del viaje, pero aquella mañana del 24 de abril cuando salimos de Barcelona en un reluciente Mercedes, ya sabíamos que el recorrido de una semana planeado por el norte peninsular era ambicioso. Aun así, nos lanzamos a la carretera con fuerza e ilusión. 
 La primera parada fue ante la majestuosidad barroca de la Basílica de Nuestra Señora del Pilar en Zaragoza. Coincidimos con una misa donde, curiosamente, el sacerdote oficia de espaldas a los fieles, práctica poco común en estos tiempos. Una inscripción marcaba el lugar sagrado donde los devotos besaban el pilar que, según la tradición, fue colocado allí por la propia Virgen.
@@ -522,7 +534,21 @@ A las seis de la tarde llegamos a una Barcelona arropada todavía por la luz med
       { url: "https://i.postimg.cc/d3WWFVPJ/Vistas_de_Bilbao_001.webp", caption: "Panorámica de Bilbao desde las alturas" },
       { url: "https://i.postimg.cc/gjMMp2Fp/Paseos_en_Burgos_003.webp", caption: "Color tras los soportales en el centro de Burgos" },
       { url: "https://i.postimg.cc/x8ssQ1DD/Castillo_de_Loarre_024.webp", caption: "Una ventana al valle desde el Castillo de Loarre" },
-      { url: "https://i.postimg.cc/1RBQYGd7/Santander_037.webp", caption: "Una casona verde en Santander" }
+      { url: "https://i.postimg.cc/1RBQYGd7/Santander_037.webp", caption: "Una casona verde en Santander" },
+      { url: "https://i.postimg.cc/y837pdgv/Catedral_de_Burgos_017.webp", caption: "La majestuosidad gótica de la Catedral de Burgos" },
+      { url: "https://i.postimg.cc/rwRqZm0j/Catedral_de_Burgos_La_escalera_Dorada.webp", caption: "La Escalera Dorada, joya renacentista de la Catedral de Burgos" },
+      { url: "https://i.postimg.cc/6p4Bb320/Luna_llena_en_Burgos_001.webp", caption: "Luna llena sobre los tejados de Burgos" },
+      { url: "https://i.postimg.cc/SKTFybMC/Parque_en_Burgos.webp", caption: "Paseo primaveral por los parques de Burgos" },
+      { url: "https://i.postimg.cc/GmTbg28z/Oviedo_Santa_María_del_Naranco_004.webp", caption: "Santa María del Naranco, joya del prerrománico asturiano" },
+      { url: "https://i.postimg.cc/TP7MRvDJ/Oviedo_Monte_el_Naranco.webp", caption: "Gallo y gato en la cima del Monte Naranco" },
+      { url: "https://i.postimg.cc/mrXfbWH3/San_Sebastián_013.webp", caption: "La elegancia de la bahía de San Sebastián" },
+      { url: "https://i.postimg.cc/Pqrns5Pv/Bilbao_Guggenheim_017.webp", caption: "Reflejos metálicos en el Museo Guggenheim de Bilbao" },
+      { url: "https://i.postimg.cc/6QGLQd7G/Santander_006.webp", caption: "Una vistosa calle de Santander" },
+      { url: "https://i.postimg.cc/mrFNrQcz/Santillana_del_Mar_006.webp", caption: "El bucólico emplazamiento de Santillana del Mar" },
+      { url: "https://i.postimg.cc/8zYmDyCB/Castillo_de_Loarre_001.webp", caption: "La imponente silueta del Castillo de Loarre" },
+      { url: "https://i.postimg.cc/cC6JscCs/León_011.webp", caption: "Dos escriben y uno lee en un banco de León" },
+      { url: "https://i.postimg.cc/6qTQ9hqw/Gijón_001.webp", caption: "El espíritu marinero de Gijón frente al mar" },
+      { url: "https://i.postimg.cc/0jrN8Cjs/Basílica_del_Pilar_Zaragoza_005.webp", caption: "La Basílica del Pilar en Zaragoza" }
     ]
 },
   // --- PEGA AQUÍ TUS PRÓXIMOS 40+ VIAJES ---
