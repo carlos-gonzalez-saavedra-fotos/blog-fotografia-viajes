@@ -1,6 +1,7 @@
 export interface GalleryItem {
   url: string;
   caption?: string;
+  tags?: string[];
 }
 
 export interface Viaje {

@@ -35,11 +35,35 @@ export const Navbar = () => {
   }, [lastScrollY]);
 
   const navItems = [
-    { name: 'Inicio', path: '/', id: 'inicio' },
-    { name: 'Viajes', path: '/#viajes', id: 'viajes' },
-    { name: 'Galería', path: '/#galeria', id: 'galeria' },
-    { name: 'El Autor', path: '/#el-autor', id: 'el-autor' }
+    { name: 'Inicio', path: '/', id: 'inicio', isPage: true },
+    { name: 'Viajes', path: '/#viajes', id: 'viajes', isPage: false },
+    { name: 'Galería', path: '/#galeria', id: 'galeria', isPage: false },
+    { name: 'El Autor', path: '/#el-autor', id: 'el-autor', isPage: false }
   ];
+
+  const NavLink = ({ item }: { item: typeof navItems[0] }) => {
+    const isHashLink = !item.isPage;
+    
+    if (isHome && isHashLink) {
+      return (
+        <a
+          href={`#${item.id}`}
+          className="text-xs uppercase tracking-[0.2em] hover:text-gold transition-colors"
+        >
+          {item.name}
+        </a>
+      );
+    }
+
+    return (
+      <Link
+        to={item.path}
+        className="text-xs uppercase tracking-[0.2em] hover:text-gold transition-colors"
+      >
+        {item.name}
+      </Link>
+    );
+  };
 
   return (
     <nav 
@@ -82,21 +106,7 @@ export const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
             >
-              {isHome ? (
-                <a
-                  href={`#${item.id}`}
-                  className="text-xs uppercase tracking-[0.2em] hover:text-gold transition-colors"
-                >
-                  {item.name}
-                </a>
-              ) : (
-                <Link
-                  to={item.path}
-                  className="text-xs uppercase tracking-[0.2em] hover:text-gold transition-colors"
-                >
-                  {item.name}
-                </Link>
-              )}
+              <NavLink item={item} />
             </motion.div>
           ))}
         </div>
@@ -117,25 +127,9 @@ export const Navbar = () => {
           className="md:hidden absolute top-full left-0 right-0 bg-black/95 border-b border-white/10 p-8 flex flex-col gap-6 items-center"
         >
           {navItems.map((item) => (
-            <React.Fragment key={item.id}>
-              {isHome ? (
-                <a
-                  href={`#${item.id}`}
-                  onClick={() => setIsOpen(false)}
-                  className="text-sm uppercase tracking-[0.2em]"
-                >
-                  {item.name}
-                </a>
-              ) : (
-                <Link
-                  to={item.path}
-                  onClick={() => setIsOpen(false)}
-                  className="text-sm uppercase tracking-[0.2em]"
-                >
-                  {item.name}
-                </Link>
-              )}
-            </React.Fragment>
+            <div key={item.id} onClick={() => setIsOpen(false)}>
+              <NavLink item={item} />
+            </div>
           ))}
         </motion.div>
       )}

@@ -53,7 +53,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
       { url: "https://i.postimg.cc/4xNwf3gH/Palacio_de_Rosenborg_017.jpg", caption: "La majestuosidad histórica del Palacio de Rosenborg" },
       { url: "https://i.postimg.cc/YCq8rSH8/Gliptoteca_Ny_Carlsberg_004.jpg", caption: "Arte y luz en la Gliptoteca Ny Carlsberg" },
       { url: "https://i.postimg.cc/jjS1FX51/Estación_Triangeln_(7).jpg", caption: "Arquitectura futurista en la estación de Triangeln, Malmö" },
-      { url: "https://i.postimg.cc/6p5zWQXM/Desde_el_Ayuntamiento_011.jpg", caption: "Colorido matrimonio en el Ayuntamiento de Copenhague" },
+      { url: "https://i.postimg.cc/6p5zWQXM/Desde_el_Ayuntamiento_011.jpg", caption: "Colorido matrimonio en el Ayuntamiento de Copenhague", tags: ["pareja", "boda", "matrimonio", "personas", "celebración", "ayuntamiento", "copenhague"] },
       { url: "https://i.postimg.cc/PqV7swvH/Castillo_(4).jpg", caption: "Silueta del castillo bajo el cielo plomizo del norte" },
       { url: "https://i.postimg.cc/R0ZYDRF8/Malmö_(11).jpg", caption: "Arquitectura contemporánea en el horizonte sueco" },
       { url: "https://i.postimg.cc/3wxqcBRV/Parque_Pildam_(2).jpg", caption: "Reflejos otoñales en las aguas del parque Pildamm" },
@@ -70,15 +70,15 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
       { url: "https://i.postimg.cc/pVQV0p8G/Tourning_Torso_(11).jpg", caption: "El giro infinito de Santiago Calatrava hacia las nubes" },
       { url: "https://i.postimg.cc/HLkNh2xh/Iglesia_San_Pedro_(11).jpg", caption: "Lustrosos metales en la Iglesia de San Pedro" },
       { url: "https://i.postimg.cc/XNKN2pFL/Western_Harbour_(4).jpg", caption: "El mar en el barrio sostenible de Western Harbour" },
-      { url: "https://i.postimg.cc/dVH6LKs2/Biblioteca_Real_Danesa_Diamante_negro_002.jpg", caption: "El Diamante Negro, la audaz extensión de la Biblioteca Real Danesa" },
-      { url: "https://i.postimg.cc/mgXjtGLy/Blox_Centro_de_Arquitectura_Danesa_001.jpg", caption: "Blox, el vibrante hogar del Centro de Arquitectura Danesa" },
-      { url: "https://i.postimg.cc/nhcTFLJY/Desde_el_Ayuntamiento_002_(2).jpg", caption: "Vistas panorámicas desde las alturas del Ayuntamiento" },
-      { url: "https://i.postimg.cc/t4CDqgjm/Museo_Louisiana_Calder_001.jpg", caption: "Esculturas de Alexander Calder en los jardines del Museo Louisiana" },
-      { url: "https://i.postimg.cc/htPMDGBJ/Palacio_Rosenborg.jpg", caption: "El esplendor renacentista del Palacio de Rosenborg" },
-      { url: "https://i.postimg.cc/3xJ98wT4/Parque_Churchill_001.jpg", caption: "Paseo matutino por el histórico Parque Churchill" },
-      { url: "https://i.postimg.cc/T3YQdP6K/Puerto_Nuevo_007.jpg", caption: "Nyhavn, el icónico canal de fachadas coloridas y barcos clásicos" },
-      { url: "https://i.postimg.cc/SxNVSKhL/The_Royal_Cast_Collection_moldes_esculturas_002.jpg", caption: "Moldes de yeso históricos en The Royal Cast Collection" },
-      { url: "https://i.postimg.cc/2S8Tk5DH/Iglesia_de_Mármol_(2).jpg", caption: "La imponente cúpula de la Iglesia de Mármol (Frederiks Kirke)" },
+      { url: "https://i.postimg.cc/dVH6LKs2/Biblioteca_Real_Danesa_Diamante_negro_002.jpg", caption: "El Diamante Negro, la audaz extensión de la Biblioteca Real Danesa", tags: ["arquitectura moderna", "cristal", "reflejos", "geometría", "diseño danés", "biblioteca", "negro", "minimalismo"] },
+      { url: "https://i.postimg.cc/mgXjtGLy/Blox_Centro_de_Arquitectura_Danesa_001.jpg", caption: "Blox, el vibrante hogar del Centro de Arquitectura Danesa", tags: ["arquitectura contemporánea", "blox", "vidrio", "urbano", "copenhague", "diseño", "cubos", "verde"] },
+      { url: "https://i.postimg.cc/nhcTFLJY/Desde_el_Ayuntamiento_002_(2).jpg", caption: "Vistas panorámicas desde las alturas del Ayuntamiento", tags: ["vistas aéreas", "panorámica", "ciudad", "tejados", "horizonte", "altura", "copenhague"] },
+      { url: "https://i.postimg.cc/t4CDqgjm/Museo_Louisiana_Calder_001.jpg", caption: "Esculturas de Alexander Calder en los jardines del Museo Louisiana", tags: ["arte moderno", "escultura", "jardín", "naturaleza", "calder", "museo", "aire libre", "mar"] },
+      { url: "https://i.postimg.cc/htPMDGBJ/Palacio_Rosenborg.jpg", caption: "El esplendor renacentista del Palacio de Rosenborg", tags: ["palacio", "renacimiento", "historia", "castillo", "arquitectura clásica", "ladrillo", "jardines"] },
+      { url: "https://i.postimg.cc/3xJ98wT4/Parque_Churchill_001.jpg", caption: "Paseo matutino por el histórico Parque Churchill", tags: ["parque", "naturaleza", "verde", "estatua", "mañana", "tranquilidad", "copenhague"] },
+      { url: "https://i.postimg.cc/T3YQdP6K/Puerto_Nuevo_007.jpg", caption: "Nyhavn, el icónico canal de fachadas coloridas y barcos clásicos", tags: ["canal", "agua", "mar", "barcos", "colores", "fachadas", "turismo", "clásico", "puerto", "copenhague", "dinamarca", "sin personas"] },
+      { url: "https://i.postimg.cc/SxNVSKhL/The_Royal_Cast_Collection_moldes_esculturas_002.jpg", caption: "Moldes de yeso históricos en The Royal Cast Collection", tags: ["escultura", "yeso", "arte clásico", "museo", "interior", "detalle", "blanco", "copenhague", "dinamarca", "sin personas"] },
+      { url: "https://i.postimg.cc/2S8Tk5DH/Iglesia_de_Mármol_(2).jpg", caption: "La imponente cúpula de la Iglesia de Mármol (Frederiks Kirke)", tags: ["iglesia", "cúpula", "barroco", "mármol", "arquitectura religiosa", "monumental", "copenhague"] },
       { url: "https://i.postimg.cc/5NX9K78v/Dinamarca-Suecia-desde-el-aire-001.jpg", caption: "El puente de Oresund desde al aire" }
     ]
   },
@@ -103,15 +103,15 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
     fecha: "Enero 2002",
     equipo: "Minolta X300s",
     galeria: [
-      { url: "https://i.postimg.cc/kGnr7J5b/Alto_Belvedere_01a.webp", caption: "La elegancia barroca del Palacio Belvedere Superior" },
-      { url: "https://i.postimg.cc/4ywDdDK3/Alto_Belvedere_a.webp", caption: "Detalles escultóricos que sostienen la historia imperial" },
-      { url: "https://i.postimg.cc/zvpsBsLB/Arcos_de_la_Colina_HMoore.webp", caption: "La modernidad de Henry Moore frente a la tradición vienesa" },
-      { url: "https://i.postimg.cc/J0Kfnfyz/Danubio_congelado_a.webp", caption: "El Danubio rindiéndose al abrazo del invierno" },
-      { url: "https://i.postimg.cc/MHtCTCcH/Jesuitenkirche_a.webp", caption: "Haces de luz teatral en la Iglesia de los Jesuitas" },
-      { url: "https://i.postimg.cc/tJDKTK1s/Schönbrunn_02.webp", caption: "La inmensidad de los jardines del Palacio de Schönbrunn" },
-      { url: "https://i.postimg.cc/wj07Sy7s/Música_silente.webp", caption: "Música silente: el alma de Viena capturada en sus monumentos" },
-      { url: "https://i.postimg.cc/fRBJ6tJ3/Hundertwasser.webp", caption: "La explosión de color y formas orgánicas de la Hundertwasserhaus" },
-      { url: "https://i.postimg.cc/MpdvhMvM/Abadía_de_Melk_3.webp", caption: "La majestuosidad barroca de la Abadía de Melk sobre el Danubio" }
+      { url: "https://i.postimg.cc/kGnr7J5b/Alto_Belvedere_01a.webp", caption: "La elegancia barroca del Palacio Belvedere Superior", tags: ["barroco", "palacio", "viena", "arquitectura clásica", "jardines", "patrimonio", "imperial"] },
+      { url: "https://i.postimg.cc/4ywDdDK3/Alto_Belvedere_a.webp", caption: "Detalles escultóricos que sostienen la historia imperial", tags: ["escultura", "detalle", "barroco", "piedra", "atlantes", "palacio", "viena"] },
+      { url: "https://i.postimg.cc/zvpsBsLB/Arcos_de_la_Colina_HMoore.webp", caption: "La modernidad de Henry Moore frente a la tradición vienesa", tags: ["henry moore", "escultura moderna", "viena", "austria", "contraste", "arte", "exterior", "bronce", "sin personas"] },
+      { url: "https://i.postimg.cc/J0Kfnfyz/Danubio_congelado_a.webp", caption: "El Danubio rindiéndose al abrazo del invierno", tags: ["invierno", "danubio", "río", "hielo", "frío", "paisaje", "viena", "austria", "naturaleza", "agua congelada", "sin personas"] },
+      { url: "https://i.postimg.cc/MHtCTCcH/Jesuitenkirche_a.webp", caption: "Haces de luz teatral en la Iglesia de los Jesuitas", tags: ["iglesia", "interior", "luz", "barroco", "religión", "viena", "austria", "arquitectura", "atmósfera", "sin personas"] },
+      { url: "https://i.postimg.cc/tJDKTK1s/Schönbrunn_02.webp", caption: "La inmensidad de los jardines del Palacio de Schönbrunn", tags: ["palacio", "jardines", "viena", "austria", "perspectiva", "imperial", "parque", "arquitectura", "sin personas"] },
+      { url: "https://i.postimg.cc/wj07Sy7s/Música_silente.webp", caption: "Música silente: el alma de Viena capturada en sus monumentos", tags: ["monumento", "viena", "austria", "estatua", "música", "oro", "clásico", "arte", "sin personas"] },
+      { url: "https://i.postimg.cc/fRBJ6tJ3/Hundertwasser.webp", caption: "La explosión de color y formas orgánicas de la Hundertwasserhaus", tags: ["hundertwasser", "arquitectura orgánica", "color", "viena", "diseño", "vanguardia", "fachada"] },
+      { url: "https://i.postimg.cc/MpdvhMvM/Abadía_de_Melk_3.webp", caption: "La majestuosidad barroca de la Abadía de Melk sobre el Danubio", tags: ["abadía", "barroco", "melk", "danubio", "arquitectura religiosa", "monumento", "austria"] }
     ]
   },
   {
@@ -199,18 +199,18 @@ Salgo de Basilea reconfortado por el espíritu de aquella Helvetia del Mittlere 
     fecha: "Marzo 2018",
     equipo: "Sony ILSE-6000",
      galeria: [
-      { url: "https://i.postimg.cc/HsXkHxZV/Basilea_001.webp", caption: "Augustinergasse, casco antiguo de Basilea" },
-      { url: "https://i.postimg.cc/KvB8Fzq4/Catedral_de_Basile_011.webp", caption: "La imponente Catedral de Basilea (Münster)" },
-      { url: "https://i.postimg.cc/Jz84hLvm/Fondation_Beyeler_017.webp", caption: "Arquitectura de Renzo Piano en la Fundación Beyeler" },
-      { url: "https://i.postimg.cc/T3xYP6FR/Kantonale_Verwaltung_Basel_Stadt_Marktplatz.webp", caption: "Fachada rojiza del Ayuntamiento en la Marktplatz (efecto esférico)" },
-      { url: "https://i.postimg.cc/wjzTBpZt/Rio_Rin_Torre_Roche_002_01.webp", caption: "El río Rin y la silueta de la Torre Roche" },
-      { url: "https://i.postimg.cc/sf05xsHX/Elisabethenanlage-001-01.webp", caption: "La glorieta de Elisabethenanlage en un día de invierno" }
+      { url: "https://i.postimg.cc/HsXkHxZV/Basilea_001.webp", caption: "Augustinergasse, casco antiguo de Basilea", tags: ["calle", "arquitectura", "basilea", "suiza", "casco antiguo", "edificios", "sin personas"] },
+      { url: "https://i.postimg.cc/KvB8Fzq4/Catedral_de_Basile_011.webp", caption: "La imponente Catedral de Basilea (Münster)", tags: ["catedral", "iglesia", "arquitectura religiosa", "basilea", "suiza", "piedra roja", "monumento", "sin personas"] },
+      { url: "https://i.postimg.cc/Jz84hLvm/Fondation_Beyeler_017.webp", caption: "Arquitectura de Renzo Piano en la Fundación Beyeler", tags: ["arquitectura moderna", "museo", "renzo piano", "basilea", "suiza", "jardín", "diseño", "sin personas"] },
+      { url: "https://i.postimg.cc/T3xYP6FR/Kantonale_Verwaltung_Basel_Stadt_Marktplatz.webp", caption: "Fachada rojiza del Ayuntamiento en la Marktplatz (efecto esférico)", tags: ["ayuntamiento", "basilea", "suiza", "arquitectura", "rojo", "fachada", "plaza", "sin personas"] },
+      { url: "https://i.postimg.cc/wjzTBpZt/Rio_Rin_Torre_Roche_002_01.webp", caption: "El río Rin y la silueta de la Torre Roche", tags: ["río", "agua", "rin", "basilea", "suiza", "arquitectura moderna", "rascacielos", "paisaje urbano"] },
+      { url: "https://i.postimg.cc/sf05xsHX/Elisabethenanlage-001-01.webp", caption: "La glorieta de Elisabethenanlage en un día de invierno", tags: ["parque", "invierno", "nieve", "glorieta", "basilea", "suiza", "árboles", "sin personas"] }
     ]
   },
 {
   id: "galicia",
   titulo: "Terrenal gloria en Galicia",
-  ubicacion: "Galicia-España",
+  ubicacion: "Galicia",
   resumen: "Comienza este viaje en el punto más al norte de España, el Cabo de Estaca de Bares, donde la geografía se transforma en cautivante espectáculo gracias al decorado natural que ofrecen el intenso azul atlántico, los audaces acantilados y el vivo verdor de las montañas gallegas.",
   reseña: `Comienza este viaje en el punto más al norte de España, el Cabo de Estaca de Bares, donde la geografía se transforma en cautivante espectáculo gracias al decorado natural que ofrecen el intenso azul atlántico, los audaces acantilados y el vivo verdor de las montañas gallegas. Allí, los habitantes del faro usan con ingenio la madera y la piedra para crear y faenar.
 El paisaje también es protagonista en la Playa de las Catedrales: durante muchos años, el viento y las incansables olas han horadado con paciencia los acantilados de un maravilloso trozo de costa cercana a Ribadeo y, cuando baja la marea, es posible adentrarse en su monumental creación para recorrer desde nuestra empequeñecida escala humana los imponentes arcos, columnas, murallas y pórticos naturalmente tallados en las piedras. 
@@ -230,7 +230,37 @@ Tras caminar por el entramado de calles del casco antiguo de Santiago, algunas f
   urlImagen: "https://i.postimg.cc/5NPDKYtR/Playa-de-las-Catedrales.webp",
   categoria: "España",
   fecha: "Septiembre 2017",
-  equipo: "Sony ILSE-6000"
+  equipo: "Sony ILSE-6000",
+  galeria: [
+      { url: "https://i.postimg.cc/dQGYfgS5/Lugo_Murallas_Romanas_025.webp", caption: "La robusta muralla romana de Lugo, un cinturón de piedra que abraza la historia." },
+      { url: "https://i.postimg.cc/HngfHsPN/Pontevedra_Feira_Franca_004.webp", caption: "Ambiente medieval en la Feira Franca de Pontevedra." },
+      { url: "https://i.postimg.cc/5NPDKYtR/Playa-de-las-Catedrales.webp", caption: "Los imponentes arcos naturales de la Playa de las Catedrales." },
+      { url: "https://i.postimg.cc/Gtx6pwZV/Vivero_001.webp", caption: "Elegantes construcciones en Vivero." },
+      { url: "https://i.postimg.cc/Kct2WCsn/Isla_de_Ons_Horreos_020.webp", caption: "Tradicionales hórreos en la Isla de Ons, guardianes de las cosechas." },
+      { url: "https://i.postimg.cc/CMbg296n/Cabo_de_Estaca_de_Baras_002.webp", caption: "Acantilados y el azul infinito del Atlántico en el Cabo de Estaca de Bares." },
+      { url: "https://i.postimg.cc/SQchPHt9/Cabo_de_Estaca_de_Baras_014.webp", caption: "En el faro de Estaca de Bares, el punto más septentrional de la península." },
+      { url: "https://i.postimg.cc/8kLSYxnW/Castropol.webp", caption: "La armónica silueta de Castropol reflejada en las aguas de la ría." },
+      { url: "https://i.postimg.cc/br0f22tw/Basilica_de_San_Martin_de_Mondoñedo_002.webp", caption: "La Basílica de San Martín de Mondoñedo, joya del románico en un paraje remoto." },
+      { url: "https://i.postimg.cc/j26YJJ7q/Basilica_de_San_Martin_de_Mondoñedo_012.webp", caption: "Detalles arquitectónicos de la antigua sede catedralicia de San Martín." },
+      { url: "https://i.postimg.cc/T1jvWWDY/Burela_005.webp", caption: "Burela, puerto pesquero y cuna de sabores marinos." },
+      { url: "https://i.postimg.cc/nrJ6Zcw1/Playa_de_las_Catedrales_004.webp", caption: "Formaciones rocosas esculpidas por el viento y el mar." },
+      { url: "https://i.postimg.cc/5NPDKYtR/Playa-de-las-Catedrales.webp", caption: "Caminando entre las catedrales de piedra durante la bajamar." },
+      { url: "https://i.postimg.cc/6qXDw511/Playa_de_las_Catedrales_071.webp", caption: "La escala humana frente a la monumentalidad de los acantilados gallegos." },
+      { url: "https://i.postimg.cc/8cSqDPnH/Playa_de_las_Catedrales_008.webp", caption: "Pórticos naturales tallados pacientemente por las olas." },
+      { url: "https://i.postimg.cc/NFcWYfPz/Playa_de_las_Catedrales_064.webp", caption: "Texturas y formas caprichosas en las rocas de la Playa de las Catedrales." },
+      { url: "https://i.postimg.cc/j2bGKdk3/Playa_de_las_Catedrales_023.webp", caption: "La luz del sol filtrándose entre los arcos de piedra." },
+      { url: "https://i.postimg.cc/3r2TqzbL/Lugo_Catedral_de_Santa_Maria_007.webp", caption: "Las torres de la Catedral de Santa María de Lugo emergiendo tras la muralla." },
+      { url: "https://i.postimg.cc/zDTrQ4P0/Lugo_Catedral_de_Santa_Maria_013_Virgen_de_los_Ojos_Grandes.webp", caption: "La Virgen de los Ojos Grandes, protectora y símbolo de la catedral lucense." },
+      { url: "https://i.postimg.cc/Kct2WCss/Lugo_musica_tradicional.webp", caption: "Jóvenes músicos animando las calles de Lugo con melodías tradicionales." },
+      { url: "https://i.postimg.cc/nVqJWNwq/Isla_de_Ons_004.webp", caption: "Paz y naturaleza virgen en la Isla de Ons." },
+      { url: "https://i.postimg.cc/rskvcFP6/Pontevedra_Feira_Franca_020.webp", caption: "Un búho entrenado para la cetería en la Feira Franca." },
+      { url: "https://i.postimg.cc/nrJ6Zcwy/Pontevedra_Feira_Franca_006.webp", caption: "La ciudad vieja de Pontevedra transformada en un escenario del siglo XV." },
+      { url: "https://i.postimg.cc/QCJvMGR6/Pontevedra_Feira_Franca_Praza_da_Leña_016.webp", caption: "La Plaza de la Leña en Pontevedra, epicentro del bullicio medieval." },
+      { url: "https://i.postimg.cc/J0L9m42V/Ribadeo_005.webp", caption: "Aires indianos y fachadas coloridas en la Plaza España de Ribadeo." },
+      { url: "https://i.postimg.cc/90hvVFNb/Mondoñedo_Catedral_007.webp", caption: "La Catedral de Mondoñedo, corazón de la ciudad de Álvaro Cunqueiro." },
+      { url: "https://i.postimg.cc/7hkpDYQn/Mondoñedo_Catedral_peregrino_asiático_medita.webp", caption: "Peregrino asiático en un momento de meditación en la Catedral de Mondoñedo." },
+      { url: "https://i.postimg.cc/cCBPJyVP/Santiago_de_Compostela_Catedral_Botafumeiro_016.webp", caption: "El reposo del Botafumeiro en la Catedral de Santiago, final de todos los caminos." }
+    ]
 },
 {
   id: "narbonaagde",
@@ -259,7 +289,10 @@ Al atardecer, en la estación de trenes, unas chicas interpretan a cuatro manos 
   urlImagen: "https://i.postimg.cc/bJSLNr05/Calles_de_Toulouse_010.webp",
   categoria: "Europa",
   fecha: "Septiembre 2016",
-  equipo: "Sony ILSE-6000"
+  equipo: "Sony ILSE-6000",
+  galeria: [
+    { url: "https://i.postimg.cc/bJSLNr05/Calles_de_Toulouse_010.webp", caption: "Recién casados en las calles de Toulouse", tags: ["pareja", "boda", "amor", "recién casados", "personas", "urbano", "toulouse"] }
+  ]
 },
 {
   id: "andaextrema",
@@ -369,7 +402,10 @@ Mi última parada fue una visita rasante al Museo Reina Sofía, apenas con tiemp
   urlImagen: "https://i.postimg.cc/PJxYsJMd/Gran-Via-de-Madrid-sin-trafico-2015.webp",
   categoria: "España",
   fecha: "Noviembre 2015",
-  equipo: "Samsung GT-I9505"
+  equipo: "Samsung GT-I9505",
+  galeria: [
+    { url: "https://i.postimg.cc/PJxYsJMd/Gran-Via-de-Madrid-sin-trafico-2015.webp", caption: "Pareja de novios en una Gran Vía sin tráfico", tags: ["pareja", "novios", "boda", "madrid", "gran vía", "ciudad", "personas"] }
+  ]
 },
 {
   id: "maestrazgo",
@@ -528,27 +564,27 @@ A las seis de la tarde llegamos a una Barcelona arropada todavía por la luz med
   fecha: "Mayo 2013",
   equipo: "Canon PowerShot SX200 IS",
   galeria: [
-      { url: "https://i.postimg.cc/GtMMRm0W/Bilbao_Guggenheim_011.webp", caption: "El titanio del Guggenheim reflejando la luz de Bilbao" },
-      { url: "https://i.postimg.cc/3NLLhxMP/Centro_Niemeyer_006.webp", caption: "Curvas blancas y vanguardia en el Centro Niemeyer de Avilés" },
-      { url: "https://i.postimg.cc/Znffm5tk/Oviedo_027.webp", caption: "La elegancia clásica de las calles de Oviedo" },
-      { url: "https://i.postimg.cc/d3WWFVPJ/Vistas_de_Bilbao_001.webp", caption: "Panorámica de Bilbao desde las alturas" },
-      { url: "https://i.postimg.cc/gjMMp2Fp/Paseos_en_Burgos_003.webp", caption: "Color tras los soportales en el centro de Burgos" },
-      { url: "https://i.postimg.cc/x8ssQ1DD/Castillo_de_Loarre_024.webp", caption: "Una ventana al valle desde el Castillo de Loarre" },
-      { url: "https://i.postimg.cc/1RBQYGd7/Santander_037.webp", caption: "Una casona verde en Santander" },
-      { url: "https://i.postimg.cc/y837pdgv/Catedral_de_Burgos_017.webp", caption: "La majestuosidad gótica de la Catedral de Burgos" },
-      { url: "https://i.postimg.cc/rwRqZm0j/Catedral_de_Burgos_La_escalera_Dorada.webp", caption: "La Escalera Dorada, joya renacentista de la Catedral de Burgos" },
-      { url: "https://i.postimg.cc/6p4Bb320/Luna_llena_en_Burgos_001.webp", caption: "Luna llena sobre los tejados de Burgos" },
-      { url: "https://i.postimg.cc/SKTFybMC/Parque_en_Burgos.webp", caption: "Paseo primaveral por los parques de Burgos" },
-      { url: "https://i.postimg.cc/GmTbg28z/Oviedo_Santa_María_del_Naranco_004.webp", caption: "Santa María del Naranco, joya del prerrománico asturiano" },
-      { url: "https://i.postimg.cc/TP7MRvDJ/Oviedo_Monte_el_Naranco.webp", caption: "Gallo y gato en la cima del Monte Naranco" },
-      { url: "https://i.postimg.cc/mrXfbWH3/San_Sebastián_013.webp", caption: "La elegancia de la bahía de San Sebastián" },
-      { url: "https://i.postimg.cc/Pqrns5Pv/Bilbao_Guggenheim_017.webp", caption: "Reflejos metálicos en el Museo Guggenheim de Bilbao" },
-      { url: "https://i.postimg.cc/6QGLQd7G/Santander_006.webp", caption: "Una vistosa calle de Santander" },
-      { url: "https://i.postimg.cc/mrFNrQcz/Santillana_del_Mar_006.webp", caption: "El bucólico emplazamiento de Santillana del Mar" },
-      { url: "https://i.postimg.cc/8zYmDyCB/Castillo_de_Loarre_001.webp", caption: "La imponente silueta del Castillo de Loarre" },
-      { url: "https://i.postimg.cc/cC6JscCs/León_011.webp", caption: "Dos escriben y uno lee en un banco de León" },
-      { url: "https://i.postimg.cc/6qTQ9hqw/Gijón_001.webp", caption: "El espíritu marinero de Gijón frente al mar" },
-      { url: "https://i.postimg.cc/0jrN8Cjs/Basílica_del_Pilar_Zaragoza_005.webp", caption: "La Basílica del Pilar en Zaragoza" }
+      { url: "https://i.postimg.cc/GtMMRm0W/Bilbao_Guggenheim_011.webp", caption: "El titanio del Guggenheim reflejando la luz de Bilbao", tags: ["arquitectura moderna", "museo", "titanio", "reflejos", "bilbao", "guggenheim", "metal", "curvas", "sin personas"] },
+      { url: "https://i.postimg.cc/3NLLhxMP/Centro_Niemeyer_006.webp", caption: "Curvas blancas y vanguardia en el Centro Niemeyer de Avilés", tags: ["arquitectura contemporánea", "niemeyer", "blanco", "curvas", "avilés", "vanguardia", "hormigón", "sin personas"] },
+      { url: "https://i.postimg.cc/Znffm5tk/Oviedo_027.webp", caption: "La elegancia clásica de las calles de Oviedo", tags: ["calle", "ciudad", "arquitectura clásica", "oviedo", "urbano", "elegancia", "fachadas", "sin personas"] },
+      { url: "https://i.postimg.cc/d3WWFVPJ/Vistas_de_Bilbao_001.webp", caption: "Panorámica de Bilbao desde las alturas", tags: ["vistas aéreas", "panorámica", "ciudad", "bilbao", "autopista", "casas", "urbano", "sin agua", "sin personas"] },
+      { url: "https://i.postimg.cc/gjMMp2Fp/Paseos_en_Burgos_003.webp", caption: "Color tras los soportales en el centro de Burgos", tags: ["burgos", "soportales", "color", "arquitectura tradicional", "calle", "paseo", "sin personas"] },
+      { url: "https://i.postimg.cc/x8ssQ1DD/Castillo_de_Loarre_024.webp", caption: "Una ventana al valle desde el Castillo de Loarre", tags: ["castillo", "ventana", "vistas", "paisaje", "valle", "piedra", "historia", "loarre", "sin personas"] },
+      { url: "https://i.postimg.cc/1RBQYGd7/Santander_037.webp", caption: "Una casona verde en Santander", tags: ["arquitectura tradicional", "casa", "verde", "santander", "fachada", "detalles", "sin personas"] },
+      { url: "https://i.postimg.cc/y837pdgv/Catedral_de_Burgos_017.webp", caption: "La majestuosidad gótica de la Catedral de Burgos", tags: ["catedral", "gótico", "burgos", "arquitectura religiosa", "piedra", "monumento", "patrimonio", "sin personas"] },
+      { url: "https://i.postimg.cc/rwRqZm0j/Catedral_de_Burgos_La_escalera_Dorada.webp", caption: "La Escalera Dorada, joya renacentista de la Catedral de Burgos", tags: ["escalera", "oro", "renacimiento", "interior", "catedral", "burgos", "detalle", "arte", "sin personas"] },
+      { url: "https://i.postimg.cc/6p4Bb320/Luna_llena_en_Burgos_001.webp", caption: "Luna llena sobre los tejados de Burgos", tags: ["noche", "luna", "burgos", "ciudad", "tejados", "atmósfera", "cielo", "sin personas"] },
+      { url: "https://i.postimg.cc/SKTFybMC/Parque_en_Burgos.webp", caption: "Paseo primaveral por los parques de Burgos", tags: ["parque", "naturaleza", "verde", "árboles", "burgos", "primavera", "paseo", "sin personas"] },
+      { url: "https://i.postimg.cc/GmTbg28z/Oviedo_Santa_María_del_Naranco_004.webp", caption: "Santa María del Naranco, joya del prerrománico asturiano", tags: ["prerrománico", "asturias", "oviedo", "piedra", "monumento", "historia", "arquitectura antigua", "sin agua", "sin personas"] },
+      { url: "https://i.postimg.cc/TP7MRvDJ/Oviedo_Monte_el_Naranco.webp", caption: "Gallo y gato en la cima del Monte Naranco", tags: ["animales", "gallo", "gato", "naturaleza", "monte", "oviedo", "cima", "vistas", "sin personas"] },
+      { url: "https://i.postimg.cc/mrXfbWH3/San_Sebastián_013.webp", caption: "Una pareja contempla la elegancia de la bahía de San Sebastián", tags: ["mar", "bahía", "playa", "san sebastián", "costa", "agua", "ciudad", "paisaje", "sin personas"] },
+      { url: "https://i.postimg.cc/Pqrns5Pv/Bilbao_Guggenheim_017.webp", caption: "Reflejos metálicos en el Museo Guggenheim de Bilbao", tags: ["bilbao", "guggenheim", "metal", "reflejos", "arquitectura moderna", "museo", "detalle", "sin personas"] },
+      { url: "https://i.postimg.cc/6QGLQd7G/Santander_006.webp", caption: "Una vistosa calle de Santander", tags: ["calle", "ciudad", "santander", "urbano", "fachadas", "color", "sin personas"] },
+      { url: "https://i.postimg.cc/mrFNrQcz/Santillana_del_Mar_006.webp", caption: "El bucólico emplazamiento de Santillana del Mar", tags: ["pueblo", "histórico", "santillana del mar", "piedra", "tradicional", "paisaje", "sin agua", "sin personas"] },
+      { url: "https://i.postimg.cc/8zYmDyCB/Castillo_de_Loarre_001.webp", caption: "La imponente silueta del Castillo de Loarre", tags: ["castillo", "loarre", "piedra", "fortaleza", "historia", "montaña", "monumento", "sin personas"] },
+      { url: "https://i.postimg.cc/cC6JscCs/León_011.webp", caption: "Dos escriben y uno lee en un banco de León", tags: ["personas", "gente", "banco", "león", "ciudad", "vida cotidiana", "escritura"] },
+      { url: "https://i.postimg.cc/6qTQ9hqw/Gijón_001.webp", caption: "El espíritu marinero de Gijón frente al mar", tags: ["mar", "gijón", "puerto", "costa", "agua", "ciudad", "asturias", "sin personas"] },
+      { url: "https://i.postimg.cc/0jrN8Cjs/Basílica_del_Pilar_Zaragoza_005.webp", caption: "La Basílica del Pilar en Zaragoza", tags: ["basílica", "zaragoza", "pilar", "arquitectura religiosa", "monumento", "plaza", "personas", "gente", "sin agua"] }
     ]
 },
   // --- PEGA AQUÍ TUS PRÓXIMOS 40+ VIAJES ---
