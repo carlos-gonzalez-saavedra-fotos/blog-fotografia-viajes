@@ -343,6 +343,51 @@ La mañana siguiente, aunque el tiempo apremiaba, no resistimos la tentación de
   equipo: "Sony ILSE-6000"
 },
 {
+  id: "torino",
+  titulo: "Sabores y saberes",
+  ubicacion: "Turín",
+  resumen: "Otro mundo existe y su capital está en Turín. Lo habitan singulares criaturas que orbitan en la galaxia Slow Food y que cada dos años llevan en masa al Salón del Gusto la diversidad de su principal patrimonio...",
+  reseña: `Otro mundo existe y su capital está en Turín. Lo habitan singulares criaturas que orbitan en la galaxia Slow Food y que cada dos años llevan en masa al Salón del Gusto la diversidad de su principal patrimonio: alimentos buenos (nacen de las aptitudes de los productores), limpios (respetan el medio ambiente y se valen de prácticas sostenibles) y justos (crean dignas condiciones de empleo y generan retribuciones adecuadas).
+Dejarse abducir por los aromas, texturas y sabores de este caldero de excelente gastronomía, es una experiencia casi sobrenatural, y como todo lo que pueda contarse a posteriori sobre lo que allí pasa sabrá a poco, lo mejor será resumir la experiencia vivida en los distintos viajes enmarcados dentro de un viaje de tres días por los Laboratorios del Gusto, verdaderas salas situacionales del saber gastronómico universal.
+Para comenzar, y sin moverme de Turín, asciendo al Feltrino-Primiero (68 mil habitantes, 800 kilómetros cuadrados), una tierra de montaña, a caballo entre las provincias de Belluno y Trento, al norte de Italia, que, ante la amenaza de la emigración y el abandono de la agricultura, acoge hoy, complacida, a pequeños productores que trabajan en iniciativas sostenibles y coherentes con el territorio y su historia. Pruebo el resultado y experimento cierto ascenso místico: panes y galletas hechos con una variedad local de maíz, conocida como Dorotea; trucha salvaje ahumada; menestra de alubias gialét y una antigua cebada descascarillada del valle de Belluno (grano cultivado durante siglos, conocido por su alto contenido de fibra y nutrientes); miel milflores de alta montaña; nueces feltrinas (variedad que estuvo a punto de desaparecer tras utilizarse los nogales para hacer leña); y dos cervezas marca Pedavena, elaboradas con agua de los Dolomitas y con la cebada del Belluno. La fábrica de cerveza Pedavena, fundada en 1897 por los hermanos Luciani, se encuentra en el noreste de Italia, en la provincia de Veneto, al pie del monte Avena, en el Parque Nacional de los Dolomitas Belluneses. Una de las características que hacen que estas cervezas sean tan particulares, es el uso de agua de manantial de los Alpes Dolomitas, una región declarada Patrimonio de la Humanidad por la UNESCO.
+Sigo en el Salón del Gusto de Turín, pero cruzo sensorialmente la frontera con Francia para disfrutar las maravillas de Les Fromageries Marcel Petite, una de las mayores productoras de Comté, queso de leche cruda de vaca de la región francesa de Jura-Haut Doubs. Por allí las vacas de raza Montbéliarde y Simmental pastan en un edén de ¡150 especies distintas de hierba! y trasmiten a los quesos las esencias de tan variada dieta. En las cooperativas locales, llamadas fruitières, se recolecta la leche del ordeño para transformarla en queso. Después de la producción, los quesos se someten a un proceso de maduración lento y cuidadoso en un lugar muy peculiar: el Fort Saint-Antoine, una antigua fortaleza militar situada a 1.115 metros de altitud en el Jura. Este recinto ofrece condiciones óptimas para el afinado del queso, con una temperatura constante y una humedad perfecta. Los quesos se maduran durante un período que puede variar de 6 a 30 meses, desarrollando una gama de sabores que van desde notas frutales y nuez, hasta matices más complejos y profundos.
+Participo de una degustación horizontal en la que cada uno de los seis quesos seleccionados (de 12, 16 y 24 meses de maduración) se prueba con tres vinos blancos (Chardonnay 2005 de Domaine de Montbougeau, Naturé 2008 y Château Chalon 2002 de Jean Berthet Bondet, este último, considerado uno de los mejores vinos blancos de Francia, se elabora exclusivamente con la uva Savagnin, una variedad autóctona del Jura). Catar un queso tiene su técnica: hay que partir los trozos con las manos frente a la nariz para captar en un instante toda la intensidad de su aroma. Pueden surgir así fragancias de frutos secos, de pan tostado, de naranja madura, de vainilla… Para finalizar, el maestro quesero nos da un consejo: “Cuando se compra un queso suele juzgársele por su físico; pero el queso se basa en su carácter, no en su aspecto externo. Busquen quesos de leche cruda, de vacas que pasten en la hierba y que sean el producto de la tierra donde se hacen”.
+Una egresada de la Universidad de Estudios Gastronómicos de Turín, invitada al panel de expertos que aportan a la cata fundados comentarios, interviene para explicar que, aunque es difícil producir quesos de este tipo en la montaña, se trata de un trabajo gratificante porque permite mantener unidas a las familias y evita que los jóvenes se vean obligados a abandonar el campo. Mientras habla, se emociona y deja escapar unas sentidas lágrimas, quizás pensando en su propia experiencia.
+Bajo de la cadena montañosa del Jura y regreso a Italia para conocer el proyecto del Parque Agrícola Sur de Milán, un mercado urbano de excelencia que permite el encuentro de los productores que trabajan en un radio de 40 kilómetros alrededor de la ciudad. Pruebo algunos frutos de este proyecto: quesos biológicos de los hermanos Brambilla (ricota, mozzarella y un curado de dos años); mortadela de hígado de Gilardi, un embutido delicado al que llaman fidighin y que mezcla especias como canela, clavo, nuez moscada, pimienta y ralladura de limón, además de un toque de vino tinto Barbera; los quesos Miracolo de la matemática Chiara, “la mejor productora de quesos de cabra de Italia” (memorable el que envejece envuelto en hojas de castaño); verduras biológicas de estación; y las mieles de Veca: una, casi transparente, ideal para acompañar quesos frescos, una milflores con regusto a moscatel, una de castaño (amarga), y “una miel para los que no le gusta la miel”, muy densa y que podría sustituir perfectamente a la Nutella. Se trata de la miel de mielato, que se obtiene de la savia de los árboles, en lugar del néctar de las flores, lo que le da un perfil de sabor único y menos floral. Tiene un sabor más suave y menos dulce que la miel tradicional. Y su textura espesa y cremosa la convierte en un sustituto perfecto para untar en pan o acompañar con frutas y quesos.
+Esta selecta muestra de la producción del Parque Agrícola Sur de Milán se acompaña con dos cervezas fermentadas en botella del monasterio Cascinazza (Buccinasco), ubicado a siete kilómetros del Duomo de Milán. Los monjes benedictinos de este monasterio producen cervezas artesanales (Cascinazza Blond, Amber, Bruin y Kriek) siguiendo métodos tradicionales y con un esmero que se refleja en la calidad de sus productos. Una de las características propias de estas cervezas es su fermentación en botella, similar al proceso utilizado para el champán. Este método permite que la cerveza desarrolle una complejidad de sabores y una efervescencia natural. Los monjes productores, al ser de clausura, excusaron su asistencia a la presentación.
+De tierras milanesas viajo finalmente hasta la Alta Franconia, conocida en alemán como Oberfranken, una de las siete regiones administrativas del estado de Baviera, en Alemania. Tiene un millón de habitantes, 200 productores de cervezas y mil tipos distintos de birras, de las que degusto sólo seis, de baja fermentación (al ritmo de la cata, necesitaría dos años y medio para probarlas todas). Estos alemanes se las ingenian para producir cervezas muy distintas combinando solo cuatro ingredientes básicos: cebada, malta, lúpulo y agua. Pruebo una Pilsen biológica; una cerveza no filtrada de gusto frutal (melón, pera madura); otra de aroma acaramelado e intenso color; una de notas ahumadas bautizada como Mephisto (analogía humo-infierno) y producida desde el año 1.600 por una empresa familiar; una cerveza oscura, de alto porcentaje de malta, muy calórica e ideal para el invierno; y acabo con una birra de tipo Lager, dulzona. “Maridamos” las cervezas con pan negro de 100% granos integrales y una variedad de salchichas cocidas tipo Würstel, de la charcutería Gross.
+Muchas más cosas podrían contarse de estas intensas jornadas, como una maravillosa cena de comida piamontesa en la Trattoria Valgranda, con protagonismo del legendario vino Barbaresco y de la bagna cauda (especie de fondeé en la que se bañan verduras crudas y cocidas en una salsa caliente de anchoas, ajos y aceite de oliva); los paseos por el monumental centro de Turín; la visita al Museo Egipcio y su espectacular sala negra; el recorrido por Porta Palatzzo, el mercado libre más grande de Europa; el viaje por carretera Barcelona-Turín-Barcelona, que atraviesa los Alpes nevados; y, sobre todo, la compañía de un clan de ilustres cicerones encabezados por Antonio Pasquali, capaces de crear a su alrededor verdaderos laboratorios ambulantes del gusto y del conocimiento.`,
+  urlImagen: "https://i.postimg.cc/wvhdLwf8/Portales_de_Turín_3.webp",
+  categoria: "Europa",
+  fecha: "Octubre 2010",
+  equipo: "Canon PowerShot SX200 IS",
+  galeria: [
+      { url: "https://i.postimg.cc/4dCgYD10/Laboratorio_Milano_Mieles_Salón_del_Gusto.webp", caption: "Degustación de mieles artesanales en el Laboratorio del Gusto de Turín." },
+      { url: "https://i.postimg.cc/W3MPg59x/Porchetto_3_Salón_del_Gusto.webp", caption: "Exhibición de productos cárnicos tradicionales en el Salón del Gusto." },
+      { url: "https://i.postimg.cc/wvhdLwf8/Portales_de_Turín_3.webp", caption: "La elegancia arquitectónica de los portales de Turín." },
+      { url: "https://i.postimg.cc/zBmrysjJ/Piazza_San_Carlo_2.webp", caption: "La majestuosa Piazza San Carlo, el salón de Turín." },
+      { url: "https://i.postimg.cc/4dCgYD5R/Piazza_Castello.webp", caption: "Piazza Castello, el corazón histórico y político de la ciudad." },
+      { url: "https://i.postimg.cc/SsWpCgTp/Puente.webp", caption: "Vistas sobre el río Po desde uno de los puentes de Turín." },
+      { url: "https://i.postimg.cc/vBRs4Jvt/Centro_de_Turín_4.webp", caption: "Arquitectura monumental en el centro histórico de Turín." },
+      { url: "https://i.postimg.cc/9M3hD6BP/Laboratorio_Alta_Franconia_Cervezas_Salón_del_Gusto.webp", caption: "Cata de cervezas tradicionales de la Alta Franconia alemana." },
+      { url: "https://i.postimg.cc/TwrXgtkz/Portales_de_Turín.webp", caption: "Paseo bajo los infinitos soportales que caracterizan a Turín." },
+      { url: "https://i.postimg.cc/tThHWBS9/Terra_Madre_1_Salón_del_Gusto.webp", caption: "Encuentro de comunidades de productores en Terra Madre." },
+      { url: "https://i.postimg.cc/63sX8khz/Laboratorio_Alta_Franconia_Salón_del_Gusto.webp", caption: "Aprendiendo sobre la cultura cervecera de Baviera en el Salón del Gusto." },
+      { url: "https://i.postimg.cc/ydqHDMPq/Museo_Egipcio_10.webp", caption: "Tesoros milenarios en el Museo Egipcio de Turín, el segundo más importante del mundo." },
+      { url: "https://i.postimg.cc/50cVXhmT/Museo_Egipcio_2.webp", caption: "Esculturas faraónicas en la espectacular sala negra del Museo Egipcio." },
+      { url: "https://i.postimg.cc/JnwLsfq8/Museo_Egipsio_Granadas.webp", caption: "Curiosos detalles de la vida cotidiana en el antiguo Egipto." },
+      { url: "https://i.postimg.cc/pTNHmwB1/Laboratorio_Milano_2_Cervezas_Salón_del_Gusto.webp", caption: "Cervezas artesanales del monasterio Cascinazza de Milán." },
+      { url: "https://i.postimg.cc/85hVMZKG/Quesos_Salón_del_Gusto.webp", caption: "Vistosos quesos en el Salón del Gusto." },
+      { url: "https://i.postimg.cc/DZqKLxjn/Salón_del_Gusto_5_Salón_del_Gusto.webp", caption: "Ambiente vibrante y diversidad gastronómica." },
+      { url: "https://i.postimg.cc/mDQGCmXb/Salón_del_Gusto_7_Salón_del_Gusto.webp", caption: "Explorando los sabores del mundo en el caldero de Slow Food." },
+      { url: "https://i.postimg.cc/C1ygR34G/Lab_Milano_Panes_Salón_del_Gusto.webp", caption: "Panes biológicos y productos del Parque Agrícola Sur de Milán." },
+      { url: "https://i.postimg.cc/nz8JXy1y/Museo_Egipcio_14.webp", caption: "Inmersión en la historia antigua en las salas del Museo Egipcio." },
+      { url: "https://i.postimg.cc/Ss0hnBG5/Museo_Egipcio_8.webp", caption: "Estatuas monumentales que custodian el legado de los faraones." },
+      { url: "https://i.postimg.cc/fL4NVGv1/Museo_Egipcio_9.webp", caption: "Detalle de la colección lapidaria del Museo Egipcio." },
+      { url: "https://i.postimg.cc/Qtpr1f48/Trattoria_Valgranda_2_Torino.webp", caption: "Cena tradicional piamontesa en la Trattoria Valgranda." }
+       ]
+},
+{
   id: "harorioja",
   titulo: "Al corazón de La Rioja",
   ubicacion: "Haro-La Rioja",
@@ -692,7 +737,7 @@ export const MIS_FOTOS: Photo[] = [
   id: "GaleARP", 
   url: "https://i.postimg.cc/pL8yp3hf/UCV_Caracas_Jean_Arp_Pastor_de_nubes_003.webp", 
   titulo: "Jean ARP", 
-  ubicacion: "   ",
+  ubicacion: "Jean ARP",
   galeriaTematica: [
     { url: "https://i.postimg.cc/Dwsm8RJq/Museo_Louisiana_de_arte_moderno_Dinamarca_Arp_Concrétion_humaine_sur_coupe_ovale_1948.webp", caption: "Concrétion humaine sur coupe ovale (1948) en el Museo Louisiana de Arte Moderno, Humlebæk, Dinamarca (2019)" },
     { url: "https://i.postimg.cc/x1HqcBJm/Jean_Arp_Feuille_se_reposant_1965_Calle_de_Ginebra.webp", caption: "Feuille se reposant (1965) en Quai Turrettini, a orillas del Ródano, Ginebra, Suiza (2015)" },
@@ -710,9 +755,9 @@ export const MIS_FOTOS: Photo[] = [
   },
   { 
   id: "GaleDeporte", 
-  url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCN_2010_(3).webp", 
+  url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCY_2010_(3).webp", 
   titulo: "Deportes", 
-  ubicacion: "   ",
+  ubicacion: "Deportes",
   galeriaTematica: [
     { url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCN_2010_(3).webp", caption: "Esfuerzo y superación en la pista de Montjuïc" },
     { url: "https://i.postimg.cc/hvvHbTmq/Ciclista_en_Atocha.webp", caption: "El ritmo frenético del ciclismo urbano en Madrid" },
@@ -738,7 +783,7 @@ export const MIS_FOTOS: Photo[] = [
    },
   { id: "GaleSalamanca", 
     url: "https://i.postimg.cc/MHzrdRj1/Catedral_de_Salamanca_14.webp", 
-    titulo: "   ", 
+    titulo: "Salamanca", 
     ubicacion: "Salamanca",
     galeriaTematica: [
       { url: "https://i.postimg.cc/MHzrdRj1/Catedral_de_Salamanca_14.webp", caption: "La piedra de Villamayor encendida por el sol poniente" },
@@ -770,6 +815,6 @@ export const MIS_FOTOS: Photo[] = [
     ]    
   },
   
-  { id: "f6", url: "https://i.postimg.cc/65Pvchn0/Gego-en-el-Macba-2006-04.webp", titulo: "Arte & Museos", ubicacion: "" },
+  { id: "f6", url: "https://i.postimg.cc/65Pvchn0/Gego-en-el-Macba-2006-04.webp", titulo: "Arte & Museos", ubicacion: "Barcelona" },
   // --- LA IA PUEDE AYUDARTE A LLENAR ESTA LISTA HASTA 500 ---
 ];

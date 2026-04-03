@@ -261,12 +261,12 @@ export const ReviewDetail = () => {
                 {/* Header de Información (Ubicación + Contador) */}
                 <div className="w-full flex justify-between items-center mb-6">
                   <div className="text-left pr-8">
-                    <div className="text-white/60 text-[9px] md:text-[10px] uppercase tracking-[0.4em] leading-tight">
-                      <span className="block text-gold">{viaje.ubicacion}</span>
-                    </div>
+                    <h3 className="text-[10px] uppercase tracking-[0.5em] text-gold whitespace-nowrap">
+                      {viaje.ubicacion}
+                    </h3>
                   </div>
                   <div className="text-right whitespace-nowrap">
-                    <span className="text-gold font-normal text-[10px] md:text-xs tracking-[0.5em] uppercase opacity-80">
+                    <span className="text-white/40 text-[10px] tracking-widest uppercase">
                       {selectedIndex! + 1} / {viaje.galeria.length}
                     </span>
                   </div>
