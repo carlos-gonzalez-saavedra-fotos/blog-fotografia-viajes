@@ -38,6 +38,7 @@ export const Navbar = () => {
     { name: 'Inicio', path: '/', id: 'inicio', isPage: true },
     { name: 'Viajes', path: '/#viajes', id: 'viajes', isPage: false },
     { name: 'Galería', path: '/#galeria', id: 'galeria', isPage: false },
+    { name: 'Explorar', path: '/explorar', id: 'explorar', isPage: true },
     { name: 'El Autor', path: '/#el-autor', id: 'el-autor', isPage: false }
   ];
 

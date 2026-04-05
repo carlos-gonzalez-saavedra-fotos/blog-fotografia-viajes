@@ -109,7 +109,7 @@ export const ReviewDetail = () => {
       </div>
 
       {/* Content */}
-      <div className="max-w-4xl mx-auto px-6 py-24">
+      <div className="max-w-6xl mx-auto px-6 py-24">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Sidebar Info */}
           <div className="md:col-span-1 space-y-8">
@@ -153,7 +153,7 @@ export const ReviewDetail = () => {
                     <div className="h-[1px] flex-grow bg-white/10" />
                   </div>
                   
-                  <div className="columns-1 md:columns-2 gap-6 space-y-6">
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
                     {viaje.galeria.slice(0, 6).map((item, index) => {
                       const imgUrl = typeof item === 'string' ? item : item.url;
                       const caption = typeof item === 'string' ? '' : item.caption;
@@ -166,13 +166,13 @@ export const ReviewDetail = () => {
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true }}
                           transition={{ delay: index * 0.1 }}
-                          className="break-inside-avoid overflow-hidden border border-white/5 group relative cursor-zoom-in"
+                          className="aspect-square overflow-hidden border border-white/5 group relative cursor-zoom-in"
                           onClick={() => setSelectedIndex(index)}
                         >
                           <img 
                             src={imgUrl} 
                             alt={caption || `${viaje.titulo} - ${index + 1}`}
-                            className={`w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-700 ${isLastVisible ? 'blur-[2px]' : ''}`}
+                            className={`w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ${isLastVisible ? 'blur-[2px]' : ''}`}
                             loading="lazy"
                             referrerPolicy="no-referrer"
                           />
