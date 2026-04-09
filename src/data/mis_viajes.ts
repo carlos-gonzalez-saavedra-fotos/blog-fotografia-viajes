@@ -463,7 +463,7 @@ Pero nunca el esfuerzo es en vano: por las calles te esperan cuidados empedrados
 Se come bien por estos lares, donde el frío anima a probar solomillos de jabalí, guisos de ciervo, cecinas de vaca, perdices salvajes escabechadas en aceite, panes dormidos y dulces cuajadas de leche de oveja.
 Son grandes pueblos de reducido tamaño y escasa población, emplazados en paisajes tan sobrios como encantadores.
 Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otros no menos singulares, como Peñíscola, en la vecina provincia de Castellón. En el imponente castillo templario que domina este peñón metido en el mar, ejerció su papado Benedicto XIII, conocido como el Papa Luna. Y a pocos kilómetros de allí, en la desembocadura del río Ebro, las piedras dan paso a un paisaje horizontal, donde se mezclan los intensos azules del Mediterráneo con el verdor profundo de los arrozales.`,
-  urlImagen: "https://i.postimg.cc/FzWqNf56/Morella-026.webp",
+  urlImagen: "https://i.postimg.cc/sv59zcmM/Valencia-009.webp",
   categoria: "España",
   fecha: "Noviembre 2014",
   equipo: "Nikon COOLPIX L820"
