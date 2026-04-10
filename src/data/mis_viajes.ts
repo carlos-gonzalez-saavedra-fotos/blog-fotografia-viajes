@@ -463,10 +463,314 @@ Pero nunca el esfuerzo es en vano: por las calles te esperan cuidados empedrados
 Se come bien por estos lares, donde el frío anima a probar solomillos de jabalí, guisos de ciervo, cecinas de vaca, perdices salvajes escabechadas en aceite, panes dormidos y dulces cuajadas de leche de oveja.
 Son grandes pueblos de reducido tamaño y escasa población, emplazados en paisajes tan sobrios como encantadores.
 Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otros no menos singulares, como Peñíscola, en la vecina provincia de Castellón. En el imponente castillo templario que domina este peñón metido en el mar, ejerció su papado Benedicto XIII, conocido como el Papa Luna. Y a pocos kilómetros de allí, en la desembocadura del río Ebro, las piedras dan paso a un paisaje horizontal, donde se mezclan los intensos azules del Mediterráneo con el verdor profundo de los arrozales.`,
-  urlImagen: "https://i.postimg.cc/FzWqNf56/Morella-026.webp",
+  urlImagen: "https://i.postimg.cc/HshSQv7r/Peñíscola_044.webp",
   categoria: "España",
   fecha: "Noviembre 2014",
-  equipo: "Nikon COOLPIX L820"
+  equipo: "Nikon COOLPIX L820",
+  galeria: 
+    [
+  {
+    "url": "https://i.postimg.cc/vZXZq9bg/Albarracin-022.webp",
+    "caption": "Vista panorámica del histórico pueblo de Albarracín en otoño",
+    "tags": [
+      "Albarracín",
+      "Otoño",
+      "Pueblo medieval",
+      "Paisaje",
+      "Arquitectura"
+    ],
+    "alt": "Vista panorámica del histórico pueblo de Albarracín en otoño. En primer plano, se aprecian tejados de teja. El pueblo se extiende por la ladera, destacando una iglesia con torre campanario de cúpula colorida. Un vibrante follaje otoñal, con árboles en tonos rojos y amarillos, llena el valle y las laderas. Al fondo, se elevan montañas rocosas bajo un cielo claro, creando un contraste espectacular entre la arquitectura medieval y la naturaleza."
+  },
+  {
+    "url": "https://i.postimg.cc/Gmzm7YdT/Albarracin-025.webp",
+    "caption": "Una vista de Albarracín con casas de tonos rojizos y tejados",
+    "tags": [
+      "Albarracín",
+      "pueblo medieval",
+      "arquitectura tradicional",
+      "murallas históricas",
+      "paisaje urbano",
+      "España"
+    ],
+    "alt": "Una vista pintoresca de un pueblo medieval con casas de tonos rojizos y tejados de teja. Las calles estrechas y sinuosas están bordeadas por edificios con balcones de forja y farolas antiguas. En el fondo, una imponente muralla histórica corona una colina escarpada, añadiendo al encanto y la antigüedad del lugar."
+  },
+  {
+    "url": "https://i.postimg.cc/Dw5wjsnX/Calaceite-002.webp",
+    "caption": "Una encantadora fachada de piedra clara, característica de Calaceite",
+    "tags": [
+      "Calaceite",
+      "arquitectura tradicional",
+      "fachada de piedra",
+      "pueblo antiguo",
+      "balcón",
+      "escaleras"
+    ],
+    "alt": "Una encantadora fachada de piedra clara, característica de un pueblo histórico. Destacan un ventanal de madera oscura, un balcón con plantas y un gran arco que da paso a unas amplias escaleras de piedra. La luz del sol crea fuertes contrastes de sombras, realzando la textura de la mampostería y la riqueza arquitectónica del lugar. La escena evoca la atmósfera cálida y tradicional de una calle mediterránea."
+  },
+  {
+    "url": "https://i.postimg.cc/x1g1xHnc/Calaceite-008-JPG-1.webp",
+    "caption": "Puerta de madera robusta y envejecida, adornada con remaches metálicos, enmarca una vista interior",
+    "tags": [
+      "Calaceite",
+      "madera",
+      "piedra",
+      "arquitectura",
+      "escalera",
+      "rústico",
+      "antiguo",
+      "detalle",
+      "puerta",
+      "barandilla"
+    ],
+    "alt": "Una puerta de madera robusta y envejecida, adornada con remaches metálicos, enmarca una vista interior. Al fondo, una pared de piedra irregular con iluminación cálida crea un ambiente rústico. A la derecha, una elegante escalera de madera oscura, con una barandilla torneada y un poste de inicio esculpido, invita a descender, añadiendo profundidad y misterio a la escena."
+  },
+  {
+    "url": "https://i.postimg.cc/sgKg6Ss7/Calaceite-011.webp",
+    "caption": "Contrapicado de la elaborada fachada de piedra de una iglesia de estilo barroco en Calaceite",
+    "tags": [
+      "Calaceite",
+      "arquitectura",
+      "barroco",
+      "iglesia",
+      "piedra",
+      "historia"
+    ],
+    "alt": "Una vista en contrapicado de la elaborada fachada de piedra de un edificio histórico, presumiblemente una iglesia de estilo barroco. La luz solar incide fuertemente, creando contrastes marcados y resaltando los intrincados detalles arquitectónicos, como las columnas salomónicas y los relieves decorativos. Se aprecian dos grandes puertas de madera o metal con texturas, flanqueadas por pilastras y ornamentos. La construcción es de un tono cálido, reflejando la antigüedad y la riqueza artística."
+  },
+  {
+    "url": "https://i.postimg.cc/YC8CngM1/Calaceite-015.webp",
+    "caption": "Arco de piedra antiguo que sirve de paso a una calle empedrada en Calaceite",
+    "tags": [
+      "Calaceite",
+      "Arquitectura histórica",
+      "Arco de piedra",
+      "Balcón de hierro",
+      "Callejón",
+      "Patrimonio cultural"
+    ],
+    "alt": "La imagen muestra un arco de piedra antiguo que sirve de paso a una calle empedrada en un pueblo histórico. Sobre el arco se aprecia un balcón con una barandilla de hierro forjado y una puerta de madera. Los detalles arquitectónicos, incluyendo inscripciones como \"AVE\" y \"MARIA\" en las pilastras, y los edificios de piedra al fondo, evocan un entorno tradicional y posiblemente medieval, típico de alguna región de España o el sur de Europa."
+  },
+  {
+    "url": "https://i.postimg.cc/fR5R2XD7/Cantavieja-001.webp",
+    "caption": "Casas de piedra con tejados rojos se asienta precariamente sobre un imponente acantilado rocoso en Cantavieja",
+    "tags": [
+      "Cantavieja",
+      "acantilado",
+      "pueblo",
+      "arquitectura_rural",
+      "otoño",
+      "paisaje"
+    ],
+    "alt": "Una pintoresca aldea de casas de piedra con tejados rojos se asienta precariamente sobre un imponente acantilado rocoso. Abajo, árboles con follaje otoñal vibrante en tonos dorados y anaranjados añaden calidez al paisaje. La escena combina la tenacidad de la construcción humana con la belleza dramática de la naturaleza, creando una vista serena y vertical de un clásico 'pueblo colgado'."
+  },
+  {
+    "url": "https://i.postimg.cc/kgwg18qv/Cantavieja-006.webp",
+    "caption": "Cantavieja: un pintoresco pueblo tradicional encaramado en el borde de un escarpado acantilado",
+    "tags": [
+      "Cantavieja",
+      "pueblo",
+      "acantilado",
+      "arquitectura tradicional",
+      "paisaje",
+      "tejados rojos"
+    ],
+    "alt": "La imagen muestra un pintoresco pueblo tradicional encaramado en el borde de un escarpado acantilado. Las casas de piedra, con sus característicos tejados de teja roja, se integran armoniosamente en el paisaje rocoso. Se aprecia una carretera serpenteando en la distancia y vegetación exuberante en primer plano, añadiendo profundidad a esta vista de un asentamiento único."
+  },
+  {
+    "url": "https://i.postimg.cc/BnRVG7qR/Fresneda-001.webp",
+    "caption": "Una vista en perspectiva de un pórtico, característico del pueblo medieval de Fresneda",
+    "tags": [
+      "Fresneda",
+      "Arquitectura",
+      "Medieval",
+      "Pórtico",
+      "Piedra",
+      "Madera"
+    ],
+    "alt": "Una vista en perspectiva de un pórtico o pasillo cubierto, característico de un pueblo medieval. A la izquierda, paredes de piedra con puertas rústicas de madera y vigas del mismo material sobre ellas. El techo muestra un entramado de vigas de madera oscura sobre un fondo claro. A la derecha, una sucesión de arcos de piedra crea una galería abierta, proyectando sombras. El suelo es un sendero claro que se adentra en la distancia, invitando a explorar este espacio histórico."
+  },
+  {
+    "url": "https://i.postimg.cc/rw7PLZV6/Mirambel-004.webp",
+    "caption": "Vista de una fachada histórica en Mirambel, posiblemente de estilo Mudejar, con mampostería, paneles enlucidos y vigas de madera",
+    "tags": [
+      "Mirambel",
+      "Arquitectura Mudejar",
+      "Celosía",
+      "Calados de piedra",
+      "Fachada antigua",
+      "Patrones geométricos"
+    ],
+    "alt": "Detallada vista de una fachada histórica, posiblemente de estilo Mudejar, que combina mampostería, paneles enlucidos en ocre y vigas de madera oscura. Destacan intrincados calados de piedra con patrones geométricos y florales, junto a pequeñas celosías de madera. Un tejado de tejas de barro remata la estructura bajo un cielo azul, capturando la luz del sol que resalta las texturas y el diseño artesanal."
+  },
+  {
+    "url": "https://i.postimg.cc/wjnGd4q8/Mirambel-011.webp",
+    "caption": "Un callejón empedrado serpentea entre antiguas casas de piedra en Mirambel",
+    "tags": [
+      "Mirambel",
+      "Pueblo",
+      "Callejón",
+      "Arquitectura de piedra",
+      "España",
+      "Tradicional"
+    ],
+    "alt": "Un callejón empedrado serpentea entre antiguas casas de piedra, típicas de un pueblo rural español. Los edificios presentan balcones con barandillas de hierro forjado y faroles tradicionales adornan sus muros. Al fondo, se eleva una ladera árida, sugiriendo un entorno montañoso. La escena evoca la tranquilidad y la rica historia de la arquitectura popular en España."
+  },
+  {
+    "url": "https://i.postimg.cc/HkFhCvpK/Morella-002-(2).webp",
+    "caption": "Imponente puerta de madera antigua en Morella, con un diseño de cuadrícula y numerosos remaches metálicos",
+    "tags": [
+      "Morella",
+      "puerta antigua",
+      "madera",
+      "herrajes",
+      "arquitectura histórica",
+      "entrada"
+    ],
+    "alt": "Una imponente puerta de madera antigua con un diseño de cuadrícula distintivo y numerosos remaches metálicos. La puerta, de tono rojizo oscuro y aspecto robusto, presenta una parte superior arqueada y muestra signos evidentes de envejecimiento y textura rugosa. Se encuentra empotrada en una pared de mampostería, con una placa parcialmente visible a la izquierda que alude a 'Valencia' y 'Vinatea', sugiriendo un significado histórico en la región."
+  },
+  {
+    "url": "https://i.postimg.cc/zG4c12zq/Morella-013.webp",
+    "caption": "Vibrante tejado abovedado cubierto con azulejos cerámicos de un intenso color azul, en Morella",
+    "tags": [
+      "Morella",
+      "arquitectura",
+      "tejado azul",
+      "ruinas",
+      "muralla de piedra",
+      "azulejos"
+    ],
+    "alt": "La imagen presenta un primer plano de un vibrante tejado abovedado cubierto con azulejos cerámicos de un intenso color azul, que se asienta sobre una base de ladrillo rojizo. En el fondo, bajo un cielo despejado, se aprecian las imponentes ruinas de una antigua fortificación o castillo de piedra, caracterizadas por muros robustos y una sección de torre derruida. La composición crea un contraste visual entre la distintiva arquitectura del tejado y el legado histórico de las ruinas."
+  },
+  {
+    "url": "https://i.postimg.cc/YCTswDrp/Morella-026.webp",
+    "caption": "Vista del Castillo de Morella, una fortaleza medieval erigida sobre una imponente roca",
+    "tags": [
+      "castillo",
+      "Morella",
+      "pueblo medieval",
+      "arquitectura",
+      "paisaje histórico"
+    ],
+    "alt": "Una impresionante vista del Castillo de Morella, una fortaleza medieval erigida sobre una imponente roca. Debajo del castillo, se extiende el casco antiguo del pueblo, con sus casas de tonos cálidos y tejados de teja, destacando una cúpula azul. La luz del sol ilumina la escena, resaltando la textura de las rocas y las edificaciones. Es un ejemplo clásico de ciudad fortificada española."
+  },
+  {
+    "url": "https://i.postimg.cc/Cx9QVrhx/Parque-Natural-Delta-del-Ebro-005.webp",
+    "caption": "Un ave zancuda se posa en un bancal de tierra en medio de los extensos arrozales inundados del Delta del Ebro",
+    "tags": [
+      "Parque Natural Delta del Ebro",
+      "garza",
+      "arrozales",
+      "humedal",
+      "naturaleza",
+      "paisaje"
+    ],
+    "alt": "Un ave zancuda, posiblemente una garza, se posa en un bancal de tierra en medio de extensos arrozales inundados. El agua azul y el verde vibrante de las plantas de arroz dominan la escena, bajo un cielo claro. En el fondo, se aprecia vegetación más densa y un horizonte lejano, característico de un entorno deltaico."
+  },
+  {
+    "url": "https://i.postimg.cc/nhNPtSFV/Parque-Natural-Delta-del-Ebro-020-Flamencos.webp",
+    "caption": "Una numerosa bandada de flamencos se agrupa en las aguas poco profundas de un humedal deltiano",
+    "tags": [
+      "Parque Natural Delta del Ebro",
+      "flamencos",
+      "aves acuáticas",
+      "naturaleza",
+      "fauna silvestre",
+      "laguna"
+    ],
+    "alt": "Una numerosa bandada de flamencos se agrupa en las aguas poco profundas de un humedal, mostrando plumajes blancos y rosados. Algunas aves están descansando con sus cabezas metidas, mientras otras permanecen de pie. En el fondo azul del agua, se observan varias aves acuáticas más pequeñas y oscuras nadando. El primer plano presenta vegetación arbustiva en tonos verdes y marrones, bordeando la orilla."
+  },
+  {
+    "url": "https://i.postimg.cc/HshSQv7r/Peniscola-044.webp",
+    "caption": "Castillo de Peñíscola, conocido como el Castillo del Papa Luna, emergiendo sobre una península rocosa en el Mediterráneo",
+    "tags": [
+      "Peñíscola",
+      "castillo",
+      "fortificación",
+      "costa",
+      "arquitectura",
+      "histórico"
+    ],
+    "alt": "La imagen muestra el imponente Castillo de Peñíscola, conocido como el Castillo del Papa Luna, emergiendo sobre una península rocosa en el Mediterráneo. La fortaleza de piedra antigua, con una iglesia de cúpula de tejas naranjas, se alza majestuosa. A sus pies, un pueblo de casas blancas desciende hacia el mar, rodeado por murallas defensivas y palmeras. La escena captura la rica historia y la belleza costera de este emblemático lugar bajo un cielo nublado."
+  },
+  {
+    "url": "https://i.postimg.cc/CLQvjrfn/Puertomingalvo-005.webp",
+    "caption": "Casa antigua de piedra con paredes robustas y un tejado de tejas de arcilla, típicas de la arquitectura rural en Puertomingalvo",
+    "tags": [
+      "Puertomingalvo",
+      "arquitectura rural",
+      "casa de piedra",
+      "tejado de tejas",
+      "pueblo antiguo",
+      "rústico"
+    ],
+    "alt": "Una casa antigua de piedra con paredes robustas y un tejado de tejas de arcilla, típicas de la arquitectura rural tradicional. La fachada muestra el paso del tiempo, con mortero desprendido y piedras expuestas, además de pequeñas ventanas y puertas de madera que le confieren un carácter auténtico y desgastado. La imagen evoca un ambiente histórico y sereno de un viejo pueblo."
+  },
+  {
+    "url": "https://i.postimg.cc/J42TbYBy/Puertomingalvo-018.webp",
+    "caption": "Primer plano de un antiguo reloj de sol tallado en piedra arenisca (Puertomingalvo)",
+    "tags": [
+      "Puertomingalvo",
+      "reloj de sol",
+      "gnomon",
+      "piedra",
+      "antiguo",
+      "grabado"
+    ],
+    "alt": "Primer plano de un antiguo reloj de sol tallado en piedra arenisca. Presenta un gnomon metálico que proyecta una sombra nítida, líneas radiales grabadas y una inscripción visible que incluye 'ANNO' y posiblemente otros símbolos o números estilizados. La superficie de la piedra muestra signos de desgaste por el tiempo y manchas naturales de color rojizo, indicando su antigüedad y exposición a los elementos."
+  },
+  {
+    "url": "https://i.postimg.cc/28KH49Bb/Valderrobres-006.webp",
+    "caption": "El histórico pueblo de Mora de Rubielos, destacando su majestuoso castillo-palacio de piedra con almenas y ventanas arqueadas",
+    "tags": [
+      "Valderrobres",
+      "Castillo",
+      "Arquitectura medieval",
+      "Pueblo español",
+      "Patrimonio",
+      "Paisaje urbano"
+    ],
+    "alt": "Vista panorámica del histórico pueblo de Mora de Rubielos, destacando su majestuoso castillo-palacio de piedra con almenas y ventanas arqueadas. Junto a él, se erige una iglesia con un gran rosetón y una torre campanario, ambas de arquitectura imponente. Debajo, un entramado de casas tradicionales con tejados de terracota desciende por la ladera. El cielo azul con nubes y la luz del sol realzan la belleza de este conjunto monumental y su entorno."
+  },
+  {
+    "url": "https://i.postimg.cc/zXcdn2RC/Valderrobres-009.webp",
+    "caption": "Dos tramos de escaleras de piedra rústica, ascendiendo entre paredes también construidas con grandes bloques de piedra en Valderrobres",
+    "tags": [
+      "Valderrobres",
+      "escaleras",
+      "piedra",
+      "arquitectura",
+      "antiguo",
+      "textura"
+    ],
+    "alt": "La imagen presenta dos tramos de escaleras de piedra rústica y erosionada, ascendiendo entre paredes también construidas con grandes bloques de piedra. A la izquierda, se vislumbra una puerta de madera oscura. El conjunto evoca la atmósfera de un paso o callejón en una ciudad o edificación antigua, resaltando las ricas texturas y los tonos terrosos de la piedra."
+  },
+  {
+    "url": "https://i.postimg.cc/ZKMfrsyP/Valderrobres-012.webp",
+    "caption": "Primer plano detallado de un rosetón gótico, característico por su compleja tracería de piedra calada que forma patrones florales y geométricos",
+    "tags": [
+      "Valderrobres",
+      "Rosetón",
+      "Gótico",
+      "Arquitectura",
+      "Detalle",
+      "Piedra"
+    ],
+    "alt": "La imagen muestra un primer plano detallado de un rosetón gótico, característico por su compleja tracería de piedra calada que forma patrones florales y geométricos. El rosetón está enmarcado por una fachada de mampostería de piedra, con bloques de tonos ocres y grises. Debajo del ventanal, se aprecia un friso ornamentado con pequeños arcos y figuras escultóricas. La luz atraviesa los cristales blancos, destacando la delicadeza del trabajo artesanal. A la izquierda, se vislumbra parte de un edificio adyacente con un balcón y tejado de madera."
+  },
+  {
+    "url": "https://i.postimg.cc/7YWBgtTn/Valencia-009.webp",
+    "caption": "Fuente decorativa con una máscara dorada incrustada en una pared de piedra ocre y texturizada (Valencia)",
+    "tags": [
+      "Valencia",
+      "fuente",
+      "máscara",
+      "dorado",
+      "escultura",
+      "agua"
+    ],
+    "alt": "Primer plano de una fuente decorativa con una máscara dorada incrustada en una pared de piedra ocre y texturizada. La máscara presenta un rostro sereno con ojos cerrados y elaborados detalles ornamentales alrededor de la cabeza, incluyendo lo que parecen ser elementos marinos y florales, con una pátina verdosa en algunas áreas. Un chorro de agua emerge directamente de la boca de la figura, creando un punto focal y un contraste visual con el brillo del metal y la rugosidad del fondo."
+  }
+]
 },
 {
   id: "brujasbruselas",
