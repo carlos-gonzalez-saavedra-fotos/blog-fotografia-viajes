@@ -483,7 +483,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/Gmzm7YdT/Albarracin-025.webp",
-    "caption": "Una vista pintoresca de un pueblo medieval con casas de tonos rojizos y tejados de teja",
+    "caption": "Una vista de Albarracín con casas de tonos rojizos y tejados",
     "tags": [
       "Albarracín",
       "pueblo medieval",
@@ -496,7 +496,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/Dw5wjsnX/Calaceite-002.webp",
-    "caption": "Una encantadora fachada de piedra clara, característica de un pueblo histórico",
+    "caption": "Una encantadora fachada de piedra clara, característica de Calaceite",
     "tags": [
       "Calaceite",
       "arquitectura tradicional",
@@ -509,7 +509,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/x1g1xHnc/Calaceite-008-JPG-1.webp",
-    "caption": "Una puerta de madera robusta y envejecida, adornada con remaches metálicos, enmarca una vista interior",
+    "caption": "Puerta de madera robusta y envejecida, adornada con remaches metálicos, enmarca una vista interior",
     "tags": [
       "Calaceite",
       "madera",
@@ -526,7 +526,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/sgKg6Ss7/Calaceite-011.webp",
-    "caption": "Una vista en contrapicado de la elaborada fachada de piedra de un edificio histórico, presumiblemente una iglesia de estilo barroco",
+    "caption": "Contrapicado de la elaborada fachada de piedra de una iglesia de estilo barroco en Calaceite",
     "tags": [
       "Calaceite",
       "arquitectura",
@@ -539,7 +539,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/YC8CngM1/Calaceite-015.webp",
-    "caption": "La imagen muestra un arco de piedra antiguo que sirve de paso a una calle empedrada en un pueblo histórico",
+    "caption": "Arco de piedra antiguo que sirve de paso a una calle empedrada en Calaceite",
     "tags": [
       "Calaceite",
       "Arquitectura histórica",
@@ -552,7 +552,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/fR5R2XD7/Cantavieja-001.webp",
-    "caption": "Una pintoresca aldea de casas de piedra con tejados rojos se asienta precariamente sobre un imponente acantilado rocoso",
+    "caption": "Casas de piedra con tejados rojos se asienta precariamente sobre un imponente acantilado rocoso en Cantavieja",
     "tags": [
       "Cantavieja",
       "acantilado",
@@ -565,7 +565,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/kgwg18qv/Cantavieja-006.webp",
-    "caption": "La imagen muestra un pintoresco pueblo tradicional encaramado en el borde de un escarpado acantilado",
+    "caption": "Cantavieja: un pintoresco pueblo tradicional encaramado en el borde de un escarpado acantilado",
     "tags": [
       "Cantavieja",
       "pueblo",
@@ -578,7 +578,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/BnRVG7qR/Fresneda-001.webp",
-    "caption": "Una vista en perspectiva de un pórtico o pasillo cubierto, característico de un pueblo medieval",
+    "caption": "Una vista en perspectiva de un pórtico, característico del pueblo medieval de Fresneda",
     "tags": [
       "Fresneda",
       "Arquitectura",
@@ -591,7 +591,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/rw7PLZV6/Mirambel-004.webp",
-    "caption": "Detallada vista de una fachada histórica, posiblemente de estilo Mudejar, que combina mampostería, paneles enlucidos en ocre y vigas de madera oscura",
+    "caption": "Vista de una fachada histórica en Mirambel, posiblemente de estilo Mudejar, con mampostería, paneles enlucidos y vigas de madera",
     "tags": [
       "Mirambel",
       "Arquitectura Mudejar",
@@ -604,7 +604,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/wjnGd4q8/Mirambel-011.webp",
-    "caption": "Un callejón empedrado serpentea entre antiguas casas de piedra, típicas de un pueblo rural español",
+    "caption": "Un callejón empedrado serpentea entre antiguas casas de piedra en Mirambel",
     "tags": [
       "Mirambel",
       "Pueblo",
@@ -617,7 +617,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/HkFhCvpK/Morella-002-(2).webp",
-    "caption": "Una imponente puerta de madera antigua con un diseño de cuadrícula distintivo y numerosos remaches metálicos",
+    "caption": "Imponente puerta de madera antigua en Morella, con un diseño de cuadrícula y numerosos remaches metálicos",
     "tags": [
       "Morella",
       "puerta antigua",
@@ -630,7 +630,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/zG4c12zq/Morella-013.webp",
-    "caption": "La imagen presenta un primer plano de un vibrante tejado abovedado cubierto con azulejos cerámicos de un intenso color azul, que se asienta sobre una base de ladrillo rojizo",
+    "caption": "Vibrante tejado abovedado cubierto con azulejos cerámicos de un intenso color azul, en Morella",
     "tags": [
       "Morella",
       "arquitectura",
@@ -643,7 +643,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/YCTswDrp/Morella-026.webp",
-    "caption": "Una impresionante vista del Castillo de Morella, una fortaleza medieval erigida sobre una imponente roca",
+    "caption": "Vista del Castillo de Morella, una fortaleza medieval erigida sobre una imponente roca",
     "tags": [
       "castillo",
       "Morella",
@@ -655,7 +655,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/Cx9QVrhx/Parque-Natural-Delta-del-Ebro-005.webp",
-    "caption": "Un ave zancuda, posiblemente una garza, se posa en un bancal de tierra en medio de extensos arrozales inundados",
+    "caption": "Un ave zancuda se posa en un bancal de tierra en medio de los extensos arrozales inundados del Delta del Ebro",
     "tags": [
       "Parque Natural Delta del Ebro",
       "garza",
@@ -668,7 +668,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/nhNPtSFV/Parque-Natural-Delta-del-Ebro-020-Flamencos.webp",
-    "caption": "Una numerosa bandada de flamencos se agrupa en las aguas poco profundas de un humedal, mostrando plumajes blancos y rosados",
+    "caption": "Una numerosa bandada de flamencos se agrupa en las aguas poco profundas de un humedal deltiano",
     "tags": [
       "Parque Natural Delta del Ebro",
       "flamencos",
@@ -681,7 +681,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/HshSQv7r/Peniscola-044.webp",
-    "caption": "La imagen muestra el imponente Castillo de Peñíscola, conocido como el Castillo del Papa Luna, emergiendo sobre una península rocosa en el Mediterráneo",
+    "caption": "Castillo de Peñíscola, conocido como el Castillo del Papa Luna, emergiendo sobre una península rocosa en el Mediterráneo",
     "tags": [
       "Peñíscola",
       "castillo",
@@ -694,7 +694,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/CLQvjrfn/Puertomingalvo-005.webp",
-    "caption": "Una casa antigua de piedra con paredes robustas y un tejado de tejas de arcilla, típicas de la arquitectura rural tradicional",
+    "caption": "Casa antigua de piedra con paredes robustas y un tejado de tejas de arcilla, típicas de la arquitectura rural en Puertomingalvo",
     "tags": [
       "Puertomingalvo",
       "arquitectura rural",
@@ -707,7 +707,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/J42TbYBy/Puertomingalvo-018.webp",
-    "caption": "Primer plano de un antiguo reloj de sol tallado en piedra arenisca",
+    "caption": "Primer plano de un antiguo reloj de sol tallado en piedra arenisca (Puertomingalvo)",
     "tags": [
       "Puertomingalvo",
       "reloj de sol",
@@ -720,7 +720,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/28KH49Bb/Valderrobres-006.webp",
-    "caption": "Vista panorámica del histórico pueblo de Mora de Rubielos, destacando su majestuoso castillo-palacio de piedra con almenas y ventanas arqueadas",
+    "caption": "El histórico pueblo de Mora de Rubielos, destacando su majestuoso castillo-palacio de piedra con almenas y ventanas arqueadas",
     "tags": [
       "Valderrobres",
       "Castillo",
@@ -733,7 +733,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/zXcdn2RC/Valderrobres-009.webp",
-    "caption": "La imagen presenta dos tramos de escaleras de piedra rústica y erosionada, ascendiendo entre paredes también construidas con grandes bloques de piedra",
+    "caption": "Dos tramos de escaleras de piedra rústica, ascendiendo entre paredes también construidas con grandes bloques de piedra en Valderrobres",
     "tags": [
       "Valderrobres",
       "escaleras",
@@ -746,7 +746,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/ZKMfrsyP/Valderrobres-012.webp",
-    "caption": "La imagen muestra un primer plano detallado de un rosetón gótico, característico por su compleja tracería de piedra calada que forma patrones florales y geométricos",
+    "caption": "Primer plano detallado de un rosetón gótico, característico por su compleja tracería de piedra calada que forma patrones florales y geométricos",
     "tags": [
       "Valderrobres",
       "Rosetón",
@@ -759,7 +759,7 @@ Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otro
   },
   {
     "url": "https://i.postimg.cc/7YWBgtTn/Valencia-009.webp",
-    "caption": "Primer plano de una fuente decorativa con una máscara dorada incrustada en una pared de piedra ocre y texturizada",
+    "caption": "Fuente decorativa con una máscara dorada incrustada en una pared de piedra ocre y texturizada (Valencia)",
     "tags": [
       "Valencia",
       "fuente",
