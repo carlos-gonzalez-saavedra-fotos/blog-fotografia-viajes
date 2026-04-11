@@ -97,6 +97,14 @@ export const Explore = () => {
 
   // Filtered results
   const filteredPhotos = useMemo(() => {
+    // --- ESTE ES EL CAMBIO "ESTILO GOOGLE" ---
+    // Si no hay texto en la búsqueda Y no hay un tag seleccionado, 
+    // devolvemos un array vacío [] para que no cargue nada.
+    if (!searchQuery && !selectedTag) {
+      return [];
+    }
+    // -----------------------------------------
+
     let results = allPhotos;
 
     if (selectedTag) {
@@ -108,10 +116,7 @@ export const Explore = () => {
       const regex = new RegExp('\\b' + searchQuery + '\\b', 'i');
       
       results = results.filter(f => {
-        // Palabra completa para caption
         const matchCaption = regex.test(f.caption);
-        
-        // Búsqueda parcial para tags, lugar, pais, ubicacion, titulo y tipo
         const matchTags = f.tags.some(t => t.toLowerCase().includes(term));
         const matchLugar = f.lugar?.toLowerCase().includes(term) || f.ubicacion?.toLowerCase().includes(term);
         const matchPais = f.pais?.toLowerCase().includes(term);
