@@ -282,83 +282,90 @@ export const Explore = () => {
         </div>
       </div>
 
-      {/* Lightbox */}
-      <AnimatePresence>
-        {selectedPhotoIndex !== null && (
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[9999] bg-black/98 flex flex-col"
-            onClick={() => setSelectedPhotoIndex(null)}
-          >
-            <div className="w-full px-6 py-4 flex justify-between items-center z-[10000]">
-              <div className="flex items-center gap-2">
-                <Camera className="w-5 h-5 text-gold" />
-                <span className="font-serif text-lg tracking-widest uppercase text-white">CGS</span>
-              </div>
-              <button 
-                className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
-                onClick={() => setSelectedPhotoIndex(null)}
-              >
-                <X size={24} />
-              </button>
-            </div>
+      {/* Lightbox - Ajustado para coherencia visual */}
+<AnimatePresence>
+  {selectedPhotoIndex !== null && (
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-[9999] bg-black/98 flex flex-col"
+      onClick={() => setSelectedPhotoIndex(null)}
+    >
+      {/* Cabecera del Lightbox */}
+      <div className="w-full px-6 py-4 flex justify-between items-center z-[10000]">
+        <div className="flex items-center gap-2">
+          <Camera className="w-5 h-5 text-gold" />
+          <span className="font-serif text-lg tracking-widest uppercase text-white">CGS</span>
+        </div>
+        <button 
+          className="text-white/80 hover:text-gold transition-all p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
+          onClick={() => setSelectedPhotoIndex(null)}
+        >
+          <X size={24} />
+        </button>
+      </div>
 
-            <div className="flex-grow relative flex items-center justify-center p-4 md:p-20">
-              <button 
-                className="absolute left-4 md:left-10 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
-                onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}
-              >
-                <ChevronLeft size={48} strokeWidth={1} />
-              </button>
-              
-              <div className="max-w-5xl w-full flex flex-col items-center">
-                <div className="w-full flex justify-between items-center mb-4 px-2">
-                  <span className="text-gold text-[10px] uppercase tracking-[0.3em]">
-                    {filteredPhotos[selectedPhotoIndex].ubicacion}
-                  </span>
-                  <span className="text-white/40 text-[10px] tracking-widest">
-                    {selectedPhotoIndex + 1} / {filteredPhotos.length}
-                  </span>
-                </div>
-                
-                <motion.img 
-                  key={filteredPhotos[selectedPhotoIndex].url}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  src={filteredPhotos[selectedPhotoIndex].url} 
-                  alt={filteredPhotos[selectedPhotoIndex].caption}
-                  className="max-h-[70vh] object-contain shadow-2xl"
-                  referrerPolicy="no-referrer"
-                  onClick={(e) => e.stopPropagation()}
-                />
+      <div className="flex-grow relative flex items-center justify-center p-4 md:p-12">
+        {/* Navegación lateral */}
+        <button 
+          className="absolute left-4 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
+          onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}
+        >
+          <ChevronLeft size={48} strokeWidth={1} />
+        </button>
+        
+        <div className="max-w-4xl w-full flex flex-col items-center">
+          {/* Metadata superior: Ubicación y Contador */}
+          <div className="w-full flex justify-between items-center mb-4 px-2">
+            <span className="text-gold text-[10px] uppercase tracking-[0.3em]">
+              {filteredPhotos[selectedPhotoIndex].ubicacion}
+            </span>
+            <span className="text-white/40 text-[10px] tracking-widest">
+              {selectedPhotoIndex + 1} / {filteredPhotos.length}
+            </span>
+          </div>
+          
+          {/* Imagen con tamaño controlado para dejar espacio al texto */}
+          <motion.img 
+            key={filteredPhotos[selectedPhotoIndex].url}
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            src={filteredPhotos[selectedPhotoIndex].url} 
+            alt={filteredPhotos[selectedPhotoIndex].caption}
+            className="max-h-[65vh] md:max-h-[70vh] object-contain shadow-2xl"
+            referrerPolicy="no-referrer"
+            onClick={(e) => e.stopPropagation()}
+          />
 
-                <div className="mt-8 text-center max-w-2xl">
-                  <p className="font-serif text-xl md:text-2xl text-white/90 italic leading-relaxed">
-                    {filteredPhotos[selectedPhotoIndex].caption}
-                  </p>
-                  {filteredPhotos[selectedPhotoIndex].tripId && (
-                    <Link 
-                      to={`/viaje/${filteredPhotos[selectedPhotoIndex].tripId}`}
-                      className="inline-block mt-6 text-[10px] uppercase tracking-[0.4em] text-gold hover:text-white transition-colors"
-                    >
-                      Leer crónica completa
-                    </Link>
-                  )}
-                </div>
-              </div>
-
-              <button 
-                className="absolute right-4 md:right-10 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
-                onClick={(e) => { e.stopPropagation(); navigateLightbox(1); }}
+          {/* PIE DE FOTO (Caption): Ahora siempre visible como en las crónicas */}
+          <div className="mt-8 text-center max-w-2xl px-4">
+            <p className="font-serif text-lg md:text-xl text-white/90 italic leading-relaxed">
+              {filteredPhotos[selectedPhotoIndex].caption}
+            </p>
+            
+            {/* Enlace dinámico a la crónica si existe el tripId */}
+            {filteredPhotos[selectedPhotoIndex].tripId && (
+              <Link 
+                to={`/viaje/${filteredPhotos[selectedPhotoIndex].tripId}`}
+                className="inline-block mt-6 text-[10px] uppercase tracking-[0.4em] text-gold hover:text-white transition-colors border-b border-gold/20 pb-1"
               >
-                <ChevronRight size={48} strokeWidth={1} />
-              </button>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+                Leer crónica completa
+              </Link>
+            )}
+          </div>
+        </div>
+
+        <button 
+          className="absolute right-4 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
+          onClick={(e) => { e.stopPropagation(); navigateLightbox(1); }}
+        >
+          <ChevronRight size={48} strokeWidth={1} />
+        </button>
+      </div>
+    </motion.div>
+  )}
+</AnimatePresence>
       
       <div className="mt-32">
         <Footer />
