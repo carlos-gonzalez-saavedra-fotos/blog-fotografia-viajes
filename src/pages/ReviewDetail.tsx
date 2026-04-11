@@ -1,7 +1,7 @@
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { MIS_VIAJES } from '../data/mis_viajes';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { MapPin, ArrowLeft, Quote, X, Search, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
 
@@ -50,6 +50,27 @@ export const ReviewDetail = () => {
       document.body.classList.remove('gallery-active');
     };
   }, [selectedIndex]);
+
+  // Swipe handling
+  const swipeConfidenceThreshold = 10000;
+  const swipePower = (offset: number, velocity: number) => {
+    return Math.abs(offset) * velocity;
+  };
+
+  const handleDragEnd = (e: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
+    const swipe = swipePower(info.offset.x, info.velocity.x);
+    if (swipe < -swipeConfidenceThreshold) {
+      // siguiente
+      if (viaje && viaje.galeria) {
+        setSelectedIndex((prev) => (prev! + 1) % viaje.galeria!.length);
+      }
+    } else if (swipe > swipeConfidenceThreshold) {
+      // anterior
+      if (viaje && viaje.galeria) {
+        setSelectedIndex((prev) => (prev! - 1 + viaje.galeria!.length) % viaje.galeria!.length);
+      }
+    }
+  };
 
   if (!viaje) {
     return (
@@ -277,6 +298,10 @@ export const ReviewDetail = () => {
                     key={selectedIndex}
                     initial={{ scale: 0.95, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
+                    drag="x"
+                    dragConstraints={{ left: 0, right: 0 }}
+                    dragElastic={0.2}
+                    onDragEnd={handleDragEnd}
                     src={typeof viaje.galeria[selectedIndex!] === 'string' 
                       ? viaje.galeria[selectedIndex!] as string 
                       : (viaje.galeria[selectedIndex!] as {url: string}).url}
@@ -326,3 +351,4 @@ export const ReviewDetail = () => {
     </motion.div>
   );
 };
+
