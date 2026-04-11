@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
 import { MIS_VIAJES, MIS_FOTOS } from '../data/mis_viajes';
 import { Search, Tag as TagIcon, X, Camera, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -135,6 +135,21 @@ export const Explore = () => {
     if (selectedPhotoIndex === null) return;
     const nextIndex = (selectedPhotoIndex + direction + filteredPhotos.length) % filteredPhotos.length;
     setSelectedPhotoIndex(nextIndex);
+  };
+
+  // Swipe handling
+  const swipeConfidenceThreshold = 10000;
+  const swipePower = (offset: number, velocity: number) => {
+    return Math.abs(offset) * velocity;
+  };
+
+  const handleDragEnd = (e: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
+    const swipe = swipePower(info.offset.x, info.velocity.x);
+    if (swipe < -swipeConfidenceThreshold) {
+      navigateLightbox(1); // siguiente
+    } else if (swipe > swipeConfidenceThreshold) {
+      navigateLightbox(-1); // anterior
+    }
   };
 
   useEffect(() => {
@@ -347,6 +362,10 @@ export const Explore = () => {
               key={filteredPhotos[selectedPhotoIndex].url}
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
+              drag="x"
+              dragConstraints={{ left: 0, right: 0 }}
+              dragElastic={0.2}
+              onDragEnd={handleDragEnd}
               src={filteredPhotos[selectedPhotoIndex].url} 
               alt={filteredPhotos[selectedPhotoIndex].caption}
               className="shadow-2xl object-contain w-full"
@@ -392,3 +411,4 @@ export const Explore = () => {
     </div>
   );
 };
+

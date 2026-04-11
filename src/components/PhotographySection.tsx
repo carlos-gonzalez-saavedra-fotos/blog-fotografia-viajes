@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { useLocation } from 'react-router-dom';
 import { MIS_FOTOS, MIS_VIAJES } from '../data/mis_viajes';
 import { X, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
@@ -62,6 +62,21 @@ export const PhotographySection = () => {
   const navigate = (direction: number) => {
     if (currentGallery.length <= 1) return;
     setSubIndex((prev) => (prev + direction + currentGallery.length) % currentGallery.length);
+  };
+
+  // Swipe handling
+  const swipeConfidenceThreshold = 10000;
+  const swipePower = (offset: number, velocity: number) => {
+    return Math.abs(offset) * velocity;
+  };
+
+  const handleDragEnd = (e: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
+    const swipe = swipePower(info.offset.x, info.velocity.x);
+    if (swipe < -swipeConfidenceThreshold) {
+      navigate(1); // siguiente
+    } else if (swipe > swipeConfidenceThreshold) {
+      navigate(-1); // anterior
+    }
   };
 
   return (
@@ -169,6 +184,10 @@ export const PhotographySection = () => {
                     key={currentGallery[subIndex].url}
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
+                    drag="x"
+                    dragConstraints={{ left: 0, right: 0 }}
+                    dragElastic={0.2}
+                    onDragEnd={handleDragEnd}
                     src={currentGallery[subIndex].url} 
                     alt={currentGallery[subIndex].caption || selectedExpedition.titulo}
                     className="shadow-2xl object-contain w-full"
@@ -208,3 +227,4 @@ export const PhotographySection = () => {
     </section>
   );
 };
+
