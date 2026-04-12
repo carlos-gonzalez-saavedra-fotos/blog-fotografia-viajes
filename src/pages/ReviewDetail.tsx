@@ -1,330 +1,87 @@
-import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { MIS_VIAJES } from '../data/mis_viajes';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
-import { MapPin, ArrowLeft, Quote, X, Search, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
-import { useEffect, useState, useRef } from 'react';
+import { MapPin, Quote, X, Search, Camera } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 export const ReviewDetail = () => {
   const { id } = useParams();
-  const navigate = useNavigate();
   const location = useLocation();
   const viaje = MIS_VIAJES.find(v => v.id === id);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
-  const [isPortrait, setIsPortrait] = useState(false);
-  const galleryRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => { setSelectedIndex(null); window.scrollTo(0, 0); }, [id, location]);
 
   useEffect(() => {
-    setSelectedIndex(null);
-    setIsPortrait(false);
-  }, [location]);
-
-  useEffect(() => {
-    setIsPortrait(false);
+    document.body.style.overflow = selectedIndex !== null ? 'hidden' : 'unset';
+    return () => { document.body.style.overflow = 'unset'; };
   }, [selectedIndex]);
 
-  useEffect(() => {
-    if (window.location.hash === '#galeria') {
-      setTimeout(() => {
-        scrollToGallery();
-      }, 100);
-    } else {
-      window.scrollTo(0, 0);
-    }
-  }, [id]);
-
-  const scrollToGallery = () => {
-    galleryRef.current?.scrollIntoView({ behavior: 'smooth' });
+  const handlePanEnd = (_e: any, info: PanInfo) => {
+    if (!viaje?.galeria) return;
+    if (info.offset.x < -50) setSelectedIndex((selectedIndex! + 1) % viaje.galeria.length);
+    else if (info.offset.x > 50) setSelectedIndex((selectedIndex! - 1 + viaje.galeria.length) % viaje.galeria.length);
   };
 
-  useEffect(() => {
-    if (selectedIndex !== null) {
-      document.body.style.overflow = 'hidden';
-      document.body.classList.add('gallery-active');
-    } else {
-      document.body.style.overflow = 'unset';
-      document.body.classList.remove('gallery-active');
-    }
-    return () => {
-      document.body.style.overflow = 'unset';
-      document.body.classList.remove('gallery-active');
-    };
-  }, [selectedIndex]);
-
-  const swipeConfidenceThreshold = 10000;
-  const swipePower = (offset: number, velocity: number) => {
-    return Math.abs(offset) * velocity;
-  };
-
-  const handleDragEnd = (e: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
-    const swipe = swipePower(info.offset.x, info.velocity.x);
-    if (swipe < -swipeConfidenceThreshold) {
-      if (viaje && viaje.galeria) {
-        setSelectedIndex((prev) => (prev! + 1) % viaje.galeria!.length);
-      }
-    } else if (swipe > swipeConfidenceThreshold) {
-      if (viaje && viaje.galeria) {
-        setSelectedIndex((prev) => (prev! - 1 + viaje.galeria!.length) % viaje.galeria!.length);
-      }
-    }
-  };
-
-  if (!viaje) {
-    return (
-      <div className="min-h-screen bg-black flex flex-col items-center justify-center text-white p-6">
-        <h1 className="font-serif text-4xl mb-8">Reseña no encontrada</h1>
-        <Link to="/" className="text-gold uppercase tracking-widest text-xs border border-gold px-6 py-3 hover:bg-gold hover:text-black transition-all">
-          Volver al inicio
-        </Link>
-      </div>
-    );
-  }
+  if (!viaje) return <div className="min-h-screen bg-black" />;
 
   return (
-    <motion.div 
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="min-h-screen bg-black text-white"
-    >
-      <Helmet>
-        <title>{`${viaje.titulo} | Carlos González Saavedra`}</title>
-        <meta name="description" content={viaje.resumen} />
-      </Helmet>
-
-      <div className="relative h-[70vh] w-full overflow-hidden">
-        <img 
-          src={viaje.urlImagen} 
-          alt={viaje.titulo}
-          className="w-full h-full object-cover grayscale opacity-60"
-          referrerPolicy="no-referrer"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
-        
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            className="max-w-4xl space-y-6"
-          >
-            <div className="flex items-center justify-center gap-2 text-gold text-[10px] uppercase tracking-[0.4em]">
-              <MapPin size={14} />
-              {viaje.ubicacion}
-            </div>
-            <h1 className="font-serif text-5xl md:text-8xl leading-tight">
-              {viaje.titulo}
-            </h1>
-          </motion.div>
+    <div className="min-h-screen bg-black text-white">
+      <Helmet><title>{viaje.titulo}</title></Helmet>
+      
+      <div className="relative h-[60vh]">
+        <img src={viaje.urlImagen} className="w-full h-full object-cover opacity-50 grayscale" />
+        <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+          <MapPin className="text-gold mb-4" />
+          <h1 className="font-serif text-4xl md:text-7xl">{viaje.titulo}</h1>
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 py-24">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          <div className="md:col-span-1 space-y-8">
-            <div className="space-y-2">
-              <p className="text-[10px] uppercase tracking-widest text-gold">Fecha</p>
-              <p className="text-sm font-light text-white/60">{viaje.fecha || 'Pendiente'}</p>
-            </div>
-            <div className="space-y-2">
-              <p className="text-[10px] uppercase tracking-widest text-gold">Equipo</p>
-              <p className="text-sm font-light text-white/60">{viaje.equipo || 'Pendiente'}</p>
-            </div>
-            <div className="pt-8">
-              <button 
-                onClick={scrollToGallery}
-                className="w-full py-4 border border-white/10 text-[10px] uppercase tracking-widest hover:border-gold hover:text-gold transition-all"
-              >
-                Ver Galería
-              </button>
-            </div>
-          </div>
-
-            <div className="md:col-span-3 space-y-12">
-              <div className="relative">
-                <Quote className="absolute -left-12 -top-8 text-white/5 w-24 h-24 -z-10" />
-                <div className="prose prose-invert prose-lg max-w-none">
-                  {viaje.reseña.split('\n').map((paragraph, idx) => (
-                    <p key={idx} className="text-white/80 leading-relaxed font-light mb-6 text-lg">
-                      {paragraph}
-                    </p>
-                  ))}
-                </div>
-              </div>
-
-              {viaje.galeria && viaje.galeria.length > 0 && (
-                <div ref={galleryRef} className="pt-12 space-y-8">
-                  <div className="flex items-center gap-4">
-                    <div className="h-[1px] flex-grow bg-white/10" />
-                    <h3 className="text-[10px] uppercase tracking-[0.5em] text-gold whitespace-nowrap">Fragmentos Visuales</h3>
-                    <div className="h-[1px] flex-grow bg-white/10" />
-                  </div>
-                  
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-                    {viaje.galeria.slice(0, 6).map((item, index) => {
-                      const imgUrl = typeof item === 'string' ? item : item.url;
-                      const caption = typeof item === 'string' ? '' : item.caption;
-                      const isLastVisible = index === 5 && viaje.galeria!.length > 6;
-                      
-                      return (
-                        <motion.div
-                          key={index}
-                          initial={{ opacity: 0, y: 20 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          viewport={{ once: true }}
-                          transition={{ delay: index * 0.1 }}
-                          className="aspect-square overflow-hidden border border-white/5 group relative cursor-zoom-in"
-                          onClick={() => setSelectedIndex(index)}
-                        >
-                          <img 
-                            src={imgUrl} 
-                            alt={caption || `${viaje.titulo} - ${index + 1}`}
-                            className={`w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ${isLastVisible ? 'blur-[2px]' : ''}`}
-                            loading="lazy"
-                            referrerPolicy="no-referrer"
-                          />
-                          <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            {isLastVisible ? (
-                              <div className="text-center">
-                                <span className="block text-gold text-2xl font-serif">+{viaje.galeria!.length - 6}</span>
-                                <span className="text-[10px] uppercase tracking-widest text-white/80">Ver todas</span>
-                              </div>
-                            ) : (
-                              <Search className="text-white w-6 h-6" />
-                            )}
-                          </div>
-                        </motion.div>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
-            </div>
+      <div className="max-w-4xl mx-auto px-6 py-20">
+        <div className="prose prose-invert lg:prose-xl mx-auto">
+          {viaje.reseña.split('\n').map((p, i) => <p key={i} className="text-white/70 mb-6">{p}</p>)}
         </div>
+
+        {viaje.galeria && (
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-20">
+            {viaje.galeria.map((item, i) => (
+              <div key={i} onClick={() => setSelectedIndex(i)} className="aspect-square cursor-zoom-in overflow-hidden">
+                <img src={typeof item === 'string' ? item : item.url} className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
       <AnimatePresence>
         {selectedIndex !== null && viaje.galeria && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={() => setSelectedIndex(null)}
-            className="fixed inset-0 z-[10000] bg-black/98 flex flex-col"
-          >
-            <div className="w-full px-6 py-4 md:px-10 md:py-6 flex justify-between items-center z-[10000] flex-shrink-0">
-              <div 
-                className="flex items-center gap-2 cursor-pointer group"
-                onClick={(e) => { e.stopPropagation(); setSelectedIndex(null); }}
-              >
-                <Camera className="w-5 h-5 text-gold group-hover:scale-110 transition-transform" />
-                <span className="font-serif text-lg tracking-widest uppercase text-white hidden sm:inline">CGS</span>
-              </div>
-
-              <button 
-                className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
-                onClick={(e) => { e.stopPropagation(); setSelectedIndex(null); }}
-                aria-label="Cerrar galería"
-              >
-                <X size={32} className="w-6 h-6 md:w-8 md:h-8" />
-              </button>
+          <div className="fixed inset-0 z-[9999] bg-black/98 flex flex-col" onClick={() => setSelectedIndex(null)}>
+            <div className="w-full px-6 py-4 flex justify-between items-center z-10">
+              <Camera className="w-5 h-5 text-gold" />
+              <button onClick={() => setSelectedIndex(null)} className="text-white"><X size={32} /></button>
             </div>
-
-            {viaje.galeria.length > 1 && (
-              <>
-                <button 
-                  className="hidden lg:block absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
-                  onClick={(e) => { 
-                    e.stopPropagation(); 
-                    setSelectedIndex((prev) => (prev! - 1 + viaje.galeria!.length) % viaje.galeria!.length); 
-                  }}
-                  aria-label="Foto anterior"
-                >
-                  <ChevronLeft size={56} strokeWidth={1} />
-                </button>
-
-                <button 
-                  className="hidden lg:block absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
-                  onClick={(e) => { 
-                    e.stopPropagation(); 
-                    setSelectedIndex((prev) => (prev! + 1) % viaje.galeria!.length); 
-                  }}
-                  aria-label="Foto siguiente"
-                >
-                  <ChevronRight size={56} strokeWidth={1} />
-                </button>
-              </>
-            )}
-
-            <div className="flex-grow w-full flex flex-col items-center justify-center pt-24 px-4 pb-24 md:px-24 overflow-hidden">
-              <div className={`relative flex flex-col items-center transition-all duration-500 ${isPortrait ? 'lg:max-w-[45%]' : 'w-full max-w-5xl'}`}>
-                <div className="w-full flex justify-between items-center mb-6">
-                  <div className="text-left pr-8">
-                    <h3 className="text-[10px] uppercase tracking-[0.5em] text-gold whitespace-nowrap">
-                      {viaje.ubicacion}
-                    </h3>
-                  </div>
-                  <div className="text-right whitespace-nowrap">
-                    <span className="text-white/40 text-[10px] tracking-widest uppercase">
-                      {selectedIndex! + 1} / {viaje.galeria.length}
-                    </span>
-                  </div>
+            <div className="flex-grow flex items-center justify-center p-4 overflow-auto">
+              <div className="w-full max-w-5xl flex flex-col items-center">
+                <div className="w-full flex justify-between text-gold text-[10px] mb-4">
+                  <span>{viaje.ubicacion}</span>
+                  <span>{selectedIndex + 1} / {viaje.galeria.length}</span>
                 </div>
-
-                <div className="relative w-full flex justify-center">
-                  <motion.img
-                    key={selectedIndex}
-                    initial={{ scale: 0.95, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    drag="x"
-                    dragConstraints={{ left: 0, right: 0 }}
-                    dragElastic={0.2}
-                    onDragEnd={handleDragEnd}
-                    src={typeof viaje.galeria[selectedIndex!] === 'string' 
-                      ? viaje.galeria[selectedIndex!] as string 
-                      : (viaje.galeria[selectedIndex!] as {url: string}).url}
-                    alt="Full screen view"
-                    className="shadow-2xl object-contain w-full"
-                    style={{ 
-                      maxHeight: '60vh',
-                      touchAction: 'pan-y pinch-zoom'
-                    }}
-                    onLoad={(e) => {
-                      const img = e.currentTarget;
-                      setIsPortrait(img.naturalHeight > img.naturalWidth);
-                    }}
-                    referrerPolicy="no-referrer"
-                    onClick={(e) => e.stopPropagation()}
-                  />
-                </div>
-                
-                <div className="mt-6 text-center w-full px-4">
-                  <AnimatePresence mode="wait">
-                    {typeof viaje.galeria[selectedIndex!] !== 'string' && (viaje.galeria[selectedIndex!] as {caption: string}).caption && (
-                      <motion.p 
-                        key={`caption-${selectedIndex}`}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        className="font-cormorant font-normal text-lg md:text-xl text-white/80 mb-4 italic tracking-[0.05em] leading-relaxed"
-                      >
-                        {(viaje.galeria[selectedIndex!] as {caption: string}).caption}
-                      </motion.p>
-                    )}
-                  </AnimatePresence>
-                </div>
+                <motion.img 
+                  key={selectedIndex}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  onPanEnd={handlePanEnd}
+                  src={typeof viaje.galeria[selectedIndex] === 'string' ? viaje.galeria[selectedIndex] as string : (viaje.galeria[selectedIndex] as any).url}
+                  className="max-w-full shadow-2xl"
+                  style={{ maxHeight: '70vh', touchAction: 'pan-y pinch-zoom' }}
+                  onClick={(e) => e.stopPropagation()}
+                />
               </div>
             </div>
-          </motion.div>
+          </div>
         )}
       </AnimatePresence>
-
-      <div className="border-t border-white/5 py-24 px-6 text-center">
-        <p className="text-white/20 text-[10px] uppercase tracking-[0.5em] mb-8">Siguiente Aventura</p>
-        <Link to="/#viajes" className="font-serif text-3xl md:text-5xl hover:text-gold transition-colors">
-          Explorar más crónicas
-        </Link>
-      </div>
-    </motion.div>
+    </div>
   );
 };
