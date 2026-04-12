@@ -131,7 +131,6 @@ export const ReviewDetail = () => {
                   onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
                   onClick={(e) => e.stopPropagation()}
                 />
-                {/* PEGA EL SIGUIENTE BLOQUE AQUÍ: */}
                 <div className="mt-6 text-center w-full px-4">
                   <AnimatePresence mode="wait">
                     {typeof viaje.galeria[selectedIndex!] !== 'string' && (viaje.galeria[selectedIndex!] as any).caption && (
@@ -148,7 +147,6 @@ export const ReviewDetail = () => {
                     )}
                   </AnimatePresence>
                 </div>
-                {/* FIN DEL BLOQUE NUEVO */}
               </div>
             </div>
           </div>
