@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
 import { MIS_VIAJES, MIS_FOTOS } from '../data/mis_viajes';
-import { Search, Tag as TagIcon, X, Camera, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, X, Camera, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Footer } from '../components/Footer';
 
@@ -99,8 +99,8 @@ export const Explore = () => {
           <div className="w-24 h-[1px] bg-gold mx-auto" />
         </div>
 
-        <div className="max-w-2xl mx-auto mb-16 relative">
-          <div className="relative group">
+        <div className="max-w-2xl mx-auto mb-16">
+          <div className="relative">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-white/30" size={20} />
             <input 
               type="text"
@@ -147,7 +147,6 @@ export const Explore = () => {
               </button>
             </div>
 
-            {/* Flechas Desktop */}
             <button className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" 
               onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}>
               <ChevronLeft size={64} strokeWidth={1} />
@@ -163,11 +162,9 @@ export const Explore = () => {
                   <span>{filteredPhotos[selectedPhotoIndex].ubicacion}</span>
                   <span className="text-white/40">{selectedPhotoIndex + 1} / {filteredPhotos.length}</span>
                 </div>
-
                 <motion.img 
                   key={filteredPhotos[selectedPhotoIndex].url}
-                  initial={{ opacity: 0 }} 
-                  animate={{ opacity: 1 }}
+                  initial={{ opacity: 0 }} animate={{ opacity: 1 }}
                   onPanEnd={handlePanEnd}
                   src={filteredPhotos[selectedPhotoIndex].url} 
                   className="shadow-2xl object-contain max-w-full"
@@ -175,16 +172,10 @@ export const Explore = () => {
                   onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
                   onClick={(e) => e.stopPropagation()}
                 />
-                
                 <div className="mt-8 text-center w-full px-4">
-                  <p className="font-cormorant text-xl md:text-2xl text-white/80 italic mb-6 leading-relaxed">
-                    {filteredPhotos[selectedPhotoIndex].caption}
-                  </p>
+                  <p className="font-cormorant text-xl md:text-2xl text-white/80 italic mb-6 leading-relaxed">{filteredPhotos[selectedPhotoIndex].caption}</p>
                   {filteredPhotos[selectedPhotoIndex].tripId && (
-                    <Link to={`/viaje/${filteredPhotos[selectedPhotoIndex].tripId}`} 
-                      className="text-gold text-[10px] uppercase tracking-[0.4em] hover:text-white transition-colors border-b border-gold/20 pb-1">
-                      Leer crónica completa
-                    </Link>
+                    <Link to={`/viaje/${filteredPhotos[selectedPhotoIndex].tripId}`} className="text-gold text-[10px] uppercase tracking-[0.4em] hover:text-white transition-colors border-b border-gold/20 pb-1">Leer crónica completa</Link>
                   )}
                 </div>
               </div>
@@ -192,9 +183,7 @@ export const Explore = () => {
           </div>
         )}
       </AnimatePresence>
-      <div className="mt-32">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };
