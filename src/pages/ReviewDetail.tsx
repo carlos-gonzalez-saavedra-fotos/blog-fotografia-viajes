@@ -131,6 +131,22 @@ export const ReviewDetail = () => {
                   onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
                   onClick={(e) => e.stopPropagation()}
                 />
+                <div className="mt-6 text-center w-full px-4">
+                  <AnimatePresence mode="wait">
+                    {typeof viaje.galeria[selectedIndex!] !== 'string' && (viaje.galeria[selectedIndex!] as any).caption && (
+                      <motion.p 
+                        key={`caption-${selectedIndex}`}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                        className="font-cormorant font-normal text-lg md:text-xl text-white/80 mb-4 italic tracking-[0.05em] leading-relaxed"
+                      >
+                        {(viaje.galeria[selectedIndex!] as any).caption}
+                      </motion.p>
+                    )}
+                  </AnimatePresence>
+                </div>
               </div>
             </div>
           </div>
