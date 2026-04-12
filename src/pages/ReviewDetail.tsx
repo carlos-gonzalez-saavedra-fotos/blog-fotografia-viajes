@@ -12,7 +12,6 @@ export const ReviewDetail = () => {
   const viaje = MIS_VIAJES.find(v => v.id === id);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isPortrait, setIsPortrait] = useState(false);
-  const [dragEnabled, setDragEnabled] = useState(true);
   const galleryRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -52,7 +51,6 @@ export const ReviewDetail = () => {
     };
   }, [selectedIndex]);
 
-  // Swipe handling
   const swipeConfidenceThreshold = 10000;
   const swipePower = (offset: number, velocity: number) => {
     return Math.abs(offset) * velocity;
@@ -61,29 +59,14 @@ export const ReviewDetail = () => {
   const handleDragEnd = (e: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
     const swipe = swipePower(info.offset.x, info.velocity.x);
     if (swipe < -swipeConfidenceThreshold) {
-      // siguiente
       if (viaje && viaje.galeria) {
         setSelectedIndex((prev) => (prev! + 1) % viaje.galeria!.length);
       }
     } else if (swipe > swipeConfidenceThreshold) {
-      // anterior
       if (viaje && viaje.galeria) {
         setSelectedIndex((prev) => (prev! - 1 + viaje.galeria!.length) % viaje.galeria!.length);
       }
     }
-  };
-
-  // Detectar pinch-to-zoom (2+ dedos) para deshabilitar drag
-  const handleTouchStart = (e: React.TouchEvent) => {
-    if (e.touches.length > 1) {
-      setDragEnabled(false);
-    } else {
-      setDragEnabled(true);
-    }
-  };
-
-  const handleTouchEnd = () => {
-    setDragEnabled(true);
   };
 
   if (!viaje) {
@@ -107,15 +90,8 @@ export const ReviewDetail = () => {
       <Helmet>
         <title>{`${viaje.titulo} | Carlos González Saavedra`}</title>
         <meta name="description" content={viaje.resumen} />
-        <meta property="og:title" content={`${viaje.titulo} | Carlos González Saavedra`} />
-        <meta property="og:description" content={viaje.resumen} />
-        <meta property="og:image" content={viaje.urlImagen} />
-        <meta property="twitter:title" content={`${viaje.titulo} | Carlos González Saavedra`} />
-        <meta property="twitter:description" content={viaje.resumen} />
-        <meta property="twitter:image" content={viaje.urlImagen} />
       </Helmet>
 
-      {/* Hero Header */}
       <div className="relative h-[70vh] w-full overflow-hidden">
         <img 
           src={viaje.urlImagen} 
@@ -143,10 +119,8 @@ export const ReviewDetail = () => {
         </div>
       </div>
 
-      {/* Content */}
       <div className="max-w-6xl mx-auto px-6 py-24">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          {/* Sidebar Info */}
           <div className="md:col-span-1 space-y-8">
             <div className="space-y-2">
               <p className="text-[10px] uppercase tracking-widest text-gold">Fecha</p>
@@ -166,7 +140,6 @@ export const ReviewDetail = () => {
             </div>
           </div>
 
-            {/* Review Text */}
             <div className="md:col-span-3 space-y-12">
               <div className="relative">
                 <Quote className="absolute -left-12 -top-8 text-white/5 w-24 h-24 -z-10" />
@@ -179,7 +152,6 @@ export const ReviewDetail = () => {
                 </div>
               </div>
 
-              {/* Gallery Section */}
               {viaje.galeria && viaje.galeria.length > 0 && (
                 <div ref={galleryRef} className="pt-12 space-y-8">
                   <div className="flex items-center gap-4">
@@ -221,9 +193,6 @@ export const ReviewDetail = () => {
                               <Search className="text-white w-6 h-6" />
                             )}
                           </div>
-                          {isLastVisible && (
-                            <div className="absolute inset-0 bg-black/20 pointer-events-none" />
-                          )}
                         </motion.div>
                       );
                     })}
@@ -234,7 +203,6 @@ export const ReviewDetail = () => {
         </div>
       </div>
 
-      {/* Lightbox */}
       <AnimatePresence>
         {selectedIndex !== null && viaje.galeria && (
           <motion.div
@@ -244,9 +212,7 @@ export const ReviewDetail = () => {
             onClick={() => setSelectedIndex(null)}
             className="fixed inset-0 z-[10000] bg-black/98 flex flex-col"
           >
-            {/* Barra de Navegación Superior (Logo y Cerrar) */}
             <div className="w-full px-6 py-4 md:px-10 md:py-6 flex justify-between items-center z-[10000] flex-shrink-0">
-              {/* Izquierda: Logo */}
               <div 
                 className="flex items-center gap-2 cursor-pointer group"
                 onClick={(e) => { e.stopPropagation(); setSelectedIndex(null); }}
@@ -255,7 +221,6 @@ export const ReviewDetail = () => {
                 <span className="font-serif text-lg tracking-widest uppercase text-white hidden sm:inline">CGS</span>
               </div>
 
-              {/* Derecha: Cerrar */}
               <button 
                 className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
                 onClick={(e) => { e.stopPropagation(); setSelectedIndex(null); }}
@@ -265,7 +230,6 @@ export const ReviewDetail = () => {
               </button>
             </div>
 
-            {/* Navegación - SOLO VISIBLE EN DESKTOP */}
             {viaje.galeria.length > 1 && (
               <>
                 <button 
@@ -292,10 +256,8 @@ export const ReviewDetail = () => {
               </>
             )}
 
-            {/* Imagen Principal y Numeración */}
             <div className="flex-grow w-full flex flex-col items-center justify-center pt-24 px-4 pb-24 md:px-24 overflow-hidden">
               <div className={`relative flex flex-col items-center transition-all duration-500 ${isPortrait ? 'lg:max-w-[45%]' : 'w-full max-w-5xl'}`}>
-                {/* Header de Información (Ubicación + Contador) */}
                 <div className="w-full flex justify-between items-center mb-6">
                   <div className="text-left pr-8">
                     <h3 className="text-[10px] uppercase tracking-[0.5em] text-gold whitespace-nowrap">
@@ -309,17 +271,15 @@ export const ReviewDetail = () => {
                   </div>
                 </div>
 
-                <div className="relative w-full flex justify-center touch-pan-y">
+                <div className="relative w-full flex justify-center">
                   <motion.img
                     key={selectedIndex}
                     initial={{ scale: 0.95, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
-                    drag={dragEnabled ? "x" : false}
+                    drag="x"
                     dragConstraints={{ left: 0, right: 0 }}
                     dragElastic={0.2}
                     onDragEnd={handleDragEnd}
-                    onTouchStart={handleTouchStart}
-                    onTouchEnd={handleTouchEnd}
                     src={typeof viaje.galeria[selectedIndex!] === 'string' 
                       ? viaje.galeria[selectedIndex!] as string 
                       : (viaje.galeria[selectedIndex!] as {url: string}).url}
@@ -327,7 +287,7 @@ export const ReviewDetail = () => {
                     className="shadow-2xl object-contain w-full"
                     style={{ 
                       maxHeight: '60vh',
-                      touchAction: dragEnabled ? 'pan-y' : 'auto'
+                      touchAction: 'pan-y pinch-zoom'
                     }}
                     onLoad={(e) => {
                       const img = e.currentTarget;
@@ -338,7 +298,6 @@ export const ReviewDetail = () => {
                   />
                 </div>
                 
-                {/* Leyenda */}
                 <div className="mt-6 text-center w-full px-4">
                   <AnimatePresence mode="wait">
                     {typeof viaje.galeria[selectedIndex!] !== 'string' && (viaje.galeria[selectedIndex!] as {caption: string}).caption && (
@@ -360,7 +319,6 @@ export const ReviewDetail = () => {
         )}
       </AnimatePresence>
 
-      {/* Footer Navigation */}
       <div className="border-t border-white/5 py-24 px-6 text-center">
         <p className="text-white/20 text-[10px] uppercase tracking-[0.5em] mb-8">Siguiente Aventura</p>
         <Link to="/#viajes" className="font-serif text-3xl md:text-5xl hover:text-gold transition-colors">
