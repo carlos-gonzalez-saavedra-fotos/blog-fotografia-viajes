@@ -8,7 +8,6 @@ export const PhotographySection = () => {
   const [selectedId, setSelectedId] = React.useState<string | null>(null);
   const [subIndex, setSubIndex] = React.useState(0);
   const [isPortrait, setIsPortrait] = React.useState(false);
-  const [dragEnabled, setDragEnabled] = React.useState(true);
   const location = useLocation();
 
   const allGalleries = React.useMemo(() => {
@@ -65,7 +64,6 @@ export const PhotographySection = () => {
     setSubIndex((prev) => (prev + direction + currentGallery.length) % currentGallery.length);
   };
 
-  // Swipe handling
   const swipeConfidenceThreshold = 10000;
   const swipePower = (offset: number, velocity: number) => {
     return Math.abs(offset) * velocity;
@@ -74,23 +72,10 @@ export const PhotographySection = () => {
   const handleDragEnd = (e: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
     const swipe = swipePower(info.offset.x, info.velocity.x);
     if (swipe < -swipeConfidenceThreshold) {
-      navigate(1); // siguiente
+      navigate(1);
     } else if (swipe > swipeConfidenceThreshold) {
-      navigate(-1); // anterior
+      navigate(-1);
     }
-  };
-
-  // Detectar pinch-to-zoom (2+ dedos) para deshabilitar drag
-  const handleTouchStart = (e: React.TouchEvent) => {
-    if (e.touches.length > 1) {
-      setDragEnabled(false);
-    } else {
-      setDragEnabled(true);
-    }
-  };
-
-  const handleTouchEnd = () => {
-    setDragEnabled(true);
   };
 
   return (
@@ -137,9 +122,7 @@ export const PhotographySection = () => {
             className="fixed inset-0 z-[9999] bg-black/98 flex flex-col"
             onClick={() => setSelectedId(null)}
           >
-            {/* Barra de Navegación Superior (Logo y Cerrar) */}
             <div className="w-full px-6 py-4 md:px-10 md:py-6 flex justify-between items-center z-[10000] flex-shrink-0">
-              {/* Izquierda: Logo */}
               <div 
                 className="flex items-center gap-2 cursor-pointer group"
                 onClick={(e) => { e.stopPropagation(); setSelectedId(null); }}
@@ -148,7 +131,6 @@ export const PhotographySection = () => {
                 <span className="font-serif text-lg tracking-widest uppercase text-white hidden sm:inline">CGS</span>
               </div>
 
-              {/* Derecha: Cerrar */}
               <button 
                 className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
                 onClick={(e) => { e.stopPropagation(); setSelectedId(null); }}
@@ -158,7 +140,6 @@ export const PhotographySection = () => {
               </button>
             </div>
 
-            {/* Navegación - SOLO VISIBLE EN DESKTOP */}
             {currentGallery.length > 1 && (
               <>
                 <button 
@@ -178,10 +159,8 @@ export const PhotographySection = () => {
               </>
             )}
 
-            {/* Imagen Principal y Numeración */}
             <div className="flex-grow w-full flex flex-col items-center justify-center pt-24 px-4 pb-24 md:px-24 overflow-hidden">
               <div className={`relative flex flex-col items-center transition-all duration-500 ${isPortrait ? 'lg:max-w-[45%]' : 'w-full max-w-5xl'}`}>
-                {/* Header de Información (Ubicación + Contador) */}
                 <div className="w-full flex justify-between items-center mb-6">
                   <div className="text-left pr-8">
                     <h3 className="text-[10px] uppercase tracking-[0.5em] text-gold whitespace-nowrap">
@@ -195,23 +174,21 @@ export const PhotographySection = () => {
                   </div>
                 </div>
 
-                <div className="relative w-full flex justify-center touch-pan-y">
+                <div className="relative w-full flex justify-center">
                   <motion.img 
                     key={currentGallery[subIndex].url}
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    drag={dragEnabled ? "x" : false}
+                    drag="x"
                     dragConstraints={{ left: 0, right: 0 }}
                     dragElastic={0.2}
                     onDragEnd={handleDragEnd}
-                    onTouchStart={handleTouchStart}
-                    onTouchEnd={handleTouchEnd}
                     src={currentGallery[subIndex].url} 
                     alt={currentGallery[subIndex].caption || selectedExpedition.titulo}
                     className="shadow-2xl object-contain w-full"
                     style={{ 
                       maxHeight: '60vh',
-                      touchAction: dragEnabled ? 'pan-y' : 'auto'
+                      touchAction: 'pan-y pinch-zoom'
                     }}
                     onLoad={(e) => {
                       const img = e.currentTarget;
@@ -222,7 +199,6 @@ export const PhotographySection = () => {
                   />
                 </div>
                 
-                {/* Leyenda */}
                 <div className="mt-6 text-center w-full px-4">
                   <AnimatePresence mode="wait">
                     {currentGallery[subIndex].caption && (
