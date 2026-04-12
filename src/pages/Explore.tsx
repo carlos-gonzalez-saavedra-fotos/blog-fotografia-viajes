@@ -22,7 +22,6 @@ export const Explore = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number | null>(null);
-  const [dragEnabled, setDragEnabled] = useState(true);
 
   // Flatten all photos from all sources
   const allPhotos = useMemo(() => {
@@ -88,7 +87,6 @@ export const Explore = () => {
     const minCount = Math.min(...sortedTags.map(t => t.count), 1);
 
     return sortedTags.map(tag => {
-      // Calculate relative size (between 0.8rem and 2.5rem)
       const size = maxCount === minCount 
         ? 1 
         : 0.8 + ((tag.count - minCount) / (maxCount - minCount)) * 1.7;
@@ -98,13 +96,9 @@ export const Explore = () => {
 
   // Filtered results
   const filteredPhotos = useMemo(() => {
-    // --- ESTE ES EL CAMBIO "ESTILO GOOGLE" ---
-    // Si no hay texto en la búsqueda Y no hay un tag seleccionado, 
-    // devolvemos un array vacío [] para que no cargue nada.
     if (!searchQuery && !selectedTag) {
       return [];
     }
-    // -----------------------------------------
 
     let results = allPhotos;
 
@@ -147,23 +141,10 @@ export const Explore = () => {
   const handleDragEnd = (e: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
     const swipe = swipePower(info.offset.x, info.velocity.x);
     if (swipe < -swipeConfidenceThreshold) {
-      navigateLightbox(1); // siguiente
+      navigateLightbox(1);
     } else if (swipe > swipeConfidenceThreshold) {
-      navigateLightbox(-1); // anterior
+      navigateLightbox(-1);
     }
-  };
-
-  // Detectar pinch-to-zoom (2+ dedos) para deshabilitar drag
-  const handleTouchStart = (e: React.TouchEvent) => {
-    if (e.touches.length > 1) {
-      setDragEnabled(false);
-    } else {
-      setDragEnabled(true);
-    }
-  };
-
-  const handleTouchEnd = () => {
-    setDragEnabled(true);
   };
 
   useEffect(() => {
@@ -189,7 +170,6 @@ export const Explore = () => {
           <div className="w-24 h-[1px] bg-gold mx-auto" />
         </div>
 
-        {/* Search Bar */}
         <div className="max-w-2xl mx-auto mb-16 relative">
           <div className="relative group">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-white/30 group-focus-within:text-gold transition-colors" size={20} />
@@ -200,7 +180,7 @@ export const Explore = () => {
               onChange={(e) => {
                 const value = e.target.value;
                 setSearchQuery(value);
-                setSelectedTag(null); // Clear tag filter when searching
+                setSelectedTag(null);
                 if (value.length >= 3) {
                   setTimeout(() => {
                     const el = document.getElementById('results');
@@ -221,7 +201,6 @@ export const Explore = () => {
           </div>
         </div>
 
-        {/* Tag Cloud */}
         <div className="mb-20">
           <div className="flex items-center gap-2 mb-8 justify-center">
             <TagIcon size={16} className="text-gold" />
@@ -234,7 +213,7 @@ export const Explore = () => {
                 onClick={() => {
                   const newTag = selectedTag === tag.name ? null : tag.name;
                   setSelectedTag(newTag);
-                  setSearchQuery(''); // Clear search when selecting tag
+                  setSearchQuery('');
                   if (newTag) {
                     setTimeout(() => {
                       const el = document.getElementById('results');
@@ -257,7 +236,6 @@ export const Explore = () => {
           </div>
         </div>
 
-        {/* Results Grid */}
         <div id="results" className="space-y-12">
           <div className="flex justify-between items-end border-b border-white/5 pb-4">
             <p className="text-[10px] uppercase tracking-widest text-white/40">
@@ -311,119 +289,109 @@ export const Explore = () => {
         </div>
       </div>
 
-      {/* Lightbox */}
-<AnimatePresence>
-  {selectedPhotoIndex !== null && (
-    <div 
-      className="fixed inset-0 z-[9999] bg-black/98 flex flex-col"
-      onClick={() => setSelectedPhotoIndex(null)}
-    >
-      {/* Barra de Navegación Superior (Logo y Cerrar) */}
-      <div className="w-full px-6 py-4 md:px-10 md:py-6 flex justify-between items-center z-[10000] flex-shrink-0">
-        <div 
-          className="flex items-center gap-2 cursor-pointer group"
-          onClick={(e) => { e.stopPropagation(); setSelectedPhotoIndex(null); }}
-        >
-          <Camera className="w-5 h-5 text-gold group-hover:scale-110 transition-transform" />
-          <span className="font-serif text-lg tracking-widest uppercase text-white hidden sm:inline">CGS</span>
-        </div>
-
-        <button 
-          className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
-          onClick={(e) => { e.stopPropagation(); setSelectedPhotoIndex(null); }}
-          aria-label="Cerrar galería"
-        >
-          <X size={32} className="w-6 h-6 md:w-8 md:h-8" />
-        </button>
-      </div>
-
-      {/* Navegación lateral - SOLO VISIBLE EN DESKTOP */}
-      <button 
-        className="hidden lg:block absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
-        onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}
-        aria-label="Foto anterior"
-      >
-        <ChevronLeft size={56} strokeWidth={1} />
-      </button>
-      <button 
-        className="hidden lg:block absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
-        onClick={(e) => { e.stopPropagation(); navigateLightbox(1); }}
-        aria-label="Foto siguiente"
-      >
-        <ChevronRight size={56} strokeWidth={1} />
-      </button>
-
-      {/* Imagen Principal y Numeración */}
-      <div className="flex-grow w-full flex flex-col items-center justify-center pt-24 px-4 pb-24 md:px-24 overflow-hidden">
-        <div className="relative flex flex-col items-center w-full max-w-5xl">
-          
-          {/* Header de Información (Ubicación + Contador) */}
-          <div className="w-full flex justify-between items-center mb-6">
-            <div className="text-left pr-8">
-              <h3 className="text-[10px] uppercase tracking-[0.5em] text-gold whitespace-nowrap">
-                {filteredPhotos[selectedPhotoIndex].ubicacion}
-              </h3>
-            </div>
-            <div className="text-right whitespace-nowrap">
-              <span className="text-white/40 text-[10px] tracking-widest uppercase">
-                {selectedPhotoIndex + 1} / {filteredPhotos.length}
-              </span>
-            </div>
-          </div>
-
-          {/* Contenedor de Imagen */}
-          <div className="relative w-full flex justify-center touch-pan-y">
-            <motion.img 
-              key={filteredPhotos[selectedPhotoIndex].url}
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              drag={dragEnabled ? "x" : false}
-              dragConstraints={{ left: 0, right: 0 }}
-              dragElastic={0.2}
-              onDragEnd={handleDragEnd}
-              onTouchStart={handleTouchStart}
-              onTouchEnd={handleTouchEnd}
-              src={filteredPhotos[selectedPhotoIndex].url} 
-              alt={filteredPhotos[selectedPhotoIndex].caption}
-              className="shadow-2xl object-contain w-full"
-              style={{ 
-                maxHeight: '60vh',
-                touchAction: dragEnabled ? 'pan-y' : 'auto'
-              }}
-              referrerPolicy="no-referrer"
-              onClick={(e) => e.stopPropagation()}
-            />
-          </div>
-          
-          {/* Leyenda con la tipografía exacta de la galería */}
-          <div className="mt-6 text-center w-full px-4">
-            <AnimatePresence mode="wait">
-              <motion.p
-                key={`caption-${selectedPhotoIndex}`}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }}
-                className="font-cormorant font-normal text-lg md:text-xl text-white/80 mb-4 italic tracking-[0.05em] leading-relaxed"
+      <AnimatePresence>
+        {selectedPhotoIndex !== null && (
+          <div 
+            className="fixed inset-0 z-[9999] bg-black/98 flex flex-col"
+            onClick={() => setSelectedPhotoIndex(null)}
+          >
+            <div className="w-full px-6 py-4 md:px-10 md:py-6 flex justify-between items-center z-[10000] flex-shrink-0">
+              <div 
+                className="flex items-center gap-2 cursor-pointer group"
+                onClick={(e) => { e.stopPropagation(); setSelectedPhotoIndex(null); }}
               >
-                {filteredPhotos[selectedPhotoIndex].caption}
-              </motion.p>
-            </AnimatePresence>
+                <Camera className="w-5 h-5 text-gold group-hover:scale-110 transition-transform" />
+                <span className="font-serif text-lg tracking-widest uppercase text-white hidden sm:inline">CGS</span>
+              </div>
 
-            {/* Enlace opcional si hay crónica */}
-            {filteredPhotos[selectedPhotoIndex].tripId && (
-              <Link 
-                to={`/viaje/${filteredPhotos[selectedPhotoIndex].tripId}`}
-                className="inline-block mt-2 text-[10px] uppercase tracking-[0.4em] text-gold hover:text-white transition-colors"
+              <button 
+                className="text-white/80 hover:text-gold transition-all hover:rotate-90 p-3 bg-black/40 rounded-full backdrop-blur-md border border-white/10"
+                onClick={(e) => { e.stopPropagation(); setSelectedPhotoIndex(null); }}
+                aria-label="Cerrar galería"
               >
-                Leer crónica completa
-              </Link>
-            )}
+                <X size={32} className="w-6 h-6 md:w-8 md:h-8" />
+              </button>
+            </div>
+
+            <button 
+              className="hidden lg:block absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
+              onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}
+              aria-label="Foto anterior"
+            >
+              <ChevronLeft size={56} strokeWidth={1} />
+            </button>
+            <button 
+              className="hidden lg:block absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
+              onClick={(e) => { e.stopPropagation(); navigateLightbox(1); }}
+              aria-label="Foto siguiente"
+            >
+              <ChevronRight size={56} strokeWidth={1} />
+            </button>
+
+            <div className="flex-grow w-full flex flex-col items-center justify-center pt-24 px-4 pb-24 md:px-24 overflow-hidden">
+              <div className="relative flex flex-col items-center w-full max-w-5xl">
+                
+                <div className="w-full flex justify-between items-center mb-6">
+                  <div className="text-left pr-8">
+                    <h3 className="text-[10px] uppercase tracking-[0.5em] text-gold whitespace-nowrap">
+                      {filteredPhotos[selectedPhotoIndex].ubicacion}
+                    </h3>
+                  </div>
+                  <div className="text-right whitespace-nowrap">
+                    <span className="text-white/40 text-[10px] tracking-widest uppercase">
+                      {selectedPhotoIndex + 1} / {filteredPhotos.length}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="relative w-full flex justify-center">
+                  <motion.img 
+                    key={filteredPhotos[selectedPhotoIndex].url}
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    drag="x"
+                    dragConstraints={{ left: 0, right: 0 }}
+                    dragElastic={0.2}
+                    onDragEnd={handleDragEnd}
+                    src={filteredPhotos[selectedPhotoIndex].url} 
+                    alt={filteredPhotos[selectedPhotoIndex].caption}
+                    className="shadow-2xl object-contain w-full"
+                    style={{ 
+                      maxHeight: '60vh',
+                      touchAction: 'pan-y pinch-zoom'
+                    }}
+                    referrerPolicy="no-referrer"
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                </div>
+                
+                <div className="mt-6 text-center w-full px-4">
+                  <AnimatePresence mode="wait">
+                    <motion.p
+                      key={`caption-${selectedPhotoIndex}`}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      className="font-cormorant font-normal text-lg md:text-xl text-white/80 mb-4 italic tracking-[0.05em] leading-relaxed"
+                    >
+                      {filteredPhotos[selectedPhotoIndex].caption}
+                    </motion.p>
+                  </AnimatePresence>
+
+                  {filteredPhotos[selectedPhotoIndex].tripId && (
+                    <Link 
+                      to={`/viaje/${filteredPhotos[selectedPhotoIndex].tripId}`}
+                      className="inline-block mt-2 text-[10px] uppercase tracking-[0.4em] text-gold hover:text-white transition-colors"
+                    >
+                      Leer crónica completa
+                    </Link>
+                  )}
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  )}
-</AnimatePresence>
+        )}
+      </AnimatePresence>
       
       <div className="mt-32">
         <Footer />
