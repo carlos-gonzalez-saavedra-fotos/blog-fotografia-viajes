@@ -12,6 +12,7 @@ export const ReviewDetail = () => {
   const viaje = MIS_VIAJES.find(v => v.id === id);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isPortrait, setIsPortrait] = useState(false);
+  const [dragEnabled, setDragEnabled] = useState(true);
   const galleryRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -70,6 +71,19 @@ export const ReviewDetail = () => {
         setSelectedIndex((prev) => (prev! - 1 + viaje.galeria!.length) % viaje.galeria!.length);
       }
     }
+  };
+
+  // Detectar pinch-to-zoom (2+ dedos) para deshabilitar drag
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length > 1) {
+      setDragEnabled(false);
+    } else {
+      setDragEnabled(true);
+    }
+  };
+
+  const handleTouchEnd = () => {
+    setDragEnabled(true);
   };
 
   if (!viaje) {
@@ -251,25 +265,27 @@ export const ReviewDetail = () => {
               </button>
             </div>
 
-            {/* Navegación */}
+            {/* Navegación - SOLO VISIBLE EN DESKTOP */}
             {viaje.galeria.length > 1 && (
               <>
                 <button 
-                  className="absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
+                  className="hidden lg:block absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
                   onClick={(e) => { 
                     e.stopPropagation(); 
                     setSelectedIndex((prev) => (prev! - 1 + viaje.galeria!.length) % viaje.galeria!.length); 
                   }}
+                  aria-label="Foto anterior"
                 >
                   <ChevronLeft size={56} strokeWidth={1} />
                 </button>
 
                 <button 
-                  className="absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
+                  className="hidden lg:block absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
                   onClick={(e) => { 
                     e.stopPropagation(); 
                     setSelectedIndex((prev) => (prev! + 1) % viaje.galeria!.length); 
                   }}
+                  aria-label="Foto siguiente"
                 >
                   <ChevronRight size={56} strokeWidth={1} />
                 </button>
@@ -293,22 +309,25 @@ export const ReviewDetail = () => {
                   </div>
                 </div>
 
-                <div className="relative w-full flex justify-center">
+                <div className="relative w-full flex justify-center touch-pan-y">
                   <motion.img
                     key={selectedIndex}
                     initial={{ scale: 0.95, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
-                    drag="x"
+                    drag={dragEnabled ? "x" : false}
                     dragConstraints={{ left: 0, right: 0 }}
                     dragElastic={0.2}
                     onDragEnd={handleDragEnd}
+                    onTouchStart={handleTouchStart}
+                    onTouchEnd={handleTouchEnd}
                     src={typeof viaje.galeria[selectedIndex!] === 'string' 
                       ? viaje.galeria[selectedIndex!] as string 
                       : (viaje.galeria[selectedIndex!] as {url: string}).url}
                     alt="Full screen view"
                     className="shadow-2xl object-contain w-full"
                     style={{ 
-                      maxHeight: '60vh'
+                      maxHeight: '60vh',
+                      touchAction: dragEnabled ? 'pan-y' : 'auto'
                     }}
                     onLoad={(e) => {
                       const img = e.currentTarget;
@@ -351,4 +370,3 @@ export const ReviewDetail = () => {
     </motion.div>
   );
 };
-
