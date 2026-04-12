@@ -1,141 +1,200 @@
-import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
-import { MIS_VIAJES } from '../data/mis_viajes';
+import React, { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
-import { MapPin, ArrowLeft, Quote, X, Search, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
-import { useEffect, useState, useRef } from 'react';
+import { Helmet } from 'react-helmet-async';
+import { MIS_VIAJES, MIS_FOTOS } from '../data/mis_viajes';
+import { Search, Tag as TagIcon, X, Camera, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Footer } from '../components/Footer';
 
-export const ReviewDetail = () => {
-  const { id } = useParams();
-  const navigate = useNavigate();
-  const location = useLocation();
-  const viaje = MIS_VIAJES.find(v => v.id === id);
-  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+interface PhotoItem {
+  url: string;
+  caption: string;
+  tags: string[];
+  ubicacion: string;
+  titulo: string;
+  tripId?: string;
+}
+
+export const Explore = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedTag, setSelectedTag] = useState<string | null>(null);
+  const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number | null>(null);
   const [isPortrait, setIsPortrait] = useState(false);
-  const galleryRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    setSelectedIndex(null);
-    setIsPortrait(false);
-  }, [location]);
+  const allPhotos = useMemo(() => {
+    const photos: PhotoItem[] = [];
+    MIS_VIAJES.forEach(viaje => {
+      if (viaje.galeria) {
+        viaje.galeria.forEach(item => {
+          const url = typeof item === 'string' ? item : item.url;
+          const caption = typeof item === 'string' ? '' : item.caption || '';
+          const tags = typeof item === 'string' ? [] : item.tags || [];
+          photos.push({ url, caption, tags, ubicacion: viaje.ubicacion, titulo: viaje.titulo, tripId: viaje.id });
+        });
+      }
+    });
+    MIS_FOTOS.forEach(foto => {
+      if (foto.galeriaTematica) {
+        foto.galeriaTematica.forEach(item => {
+          const url = typeof item === 'string' ? item : item.url;
+          const caption = typeof item === 'string' ? '' : item.caption || '';
+          const tags = typeof item === 'string' ? [] : item.tags || [];
+          photos.push({ url, caption, tags, ubicacion: foto.ubicacion, titulo: foto.titulo });
+        });
+      }
+    });
+    return photos;
+  }, []);
 
-  useEffect(() => {
-    setIsPortrait(false);
-  }, [selectedIndex]);
+  const tagCloud = useMemo(() => {
+    const counts: Record<string, number> = {};
+    allPhotos.forEach(photo => photo.tags.forEach(tag => counts[tag] = (counts[tag] || 0) + 1));
+    const sortedTags = Object.entries(counts).map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count).slice(0, 40);
+    const maxCount = Math.max(...sortedTags.map(t => t.count), 1);
+    const minCount = Math.min(...sortedTags.map(t => t.count), 1);
+    return sortedTags.map(tag => ({ 
+      ...tag, 
+      size: maxCount === minCount ? 1 : 0.8 + ((tag.count - minCount) / (maxCount - minCount)) * 1.7 
+    }));
+  }, [allPhotos]);
 
-  // RESTAURADO: Lógica de scroll original
-  useEffect(() => {
-    if (window.location.hash === '#galeria') {
-      setTimeout(() => {
-        scrollToGallery();
-      }, 100);
-    } else {
-      window.scrollTo(0, 0);
+  const filteredPhotos = useMemo(() => {
+    if (!searchQuery && !selectedTag) return [];
+    let results = allPhotos;
+    if (selectedTag) results = results.filter(p => p.tags.includes(selectedTag));
+    if (searchQuery) {
+      const term = searchQuery.toLowerCase();
+      results = results.filter(f => 
+        f.caption.toLowerCase().includes(term) || 
+        f.tags.some(t => t.toLowerCase().includes(term)) || 
+        f.ubicacion.toLowerCase().includes(term)
+      );
     }
-  }, [id]);
+    return results;
+  }, [allPhotos, selectedTag, searchQuery]);
 
-  const scrollToGallery = () => {
-    galleryRef.current?.scrollIntoView({ behavior: 'smooth' });
+  const navigateLightbox = (direction: number) => {
+    if (selectedPhotoIndex === null) return;
+    setSelectedPhotoIndex((selectedPhotoIndex + direction + filteredPhotos.length) % filteredPhotos.length);
   };
-
-  useEffect(() => {
-    document.body.style.overflow = selectedIndex !== null ? 'hidden' : 'unset';
-    return () => { document.body.style.overflow = 'unset'; };
-  }, [selectedIndex]);
 
   const handlePanEnd = (_e: any, info: PanInfo) => {
-    if (!viaje?.galeria) return;
-    if (info.offset.x < -50) setSelectedIndex((selectedIndex! + 1) % viaje.galeria.length);
-    else if (info.offset.x > 50) setSelectedIndex((selectedIndex! - 1 + viaje.galeria.length) % viaje.galeria.length);
+    if (info.offset.x < -50) navigateLightbox(1);
+    else if (info.offset.x > 50) navigateLightbox(-1);
   };
 
-  if (!viaje) return <div className="min-h-screen bg-black" />;
+  useEffect(() => {
+    document.body.style.overflow = selectedPhotoIndex !== null ? 'hidden' : 'unset';
+    return () => { document.body.style.overflow = 'unset'; };
+  }, [selectedPhotoIndex]);
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-screen bg-black text-white font-light">
-      <Helmet><title>{viaje.titulo} | Carlos González Saavedra</title></Helmet>
-      
-      {/* Header / Hero */}
-      <div className="relative h-[70vh] w-full overflow-hidden">
-        <motion.img initial={{ scale: 1.1 }} animate={{ scale: 1 }} transition={{ duration: 1.5 }} src={viaje.urlImagen} className="w-full h-full object-cover opacity-60 grayscale" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
-        <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
-          <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="flex items-center gap-2 text-gold text-[10px] uppercase tracking-[0.4em] mb-6">
-            <MapPin size={14} strokeWidth={1.5} /> {viaje.ubicacion}
-          </motion.div>
-          <motion.h1 initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }} className="font-serif text-5xl md:text-8xl lg:text-9xl mb-8">{viaje.titulo}</motion.h1>
-        </div>
-      </div>
+    <div className="min-h-screen bg-black text-white pt-32 pb-20 px-6 font-light">
+      <Helmet><title>Explorar | Carlos González Saavedra</title></Helmet>
 
-      <div className="max-w-6xl mx-auto px-6 py-24">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
-          <div className="md:col-span-1 space-y-12">
-            <div className="space-y-4">
-              <p className="text-[10px] uppercase tracking-[0.3em] text-gold">Fecha</p>
-              <p className="text-sm text-white/60 tracking-wider">{viaje.fecha || 'Próximamente'}</p>
-            </div>
-            {/* BOTÓN RESTAURADO: Ahora sí hace scroll al ref */}
-            <button onClick={scrollToGallery} className="w-full py-4 border border-white/10 text-[10px] uppercase tracking-[0.3em] hover:border-gold hover:text-gold transition-all duration-500">
-              Ver Galería
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <p className="text-gold text-[10px] uppercase tracking-[0.4em] mb-4">Archivo Visual</p>
+          <h1 className="font-serif text-4xl md:text-6xl mb-6">Explorar</h1>
+          <div className="w-24 h-[1px] bg-gold mx-auto" />
+        </div>
+
+        <div className="max-w-2xl mx-auto mb-16 relative">
+          <div className="relative group">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-white/30" size={20} />
+            <input 
+              type="text"
+              placeholder="Busca por lugar, etiqueta..."
+              value={searchQuery}
+              onChange={(e) => { setSearchQuery(e.target.value); setSelectedTag(null); }}
+              className="w-full bg-white/5 border border-white/10 rounded-full py-4 pl-12 pr-6 text-white focus:outline-none focus:border-gold/50"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-4 mb-20">
+          {tagCloud.map(tag => (
+            <button key={tag.name} onClick={() => { setSelectedTag(selectedTag === tag.name ? null : tag.name); setSearchQuery(''); }}
+              className={`transition-all hover:text-gold ${selectedTag === tag.name ? 'text-gold scale-110' : 'text-white/40'}`}
+              style={{ fontSize: `${tag.size}rem` }}>
+              {tag.name}
             </button>
-          </div>
+          ))}
+        </div>
 
-          <div className="md:col-span-3 space-y-20">
-            <div className="prose prose-invert prose-lg max-w-none">
-              {viaje.reseña.split('\n').map((p, i) => (
-                <p key={i} className="text-white/80 leading-relaxed font-light mb-8 text-xl selection:bg-gold/30">{p}</p>
-              ))}
-            </div>
-
-            {/* CONTENEDOR RESTAURADO CON REF Y ID */}
-            <div ref={galleryRef} id="galeria" className="pt-20 grid grid-cols-2 md:grid-cols-3 gap-1">
-              {viaje.galeria?.map((item, i) => (
-                <motion.div key={i} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} onClick={() => setSelectedIndex(i)} className="aspect-square cursor-zoom-in overflow-hidden relative group">
-                  <img src={typeof item === 'string' ? item : item.url} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105" />
-                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center">
-                    <Search className="text-white w-5 h-5 stroke-thin" />
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+          {filteredPhotos.map((photo, index) => (
+            <motion.div key={index} layout className="cursor-zoom-in group" onClick={() => setSelectedPhotoIndex(index)}>
+              <div className="aspect-square bg-white/5 overflow-hidden mb-2">
+                <img src={photo.url} alt={photo.caption} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" loading="lazy" />
+              </div>
+              <p className="text-white/60 text-[10px] italic line-clamp-2 leading-relaxed">{photo.caption}</p>
+            </motion.div>
+          ))}
         </div>
       </div>
 
-      {/* Lightbox con Flechas y Zoom Arreglado */}
       <AnimatePresence>
-        {selectedIndex !== null && viaje.galeria && (
-          <div className="fixed inset-0 z-[9999] bg-black/98 backdrop-blur-xl flex flex-col" onClick={() => setSelectedIndex(null)}>
+        {selectedPhotoIndex !== null && (
+          <div className="fixed inset-0 z-[9999] bg-black/98 flex flex-col" onClick={() => setSelectedPhotoIndex(null)}>
             <div className="w-full px-6 py-4 md:px-10 flex justify-between items-center z-10">
-              <div className="flex items-center gap-3"><Camera className="w-5 h-5 text-gold" /><span className="font-serif text-lg tracking-[0.3em] text-white">CGS</span></div>
-              <button onClick={() => setSelectedIndex(null)} className="text-white/80 hover:text-gold p-2 transition-transform hover:rotate-90"><X size={32} strokeWidth={1} /></button>
+              <div className="flex items-center gap-3">
+                <Camera className="w-5 h-5 text-gold" />
+                <span className="font-serif text-lg tracking-[0.3em] uppercase text-white">CGS</span>
+              </div>
+              <button className="text-white/80 hover:text-gold p-2 transition-transform hover:rotate-90" onClick={() => setSelectedPhotoIndex(null)}>
+                <X size={32} strokeWidth={1} />
+              </button>
             </div>
 
-            {/* Flechas Desktop Restauradas */}
-            <button className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" onClick={(e) => { e.stopPropagation(); setSelectedIndex((selectedIndex - 1 + viaje.galeria!.length) % viaje.galeria!.length); }}><ChevronLeft size={64} strokeWidth={1} /></button>
-            <button className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" onClick={(e) => { e.stopPropagation(); setSelectedIndex((selectedIndex + 1) % viaje.galeria!.length); }}><ChevronRight size={64} strokeWidth={1} /></button>
+            {/* Flechas Desktop */}
+            <button className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" 
+              onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}>
+              <ChevronLeft size={64} strokeWidth={1} />
+            </button>
+            <button className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" 
+              onClick={(e) => { e.stopPropagation(); navigateLightbox(1); }}>
+              <ChevronRight size={64} strokeWidth={1} />
+            </button>
 
-            <div className="flex-grow flex items-center justify-center p-4">
+            <div className="flex-grow flex flex-col items-center justify-center p-4">
               <div className={`relative flex flex-col items-center ${isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl'}`}>
                 <div className="w-full flex justify-between text-[10px] text-gold uppercase tracking-[0.5em] mb-6 px-2">
-                  <span>{viaje.ubicacion}</span>
-                  <span className="text-white/40">{selectedIndex + 1} / {viaje.galeria.length}</span>
+                  <span>{filteredPhotos[selectedPhotoIndex].ubicacion}</span>
+                  <span className="text-white/40">{selectedPhotoIndex + 1} / {filteredPhotos.length}</span>
                 </div>
+
                 <motion.img 
-                  key={selectedIndex}
-                  initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+                  key={filteredPhotos[selectedPhotoIndex].url}
+                  initial={{ opacity: 0 }} 
+                  animate={{ opacity: 1 }}
                   onPanEnd={handlePanEnd}
-                  src={typeof viaje.galeria[selectedIndex] === 'string' ? viaje.galeria[selectedIndex] as string : (viaje.galeria[selectedIndex] as any).url}
-                  className="max-w-full shadow-2xl object-contain"
+                  src={filteredPhotos[selectedPhotoIndex].url} 
+                  className="shadow-2xl object-contain max-w-full"
                   style={{ maxHeight: '70vh', touchAction: 'pan-y pinch-zoom' }}
                   onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
                   onClick={(e) => e.stopPropagation()}
                 />
+                
+                <div className="mt-8 text-center w-full px-4">
+                  <p className="font-cormorant text-xl md:text-2xl text-white/80 italic mb-6 leading-relaxed">
+                    {filteredPhotos[selectedPhotoIndex].caption}
+                  </p>
+                  {filteredPhotos[selectedPhotoIndex].tripId && (
+                    <Link to={`/viaje/${filteredPhotos[selectedPhotoIndex].tripId}`} 
+                      className="text-gold text-[10px] uppercase tracking-[0.4em] hover:text-white transition-colors border-b border-gold/20 pb-1">
+                      Leer crónica completa
+                    </Link>
+                  )}
+                </div>
               </div>
             </div>
           </div>
         )}
       </AnimatePresence>
-    </motion.div>
+      <div className="mt-32">
+        <Footer />
+      </div>
+    </div>
   );
 };
