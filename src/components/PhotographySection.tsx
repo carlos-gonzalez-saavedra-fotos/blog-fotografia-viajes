@@ -64,11 +64,7 @@ export const PhotographySection = () => {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
-              <img 
-                src={photo.url} 
-                alt={photo.titulo} 
-                className="w-full grayscale hover:grayscale-0 transition-all duration-700" 
-              />
+              <img src={photo.url} alt={photo.titulo} className="w-full grayscale hover:grayscale-0 transition-all duration-700" />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
                 <p className="text-gold text-[10px] uppercase tracking-widest">{photo.ubicacion}</p>
                 <h4 className="font-serif text-lg text-white">{photo.titulo}</h4>
@@ -91,17 +87,16 @@ export const PhotographySection = () => {
               </button>
             </div>
 
-            {/* FLECHAS RESTAURADAS PARA DESKTOP */}
             {currentGallery.length > 1 && (
               <>
                 <button 
-                  className=\"hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 p-4 transition-all\" 
+                  className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 p-4 transition-all" 
                   onClick={(e) => { e.stopPropagation(); navigate(-1); }}
                 >
                   <ChevronLeft size={64} strokeWidth={1} />
                 </button>
                 <button 
-                  className=\"hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 p-4 transition-all\" 
+                  className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 p-4 transition-all" 
                   onClick={(e) => { e.stopPropagation(); navigate(1); }}
                 >
                   <ChevronRight size={64} strokeWidth={1} />
@@ -117,16 +112,12 @@ export const PhotographySection = () => {
                 </div>
                 <motion.img 
                   key={currentGallery[subIndex].url}
-                  initial={{ opacity: 0, scale: 0.98 }} 
-                  animate={{ opacity: 1, scale: 1 }}
+                  initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }}
                   onPanEnd={handlePanEnd}
                   src={currentGallery[subIndex].url} 
                   className="max-w-full shadow-2xl object-contain"
                   style={{ maxHeight: '70vh', touchAction: 'pan-y pinch-zoom' }}
-                  onLoad={(e) => {
-                    const img = e.currentTarget;
-                    setIsPortrait(img.naturalHeight > img.naturalWidth);
-                  }}
+                  onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
                   onClick={(e) => e.stopPropagation()}
                 />
                 <p className="mt-6 font-cormorant text-xl text-white/80 italic text-center px-4 leading-relaxed">
