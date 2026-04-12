@@ -22,6 +22,7 @@ export const Explore = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number | null>(null);
+  const [dragEnabled, setDragEnabled] = useState(true);
 
   // Flatten all photos from all sources
   const allPhotos = useMemo(() => {
@@ -150,6 +151,19 @@ export const Explore = () => {
     } else if (swipe > swipeConfidenceThreshold) {
       navigateLightbox(-1); // anterior
     }
+  };
+
+  // Detectar pinch-to-zoom (2+ dedos) para deshabilitar drag
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length > 1) {
+      setDragEnabled(false);
+    } else {
+      setDragEnabled(true);
+    }
+  };
+
+  const handleTouchEnd = () => {
+    setDragEnabled(true);
   };
 
   useEffect(() => {
@@ -297,7 +311,7 @@ export const Explore = () => {
         </div>
       </div>
 
-      {/* Lightbox - Clon exacto de PhotographySection */}
+      {/* Lightbox */}
 <AnimatePresence>
   {selectedPhotoIndex !== null && (
     <div 
@@ -323,23 +337,24 @@ export const Explore = () => {
         </button>
       </div>
 
-      {/* Navegación lateral */}
+      {/* Navegación lateral - SOLO VISIBLE EN DESKTOP */}
       <button 
-        className="absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
+        className="hidden lg:block absolute left-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
         onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}
+        aria-label="Foto anterior"
       >
         <ChevronLeft size={56} strokeWidth={1} />
       </button>
       <button 
-        className="absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
+        className="hidden lg:block absolute right-6 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-[10000] p-4 transition-all"
         onClick={(e) => { e.stopPropagation(); navigateLightbox(1); }}
+        aria-label="Foto siguiente"
       >
         <ChevronRight size={56} strokeWidth={1} />
       </button>
 
       {/* Imagen Principal y Numeración */}
       <div className="flex-grow w-full flex flex-col items-center justify-center pt-24 px-4 pb-24 md:px-24 overflow-hidden">
-        {/* Usamos una lógica similar para el ancho, aunque en Explorar no tenemos isPortrait definido como estado, mantenemos el max-w-5xl */}
         <div className="relative flex flex-col items-center w-full max-w-5xl">
           
           {/* Header de Información (Ubicación + Contador) */}
@@ -357,19 +372,24 @@ export const Explore = () => {
           </div>
 
           {/* Contenedor de Imagen */}
-          <div className="relative w-full flex justify-center">
+          <div className="relative w-full flex justify-center touch-pan-y">
             <motion.img 
               key={filteredPhotos[selectedPhotoIndex].url}
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              drag="x"
+              drag={dragEnabled ? "x" : false}
               dragConstraints={{ left: 0, right: 0 }}
               dragElastic={0.2}
               onDragEnd={handleDragEnd}
+              onTouchStart={handleTouchStart}
+              onTouchEnd={handleTouchEnd}
               src={filteredPhotos[selectedPhotoIndex].url} 
               alt={filteredPhotos[selectedPhotoIndex].caption}
               className="shadow-2xl object-contain w-full"
-              style={{ maxHeight: '60vh' }}
+              style={{ 
+                maxHeight: '60vh',
+                touchAction: dragEnabled ? 'pan-y' : 'auto'
+              }}
               referrerPolicy="no-referrer"
               onClick={(e) => e.stopPropagation()}
             />
@@ -411,4 +431,3 @@ export const Explore = () => {
     </div>
   );
 };
-
