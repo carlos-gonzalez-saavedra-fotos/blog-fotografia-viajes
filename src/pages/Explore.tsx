@@ -1,10 +1,11 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { motion, AnimatePresence, PanInfo } from 'motion/react';
+import { motion } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
 import { MIS_VIAJES, MIS_FOTOS } from '../data/mis_viajes';
-import { Search, X, Camera, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Footer } from '../components/Footer';
+import { Lightbox } from '../components/Lightbox';
 
 interface PhotoItem {
   url: string;
@@ -19,8 +20,6 @@ export const Explore = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number | null>(null);
-  const [isPortrait, setIsPortrait] = useState(false);
-  const [isImmersive, setIsImmersive] = useState(false);
 
   const allPhotos = useMemo(() => {
     const photos: PhotoItem[] = [];
@@ -76,19 +75,8 @@ export const Explore = () => {
 
   const navigateLightbox = (direction: number) => {
     if (selectedPhotoIndex === null) return;
-    setIsImmersive(false);
     setSelectedPhotoIndex((selectedPhotoIndex + direction + filteredPhotos.length) % filteredPhotos.length);
   };
-
-  const handlePanEnd = (_e: any, info: PanInfo) => {
-    if (info.offset.x < -50) navigateLightbox(1);
-    else if (info.offset.x > 50) navigateLightbox(-1);
-  };
-
-  useEffect(() => {
-    document.body.style.overflow = selectedPhotoIndex !== null ? 'hidden' : 'unset';
-    return () => { document.body.style.overflow = 'unset'; };
-  }, [selectedPhotoIndex]);
 
   return (
     <div className="min-h-screen bg-black text-white pt-32 pb-20 px-6 font-light">
@@ -136,56 +124,29 @@ export const Explore = () => {
         </div>
       </div>
 
-      <AnimatePresence>
-        {selectedPhotoIndex !== null && (
-          <div className="fixed inset-0 z-[9999] bg-black/98 flex flex-col" onClick={() => setSelectedPhotoIndex(null)}>
-            <div className="w-full px-6 py-4 md:px-10 flex justify-between items-center z-10">
-              <div className="flex items-center gap-3">
-                <Camera className="w-5 h-5 text-gold" />
-                <span className="font-serif text-lg tracking-[0.3em] uppercase text-white">CGS</span>
-              </div>
-              <button className="text-white/80 hover:text-gold p-2 transition-transform hover:rotate-90" onClick={() => setSelectedPhotoIndex(null)}>
-                <X size={32} strokeWidth={1} />
-              </button>
-            </div>
+      {/* LIGHTBOX UNIFICADO con renderFooter personalizado */}
+      <Lightbox
+        isOpen={selectedPhotoIndex !== null}
+        onClose={() => setSelectedPhotoIndex(null)}
+        photos={filteredPhotos}
+        currentIndex={selectedPhotoIndex ?? 0}
+        onNavigate={navigateLightbox}
+        ubicacion={selectedPhotoIndex !== null ? filteredPhotos[selectedPhotoIndex].ubicacion : ''}
+        renderFooter={(photo, index) => {
+          const photoItem = filteredPhotos[index];
+          return photoItem.tripId ? (
+            <Link 
+              to={`/viaje/${photoItem.tripId}`} 
+              className="text-gold text-[10px] uppercase tracking-[0.4em] hover:text-white transition-colors border-b border-gold/20 pb-1"
+            >
+              Leer crónica completa
+            </Link>
+          ) : null;
+        }}
+      />
 
-            <button className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" 
-              onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}>
-              <ChevronLeft size={64} strokeWidth={1} />
-            </button>
-            <button className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" 
-              onClick={(e) => { e.stopPropagation(); navigateLightbox(1); }}>
-              <ChevronRight size={64} strokeWidth={1} />
-            </button>
-
-            <div className="flex-grow flex flex-col items-center justify-center p-4">
-              <div className={`relative flex flex-col items-center ${isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl'}`}>
-                <div className="w-full flex justify-between text-[10px] text-gold uppercase tracking-[0.5em] mb-6 px-2">
-                  <span>{filteredPhotos[selectedPhotoIndex].ubicacion}</span>
-                  <span className="text-white/40">{selectedPhotoIndex + 1} / {filteredPhotos.length}</span>
-                </div>
-                <motion.img 
-                  key={filteredPhotos[selectedPhotoIndex].url}
-                  initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-                  onPanEnd={handlePanEnd}
-                  src={filteredPhotos[selectedPhotoIndex].url} 
-                  className={`shadow-2xl transition-all duration-500 ${isImmersive ? 'w-screen h-screen object-cover cursor-zoom-out' : 'max-w-full object-contain cursor-zoom-in'}`}
-                  style={{maxHeight: isImmersive ? '100vh' : '70vh', touchAction: 'pan-y pinch-zoom'}}
-                  onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
-                  onClick={(e) => {e.stopPropagation(); setIsImmersive(prev => !prev);}}
-                />
-                <div className="mt-8 text-center w-full px-4">
-                  <p className="font-cormorant text-xl md:text-2xl text-white/80 italic mb-6 leading-relaxed">{filteredPhotos[selectedPhotoIndex].caption}</p>
-                  {filteredPhotos[selectedPhotoIndex].tripId && (
-                    <Link to={`/viaje/${filteredPhotos[selectedPhotoIndex].tripId}`} className="text-gold text-[10px] uppercase tracking-[0.4em] hover:text-white transition-colors border-b border-gold/20 pb-1">Leer crónica completa</Link>
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-      </AnimatePresence>
       <Footer />
     </div>
   );
 };
+
