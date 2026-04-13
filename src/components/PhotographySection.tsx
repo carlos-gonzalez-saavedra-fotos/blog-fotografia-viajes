@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { useLocation } from 'react-router-dom';
 import { MIS_FOTOS, MIS_VIAJES } from '../data/mis_viajes';
-import { X, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
+import { Lightbox } from './ui/Lightbox';
 
 export const PhotographySection = () => {
   const [selectedId, setSelectedId] = React.useState<string | null>(null);
@@ -12,9 +12,15 @@ export const PhotographySection = () => {
 
   const allGalleries = React.useMemo(() => {
     const tripGalleries = MIS_VIAJES.filter(v => v.galeria && v.galeria.length > 0).map(v => ({
-      id: v.id, url: v.urlImagen, titulo: v.titulo, ubicacion: v.ubicacion, galeriaTematica: v.galeria
+      id: v.id, 
+      url: v.urlImagen, 
+      titulo: v.titulo, 
+      ubicacion: v.ubicacion, 
+      galeriaTematica: v.galeria,
+      esViaje: true // Flag para identificar que es un viaje con crónica
     }));
-    return [...MIS_FOTOS, ...tripGalleries];
+    const photoGalleries = MIS_FOTOS.map(f => ({ ...f, esViaje: false }));
+    return [...photoGalleries, ...tripGalleries];
   }, []);
 
   React.useEffect(() => { 
@@ -74,60 +80,19 @@ export const PhotographySection = () => {
         </div>
       </div>
 
-      <AnimatePresence>
-        {selectedId && (
-          <div className="fixed inset-0 z-[9999] bg-black/98 flex flex-col" onClick={() => setSelectedId(null)}>
-            <div className="w-full px-6 py-4 md:px-10 flex justify-between items-center z-10">
-              <div className="flex items-center gap-2">
-                <Camera className="w-5 h-5 text-gold" />
-                <span className="font-serif text-lg uppercase text-white hidden sm:inline">CGS</span>
-              </div>
-              <button onClick={() => setSelectedId(null)} className="text-white hover:text-gold p-3 transition-all hover:rotate-90">
-                <X size={32} strokeWidth={1} />
-              </button>
-            </div>
-
-            {currentGallery.length > 1 && (
-              <>
-                <button 
-                  className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 p-4 transition-all" 
-                  onClick={(e) => { e.stopPropagation(); navigate(-1); }}
-                >
-                  <ChevronLeft size={64} strokeWidth={1} />
-                </button>
-                <button 
-                  className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 p-4 transition-all" 
-                  onClick={(e) => { e.stopPropagation(); navigate(1); }}
-                >
-                  <ChevronRight size={64} strokeWidth={1} />
-                </button>
-              </>
-            )}
-
-            <div className="flex-grow flex items-center justify-center p-4 overflow-hidden">
-              <div className={`relative flex flex-col items-center transition-all duration-500 ${isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl'}`}>
-                <div className="w-full flex justify-between text-[10px] text-gold uppercase tracking-[0.5em] mb-4 px-2">
-                  <span>{selectedExpedition?.ubicacion}</span>
-                  <span>{subIndex + 1} / {currentGallery.length}</span>
-                </div>
-                <motion.img 
-                  key={currentGallery[subIndex].url}
-                  initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }}
-                  onPanEnd={handlePanEnd}
-                  src={currentGallery[subIndex].url} 
-                  className="max-w-full shadow-2xl object-contain"
-                  style={{ maxHeight: '70vh', touchAction: 'pan-y pinch-zoom' }}
-                  onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
-                  onClick={(e) => e.stopPropagation()}
-                />
-                <p className="mt-6 font-cormorant text-xl text-white/80 italic text-center px-4 leading-relaxed">
-                  {currentGallery[subIndex].caption}
-                </p>
-              </div>
-            </div>
-          </div>
-        )}
-      </AnimatePresence>
+      {/* Lightbox Unificado */}
+      <Lightbox 
+        isOpen={selectedId !== null}
+        onClose={() => setSelectedId(null)}
+        currentIndex={subIndex}
+        onIndexChange={(index) => setSubIndex(index)}
+        photos={currentGallery.map(p => ({
+          url: p.url,
+          caption: p.caption,
+          ubicacion: selectedExpedition?.ubicacion,
+          tripId: (selectedExpedition as any)?.esViaje ? selectedExpedition?.id : undefined
+        }))}
+      />
     </section>
   );
 };

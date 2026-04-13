@@ -1,9 +1,9 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
 import { MIS_VIAJES, MIS_FOTOS } from '../data/mis_viajes';
-import { Search, X, Camera, ChevronLeft, ChevronRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Search } from 'lucide-react';
+import { Lightbox } from '../components/ui/Lightbox';
 import { Footer } from '../components/Footer';
 
 interface PhotoItem {
@@ -20,6 +20,21 @@ export const Explore = () => {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number | null>(null);
   const [isPortrait, setIsPortrait] = useState(false);
+  const resultsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  // Scroll suave a los resultados cuando hay búsqueda o tag seleccionado
+  useEffect(() => {
+    if ((searchQuery || selectedTag) && resultsRef.current) {
+      const yOffset = -100; // Margen superior para que no quede pegado al borde
+      const element = resultsRef.current;
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }, [searchQuery, selectedTag]);
 
   const allPhotos = useMemo(() => {
     const photos: PhotoItem[] = [];
@@ -122,7 +137,7 @@ export const Explore = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        <div ref={resultsRef} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {filteredPhotos.map((photo, index) => (
             <motion.div key={index} layout className="cursor-zoom-in group" onClick={() => setSelectedPhotoIndex(index)}>
               <div className="aspect-square bg-white/5 overflow-hidden mb-2">
@@ -134,55 +149,19 @@ export const Explore = () => {
         </div>
       </div>
 
-      <AnimatePresence>
-        {selectedPhotoIndex !== null && (
-          <div className="fixed inset-0 z-[9999] bg-black/98 flex flex-col" onClick={() => setSelectedPhotoIndex(null)}>
-            <div className="w-full px-6 py-4 md:px-10 flex justify-between items-center z-10">
-              <div className="flex items-center gap-3">
-                <Camera className="w-5 h-5 text-gold" />
-                <span className="font-serif text-lg tracking-[0.3em] uppercase text-white">CGS</span>
-              </div>
-              <button className="text-white/80 hover:text-gold p-2 transition-transform hover:rotate-90" onClick={() => setSelectedPhotoIndex(null)}>
-                <X size={32} strokeWidth={1} />
-              </button>
-            </div>
-
-            <button className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" 
-              onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}>
-              <ChevronLeft size={64} strokeWidth={1} />
-            </button>
-            <button className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" 
-              onClick={(e) => { e.stopPropagation(); navigateLightbox(1); }}>
-              <ChevronRight size={64} strokeWidth={1} />
-            </button>
-
-            <div className="flex-grow flex flex-col items-center justify-center p-4">
-              <div className={`relative flex flex-col items-center ${isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl'}`}>
-                <div className="w-full flex justify-between text-[10px] text-gold uppercase tracking-[0.5em] mb-6 px-2">
-                  <span>{filteredPhotos[selectedPhotoIndex].ubicacion}</span>
-                  <span className="text-white/40">{selectedPhotoIndex + 1} / {filteredPhotos.length}</span>
-                </div>
-                <motion.img 
-                  key={filteredPhotos[selectedPhotoIndex].url}
-                  initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-                  onPanEnd={handlePanEnd}
-                  src={filteredPhotos[selectedPhotoIndex].url} 
-                  className="shadow-2xl object-contain max-w-full"
-                  style={{ maxHeight: '70vh', touchAction: 'pan-y pinch-zoom' }}
-                  onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
-                  onClick={(e) => e.stopPropagation()}
-                />
-                <div className="mt-8 text-center w-full px-4">
-                  <p className="font-cormorant text-xl md:text-2xl text-white/80 italic mb-6 leading-relaxed">{filteredPhotos[selectedPhotoIndex].caption}</p>
-                  {filteredPhotos[selectedPhotoIndex].tripId && (
-                    <Link to={`/viaje/${filteredPhotos[selectedPhotoIndex].tripId}`} className="text-gold text-[10px] uppercase tracking-[0.4em] hover:text-white transition-colors border-b border-gold/20 pb-1">Leer crónica completa</Link>
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-      </AnimatePresence>
+      {/* Lightbox Unificado */}
+      <Lightbox 
+        isOpen={selectedPhotoIndex !== null}
+        onClose={() => setSelectedPhotoIndex(null)}
+        currentIndex={selectedPhotoIndex || 0}
+        onIndexChange={(index) => setSelectedPhotoIndex(index)}
+        photos={filteredPhotos.map(p => ({
+          url: p.url,
+          caption: p.caption,
+          ubicacion: p.ubicacion,
+          tripId: p.tripId
+        }))}
+      />
       <Footer />
     </div>
   );

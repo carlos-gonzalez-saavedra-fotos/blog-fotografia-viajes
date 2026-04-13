@@ -2,6 +2,7 @@ export interface GalleryItem {
   url: string;
   caption?: string;
   tags?: string[];
+  alt?: string;
 }
 
 export interface Viaje {
