@@ -20,6 +20,7 @@ export const Explore = () => {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number | null>(null);
   const [isPortrait, setIsPortrait] = useState(false);
+  const [isImmersive, setIsImmersive] = useState(false);
 
   const allPhotos = useMemo(() => {
     const photos: PhotoItem[] = [];
@@ -75,6 +76,7 @@ export const Explore = () => {
 
   const navigateLightbox = (direction: number) => {
     if (selectedPhotoIndex === null) return;
+    setIsImmersive(false);
     setSelectedPhotoIndex((selectedPhotoIndex + direction + filteredPhotos.length) % filteredPhotos.length);
   };
 
@@ -167,10 +169,10 @@ export const Explore = () => {
                   initial={{ opacity: 0 }} animate={{ opacity: 1 }}
                   onPanEnd={handlePanEnd}
                   src={filteredPhotos[selectedPhotoIndex].url} 
-                  className="shadow-2xl object-contain max-w-full"
-                  style={{ maxHeight: '70vh', touchAction: 'pan-y pinch-zoom' }}
+                  className={`shadow-2xl transition-all duration-500 ${isImmersive ? 'w-screen h-screen object-cover cursor-zoom-out' : 'max-w-full object-contain cursor-zoom-in'}`}
+                  style={{maxHeight: isImmersive ? '100vh' : '70vh', touchAction: 'pan-y pinch-zoom'}}
                   onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
-                  onClick={(e) => e.stopPropagation()}
+                  onClick={(e) => {e.stopPropagation(); setIsImmersive(prev => !prev);}}
                 />
                 <div className="mt-8 text-center w-full px-4">
                   <p className="font-cormorant text-xl md:text-2xl text-white/80 italic mb-6 leading-relaxed">{filteredPhotos[selectedPhotoIndex].caption}</p>
