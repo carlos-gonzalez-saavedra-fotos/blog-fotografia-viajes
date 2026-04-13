@@ -9,6 +9,7 @@ export const PhotographySection = () => {
   const [subIndex, setSubIndex] = React.useState(0);
   const [isPortrait, setIsPortrait] = React.useState(false);
   const location = useLocation();
+  const [isImmersive, setIsImmersive] = React.useState(false);
 
   const allGalleries = React.useMemo(() => {
     const tripGalleries = MIS_VIAJES.filter(v => v.galeria && v.galeria.length > 0).map(v => ({
@@ -19,7 +20,8 @@ export const PhotographySection = () => {
 
   React.useEffect(() => { 
     setSelectedId(null); 
-    setSubIndex(0); 
+    setSubIndex(0);
+    setIsImmersive(false);
   }, [location]);
 
   React.useEffect(() => {
@@ -35,11 +37,11 @@ export const PhotographySection = () => {
     );
   }, [selectedExpedition]);
 
-  const navigate = (direction: number) => {
-    if (currentGallery.length <= 1) return;
-    setSubIndex((prev) => (prev + direction + currentGallery.length) % currentGallery.length);
-  };
-
+const navigate = (direction: number) => {
+  if (currentGallery.length <= 1) return;
+  setSubIndex((prev) => (prev + direction + currentGallery.length) % currentGallery.length);
+  setIsImmersive(false); // 👈 añadir
+};
   const handlePanEnd = (_e: any, info: PanInfo) => {
     if (info.offset.x < -50) navigate(1);
     else if (info.offset.x > 50) navigate(-1);
@@ -115,10 +117,10 @@ export const PhotographySection = () => {
                   initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }}
                   onPanEnd={handlePanEnd}
                   src={currentGallery[subIndex].url} 
-                  className="max-w-full shadow-2xl object-contain"
-                  style={{ maxHeight: '70vh', touchAction: 'pan-y pinch-zoom' }}
+                  className={`shadow-2xl transition-all duration-500 ${isImmersive ? 'w-screen h-screen object-cover cursor-zoom-out' : 'max-w-full object-contain cursor-zoom-in'}`}
+                  style={{ maxHeight: isImmersive ? '100vh' : '70vh', touchAction: 'pan-y pinch-zoom'}}
                   onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
-                  onClick={(e) => e.stopPropagation()}
+                  onClick={(e) => {e.stopPropagation(); setIsImmersive(prev => !prev);}}
                 />
                 <p className="mt-6 font-cormorant text-xl text-white/80 italic text-center px-4 leading-relaxed">
                   {currentGallery[subIndex].caption}
