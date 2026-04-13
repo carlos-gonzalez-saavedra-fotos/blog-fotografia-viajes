@@ -82,7 +82,10 @@ export const Lightbox: React.FC<LightboxProps> = ({
               {currentPhoto.tripId && (
                 <Link 
                   to={`/viaje/${currentPhoto.tripId}`}
-                  onClick={(e) => e.stopPropagation()}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onClose(); // Cierre inmediato para forzar el scroll
+                  }}
                   className="group flex items-center gap-3 text-white/40 hover:text-gold transition-all duration-500"
                   title="Leer crónica completa"
                 >

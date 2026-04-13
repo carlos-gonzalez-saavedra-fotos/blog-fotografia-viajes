@@ -24,16 +24,16 @@ export const ReviewDetail = () => {
     setIsPortrait(false);
   }, [selectedIndex]);
 
-  // RESTAURADO: Lógica de scroll original
+  // RESTAURADO: Lógica de scroll original reforzada
   useEffect(() => {
     if (window.location.hash === '#galeria') {
       setTimeout(() => {
         scrollToGallery();
       }, 100);
     } else {
-      window.scrollTo(0, 0);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  }, [id]);
+  }, [id, location.pathname, location.key]);
 
   const scrollToGallery = () => {
     galleryRef.current?.scrollIntoView({ behavior: 'smooth' });
