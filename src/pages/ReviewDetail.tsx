@@ -1,9 +1,10 @@
-import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { MIS_VIAJES } from '../data/mis_viajes';
-import { motion, AnimatePresence, PanInfo } from 'motion/react';
-import { MapPin, ArrowLeft, Quote, X, Search, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
+import { motion } from 'motion/react';
+import { MapPin, Search } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
+import { Lightbox } from '../components/Lightbox';
 
 export const ReviewDetail = () => {
   const { id } = useParams();
@@ -11,21 +12,13 @@ export const ReviewDetail = () => {
   const location = useLocation();
   const viaje = MIS_VIAJES.find(v => v.id === id);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
-  const [isPortrait, setIsPortrait] = useState(false);
   const galleryRef = useRef<HTMLDivElement>(null);
-  const [isImmersive, setIsImmersive] = useState(false);
 
   useEffect(() => {
     setSelectedIndex(null);
-    setIsPortrait(false);
   }, [location]);
 
-  useEffect(() => {
-    setIsPortrait(false);
-    setIsImmersive(false);
-  }, [selectedIndex]);
-
-  // RESTAURADO: Lógica de scroll original
+  // Lógica de scroll original restaurada
   useEffect(() => {
     if (window.location.hash === '#galeria') {
       setTimeout(() => {
@@ -40,15 +33,19 @@ export const ReviewDetail = () => {
     galleryRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  useEffect(() => {
-    document.body.style.overflow = selectedIndex !== null ? 'hidden' : 'unset';
-    return () => { document.body.style.overflow = 'unset'; };
-  }, [selectedIndex]);
+  // Preparar fotos para el Lightbox
+  const galleryPhotos = React.useMemo(() => {
+    if (!viaje?.galeria) return [];
+    return viaje.galeria.map(item => 
+      typeof item === 'string' 
+        ? { url: item, caption: '' }
+        : { url: item.url, caption: item.caption || '' }
+    );
+  }, [viaje?.galeria]);
 
-  const handlePanEnd = (_e: any, info: PanInfo) => {
-    if (!viaje?.galeria) return;
-    if (info.offset.x < -50) setSelectedIndex((selectedIndex! + 1) % viaje.galeria.length);
-    else if (info.offset.x > 50) setSelectedIndex((selectedIndex! - 1 + viaje.galeria.length) % viaje.galeria.length);
+  const navigateLightbox = (direction: number) => {
+    if (selectedIndex === null || !viaje?.galeria) return;
+    setSelectedIndex((selectedIndex + direction + viaje.galeria.length) % viaje.galeria.length);
   };
 
   if (!viaje) return <div className="min-h-screen bg-black" />;
@@ -76,7 +73,7 @@ export const ReviewDetail = () => {
               <p className="text-[10px] uppercase tracking-[0.3em] text-gold">Fecha</p>
               <p className="text-sm text-white/60 tracking-wider">{viaje.fecha || 'Próximamente'}</p>
             </div>
-            {/* BOTÓN RESTAURADO: Ahora sí hace scroll al ref */}
+            {/* Botón restaurado con scroll al ref */}
             <button onClick={scrollToGallery} className="w-full py-4 border border-white/10 text-[10px] uppercase tracking-[0.3em] hover:border-gold hover:text-gold transition-all duration-500">
               Ver Galería
             </button>
@@ -89,7 +86,7 @@ export const ReviewDetail = () => {
               ))}
             </div>
 
-            {/* CONTENEDOR RESTAURADO CON REF Y ID */}
+            {/* Contenedor restaurado con ref e id */}
             <div ref={galleryRef} id="galeria" className="pt-20 grid grid-cols-2 md:grid-cols-3 gap-1">
               {viaje.galeria?.map((item, i) => (
                 <motion.div key={i} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} onClick={() => setSelectedIndex(i)} className="aspect-square cursor-zoom-in overflow-hidden relative group">
@@ -104,56 +101,16 @@ export const ReviewDetail = () => {
         </div>
       </div>
 
-      {/* Lightbox con Flechas y Zoom Arreglado */}
-      <AnimatePresence>
-        {selectedIndex !== null && viaje.galeria && (
-          <div className="fixed inset-0 z-[9999] bg-black/98 backdrop-blur-xl flex flex-col" onClick={() => setSelectedIndex(null)}>
-            <div className="w-full px-6 py-4 md:px-10 flex justify-between items-center z-10">
-              <div className="flex items-center gap-3"><Camera className="w-5 h-5 text-gold" /><span className="font-serif text-lg tracking-[0.3em] text-white">CGS</span></div>
-              <button onClick={() => setSelectedIndex(null)} className="text-white/80 hover:text-gold p-2 transition-transform hover:rotate-90"><X size={32} strokeWidth={1} /></button>
-            </div>
-
-            {/* Flechas Desktop Restauradas */}
-            <button className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" onClick={(e) => { e.stopPropagation(); setSelectedIndex((selectedIndex - 1 + viaje.galeria!.length) % viaje.galeria!.length); }}><ChevronLeft size={64} strokeWidth={1} /></button>
-            <button className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 text-white/20 hover:text-gold z-50 transition-all" onClick={(e) => { e.stopPropagation(); setSelectedIndex((selectedIndex + 1) % viaje.galeria!.length); }}><ChevronRight size={64} strokeWidth={1} /></button>
-
-            <div className="flex-grow flex items-center justify-center p-4">
-              <div className={`relative flex flex-col items-center ${isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl'}`}>
-                <div className="w-full flex justify-between text-[10px] text-gold uppercase tracking-[0.5em] mb-6 px-2">
-                  <span>{viaje.ubicacion}</span>
-                  <span className="text-white/40">{selectedIndex + 1} / {viaje.galeria.length}</span>
-                </div>
-                <motion.img 
-                  key={selectedIndex}
-                  initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-                  onPanEnd={handlePanEnd}
-                  src={typeof viaje.galeria[selectedIndex] === 'string' ? viaje.galeria[selectedIndex] as string : (viaje.galeria[selectedIndex] as any).url}
-                  className="max-w-full shadow-2xl object-contain"
-                  style={{maxHeight: isImmersive ? '100vh' : '70vh', touchAction: 'pan-y pinch-zoom'}}
-                  onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
-                  onClick={(e) => {e.stopPropagation(); setIsImmersive(prev => !prev);}}
-                />
-                <div className="mt-6 text-center w-full px-4">
-                  <AnimatePresence mode="wait">
-                    {typeof viaje.galeria[selectedIndex!] !== 'string' && (viaje.galeria[selectedIndex!] as any).caption && (
-                      <motion.p 
-                        key={`caption-${selectedIndex}`}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                        className="font-cormorant font-normal text-lg md:text-xl text-white/80 mb-4 italic tracking-[0.05em] leading-relaxed"
-                      >
-                        {(viaje.galeria[selectedIndex!] as any).caption}
-                      </motion.p>
-                    )}
-                  </AnimatePresence>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-      </AnimatePresence>
+      {/* LIGHTBOX UNIFICADO - Reemplaza las ~120 líneas anteriores */}
+      <Lightbox
+        isOpen={selectedIndex !== null}
+        onClose={() => setSelectedIndex(null)}
+        photos={galleryPhotos}
+        currentIndex={selectedIndex ?? 0}
+        onNavigate={navigateLightbox}
+        ubicacion={viaje.ubicacion}
+      />
     </motion.div>
   );
 };
+
