@@ -35,13 +35,13 @@ export const ReviewDetail = () => {
 
   // Preparar fotos para el Lightbox
   const galleryPhotos = React.useMemo(() => {
-    if (!viaje?.galeria) return [];
-    return viaje.galeria.map(item => 
-      typeof item === 'string' 
-        ? { url: item, caption: '' }
-        : { url: item.url, caption: item.caption || '' }
-    );
-  }, [viaje?.galeria]);
+  if (!viaje?.galeria) return [];
+  return viaje.galeria.map(item => 
+    typeof item === 'string' 
+      ? { url: item, caption: '' }
+      : { url: item.url, caption: item.caption || '' }
+  );
+}, [viaje]);
 
   const navigateLightbox = (direction: number) => {
     if (selectedIndex === null || !viaje?.galeria) return;
