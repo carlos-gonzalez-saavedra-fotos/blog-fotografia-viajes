@@ -18,7 +18,6 @@ export const ReviewDetail = () => {
     setSelectedIndex(null);
   }, [location]);
 
-  // Lógica de scroll original restaurada
   useEffect(() => {
     if (window.location.hash === '#galeria') {
       setTimeout(() => {
@@ -33,16 +32,6 @@ export const ReviewDetail = () => {
     galleryRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  // Preparar fotos para el Lightbox
-  const galleryPhotos = React.useMemo(() => {
-  if (!viaje?.galeria) return [];
-  return viaje.galeria.map(item => 
-    typeof item === 'string' 
-      ? { url: item, caption: '' }
-      : { url: item.url, caption: item.caption || '' }
-  );
-}, [viaje]);
-
   const navigateLightbox = (direction: number) => {
     if (selectedIndex === null || !viaje?.galeria) return;
     setSelectedIndex((selectedIndex + direction + viaje.galeria.length) % viaje.galeria.length);
@@ -54,7 +43,6 @@ export const ReviewDetail = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-screen bg-black text-white font-light">
       <Helmet><title>{viaje.titulo} | Carlos González Saavedra</title></Helmet>
       
-      {/* Header / Hero */}
       <div className="relative h-[70vh] w-full overflow-hidden">
         <motion.img initial={{ scale: 1.1 }} animate={{ scale: 1 }} transition={{ duration: 1.5 }} src={viaje.urlImagen} className="w-full h-full object-cover opacity-60 grayscale" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
@@ -73,7 +61,6 @@ export const ReviewDetail = () => {
               <p className="text-[10px] uppercase tracking-[0.3em] text-gold">Fecha</p>
               <p className="text-sm text-white/60 tracking-wider">{viaje.fecha || 'Próximamente'}</p>
             </div>
-            {/* Botón restaurado con scroll al ref */}
             <button onClick={scrollToGallery} className="w-full py-4 border border-white/10 text-[10px] uppercase tracking-[0.3em] hover:border-gold hover:text-gold transition-all duration-500">
               Ver Galería
             </button>
@@ -86,7 +73,6 @@ export const ReviewDetail = () => {
               ))}
             </div>
 
-            {/* Contenedor restaurado con ref e id */}
             <div ref={galleryRef} id="galeria" className="pt-20 grid grid-cols-2 md:grid-cols-3 gap-1">
               {viaje.galeria?.map((item, i) => (
                 <motion.div key={i} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} onClick={() => setSelectedIndex(i)} className="aspect-square cursor-zoom-in overflow-hidden relative group">
@@ -101,11 +87,12 @@ export const ReviewDetail = () => {
         </div>
       </div>
 
-      {/* LIGHTBOX UNIFICADO - Reemplaza las ~120 líneas anteriores */}
       <Lightbox
         isOpen={selectedIndex !== null}
         onClose={() => setSelectedIndex(null)}
-        photos={galleryPhotos}
+        photos={viaje.galeria?.map(item => 
+          typeof item === 'string' ? { url: item, caption: '' } : { url: item.url, caption: item.caption || '' }
+        ) || []}
         currentIndex={selectedIndex ?? 0}
         onNavigate={navigateLightbox}
         ubicacion={viaje.ubicacion}
@@ -113,4 +100,3 @@ export const ReviewDetail = () => {
     </motion.div>
   );
 };
-
