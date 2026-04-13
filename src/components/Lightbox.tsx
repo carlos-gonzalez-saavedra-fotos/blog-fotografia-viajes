@@ -88,11 +88,8 @@ export const Lightbox: React.FC<LightboxProps> = ({
         )}
 
         {/* Contenedor principal */}
-        <div className="flex-grow flex items-center justify-center p-4">
-          <div 
-            className={`relative flex flex-col items-center ${
-              isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl'
-            }`}
+        <div className="flex-grow flex flex-col justify-center p-4 overflow-y-auto">
+          <div className={`relative flex flex-col items-center my-auto ${ isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl' }`}
           >
             {/* Info superior: ubicación y contador */}
             <div className="w-full flex justify-between text-[10px] text-gold uppercase tracking-[0.5em] mb-6 px-2">
