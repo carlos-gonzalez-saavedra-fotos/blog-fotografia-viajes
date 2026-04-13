@@ -13,6 +13,7 @@ export const ReviewDetail = () => {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isPortrait, setIsPortrait] = useState(false);
   const galleryRef = useRef<HTMLDivElement>(null);
+  const [isImmersive, setIsImmersive] = useState(false);
 
   useEffect(() => {
     setSelectedIndex(null);
@@ -21,6 +22,7 @@ export const ReviewDetail = () => {
 
   useEffect(() => {
     setIsPortrait(false);
+    setIsImmersive(false);
   }, [selectedIndex]);
 
   // RESTAURADO: Lógica de scroll original
@@ -127,9 +129,9 @@ export const ReviewDetail = () => {
                   onPanEnd={handlePanEnd}
                   src={typeof viaje.galeria[selectedIndex] === 'string' ? viaje.galeria[selectedIndex] as string : (viaje.galeria[selectedIndex] as any).url}
                   className="max-w-full shadow-2xl object-contain"
-                  style={{ maxHeight: '70vh', touchAction: 'pan-y pinch-zoom' }}
+                  style={{maxHeight: isImmersive ? '100vh' : '70vh', touchAction: 'pan-y pinch-zoom'}}
                   onLoad={(e) => setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth)}
-                  onClick={(e) => e.stopPropagation()}
+                  onClick={(e) => {e.stopPropagation(); setIsImmersive(prev => !prev);}}
                 />
                 <div className="mt-6 text-center w-full px-4">
                   <AnimatePresence mode="wait">
