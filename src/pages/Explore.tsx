@@ -26,16 +26,6 @@ export const Explore = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  // Scroll suave a los resultados cuando hay búsqueda o tag seleccionado
-  useEffect(() => {
-    if ((searchQuery || selectedTag) && resultsRef.current) {
-      const yOffset = -100; // Margen superior para que no quede pegado al borde
-      const element = resultsRef.current;
-      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-      window.scrollTo({ top: y, behavior: 'smooth' });
-    }
-  }, [searchQuery, selectedTag]);
-
   const allPhotos = useMemo(() => {
     const photos: PhotoItem[] = [];
     MIS_VIAJES.forEach(viaje => {
@@ -63,20 +53,45 @@ export const Explore = () => {
 
   const tagCloud = useMemo(() => {
     const counts: Record<string, number> = {};
-    allPhotos.forEach(photo => photo.tags.forEach(tag => counts[tag] = (counts[tag] || 0) + 1));
-    const sortedTags = Object.entries(counts).map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count).slice(0, 40);
+    const originalNames: Record<string, string> = {}; // Para mantener la capitalización más frecuente
+
+    allPhotos.forEach(photo => {
+      photo.tags.forEach(tag => {
+        const lowerTag = tag.toLowerCase().trim();
+        if (!lowerTag) return;
+        counts[lowerTag] = (counts[lowerTag] || 0) + 1;
+        // Guardamos el nombre original para mostrarlo (preferimos el que tenga mayúsculas si existe)
+        if (!originalNames[lowerTag] || (tag !== lowerTag && tag[0] === tag[0].toUpperCase())) {
+          originalNames[lowerTag] = tag;
+        }
+      });
+    });
+
+    const sortedTags = Object.entries(counts)
+      .map(([lowerName, count]) => ({ 
+        name: originalNames[lowerName], 
+        count 
+      }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 60) // Aumentamos a 60 para que sea más rica
+      .sort((a, b) => a.name.localeCompare(b.name)); // Orden alfabético para la nube
+
     const maxCount = Math.max(...sortedTags.map(t => t.count), 1);
     const minCount = Math.min(...sortedTags.map(t => t.count), 1);
+
     return sortedTags.map(tag => ({ 
       ...tag, 
-      size: maxCount === minCount ? 1 : 0.8 + ((tag.count - minCount) / (maxCount - minCount)) * 1.7 
+      size: maxCount === minCount ? 1 : 0.8 + ((tag.count - minCount) / (maxCount - minCount)) * 1.5 
     }));
   }, [allPhotos]);
 
   const filteredPhotos = useMemo(() => {
     if (!searchQuery && !selectedTag) return [];
     let results = allPhotos;
-    if (selectedTag) results = results.filter(p => p.tags.includes(selectedTag));
+    if (selectedTag) {
+      const lowerSelected = selectedTag.toLowerCase();
+      results = results.filter(p => p.tags.some(t => t.toLowerCase() === lowerSelected));
+    }
     if (searchQuery) {
       const term = searchQuery.toLowerCase();
       results = results.filter(f => 
@@ -87,6 +102,26 @@ export const Explore = () => {
     }
     return results;
   }, [allPhotos, selectedTag, searchQuery]);
+
+  // Scroll suave a los resultados cuando hay búsqueda o tag seleccionado
+  useEffect(() => {
+    if (!searchQuery && !selectedTag) return;
+
+    // Usamos un pequeño delay para la búsqueda para no interrumpir la escritura,
+    // pero instantáneo para la selección de etiquetas.
+    const delay = searchQuery ? 400 : 0;
+    
+    const timer = setTimeout(() => {
+      if (resultsRef.current && filteredPhotos.length > 0) {
+        const yOffset = -120; // Margen superior para que no quede pegado al borde
+        const element = resultsRef.current;
+        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    }, delay);
+
+    return () => clearTimeout(timer);
+  }, [searchQuery, selectedTag, filteredPhotos.length]);
 
   const navigateLightbox = (direction: number) => {
     if (selectedPhotoIndex === null) return;

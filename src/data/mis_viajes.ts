@@ -48,39 +48,470 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
     fecha: "Septiembre 2019",
     equipo: "Sony ILSE-6000",
     galeria: [
-      { url: "https://i.postimg.cc/FKC65LkF/Canal_(2).jpg", caption: "Los apacibles canales que definen el ritmo de Malmö", tags: ["arquitectura moderna", "frente al agua", "ciudad", "dia soleado", "paisaje urbano"] },
-      { url: "https://i.postimg.cc/25StKwyk/Puente_de_Oresund_(5).jpg", caption: "El puente de Oresund, nexo de unión entre dos mundos nórdicos", tags: ["puente", "mar", "paisaje", "arquitectura", "verano"] },
-      { url: "https://i.postimg.cc/4xNwf3gH/Palacio_de_Rosenborg_017.jpg", caption: "La majestuosidad histórica del Palacio de Rosenborg", tags: ["porcelana", "coleccion", "museo", "arte decorativo", "antiguedades"] },
-      { url: "https://i.postimg.cc/YCq8rSH8/Gliptoteca_Ny_Carlsberg_004.jpg", caption: "Arte y luz en la Gliptoteca Ny Carlsberg" },
-      { url: "https://i.postimg.cc/jjS1FX51/Estación_Triangeln_(7).jpg", caption: "Arquitectura futurista en la estación de Triangeln, Malmö", tags: ["arquitectura moderna", "techo de cristal", "escaleras mecanicas", "luz natural", "espacio publico"] },
-      { url: "https://i.postimg.cc/6p5zWQXM/Desde_el_Ayuntamiento_011.jpg", caption: "Colorido matrimonio en el Ayuntamiento de Copenhague", tags: ["pareja", "boda", "matrimonio", "personas", "niños", "niñas", "celebración", "ayuntamiento", "copenhague"] },
-      { url: "https://i.postimg.cc/PqV7swvH/Castillo_(4).jpg", caption: "Silueta del castillo bajo el cielo plomizo del norte", tags: ["castillo", "Dinamarca", "arquitectura", "historia", "patio"] },
-      { url: "https://i.postimg.cc/R0ZYDRF8/Malmö_(11).jpg", caption: "Arquitectura contemporánea en el horizonte sueco", tags: ["Copenhague", "escultura", "canal", "arte urbano", "cielo azul"] },
-      { url: "https://i.postimg.cc/3wxqcBRV/Parque_Pildam_(2).jpg", caption: "Reflejos otoñales en las aguas del parque Pildamm", tags: ["lago", "naturaleza", "paisaje", "arboles", "cielo"] },
-      { url: "https://i.postimg.cc/xd1Z4R8D/Playa_de_Ribergsborg_(4).jpg", caption: "La soledad del muelle frente al estrecho de Øresund", tags: ["muelle", "mar", "cielo", "arquitectura", "soleado"] },
-      { url: "https://i.postimg.cc/rpwHPJsM/Playa_Ribergsborg_(10).jpg", caption: "Casetas de baño tras la despedida del verano", tags: ["Malmö", "Turning Torso", "Suecia", "rascacielos", "urbano"] },
-      { url: "https://i.postimg.cc/fbRPrKyM/Plaza_Lilla_(5).jpg", caption: "El encanto medieval de Lilla Torg al atardecer", tags: ["arquitectura europea", "calle empedrada", "restaurante al aire libre", "gente", "bicicletas"] },
-      { url: "https://i.postimg.cc/wBjrGVMx/Puente_de_Oresund_(7).jpg", caption: "Ingeniería que une mundos sobre el mar Báltico", tags: ["cielo azul", "nubes", "arquitectura", "paisaje costero", "estructura de madera"] },
-      { url: "https://i.postimg.cc/DzwNMg00/Suecos_(2).jpg", caption: "Dos suecos y un bote bajo la luz de Escandinavia", tags: ["zuecos", "escultura", "canal", "embarcacion", "arte publico"] },
-      { url: "https://i.postimg.cc/KvZGCxrp/Estación_Triangeln_(4).jpg", caption: "Geometrías futuristas en el corazón de la ciudad", tags: ["metro", "arquitectura moderna", "escaleras mecanicas", "arte publico", "urbano"] },
-      { url: "https://i.postimg.cc/PrtX0Tz0/Estación_Triangeln_(8).jpg", caption: "Luz y acero en el subsuelo de Malmö", tags: ["arquitectura_moderna", "escaleras_mecanicas", "techo_cristal", "luz_natural", "diseño_interior"] },
-      { url: "https://i.postimg.cc/7YgfgQVH/Kungsparken-(4).webp", caption: "Senderos de paz en el jardín del Rey", tags: ["molino de viento", "arquitectura", "exterior", "naturaleza", "cielo"] },
-      { url: "https://i.postimg.cc/hPSDNcbY/Parque_Pildam_(11).jpg", caption: "La quietud del bosque urbano en Pildam", tags: ["bosque", "parque", "naturaleza", "otoño", "sendero", "paz"] },
-      { url: "https://i.postimg.cc/gkYz1mqS/Plaza_Lilla_(4).jpg", caption: "Fachadas de entramado de madera en la plaza pequeña", tags: ["plaza", "fuente", "arquitectura_historica", "adoquines", "cafes_al_aire_libre"] },
-      { url: "https://i.postimg.cc/pVQV0p8G/Tourning_Torso_(11).jpg", caption: "El giro infinito de Santiago Calatrava hacia las nubes", tags: ["Turning Torso", "arquitectura", "rascacielos", "Malmö", "diseño"] },
-      { url: "https://i.postimg.cc/HLkNh2xh/Iglesia_San_Pedro_(11).jpg", caption: "Lustrosos metales en la Iglesia de San Pedro", tags: ["organo", "candelabro", "iglesia", "arquitectura_interior", "metalico"] },
-      { url: "https://i.postimg.cc/XNKN2pFL/Western_Harbour_(4).jpg", caption: "El mar en el barrio sostenible de Western Harbour", tags: ["costa", "verano", "natacion", "relajacion", "naturaleza"] },
-      { url: "https://i.postimg.cc/dVH6LKs2/Biblioteca_Real_Danesa_Diamante_negro_002.jpg", caption: "El Diamante Negro, la audaz extensión de la Biblioteca Real Danesa", tags: ["arquitectura moderna", "cristal", "reflejos", "geometría", "diseño danés", "biblioteca", "negro", "minimalismo"] },
-      { url: "https://i.postimg.cc/mgXjtGLy/Blox_Centro_de_Arquitectura_Danesa_001.jpg", caption: "Blox, el vibrante hogar del Centro de Arquitectura Danesa", tags: ["arquitectura contemporánea", "blox", "vidrio", "urbano", "copenhague", "diseño", "cubos", "verde"] },
-      { url: "https://i.postimg.cc/nhcTFLJY/Desde_el_Ayuntamiento_002_(2).jpg", caption: "Vistas panorámicas desde las alturas del Ayuntamiento", tags: ["vistas aéreas", "panorámica", "ciudad", "tejados", "horizonte", "altura", "copenhague"] },
-      { url: "https://i.postimg.cc/t4CDqgjm/Museo_Louisiana_Calder_001.jpg", caption: "Esculturas de Alexander Calder en los jardines del Museo Louisiana", tags: ["arte moderno", "escultura", "jardín", "naturaleza", "calder", "museo", "aire libre", "mar"] },
-      { url: "https://i.postimg.cc/htPMDGBJ/Palacio_Rosenborg.jpg", caption: "El esplendor renacentista del Palacio de Rosenborg", tags: ["palacio", "renacimiento", "historia", "castillo", "arquitectura clásica", "ladrillo", "jardines"] },
-      { url: "https://i.postimg.cc/3xJ98wT4/Parque_Churchill_001.jpg", caption: "Paseo matutino por el histórico Parque Churchill", tags: ["parque", "niños", "niñas", "naturaleza", "verde", "estatua", "mañana", "tranquilidad", "copenhague"] },
-      { url: "https://i.postimg.cc/T3YQdP6K/Puerto_Nuevo_007.jpg", caption: "Nyhavn, el icónico canal de fachadas coloridas y barcos clásicos", tags: ["canal", "agua", "mar", "barcos", "colores", "fachadas", "turismo", "clásico", "puerto", "copenhague", "dinamarca", "sin personas"] },
-      { url: "https://i.postimg.cc/SxNVSKhL/The_Royal_Cast_Collection_moldes_esculturas_002.jpg", caption: "Moldes de yeso históricos en The Royal Cast Collection", tags: ["escultura", "yeso", "arte clásico", "museo", "interior", "detalle", "blanco", "copenhague", "dinamarca", "sin personas"] },
-      { url: "https://i.postimg.cc/2S8Tk5DH/Iglesia_de_Mármol_(2).jpg", caption: "La imponente cúpula de la Iglesia de Mármol (Frederiks Kirke)", tags: ["iglesia", "cúpula", "barroco", "mármol", "arquitectura religiosa", "monumental", "copenhague"] },
-      { url: "https://i.postimg.cc/5NX9K78v/Dinamarca-Suecia-desde-el-aire-001.jpg", caption: "El puente de Oresund desde al aire", tags: ["Puente de Øresund", "vista aerea", "viaje", "ingenieria", "paisaje marino"] }
-    ]
+      {
+    "url": "https://i.postimg.cc/dVH6LKs2/Biblioteca-Real-Danesa-Diamante-negro-002.jpg",
+    "caption": "El Diamante Negro, la extensión de la Biblioteca Real Danesa en Copenhague",
+    "tags": [
+      "Biblioteca Real Danesa-Diamante negro",
+      "Copenhague",
+      "arquitectura moderna",
+      "biblioteca",
+      "frente al agua",
+      "monumento"
+    ],
+    "alt": "Una vista exterior del icónico edificio 'El Diamante Negro', la extensión de la Biblioteca Real Danesa en Copenhague. Su distintiva fachada de granito negro y cristal brilla bajo un cielo azul. Desde un bote, se observa a numerosas personas disfrutando del día a lo largo del muelle adyacente al canal, capturando la vibrante atmósfera urbana."
+  },
+  {
+    "url": "https://i.postimg.cc/mgXjtGLy/Blox-Centro-de-Arquitectura-Danesa-001.jpg",
+    "caption": "Edificio BLOX en Copenhague, con su distintiva fachada de cristal escalonada en tonos blancos y azul-verde",
+    "tags": [
+      "Blox-Centro de Arquitectura Danesa",
+      "arquitectura moderna",
+      "frente al mar",
+      "BLOX",
+      "paisaje urbano",
+      "canal"
+    ],
+    "alt": "La foto captura el icónico edificio BLOX en Copenhague, con su distintiva fachada de cristal escalonada en tonos blancos y azul-verde, reflejándose en las aguas de un canal. Se observa gente paseando por el muelle frente al edificio. A la derecha, se distinguen edificaciones históricas de ladrillo rojo, ofreciendo un contraste arquitectónico. El cielo azul despejado sugiere un día soleado."
+  },
+  {
+    "url": "https://i.postimg.cc/FKC65LkF/Canal-(2).jpg",
+    "caption": "Malmö, Suecia: Clarion Hotel & Congress Malmö Live y sus alrededores",
+    "tags": [
+      "Canal",
+      "arquitectura moderna",
+      "canal",
+      "ciudad",
+      "edificios",
+      "escultura"
+    ],
+    "alt": "La imagen muestra un paisaje urbano moderno en Malmö, Suecia, centrado en el Clarion Hotel & Congress Malmö Live y sus alrededores. Varios edificios contemporáneos con fachadas de colores llamativos, como naranja y dorado, se alinean a lo largo de un canal. Un prominente rascacielos blanco de diseño retorcido se alza al fondo. En el primer plano, un camino empedrado y una barandilla verde bordean el canal, cuyas aguas reflejan las estructuras circundantes. Una escultura blanca y abstracta decora la orilla del canal."
+  },
+  {
+    "url": "https://i.postimg.cc/PqV7swvH/Castillo-(4).jpg",
+    "caption": "Patio empedrado del Castillo de Malmöhus, con su distintiva fachada de ladrillo rojo",
+    "tags": [
+      "Castillo",
+      "castillo",
+      "arquitectura",
+      "ladrillo",
+      "patio",
+      "histórico"
+    ],
+    "alt": "La imagen muestra el patio empedrado del Castillo de Malmöhus, con su distintiva fachada de ladrillo rojo y tejados a dos aguas escalonados bajo un cielo azul. Varias mesas de pícnic de madera oscura se encuentran en primer plano, invitando a descansar. Al fondo, se observan bicicletas aparcadas y algunas personas, sugiriendo un día soleado y agradable para los visitantes de este histórico lugar."
+  },
+  {
+    "url": "https://i.postimg.cc/nhcTFLJY/Desde-el-Ayuntamiento-002-(2).jpg",
+    "caption": "Vista panorámica aérea de Copenhague en un día soleado",
+    "tags": [
+      "Desde el Ayuntamiento",
+      "ciudad",
+      "copenhague",
+      "paisaje urbano",
+      "arquitectura",
+      "vista aérea"
+    ],
+    "alt": "Vista panorámica aérea de Copenhague en un día soleado, destacando una densa agrupación de edificios históricos con tejados de terracota. A la izquierda, el icónico Scandic Palace Hotel y la torre del ayuntamiento se alzan prominentemente. Numerosas agujas y cúpulas de iglesias salpican el horizonte urbano bajo un cielo azul claro, revelando la rica arquitectura y el ambiente vibrante de la capital danesa."
+  },
+  {
+    "url": "https://i.postimg.cc/6p5zWQXM/Desde-el-Ayuntamiento-011.jpg",
+    "caption": "Boda en el Ayuntamiento de Copenhague",
+    "tags": [
+      "Desde el Ayuntamiento",
+      "Boda",
+      "Celebración",
+      "Flores",
+      "Tocados",
+      "Invitados"
+    ],
+    "alt": "La imagen captura un momento en lo que parece ser una boda o celebración formal. El primer plano muestra a varias personas, destacando dos mujeres con elaborados tocados florales: una con una gran rosa blanca y flores coloridas, y otra con una corona de flores, quizás la novia, mirando hacia arriba. Al fondo, se aprecian otros invitados, incluyendo un hombre de traje y una niña pequeña, sugiriendo un encuentro animado a la salida de un edificio. La atmósfera es festiva."
+  },
+  {
+    "url": "https://i.postimg.cc/5NX9K78v/Dinamarca-Suecia-desde-el-aire-001.jpg",
+    "caption": "Vista aérea del Puente de Øresund, que conecta Dinamarca y Suecia, capturada desde la ventana de un avión",
+    "tags": [
+      "Dinamarca-Suecia-desde-el-aire",
+      "Øresund Bridge",
+      "vista aérea",
+      "avión",
+      "puente",
+      "mar"
+    ],
+    "alt": "Una impresionante vista aérea del Puente de Øresund, que conecta Dinamarca y Suecia, capturada desde la ventana de un avión. Parte del ala derecha del avión es visible en primer plano, enmarcando la larga estructura del puente que se extiende sobre las aguas, con el horizonte y un cielo parcialmente nublado de fondo."
+  },
+  {
+    "url": "https://i.postimg.cc/KvZGCxrp/Estacion-Triangeln-(4).jpg",
+    "caption": "Triangeln: Moderna estación de metro",
+    "tags": [
+      "Estación Triangeln",
+      "metro",
+      "arquitectura moderna",
+      "escaleras mecánicas",
+      "diseño subterráneo",
+      "arte abstracto"
+    ],
+    "alt": "Vista en picada de una persona descendiendo por las escaleras mecánicas en una moderna estación de metro. Las paredes de hormigón presentan un patrón ondulado distintivo y un gran mural decorativo de intrincadas formas geométricas metálicas. La estación es profunda, con múltiples tramos de escaleras mecánicas que conducen a niveles inferiores, iluminados por focos empotrados. El diseño es limpio, funcional y estéticamente llamativo, con una atmósfera contemporánea y algo futurista."
+  },
+  {
+    "url": "https://i.postimg.cc/jjS1FX51/Estacion-Triangeln-(7).jpg",
+    "caption": "Personas subiendo por escaleras mecánicas dentro de una estructura moderna",
+    "tags": [
+      "Estación Triangeln (",
+      "arquitectura moderna",
+      "escaleras mecánicas",
+      "techo de cristal",
+      "cielo azul",
+      "estructura metálica"
+    ],
+    "alt": "La imagen muestra personas subiendo por escaleras mecánicas dentro de una estructura moderna. El techo es una impresionante cúpula o bóveda de cristal y metal con un patrón geométrico complejo, a través del cual se observa el cielo azul claro con algunas nubes. La luz del sol ilumina el espacio, destacando la arquitectura y las personas en movimiento."
+  },
+  {
+    "url": "https://i.postimg.cc/PrtX0Tz0/Estacion-Triangeln-(8).jpg",
+    "caption": "Interior de una moderna estación con espectacular cúpula de vidrio y acero con un diseño geodésico",
+    "tags": [
+      "Estación Triangeln (",
+      "Arquitectura moderna",
+      "Cúpula de vidrio",
+      "Escaleras mecánicas",
+      "Estructura geométrica",
+      "Luz natural",
+      "Espacio público",
+      "Cielo azul",
+      "Diseño contemporáneo",
+      "Sombras",
+      "Transporte urbano"
+    ],
+    "alt": "La imagen muestra el interior de una moderna estación de tránsito, caracterizada por una espectacular cúpula de vidrio y acero con un diseño geodésico. Grandes escaleras mecánicas ascienden hacia la salida, donde dos personas se encuentran en la parte superior. La luz natural inunda el espacio, revelando el cielo azul con nubes a través del techo transparente. Las sombras proyectadas por la estructura metálica crean interesantes patrones geométricos en las paredes y los escalones, destacando la estética funcional y contemporánea del lugar."
+  },
+  {
+    "url": "https://i.postimg.cc/YCq8rSH8/Gliptoteca-Ny-Carlsberg-004.jpg",
+    "caption": "Diálogo artístico en la Gliptoteca Ny Carlsberg de Copenhague",
+    "tags": [
+      "Gliptoteca Ny Carlsberg",
+      "escultura",
+      "mano",
+      "bronce",
+      "arte clásico",
+      "figura femenina"
+    ],
+    "alt": "Una composición artística con una mano de bronce oscuro en primer plano, detallada y texturizada, extendiéndose hacia el centro. En un segundo plano difuminado, se aprecia una figura femenina de mármol blanco o claro con cabello rizado. El fondo es una pared lisa de color terracota, creando un contraste visual entre los materiales y la profundidad de campo."
+  },
+  {
+    "url": "https://i.postimg.cc/2S8Tk5DH/Iglesia-de-Marmol-(2).jpg",
+    "caption": "Mjestuosa Iglesia de Federico (Marmorkirken) en Copenhague, destacando su imponente cúpula de cobre verde y su fachada de mármol gris",
+    "tags": [
+      "Iglesia de Mármol (",
+      "copenhague",
+      "iglesia",
+      "arquitectura",
+      "cúpula",
+      "dinamarca"
+    ],
+    "alt": "Una perspectiva de gran angular de la majestuosa Iglesia de Federico (Marmorkirken) en Copenhague, destacando su imponente cúpula de cobre verde y su fachada de mármol gris. La edificación de estilo neoclásico se alza bajo un cielo azul claro salpicado de nubes blancas. Se aprecian detalles arquitectónicos, estatuas y edificios urbanos en el entorno, con algo de vegetación en el borde superior izquierdo. La imagen captura la grandiosidad del monumento."
+  },
+  {
+    "url": "https://i.postimg.cc/HLkNh2xh/Iglesia-San-Pedro-(11).jpg",
+    "caption": "Gran órgano de tubos de metal brillante y un ornamentado candelabro de bronce en la Iglesia de San Pedro, Malmö",
+    "tags": [
+      "Iglesia-San-Pedro (",
+      "órgano de tubos",
+      "candelabro",
+      "arquitectura religiosa",
+      "instrumento musical",
+      "detalles ornamentales"
+    ],
+    "alt": "Una vista en ángulo de un gran órgano de tubos de metal brillante y un ornamentado candelabro de bronce. El órgano presenta tubos pulidos y paneles perforados, mientras que el candelabro, en primer plano, cuelga elegantemente con múltiples brazos y bombillas que simulan velas encendidas. La escena sugiere el interior de una iglesia o sala de conciertos, destacando la solemnidad y la riqueza de sus elementos decorativos y musicales."
+  },
+  {
+    "url": "https://i.postimg.cc/J737TGJK/Kungsparken-(17).jpg",
+    "caption": "El extenso Kungsparken: verde con árboles frondosos bajo un cielo azul",
+    "tags": [
+      "Kungsparken (",
+      "Turning Torso",
+      "Malmö",
+      "parque",
+      "arquitectura",
+      "paisaje urbano"
+    ],
+    "alt": "Una vista amplia de un extenso parque verde con árboles frondosos bajo un cielo azul con algunas nubes. Al fondo, se alza el distintivo rascacielos blanco Turning Torso, con su diseño retorcido, asomando sobre la línea de árboles. La imagen muestra una combinación de naturaleza urbana y arquitectura moderna."
+  },
+  {
+    "url": "https://i.postimg.cc/7YgfgQVH/Kungsparken-(4).webp",
+    "caption": "Molino de viento de estilo holandés en Kungsparken",
+    "tags": [
+      "Kungsparken (",
+      "molino de viento",
+      "arquitectura",
+      "histórico",
+      "paisaje",
+      "cielo nublado"
+    ],
+    "alt": "Una imponente toma de un molino de viento de estilo holandés con su parte superior pintada de azul oscuro y una base de piedra robusta. El molino cuenta con aspas grandes y una pasarela de madera que lo rodea. El sol se vislumbra entre las aspas, creando un efecto de contraluz contra un cielo parcialmente nublado. Está situado en un entorno verde con césped bien cuidado y árboles frondosos, sugiriendo un parque o una zona rural."
+  },
+  {
+    "url": "https://i.postimg.cc/vTkG5zrF/Maersk-sede-empresa-global-de-trasportes-001.jpg",
+    "caption": "Vista frontal de la moderna sede de trasporte Maersk, con su cuadrícula repetitiva de ventanas cuadradas que reflejan el cielo azul",
+    "tags": [
+      "Maersk-sede-empresa global de trasportes",
+      "Architecture",
+      "Urban",
+      "Building facade",
+      "Waterfront",
+      "Geometric"
+    ],
+    "alt": "Una vista frontal de un edificio moderno con una fachada de hormigón en tono beige claro, caracterizada por una cuadrícula repetitiva de ventanas cuadradas que reflejan el cielo azul. En la parte inferior, un muelle de madera bordea un cuerpo de agua, sobre el cual caminan dos personas. Un poste de luz y una escalera roja hacia el agua añaden detalles a esta escena urbana y geométrica."
+  },
+  {
+    "url": "https://i.postimg.cc/R0ZYDRF8/Malmo-(11).jpg",
+    "caption": "Dos esculturas abstractas y coloridas adornan una plaza adoquinada junto a un canal en Malmö",
+    "tags": [
+      "Malmö (",
+      "arte público",
+      "escultura",
+      "frente marítimo",
+      "arquitectura moderna",
+      "cielo azul"
+    ],
+    "alt": "Dos esculturas abstractas y coloridas adornan una plaza adoquinada junto a un canal en Copenhague. A la izquierda, modernos edificios de cristal reflejan el cielo despejado, mientras que a la derecha, construcciones de ladrillo con tejados rojos añaden contraste. El cielo azul brillante con nubes dispersas ilumina la vibrante escena urbana, donde las obras de arte de Elizabeth Toubro destacan prominentemente."
+  },
+  {
+    "url": "https://i.postimg.cc/t4CDqgjm/Museo-Louisiana-Calder-001.jpg",
+    "caption": "Jardín con esculturas de Alexander Calder en el Museo Louisiana",
+    "tags": [
+      "Museo Louisiana-Calder",
+      "escultura",
+      "arte_moderno",
+      "jardín",
+      "paisaje_marino",
+      "Alexander_Calder"
+    ],
+    "alt": "Vista panorámica de un jardín de esculturas al aire libre con el mar de fondo bajo un cielo nublado. A la izquierda, una gran escultura abstracta negra de metal, con formas angulares y punzantes, característica de Alexander Calder. A la derecha, una esbelta escultura roja vibrante, también abstracta, que se eleva hacia el cielo, posiblemente con un elemento blanco en la cima. El césped verde contrasta con los tonos grises del cielo y el mar, creando una escena de arte y naturaleza. El lugar es reconocido por su colección al aire libre."
+  },
+  {
+    "url": "https://i.postimg.cc/4xNwf3gH/Palacio-de-Rosenborg-017.jpg",
+    "caption": "Exuberante colección de porcelana antigua en el Palacio de Rosenborg",
+    "tags": [
+      "Palacio de Rosenborg",
+      "Porcelana",
+      "Antigüedades",
+      "ArteDecorativo",
+      "Colección",
+      "VajillaOrnamentada"
+    ],
+    "alt": "Una exuberante colección de porcelana antigua se exhibe en una sala de paredes verde pálido. Cientos de piezas, incluyendo platos, tazas, soperas y jarrones ornamentados, cubren densamente las superficies. Cada objeto presenta intrincados diseños florales, escenas pastorales y detalles dorados, reflejando la exquisitez y el arte decorativo de épocas pasadas. Es una muestra impresionante de vajilla y objetos de lujo históricos."
+  },
+  {
+    "url": "https://i.postimg.cc/htPMDGBJ/Palacio-Rosenborg.jpg",
+    "caption": "León de bronce en el majestuoso Castillo de Rosenborg en Copenhague, Dinamarca",
+    "tags": [
+      "Palacio Rosenborg",
+      "castillo",
+      "copenhague",
+      "estatua de león",
+      "arquitectura",
+      "turismo"
+    ],
+    "alt": "La imagen muestra una estatua de león de bronce con pátina verde en primer plano, con el majestuoso Castillo de Rosenborg en Copenhague, Dinamarca, al fondo. El castillo de ladrillo rojo presenta una distintiva arquitectura renacentista con sus torres puntiagudas de tejados verdes. Un grupo de turistas se observa haciendo fila para cruzar un puente de acceso, flanqueado por setos, hacia el recinto del castillo, bajo un cielo parcialmente nublado. La escena captura la entrada a esta histórica fortaleza."
+  },
+  {
+    "url": "https://i.postimg.cc/3xJ98wT4/Parque-Churchill-001.jpg",
+    "caption": "Una familia con su gran danés disfruta de un día soleado junto a la icónica Fuente de Gefion en Copenhague",
+    "tags": [
+      "Parque Churchill",
+      "fountain",
+      "Great Dane",
+      "Copenhagen",
+      "family",
+      "summer"
+    ],
+    "alt": "Una familia con su gran perro negro disfruta de un día soleado junto a la icónica Fuente de Gefion en Copenhague. Un hombre sostiene la correa del can mientras una niña sonriente interactúa con el animal. Una mujer se refresca con el agua que brota de la fuente, creando una escena de ocio y diversión al aire libre."
+  },
+  {
+    "url": "https://i.postimg.cc/3wxqcBRV/Parque-Pildam-(2).jpg",
+    "caption": "Un lago sereno bajo un cielo azul vibrante, en el parque Pildam de Malmö",
+    "tags": [
+      "Parque Pildam (",
+      "lago",
+      "naturaleza",
+      "paisaje",
+      "cielo azul",
+      "otoño"
+    ],
+    "alt": "Una hermosa vista panorámica de un lago sereno bajo un cielo azul vibrante, salpicado de grandes nubes blancas. La orilla está rodeada por una densa vegetación de árboles con tonos verdes y algunos matices otoñales, creando un marco natural. En primer plano, el agua muestra leves ondas y vegetación acuática. A la derecha, se aprecian escalones de piedra que bajan hacia el agua, sugiriendo un área de paseo. La escena irradia paz y belleza natural."
+  },
+  {
+    "url": "https://i.postimg.cc/hPSDNcbY/Parque-Pildam-(11).jpg",
+    "caption": "Una persona solitaria camina por un sendero cubierto de hojas caídas en el parque Pildam",
+    "tags": [
+      "Parque-Pildam (",
+      "naturaleza",
+      "bosque",
+      "otoño",
+      "sendero",
+      "árboles"
+    ],
+    "alt": "Una persona solitaria camina por un sendero cubierto de hojas caídas, serpenteando a través de un denso bosque o parque. Grandes y majestuosos árboles con follaje verde y algunos toques otoñales flanquean el camino, creando una atmósfera serena y envolvente. La luz se filtra suavemente entre las copas, realzando la belleza natural del entorno."
+  },
+  {
+    "url": "https://i.postimg.cc/xd1Z4R8D/Playa-de-Ribergsborg-(4).jpg",
+    "caption": "Un largo muelle de madera se extiende sobre el mar tranquilo en la playa de Ribergsborg, Malmö",
+    "tags": [
+      "Playa de Ribergsborg (",
+      "muelle",
+      "mar",
+      "arquitectura",
+      "cielo azul",
+      "nubes",
+      "verano",
+      "Malmö",
+      "Suecia",
+      "balneario",
+      "pasarela"
+    ],
+    "alt": "Una vista panorámica de un largo muelle de madera que se extiende sobre el mar tranquilo bajo un brillante cielo azul salpicado de nubes blancas. Al final del muelle se alza una estructura grande y distintiva, el Ribersborgs Kallbadhus. El muelle cuenta con barandillas de madera pintadas de rojo y crema, guiando la vista hacia el horizonte. Algunas personas se pueden observar caminando por el muelle, disfrutando del día soleado. En el lado derecho del horizonte se distingue la silueta de la ciudad."
+  },
+  {
+    "url": "https://i.postimg.cc/rpwHPJsM/Playa-Ribergsborg-(10).jpg",
+    "caption": "Vista de la ciudad de Malmö, Suecia, con un edificio tradicional de madera pintado de verde claro sobre el agua en primer plano",
+    "tags": [
+      "Playa-Ribergsborg (",
+      "Turning Torso",
+      "Malmö",
+      "Arquitectura",
+      "Frente al mar",
+      "Gaviotas"
+    ],
+    "alt": "Una vista de la ciudad de Malmö, Suecia, con un edificio tradicional de madera pintado de verde claro sobre el agua en primer plano. Varias gaviotas se posan o vuelan cerca de esta estructura. Al otro lado del cuerpo de agua, se alza el icónico rascacielos Turning Torso con su distintivo diseño retorcido, junto a otros edificios modernos que componen el paisaje urbano costero."
+  },
+  {
+    "url": "https://i.postimg.cc/gkYz1mqS/Plaza-Lilla-(4).jpg",
+    "caption": "Plaza Lilla de Malmö, con su empedrado y una fuente central de granito y bronce",
+    "tags": [
+      "Plaza Lilla (",
+      "plaza histórica",
+      "fuente",
+      "arquitectura tradicional",
+      "empedrado",
+      "cafeterías"
+    ],
+    "alt": "Una vista panorámica de una plaza histórica con empedrado, mostrando una fuente central de granito y bronce. Alrededor, edificios de arquitectura tradicional, incluyendo casas con entramado de madera y construcciones de ladrillo, albergan restaurantes y cafeterías con terrazas. El cielo parcialmente nublado añade dramatismo a la escena. Es un lugar pintoresco y típico de una ciudad europea."
+  },
+  {
+    "url": "https://i.postimg.cc/fbRPrKyM/Plaza-Lilla-(5).jpg",
+    "caption": "Escena animada en la plaza Lilla, con una calle adoquinada",
+    "tags": [
+      "Plaza-Lilla (",
+      "ciudad histórica",
+      "calle adoquinada",
+      "restaurante al aire libre",
+      "arquitectura tradicional",
+      "vida urbana"
+    ],
+    "alt": "Una escena animada en una plaza europea con una calle adoquinada. En primer plano, personas caminan y andan en bicicleta. Al fondo, un edificio histórico de ladrillo y madera alberga un restaurante con una amplia terraza exterior, protegida por grandes sombrillas amarillas. El ambiente es de un día soleado en una ciudad con encanto antiguo, con edificios coloridos y faroles tradicionales adornando el entorno."
+  },
+  {
+    "url": "https://i.postimg.cc/25StKwyk/Puente-de-Oresund-(5).jpg",
+    "caption": "Majestuoso Puente de Øresund, que conecta Dinamarca y Suecia, extendiéndose sobre el mar azul bajo un cielo parcialmente nublado",
+    "tags": [
+      "Puente de Oresund (",
+      "Øresund Bridge",
+      "Puente",
+      "Mar",
+      "Paisaje",
+      "Nubes"
+    ],
+    "alt": "Una vista panorámica del majestuoso Puente de Øresund, que conecta Dinamarca y Suecia, extendiéndose sobre el mar azul bajo un cielo parcialmente nublado. En primer plano, grandes rocas delimitan la orilla cubierta de césped, añadiendo textura al paisaje. La estructura del puente, con sus pilares y cables, se erige imponente a lo lejos, creando una escena serena y arquitectónicamente impresionante."
+  },
+  {
+    "url": "https://i.postimg.cc/wBjrGVMx/Puente-de-Oresund-(7).jpg",
+    "caption": "Instalación de arte o un monumento con postes de madera verticales y travesaños, rodeando un montículo central de tierra y piedra",
+    "tags": [
+      "Puente de Oresund (",
+      "arte al aire libre",
+      "paisaje costero",
+      "cielo azul",
+      "arquitectura moderna",
+      "parque"
+    ],
+    "alt": "Una vista exterior que muestra una instalación de arte o un monumento con postes de madera verticales y travesaños, rodeando un montículo central de tierra y piedra. Un sendero de grava serpentea alrededor de la base. Al fondo, se observan edificios residenciales modernos con tejados rojos y ventanales bajo un cielo intensamente azul salpicado de nubes blancas y esponjosas. La escena sugiere un área costera o un parque, con zonas verdes y una sensación de amplitud."
+  },
+  {
+    "url": "https://i.postimg.cc/T3YQdP6K/Puerto-Nuevo-007.jpg",
+    "caption": "Vibrante e icónico Nyhavn en Copenhague, con sus casas de colores alineadas a lo largo del canal",
+    "tags": [
+      "Puerto Nuevo",
+      "Nyhavn",
+      "Copenhague",
+      "Dinamarca",
+      "edificios coloridos",
+      "canal",
+      "muelle",
+      "turismo",
+      "verano",
+      "gente",
+      "bicicletas"
+    ],
+    "alt": "Una vista vibrante del icónico Nyhavn en Copenhague, con sus casas de colores alineadas a lo largo del canal. Se observa gente paseando, sentada en cafés al aire libre y en bicicleta junto al muelle de madera. Un mástil de velero y un vehículo de reparto Avis también son visibles, bajo un cielo azul claro."
+  },
+  {
+    "url": "https://i.postimg.cc/DzwNMg00/Suecos-(2).jpg",
+    "caption": "Una escultura de bronce de dos zuecos tradicionales se exhibe prominentemente junto a un canal en Malmö, Suecia",
+    "tags": [
+      "Suecos (",
+      "escultura",
+      "zuecos de bronce",
+      "canal",
+      "arte público",
+      "monumento"
+    ],
+    "alt": "Una escultura de bronce de dos zuecos tradicionales se exhibe prominentemente junto a un canal en Växjö, Suecia. La pieza reposa sobre una base de granito, con una placa que identifica la obra como un homenaje a 'Gören från Hylle', un comediante rural sueco (1868-1944). En el agua tranquila del canal se observa una pequeña barca naranja, añadiendo un toque pintoresco a la escena. La escultura es un ejemplo de arte público que conmemora figuras locales y la cultura tradicional."
+  },
+  {
+    "url": "https://i.postimg.cc/SxNVSKhL/The-Royal-Cast-Collection-moldes-esculturas-002.jpg",
+    "caption": "Una réplica patinada en bronce de la famosa estatua de David de Miguel Ángel se alza majestuosamente frente a un imponente edificio histórico de ladrillo rojo",
+    "tags": [
+      "The Royal Cast Collection-moldes-esculturas",
+      "estatua",
+      "David de Miguel Ángel",
+      "réplica",
+      "arquitectura",
+      "edificio de ladrillo",
+      "muelle",
+      "agua",
+      "escultura",
+      "patrimonio",
+      "urbano"
+    ],
+    "alt": "Una réplica patinada en bronce de la famosa estatua de David de Miguel Ángel se alza majestuosamente frente a un imponente edificio histórico de ladrillo rojo. La edificación, posiblemente un antiguo almacén, presenta múltiples ventanas arqueadas y se ubica a orillas de un canal o puerto. La base de la estatua menciona 'DAVID UDFØRT AF MICHEL ANGELO FLORENS 1904', indicando su origen. La escena combina arte clásico con la arquitectura industrial portuaria, reflejando una atmósfera urbana distintiva."
+  },
+  {
+    "url": "https://i.postimg.cc/pVQV0p8G/Tourning-Torso-(11).jpg",
+    "caption": "Rascacielos moderno y emblemático: el Turning Torso de Malmö, Suecia, capturado desde un ángulo bajo",
+    "tags": [
+      "Tourning-Torso",
+      "Calatrava",
+      "Rascacielos",
+      "Turning Torso",
+      "Arquitectura moderna",
+      "Malmö",
+      "Edificio"
+    ],
+    "alt": "Fotografía de un rascacielos moderno y emblemático, el Turning Torso de Malmö, Suecia, capturado desde un ángulo bajo. El edificio presenta una distintiva estructura giratoria con fachadas de paneles blancos y numerosas ventanas que reflejan un cielo variado, con nubes en un lado y azul intenso en el otro. Su diseño arquitectónico es audaz y contemporáneo, destacando en el paisaje urbano y mostrando elementos de soporte externos."
+  },
+  {
+    "url": "https://i.postimg.cc/XNKN2pFL/Western-Harbour-(4).jpg",
+    "caption": "Costa rocosa con un muelle de madera que se extiende hacia aguas tranquilas",
+    "tags": [
+      "Western Harbour (",
+      "playa rocosa",
+      "muelle de madera",
+      "bañistas",
+      "mar",
+      "verano"
+    ],
+    "alt": "La imagen muestra una costa rocosa con un muelle de madera que se extiende hacia aguas tranquilas. Grandes rocas forman la orilla. Dos personas se encuentran en el agua cerca del muelle, mientras otras se sientan en una estructura de madera sobre las rocas. La escena sugiere un día de verano relajado en un lugar de baño natural."
+  }
+]
   },
   {
     id: "viena",
