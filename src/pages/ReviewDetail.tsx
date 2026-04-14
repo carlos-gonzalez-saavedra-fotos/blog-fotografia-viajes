@@ -75,6 +75,12 @@ export const ReviewDetail = () => {
               <p className="text-[10px] uppercase tracking-[0.3em] text-gold">Fecha</p>
               <p className="text-sm text-white/60 tracking-wider">{viaje.fecha || 'Próximamente'}</p>
             </div>
+            {viaje.equipo && (
+              <div className="space-y-4">
+                <p className="text-[10px] uppercase tracking-[0.3em] text-gold">Equipo</p>
+                <p className="text-sm text-white/60 tracking-wider">{viaje.equipo}</p>
+              </div>
+            )}
             {/* BOTÓN RESTAURADO: Ahora sí hace scroll al ref */}
             <button onClick={scrollToGallery} className="w-full py-4 border border-white/10 text-[10px] uppercase tracking-[0.3em] hover:border-gold hover:text-gold transition-all duration-500">
               Ver Galería

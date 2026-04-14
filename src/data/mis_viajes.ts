@@ -43,7 +43,7 @@ De vuelta a la capital del Reino de Dinamarca, visito el Palacio de Rosenborg, r
 En el cercano Parque Churchill hay fuentes con motivos mitológicos, un perro gran danés recibe paciente las caricias de los niños y la escultura de La Sirenita, homenaje al escritor Hans Christian Andersen y símbolo de la ciudad, mira con nostalgia al mar que la rodea. 
 La tarea no ha debido de ser pacífica, pues se le representa con armadura y con un hacha en la mano. Por suerte corren otros tiempos y en este sábado soleado los locales hacen grande a su ciudad de manera distinta: compitiendo masivamente en una travesía a nado por los apacibles canales del centro. 
 Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y doy desde el aire una última mirada a ese maravilloso puente entre Malmö y Copenhague que descubrí en la ficción, crucé seis veces en la realidad y que hace más grandes a las dos ciudades que une.`,
-    urlImagen: "https://i.postimg.cc/vTkG5zrF/Maersk-sede-empresa-global-de-trasportes-001.jpg",
+    urlImagen: "https://i.postimg.cc/xd1Z4R8D/Playa-de-Ribergsborg-(4).jpg",
     categoria: "Europa",
     fecha: "Septiembre 2019",
     equipo: "Sony ILSE-6000",
@@ -318,11 +318,13 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
     "caption": "Una familia con su gran danés disfruta de un día soleado junto a la icónica Fuente de Gefion en Copenhague",
     "tags": [
       "Parque Churchill",
-      "fountain",
-      "Great Dane",
+      "fuente",
+      "Gran Danés",
       "Copenhagen",
-      "family",
-      "summer"
+      "familia",
+      "niños",
+      "gente",
+      "verano"
     ],
     "alt": "Una familia con su gran perro negro disfruta de un día soleado junto a la icónica Fuente de Gefion en Copenhague. Un hombre sostiene la correa del can mientras una niña sonriente interactúa con el animal. Una mujer se refresca con el agua que brota de la fuente, creando una escena de ocio y diversión al aire libre."
   },
@@ -372,7 +374,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/rpwHPJsM/Playa-Ribergsborg-(10).jpg",
-    "caption": "Vista de la ciudad de Malmö, Suecia, con un edificio tradicional de madera pintado de verde claro sobre el agua en primer plano",
+    "caption": "Malmö, Suecia, con un edificio tradicional de madera en primer plano y la moderna torre de Calatrava, al fondo",
     "tags": [
       "Playa-Ribergsborg (",
       "Turning Torso",
@@ -411,7 +413,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/25StKwyk/Puente-de-Oresund-(5).jpg",
-    "caption": "Majestuoso Puente de Øresund, que conecta Dinamarca y Suecia, extendiéndose sobre el mar azul bajo un cielo parcialmente nublado",
+    "caption": "Majestuoso Puente de Øresund, que conecta Dinamarca y Suecia, extendiéndose sobre el mar azul",
     "tags": [
       "Puente de Oresund (",
       "Øresund Bridge",
@@ -424,7 +426,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/wBjrGVMx/Puente-de-Oresund-(7).jpg",
-    "caption": "Instalación de arte o un monumento con postes de madera verticales y travesaños, rodeando un montículo central de tierra y piedra",
+    "caption": "Instalación de arte o un monumento rodeando un montículo central de tierra y piedra",
     "tags": [
       "Puente de Oresund (",
       "arte al aire libre",
@@ -534,15 +536,135 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
     fecha: "Enero 2002",
     equipo: "Minolta X300s",
     galeria: [
-      { url: "https://i.postimg.cc/kGnr7J5b/Alto_Belvedere_01a.webp", caption: "La elegancia barroca del Palacio Belvedere Superior", tags: ["barroco", "palacio", "viena", "arquitectura clásica", "jardines", "patrimonio", "imperial"] },
-      { url: "https://i.postimg.cc/4ywDdDK3/Alto_Belvedere_a.webp", caption: "Detalles escultóricos que sostienen la historia imperial", tags: ["escultura", "detalle", "barroco", "piedra", "atlantes", "palacio", "viena"] },
-      { url: "https://i.postimg.cc/zvpsBsLB/Arcos_de_la_Colina_HMoore.webp", caption: "La modernidad de Henry Moore frente a la tradición vienesa", tags: ["henry moore", "escultura moderna", "viena", "austria", "contraste", "arte", "exterior", "bronce", "sin personas"] },
-      { url: "https://i.postimg.cc/J0Kfnfyz/Danubio_congelado_a.webp", caption: "El Danubio rindiéndose al abrazo del invierno", tags: ["invierno", "danubio", "río", "hielo", "frío", "paisaje", "viena", "austria", "naturaleza", "agua congelada", "sin personas"] },
-      { url: "https://i.postimg.cc/MHtCTCcH/Jesuitenkirche_a.webp", caption: "Haces de luz teatral en la Iglesia de los Jesuitas", tags: ["iglesia", "interior", "luz", "barroco", "religión", "viena", "austria", "arquitectura", "atmósfera", "sin personas"] },
-      { url: "https://i.postimg.cc/tJDKTK1s/Schönbrunn_02.webp", caption: "La inmensidad de los jardines del Palacio de Schönbrunn", tags: ["palacio", "jardines", "viena", "austria", "perspectiva", "imperial", "parque", "arquitectura", "sin personas"] },
-      { url: "https://i.postimg.cc/wj07Sy7s/Música_silente.webp", caption: "Música silente: el alma de Viena capturada en sus monumentos", tags: ["monumento", "viena", "austria", "estatua", "música", "oro", "clásico", "arte", "sin personas"] },
-      { url: "https://i.postimg.cc/fRBJ6tJ3/Hundertwasser.webp", caption: "La explosión de color y formas orgánicas de la Hundertwasserhaus", tags: ["hundertwasser", "arquitectura orgánica", "color", "viena", "diseño", "vanguardia", "fachada"] },
-      { url: "https://i.postimg.cc/MpdvhMvM/Abadía_de_Melk_3.webp", caption: "La majestuosidad barroca de la Abadía de Melk sobre el Danubio", tags: ["abadía", "barroco", "melk", "danubio", "arquitectura religiosa", "monumento", "austria"] }
+        {
+    "url": "https://i.postimg.cc/MpdvhMvM/Abadia-de-Melk-3.webp",
+    "caption": "Vista de la Abadía de Melk, una joya barroca ubicada en una colina rocosa en Austria",
+    "tags": [
+      "Abadía de Melk",
+      "Austria",
+      "arquitectura barroca",
+      "monasterio",
+      "invierno",
+      "árbol sin hojas",
+      "paisaje cultural",
+      "edificio histórico",
+      "río Danubio",
+      "paisaje invernal"
+    ],
+    "alt": "Una vista impresionante de la Abadía de Melk, una joya barroca ubicada en una colina rocosa en Austria. La fotografía, tomada en invierno, muestra la majestuosa abadía con sus distintivas fachadas amarillas y blancas y sus dos imponentes torres con reloj. En primer plano, las ramas desnudas de un gran árbol, posiblemente un sauce llorón, enmarcan la estructura, añadiendo una atmósfera serena y melancólica a la escena. El cielo pálido y el terreno rocoso y escaso de vegetación sugieren el frío de la estación."
+  },
+  {
+    "url": "https://i.postimg.cc/kGnr7J5b/Alto-Belvedere-01a.webp",
+    "caption": "Entrada al palacio Belvedere en Viena, flanqueada por dos imponentes estatuas de atlantes de mármol",
+    "tags": [
+      "Alto Belvedere",
+      "museo",
+      "arquitectura",
+      "estatuas",
+      "barroco",
+      "viena",
+      "palacio",
+      "exposición",
+      "arte",
+      "atlantes",
+      "interior"
+    ],
+    "alt": "Una gran sala de un palacio barroco, posiblemente el Belvedere en Viena, adornada con intrincadas decoraciones en el techo y dos imponentes estatuas de atlantes de mármol que flanquean la vista. Al fondo, se aprecia una entrada a una exposición titulada 'Italienische Reisen' (Viajes Italianos), con una zona de recepción a la izquierda y una gran ventana arqueada a la derecha que ilumina el espacio. El ambiente es majestuoso y cultural, típico de un museo histórico."
+  },
+  {
+    "url": "https://i.postimg.cc/4ywDdDK3/Alto-Belvedere-a.webp",
+    "caption": "Panorámica del Palacio Belvedere en Viena: majestuosa arquitectura barroca tras un estanque congelado",
+    "tags": [
+      "Alto Belvedere-a",
+      "palacio",
+      "arquitectura barroca",
+      "Viena",
+      "historia",
+      "Austria",
+      "agua",
+      "reflejo",
+      "atardecer",
+      "edificio histórico",
+      "monumento"
+    ],
+    "alt": "Una vista panorámica del Palacio Belvedere en Viena, destacando su majestuosa arquitectura barroca. La fachada del palacio, bañada por una luz cálida, se refleja de forma vibrante en la superficie de un cuerpo de agua, posiblemente una fuente o estanque. La imagen captura la belleza y la serenidad del lugar, con un contraste entre los tonos dorados del edificio y los azules y naranjas del reflejo en el agua."
+  },
+  {
+    "url": "https://i.postimg.cc/zvpsBsLB/Arcos-de-la-Colina-HMoore.webp",
+    "caption": "Escultura Arcos de la Colina, de Henry Moore: una mirada curiosa asoma entre las oquedades",
+    "tags": [
+      "Arcos de la Colina HMoore",
+      "Escultura abstracta",
+      "Arte público",
+      "Bronce",
+      "Invierno",
+      "Paisaje urbano"
+    ],
+    "alt": "Una imponente escultura abstracta de bronce con pátina verdosa domina la imagen, mostrando formas entrelazadas y huecos. A través de una de sus aberturas, se asoma una persona joven con un gorro rojo, observando el entorno. El fondo está compuesto por árboles desnudos bajo un cielo claro, indicando una estación fría, posiblemente invierno. La obra de arte está situada al aire libre, posiblemente en un parque o plaza urbana."
+  },
+  {
+    "url": "https://i.postimg.cc/J0Kfnfyz/Danubio-congelado-a.webp",
+    "caption": "Escena invernal de un Danubio congelado al atardecer",
+    "tags": [
+      "Danubio congelado-a",
+      "invierno",
+      "patinaje_sobre_hielo",
+      "atardecer",
+      "lago_helado",
+      "gente"
+    ],
+    "alt": "Escena invernal de un gran lago congelado al atardecer, donde numerosas personas disfrutan de actividades al aire libre. La imagen muestra a individuos patinando y caminando sobre el hielo, así como a otros sentados en los muelles de madera cubiertos de nieve en primer plano. Al fondo, árboles sin hojas y algunas casas iluminadas bordean la orilla, bajo un cielo con tonos suaves de azul y naranja, creando una atmósfera tranquila y recreativa."
+  },
+  {
+    "url": "https://i.postimg.cc/fRBJ6tJ3/Hundertwasser.webp",
+    "caption": "Asimétrica fachada del icónico Hundertwasserhaus en Viena",
+    "tags": [
+      "arquitectura",
+      "colorido",
+      "Hundertwasser",
+      "Viena",
+      "diseño-único"
+    ],
+    "alt": "Una vibrante y asimétrica fachada del icónico Hundertwasserhaus en Viena. El edificio presenta franjas de colores como azul, blanco y magenta, con ventanas de formas y tamaños variados que reflejan el cielo. La arquitectura única de Hundertwasser se manifiesta en las líneas onduladas, los balcones orgánicos y los pequeños detalles decorativos que crean una experiencia visual lúdica y artística en el paisaje urbano."
+  },
+  {
+    "url": "https://i.postimg.cc/MHtCTCcH/Jesuitenkirche-a.webp",
+    "caption": "Interior de la basílica barroca Jesuitenkirche: opulenta decoración dorada, arcos ornamentados y columnas de mármol",
+    "tags": [
+      "Jesuitenkirche-a",
+      "arquitectura",
+      "barroco",
+      "dorado",
+      "iglesia",
+      "ornamentado"
+    ],
+    "alt": "Una majestuosa vista interior de una basílica barroca, caracterizada por su opulenta decoración dorada, arcos ornamentados y columnas de mármol. Rayos de luz natural atraviesan el espacio, iluminando los intrincados detalles arquitectónicos y creando una atmósfera etérea. Se aprecian balcones y un órgano detallado en la parte superior derecha."
+  },
+  {
+    "url": "https://i.postimg.cc/wj07Sy7s/Musica-silente.webp",
+    "caption": "Dos esculturas de mármol blanco, que representan a músicos tocando un violín y un violonchelo",
+    "tags": [
+      "Música silente",
+      "esculturas",
+      "música",
+      "arquitectura_europea",
+      "mármol",
+      "arte_urbano"
+    ],
+    "alt": "Dos imponentes esculturas de mármol blanco, que representan a músicos tocando un violín y un violonchelo, se alzan en primer plano. Detrás, una fila de edificios históricos con intrincada arquitectura europea, de estilo barroco o neoclásico, forma un telón de fondo urbano. La escena transmite una atmósfera cultural y artística, común en ciudades del centro de Europa, posiblemente en un día nublado de invierno."
+  },
+  {
+    "url": "https://i.postimg.cc/tJDKTK1s/Schonbrunn-02.webp",
+    "caption": "Palmenhaus (Casa de las Palmeras) en los Jardines de Schönbrunn, Viena",
+    "tags": [
+      "Invernadero",
+      "Arquitectura",
+      "Schönbrunn",
+      "Estructura de cristal",
+      "Palmenhaus"
+    ],
+    "alt": "La imagen muestra el imponente Palmenhaus (Casa de las Palmeras) en los Jardines de Schönbrunn, Viena. Este gran invernadero presenta una elaborada estructura de hierro forjado en color verde y numerosos paneles de vidrio que forman sus secciones abovedadas y techos. Se aprecian detalles ornamentales en la armazón metálica. En el primer plano, hay arbustos podados y césped, mientras que ramas de árboles sin hojas se extienden por el cielo claro, sugiriendo una estación fría."
+  }
     ]
   },
   {
@@ -562,12 +684,110 @@ El último tramo hacia Barcelona fue como un suspiro. Cuando finalmente llegué,
     fecha: "Enero 2021",
     equipo: "Samsung SM-G975F",
     galeria: [
-      { url: "https://i.postimg.cc/W30fjSPx/Parque_del_Este_001.webp", caption: "El verdor tropical del Parque del Este en Caracas", tags: ["parque", "naturaleza", "lago", "arboles", "cielo"] },
-      { url: "https://i.postimg.cc/vB5SMXdL/El_Rey_del_Pescado_Frito_001.webp", caption: "Sabores del litoral venezolano antes de la partida", tags: ["pescado frito", "plátanos fritos", "comida caribeña", "mesa de madera", "gastronomía"] },
-      { url: "https://i.postimg.cc/cHf5ZTNm/Los_Proceres.webp", caption: "La solemnidad de Los Próceres bajo el sol caraqueño", tags: ["Paseo Los Próceres", "Caracas", "Venezuela", "monumento", "reflejo"] },
-      { url: "https://i.postimg.cc/mD76RVGv/Teatro_Teresa_Carreño_002.webp", caption: "Arquitectura brutalista del Teatro Teresa Carreño", tags: ["arte", "arquitectura", "diseño", "interior", "abstracto"] },
-      { url: "https://i.postimg.cc/JnjdmKWZ/Aereopuerto_Milan_Malpensa_004.webp", caption: "Escala técnica en Milán, puerta de entrada a Europa", tags: ["aeropuerto", "arquitectura moderna", "cielo azul", "día soleado", "infraestructura"] },
-      { url: "https://i.postimg.cc/NMRPYbwx/Aereopuerto_Estambul_004.webp", caption: "El bullicio cosmopolita del aeropuerto de Estambul", tags: ["aeropuerto", "arquitectura moderna", "interior", "diseño", "lujo"] }
+      {
+    "url": "https://i.postimg.cc/NMRPYbwx/Aereopuerto-Estambul-004.webp",
+    "caption": "Sección comercial moderna y espaciosa del aeropuerto de Estambul",
+    "tags": [
+      "Aereopuerto Estambul",
+      "aeropuerto",
+      "tiendas de lujo",
+      "arquitectura moderna",
+      "diseño interior",
+      "zona comercial"
+    ],
+    "alt": "Vista panorámica de una sección comercial moderna y espaciosa de un aeropuerto. Destacan grandes estructuras doradas en forma de árbol con iluminación circular, que sirven como puntos focales. El techo ondulado y segmentado, junto con la iluminación ambiental, crea un ambiente sofisticado. Se observan varias tiendas de lujo y duty-free flanqueando los pasillos, con expositores de productos y maniquíes, todo bajo un diseño elegante y contemporáneo."
+  },
+  {
+    "url": "https://i.postimg.cc/Jz3fM678/Aereopuerto-Milan-Malpensa-2021.webp",
+    "caption": "Un mosaico de campos agrícolas cerca de Milán, con las montañas nevadas al fondo",
+    "tags": [
+      "Aereopuerto_Milan-Malpensa",
+      "vista aérea",
+      "paisaje rural",
+      "montañas nevadas",
+      "campos agrícolas",
+      "llanura"
+    ],
+    "alt": "Una impresionante vista aérea de una extensa llanura, caracterizada por un mosaico de campos agrícolas en tonos marrones y ocres. Pequeñas poblaciones y aldeas se dispersan por el paisaje. Al fondo, se alza majestuosamente una larga cadena de montañas cubiertas de nieve, destacando bajo un cielo azul claro, lo que sugiere un paisaje invernal o de principios de primavera."
+  },
+  {
+    "url": "https://i.postimg.cc/JnjdmKWZ/Aereopuerto-Milan-Malpensa-004.webp",
+    "caption": "Vista exterior del Aereopuerto Milan-Malpensa en un día soleado de invierno",
+    "tags": [
+      "Aereopuerto_Milan-Malpensa",
+      "aeropuerto",
+      "terminal",
+      "arquitectura moderna",
+      "cielo azul",
+      "transporte"
+    ],
+    "alt": "Vista exterior de una moderna terminal de aeropuerto en un día soleado. El edificio principal presenta una fachada acristalada y una distintiva estructura de techo de celosía metálica. Una carretera con marcas viales y algunos vehículos transita frente a la terminal, mientras que en el fondo se vislumbra una torre de control bajo un cielo azul claro."
+  },
+  {
+    "url": "https://i.postimg.cc/vB5SMXdL/El-Rey-del-Pescado-Frito-001.webp",
+    "caption": "Pescado entero frito, dorado y crujiente, servido con tostones y un toque de aguacate en El Rey del Pescado, Venezuela",
+    "tags": [
+      "El_Rey_del_Pescado_Frito",
+      "pescado frito",
+      "tostones",
+      "comida caribeña",
+      "gastronomía latina",
+      "plato principal"
+    ],
+    "alt": "Un apetitoso plato de pescado entero frito, dorado y crujiente, servido con tostones (plátanos verdes machacados y fritos) y un toque de aguacate. La comida se presenta sobre una rústica mesa de madera, evocando un ambiente tradicional y auténtico, ideal para disfrutar de los sabores del mar en un entorno informal."
+  },
+  {
+    "url": "https://i.postimg.cc/cHf5ZTNm/Los-Proceres.webp",
+    "caption": "Paseo Los Próceres en Caracas, Venezuela, con su extenso estanque reflectante flanqueado por palmeras",
+    "tags": [
+      "Los-Proceres",
+      "Paseo Los Próceres",
+      "Caracas",
+      "Venezuela",
+      "Palmeras",
+      "Reflejo"
+    ],
+    "alt": "Una vista impresionante del Paseo Los Próceres en Caracas, Venezuela, con su extenso estanque reflectante flanqueado por imponentes palmeras. Al fondo, se alza un obelisco con una estatua ecuestre, enmarcado por majestuosas montañas parcialmente cubiertas de nubes bajo un cielo azul brillante. La perfecta simetría de los árboles y el monumento reflejados en el agua crea una escena serena y monumental."
+  },
+  {
+    "url": "https://i.postimg.cc/52ZDBhPh/Parque-del-Este-2021.webp",
+    "caption": "El Parque del Este en Caracas, con grandes árboles frondosos en primer plano",
+    "tags": [
+      "Parque-del-Este",
+      "Naturaleza",
+      "Paisaje",
+      "Montañas",
+      "Parque",
+      "Cielo azul"
+    ],
+    "alt": "Una vista panorámica de un amplio parque con exuberante césped verde y grandes árboles frondosos en primer plano. Al fondo, se eleva majestuosa la montaña de El Ávila (Waraira Repano), cubierta de densa vegetación y parcialmente envuelta en nubes bajas. El cielo es de un azul vibrante salpicado de nubes blancas, destacando la belleza natural del paisaje montañoso y urbano de Caracas."
+  },
+  {
+    "url": "https://i.postimg.cc/W30fjSPx/Parque-del-Este-001.webp",
+    "caption": "Gran lago central del Parque del Este",
+    "tags": [
+      "Parque-del-Este",
+      "Parque",
+      "Naturaleza",
+      "Paisaje",
+      "Lago",
+      "Verde"
+    ],
+    "alt": "Una vista panorámica de un exuberante parque o jardín botánico con un gran lago central. El agua tranquila refleja el cielo azul vibrante salpicado de nubes cúmulos. Las orillas del lago están cubiertas de césped verde intenso y bordeadas por una variedad de árboles frondosos, incluyendo palmeras. Pequeñas islas con vegetación emergen del lago, creando un paisaje sereno y pintoresco bajo un día soleado."
+  },
+  {
+    "url": "https://i.postimg.cc/mD76RVGv/Teatro-Teresa-Carreno-002.webp",
+    "caption": "Múltiples formas rectangulares suspendidas en el Teatro Teresa Carreño de Caracas",
+    "tags": [
+      "Teatro-Teresa-Carreño",
+      "instalación artística",
+      "arquitectura moderna",
+      "diseño interior",
+      "estructuras colgantes",
+      "patrón geométrico"
+    ],
+    "alt": "Una vista ascendente de una instalación artística o elemento arquitectónico compuesto por múltiples formas rectangulares suspendidas. Estas estructuras están formadas por numerosos tubos o varillas delgadas de color blanco, que cuelgan verticalmente desde marcos. Se encuentran suspendidas de un techo con textura de color marrón claro, que presenta un patrón acanalado o estriado. La composición crea un efecto visual de líneas, volumen y profundidad, aportando una estética contemporánea al espacio interior."
+  }
     ]
   },
   {
