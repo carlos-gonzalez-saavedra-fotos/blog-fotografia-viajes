@@ -815,14 +815,123 @@ En verano la pequeña playa del parque del lago de Burdeos se llena de bañistas
     fecha: "Septiembre 2018",
     equipo: "Sony ILSE-6000",
      galeria: [
-      { url: "https://i.postimg.cc/PJs4kVqJ/Cours_de_la_Intendance_01.webp", caption: "La elegancia peatonal del Cours de l'Intendance", tags: ["Bordeaux", "Francia", "calle peatonal", "arquitectura urbana", "vida urbana"] },
-      { url: "https://i.postimg.cc/WzLnPY43/Espejo_de_agua_009.webp", caption: "Reflejos y juegos en el Miroir d'eau de la Plaza de la Bolsa", tags: ["Bordeaux", "Miroir d'eau", "reflejos", "juego", "verano"] },
-      { url: "https://i.postimg.cc/qqsGBctg/Monumento_a_los_Girondinos_003_01.webp", caption: "La fuerza escultórica del Monumento a los Girondinos", tags: ["fuente", "esculturas", "arte", "monumento", "agua", "turismo", "dia", "arquitectura", "exterior"] },
-      { url: "https://i.postimg.cc/6qrh6V79/Plaza_de_la_Bolsa_005.webp", caption: "Simetría clásica en la Plaza de la Bolsa", tags: ["Bordeaux", "Place de la Bourse", "Miroir d'eau", "noche", "arquitectura"] },
-      { url: "https://i.postimg.cc/VvQRcZN5/Plaza_de_la_Bolsa_01.webp", caption: "La herradura arquitectónica abierta al Garona", tags: ["Bordeaux", "Francia", "Place de la Bourse", "arquitectura", "paisaje urbano"] },
-      { url: "https://i.postimg.cc/SRFrp1KK/Rue_Vital_Carles.webp", caption: "Perspectiva urbana hacia la Catedral de San Andrés", tags: ["Bordeaux", "Francia", "calle", "catedral", "urbano"] },
-      { url: "https://i.postimg.cc/J0NQ73yr/Playa_del_Lago_001.webp", caption: "Relajo estival en la playa del lago de Burdeos", tags: ["playa", "verano", "ocio", "naturaleza", "gente"] },
-      { url: "https://i.postimg.cc/k58JdFVk/Burdeos_desde_Torre_de_Pey_Berland_004_01.webp", caption: "Vistas infinitas desde la torre de Pey-Berland", tags: ["Bordeaux", "vista panorámica", "arquitectura", "gárgola", "paisaje urbano"] }
+      {
+    "url": "https://i.postimg.cc/k58JdFVk/Burdeos-desde-Torre-de-Pey-Berland-004-01.webp",
+    "caption": "Bordeaux desde la Torre de Pey Berland, con una gárgola de piedra en primer plano",
+    "tags": [
+      "Bordeaux, Francia",
+      "Bordeaux",
+      "Cityscape",
+      "Gargoyle",
+      "Aerial View",
+      "Architecture"
+    ],
+    "alt": "Impresionante vista panorámica de la ciudad de Bordeaux desde una perspectiva elevada, con una gárgola de piedra en primer plano. El paisaje urbano se extiende mostrando sus característicos tejados anaranjados y edificios históricos. El río Garona se vislumbra en la distancia bajo un cielo azul vibrante salpicado de nubes blancas."
+  },
+  {
+    "url": "https://i.postimg.cc/PJs4kVqJ/Cours-de-la-Intendance-01.webp",
+    "caption": "Cours de la Intendance, flanqueada por edificios de piedra con arquitectura clásica y balcones de hierro forjado",
+    "tags": [
+      "Burdeos, Francia",
+      "calle peatonal",
+      "arquitectura clásica",
+      "ciudad europea",
+      "vida urbana",
+      "día soleado"
+    ],
+    "alt": "La imagen muestra una animada calle peatonal en Burdeos, Francia, flanqueada por majestuosos edificios de piedra con arquitectura clásica y balcones de hierro forjado. Bajo un cielo azul salpicado de nubes blancas, numerosas personas caminan, pasean en bicicleta y disfrutan de las terrazas de los cafés al aire libre. La escena irradia una atmósfera vibrante y típica de una ciudad europea."
+  },
+  {
+    "url": "https://i.postimg.cc/WzLnPY43/Espejo-de-agua-009.webp",
+    "caption": "Una multitud de personas disfruta del Miroir d'eau en Burdeos bajo un cielo despejado",
+    "tags": [
+      "Miroir d'eau, Burdeos, Francia",
+      "miroir d'eau",
+      "burdeos",
+      "niños",
+      "reflejo",
+      "gente",
+      "verano",
+      "actividad",
+      "plaza",
+      "agua",
+      "pont de pierre",
+      "turismo"
+    ],
+    "alt": "Una multitud de personas disfruta del Miroir d'eau en Burdeos bajo un cielo despejado. En primer plano, dos personas hacen planchas, mientras un niño monta en bicicleta, todos reflejados vívidamente en la superficie mojada. Al fondo, se distingue el histórico Pont de Pierre y la ciudad, con muchas más personas paseando. La escena captura un ambiente relajado y alegre, con la arquitectura clásica y moderna de Burdeos sirviendo de telón de fondo para esta popular atracción."
+  },
+  {
+    "url": "https://i.postimg.cc/qqsGBctg/Monumento-a-los-Girondinos-003-01.webp",
+    "caption": "La imponente Fuente de los Girondinos en Burdeos, contemplada por una paseante",
+    "tags": [
+      "Monumento a los Girondinos, Burdeos, Francia",
+      "fuente",
+      "esculturas",
+      "bronce",
+      "arte",
+      "monumento",
+      "agua",
+      "Bordeaux"
+    ],
+    "alt": "La imagen muestra una vista detallada de la imponente Fuente de los Girondinos en Burdeos, Francia. Se aprecian múltiples esculturas de bronce de figuras humanas, caballos y criaturas marinas emergiendo del agua, con chorros que salpican la base rocosa. La pátina verdosa del bronce resalta los detalles de las figuras. Una persona de espaldas, con una mochila azul, observa la grandiosa obra arquitectónica y artística, sumergida en el ambiente de este icónico monumento."
+  },
+  {
+    "url": "https://i.postimg.cc/J0NQ73yr/Playa-del-Lago-001.webp",
+    "caption": "La concurrida playa del lago, en un día soleado de verano",
+    "tags": [
+      "Playa lacustre o fluvial",
+      "playa",
+      "verano",
+      "bosque",
+      "gente",
+      "relax"
+    ],
+    "alt": "Una concurrida playa de arena, posiblemente en un lago o río, en un día soleado de verano. Numerosas personas disfrutan tomando el sol bajo sombrillas de colores y bañándose en el agua tranquila. Un denso bosque de pinos bordea la orilla, proporcionando sombra natural. En primer plano, una valla de madera y una bicicleta marcan el límite de la zona recreativa, creando una escena vibrante de ocio al aire libre."
+  },
+  {
+    "url": "https://i.postimg.cc/6qrh6V79/Plaza-de-la-Bolsa-005.webp",
+    "caption": "Vista nocturna de la icónica Place de la Bourse en Burdeos",
+    "tags": [
+      "Place de la Bourse, Burdeos, Francia",
+      "Burdeos",
+      "Miroir d'eau",
+      "Noche",
+      "Arquitectura",
+      "Reflejos"
+    ],
+    "alt": "Vista nocturna de la icónica Place de la Bourse en Burdeos, Francia. Los majestuosos edificios del siglo XVIII, elegantemente iluminados, se reflejan en el famoso Miroir d'eau, creando una imagen deslumbrante. Se observa a personas paseando por la plaza y a través del espejo de agua, disfrutando del ambiente mágico y sereno de este emblemático lugar."
+  },
+  {
+    "url": "https://i.postimg.cc/VvQRcZN5/Plaza-de-la-Bolsa-01.webp",
+    "caption": "Vista panorámica de la icónica Place de la Bourse en Burdeos, bajo un cielo azul despejado",
+    "tags": [
+      "Bordeaux, France",
+      "Bordeaux",
+      "Francia",
+      "Arquitectura",
+      "Plaza",
+      "Día soleado",
+      "Edificios históricos",
+      "Escaleras",
+      "Urbano",
+      "Cielo azul",
+      "Turismo"
+    ],
+    "alt": "Una vista panorámica de la icónica Place de la Bourse en Burdeos, Francia, bajo un cielo azul despejado. La imagen muestra los elegantes edificios del siglo XVIII que rodean la plaza, con sus fachadas clásicas y tejados elaborados. En primer plano, una serie de amplias escaleras de piedra bajan hacia un área adoquinada. Se aprecian algunas personas paseando o sentadas, disfrutando de la atmósfera tranquila del lugar."
+  },
+  {
+    "url": "https://i.postimg.cc/SRFrp1KK/Rue-Vital-Carles.webp",
+    "caption": "La adoquinada Rue Vital Carles, flanqueada por edificios históricos",
+    "tags": [
+      "Burdeos, Francia",
+      "ciudad",
+      "arquitectura",
+      "calle",
+      "tranvía",
+      "histórico"
+    ],
+    "alt": "Una pintoresca calle adoquinada en Burdeos, Francia, flanqueada por edificios históricos de piedra con balcones de hierro forjado y diversas tiendas. Las vías de un tranvía recorren el centro de la calle, que se extiende hacia el fondo donde se alzan las icónicas agujas góticas de una catedral. Varias personas transitan a pie por la vía, disfrutando de un día soleado con algunas nubes."
+  }
     ]
   },
   {
