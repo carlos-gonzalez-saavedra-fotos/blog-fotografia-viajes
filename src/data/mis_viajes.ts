@@ -50,7 +50,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
     galeria: [
       {
     "url": "https://i.postimg.cc/dVH6LKs2/Biblioteca-Real-Danesa-Diamante-negro-002.jpg",
-    "caption": "El Diamante Negro, la extensión de la Biblioteca Real Danesa en Copenhague",
+    "caption": "El Diamante Negro (Den Sorte Diamant), extensión de la Biblioteca Real Danesa",
     "tags": [
       "Biblioteca Real Danesa-Diamante negro",
       "Copenhague",
@@ -63,7 +63,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/mgXjtGLy/Blox-Centro-de-Arquitectura-Danesa-001.jpg",
-    "caption": "Edificio BLOX en Copenhague, con su distintiva fachada de cristal escalonada en tonos blancos y azul-verde",
+    "caption": "Edificio BLOX, sede del Centro de Arquitectura Danesa (DAC)",
     "tags": [
       "Blox-Centro de Arquitectura Danesa",
       "arquitectura moderna",
@@ -76,7 +76,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/FKC65LkF/Canal-(2).jpg",
-    "caption": "Malmö, Suecia: Clarion Hotel & Congress Malmö Live y sus alrededores",
+    "caption": "Canal de Malmö con el complejo Malmö Live al fondo",
     "tags": [
       "Canal",
       "arquitectura moderna",
@@ -89,7 +89,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/PqV7swvH/Castillo-(4).jpg",
-    "caption": "Patio empedrado del Castillo de Malmöhus, con su distintiva fachada de ladrillo rojo",
+    "caption": "Patio de armas del Castillo de Malmö (Malmöhus Slott)",
     "tags": [
       "Castillo",
       "castillo",
@@ -102,7 +102,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/nhcTFLJY/Desde-el-Ayuntamiento-002-(2).jpg",
-    "caption": "Vista panorámica aérea de Copenhague en un día soleado",
+    "caption": "Skyline de Copenhague desde la torre del Ayuntamiento",
     "tags": [
       "Desde el Ayuntamiento",
       "ciudad",
@@ -128,7 +128,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/5NX9K78v/Dinamarca-Suecia-desde-el-aire-001.jpg",
-    "caption": "Vista aérea del Puente de Øresund, que conecta Dinamarca y Suecia, capturada desde la ventana de un avión",
+    "caption": "El Puente de Øresund uniendo Copenhague y Malmö",
     "tags": [
       "Dinamarca-Suecia-desde-el-aire",
       "Øresund Bridge",
@@ -141,7 +141,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/KvZGCxrp/Estacion-Triangeln-(4).jpg",
-    "caption": "Triangeln: Moderna estación de metro",
+    "caption": "Arquitectura subterránea en la estación Triangeln de Malmö",
     "tags": [
       "Estación Triangeln",
       "metro",
@@ -154,7 +154,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/jjS1FX51/Estacion-Triangeln-(7).jpg",
-    "caption": "Personas subiendo por escaleras mecánicas dentro de una estructura moderna",
+    "caption": "Cúpula geodésica de la estación Triangeln",
     "tags": [
       "Estación Triangeln (",
       "arquitectura moderna",
@@ -167,7 +167,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/PrtX0Tz0/Estacion-Triangeln-(8).jpg",
-    "caption": "Interior de una moderna estación con espectacular cúpula de vidrio y acero con un diseño geodésico",
+    "caption": "Luz natural y geometría en el acceso a Triangeln",
     "tags": [
       "Estación Triangeln (",
       "Arquitectura moderna",
@@ -185,7 +185,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/YCq8rSH8/Gliptoteca-Ny-Carlsberg-004.jpg",
-    "caption": "Diálogo artístico en la Gliptoteca Ny Carlsberg de Copenhague",
+    "caption": "Detalle escultórico en la Gliptoteca Ny Carlsberg",
     "tags": [
       "Gliptoteca Ny Carlsberg",
       "escultura",
@@ -198,7 +198,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/2S8Tk5DH/Iglesia-de-Marmol-(2).jpg",
-    "caption": "Mjestuosa Iglesia de Federico (Marmorkirken) en Copenhague, destacando su imponente cúpula de cobre verde y su fachada de mármol gris",
+    "caption": "La imponente cúpula de la Iglesia de Federico (Marmorkirken)",
     "tags": [
       "Iglesia de Mármol (",
       "copenhague",
@@ -211,7 +211,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/HLkNh2xh/Iglesia-San-Pedro-(11).jpg",
-    "caption": "Gran órgano de tubos de metal brillante y un ornamentado candelabro de bronce en la Iglesia de San Pedro, Malmö",
+    "caption": "Órgano y candelabro en la Iglesia de San Pedro (Sankt Petri kyrka)",
     "tags": [
       "Iglesia-San-Pedro (",
       "órgano de tubos",
@@ -224,7 +224,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/J737TGJK/Kungsparken-(17).jpg",
-    "caption": "El extenso Kungsparken: verde con árboles frondosos bajo un cielo azul",
+    "caption": "El Turning Torso asomando sobre el Kungsparken",
     "tags": [
       "Kungsparken (",
       "Turning Torso",
@@ -250,7 +250,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/vTkG5zrF/Maersk-sede-empresa-global-de-trasportes-001.jpg",
-    "caption": "Vista frontal de la moderna sede de trasporte Maersk, con su cuadrícula repetitiva de ventanas cuadradas que reflejan el cielo azul",
+    "caption": "Sede central de Maersk en el puerto de Copenhague",
     "tags": [
       "Maersk-sede-empresa global de trasportes",
       "Architecture",
@@ -263,7 +263,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/R0ZYDRF8/Malmo-(11).jpg",
-    "caption": "Dos esculturas abstractas y coloridas adornan una plaza adoquinada junto a un canal en Malmö",
+    "caption": "Arte público de Elizabeth Toubro en el canal de Malmö",
     "tags": [
       "Malmö (",
       "arte público",
@@ -276,7 +276,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/t4CDqgjm/Museo-Louisiana-Calder-001.jpg",
-    "caption": "Jardín con esculturas de Alexander Calder en el Museo Louisiana",
+    "caption": "Esculturas de Alexander Calder frente al mar en el Museo Louisiana",
     "tags": [
       "Museo Louisiana-Calder",
       "escultura",
@@ -302,7 +302,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/htPMDGBJ/Palacio-Rosenborg.jpg",
-    "caption": "León de bronce en el majestuoso Castillo de Rosenborg en Copenhague, Dinamarca",
+    "caption": "León guardián frente al Castillo de Rosenborg",
     "tags": [
       "Palacio Rosenborg",
       "castillo",
@@ -315,7 +315,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/3xJ98wT4/Parque-Churchill-001.jpg",
-    "caption": "Una familia con su gran danés disfruta de un día soleado junto a la icónica Fuente de Gefion en Copenhague",
+    "caption": "Paseo familiar junto a la Fuente de Gefion",
     "tags": [
       "Parque Churchill",
       "fuente",
@@ -330,7 +330,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/3wxqcBRV/Parque-Pildam-(2).jpg",
-    "caption": "Un lago sereno bajo un cielo azul vibrante, en el parque Pildam de Malmö",
+    "caption": "Serenitud otoñal en el parque Pildammsparken",
     "tags": [
       "Parque Pildam (",
       "lago",
@@ -356,7 +356,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/xd1Z4R8D/Playa-de-Ribergsborg-(4).jpg",
-    "caption": "Un largo muelle de madera se extiende sobre el mar tranquilo en la playa de Ribergsborg, Malmö",
+    "caption": "Pasarela hacia el balneario Ribersborgs Kallbadhus",
     "tags": [
       "Playa de Ribergsborg (",
       "muelle",
@@ -374,7 +374,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/rpwHPJsM/Playa-Ribergsborg-(10).jpg",
-    "caption": "Malmö, Suecia, con un edificio tradicional de madera en primer plano y la moderna torre de Calatrava, al fondo",
+    "caption": "Contraste entre el balneario tradicional y el Turning Torso",
     "tags": [
       "Playa-Ribergsborg (",
       "Turning Torso",
@@ -387,7 +387,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/gkYz1mqS/Plaza-Lilla-(4).jpg",
-    "caption": "Plaza Lilla de Malmö, con su empedrado y una fuente central de granito y bronce",
+    "caption": "Fuente de granito en la plaza Lilla Torg",
     "tags": [
       "Plaza Lilla (",
       "plaza histórica",
@@ -413,7 +413,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/25StKwyk/Puente-de-Oresund-(5).jpg",
-    "caption": "Majestuoso Puente de Øresund, que conecta Dinamarca y Suecia, extendiéndose sobre el mar azul",
+    "caption": "El Puente de Øresund desde la orilla sueca",
     "tags": [
       "Puente de Oresund (",
       "Øresund Bridge",
@@ -439,7 +439,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/T3YQdP6K/Puerto-Nuevo-007.jpg",
-    "caption": "Vibrante e icónico Nyhavn en Copenhague, con sus casas de colores alineadas a lo largo del canal",
+    "caption": "Nyhavn: el icónico puerto de colores de Copenhague",
     "tags": [
       "Puerto Nuevo",
       "Nyhavn",
@@ -457,7 +457,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/DzwNMg00/Suecos-(2).jpg",
-    "caption": "Una escultura de bronce de dos zuecos tradicionales se exhibe prominentemente junto a un canal en Malmö, Suecia",
+    "caption": "Zuecos de bronce: homenaje a Gören från Hylle en Malmö",
     "tags": [
       "Suecos (",
       "escultura",
@@ -470,7 +470,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/SxNVSKhL/The-Royal-Cast-Collection-moldes-esculturas-002.jpg",
-    "caption": "Una réplica patinada en bronce de la famosa estatua de David de Miguel Ángel se alza majestuosamente frente a un imponente edificio histórico de ladrillo rojo",
+    "caption": "Réplica del David de Miguel Ángel en The Royal Cast Collection",
     "tags": [
       "The Royal Cast Collection-moldes-esculturas",
       "estatua",
@@ -488,7 +488,7 @@ Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y do
   },
   {
     "url": "https://i.postimg.cc/pVQV0p8G/Tourning-Torso-(11).jpg",
-    "caption": "Rascacielos moderno y emblemático: el Turning Torso de Malmö, Suecia, capturado desde un ángulo bajo",
+    "caption": "Turning Torso: la torre retorcida de Santiago Calatrava",
     "tags": [
       "Tourning-Torso",
       "Calatrava",
@@ -538,7 +538,7 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
     galeria: [
         {
     "url": "https://i.postimg.cc/MpdvhMvM/Abadia-de-Melk-3.webp",
-    "caption": "Vista de la Abadía de Melk, una joya barroca ubicada en una colina rocosa en Austria",
+    "caption": "Abadía de Melk, joya del barroco sobre el Danubio",
     "tags": [
       "Abadía de Melk",
       "Austria",
@@ -555,7 +555,7 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
   },
   {
     "url": "https://i.postimg.cc/kGnr7J5b/Alto-Belvedere-01a.webp",
-    "caption": "Entrada al palacio Belvedere en Viena, flanqueada por dos imponentes estatuas de atlantes de mármol",
+    "caption": "Atlantes de mármol en la entrada del Palacio Belvedere",
     "tags": [
       "Alto Belvedere",
       "museo",
@@ -573,7 +573,7 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
   },
   {
     "url": "https://i.postimg.cc/4ywDdDK3/Alto-Belvedere-a.webp",
-    "caption": "Panorámica del Palacio Belvedere en Viena: majestuosa arquitectura barroca tras un estanque congelado",
+    "caption": "Fachada barroca del Palacio Belvedere Superior",
     "tags": [
       "Alto Belvedere-a",
       "palacio",
@@ -591,7 +591,7 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
   },
   {
     "url": "https://i.postimg.cc/zvpsBsLB/Arcos-de-la-Colina-HMoore.webp",
-    "caption": "Escultura Arcos de la Colina, de Henry Moore: una mirada curiosa asoma entre las oquedades",
+    "caption": "Arcos de la Colina (Hill Arches) de Henry Moore",
     "tags": [
       "Arcos de la Colina HMoore",
       "Escultura abstracta",
@@ -604,7 +604,7 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
   },
   {
     "url": "https://i.postimg.cc/J0Kfnfyz/Danubio-congelado-a.webp",
-    "caption": "Escena invernal de un Danubio congelado al atardecer",
+    "caption": "Atardecer sobre el Danubio congelado",
     "tags": [
       "Danubio congelado-a",
       "invierno",
@@ -617,7 +617,7 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
   },
   {
     "url": "https://i.postimg.cc/fRBJ6tJ3/Hundertwasser.webp",
-    "caption": "Asimétrica fachada del icónico Hundertwasserhaus en Viena",
+    "caption": "Fachada polícroma de la Hundertwasserhaus",
     "tags": [
       "arquitectura",
       "colorido",
@@ -629,7 +629,7 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
   },
   {
     "url": "https://i.postimg.cc/MHtCTCcH/Jesuitenkirche-a.webp",
-    "caption": "Interior de la basílica barroca Jesuitenkirche: opulenta decoración dorada, arcos ornamentados y columnas de mármol",
+    "caption": "Opulencia barroca en la Iglesia de los Jesuitas (Jesuitenkirche)",
     "tags": [
       "Jesuitenkirche-a",
       "arquitectura",
@@ -642,7 +642,7 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
   },
   {
     "url": "https://i.postimg.cc/wj07Sy7s/Musica-silente.webp",
-    "caption": "Dos esculturas de mármol blanco, que representan a músicos tocando un violín y un violonchelo",
+    "caption": "Música silente: esculturas de músicos en mármol",
     "tags": [
       "Música silente",
       "esculturas",
@@ -655,7 +655,7 @@ Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a un
   },
   {
     "url": "https://i.postimg.cc/tJDKTK1s/Schonbrunn-02.webp",
-    "caption": "Palmenhaus (Casa de las Palmeras) en los Jardines de Schönbrunn, Viena",
+    "caption": "Palmenhaus (Casa de las Palmeras) en los jardines de Schönbrunn",
     "tags": [
       "Invernadero",
       "Arquitectura",
@@ -959,12 +959,307 @@ Salgo de Basilea reconfortado por el espíritu de aquella Helvetia del Mittlere 
     fecha: "Marzo 2018",
     equipo: "Sony ILSE-6000",
      galeria: [
-      { url: "https://i.postimg.cc/HsXkHxZV/Basilea_001.webp", caption: "Augustinergasse, casco antiguo de Basilea", tags: ["calle", "arquitectura", "basilea", "suiza", "casco antiguo", "edificios", "sin personas"] },
-      { url: "https://i.postimg.cc/KvB8Fzq4/Catedral_de_Basile_011.webp", caption: "La imponente Catedral de Basilea (Münster)", tags: ["catedral", "iglesia", "arquitectura religiosa", "basilea", "suiza", "piedra roja", "monumento", "sin personas"] },
-      { url: "https://i.postimg.cc/Jz84hLvm/Fondation_Beyeler_017.webp", caption: "Arquitectura de Renzo Piano en la Fundación Beyeler", tags: ["arquitectura moderna", "museo", "renzo piano", "basilea", "suiza", "jardín", "diseño", "sin personas"] },
-      { url: "https://i.postimg.cc/T3xYP6FR/Kantonale_Verwaltung_Basel_Stadt_Marktplatz.webp", caption: "Fachada rojiza del Ayuntamiento en la Marktplatz (efecto esférico)", tags: ["ayuntamiento", "basilea", "suiza", "arquitectura", "rojo", "fachada", "plaza", "sin personas"] },
-      { url: "https://i.postimg.cc/wjzTBpZt/Rio_Rin_Torre_Roche_002_01.webp", caption: "El río Rin y la silueta de la Torre Roche", tags: ["río", "agua", "rin", "basilea", "suiza", "arquitectura moderna", "rascacielos", "paisaje urbano"] },
-      { url: "https://i.postimg.cc/sf05xsHX/Elisabethenanlage-001-01.webp", caption: "La glorieta de Elisabethenanlage en un día de invierno", tags: ["parque", "invierno", "nieve", "glorieta", "basilea", "suiza", "árboles", "sin personas"] }
+      {
+    "url": "https://i.postimg.cc/HsXkHxZV/Basilea-001.webp",
+    "caption": "Callejón histórico en el casco antiguo de Basilea (Augustinergasse)",
+    "tags": [
+      "Casco Antiguo",
+      "Arquitectura histórica",
+      "Calles empedradas",
+      "Edificios europeos",
+      "Contraventanas"
+    ],
+    "alt": "Una pintoresca calle empedrada en un casco antiguo europeo, flanqueada por edificios históricos bien conservados. Las fachadas combinan paredes claras con detalles en piedra rojiza y contraventanas de madera en tonos verdes. Destaca un edificio con una singular torreta octogonal de color rojo intenso y un tejado puntiagudo al final de la calle. Una elegante verja de hierro forjado se extiende a lo largo del lado izquierdo, contribuyendo al ambiente sereno y clásico del lugar."
+  },
+  {
+    "url": "https://i.postimg.cc/YSqdcGkg/Basilea-desde-el-aire.webp",
+    "caption": "Panorámica aérea de Basilea y el río Rin",
+    "tags": [
+      "vista aérea",
+      "ciudad",
+      "río",
+      "avión",
+      "easyJet",
+      "urbano",
+      "paisaje",
+      "Basilea",
+      "Suiza",
+      "nublado"
+    ],
+    "alt": "Vista aérea de la ciudad de Basilea, Suiza, en un día nublado. La imagen captura la densa expansión urbana a lo largo del río Rin, con múltiples puentes, edificios y una gran estación de tren. Se observa el ala naranja y blanca de un avión EasyJet en el primer plano superior derecho, enmarcando la escena. En la distancia, se aprecian montañas cubiertas por nubes, mientras que áreas verdes y campos rodean la metrópolis."
+  },
+  {
+    "url": "https://i.postimg.cc/q7M1fh08/Catedral-de-Basile-003.webp",
+    "caption": "San Jorge y el dragón en la fachada de la Catedral de Basilea",
+    "tags": [
+      "escultura",
+      "arquitectura gótica",
+      "caballero",
+      "dragón",
+      "arte religioso"
+    ],
+    "alt": "Una detallada escultura de piedra arenisca roja representa a un caballero montado a caballo, empuñando una lanza para enfrentarse a un dragón alado. Esta escena, inspirada en la leyenda de San Jorge y el Dragón, adorna la imponente fachada de la Catedral de Friburgo. El arte medieval se integra en la rica arquitectura gótica, con paredes de piedra vista y otros elementos tallados, como gárgolas y figuras, que evocan un profundo sentido de historia y tradición."
+  },
+  {
+    "url": "https://i.postimg.cc/KvB8Fzq4/Catedral-de-Basile-011.webp",
+    "caption": "Decoración floral en el interior de la Catedral de Basilea",
+    "tags": [
+      "flores",
+      "rosas",
+      "altar",
+      "decoración floral",
+      "iglesia"
+    ],
+    "alt": "La foto muestra un altar o estructura de piedra profusamente decorado con un arreglo floral exuberante. Predominan rosas rosadas y blancas, mezcladas con follaje verde, que cubren la superficie y caen por los lados. Al fondo, se aprecia una pared de madera oscura con tallas góticas intrincadas. Sillas de madera oscura con diseños calados flanquean la estructura, sugiriendo el interior de una iglesia o capilla. El suelo es de losas claras. La escena evoca un ambiente ceremonial o festivo."
+  },
+  {
+    "url": "https://i.postimg.cc/1z5vxnPG/Catedral-de-Basile-022.webp",
+    "caption": "Arcada y tejado polícromo de la Catedral de Basilea",
+    "tags": [
+      "arquitectura",
+      "tejados",
+      "arcos",
+      "piedra arenisca",
+      "patrones"
+    ],
+    "alt": "Una vista en ángulo de la arquitectura de un edificio histórico, donde destacan múltiples arcos de piedra rojiza que forman parte de una arcada. Encima, un llamativo tejado escalonado compuesto por tejas de diversos tonos de verde, blanco y marrón crea un mosaico vibrante. Un canalón oscuro recorre la línea de encuentro entre la pared y el techo, completando la composición con texturas y colores contrastantes."
+  },
+  {
+    "url": "https://i.postimg.cc/sf05xsHX/Elisabethenanlage-001-01.webp",
+    "caption": "Pabellón en el parque Elisabethenanlage de Basilea",
+    "tags": [
+      "Palais de Rumine",
+      "Lausanne",
+      "Edificio histórico",
+      "Reloj",
+      "Pabellón"
+    ],
+    "alt": "Vista frontal del histórico Palacio de Rumine en Lausanne, Suiza, destacando su fachada de piedra amarillenta, tejado de tejas rojas y un reloj ornamental con esfera azul en el frontón. En primer plano, se observa un elegante pabellón de metal con cúpula, sus estructuras arqueadas contrastando con el edificio. Ramas desnudas de árboles invernales se asoman en la parte superior, sugiriendo una estación fría."
+  },
+  {
+    "url": "https://i.postimg.cc/Jz84hLvm/Fondation-Beyeler-017.webp",
+    "caption": "Galería acristalada de la Fundación Beyeler, diseñada por Renzo Piano",
+    "tags": [
+      "galería de arte",
+      "exposición",
+      "arquitectura moderna",
+      "pinturas abstractas",
+      "visitantes"
+    ],
+    "alt": "Un amplio y luminoso pasillo de una galería de arte moderna, con un techo reticulado que distribuye la luz. Las paredes exhiben varias obras de arte contemporáneo, destacando una pieza texturizada de gran formato a la derecha. El suelo de madera clara, con franjas oscuras, guía hacia grandes ventanales que dan al exterior. Varias personas disfrutan del espacio; un hombre camina, dos mujeres conversan al fondo y otra persona está sentada leyendo en un banco."
+  },
+  {
+    "url": "https://i.postimg.cc/43NWC7Zh/Fondation-Beyeler-030-Calder-Otto-s-Mobile-1952.webp",
+    "caption": "Móvil de Oto (1952) de Alexander Calder en la Fundación Beyeler",
+    "tags": [
+      "escultura",
+      "móvil",
+      "arte cinético",
+      "abstracto",
+      "diseño"
+    ],
+    "alt": "Una escultura móvil de estilo cinético cuelga de un techo reticulado, presentando formas abstractas en colores negro, rojo y naranja. Las piezas están interconectadas por delgadas varillas, creando una composición equilibrada y dinámica. El fondo cuadriculado, con tonos cálidos, sugiere un espacio interior iluminado, posiblemente un museo o galería de arte moderno."
+  },
+  {
+    "url": "https://i.postimg.cc/0N2VgMxb/Fondation-Beyeler-Basilea.webp",
+    "caption": "Jardines y estanque de la Fundación Beyeler",
+    "tags": [
+      "estanque",
+      "esculturas",
+      "jardín",
+      "árboles",
+      "paisaje"
+    ],
+    "alt": "Una vista de un parque o jardín público con un estanque en primer plano, cuyas aguas reflejan el cielo y los árboles. En el centro, una pendiente de césped escalonada conduce a una escultura principal que representa varias figuras. El fondo presenta una variedad de árboles desnudos y arbustos frondosos, con un cenador blanco y otra escultura visible a la derecha, creando un ambiente tranquilo y artístico."
+  },
+  {
+    "url": "https://i.postimg.cc/bvNmXD8D/Fundacion-Beyeler-Thomas-Schutte-Hase-2013.webp",
+    "caption": "La liebre (Hase, 2013) de Thomas Schütte en la Fundación Beyeler",
+    "tags": [
+      "escultura",
+      "arte",
+      "parque",
+      "conejo",
+      "agua",
+      "paisaje",
+      "exterior",
+      "otoño",
+      "verde",
+      "museo"
+    ],
+    "alt": "Una escultura de bronce de un conejo (obra de Barry Flanagan) se alza sobre un espejo de agua, reflejando su silueta. Detrás, una pradera de césped verde intenso se eleva hacia un edificio moderno con grandes ventanales, posiblemente una galería. Árboles con ramas desnudas enmarcan la escena bajo un cielo cubierto, sugiriendo un día fresco. Pequeñas ondas en el agua indican el viento o una ligera lluvia, añadiendo dinamismo a esta fusión de arte y naturaleza."
+  },
+  {
+    "url": "https://i.postimg.cc/DzyxVJFc/Gymnasium-Leonhard-01.webp",
+    "caption": "Estatua ecuestre Rossbändiger frente al Gymnasium Leonhard",
+    "tags": [
+      "Núremberg",
+      "Alemania",
+      "estatua ecuestre",
+      "arte público",
+      "arquitectura"
+    ],
+    "alt": "La imagen captura la icónica estatua ecuestre 'Rossbändiger' de Max Weber, situada frente a la imponente fachada de la Estación Central de Núremberg. La escultura de bronce oscuro muestra a un jinete desnudo con una lanza y una figura de serpiente. El edificio de piedra ocre presenta múltiples ventanas con marcos azules vibrantes; una está abierta y otra tiene una persiana naranja, ofreciendo un contraste de color y vitalidad a la histórica arquitectura ferroviaria."
+  },
+  {
+    "url": "https://i.postimg.cc/hGP2Fzgr/Helvetia-auf-Reisen-Basilea.webp",
+    "caption": "Helvetia auf Reisen: la personificación de Suiza contemplando el Rin",
+    "tags": [
+      "Basilea",
+      "Suiza",
+      "Río Rin",
+      "Estatua",
+      "Paisaje urbano"
+    ],
+    "alt": "Una estatua de bronce de una figura sentada, con un escudo con la cruz suiza y una lanza, mira hacia el río Rin en Basilea. En la orilla opuesta, una hilera de edificios históricos y coloridos se alza bajo un cielo nublado, reflejando la arquitectura tradicional de la ciudad. La escena transmite una sensación de calma y contemplación."
+  },
+  {
+    "url": "https://i.postimg.cc/T3xYP6FR/Kantonale-Verwaltung-Basel-Stadt-Marktplatz.webp",
+    "caption": "Ambiente en la Marktplatz con el Ayuntamiento al fondo",
+    "tags": [
+      "Marktplatz Basel",
+      "Rathaus Basel",
+      "mercado al aire libre",
+      "arquitectura histórica",
+      "ciudad europea"
+    ],
+    "alt": "La imagen muestra la bulliciosa Marktplatz en Basilea, Suiza, dominada por el icónico Rathaus rojo. El cielo azul vibrante contrasta con la arquitectura histórica y las coloridas fachadas. Varias personas transitan la plaza adoquinada, donde se aprecian puestos de un mercado al aire libre, añadiendo vida y actividad al entorno urbano. La perspectiva de 360 grados captura la atmósfera animada de este centro histórico."
+  },
+  {
+    "url": "https://i.postimg.cc/zfXxmb5D/Kantonale-Verwaltung-Basel-Stadt-001.webp",
+    "caption": "Fachada renacentista y frescos del Ayuntamiento (Rathaus) de Basilea",
+    "tags": [
+      "Basilea",
+      "Rathaus",
+      "Arquitectura",
+      "Fresco",
+      "Reloj astronómico"
+    ],
+    "alt": "Una vista detallada del histórico Rathaus de Basilea, Suiza, destacando su fachada de vibrante color rojo. El edificio está ricamente decorado con numerosos frescos que representan figuras históricas y escudos heráldicos. Un reloj astronómico ornamentado cuelga de la fachada central, añadiendo un elemento distintivo a su arquitectura renacentista. Las ventanas con marcos verdes contrastan con el tono principal, resaltando la complejidad y belleza de esta joya arquitectónica."
+  },
+  {
+    "url": "https://i.postimg.cc/NjxdP7hL/Kunstmuseum-Basilea-010-Giacometti.webp",
+    "caption": "Cabeza de hombre sobre tallo, de Alberto Giacometti, en el Kunstmuseum",
+    "tags": [
+      "escultura",
+      "bronce",
+      "arte_abstracto",
+      "perfil",
+      "textura_rugosa"
+    ],
+    "alt": "La imagen muestra una escultura abstracta en metal, probablemente bronce, con una pátina oscura y tonos verdosos. Representa una cabeza o figura en perfil, con rasgos estilizados y una forma alargada y puntiaguda en la parte superior. La superficie de la obra es rugosa y altamente texturizada, evocando una sensación orgánica o antigua. Se exhibe sobre un fondo blanco liso, resaltando sus contornos dramáticos y su materialidad."
+  },
+  {
+    "url": "https://i.postimg.cc/3wJtM47N/Kunstmuseum-Basilea-026-Auguste-Rodin-La-grande-ombre.webp",
+    "caption": "La gran sombra (La grande ombre) de Auguste Rodin en el Kunstmuseum",
+    "tags": [
+      "escultura",
+      "arte",
+      "museo",
+      "blanco y negro",
+      "figura humana",
+      "monumental",
+      "arquitectura",
+      "interior",
+      "contraste",
+      "Klimsch"
+    ],
+    "alt": "Una fotografía en blanco y negro que presenta una monumental escultura masculina y musculosa en primer plano, vista desde atrás. La escultura, posiblemente el 'Der Schreitende Mann' de Fritz Klimsch, mira hacia una gran escalera que conduce a amplias ventanas, donde una estatua más pequeña y esbelta se siluetea. La iluminación dramática y la arquitectura minimalista realzan las poderosas formas de la obra de arte dentro de un entorno museístico."
+  },
+  {
+    "url": "https://i.postimg.cc/s2DTFQyD/Kunstmuseum-Basilea.webp",
+    "caption": "Ampliación contemporánea del Kunstmuseum de Basilea",
+    "tags": [
+      "arquitectura",
+      "urbano",
+      "contraste",
+      "fachada",
+      "calle"
+    ],
+    "alt": "Una escena urbana en Zúrich que yuxtapone la arquitectura clásica de un edificio residencial con la imponente y moderna extensión del Kunsthaus Zürich, diseñada por David Chipperfield. La fachada del museo, con sus distintivas filas de ladrillos claros, contrasta fuertemente con los detalles ornamentados del edificio vecino. Dos coches, uno negro aparcado y otro en la calle, añaden vida a esta intersección de estilos y épocas arquitectónicas."
+  },
+  {
+    "url": "https://i.postimg.cc/jjdMVwK5/Kunstmuseum-Basilea-Georg-Baselitz-works-on-paper-Basilea.webp",
+    "caption": "Exposición de dibujos de Georg Baselitz en el Kunstmuseum",
+    "tags": [
+      "arte",
+      "dibujos",
+      "expresionista",
+      "blanco y negro",
+      "galería",
+      "exposición",
+      "arte contemporáneo",
+      "cuadros",
+      "pared",
+      "abstracción"
+    ],
+    "alt": "Una vista de una sala de exposición con varias obras de arte enmarcadas colgadas en paredes blancas. Los cuadros, principalmente dibujos en blanco y negro con trazos gruesos y expresivos, representan figuras abstractas, rostros y texturas densas, sugiriendo una estética cruda y visceral. La disposición en cuadrículas crea un ritmo visual en la galería."
+  },
+  {
+    "url": "https://i.postimg.cc/GphX08rX/Mittlere-Brucke-Basilea.webp",
+    "caption": "El histórico puente Mittlere Brücke sobre el río Rin",
+    "tags": [
+      "Basilea",
+      "Mittlere Brücke",
+      "tranvía",
+      "río Rin",
+      "arquitectura histórica"
+    ],
+    "alt": "Una vista pintoresca del histórico Mittlere Brücke en Basilea, Suiza, cruzando las aguas verdes del río Rin. Un moderno tranvía verde se desplaza sobre el puente de arcos de piedra, flanqueado por edificios tradicionales de tejados rojos y fachadas detalladas. Banderas decorativas ondean a lo largo de la estructura, añadiendo color a este icónico paisaje urbano que combina patrimonio y vida contemporánea bajo un cielo nublado."
+  },
+  {
+    "url": "https://i.postimg.cc/wjzTBpZt/Rio-Rin-Torre-Roche-002-01.webp",
+    "caption": "La silueta de la Torre Roche dominando el horizonte del Rin",
+    "tags": [
+      "arquitectura",
+      "rascacielos",
+      "Basilea",
+      "Suiza",
+      "río Rin",
+      "blanco y negro",
+      "paisaje urbano",
+      "moderno",
+      "Roche Tower",
+      "edificio corporativo"
+    ],
+    "alt": "Vista en blanco y negro del imponente Roche Tower (Bau 1) en Basilea, Suiza, con su distintivo diseño escalonado. El edificio se eleva a orillas del río Rin, cuyas aguas reflejan el cielo nublado. La imagen captura la silueta moderna del rascacielos y el entorno industrial, incluyendo otras estructuras y grúas, bajo una atmósfera dramática."
+  },
+  {
+    "url": "https://i.postimg.cc/2580pbm2/Strassburger-Denkmal-Basilea.webp",
+    "caption": "Monumento de Estrasburgo (Strassburger Denkmal) en Basilea",
+    "tags": [
+      "escultura",
+      "monumento",
+      "arte público",
+      "alegoría",
+      "figuras"
+    ],
+    "alt": "Grupo escultórico de piedra que representa una alegoría con varias figuras clásicas. Una figura central sostiene un escudo con una cruz, protegiendo a una mujer con un niño en brazos y a otra figura alada, posiblemente un ángel. Un joven arrodillado completa la escena. La obra, con su vestimenta fluida y expresiones serias, evoca temas históricos o patrióticos, destacando por sus detalles y composición dinámica. Refleja el arte neoclásico o romántico en un espacio público."
+  },
+  {
+    "url": "https://i.postimg.cc/bwRmFHXZ/Tinguely-Brunnen-Basilea-1.webp",
+    "caption": "Detalle de la Fuente Tinguely (Tinguely-Brunnen) en la Plaza del Teatro",
+    "tags": [
+      "niña",
+      "fuente",
+      "escultura",
+      "parque",
+      "color selectivo"
+    ],
+    "alt": "Una niña con un abrigo rosa vibrante y mochila azul se alza junto a una fuente con grandes esculturas de metal oscuro y detalles intrincados. El fondo, que incluye árboles, edificios y otras estatuas, está desaturado en blanco y negro, creando un fuerte contraste con los colores vivos de la niña. La escena transcurre en un entorno urbano al aire libre, posiblemente un parque o plaza, destacando la figura infantil en un ambiente artístico."
+  },
+  {
+    "url": "https://i.postimg.cc/VNLKyr1G/Tinguely-Brunnen-Basilea.webp",
+    "caption": "Esculturas cinéticas en movimiento de la Fuente Tinguely",
+    "tags": [
+      "fountain",
+      "coins",
+      "water",
+      "wishing_well",
+      "outdoor"
+    ],
+    "alt": "Una característica de agua única que parece un pozo de los deseos, donde un tazón de metal oscuro y perforado está suspendido sobre un cuerpo de agua. El tazón contiene numerosas monedas de cobre y oro. Múltiples chorros de agua caen del tazón, formando delicadas columnas que regresan a la superficie ondulada debajo. La escena sugiere una tradición de hacer deseos."
+  }
     ]
   },
 {
