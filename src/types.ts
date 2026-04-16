@@ -11,11 +11,13 @@ export interface Viaje {
   ubicacion: string;
   resumen: string;
   reseña: string;
-  urlImagen: string;
+  url?: string;
+  urlImagen?: string;
   categoria: string;
   fecha?: string;
   equipo?: string;
   galeria?: (string | GalleryItem)[];
+  galeriaTematica?: (string | GalleryItem)[];
 }
 
 export interface Photo {
