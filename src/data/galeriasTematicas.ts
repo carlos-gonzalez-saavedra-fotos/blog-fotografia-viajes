@@ -20,7 +20,7 @@ export const galeriasTematicas: Viaje[] = [
     ]
   },
   {
-    id: "GaleBCN2023", url: "https://i.postimg.cc/wvtX95Y3/Pont_del_Diable_004.webp", titulo: "Escenas 2023", ubicacion: "Barcelona", resumen: "", reseña: "",
+    id: "GaleBCN2023", url: "https://i.postimg.cc/wvtX95Y3/Pont_del_Diable_004.webp", titulo: "Escenas 2023", ubicacion: "Barcelona 2023", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/26qQCdNN/Playa-Mar-Bella.webp", "caption": "Atardecer en la Playa de la Mar Bella", "tags": ["playa", "Mar Bella", "atardecer", "Barcelona", "mar"], "alt": "Una vista serena de la costa con rocas cubiertas de algas verdes en primer plano, bañadas por el agua clara del mar bajo un cielo azul vibrante."},
@@ -40,7 +40,7 @@ export const galeriasTematicas: Viaje[] = [
     ]
   },
   {
-    id: "GaleBCN2024", url: "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp", titulo: "Escenas 2024", ubicacion: "Barcelona", resumen: "", reseña: "",
+    id: "GaleBCN2024", url: "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp", titulo: "Escenas 2024", ubicacion: "Barcelona 2024", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp", "caption": "Puerto de Barcelona", "tags": ["puerto", "barcos", "mar", "Barcelona", "urbano"], "alt": "Un imponente velero clásico de varios mástiles se encuentra en un dique seco, rodeado de andamios, sugiriendo trabajos de restauración. Al fondo, se vislumbra la silueta de la ciudad portuaria."},
@@ -62,7 +62,7 @@ export const galeriasTematicas: Viaje[] = [
     ]
   },
   {
-    id: "GaleBCN2025", url: "https://i.postimg.cc/rFChHGMn/Tibidabo_vistas_aereas_(2).webp", titulo: "Escenas 2025", ubicacion: "Barcelona", resumen: "", reseña: "",
+    id: "GaleBCN2025", url: "https://i.postimg.cc/rFChHGMn/Tibidabo_vistas_aereas_(2).webp", titulo: "Escenas 2025", ubicacion: "Barcelona 2025", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/Y9hZKvbL/Jardines-de-la-Torre-Girona-Pedralbes.webp", "caption": "Jardines de la Torre Girona, Pedralbes", "tags": ["jardín", "naturaleza", "estanque", "reflejo", "Barcelona", "Pedralbes"], "alt": "Una pintoresca vista de los Jardines de la Torre Girona en Pedralbes, destacando un pabellón rojo con tejado cónico y una escalera que desciende hacia un estanque rodeado de vegetación frondosa."},
@@ -116,13 +116,15 @@ export const galeriasTematicas: Viaje[] = [
     ]
   },
   {
-    id: "GaleMusic", url: "https://i.postimg.cc/vTqQQ3GF/Concierto_Rosario_Flores_2.webp", titulo: "Música", ubicacion: "Barcelona", resumen: "", reseña: "",
+    id: "GaleMusic", url: "https://i.postimg.cc/vTqQQ3GF/Concierto_Rosario_Flores_2.webp", titulo: "Música", ubicacion: "Música", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/WpXp6bgq/Shakira-de-paseo-2.webp", "caption": "La cantante Shakira en la Barceloneta. Verano 2010", "tags": ["Shakira", "Celebridad", "Concierto", "Fotógrafos", "Primer plano"], "alt": "Primer plano de la cantante Shakira con su característico cabello rubio y ondulado. Su boca está ligeramente abierta, sugiriendo que está cantando, hablando o reaccionando. En el fondo, desenfocado, se aprecian figuras de fotógrafos con cámaras profesionales, uno de ellos con gorra roja y barba, capturando el momento. La imagen transmite la atmósfera de un evento público o un concierto donde la celebridad es el centro de atención."},
       {"url": "https://i.postimg.cc/qqbkkjpT/Concha-Buika-Chucho-Valdes-3.webp", "caption": "Chucho Valdés y Concha Buika en el Festival de Peralada", "tags": [ "Buika", "concierto", "música en vivo", "jazz", "cantante", "pianista", "piano Steinway", "Castell de Peralada" ], "alt": "Una apasionada actuación en vivo en el Festival de Peralada. La cantante Concha Buika, con un traje dorado, comparte escenario con el maestro Chucho Valdés al piano de cola, bajo una iluminación que resalta la intensidad del momento." },
       {"url": "https://i.postimg.cc/vTqQQ3GF/Concierto-Rosario-Flores-2.webp", "caption": "Fuerza y duende: Rosario Flores en La Mercè", "tags": [ "Rosario Flores", "flamenco pop", "concierto", "La Mercè", "Barcelona", "escenario" ], "alt": "La cantante Rosario Flores en un momento de gran intensidad dramática sobre el escenario durante las fiestas de La Mercè. Ataviada con un traje de plumas, sostiene el micrófono con pasión bajo un foco que realza su expresividad." },
       {"url": "https://i.postimg.cc/qqbkkjpd/Esperanza-Spalding-BCN-2009.webp", "caption": "Esperanza Spalding y su contrabajo en el Teatre Grec", "tags": [ "Esperanza Spalding", "jazz", "contrabajo", "Barcelona", "Festival Grec", "concierto" ], "alt": "La virtuosa Esperanza Spalding sonriente mientras toca el contrabajo en el escenario del Teatre Grec. La iluminación cálida destaca la alegría y concentración de la artista durante su actuación en el festival de verano de Barcelona." },
+      {"url": "https://i.postimg.cc/yd4sDH6q/Cecilia-Bartoli-Palau-de-la-Musica-2009.webp", "caption": "Cercanía y genio: Cecilia Bartoli con sus admiradores en el Palau de la Música Catalana", "tags": ["Cecilia Bartoli", "Mezzosoprano", "Palau de la Música", "Barcelona", "Música Clásica", "Autógrafos", "Encuentro"], "alt": "La mezzosoprano italiana Cecilia Bartoli, con su característica sonrisa y una bufanda naranja, se inclina con amabilidad para firmar autógrafos a un grupo de admiradores en el Palau de la Música Catalana tras un concierto en 2009."},
+      {"url": "https://i.postimg.cc/85QN7SkQ/Gustavo-Dudamel-Auditorio-BCN-2009.webp", "caption": "La pausa del maestro: Retrato de Gustavo Dudamel en L'Auditori", "tags": ["Gustavo Dudamel", "Director de Orquesta", "Retrato", "L'Auditori", "Barcelona", "Música Clásica", "Perfil"], "alt": "Retrato de perfil del director venezolano Gustavo Dudamel en 2009. Se aprecia su expresión serena y concentrada antes de un concierto en L'Auditori de Barcelona, resaltando su icónico cabello rizado sobre un fondo neutro."},
       {"url": "https://i.postimg.cc/Zn7TTVJz/Festival-Asia-1.webp", "caption": "Joven asiática toca el guzheng. Festival Asia - Grec 2010", "tags": ["guzheng", "música tradicional china", "mujer", "qipao", "actuación en vivo"], "alt": "Una joven asiática, vestida con un vibrante Qipao chino tradicional rojo con bordados florales, toca con concentración un Guzheng. Está sentada, con ambas manos interactuando con las cuerdas del largo instrumento de madera. El fondo oscuro realza a la intérprete y su instrumento. Un soporte de micrófono es visible, sugiriendo una actuación en vivo. Su cabello oscuro y postura elegante contribuyen a la atmósfera serena."},
       {"url": "https://i.postimg.cc/zD0DSXKb/Musica-en-La-Barceloneta-2010.webp", "caption": "Hombre orquesta. Barceloneta 2010", "tags": ["músico", "hombre orquesta", "armónica", "batería", "sonriendo"], "alt": "Primer plano de un músico callejero rubio y sonriente, interpretando varios instrumentos simultáneamente. Lleva gafas de sol, una armónica sujeta a un soporte en el cuello y está rodeado por partes de una batería, incluyendo un tambor y un platillo. La imagen capta su expresión de alegría y energía durante una actuación al aire libre, bajo la luz del sol."},
     ]
