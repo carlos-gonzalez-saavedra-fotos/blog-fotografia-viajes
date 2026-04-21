@@ -28,20 +28,29 @@ export const Explore = () => {
 
   const allPhotos = useMemo(() => {
     const photos: PhotoItem[] = [];
+    const seenUrls = new Set<string>();
+
     MIS_VIAJES.forEach(viaje => {
       if (viaje.galeria) {
         viaje.galeria.forEach(item => {
           const url = typeof item === 'string' ? item : item.url;
+          if (seenUrls.has(url)) return;
+          seenUrls.add(url);
+          
           const caption = typeof item === 'string' ? '' : item.caption || '';
           const tags = typeof item === 'string' ? [] : item.tags || [];
           photos.push({ url, caption, tags, ubicacion: viaje.ubicacion, titulo: viaje.titulo, tripId: viaje.id });
         });
       }
     });
+
     MIS_FOTOS.forEach(foto => {
       if (foto.galeriaTematica) {
         foto.galeriaTematica.forEach(item => {
           const url = typeof item === 'string' ? item : item.url;
+          if (seenUrls.has(url)) return;
+          seenUrls.add(url);
+
           const caption = typeof item === 'string' ? '' : item.caption || '';
           const tags = typeof item === 'string' ? [] : item.tags || [];
           photos.push({ url, caption, tags, ubicacion: foto.ubicacion, titulo: foto.titulo });
