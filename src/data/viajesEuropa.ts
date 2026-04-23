@@ -405,7 +405,156 @@ Volví a la música para escuchar los acordes del órgano de la Westerkerk bajo 
 Dejé la capital neerlandesa tras haber recorrido en sus calles, parques, canales y museos el equivalente a dos maratones, y con la sensación de que cada metro caminado valió la pena.`,
     urlImagen: "https://i.postimg.cc/NFM0qxWW/Rijks-Museum-2013.webp", categoria: "Europa", fecha: "Septiembre 2013", equipo: "Canon PowerShot SX200 IS",
     galeria: [
-      { "url": "https://i.postimg.cc/NFM0qxWW/Rijks-Museum-2013.webp", "caption": "El Rijksmuseum de Ámsterdam, templo del arte neerlandés", "tags": [ "Rijksmuseum", "Ámsterdam", "arquitectura", "museo", "Países Bajos", "arte" ], "alt": "La imponente fachada del Rijksmuseum en Ámsterdam, un edificio monumental que combina estilos neogótico y neorrenacentista. La imagen captura la grandeza del museo bajo un cielo despejado, destacando sus intrincados detalles arquitectónicos y su importancia cultural." }
+      {
+        "url": "https://i.postimg.cc/zfWbW4hv/Enjambre-Bicicletas.webp",
+        "caption": "Caosmosis urbana: el enjambre de bicicletas frente a la Basílica de San Nicolás",
+        "tags": ["movilidad", "bicicletas", "Basílica de San Nicolás", "arquitectura", "Ámsterdam", "caos dinámico"],
+        "alt": "Perspectiva de gran angular que muestra cientos de bicicletas estacionadas en densas hileras en primer plano, con la imponente Basílica de San Nicolás y sus cúpulas gemelas dominando el horizonte bajo un cielo azul vibrante."
+      },
+      {
+        "url": "https://i.postimg.cc/B608CN5c/Por-la-ciudad-chica-ventana.webp",
+        "caption": "Transparencia y cotidianeidad: la luz de la tarde en un alféizar de De Pijp",
+        "tags": ["cotidianidad", "luz natural", "arquitectura", "ventana", "Ámsterdam", "estilo de vida"],
+        "alt": "Primer plano de una joven sentada de forma relajada y descalza en el alféizar de un ventanal de una casa de ladrillo rojo, capturada en un momento de introspección bañado por una cálida luz lateral."
+      },
+      {
+        "url": "https://i.postimg.cc/vBs1vX77/Por-la-ciudad-004-fachadas.webp",
+        "caption": "El ritmo de los gabletes: fachadas históricas que se asoman al canal",
+        "tags": ["arquitectura", "Casas de Canal", "historia", "Patrimonio", "Ámsterdam", "diseño"],
+        "alt": "Vista frontal de una hilera de casas tradicionales de Ámsterdam con diferentes terminaciones de gabletes (cuello, campana y escalón), destacando los contrastes entre ladrillo oscuro, marcos blancos y el cielo despejado."
+      },
+      {
+        "url": "https://i.postimg.cc/j5bWhv6M/Stadssshouwburg-001.webp",
+        "caption": "Verticalidad barroca: los palcos dorados del Stadsschouwburg",
+        "tags": ["teatro", "ópera", "interiores", "arquitectura barroca", "Ámsterdam", "cultura"],
+        "alt": "Vista en contrapicado de los múltiples niveles de palcos circulares de un teatro clásico, mostrando una opulenta decoración en oro, terciopelo rojo y la inscripción SPQA en el arco del proscenio."
+      },
+      {
+        "url": "https://i.postimg.cc/KzD1pLQr/Westerkerk-002.webp",
+        "caption": "La voz de la Westerkerk: el monumental órgano barroco y su espacio sagrado",
+        "tags": ["Westerkerk", "órgano", "barroco", "arquitectura religiosa", "Ámsterdam", "música"],
+        "alt": "Interior de la iglesia Westerkerk destacando el gigantesco órgano ricamente tallado y decorado con figuras doradas, rodeado por la austeridad de los arcos blancos y la luz cenital del templo."
+      },
+      {
+        "url": "https://i.postimg.cc/C1gZ4JCx/EYE-Instituto-Holandes-de-Cine-006.webp",
+        "caption": "Futurismo sobre el IJ: la proa de cristal del EYE Filmmuseum",
+        "tags": ["EYE Filmmuseum", "arquitectura contemporánea", "río IJ", "museo", "Ámsterdam", "vanguardia"],
+        "alt": "Arquitectura deconstructivista del Museo del Cine EYE en Ámsterdam, un edificio blanco y angulado que recuerda a un ojo o un barco moderno, situado frente a las aguas del río IJ bajo una luz nítida."
+      },
+      {
+        "url": "https://i.postimg.cc/vm9g9Cnx/Estacion-Central-001.webp",
+        "caption": "Geometría luminosa: el techo caleidoscópico de la Estación Central",
+        "tags": ["ingeniería", "arquitectura moderna", "Estación Central", "lucernario", "Ámsterdam", "abstracción"],
+        "alt": "Detalle abstracto del techo curvo de la estación, compuesto por paneles geométricos translúcidos en tonos naranjas y rojos que filtran la luz solar creando un patrón rítmico y futurista."
+      },
+      {
+        "url": "https://i.postimg.cc/3RTyZ9jX/Quesos-holandeses.webp",
+        "caption": "Bodegón urbano: ruedas de Gouda bajo el sol de mediodía",
+        "tags": ["gastronomía", "queso holandés", "tradición", "escaparate", "Ámsterdam", "detalle"],
+        "alt": "Composición centrada en una ventana de ladrillo donde se exhiben verticalmente grandes ruedas de queso de color naranja intenso, iluminadas por un rayo de sol que destaca su textura y color."
+      },
+      {
+        "url": "https://i.postimg.cc/W3vD7SmM/Plaza-Rembrandt-001.webp",
+        "caption": "La Ronda de Noche en 3D: diálogo entre el bronce y el paseante",
+        "tags": ["Rembrandt", "escultura", "La Ronda de Noche", "Rembrandtplein", "Ámsterdam", "arte público"],
+        "alt": "Conjunto escultórico de bronce en la Plaza Rembrandt que recrea a los personajes de la famosa pintura de Rembrandt, con un turista real posando entre las figuras de los milicianos."
+      },
+      {
+        "url": "https://i.postimg.cc/fbXtX1dt/Esculturas-de-Henry-Moore-Rijks-Museum-009.webp",
+        "caption": "Perspectivas de Moore: el Rijksmuseum enmarcado en bronce",
+        "tags": ["Henry Moore", "escultura", "Rijksmuseum", "arte moderno", "Ámsterdam", "perspectiva"],
+        "alt": "Fotografía creativa tomada a través de una abertura orgánica en una escultura de Henry Moore, enmarcando a lo lejos otra estatua y el flujo de gente en los jardines del museo."
+      },
+      {
+        "url": "https://i.postimg.cc/wvptkF5s/Museo-van-Gogh-011.webp",
+        "caption": "Ante 'El dormitorio': la vigencia del trazo de Van Gogh",
+        "tags": ["Van Gogh", "museo", "arte", "postimpresionismo", "Ámsterdam", "espectadores"],
+        "alt": "Visitantes detenidos frente a la famosa pintura 'El dormitorio en Arlés' en el Museo Van Gogh, destacando el marco dorado y la vibrante paleta de amarillos de la obra original."
+      },
+      {
+        "url": "https://i.postimg.cc/0NmMmhSz/Esculturas-de-Henry-Moore-Rijks-Museum.webp",
+        "caption": "Un abrazo de metal frente a la historia",
+        "tags": ["escultura", "bronce", "Rijksmuseum", "arte abstracto", "Ámsterdam"],
+        "alt": "Escultura de bronce de formas fluidas situada en primer plano, con la majestuosa fachada neorrenacentista del Rijksmuseum de fondo."
+      },
+      {
+        "url": "https://i.postimg.cc/VNMrM2tS/Esculturas-de-Henry-Moore-Rijks-Museum-008.webp",
+        "caption": "Figura reclinada: armonía entre arte moderno y arquitectura del siglo XIX",
+        "tags": ["Henry Moore", "Rijksmuseum", "jardines", "escultura", "Ámsterdam", "bronce"],
+        "alt": "Vista lateral de una escultura reclinada de Moore que contrasta su modernidad con los arcos y torres de ladrillo del museo nacional."
+      },
+      {
+        "url": "https://i.postimg.cc/tgPZP86g/Canales-de-Amsterdam-031.webp",
+        "caption": "El pulso del canal: barcos de recreo, bicicletas y el viejo Ámsterdam",
+        "tags": ["canal", "transporte", "vidau urbana", "barcos", "Ámsterdam", "verano"],
+        "alt": "Panorámica de un canal con barcos de excursión, filas de bicicletas en el muelle y edificios históricos que se curvan siguiendo la vía de agua."
+      },
+      {
+        "url": "https://i.postimg.cc/hjBJ0M8m/Musicos-en-el-barrio-de-Jordaan.webp",
+        "caption": "Melodías en Jordaan: el espíritu bohemio del barrio de las flores",
+        "tags": ["música callejera", "Jordaan", "acordeón", "violonchelo", "Ámsterdam", "atmósfera"],
+        "alt": "Un trío de músicos tocando en una intersección soleada del barrio Jordaan, rodeados de terrazas de café, bicicletas y la luz dorada del atardecer."
+      },
+      {
+        "url": "https://i.postimg.cc/G2CBjzPt/Festival-Uitmarkt-Explanada-de-los-Museos-022.webp",
+        "caption": "Acordeones al viento: la vibrante propuesta del Uitmarkt",
+        "tags": ["Uitmarkt", "festival", "música en vivo", "acordeón", "Ámsterdam", "actuación"],
+        "alt": "Retrato expresivo de una cantante tocando un acordeón con fuelles rojos durante un concierto al aire libre en el festival cultural Uitmarkt."
+      },
+      {
+        "url": "https://i.postimg.cc/Y9H4x8NY/Plaza-DAM-004.webp",
+        "caption": "Atlas soporta los cielos: el guardián de la Plaza Dam",
+        "tags": ["Plaza Dam", "Atlas", "escultura", "mitología", "Ámsterdam", "monumento"],
+        "alt": "Escultura de bronce en contrapicado de Atlas sosteniendo la esfera celeste, situada en la parte superior del Palacio Real en la Plaza Dam, recortada contra el cielo azul."
+      },
+      {
+        "url": "https://i.postimg.cc/pd8h83j2/Cultura-del-reciclaje.webp",
+        "caption": "Civismo temprano: niños recolectando vasos en el Uitmarkt",
+        "tags": ["ecología", "niños", "reciclaje", "festival", "cultura holandesa", "Uitmarkt"],
+        "alt": "Escena costumbrista que muestra a varios niños apilando con entusiasmo vasos de plástico para cambiarlos por monedas, educando en la sostenibilidad."
+      },
+      {
+        "url": "https://i.postimg.cc/g0RXR1h2/Canales-de-Amsterdam-027.webp",
+        "caption": "Vida a ras de agua: tarde de ocio en una casa flotante",
+        "tags": ["casa flotante", "canal", "estilo de vida", "verano", "Ámsterdam", "barco"],
+        "alt": "Un grupo de amigos descansa en la cubierta de madera de una casa flotante decorada con plantas y muebles sencillos, reflejando la vida relajada sobre los canales."
+      },
+      {
+        "url": "https://i.postimg.cc/0Qs6CZGM/Homenaje-a-musicos-de-jazz.webp",
+        "caption": "Johnny Jordaan y su eterna sonrisa de bronce",
+        "tags": ["Jordaan", "estatua", "Johnny Jordaan", "música", "Ámsterdam", "folclore"],
+        "alt": "Estatua de bronce dedicada al cantante folclórico Johnny Jordaan sentado con su acordeón y una pipa, en una callejuela pintoresca de su barrio natal."
+      },
+      {
+        "url": "https://i.postimg.cc/ydHJTnhN/Festival-Uitmarkt-Explanada-de-los-Museos-017.webp",
+        "caption": "Pequeñas divas: la pureza del arte infantil en el Uitmarkt",
+        "tags": ["festival", "niños", "actuación", "teatro", "Ámsterdam", "pureza"],
+        "alt": "Una niña pequeña vestida de princesa blanca sentada ante un micrófono profesional en un escenario, capturando la inocencia y el valor del debut artístico."
+      },
+      {
+        "url": "https://i.postimg.cc/NFM0qxWW/Rijks-Museum-2013.webp",
+        "caption": "Cita con Rembrandt: la reverencia colectiva ante la Ronda de Noche",
+        "tags": ["Rijksmuseum", "Rembrandt", "turismo", "arte", "colección nacional", "Ámsterdam"],
+        "alt": "Una multitud silenciosa de turistas contempla absorta el enorme lienzo de la Ronda de Noche en la sala principal del Rijksmuseum."
+      },
+      {
+        "url": "https://i.postimg.cc/0Qs6CZGt/Stedelijk-Museum-La-banera-Explanada-de-los-Museos-001-Explanada-de-los-Museos-001.webp",
+        "caption": "La bañera blanca: el atrevido anexo del Museo Stedelijk",
+        "tags": ["Stedelijk Museum", "arquitectura moderna", "Museumplein", "diseño", "Ámsterdam"],
+        "alt": "Fachada futurista del Museo Stedelijk conocida como la 'bañera' por sus paredes blancas y curvas, con gente descansando en el césped de la Explanada de los Museos."
+      },
+      {
+        "url": "https://i.postimg.cc/Tw6ycQj0/Rijks-Museum-Museo-Nacional-002.webp",
+        "caption": "El café del museo: un refugio de diseño en el corazón del Rijksmuseum",
+        "tags": ["Rijksmuseum", "café", "interiores", "ocio", "Ámsterdam"],
+        "alt": "Vista interior de la moderna cafetería del Rijksmuseum, con sus lámparas colgantes y la gente disfrutando de un descanso entre obras de arte."
+      },
+      {
+        "url": "https://i.postimg.cc/W3vD7SmY/Vondelpark-siesta.webp",
+        "caption": "Pausa en el verde: una siesta bajo el cielo del Vondelpark",
+        "tags": ["Vondelpark", "descanso", "naturaleza", "parque urbano", "Ámsterdam"],
+        "alt": "Una persona duerme plácidamente boca abajo sobre la hierba fresca del Vondelpark, rodeada de la inmensidad verde del parque más famoso de la ciudad."
+      }
     ]
   },
 ];

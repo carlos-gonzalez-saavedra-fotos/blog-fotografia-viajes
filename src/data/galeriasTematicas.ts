@@ -38,7 +38,7 @@ export const galeriasTematicas: Viaje[] = [
     ]
   },
   {
-    id: "GaleBCN2023", url: "https://i.postimg.cc/wvtX95Y3/Pont_del_Diable_004.webp", titulo: "Escenas 2023", ubicacion: "Barcelona 2023", resumen: "", reseña: "",
+    id: "GaleBCN2023", url: "https://i.postimg.cc/wvtX95Y3/Pont_del_Diable_004.webp", titulo: "Barcelona - Manresa - Martorell", ubicacion: "Escenas 2023", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/26qQCdNN/Playa-Mar-Bella.webp", "caption": "Atardecer en la Playa de la Mar Bella", "tags": ["playa", "Mar Bella", "atardecer", "Barcelona", "mar"], "alt": "Una vista serena de la costa con rocas cubiertas de algas verdes en primer plano, bañadas por el agua clara del mar bajo un cielo azul vibrante."},
@@ -58,7 +58,7 @@ export const galeriasTematicas: Viaje[] = [
     ]
   },
   {
-    id: "GaleBCN2024", url: "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp", titulo: "Escenas 2024", ubicacion: "Barcelona 2024", resumen: "", reseña: "",
+    id: "GaleBCN2024", url: "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp", titulo: "Barcelona", ubicacion: "Escenas 2024", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp", "caption": "Puerto de Barcelona", "tags": ["puerto", "barcos", "mar", "Barcelona", "urbano"], "alt": "Un imponente velero clásico de varios mástiles se encuentra en un dique seco, rodeado de andamios, sugiriendo trabajos de restauración. Al fondo, se vislumbra la silueta de la ciudad portuaria."},
@@ -80,7 +80,7 @@ FOTO_VELA_2024,
     ]
   },
   {
-    id: "GaleBCN2025", url: "https://i.postimg.cc/rFChHGMn/Tibidabo_vistas_aereas_(2).webp", titulo: "Escenas 2025", ubicacion: "Barcelona 2025", resumen: "", reseña: "",
+    id: "GaleBCN2025", url: "https://i.postimg.cc/rFChHGMn/Tibidabo_vistas_aereas_(2).webp", titulo: "Barcelona", ubicacion: "Escenas 2025", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/Y9hZKvbL/Jardines-de-la-Torre-Girona-Pedralbes.webp", "caption": "Jardines de la Torre Girona, Pedralbes", "tags": ["jardín", "naturaleza", "estanque", "reflejo", "Barcelona", "Pedralbes"], "alt": "Una pintoresca vista de los Jardines de la Torre Girona en Pedralbes, destacando un pabellón rojo con tejado cónico y una escalera que desciende hacia un estanque rodeado de vegetación frondosa."},
@@ -140,7 +140,7 @@ FOTO_KITESURF_2025,
     ]
   },
   {
-    id: "Gale2015", url: "https://i.postimg.cc/1zGK81Xj/Acrobacias-parque-Joan-Miro-Barcelona.webp", titulo: "Escenas 2015", ubicacion: "Barcelona-Madrid-Caracas", resumen: "", reseña: "",
+    id: "Gale2015", url: "https://i.postimg.cc/1zGK81Xj/Acrobacias-parque-Joan-Miro-Barcelona.webp", titulo: "Barcelona-Madrid-Caracas", ubicacion: "Escenas 2015", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       FOTO_ACROBACIA_2015,
@@ -169,7 +169,7 @@ FOTO_KITESURF_2025,
     ]
   },
   {
-    id: "Gale2014", url: "https://i.postimg.cc/zDKR5FLQ/La-Merce-2014-fuegos-artificiales.webp", titulo: "Escenas 2014", ubicacion: "Barcelona-Madrid-Cambrils", resumen: "", reseña: "",
+    id: "Gale2014", url: "https://i.postimg.cc/zDKR5FLQ/La-Merce-2014-fuegos-artificiales.webp", titulo: "Barcelona-Madrid-Cambrils", ubicacion: "Escenas 2014", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/GhRTpTG0/Arte-Efimero-Placa-Nova-2014.webp", "caption": "Estructuras de madera: El arte efímero en la Plaça Nova", "tags": ["Escultura Pública", "Arte Contemporáneo", "Estructura De Madera", "Museo", "Paisaje Urbano"], "alt": "Una gran escultura pública hecha de intrincadas vigas de madera formando una estructura de rejilla, ubicada en una plaza urbana soleada. Varias personas caminan junto a la obra, que proyecta largas sombras en el suelo. Al fondo, un edificio moderno exhibe carteles con referencias a 'Modernisme', 'Picasso' y 'Gaudí'."},
