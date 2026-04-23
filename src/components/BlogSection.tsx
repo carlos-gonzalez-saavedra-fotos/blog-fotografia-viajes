@@ -115,7 +115,7 @@ export const BlogSection = () => {
                         <ArrowRight size={12} className="group-hover/link:translate-x-1 transition-transform" />
                       </Link>
 
-                      {viaje.galeria && viaje.galeria.length > 0 && (
+                      {(viaje.galeria && viaje.galeria.length > 0) && (
                         <Link 
                           to={`/viaje/${viaje.id}#galeria`}
                           className="group/link flex items-center gap-2 text-[9px] uppercase tracking-widest text-white/40 hover:text-gold transition-colors"

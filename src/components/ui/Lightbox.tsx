@@ -7,7 +7,9 @@ interface LightboxPhoto {
   url: string;
   caption?: string;
   ubicacion?: string;
+  titulo?: string;
   tripId?: string;
+  useTitleAsHeader?: boolean;
 }
 
 interface LightboxProps {
@@ -61,6 +63,14 @@ export const Lightbox: React.FC<LightboxProps> = ({
 
   const currentPhoto = photos[currentIndex];
 
+  // Lógica de encabezado ultra-robusta:
+  let headerText = currentPhoto?.ubicacion;
+  if (currentPhoto?.useTitleAsHeader && currentPhoto?.titulo) {
+    headerText = currentPhoto.titulo;
+  } else if (!currentPhoto?.tripId && currentPhoto?.titulo) {
+    headerText = currentPhoto.titulo;
+  }
+
   return (
     <AnimatePresence>
       {isOpen && currentPhoto && (
@@ -104,10 +114,10 @@ export const Lightbox: React.FC<LightboxProps> = ({
             </div>
           </div>
 
-          {/* Metadatos Superiores (Ubicación y Contador) - Movidos fuera del bloque centrado para asegurar visibilidad */}
+          {/* Metadatos Superiores (Ubicación/Título y Contador) */}
           <div className="w-full px-6 md:px-20 py-2 flex justify-between items-center z-[90]">
             <span className="text-gold text-[10px] uppercase tracking-[0.5em] font-medium">
-              {currentPhoto.ubicacion}
+              {headerText}
             </span>
             <span className="text-white/40 text-[10px] tracking-[0.5em] uppercase">
               {currentIndex + 1} / {photos.length}

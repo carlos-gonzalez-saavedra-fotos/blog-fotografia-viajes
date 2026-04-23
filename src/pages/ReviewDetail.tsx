@@ -1,6 +1,6 @@
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { MIS_VIAJES } from '../data/mis_viajes';
+import { MIS_VIAJES, MIS_FOTOS } from '../data/mis_viajes';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { MapPin, ArrowLeft, Quote, Search } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
@@ -10,10 +10,18 @@ export const ReviewDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const viaje = MIS_VIAJES.find(v => v.id === id);
+  
+  // Buscar en viajes y en fotos (galerías temáticas)
+  const viaje = MIS_VIAJES.find(v => v.id === id) || (MIS_FOTOS.find(f => f.id === id) as any);
+  
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isPortrait, setIsPortrait] = useState(false);
   const galleryRef = useRef<HTMLDivElement>(null);
+
+  // Normalizar la galería (puede ser .galeria o .galeriaTematica)
+  const fotosGaleria = viaje?.galeria || viaje?.galeriaTematica || [];
+  // Una galería es temática si tiene el campo galeriaTematica OR si su ID empieza por "Gale"
+  const esTematica = !!viaje?.galeriaTematica || viaje?.id?.startsWith('Gale');
 
   useEffect(() => {
     setSelectedIndex(null);
@@ -45,9 +53,9 @@ export const ReviewDetail = () => {
   }, [selectedIndex]);
 
   const handlePanEnd = (_e: any, info: PanInfo) => {
-    if (!viaje?.galeria) return;
-    if (info.offset.x < -50) setSelectedIndex((selectedIndex! + 1) % viaje.galeria.length);
-    else if (info.offset.x > 50) setSelectedIndex((selectedIndex! - 1 + viaje.galeria.length) % viaje.galeria.length);
+    if (!fotosGaleria.length) return;
+    if (info.offset.x < -50) setSelectedIndex((selectedIndex! + 1) % fotosGaleria.length);
+    else if (info.offset.x > 50) setSelectedIndex((selectedIndex! - 1 + fotosGaleria.length) % fotosGaleria.length);
   };
 
   if (!viaje) return <div className="min-h-screen bg-black" />;
@@ -58,13 +66,13 @@ export const ReviewDetail = () => {
       
       {/* Header / Hero */}
       <div className="relative h-[70vh] w-full overflow-hidden">
-        <motion.img initial={{ scale: 1.1 }} animate={{ scale: 1 }} transition={{ duration: 1.5 }} src={viaje.urlImagen} className="w-full h-full object-cover opacity-60 grayscale" />
+        <motion.img initial={{ scale: 1.1 }} animate={{ scale: 1 }} transition={{ duration: 1.5 }} src={viaje.urlImagen || viaje.url} className="w-full h-full object-cover opacity-60 grayscale" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
           <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="flex items-center gap-2 text-gold text-[10px] uppercase tracking-[0.4em] mb-6">
             <MapPin size={14} strokeWidth={1.5} /> {viaje.ubicacion}
           </motion.div>
-          <motion.h1 initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }} className="font-serif text-5xl md:text-8xl lg:text-9xl mb-8">{viaje.titulo}</motion.h1>
+          <motion.h1 initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }} className="font-serif text-5xl md:text-8xl lg:text-9xl mb-8 tracking-tighter">{viaje.titulo}</motion.h1>
         </div>
       </div>
 
@@ -88,16 +96,18 @@ export const ReviewDetail = () => {
           </div>
 
           <div className="md:col-span-3 space-y-20">
-            <div className="prose prose-invert prose-lg max-w-none">
-              {viaje.reseña.split('\n').map((p, i) => (
-                <p key={i} className="text-white/80 leading-relaxed font-light mb-8 text-xl selection:bg-gold/30">{p}</p>
-              ))}
-            </div>
+            {viaje.reseña && (
+              <div className="prose prose-invert prose-lg max-w-none">
+                {viaje.reseña.split('\n').map((p: any, i: number) => (
+                  <p key={i} className="text-white/80 leading-relaxed font-light mb-8 text-xl selection:bg-gold/30">{p}</p>
+                ))}
+              </div>
+            )}
 
             {/* CONTENEDOR RESTAURADO CON REF Y ID */}
             <div ref={galleryRef} id="galeria" className="pt-20 grid grid-cols-2 md:grid-cols-3 gap-1">
-              {viaje.galeria?.slice(0, 6).map((item, i) => {
-                const isLast = i === 5 && viaje.galeria!.length > 6;
+              {fotosGaleria.slice(0, 6).map((item: any, i: number) => {
+                const isLast = i === 5 && fotosGaleria.length > 6;
                 return (
                   <motion.div 
                     key={i} 
@@ -114,7 +124,7 @@ export const ReviewDetail = () => {
                     {isLast ? (
                       <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center p-4">
                         <p className="text-gold text-[10px] uppercase tracking-[0.3em] mb-2">Galería Completa</p>
-                        <p className="text-2xl font-serif">+{viaje.galeria!.length - 5}</p>
+                        <p className="text-2xl font-serif">+{fotosGaleria.length - 5}</p>
                       </div>
                     ) : (
                       <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center">
@@ -135,12 +145,13 @@ export const ReviewDetail = () => {
         onClose={() => setSelectedIndex(null)}
         currentIndex={selectedIndex || 0}
         onIndexChange={(index) => setSelectedIndex(index)}
-        photos={viaje.galeria?.map(item => ({
+        photos={fotosGaleria.map((item: any) => ({
           url: typeof item === 'string' ? item : item.url,
           caption: typeof item === 'string' ? undefined : item.caption,
+          titulo: viaje.titulo,
           ubicacion: viaje.ubicacion,
           tripId: viaje.id
-        })) || []}
+        }))}
       />
     </motion.div>
   );

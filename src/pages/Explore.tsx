@@ -53,7 +53,15 @@ export const Explore = () => {
 
           const caption = typeof item === 'string' ? '' : item.caption || '';
           const tags = typeof item === 'string' ? [] : item.tags || [];
-          photos.push({ url, caption, tags, ubicacion: foto.ubicacion, titulo: foto.titulo });
+          photos.push({ 
+            url, 
+            caption, 
+            tags, 
+            ubicacion: foto.ubicacion, 
+            titulo: foto.titulo,
+            tripId: foto.id,
+            useTitleAsHeader: true 
+          });
         });
       }
     });
@@ -203,7 +211,9 @@ export const Explore = () => {
           url: p.url,
           caption: p.caption,
           ubicacion: p.ubicacion,
-          tripId: p.tripId
+          titulo: p.titulo,
+          tripId: p.tripId,
+          useTitleAsHeader: p.useTitleAsHeader
         }))}
       />
       <Footer />
