@@ -1,4 +1,25 @@
-import { Viaje } from '../types'; export const viajesEuropa: Viaje[] = [
+import { Viaje } from '../types'; export const FOTO_AMSTERDAM_VAN_GOGH = {
+  "url": "https://i.postimg.cc/wvptkF5s/Museo-van-Gogh-011.webp",
+  "caption": "Ante 'El dormitorio': la vigencia del trazo de Van Gogh",
+  "tags": ["Van Gogh", "museo", "arte", "postimpresionismo", "Ámsterdam", "espectadores"],
+  "alt": "Visitantes detenidos frente a la famosa pintura 'El dormitorio en Arlés' en el Museo Van Gogh, destacando el marco dorado y la vibrante paleta de amarillos de la obra original."
+};
+
+export const FOTO_AMSTERDAM_RIJKSMUSEUM = {
+  "url": "https://i.postimg.cc/NFM0qxWW/Rijks-Museum-2013.webp",
+  "caption": "Cita con Rembrandt: la reverencia colectiva ante la Ronda de Noche",
+  "tags": ["Rijksmuseum", "Rembrandt", "turismo", "arte", "colección nacional", "Ámsterdam"],
+  "alt": "Una multitud silenciosa de turistas contempla absorta el enorme lienzo de la Ronda de Noche en la sala principal del Rijksmuseum."
+};
+
+export const FOTO_AMSTERDAM_UITMARKT_CONCIERTO = {
+  "url": "https://i.postimg.cc/G2CBjzPt/Festival-Uitmarkt-Explanada-de-los-Museos-022.webp",
+  "caption": "Acordeones al viento: la vibrante propuesta del Uitmarkt",
+  "tags": ["Uitmarkt", "festival", "música en vivo", "acordeón", "Ámsterdam", "actuación"],
+  "alt": "Retrato expresivo de una cantante tocando un acordeón con fuelles rojos durante un concierto al aire libre en el festival cultural Uitmarkt."
+};
+
+export const viajesEuropa: Viaje[] = [
 {
     id: "basilea", titulo: "La Helvetia viajera de Basilea", ubicacion: "Basilea-Suiza", resumen: "Al desembarcar del avión en el aeropuerto de Basilea-Mulhouse-Friburgo el viajero se encuentra ante una encrucijada multinacional: grandes carteles indican con flechas que si te diriges a la izquierda sales a Alemania y Francia, y si lo haces a la derecha, sales a Suiza.", reseña: `Al desembarcar del avión en el aeropuerto de Basilea-Mulhouse-Friburgo el viajero se encuentra ante una encrucijada multinacional: grandes carteles indican con flechas que si te diriges a la izquierda sales a Alemania y Francia, y si lo haces a la derecha, sales a Suiza. Tomo diestra dirección rumbo al país helvético y en veinte minutos llego a la estación central de Basilea. Camino unos pocos metros y me topo con el Monumento de Estrasburgo, en la Centralbahnplatz, que recuerda los asedios de una guerra del siglo XIX y en cuya inscripción se lee: "Le culte des tradition d'amitie honore les peuples comme les hommes" (El culto a la tradición de la amistad honra tanto a los pueblos como a los hombres).  El autor de la escultura es Auguste-Fréderic Bartholdi (1834-1904) creador también de la Estatua de la Libertad que está en el puerto de Nueva York. 
 Justo al lado, en un cuidado parque y frente a un elegante edificio, reposa, rodeada de sillas, la glorieta de Elisabethenanlage. Ahora está vacía y reina el silencio, pero la imagino plena de melómanos que escuchan con placer un concierto en ese espacio, abierto y distinguido. Sigo caminando y, en la calle de Elisabethen, punto intermedio entre la estación central de ferrocarriles y el centro histórico, paso por señoriales construcciones, por una discreta fuente y por la iglesia que da nombre a la vía. El ligeramente elevado emplazamiento de este templo permite que se le pueda apreciar desde distintos puntos de la ciudad. Un hermoso reloj, de azul y dorado intensos, destaca en una de sus torres.
@@ -465,12 +486,7 @@ Dejé la capital neerlandesa tras haber recorrido en sus calles, parques, canale
         "tags": ["Henry Moore", "escultura", "Rijksmuseum", "arte moderno", "Ámsterdam", "perspectiva"],
         "alt": "Fotografía creativa tomada a través de una abertura orgánica en una escultura de Henry Moore, enmarcando a lo lejos otra estatua y el flujo de gente en los jardines del museo."
       },
-      {
-        "url": "https://i.postimg.cc/wvptkF5s/Museo-van-Gogh-011.webp",
-        "caption": "Ante 'El dormitorio': la vigencia del trazo de Van Gogh",
-        "tags": ["Van Gogh", "museo", "arte", "postimpresionismo", "Ámsterdam", "espectadores"],
-        "alt": "Visitantes detenidos frente a la famosa pintura 'El dormitorio en Arlés' en el Museo Van Gogh, destacando el marco dorado y la vibrante paleta de amarillos de la obra original."
-      },
+      FOTO_AMSTERDAM_VAN_GOGH,
       {
         "url": "https://i.postimg.cc/0NmMmhSz/Esculturas-de-Henry-Moore-Rijks-Museum.webp",
         "caption": "Un abrazo de metal frente a la historia",
@@ -495,12 +511,7 @@ Dejé la capital neerlandesa tras haber recorrido en sus calles, parques, canale
         "tags": ["música callejera", "Jordaan", "acordeón", "violonchelo", "Ámsterdam", "atmósfera"],
         "alt": "Un trío de músicos tocando en una intersección soleada del barrio Jordaan, rodeados de terrazas de café, bicicletas y la luz dorada del atardecer."
       },
-      {
-        "url": "https://i.postimg.cc/G2CBjzPt/Festival-Uitmarkt-Explanada-de-los-Museos-022.webp",
-        "caption": "Acordeones al viento: la vibrante propuesta del Uitmarkt",
-        "tags": ["Uitmarkt", "festival", "música en vivo", "acordeón", "Ámsterdam", "actuación"],
-        "alt": "Retrato expresivo de una cantante tocando un acordeón con fuelles rojos durante un concierto al aire libre en el festival cultural Uitmarkt."
-      },
+      FOTO_AMSTERDAM_UITMARKT_CONCIERTO,
       {
         "url": "https://i.postimg.cc/Y9H4x8NY/Plaza-DAM-004.webp",
         "caption": "Atlas soporta los cielos: el guardián de la Plaza Dam",
@@ -531,12 +542,7 @@ Dejé la capital neerlandesa tras haber recorrido en sus calles, parques, canale
         "tags": ["festival", "niños", "actuación", "teatro", "Ámsterdam", "pureza"],
         "alt": "Una niña pequeña vestida de princesa blanca sentada ante un micrófono profesional en un escenario, capturando la inocencia y el valor del debut artístico."
       },
-      {
-        "url": "https://i.postimg.cc/NFM0qxWW/Rijks-Museum-2013.webp",
-        "caption": "Cita con Rembrandt: la reverencia colectiva ante la Ronda de Noche",
-        "tags": ["Rijksmuseum", "Rembrandt", "turismo", "arte", "colección nacional", "Ámsterdam"],
-        "alt": "Una multitud silenciosa de turistas contempla absorta el enorme lienzo de la Ronda de Noche en la sala principal del Rijksmuseum."
-      },
+      FOTO_AMSTERDAM_RIJKSMUSEUM,
       {
         "url": "https://i.postimg.cc/0Qs6CZGt/Stedelijk-Museum-La-banera-Explanada-de-los-Museos-001-Explanada-de-los-Museos-001.webp",
         "caption": "La bañera blanca: el atrevido anexo del Museo Stedelijk",

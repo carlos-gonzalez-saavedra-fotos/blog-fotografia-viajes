@@ -1,4 +1,5 @@
 import { Viaje, GalleryItem } from '../types';
+import { FOTO_AMSTERDAM_VAN_GOGH, FOTO_AMSTERDAM_RIJKSMUSEUM, FOTO_AMSTERDAM_UITMARKT_CONCIERTO } from './viajesEuropa';
 
 // --- CONSTANTES DE FOTOS COMPARTIDAS (DEPORTES) ---
 const FOTO_KITESURF_2025: GalleryItem = {"url": "https://i.postimg.cc/9Fj81g5k/Mar-Bella-Kite-Surf.webp", "caption": "Kite Surf en la playa de la Mar Bella", "tags": ["Kite Surf", "Mar", "Deporte", "Playa", "Barcelona", "Mar Bella"], "alt": "Un kitesurfista navega las olas enérgicas de la playa de la Mar Bella. La figura del deportista se recorta contra el agua que refleja la luz intensa, transmitiendo dinamismo y velocidad."};
@@ -103,7 +104,7 @@ FOTO_KITESURF_2025,
     ]
   },
   {
-    id: "GaleDeporte", url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCY_2010_(3).webp", titulo: "Deportes", ubicacion: "Deportes", resumen: "", reseña: "",
+    id: "GaleDeporte", url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCY_2010_(3).webp", titulo: "Esfuerzos detenidos", ubicacion: "La estética del deporte", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/Hnnf4XMH/Europeos-atletismo-BCN-2010-(3).webp", "caption": "Concentración en la pista de Montjuïc", "tags": [ "Atletismo", "Barcelona 2010", "Montjuïc", "Deporte", "Atleta" ], "alt": "Primer plano de una atleta durante los Campeonatos Europeos de Atletismo en Barcelona. La imagen capta el momento de máxima concentración y el esfuerzo reflejado en su rostro sobre el azul intenso de la pista de Montjuïc." },
@@ -126,7 +127,7 @@ FOTO_KITESURF_2025,
     ]
   },
   {
-    id: "GaleMusic", url: "https://i.postimg.cc/vTqQQ3GF/Concierto_Rosario_Flores_2.webp", titulo: "Música", ubicacion: "Música", resumen: "", reseña: "",
+    id: "GaleMusic", url: "https://i.postimg.cc/vTqQQ3GF/Concierto_Rosario_Flores_2.webp", titulo: "Los rostros tras las melodías", ubicacion: "Compases humanos", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
       {"url": "https://i.postimg.cc/WpXp6bgq/Shakira-de-paseo-2.webp", "caption": "La cantante Shakira en la Barceloneta. Verano 2010", "tags": ["Shakira", "Celebridad", "Concierto", "Fotógrafos", "Primer plano"], "alt": "Primer plano de la cantante Shakira con su característico cabello rubio y ondulado. Su boca está ligeramente abierta, sugiriendo que está cantando, hablando o reaccionando. En el fondo, desenfocado, se aprecian figuras de fotógrafos con cámaras profesionales, uno de ellos con gorra roja y barba, capturando el momento. La imagen transmite la atmósfera de un evento público o un concierto donde la celebridad es el centro de atención."},
@@ -137,6 +138,7 @@ FOTO_KITESURF_2025,
       {"url": "https://i.postimg.cc/85QN7SkQ/Gustavo-Dudamel-Auditorio-BCN-2009.webp", "caption": "La pausa del maestro: Retrato de Gustavo Dudamel en L'Auditori", "tags": ["Gustavo Dudamel", "Director de Orquesta", "Retrato", "L'Auditori", "Barcelona", "Música Clásica", "Perfil"], "alt": "Retrato de perfil del director venezolano Gustavo Dudamel en 2009. Se aprecia su expresión serena y concentrada antes de un concierto en L'Auditori de Barcelona, resaltando su icónico cabello rizado sobre un fondo neutro."},
       {"url": "https://i.postimg.cc/Zn7TTVJz/Festival-Asia-1.webp", "caption": "Joven asiática toca el guzheng. Festival Asia - Grec 2010", "tags": ["guzheng", "música tradicional china", "mujer", "qipao", "actuación en vivo"], "alt": "Una joven asiática, vestida con un vibrante Qipao chino tradicional rojo con bordados florales, toca con concentración un Guzheng. Está sentada, con ambas manos interactuando con las cuerdas del largo instrumento de madera. El fondo oscuro realza a la intérprete y su instrumento. Un soporte de micrófono es visible, sugiriendo una actuación en vivo. Su cabello oscuro y postura elegante contribuyen a la atmósfera serena."},
       {"url": "https://i.postimg.cc/zD0DSXKb/Musica-en-La-Barceloneta-2010.webp", "caption": "Hombre orquesta. Barceloneta 2010", "tags": ["músico", "hombre orquesta", "armónica", "batería", "sonriendo"], "alt": "Primer plano de un músico callejero rubio y sonriente, interpretando varios instrumentos simultáneamente. Lleva gafas de sol, una armónica sujeta a un soporte en el cuello y está rodeado por partes de una batería, incluyendo un tambor y un platillo. La imagen capta su expresión de alegría y energía durante una actuación al aire libre, bajo la luz del sol."},
+      FOTO_AMSTERDAM_UITMARKT_CONCIERTO,
     ]
   },
   {
@@ -193,9 +195,12 @@ FOTO_KITESURF_2025,
     ]
   },
   {
-    id: "GaleArte", url: "https://i.postimg.cc/65Pvchn0/Gego-en-el-Macba-2006-04.webp", titulo: "Arte & Museos", ubicacion: "Barcelona", resumen: "", reseña: "",
+    id: "GaleArte", url: "https://i.postimg.cc/65Pvchn0/Gego-en-el-Macba-2006-04.webp", titulo: "Contemplar el arte", ubicacion: "Personas en museos", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
+      {"url": "https://i.postimg.cc/65Pvchn0/Gego-en-el-Macba-2006-04.webp", "caption": "Dibujar en el espacio: la sutil y perfecta retícula de Gego desafiando la gravedad en el MACBA", "tags": ["Gego", "MACBA", "Barcelona", "escultura", "arte contemporáneo", "geometría", "espacio"], "alt": "Escultura de red metálica suspendida de la artista venezolana Gego, cuyas líneas finas y nodos crean una trama espacial transparente que dialoga con la luz y la arquitectura minimalista del museu MACBA."},
+      FOTO_AMSTERDAM_VAN_GOGH,
+      FOTO_AMSTERDAM_RIJKSMUSEUM,
     ]
   }
 ];
