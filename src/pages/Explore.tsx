@@ -13,6 +13,7 @@ interface PhotoItem {
   ubicacion: string;
   titulo: string;
   tripId?: string;
+  useTitleAsHeader?: boolean;
 }
 
 export const Explore = () => {
