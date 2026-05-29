@@ -288,10 +288,99 @@ FOTO_KITESURF_2025,
       {"url": "https://i.postimg.cc/QN1WsJBq/Hospital-Santa-Creu-i-Sant-Pau-fotografa.webp", "caption": "Capturando el ritmo: Fotografía y simetría en Sant Pau", "tags": ["Fotografía", "Mujer", "Cámara", "Arquitectura", "Diseño", "Patrones", "Líneas Verticales", "Celosía", "Interior", "Luz Y Sombra"], "alt": "Una mujer vestida de oscuro toma una fotografía con una cámara SLR en un interior contemporáneo. La pared de listones verticales de madera crea un potente juego de líneas paralelas y sombras que acentúan la profundidad del espacio."},
       {"url": "https://i.postimg.cc/zDKR5FLQ/La-Merce-2014-fuegos-artificiales.webp", "caption": "Eclosión de luz: El Piromusical de La Mercè ilumina la noche", "tags": ["Fuegos Artificiales", "Noche", "Celebración", "Luces", "Espectáculo"], "alt": "Impresionante exhibición de fuegos artificiales donde una gran explosión esférica amarilla y roja domina el cielo. Debajo, múltiples estelas de luz roja zigzagueantes crean un patrón dinámico sobre el horizonte nocturno."},
       {"url": "https://i.postimg.cc/bYk289Dp/La-Merce-2014-acrobacias-plaza-Cataluna.webp", "caption": "Geometría humana: Danza vertical sobre la Plaza de Catalunya", "tags": ["Acrobacia Aérea", "Performance", "Arte Vertical", "Trabajo En Equipo", "Patrón Humano"], "alt": "Formación de múltiples acróbatas suspendidos en el aire creando un patrón geométrico humano. Sus trajes de colores primarios contrastan con el cielo nublado durante una espectacular performance urbana."},
-      {"url": "https://i.postimg.cc/XNdy3kG3/La-Merce-2014-teatro.webp", "caption": "Alma de madera: Emoción y marionetas en el teatro de calle", "tags": ["Teatro", "Marioneta", "Actuación", "Drama", "Emoción"], "alt": "Momento íntimo de teatro de marionetas donde un actor barbudo interactúa con una figura de madera envejecida. Las manos de ambos se entrelazan creando una poderosa conexión emocional bajo una iluminación escénica dramática."},
       {"url": "https://i.postimg.cc/66nGwf7z/Madrid-Estacion-Atocha-2014.webp", "caption": "Miradas monumentales: 'El Día y la Noche' en la estación de Atocha", "tags": ["Escultura", "Arte Público", "Otoño", "Paisaje Urbano", "Madrid"], "alt": "Dos grandes esculturas de cabezas infantiles de Antonio López flanquean el entorno de la estación de Atocha. Los árboles lucen un vibrante follaje otoñal naranja y al fondo se aprecia la arquitectura clásica de Madrid."},
       FOTO_SKATEPARK_2014,
       {"url": "https://i.postimg.cc/pVznxJ91/Pesebre-2014-Placa-Sant-Jaume.webp", "caption": "Tradición compartida: El Pesebre de la Plaça de Sant Jaume", "tags": ["Belén", "Navidad", "Decoración Urbana", "Escena Pública", "Figuras"], "alt": "Elaborado belén de grandes dimensiones en la Plaça de Sant Jaume. La instalación incluye un río simulado, figuras tradicionales y maquetas de edificios históricos, con la vida urbana de Barcelona desarrollándose en el fondo festivo."},
+    ]
+  },
+  {
+    id: "GaleArteCalle", url: "https://i.postimg.cc/BbjVMnmk/Esculturas-Igor-Mitoraj-25.webp", titulo: "Calles con arte", ubicacion: "Barcelona-Madrid", resumen: "La ciudad se transforma en un museo vivo donde la vanguardia y el clasicismo conversan con los peatones.", reseña: "El arte que escapa de los muros del museo para invadir las plazas y bulevares. Esta recopilación visual documenta grandes exposiciones temporales y permanentes en las calles de Barcelona y Madrid: desde el elefante suspendido de Miquel Barceló y las figuras de basura reciclada de HA Schult, hasta los dramáticos bronces neoclásicos de Igor Mitoraj y las intemporales esculturas de Rodin o Manolo Valdés conviviendo con el fluir cotidiano de la ciudad.",
+    urlImagen: "https://i.postimg.cc/BbjVMnmk/Esculturas-Igor-Mitoraj-25.webp", categoria: "Europa", fecha: "2005-2014", equipo: "Nikon & Canon",
+    galeriaTematica: [
+      {
+        "url": "https://i.postimg.cc/wvfrXmQ4/Elefante-de-Barcelo-Caixaforum-2010.webp",
+        "caption": "Equilibrio monumental: el 'Gran Elefandret' de Miquel Barceló en CaixaForum",
+        "tags": ["Escultura", "Miquel Barceló", "CaixaForum", "Barcelona", "Bronce", "Arte Contemporáneo"],
+        "alt": "La imponente escultura de bronce 'Gran Elefandret' del artista mallorquín Miquel Barceló, desafiando la gravedad al sostenerse verticalmente sobre su propia trompa frente al histórico edificio modernista de CaixaForum Barcelona en 2010."
+      },
+      {
+        "url": "https://i.postimg.cc/x8X4t16g/Esculturas-HA-Schult-Plaza-Real-BCN.webp",
+        "caption": "Trash People: el ejército de residuos de HA Schult coloniza la Plaça Reial",
+        "tags": ["HA Schult", "Plaça Reial", "Barcelona", "Instalación", "Arte Reciclado", "Trash People"],
+        "alt": "Decenas de figuras humanas construidas a base de latas comprimidas y desechos de la sociedad de consumo de la famosa instalación 'Trash People' de HA Schult, ordenadas simétricamente en el corazón de la Plaça Reial entre palmeras y transeúntes asombrados."
+      },
+      {
+        "url": "https://i.postimg.cc/fL2Pc9fr/Esculturas-Igor-Mitoraj-05.webp",
+        "caption": "Belleza clásica fragmentada: la poética mitológica del 'Eros Alado' de Igor Mitoraj",
+        "tags": ["Igor Mitoraj", "Escultura", "Bronce", "Mitología", "Arte Público", "Neoclásico"],
+        "alt": "Imagen de una colosal figura de bronce agrietada representada en un torso con un ala majestuosa desplegada, obra del escultor polaco Igor Mitoraj, que emula la decadencia estética y la melancolía de la antigua Grecia."
+      },
+      {
+        "url": "https://i.postimg.cc/BbjVMnmk/Esculturas-Igor-Mitoraj-25.webp",
+        "caption": "El eco de la antigüedad: los imponentes rostros velados de Igor Mitoraj en el espacio público",
+        "tags": ["Igor Mitoraj", "Escultura Monumental", "Bronce", "Arte Público", "Plaza", "Cultura"],
+        "alt": "Una enorme cabeza de bronce de estilo clásico con los ojos vendados, una de las firmas estéticas de Igor Mitoraj, dispuesta de manera imponente en un andén donde el público interactúa y toma conciencia de la escala monumental en comparación con el ser humano."
+      },
+      {
+        "url": "https://i.postimg.cc/tJsM24BM/Fira-de-Santa-Llucia-9.webp",
+        "caption": "Detalles del folclore invernal: máscaras artesanales y fantasía en la Fira de Santa Llúcia",
+        "tags": ["Fira de Santa Llúcia", "Barcelona", "Navidad", "Artesanía", "Tradición", "Detalle"],
+        "alt": "Primer plano de un adorno artesanal en forma de máscara fantástica y multicolor, con grandes detalles ornamentales y plumas, exhibida en los emblemáticos puestos de madera de la centenaria Fira de Santa Llúcia."
+      },
+      {
+        "url": "https://i.postimg.cc/j2DFZS8T/La-Merce-2010-Ciutadella-10.webp",
+        "caption": "Levedad en el aire: acrobacia aérea entre los frondosos árboles de la Ciutadella",
+        "tags": ["La Mercè", "Parque de la Ciutadella", "Acrobacia", "Performance", "Circo", "Barcelona"],
+        "alt": "Una artista de danza aérea realiza un ágil y bello movimiento suspendida de unas largas telas blancas colgadas de la copa de un olmo en el Parque de la Ciutadella, durante el programa cultural de las fiestas de La Mercè de 2010."
+      },
+      {
+        "url": "https://i.postimg.cc/1X8jJ3Ws/La-Merce-2010-Ciutadella-11.webp",
+        "caption": "Oficina flotante: danza aérea y surrealismo cotidiano bajo el cielo de Barcelona",
+        "tags": ["Acrobacia", "Arte", "La Mercè", "Parque de la Ciutadella", "Performance", "Suspensión"],
+        "alt": "Cuatro bailarines acróbatas ataviados con trajes de sastrería oscuros ejecutan una precisa y teatral coreografía en las alturas, suspendidos contra un cielo cubierto sobre el follaje de los árboles de la Ciutadella."
+      },
+      {
+        "url": "https://i.postimg.cc/2y1K2S0t/La-Merce-2010-Ciutadella-4.webp",
+        "caption": "Teatro del absurdo: juego de perspectivas y humor físico gestual",
+        "tags": ["Arte", "Performance", "Cultura", "Comedia", "Teatro de Calle", "La Mercè"],
+        "alt": "Un simpático acto de circo/teatro de calle en la Ciutadella, donde un actor en actitud cómica actúa encima y dentro de cajas geométricas blancas, fusionando equilibrio, acrobacia y expresión dramática."
+      },
+      {
+        "url": "https://i.postimg.cc/gjxTN2gC/La-Merce-2010-Ciutadella-8.webp",
+        "caption": "Lienzos esculpidos por el viento: la elegancia geométrica de las telas de danza aérea",
+        "tags": ["Acrobacia", "Telones", "Arte", "La Mercè", "Parque de la Ciutadella", "Minimalismo"],
+        "alt": "Dos amplios lienzos de tela blanca descienden impecables y estables en el aire, superpuestos verticalmente contra un cielo gris nublado e insinuando el escenario minimalista y poético de un show de danza vertical suspendida."
+      },
+      {
+        "url": "https://i.postimg.cc/XqrzQY27/Manolo-Valdes-Meninas-2005-(2).webp",
+        "caption": "Meninas reeditadas: las imponentes siluetas de Manolo Valdés en Rambla de Catalunya",
+        "tags": ["Manolo Valdés", "Meninas", "Escultura de Bronce", "Rambla de Catalunya", "Barcelona", "Arte Público"],
+        "alt": "Una majestuosa hilera de esculturas de bronce inspiradas en las Meninas de Velázquez y esculpidas por Manolo Valdés, expuesta libremente en el céntrico paseo rodeado de tupidos árboles y paseantes en 2005."
+      },
+      {
+        "url": "https://i.postimg.cc/vT4N3ZPG/Ollas-tapas-zapato.webp",
+        "caption": "Marilyn: el tacón de aguja gigante de Joana Vasconcelos construido con cacerolas de acero",
+        "tags": ["Joana Vasconcelos", "Escultura", "Marilyn", "Ollas de Acero", "Arte Pop", "Instalación"],
+        "alt": "La famosa e ingeniosa instalación de gran envergadura de un zapato de tacón de mujer gigante, ensamblado enteramente con relucientes ollas y tapas de acero inoxidable reflectantes alineadas sobre una alfombra roja."
+      },
+      {
+        "url": "https://i.postimg.cc/4dL069QL/1331-1-Encogido-y-englobado.webp",
+        "caption": "Fantasía lúdica: globos gigantescos y sonrisas en el corazón de la plaza",
+        "tags": ["Globos", "Arte Callejero", "Diversión", "Eventos", "Plaça de Sant Jaume", "Barcelona"],
+        "alt": "Fabulosa escena urbana de un artista callejero desplegando pompas o globos colosales de colores festivos en una concurrida plaza histórica, recortada contra hermosas fachadas clásicas."
+      },
+      {
+        "url": "https://i.postimg.cc/0jhH313q/Rodin-en-Rambla-Catalunya-13.webp",
+        "caption": "Rodin bajo los árboles: 'El Pensador' en el emblemático paseo",
+        "tags": ["Auguste Rodin", "El Pensador", "Escultura de Bronce", "Rambla de Catalunya", "Arte Público", "Barcelona"],
+        "alt": "La emblemática escultura de bronce de 'El Pensador' de Auguste Rodin exhibida de forma monumental sobre el paseo urbano de la Rambla de Catalunya, rodeada de transeúntes y frondosos árboles."
+      },
+      {
+        "url": "https://i.postimg.cc/Vv2HTPT8/Sant-Joan-2005.webp",
+        "caption": "Fuego y magia ancestral: las chispas mágicas en la fiesta popular nocturna",
+        "tags": ["Sant Joan", "Fiesta Popular", "Pirotecnia", "Correfoc", "Noche", "Tradición Catalana"],
+        "alt": "Vista de personas celebrando con júbilo una lluvia de deslumbrantes chispas incandescentes de petardos y fuego en una atmósfera cargada de humo y pólvora típica de las fiestas populares catalanas de Sant Joan."
+      }
     ]
   },
   {
