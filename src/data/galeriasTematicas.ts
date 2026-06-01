@@ -364,12 +364,6 @@ FOTO_KITESURF_2025,
         "alt": "La famosa e ingeniosa instalación de gran envergadura de un zapato de tacón de mujer gigante, ensamblado enteramente con relucientes ollas y tapas de acero inoxidable reflectantes alineadas sobre una alfombra roja."
       },
       {
-        "url": "https://i.postimg.cc/4dL069QL/1331-1-Encogido-y-englobado.webp",
-        "caption": "Fantasía lúdica: globos gigantescos y sonrisas en el corazón de la plaza",
-        "tags": ["Globos", "Arte Callejero", "Diversión", "Eventos", "Plaça de Sant Jaume", "Barcelona"],
-        "alt": "Fabulosa escena urbana de un artista callejero desplegando pompas o globos colosales de colores festivos en una concurrida plaza histórica, recortada contra hermosas fachadas clásicas."
-      },
-      {
         "url": "https://i.postimg.cc/0jhH313q/Rodin-en-Rambla-Catalunya-13.webp",
         "caption": "Rodin bajo los árboles: 'El Pensador' en el emblemático paseo",
         "tags": ["Auguste Rodin", "El Pensador", "Escultura de Bronce", "Rambla de Catalunya", "Arte Público", "Barcelona"],
@@ -380,6 +374,90 @@ FOTO_KITESURF_2025,
         "caption": "Fuego y magia ancestral: las chispas mágicas en la fiesta popular nocturna",
         "tags": ["Sant Joan", "Fiesta Popular", "Pirotecnia", "Correfoc", "Noche", "Tradición Catalana"],
         "alt": "Vista de personas celebrando con júbilo una lluvia de deslumbrantes chispas incandescentes de petardos y fuego en una atmósfera cargada de humo y pólvora típica de las fiestas populares catalanas de Sant Joan."
+      }
+    ]
+  },
+  {
+    id: "Gale2013", url: "https://i.postimg.cc/zG5sGLDr/Miro-en-el-MNAC.webp", titulo: "Barcelona y Poblet", ubicacion: "Barcelona - Poblet", resumen: "Instantes efímeros de vida cotidiana y arte de vanguardia coleccionados por calles, playas y monasterios en 2013.", reseña: "Un recorrido visual que recoge el pulso urbano de Barcelona y el misticismo pétreo de Poblet a lo largo de 2013. Esta crónica fotográfica abarca desde la vibración y el esfuerzo colectivo de los castellers ante la fachada de la Catedral, hasta los apacibles domingos invernales en la arena de la Barceloneta, las expresiones lúdicas del arte en la Ciutadella, el vanguardismo arquitectónico del MACBA, las cúpulas surrealistas del Palacete Albéniz y el esplendor del retablo del Monasterio de Poblet.",
+    urlImagen: "https://i.postimg.cc/zG5sGLDr/Miro-en-el-MNAC.webp", categoria: "Europa", fecha: "2013", equipo: "Nikon COOLPIX L820",
+    galeriaTematica: [
+      {
+        "url": "https://i.postimg.cc/cLZpLK14/Castellers-frente-a-Catedral-de-Barcelona.webp",
+        "caption": "Geometría de esfuerzo: la fuerza colectiva de los 'Castellers' frente a la Catedral",
+        "tags": ["Castellers", "Catedral de Barcelona", "Cultura Catalana", "Tradición", "Arquitectura"],
+        "alt": "Una colosal torre humana de castellers alzándose con valentía frente a la imponente fachada gótica de la Catedral de Barcelona, rodeada de una multitud expectante."
+      },
+      {
+        "url": "https://i.postimg.cc/YCk5C42w/Cometas-en-el-Paseo-Maritimo.webp",
+        "caption": "Danza del viento: cometas multicolores flotando sobre la Barceloneta",
+        "tags": ["Barcelona", "Cometas", "Playa de la Barceloneta", "Verano", "Ocio", "Paseo Marítimo"],
+        "alt": "Fabulosa escena playera en el Paseo Marítimo de la Barceloneta donde múltiples cometas de formas divertidas y colores vivos bailan en el viento sobre la orilla."
+      },
+      {
+        "url": "https://i.postimg.cc/jSKpSWqs/Domingo-de-invierno-2013.webp",
+        "caption": "Calidez invernal: la quietud de un domingo soleado en la Barceloneta",
+        "tags": ["Barcelona", "Playa de la Barceloneta", "Invierno", "Sol", "Relax", "Mar"],
+        "alt": "Grupo de paseantes y bañistas descansando bajo un templado sol de invierno sobre la arena de la Barceloneta, contemplando la inmensidad del mar."
+      },
+      {
+        "url": "https://i.postimg.cc/4xZDxKfM/La-Merce-2013-en-La-Ciutadella-001.webp",
+        "caption": "Detalles ingeniosos: escultura decorativa del festival de La Mercè en la Ciutadella",
+        "tags": ["La Mercè", "Parque de la Ciutadella", "Arte de Calle", "Instalación", "Cultura", "Barcelona"],
+        "alt": "La estatua monumental de Rafael Casanova vestida de forma vanguardista con pequeños pies y manos artificiales que simulan ascender por su base de piedra."
+      },
+      {
+        "url": "https://i.postimg.cc/P5hg5LXg/La-Merce-2013-en-La-Ciutadella-005.webp",
+        "caption": "Creatividad suspendida: instalación aérea en la arboleda de la Ciutadella",
+        "tags": ["La Mercè", "Parque de la Ciutadella", "Instalación", "Fantasía", "Arte", "Barcelona"],
+        "alt": "Divertido adorno de telas y piernas de trapo suspendidas con gracia entre las ramas de un gran árbol, llenando el festival de un aire surrealista."
+      },
+      {
+        "url": "https://i.postimg.cc/13Pk3gRS/MACBA.webp",
+        "caption": "Arquitectura de vanguardia: la pulcritud geométrica del MACBA",
+        "tags": ["MACBA", "Barcelona", "Richard Meier", "Raval", "Arquitectura Contemporánea", "Museo"],
+        "alt": "La emblemática fachada blanca y acristalada del edificio central del MACBA, diseñado por Richard Meier, recortada contra un límpido cielo azul."
+      },
+      {
+        "url": "https://i.postimg.cc/zG5sGLDr/Miro-en-el-MNAC.webp",
+        "caption": "Explosión abstracta: contemplando el legado polícromo de Joan Miró",
+        "tags": ["Joan Miró", "MNAC", "Arte Moderno", "Pintura", "Museo", "Barcelona"],
+        "alt": "Un grupo de visitantes asombrados observando a corta distancia un monumental mural cerámico cubierto con el lenguaje simbólico y de colores primarios de Joan Miró."
+      },
+      {
+        "url": "https://i.postimg.cc/4xZDxK4s/Monasterio-de-Poblet-009.webp",
+        "caption": "Filigrana de alabastro: el magnífico retablo mayor esculpido del Monasterio de Poblet",
+        "tags": ["Monasterio de Poblet", "Retablo de Alabastro", "Damián Forment", "Arquitectura Religiosa", "Patrimonio", "Tarragona"],
+        "alt": "Detalle en primer plano de la asombrosa talla renacentista de alabastro del retablo mayor de Poblet, que muestra con increíble detalle diversas figuras y hornacinas mariológicas."
+      },
+      {
+        "url": "https://i.postimg.cc/XY3RYZjm/Palacete-Albeniz-Pintura-de-Dali.webp",
+        "caption": "Frescos oníricos: la fantasía pictórica de Salvador Dalí en el Palacete Albéniz",
+        "tags": ["Salvador Dalí", "Palacete Albéniz", "Montjuïc", "Surrealismo", "Pintura", "Cultura"],
+        "alt": "Pintura al fresco del techo decorado en el Palacete Albéniz donde resalta el estilo surrealista e inconfundible de Salvador Dalí con caballos alados y perspectivas imposibles."
+      },
+      {
+        "url": "https://i.postimg.cc/vZMJZ18m/Parque-Cervantes-Primera-Comunion.webp",
+        "caption": "Primavera y pureza: retrato infantil entre rosas en el Parque Cervantes",
+        "tags": ["Parque de Cervantes", "Rosaleda", "Flores", "Primavera", "Retrato", "Barcelona"],
+        "alt": "Una dulce niña ataviada con un traje ceremonial blanco pasea sonriente entre majestuosos e hileras de rosales rosáceos que colorean el hermoso parque."
+      },
+      {
+        "url": "https://i.postimg.cc/K8F68KGd/Pesebre-Plaza-Sant-Jaume-2013.webp",
+        "caption": "Pesebre efímero: la singular narrativa navideña en la Plaza de Sant Jaume",
+        "tags": ["Pesebre", "Navidad", "Plaça de Sant Jaume", "Barcelona", "Instalación", "Tradición"],
+        "alt": "Siluetas rústicas e iluminadas de madera que componen el pesebre minimalista montado en la Plaza Sant Jaume para las festividades navideñas de 2013."
+      },
+      {
+        "url": "https://i.postimg.cc/GmrWmB3t/Plaza-de-los-Angeles.webp",
+        "caption": "Punto de encuentro: el pulso urbano juvenil en la Plaça dels Àngels",
+        "tags": ["Plaça dels Àngels", "Raval", "MACBA", "Barcelona", "Vida Urbana", "Skate"],
+        "alt": "Vista vibrante de la Plaça dels Àngels del Raval con multitud de chicos sentados, andando en patinete y socializando bajo una agradable luz."
+      },
+      {
+        "url": "https://i.postimg.cc/T3Gz3y2d/Saltos-en-la-Barceloneta.webp",
+        "caption": "Vuelo sobre la arena: piruetas acrobáticas en la playa",
+        "tags": ["Barceloneta", "Playa", "Acrobacias", "Deportes", "Juventud", "Barcelona"],
+        "alt": "Un hábil joven congelado en mitad de una pirueta acrobática en el aire en la playa de la Barceloneta con la línea del mar y compañeros observando al fondo."
       }
     ]
   },
