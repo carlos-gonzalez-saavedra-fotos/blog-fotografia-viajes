@@ -172,6 +172,12 @@ FOTO_KITESURF_2025,
     equipo: "Samsung SM-G975F / Sony ILCE-6000",
     galeriaTematica: [
       {
+        "url": "https://i.postimg.cc/13yq4pFx/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
+        "caption": "Giro en el patio gótico: la gracia de la danza en el Día Internacional de los Museos",
+        "tags": ["Museu Picasso", "Danza", "Bailarina", "Día de los Museos", "Barcelona", "Patrimonio"],
+        "alt": "Una bailarina con tutú rosado ejecuta un elegante pirueta sobre las losas de piedra del patio medieval del Museu Picasso durante la jornada de puertas abiertas."
+      },
+      {
         "url": "https://i.postimg.cc/sDdSCFDD/Bailarina-Catedral-Barcelona.webp",
         "caption": "Danza y piedra: la levedad de una bailarina ante la portada gótica de la Catedral",
         "tags": ["Danza", "Bailarina", "Catedral de Barcelona", "Barri Gòtic", "Arte Urbano", "Barcelona"],
@@ -266,12 +272,6 @@ FOTO_KITESURF_2025,
         "caption": "Cuerpo y espacio: performance de danza contemporánea en el patio del Museu Picasso",
         "tags": ["Museu Picasso", "Día Internacional de los Museos", "Danza Contemporánea", "Performance", "Barcelona"],
         "alt": "Una bailarina en pleno movimiento interactúa con los arcos góticos y los espectadores reunidos en el patio interior del Museu Picasso de Barcelona."
-      },
-      {
-        "url": "https://i.postimg.cc/13yq4pFx/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
-        "caption": "Giro en el patio gótico: la gracia de la danza en el Día Internacional de los Museos",
-        "tags": ["Museu Picasso", "Danza", "Bailarina", "Día de los Museos", "Barcelona", "Patrimonio"],
-        "alt": "Una bailarina con tutú rosado ejecuta un elegante pirueta sobre las losas de piedra del patio medieval del Museu Picasso durante la jornada de puertas abiertas."
       },
       {
         "url": "https://i.postimg.cc/jSR7Cz7p/Noria-Moll-de-la-Fusta-y-Bicing.webp",
