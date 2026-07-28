@@ -160,6 +160,200 @@ FOTO_KITESURF_2025,
     ]
   },
   {
+    id: "Gale2019",
+    url: "https://i.postimg.cc/13yq4pFx/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
+    titulo: "Barcelona - Madrid - Caracas",
+    ubicacion: "Escenas 2019",
+    resumen: "Pinceladas urbanas, naturaleza tropical, expresiones artísticas y vida cotidiana captadas a lo largo de 2019 entre Barcelona, Madrid y Caracas.",
+    reseña: "Un recorrido transatlántico que conecta la vibración cultural de tres ciudades emblemáticas en 2019. Desde la levedad de la danza en las piedras del Museu Picasso y la Catedral de Barcelona, pasando por los festivales de luz en el Poblenou y el dinamismo de la Gran Vía y la Estación de Atocha en Madrid, hasta la exuberante fauna y la tradición culinaria en las colinas de Caracas.",
+    urlImagen: "https://i.postimg.cc/13yq4pFx/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
+    categoria: "Europa y América",
+    fecha: "2019",
+    equipo: "Samsung SM-G975F / Sony ILCE-6000",
+    galeriaTematica: [
+      {
+        "url": "https://i.postimg.cc/sDdSCFDD/Bailarina-Catedral-Barcelona.webp",
+        "caption": "Danza y piedra: la levedad de una bailarina ante la portada gótica de la Catedral",
+        "tags": ["Danza", "Bailarina", "Catedral de Barcelona", "Barri Gòtic", "Arte Urbano", "Barcelona"],
+        "alt": "Una bailarina en puntas posa con elegancia frente a la majestuosa fachada neogótica de la Catedral de Barcelona, contrastando el movimiento fluido con la sobriedad del monumento."
+      },
+      {
+        "url": "https://i.postimg.cc/YqKgBcqv/Banos-portatiles-Cursa-Dona-2019-Montjuic.webp",
+        "caption": "Ritmo y color: alineación geométrica de baños portátiles en la Cursa de la Dona",
+        "tags": ["Cursa de la Dona", "Montjuïc", "Geometría Urbana", "Color", "Barcelona", "Evento Popular"],
+        "alt": "Vibrantes módulos de baños portátiles de vivos colores alineados en formación sobre el entorno verde de Montjuïc con reflejos en el agua cercana."
+      },
+      {
+        "url": "https://i.postimg.cc/4NktRCNK/Castillo-Montjuic-2.webp",
+        "caption": "Mirador de piedra: silueta y horizonte dramático desde el Castillo de Montjuïc",
+        "tags": ["Castillo de Montjuïc", "Montjuïc", "Barcelona", "Patrimonio", "Atardecer", "Panorámica"],
+        "alt": "Un transeúnte contempla el amplio paisaje urbano de Barcelona desde el adarve del Castillo de Montjuïc bajo un cielo cargado de matices dramáticos."
+      },
+      {
+        "url": "https://i.postimg.cc/PrsZnGrq/CC-Gran-Via-2-Decoracion-primavera.webp",
+        "caption": "Bóveda de sombrillas: explosión de color bajo la cubierta de cristal de Gran Vía 2",
+        "tags": ["Gran Vía 2", "Instalación", "Color", "Sombrillas", "Arquitectura", "Primavera"],
+        "alt": "Llamativa instalación efímera de cientos de sombrillas flotantes de múltiples colores suspendidas bajo el gran lucernario acristalado del centro comercial."
+      },
+      {
+        "url": "https://i.postimg.cc/KvSLhXvB/Centro-Nacional-Accion-Social-por-la-Musica-Caracas-1.webp",
+        "caption": "Partitura geométrica: abstracción arquitectónica en el Centro de Acción Social por la Música",
+        "tags": ["Caracas", "El Sistema", "Centro de Acción Social por la Música", "Arquitectura Moderna", "Venezuela", "Música"],
+        "alt": "Detalle arquitectónico vanguardista del Centro Nacional de Acción Social por la Música en Caracas, donde volúmenes geométricos y líneas limpias rinden tributo al arte sonoro."
+      },
+      {
+        "url": "https://i.postimg.cc/zXChJdV3/Clochard-con-perro-y-flores.webp",
+        "caption": "Dignidad en la calle: la complicidad de un hombre, su perro y un ramo de flores",
+        "tags": ["Escenas de Calle", "Retrato Urbano", "Empatía", "Arte Urbano", "Vida Cotidiana"],
+        "alt": "Un hombre sentado en la vía pública junto a su fiel perro sostiene con ternura un ramo de flores frescas, con un fondo de coloridos murales callejeros."
+      },
+      {
+        "url": "https://i.postimg.cc/J4NX1TGB/Estacion-Atocha-Madrid.webp",
+        "caption": "Templo del hierro y la luz: la fachada histórica de la Estación de Atocha",
+        "tags": ["Estación de Atocha", "Madrid", "Arquitectura Industrial", "Patrimonio", "Ferrocarril"],
+        "alt": "Vista frontal de la emblemática marquesina de hierro y ladrillo rojo de la Estación de Atocha en Madrid bajo un cielo luminoso salpicado de nubes."
+      },
+      {
+        "url": "https://i.postimg.cc/28QWzHVW/Fabra-i-Coats.webp",
+        "caption": "Patrimonio textil reconvertido: los ladrillos de la antigua fábrica Fabra i Coats",
+        "tags": ["Fabra i Coats", "Sant Andreu", "Patrimonio Industrial", "Barcelona", "Cultura"],
+        "alt": "Panorámica del gran patio interior de la antigua fábrica textil Fabra i Coats en Barcelona, resaltando la majestuosa arquitectura industrial de ladrillo visto."
+      },
+      {
+        "url": "https://i.postimg.cc/SN69yZJM/Fuentes-BCN.webp",
+        "caption": "Escultura nocturna: fuente en la Gran Vía barcelonesa bajo el resplandor de la noche",
+        "tags": ["Font Màgica", "Montjuïc", "Barcelona", "Escultura", "Noche", "Iluminación"],
+        "alt": "Vista posterior de un grupo escultórico clásico rodeado de parterres florales e iluminado por los cálidos focos nocturnos en Montjuïc."
+      },
+      {
+        "url": "https://i.postimg.cc/TYVbRkpQ/Gran-Via-Madrid-2019.webp",
+        "caption": "Pulsación metropolitana: la vitalidad diurna de la Gran Vía madrileña",
+        "tags": ["Gran Vía", "Madrid", "Vida Urbana", "Arquitectura", "Metrópolis"],
+        "alt": "Perspectiva dinámica de la calle Gran Vía de Madrid rebosante de transeúntes, carteles de espectáculos teatrales y majestuosos edificios de inicios del siglo XX."
+      },
+      {
+        "url": "https://i.postimg.cc/VLqtY7dK/Guacamayas-Caracas.webp",
+        "caption": "Símbolos del cielo caraqueño: trío de guacamayas en los balcones de Caracas",
+        "tags": ["Guacamayas", "Caracas", "Naturaleza Urbana", "Fauna", "Venezuela", "Colores"],
+        "alt": "Tres vistosas guacamayas de plumaje azul y amarillo posadas sobre una barandilla doméstica, con la ciudad tropical de Caracas desplegada al fondo."
+      },
+      {
+        "url": "https://i.postimg.cc/WbGZ29hX/Hacienda-La-Trinidad.webp",
+        "caption": "Geometría vegetal: la singular forma de una especie botánica en Hacienda La Trinidad",
+        "tags": ["Hacienda La Trinidad", "Caracas", "Botánica", "Naturaleza", "Jardines", "Venezuela"],
+        "alt": "Primer plano detallado de una curiosa estructura foliar de tonos verdes intensos en el parque cultural Hacienda La Trinidad en Caracas."
+      },
+      {
+        "url": "https://i.postimg.cc/jdHfs8LB/Jenny-Holzer-and-Katharina-Fritsch-MACBA.webp",
+        "caption": "Diálogos contemporáneos: obras de Jenny Holzer y Katharina Fritsch en el MACBA",
+        "tags": ["Jenny Holzer", "Katharina Fritsch", "MACBA", "Arte Contemporáneo", "Barcelona", "Exposición"],
+        "alt": "Un visitante contempla la instalación artística en las salas del MACBA, donde las proyecciones de texto de Jenny Holzer conviven con las скульпuras icónicas de Katharina Fritsch."
+      },
+      {
+        "url": "https://i.postimg.cc/cLdn6QnX/La-Merce-2019-(1).webp",
+        "caption": "Reflejos dorados: la Cascada Monumental de la Ciutadella en La Mercè",
+        "tags": ["Cascada Monumental", "Parc de la Ciutadella", "La Mercè", "Barcelona", "Patrimonio"],
+        "alt": "Majestuosa vista de la Cascada Monumental del Parc de la Ciutadella reflejándose en las aguas del estanque con la instalación artística de una gran esfera."
+      },
+      {
+        "url": "https://i.postimg.cc/3x3vWgvL/Llum-Poble-Nou.webp",
+        "caption": "Constelación reflectante: bolas de espejos e instalaciones de luz en Llum BCN",
+        "tags": ["Llum BCN", "Poblenou", "Arte Lumínico", "Instalación", "Noche", "Barcelona"],
+        "alt": "Acumulación de esferas espejadas dispersando destellos de luz multicolor en la penumbra de una nave industrial durante el festival Llum BCN."
+      },
+      {
+        "url": "https://i.postimg.cc/zGqg3ngQ/Museo-Picasso-Dia-de-los-Museos-005.webp",
+        "caption": "Cuerpo y espacio: performance de danza contemporánea en el patio del Museu Picasso",
+        "tags": ["Museu Picasso", "Día Internacional de los Museos", "Danza Contemporánea", "Performance", "Barcelona"],
+        "alt": "Una bailarina en pleno movimiento interactúa con los arcos góticos y los espectadores reunidos en el patio interior del Museu Picasso de Barcelona."
+      },
+      {
+        "url": "https://i.postimg.cc/13yq4pFx/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
+        "caption": "Giro en el patio gótico: la gracia de la danza en el Día Internacional de los Museos",
+        "tags": ["Museu Picasso", "Danza", "Bailarina", "Día de los Museos", "Barcelona", "Patrimonio"],
+        "alt": "Una bailarina con tutú rosado ejecuta un elegante pirueta sobre las losas de piedra del patio medieval del Museu Picasso durante la jornada de puertas abiertas."
+      },
+      {
+        "url": "https://i.postimg.cc/jSR7Cz7p/Noria-Moll-de-la-Fusta-y-Bicing.webp",
+        "caption": "Ruedas marinas: la noria panorámica y la estación Bicing en el Moll de la Fusta",
+        "tags": ["Moll de la Fusta", "Port Vell", "Noria", "Bicing", "Barcelona", "Atardecer"],
+        "alt": "Una imponente noria blanca recortada contra el cielo azul junto a la hilera de bicicletas rojas del servicio Bicing en el paseo marítimo del Moll de la Fusta."
+      },
+      {
+        "url": "https://i.postimg.cc/kg7bDxS3/Nuevo-rompeolas-Barcelona.webp",
+        "caption": "Senda sobre el Mediterráneo: el mirador del nuevo rompeolas del Port Vell",
+        "tags": ["Rompeolas", "Port Vell", "Barcelona", "Mar", "Horizonte", "Paseo"],
+        "alt": "Paseantes recorriendo la plataforma elevada del nuevo rompeolas de Barcelona con panorámicas despejadas del mar Mediterráneo y el frente marítimo."
+      },
+      {
+        "url": "https://i.postimg.cc/Gmby9kD1/Pesebre-Ayuntamiento-2019.webp",
+        "caption": "Pesebre de recuerdos: la instalación navideña en la Plaça de Sant Jaume",
+        "tags": ["Plaça de Sant Jaume", "Navidad", "Pesebre", "Instalación", "Barcelona", "Tradición"],
+        "alt": "Inusual pesebre conceptual formado por cajas transparentes y objetos cotidianos del pasado instalado frente a la fachada del Ayuntamiento de Barcelona."
+      },
+      {
+        "url": "https://i.postimg.cc/T3TDhrbR/Plaza-Museo-Reina-Sofia-Madrid.webp",
+        "caption": "Encuadre madrileño: la plaza del Museo Reina Sofía y la silueta de Atocha",
+        "tags": ["Museo Reina Sofía", "Madrid", "Arquitectura", "Plaza", "Cultura Urbana"],
+        "alt": "Vista desde la plaza ajardinada del Museo Nacional Centro de Arte Reina Sofía, abriéndose hacia la histórica arquitectura de la zona de Atocha."
+      },
+      {
+        "url": "https://i.postimg.cc/FHhL1jSN/Preparacion-Hallacas-Caracas.webp",
+        "caption": "Ritual navideño: el laborioso ensamblaje de las hallacas tradicionales",
+        "tags": ["Hallacas", "Gastronomía Venezolana", "Caracas", "Tradición", "Navidad", "Familia"],
+        "alt": "Manos expertas envolviendo en hojas de plátano ablandadas al fuego los ingredientes del guiso, pasas y aceitunas para elaborar la tradicional hallaca venezolana."
+      },
+      {
+        "url": "https://i.postimg.cc/52fCjwz9/Refugio-307-Poble-Sec.webp",
+        "caption": "Memoria subterránea: la galería de ladrillo del Refugi 307 en el Poble-sec",
+        "tags": ["Refugi 307", "Poble-sec", "Historia", "Memoria Histórica", "Barcelona", "Arquitectura"],
+        "alt": "Fotografía en blanco y negro del angosto túnel abovedado de ladrillos del Refugi 307, construido por los vecinos durante la Guerra Civil española."
+      },
+      {
+        "url": "https://i.postimg.cc/HkTyjQMs/Santa-Maria-del-Mar.webp",
+        "caption": "Perspectiva gótica: el campanario de Santa Maria del Mar entre las callejuelas del Born",
+        "tags": ["Santa Maria del Mar", "El Born", "Gótico Catalán", "Arquitectura Religiosa", "Barcelona"],
+        "alt": "Vista en perspectiva desde un estrecho pasaje de la calidez de las piedras y el estilizado campanario octogonal de la basílica de Santa Maria del Mar."
+      },
+      {
+        "url": "https://i.postimg.cc/RZvHqcth/Toboganes-Parque-Poble-Nou-004.webp",
+        "caption": "Geometrías de juego: los grandes toboganes tubulares del Parque Central del Poblenou",
+        "tags": ["Parque Central del Poblenou", "Jean Nouvel", "Poblenou", "Juegos Infantiles", "Barcelona"],
+        "alt": "Niños disfrutando de los imponentes toboganes metálicos de diseño vanguardista integrados en la vegetación del parque diseñado por Jean Nouvel."
+      },
+      {
+        "url": "https://i.postimg.cc/y87ZWFRd/Topotepuy-008.webp",
+        "caption": "Elegancia tricolor: orquídea en flor en los jardines ecológicos de Topotepuy",
+        "tags": ["Orquídea", "Topotepuy", "Caracas", "Botánica", "Flora", "Venezuela"],
+        "alt": "Macro de una orquídea blanca con centro purpúreo y anaranjado en la reserva ecológica de Topotepuy, destacando la fragilidad de sus pétalos."
+      },
+      {
+        "url": "https://i.postimg.cc/qvQCKzcr/Topotepuy-Boton-de-oro.webp",
+        "caption": "Destello silvestre: la flor del botón de oro entre el follaje de Topotepuy",
+        "tags": ["Topotepuy", "Caracas", "Botón de Oro", "Flores", "Naturaleza", "Venezuela"],
+        "alt": "Detalle en primer plano de una brillante flor amarilla de botón de oro silvestre contrastando con el denso verde del bosque nublado caraqueño."
+      },
+      {
+        "url": "https://i.postimg.cc/y8nSRkhB/Topotepuy-Colibri.webp",
+        "caption": "Joya alada: colibrí resplandeciente en los bebederos de Topotepuy",
+        "tags": ["Colibrí", "Topotepuy", "Fauna", "Caracas", "Naturaleza", "Venezuela"],
+        "alt": "Un diminuto colibrí de plumas verde esmeralda posado momentáneamente junto a un bebedero en el santuario de aves de Topotepuy en Caracas."
+      },
+      {
+        "url": "https://i.postimg.cc/W1SJZhmb/Topotepuy-hoja-seca.webp",
+        "caption": "Anatomía del otoño tropical: nervaduras y gradientes en una hoja de Topotepuy",
+        "tags": ["Topotepuy", "Naturaleza", "Textura", "Detalle", "Hoja", "Caracas"],
+        "alt": "Plano macro de una hoja seca mostrando la compleja red de nervaduras y cálidos matices ocre, amarillos y cobrizos."
+      },
+      {
+        "url": "https://i.postimg.cc/wjFsN75v/Trafico-Aereo-en-Barcelona-marzo.webp",
+        "caption": "Estelas en el azul: trazos de condensación sobre el skyline de la Torre Mapfre",
+        "tags": ["Torre Mapfre", "Vila Olímpica", "Tráfico Aéreo", "Skyline", "Barcelona", "Cielo"],
+        "alt": "Trazos blancos de estelas de aviones cruzando un cielo azul intenso sobre la cima de la Torre Mapfre y la copa de palmeras mediterráneas."
+      }
+    ]
+  },
+  {
     id: "Gale2018", url: "https://i.postimg.cc/26bcp9Ym/Teatre-Grec-vacio.webp", titulo: "Barcelona", ubicacion: "Escenas 2018", resumen: "", reseña: "",
     urlImagen: "", categoria: "", fecha: "", equipo: "",
     galeriaTematica: [
