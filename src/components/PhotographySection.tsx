@@ -46,6 +46,9 @@ export const PhotographySection = () => {
                   src={photo.url} 
                   alt={photo.titulo} 
                   loading="lazy"
+                  decoding="async"
+                  width={600}
+                  height={450}
                   className="w-full grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">

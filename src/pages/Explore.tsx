@@ -194,7 +194,15 @@ export const Explore = () => {
           {filteredPhotos.map((photo, index) => (
             <motion.div key={index} layout className="cursor-zoom-in group" onClick={() => setSelectedPhotoIndex(index)}>
               <div className="aspect-square bg-white/5 overflow-hidden mb-2">
-                <img src={photo.url} alt={photo.caption} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" loading="lazy" />
+                <img 
+                  src={photo.url} 
+                  alt={photo.caption} 
+                  width={300}
+                  height={300}
+                  loading="lazy" 
+                  decoding="async"
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" 
+                />
               </div>
               <p className="text-white/60 text-[10px] italic line-clamp-2 leading-relaxed">{photo.caption}</p>
             </motion.div>

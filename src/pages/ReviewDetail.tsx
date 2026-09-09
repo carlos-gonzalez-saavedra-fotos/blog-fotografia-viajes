@@ -66,7 +66,17 @@ export const ReviewDetail = () => {
       
       {/* Header / Hero */}
       <div className="relative h-[70vh] w-full overflow-hidden">
-        <motion.img initial={{ scale: 1.1 }} animate={{ scale: 1 }} transition={{ duration: 1.5 }} src={viaje.urlImagen || viaje.url} className="w-full h-full object-cover opacity-60 grayscale" />
+        <motion.img 
+          initial={{ scale: 1.1 }} 
+          animate={{ scale: 1 }} 
+          transition={{ duration: 1.5 }} 
+          src={viaje.urlImagen || viaje.url} 
+          alt={viaje.titulo}
+          width={1920}
+          height={1080}
+          decoding="async"
+          className="w-full h-full object-cover opacity-60 grayscale" 
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
           <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="flex items-center gap-2 text-gold text-[10px] uppercase tracking-[0.4em] mb-6">
@@ -165,6 +175,9 @@ export const ReviewDetail = () => {
                           src={itemUrl} 
                           alt={itemCaption || viaje.titulo}
                           loading="lazy"
+                          decoding="async"
+                          width={400}
+                          height={400}
                           className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" 
                         />
                         

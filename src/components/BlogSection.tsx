@@ -82,6 +82,9 @@ export const BlogSection = () => {
                     src={viaje.urlImagen} 
                     alt={viaje.titulo}
                     loading="lazy"
+                    decoding="async"
+                    width={640}
+                    height={400}
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-110"
                     referrerPolicy="no-referrer"
                   />

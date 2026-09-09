@@ -9,6 +9,10 @@ export const Hero = () => {
         <img 
           src="https://i.postimg.cc/5NPDKYtR/Playa-de-las-Catedrales.webp" 
           alt="Playa de las Catedrales - Galicia"
+          width={1920}
+          height={1080}
+          decoding="async"
+          fetchPriority="high"
           className="w-full h-full object-cover opacity-60"
           referrerPolicy="no-referrer"
         />

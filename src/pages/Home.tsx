@@ -82,6 +82,10 @@ export const Home = () => {
                     <img 
                       src="https://i.postimg.cc/GhB8RZvM/Carlos-Gonzalez-Saavedra.webp" 
                       alt="Carlos González Saavedra"
+                      loading="lazy"
+                      decoding="async"
+                      width={300}
+                      height={400}
                       className="w-full h-full object-cover"
                       referrerPolicy="no-referrer"
                     />

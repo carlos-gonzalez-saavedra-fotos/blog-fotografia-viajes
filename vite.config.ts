@@ -15,6 +15,33 @@ export default defineConfig(({mode}) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
+    build: {
+      target: 'es2020',
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('src/data/')) {
+              return 'data-viajes';
+            }
+            if (
+              id.includes('node_modules/react/') ||
+              id.includes('node_modules/react-dom/') ||
+              id.includes('node_modules/react-router/') ||
+              id.includes('node_modules/react-router-dom/') ||
+              id.includes('node_modules/react-helmet-async/')
+            ) {
+              return 'vendor-react';
+            }
+            if (id.includes('node_modules/motion')) {
+              return 'vendor-motion';
+            }
+            if (id.includes('node_modules/lucide-react')) {
+              return 'vendor-icons';
+            }
+          },
+        },
+      },
+    },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
