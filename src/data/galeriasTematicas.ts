@@ -488,6 +488,218 @@ FOTO_KITESURF_2025,
     ]
   },
   {
+    id: "Gale1997-2004",
+    url: "https://i.postimg.cc/FzjJX7Jf/Torres-Agua-Hotel-Ars-1997.webp",
+    titulo: "Barcelona · Bilbao · Londres · Venecia · París",
+    ubicacion: "Escenas 1997-2004",
+    resumen: "Un viaje nostálgico en película de 35 mm: los primeros carretes revelados que capturan la vida urbana, el patrimonio y la arquitectura entre finales de los 90 y los primeros años 2000.",
+    reseña: "Esta colección reúne la mirada analógica previa a la era digital. A través de la lente de la Minolta X-300s y el grano de las emulsiones químicas digitalizadas, se suceden instantes irrepetibles: las transformaciones urbanas de Barcelona con el nuevo milenio, el destello del titanio en el recién inaugurado Guggenheim de Bilbao, el atardecer crepuscular sobre el Parlamento británico, la quietud lagunar de Venecia o el recogimiento gótico en Chartres.",
+    urlImagen: "https://i.postimg.cc/FzjJX7Jf/Torres-Agua-Hotel-Ars-1997.webp",
+    categoria: "Europa",
+    fecha: "1997-2004",
+    equipo: "Minolta X-300s",
+    galeriaTematica: [
+      {
+        "url": "https://i.postimg.cc/L5dZWz5C/Acrobacias-Plaza-Catalunya-La-Merce-2002.webp",
+        "caption": "Vuelo sobre la plaza: acrobacias aéreas en la Plaça de Catalunya durante La Mercè",
+        "tags": ["La Mercè", "Plaça de Catalunya", "Acrobacias", "Barcelona", "2002", "Fotografía Analógica", "Minolta X-300s"],
+        "alt": "Dos acróbatas suspendidos en el aire durante un salto sincronizado en la Plaça de Catalunya de Barcelona con el emblemático edificio de Telefónica al fondo."
+      },
+      {
+        "url": "https://i.postimg.cc/NFhrn1FN/Barco-Mata-Ranglii-Barcelona-2001.webp",
+        "caption": "Navegación ancestral: la balsa de juncos Mata Rangi II varada en la Barceloneta",
+        "tags": ["Mata Rangi", "Expedición", "Platja de la Barceloneta", "Barcelona", "2001", "Fotografía Analógica"],
+        "alt": "Plano general de la embarcación tradicional de juncos de totora Mata Rangi II sobre la arena de la playa de la Barceloneta con palmeras y arquitectura moderna al fondo."
+      },
+      {
+        "url": "https://i.postimg.cc/VvybhjvV/Bellesguard-Gaudi-2002.webp",
+        "caption": "Forja y piedra viva: texturas gaudinianas en la fachada de la Torre Bellesguard",
+        "tags": ["Torre Bellesguard", "Antoni Gaudí", "Modernismo", "Arquitectura", "Barcelona", "2002", "Fotografía Analógica"],
+        "alt": "Detalle de la fachada de la Torre Bellesguard en Barcelona, combinando la piedra rugosa artesanal y el trabajo en hierro forjado de estilo modernista."
+      },
+      {
+        "url": "https://i.postimg.cc/KjXgWnj0/Bilbao-2004-17.jpg",
+        "caption": "Espejo fluvial: galerías históricas del Arenal reflejadas en las aguas de la ría de Bilbao",
+        "tags": ["Bilbao", "Ría de Bilbao", "Paseo del Arenal", "Arquitectura", "Euskadi", "2004", "Fotografía Analógica"],
+        "alt": "Hilera de elegantes edificios residenciales decimonónicos con miradores acristalados reflejándose en las tranquilas aguas de la ría de Bilbao."
+      },
+      {
+        "url": "https://i.postimg.cc/brX25QdX/Bilbao-Guguenheim2004.webp",
+        "caption": "Piel de titanio: curvas orgánicas y luz diurna en el Museo Guggenheim Bilbao",
+        "tags": ["Museo Guggenheim", "Frank Gehry", "Bilbao", "Arquitectura Contemporánea", "Euskadi", "2004", "Fotografía Analógica"],
+        "alt": "Vista panorámica diurna del Museo Guggenheim de Bilbao diseñado por Frank Gehry, mostrando sus paneles curvados de titanio junto al paseo de la ría."
+      },
+      {
+        "url": "https://i.postimg.cc/mkxFnQkv/Bilbao-Metro-2004.webp",
+        "caption": "Vanguardia bajo tierra: el acceso acristalado («fosterito») del Metro de Bilbao",
+        "tags": ["Metro de Bilbao", "Norman Foster", "Fosterito", "Arquitectura", "Bilbao", "2004", "Fotografía Analógica"],
+        "alt": "Estructura curva de acero y vidrio diseñada por Norman Foster como boca de metro en Bilbao, junto a una fuente urbana en movimiento y viandantes."
+      },
+      {
+        "url": "https://i.postimg.cc/Gt0sfk9w/Cadaques-2001.webp",
+        "caption": "Calma mediterránea: barcas amarradas y arquitectura blanca en la bahía de Cadaqués",
+        "tags": ["Cadaqués", "Costa Brava", "Mediterráneo", "Paisaje Marino", "Cataluña", "2001", "Fotografía Analógica"],
+        "alt": "Una barca azul reposando sobre la orilla de Cadaqués en 2001, con el mar en calma salpicado de embarcaciones y el pueblo blanco al fondo."
+      },
+      {
+        "url": "https://i.postimg.cc/MHkjLyX8/Calle-de-Palafrugell-2003.webp",
+        "caption": "Surrealismo de paso: enigmática escultura urbana de piernas rojas en Palafrugell",
+        "tags": ["Palafrugell", "Arte Urbano", "Surrealismo", "Girona", "2003", "Fotografía Analógica"],
+        "alt": "Instalación escultórica surrealista en una calle empedrada de Palafrugell, mostrando un disco oscuro del que surgen unas piernas con medias rojas y tacones."
+      },
+      {
+        "url": "https://i.postimg.cc/90GqHrw8/Castellers-en-Terrasa-1997.webp",
+        "caption": "Fuerza y equilibrio: multitud y pinya castellera en la Plaça Vella de Terrassa",
+        "tags": ["Castellers", "Terrassa", "Tradición Catalana", "Cultura Popular", "1997", "Fotografía Analógica"],
+        "alt": "Perspectiva cenital de la multitud congregada en Terrassa en 1997 mientras se corona la estructura humana de un castell con la enxaneta alzando la mano."
+      },
+      {
+        "url": "https://i.postimg.cc/90GqHrwn/Catedral-de-Nuestra-Senora-de-Chartres-1997-b.webp",
+        "caption": "Piedra que reza: contrafuertes y filigranas góticas en la Catedral de Chartres",
+        "tags": ["Catedral de Chartres", "Arte Gótico", "Arquitectura Religiosa", "Francia", "1997", "Fotografía Analógica"],
+        "alt": "Detalle arquitectónico de la imponente fachada gótica de la Catedral de Chartres, con contrafuertes labrados, hornacinas y un gran rosetón."
+      },
+      {
+        "url": "https://i.postimg.cc/1XpN1fV7/Catedral-de-Nuestra-Senora-de-Chartres-1997.webp",
+        "caption": "Mirada solemne: estatuas columna del Pórtico Real en la Catedral de Chartres",
+        "tags": ["Catedral de Chartres", "Pórtico Real", "Escultura Gótica", "Francia", "1997", "Fotografía Analógica"],
+        "alt": "Grupo de estatuas columna del siglo XII en el Pórtico Real de Chartres, destacando el refinado modelado de los ropajes y las serenas expresiones medievales."
+      },
+      {
+        "url": "https://i.postimg.cc/fyx0QJSg/Catedral-Semana-2001-Santa-Lepanto.jpg",
+        "caption": "Penumbras y devoción: mar de velas votivas ante la capilla del Santo Cristo de Lepanto",
+        "tags": ["Catedral de Barcelona", "Cristo de Lepanto", "Semana Santa", "Devoción", "Barcelona", "2001", "Fotografía Analógica"],
+        "alt": "Siluetas de devotos en oración en la Catedral de Barcelona ante un mar de velas rojas encendidas en la capilla del Santo Cristo de Lepanto."
+      },
+      {
+        "url": "https://i.postimg.cc/KjnghR3W/Colonia-Guell-Gaudi-2002.webp",
+        "caption": "Cueva sagrada: columnas inclinadas y arcos parabólicos en la Cripta Gaudí",
+        "tags": ["Colònia Güell", "Antoni Gaudí", "Cripta Gaudí", "Modernismo", "Barcelona", "2002", "Fotografía Analógica"],
+        "alt": "Interior místico de la Cripta de la Colònia Güell de Gaudí, con sus columnas de basalto inclinadas, bóvedas de ladrillo y atmósfera recogida."
+      },
+      {
+        "url": "https://i.postimg.cc/nrvQfC9g/Fiesta-de-la-Primavera-Poblenou-2001.webp",
+        "caption": "Contacto exótico: un faquir con pitón albina en la Fiesta de la Primavera del Poblenou",
+        "tags": ["Poblenou", "Fiesta de la Primavera", "Cultura Urbana", "Barcelona", "2001", "Fotografía Analógica"],
+        "alt": "Un encantador sosteniendo una imponente pitón albina que reposa sobre los hombros de un niño frente a la multitud reunida en el Poblenou."
+      },
+      {
+        "url": "https://i.postimg.cc/PJm8nPv0/Gigante-Barcelona-1998.webp",
+        "caption": "Custodio de madera: un gegant tradicional entre las estructuras metálicas de la fiesta",
+        "tags": ["Gegants", "Fiestas Tradicionales", "Cultura Popular", "Barcelona", "1998", "Fotografía Analógica"],
+        "alt": "Figura majestuosa de un gegant tradicional de Barcelona con vestimenta festiva reposando junto a una armazón de andamios durante las fiestas."
+      },
+      {
+        "url": "https://i.postimg.cc/5ywFW6Fd/Gigante-en-La-Pedrera-1998.webp",
+        "caption": "Vigía de piedra: figura monumental sentada sobre la azotea ondulada de La Pedrera",
+        "tags": ["La Pedrera", "Casa Milà", "Antoni Gaudí", "Modernismo", "Barcelona", "1998", "Fotografía Analógica"],
+        "alt": "Vista en contrapicado de la azotea gaudiniana de Casa Milà (La Pedrera) con un gigante sentado contemplando la ciudad en 1998."
+      },
+      {
+        "url": "https://i.postimg.cc/vTW6wc6d/Londres-08-1998.jpg",
+        "caption": "Destellos sobre Westminster: escultura contemporánea y atardecer en el Parlamento británico",
+        "tags": ["Londres", "Palacio de Westminster", "Arquitectura Gótica", "Escultura", "Reino Unido", "1998", "Fotografía Analógica"],
+        "alt": "Escultura geométrica brillante en un jardín londinense con la imponente silueta gótica del Palacio de Westminster recortada contra el cielo de la tarde."
+      },
+      {
+        "url": "https://i.postimg.cc/Y01mBhmH/Londres-1998-Chaplin-mira-a-Bond.jpg",
+        "caption": "Duelo de celuloide: la estatua de Charlie Chaplin contempla a James Bond en Leicester Square",
+        "tags": ["Londres", "Leicester Square", "Charlie Chaplin", "James Bond", "Cine", "1998", "Fotografía Analógica"],
+        "alt": "La estatua de bronce de Charlie Chaplin de espaldas en Leicester Square contemplando los carteles gigantes del filme Tomorrow Never Dies de James Bond."
+      },
+      {
+        "url": "https://i.postimg.cc/6qdGxyGK/Londres-1998.jpg",
+        "caption": "Adoquines londinenses: sobriedad victoriana en el campus histórico de King's College",
+        "tags": ["Londres", "King's College", "Arquitectura Victoriana", "Strand", "Reino Unido", "1998", "Fotografía Analógica"],
+        "alt": "Vista arquitectónica exterior de los edificios de piedra y ladrillo del histórico King's College en Londres sobre suelo empedrado."
+      },
+      {
+        "url": "https://i.postimg.cc/KjnghRgF/Marce-2002-Ejercito-del-aire.webp",
+        "caption": "Trazos en el litoral: exhibición acrobática aérea sobre el puerto de Barcelona",
+        "tags": ["La Mercè", "Exhibición Aérea", "Port de Barcelona", "Veleros", "Barcelona", "2002", "Fotografía Analógica"],
+        "alt": "Aviones a reacción trazando columnas de humo blanco en el cielo sobre el puerto olímpico y los mástiles de los veleros de Barcelona."
+      },
+      {
+        "url": "https://i.postimg.cc/6qdGxyG6/Parque-Diagonal-Mar-Inauguracion-2002.webp",
+        "caption": "Agua y curvas futuristas: el estreno del Parc Diagonal Mar concebido por Enric Miralles",
+        "tags": ["Parc Diagonal Mar", "Enric Miralles", "Arquitectura Paisajística", "Diagonal Mar", "Barcelona", "2002", "Fotografía Analógica"],
+        "alt": "Estanque escalonado y estructuras tubulares sinuosas durante los primeros días de apertura del Parc Diagonal Mar diseñado por Enric Miralles."
+      },
+      {
+        "url": "https://i.postimg.cc/hv97Rf7K/Paris-invierno-1997-03.webp",
+        "caption": "Niebla invernal: la monumental escalinata de la Bibliothèque Nationale de France",
+        "tags": ["París", "BnF François-Mitterrand", "Dominique Perrault", "Invierno", "Francia", "1997", "Fotografía Analógica"],
+        "alt": "Amplia perspectiva en ángulo contrapicado de la escalinata de madera y torres acristaladas de la Bibliothèque Nationale de France bajo la niebla parisina."
+      },
+      {
+        "url": "https://i.postimg.cc/NF1rv5rg/Patinadores-volantes-1997.jpg",
+        "caption": "Vuelo urbano: pirueta en el aire de un skater frente a la torre del Hotel Arts",
+        "tags": ["Skate", "Hotel Arts", "Deporte Urbano", "Vila Olímpica", "Barcelona", "1997", "Fotografía Analógica"],
+        "alt": "Joven skater suspendido en el aire en plena maniobra aérea frente a la retícula metálica del Hotel Arts y la escultura del Pez de Gehry en 1997."
+      },
+      {
+        "url": "https://i.postimg.cc/mkQFWtFL/Pedraforca-Comunion-bajo-palio-2003.jpg",
+        "caption": "Devoción montañesa: procesión de comunión bajo palio al pie del Pedraforca",
+        "tags": ["Saldes", "Pedraforca", "Tradición Religiosa", "Pueblos de Montaña", "Berguedà", "2003", "Fotografía Analógica"],
+        "alt": "Celebración popular de primera comunión en las calles de Saldes con el sacerdote caminando bajo palio blanco arropado por los vecinos."
+      },
+      {
+        "url": "https://i.postimg.cc/PJm8nP8q/Sagrada-Familia-de-noche-2002.webp",
+        "caption": "Constelación efímera: pirotecnia nocturna sobre las agujas de la Sagrada Família",
+        "tags": ["Sagrada Família", "Antoni Gaudí", "Fuegos Artificiales", "Noche", "Barcelona", "2002", "Fotografía Analógica"],
+        "alt": "Vista nocturna de las torres de la Sagrada Família recortadas contra un cielo bañado de luces y destellos por un castillo de fuegos artificiales."
+      },
+      {
+        "url": "https://i.postimg.cc/hv97Rf7X/Sant-Sadurni-de-Anoia-01.webp",
+        "caption": "Catedral del cava: arcos modernistas de Josep Puig i Cadafalch en Cavas Codorníu",
+        "tags": ["Caves Codorníu", "Josep Puig i Cadafalch", "Modernismo", "Sant Sadurní d'Anoia", "Penedès", "2001", "Fotografía Analógica"],
+        "alt": "Perspectiva de la gran sala de recepción modernista de las Cavas Codorníu con sus arcos catenarios de ladrillo y vitrales originales."
+      },
+      {
+        "url": "https://i.postimg.cc/yxFSCkSx/Santander-2004.jpg",
+        "caption": "Geometría de marea: detalle costero y textura arenosa en las playas de Santander",
+        "tags": ["Santander", "Cantabria", "Playa", "Costa", "Naturaleza", "2004", "Fotografía Analógica"],
+        "alt": "Plano cenital de las ondulaciones modeladas por el viento y el agua en las arenas doradas de una playa de Santander en 2004."
+      },
+      {
+        "url": "https://i.postimg.cc/FzjJX7Jf/Torres-Agua-Hotel-Ars-1997.webp",
+        "caption": "Diálogo de épocas: la histórica Torre de les Aigües frente a la retícula del Hotel Arts",
+        "tags": ["Torre de les Aigües", "Hotel Arts", "Poblenou", "Arquitectura", "Barcelona", "1997", "Fotografía Analógica"],
+        "alt": "La silueta de ladrillo de la histórica Torre de les Aigües del Besòs contrastando con la estructura contemporánea del Hotel Arts al atardecer."
+      },
+      {
+        "url": "https://i.postimg.cc/HW5MyPvz/Venecia-2001-20.webp",
+        "caption": "Corona barroca: la cúpula de Santa Maria della Salute resplandeciendo bajo la luz veneciana",
+        "tags": ["Venecia", "Santa Maria della Salute", "Canal Grande", "Barroco", "Italia", "2001", "Fotografía Analógica"],
+        "alt": "Vista exterior en plano amplio de la monumental Basílica de Santa Maria della Salute iluminada por el sol en la entrada del Gran Canal de Venecia."
+      },
+      {
+        "url": "https://i.postimg.cc/xjHmzFps/Venecia-2001-21.webp",
+        "caption": "Navegación silenciosa: góndolas y reflejos frente a la Punta della Dogana y la Salute",
+        "tags": ["Venecia", "Góndolas", "Punta della Dogana", "Santa Maria della Salute", "Italia", "2001", "Fotografía Analógica"],
+        "alt": "Gondoleros remando sobre las aguas verdes del Gran Canal veneciano con el perfil arquitectónico de la Punta della Dogana y la Salute al fondo."
+      },
+      {
+        "url": "https://i.postimg.cc/2jvWZX9F/Venecia-2001-8.webp",
+        "caption": "Estela crepuscular: una lancha de madera surca la laguna frente al perfil de la Salute",
+        "tags": ["Venecia", "Laguna de Venecia", "Santa Maria della Salute", "Atardecer", "Italia", "2001", "Fotografía Analógica"],
+        "alt": "Clásica embarcación a motor veneciana abriéndose paso a toda velocidad en el crepúsculo mientras el horizonte de la basílica se tiñe de ocres."
+      },
+      {
+        "url": "https://i.postimg.cc/y69RZrpQ/Vilafranca-del-Penedes-Feria-del-Gallo-2003.webp",
+        "caption": "Sabor de antaño: la tradicional Fira del Gall y la estatua totémica en Vilafranca del Penedès",
+        "tags": ["Fira del Gall", "Vilafranca del Penedès", "Tradición", "Penedès", "2003", "Fotografía Analógica"],
+        "alt": "Ambiente popular de la Fira del Gall de Vilafranca del Penedès en 2003 con corrales tradicionales y una gran escultura de gallo de plumaje negro."
+      },
+      {
+        "url": "https://i.postimg.cc/L4fP10Qb/Zoo-Barcelona-Elefante-2001.webp",
+        "caption": "Pausa en el vergel: un elefante africano entre la vegetación del Zoo de Barcelona",
+        "tags": ["Zoo de Barcelona", "Elefante", "Fauna", "Parc de la Ciutadella", "Barcelona", "2001", "Fotografía Analógica"],
+        "alt": "Un elefante africano caminando pausadamente entre palmeras y vegetación frondosa en el recinto del Zoo de Barcelona en el año 2001."
+      }
+    ]
+  },
+  {
     id: "GaleArteCalle", url: "https://i.postimg.cc/BbjVMnmk/Esculturas-Igor-Mitoraj-25.webp", titulo: "Calles con arte", ubicacion: "Barcelona-Madrid", resumen: "La ciudad se transforma en un museo vivo donde la vanguardia y el clasicismo conversan con los peatones.", reseña: "El arte que escapa de los muros del museo para invadir las plazas y bulevares. Esta recopilación visual documenta grandes exposiciones temporales y permanentes en las calles de Barcelona y Madrid: desde el elefante suspendido de Miquel Barceló y las figuras de basura reciclada de HA Schult, hasta los dramáticos bronces neoclásicos de Igor Mitoraj y las intemporales esculturas de Rodin o Manolo Valdés conviviendo con el fluir cotidiano de la ciudad.",
     urlImagen: "https://i.postimg.cc/BbjVMnmk/Esculturas-Igor-Mitoraj-25.webp", categoria: "Europa", fecha: "2005-2014", equipo: "Nikon & Canon",
     galeriaTematica: [
