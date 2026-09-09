@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { MIS_FOTOS, MIS_VIAJES } from '../data/mis_viajes';
 
@@ -28,19 +27,15 @@ export const PhotographySection = () => {
           <div className="w-24 h-[1px] bg-gold mx-auto" />
         </div>
 
-        <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {allGalleries.map((photo) => (
-            <motion.div 
+            <div 
               key={photo.id}
-              className="break-inside-avoid"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              className="reveal-on-scroll"
             >
               <Link
                 to={`/viaje/${photo.id}`}
-                className="block relative group cursor-pointer overflow-hidden rounded-sm bg-neutral-950"
+                className="block relative group cursor-pointer overflow-hidden rounded-sm bg-neutral-950 aspect-[4/3]"
               >
                 <img 
                   src={photo.url} 
@@ -49,7 +44,7 @@ export const PhotographySection = () => {
                   decoding="async"
                   width={600}
                   height={450}
-                  className="w-full grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out" 
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
                   <p className="text-gold text-[10px] uppercase tracking-widest mb-1 font-medium">{photo.ubicacion}</p>
@@ -66,7 +61,7 @@ export const PhotographySection = () => {
                   </div>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

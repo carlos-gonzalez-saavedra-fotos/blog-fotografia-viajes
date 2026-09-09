@@ -7,11 +7,13 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [scrolled, setScrolled] = React.useState(false);
   const [visible, setVisible] = React.useState(true);
-  const [lastScrollY, setLastScrollY] = React.useState(0);
+  const lastScrollYRef = React.useRef(0);
   const location = useLocation();
   const isHome = location.pathname === '/';
 
   React.useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       
@@ -19,7 +21,7 @@ export const Navbar = () => {
       setScrolled(currentScrollY > 50);
 
       // Hide/Show logic
-      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+      if (currentScrollY > lastScrollYRef.current && currentScrollY > 100) {
         // Scrolling down - hide
         setVisible(false);
       } else {
@@ -27,12 +29,20 @@ export const Navbar = () => {
         setVisible(true);
       }
       
-      setLastScrollY(currentScrollY);
+      lastScrollYRef.current = currentScrollY;
+      ticking = false;
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [lastScrollY]);
+    const onScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(handleScroll);
+        ticking = true;
+      }
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   const navItems = [
     { name: 'Inicio', path: '/', id: 'inicio', isPage: true },

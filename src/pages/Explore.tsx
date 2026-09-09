@@ -131,10 +131,7 @@ export const Explore = () => {
     
     const timer = setTimeout(() => {
       if (resultsRef.current && filteredPhotos.length > 0) {
-        const yOffset = -120; // Margen superior para que no quede pegado al borde
-        const element = resultsRef.current;
-        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-        window.scrollTo({ top: y, behavior: 'smooth' });
+        resultsRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }
     }, delay);
 
@@ -192,7 +189,7 @@ export const Explore = () => {
 
         <div ref={resultsRef} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {filteredPhotos.map((photo, index) => (
-            <motion.div key={index} layout className="cursor-zoom-in group" onClick={() => setSelectedPhotoIndex(index)}>
+            <div key={index} className="cursor-zoom-in group transition-transform duration-300 hover:scale-[1.02]" onClick={() => setSelectedPhotoIndex(index)}>
               <div className="aspect-square bg-white/5 overflow-hidden mb-2">
                 <img 
                   src={photo.url} 
@@ -205,7 +202,7 @@ export const Explore = () => {
                 />
               </div>
               <p className="text-white/60 text-[10px] italic line-clamp-2 leading-relaxed">{photo.caption}</p>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

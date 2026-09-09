@@ -164,10 +164,8 @@ export const ReviewDetail = () => {
                     const itemUrl = typeof item === 'string' ? item : item.url;
                     const itemCaption = typeof item === 'string' ? '' : item.caption;
                     return (
-                      <motion.div 
+                      <div 
                         key={i} 
-                        initial={{ opacity: 0 }} 
-                        whileInView={{ opacity: 1 }} 
                         onClick={() => setSelectedIndex(i)} 
                         className="aspect-square cursor-zoom-in overflow-hidden relative group bg-neutral-900"
                       >
@@ -197,7 +195,7 @@ export const ReviewDetail = () => {
                             </div>
                           </div>
                         )}
-                      </motion.div>
+                      </div>
                     );
                   })}
                 </div>

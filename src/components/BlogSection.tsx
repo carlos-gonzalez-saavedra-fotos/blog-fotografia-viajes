@@ -65,15 +65,14 @@ export const BlogSection = () => {
 
         {/* Grid de Reseñas */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <AnimatePresence mode="popLayout">
+          <AnimatePresence mode="wait">
             {displayedViajes.map((viaje, i) => (
               <motion.article
                 key={viaje.id}
-                layout
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.9 }}
-                transition={{ duration: 0.5, delay: (i % ITEMS_PER_PAGE) * 0.1 }}
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -15 }}
+                transition={{ duration: 0.35, delay: (i % ITEMS_PER_PAGE) * 0.04 }}
                 className="group bg-white/[0.02] border border-white/5 hover:border-gold/30 transition-all duration-500 flex flex-col h-full"
               >
                 {/* Imagen */}
