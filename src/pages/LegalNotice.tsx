@@ -9,6 +9,7 @@ export const LegalNotice = () => {
       <Helmet>
         <title>Aviso Legal | Carlos González Saavedra</title>
         <meta name="description" content="Aviso legal y condiciones de uso del sitio web de Carlos González Saavedra. Información sobre propiedad intelectual y protección de datos." />
+        <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://carlos-gonzalez-saavedra.vercel.app/aviso-legal" />
       </Helmet>
       <div className="max-w-3xl mx-auto">

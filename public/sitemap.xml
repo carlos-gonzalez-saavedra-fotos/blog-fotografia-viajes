@@ -2,104 +2,242 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://carlos-gonzalez-saavedra.vercel.app/</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/explorar</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://carlos-gonzalez-saavedra.vercel.app/aviso-legal</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/malmo-copenhague</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/uyuni</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/lofoten</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/basilea</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/galicia</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/burdeos</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/narbonaagde</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/malmo-copenhague</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/andaextrema</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/torino</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/harorioja</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/viena</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/ginebrasuiza</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/madridarte</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/maestrazgo</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/brujasbruselas</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/llanosvenezolanos</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/berlin</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/narbonaagde</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/praga</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/amsterdam</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/galicia</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/maestrazgo</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/nortepeninsular</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/andaextrema</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/granada</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/madridsalamanca</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/harorioja</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/madridarte</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/llanosvenezolanos</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/trescontinentes</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleARP</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleBCN2023</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleBCN2024</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleBCN2025</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleDeporte</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleMusic</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2019</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2018</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2017</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2016</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2015</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2014</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale1997-2004</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleArteCalle</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2013</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleArte</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

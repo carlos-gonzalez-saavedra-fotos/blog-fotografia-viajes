@@ -155,7 +155,15 @@ export const Explore = () => {
 
   return (
     <div className="min-h-screen bg-black text-white pt-32 pb-20 px-6 font-light">
-      <Helmet><title>Explorar | Carlos González Saavedra</title></Helmet>
+      <Helmet>
+        <title>Explorar Archivo Visual | Carlos González Saavedra</title>
+        <meta name="description" content="Explora el archivo visual completo de fotografías y crónicas de viajes de Carlos González Saavedra. Búsqueda por temas, lugares y etiquetas." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://carlos-gonzalez-saavedra.vercel.app/explorar" />
+        <meta property="og:title" content="Explorar Archivo Visual | Carlos González Saavedra" />
+        <meta property="og:description" content="Explora el archivo visual completo de fotografías y crónicas de viajes de Carlos González Saavedra." />
+        <meta property="og:url" content="https://carlos-gonzalez-saavedra.vercel.app/explorar" />
+      </Helmet>
 
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">

@@ -1,5 +1,6 @@
 {
   "name": "CGS | Fotografía & Relatos",
   "description": "Blog personal de fotografía y reseñas de viajes de Carlos González Saavedra.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -62,7 +62,16 @@ export const ReviewDetail = () => {
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-screen bg-black text-white font-light">
-      <Helmet><title>{viaje.titulo} | Carlos González Saavedra</title></Helmet>
+      <Helmet>
+        <title>{viaje.titulo} | Carlos González Saavedra</title>
+        <meta name="description" content={viaje.resumen || (viaje.reseña ? viaje.reseña.slice(0, 160) : '')} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={`https://carlos-gonzalez-saavedra.vercel.app/viaje/${viaje.id}`} />
+        <meta property="og:title" content={`${viaje.titulo} | Carlos González Saavedra`} />
+        <meta property="og:description" content={viaje.resumen || (viaje.reseña ? viaje.reseña.slice(0, 160) : '')} />
+        <meta property="og:url" content={`https://carlos-gonzalez-saavedra.vercel.app/viaje/${viaje.id}`} />
+        <meta property="og:image" content={viaje.urlImagen || viaje.url} />
+      </Helmet>
       
       {/* Header / Hero */}
       <div className="relative h-[70vh] w-full overflow-hidden">

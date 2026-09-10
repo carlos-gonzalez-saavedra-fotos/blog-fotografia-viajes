@@ -81,6 +81,7 @@ export const Home = () => {
         <title>Carlos González Saavedra | Fotografía & Relatos de Viaje</title>
         <meta name="description" content="Explora el mundo a través de la lente y la pluma de Carlos González Saavedra. Fotografía artística, crónicas de viaje y relatos que capturan la esencia de cada destino." />
         <meta name="keywords" content="Carlos González Saavedra, fotografía, relatos de viaje, crónicas, viajes, arte, fotografía artística, blog de viajes" />
+        <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://carlos-gonzalez-saavedra.vercel.app/" />
       </Helmet>
       
