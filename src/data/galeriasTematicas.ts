@@ -3,172 +3,172 @@ import { FOTO_AMSTERDAM_VAN_GOGH, FOTO_AMSTERDAM_RIJKSMUSEUM, FOTO_AMSTERDAM_UIT
 
 // --- CONSTANTES DE FOTOS COMPARTIDAS (DEPORTES) ---
 const FOTO_DEPORTE_VOLTA_2016: GalleryItem = {
-  "url": "https://i.postimg.cc/fRpPSV4j/Volta-Ciclista-a-Catalunya-2016-008.webp",
+  "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789062992/cgs_portfolio/Volta-Ciclista-a-Catalunya-2016-008.webp",
   "caption": "Velocidad en el asfalto: el pelotón de la Volta atraviesa la ciudad",
   "tags": ["ciclismo", "Volta a Catalunya", "deporte", "pavimento", "velocidad", "vanguardia"],
   "alt": "Pelotón de ciclistas profesionales en plena carrera, rodando en formación compacta por las calles de Barcelona durante la Volta a Catalunya."
 };
 
 const FOTO_DEPORTE_MIREIA_BELMONTE: GalleryItem = {
-  "url": "https://i.postimg.cc/CxX2nRyb/Triatlon-Mireia-Belmonte-Miguel-Indurain-Martin-Fiz.webp",
+  "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789062994/cgs_portfolio/Triatlon-Mireia-Belmonte-Miguel-Indurain-Martin-Fiz.webp",
   "caption": "Leyendas del deporte: Mireia Belmonte, Miguel Indurain y Martín Fiz",
   "tags": ["Mireia Belmonte", "deporte", "triatlón", "Barcelona", "retratos", "Indurain", "Fiz"],
   "alt": "Primer plano de la campeona olímpica Mireia Belmonte sonriendo durante un evento deportivo, con un fondo rojo intenso."
 };
 
-const FOTO_KITESURF_2025: GalleryItem = {"url": "https://i.postimg.cc/9Fj81g5k/Mar-Bella-Kite-Surf.webp", "caption": "Kite Surf en la playa de la Mar Bella", "tags": ["Kite Surf", "Mar", "Deporte", "Playa", "Barcelona", "Mar Bella"], "alt": "Un kitesurfista navega las olas enérgicas de la playa de la Mar Bella. La figura del deportista se recorta contra el agua que refleja la luz intensa, transmitiendo dinamismo y velocidad."};
+const FOTO_KITESURF_2025: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789062995/cgs_portfolio/Mar-Bella-Kite-Surf.webp", "caption": "Kite Surf en la playa de la Mar Bella", "tags": ["Kite Surf", "Mar", "Deporte", "Playa", "Barcelona", "Mar Bella"], "alt": "Un kitesurfista navega las olas enérgicas de la playa de la Mar Bella. La figura del deportista se recorta contra el agua que refleja la luz intensa, transmitiendo dinamismo y velocidad."};
 
-const FOTO_SKATING_PL_CAT_2014: GalleryItem = {"url": "https://i.postimg.cc/nVBQZGsY/Bargelona-pista-hielo-Plaza-Cataluna-2014.webp", "caption": "Siluetas de invierno: Patinaje sobre hielo en Plaça de Catalunya", "tags": ["Patinaje Sobre Hielo", "Barcelona", "Pista De Hielo", "Siluetas", "Paisaje Urbano"], "alt": "Dos patinadores, representados como siluetas, disfrutan de una pista de hielo cubierta. En el fondo, una pantalla LED brillante muestra el texto 'BARGELONA PISTA DE GEL'. A través de las ventanas se observa un edificio clásico y ornamentado en un contexto metropolitano."};
+const FOTO_SKATING_PL_CAT_2014: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789062997/cgs_portfolio/Bargelona-pista-hielo-Plaza-Cataluna-2014.webp", "caption": "Siluetas de invierno: Patinaje sobre hielo en Plaça de Catalunya", "tags": ["Patinaje Sobre Hielo", "Barcelona", "Pista De Hielo", "Siluetas", "Paisaje Urbano"], "alt": "Dos patinadores, representados como siluetas, disfrutan de una pista de hielo cubierta. En el fondo, una pantalla LED brillante muestra el texto 'BARGELONA PISTA DE GEL'. A través de las ventanas se observa un edificio clásico y ornamentado en un contexto metropolitano."};
 
-const FOTO_SKATING_GP_A_2014: GalleryItem = {"url": "https://i.postimg.cc/NF6y4Qq2/Gran-Premio-Mundial-patinaje-BCN-2014-3.webp", "caption": "Concentración y movimiento: Patinaje artístico en el Grand Prix", "tags": ["Patinaje Artístico", "Atletas", "Borrosidad De Movimiento", "Deporte De Invierno", "Pista De Hielo"], "alt": "Dos patinadoras artísticas en una pista de hielo. Una figura en primer plano aparece borrosa por el dinamismo del movimiento, mientras otra patinadora observa concentrada desde el fondo. El telón decorativo muestra patrones invernales de copos de nieve."};
+const FOTO_SKATING_GP_A_2014: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789062998/cgs_portfolio/Gran-Premio-Mundial-patinaje-BCN-2014-3.webp", "caption": "Concentración y movimiento: Patinaje artístico en el Grand Prix", "tags": ["Patinaje Artístico", "Atletas", "Borrosidad De Movimiento", "Deporte De Invierno", "Pista De Hielo"], "alt": "Dos patinadoras artísticas en una pista de hielo. Una figura en primer plano aparece borrosa por el dinamismo del movimiento, mientras otra patinadora observa concentrada desde el fondo. El telón decorativo muestra patrones invernales de copos de nieve."};
 
-const FOTO_SKATING_GP_B_2014: GalleryItem = {"url": "https://i.postimg.cc/ZYpyZx9x/Gran-Premio-Mundial-patinaje-BCN-2014.webp", "caption": "Fuerza en el hielo: La elegancia del patinaje artístico mundial", "tags": ["Patinaje Artístico", "Patinadora", "Pista De Hielo", "Deporte", "Actuación"], "alt": "Patinadora rubia con traje negro se desliza con expresión concentrada sobre una pista de hielo cubierta durante una actuación oficial. Al fondo, vallas publicitarias internacionales sugieren un evento deportivo de gran escala."};
+const FOTO_SKATING_GP_B_2014: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789062999/cgs_portfolio/Gran-Premio-Mundial-patinaje-BCN-2014.webp", "caption": "Fuerza en el hielo: La elegancia del patinaje artístico mundial", "tags": ["Patinaje Artístico", "Patinadora", "Pista De Hielo", "Deporte", "Actuación"], "alt": "Patinadora rubia con traje negro se desliza con expresión concentrada sobre una pista de hielo cubierta durante una actuación oficial. Al fondo, vallas publicitarias internacionales sugieren un evento deportivo de gran escala."};
 
-const FOTO_SKATEPARK_2014: GalleryItem = {"url": "https://i.postimg.cc/RVmJ0JKC/Patinador-2014.webp", "caption": "Energía sobre ruedas: Una tarde en el skatepark", "tags": ["Skatepark", "Skate", "Skateboarders", "Deporte", "Rampas", "Juventud", "Sol", "Sombras", "Actividad", "Exteriores"], "alt": "Vista dinámica de un skatepark de concreto bajo la luz solar. Varios patinadores se mueven entre las rampas y bowls, con sombras marcadas que añaden profundidad y energía a la composición deportiva."};
+const FOTO_SKATEPARK_2014: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063000/cgs_portfolio/Patinador-2014.webp", "caption": "Energía sobre ruedas: Una tarde en el skatepark", "tags": ["Skatepark", "Skate", "Skateboarders", "Deporte", "Rampas", "Juventud", "Sol", "Sombras", "Actividad", "Exteriores"], "alt": "Vista dinámica de un skatepark de concreto bajo la luz solar. Varios patinadores se mueven entre las rampas y bowls, con sombras marcadas que añaden profundidad y energía a la composición deportiva."};
 
-const FOTO_COPA_AMERICA_EXP_2024: GalleryItem = {"url": "https://i.postimg.cc/SQXN6fCB/Copa-America-Experience240130-121801.webp", "caption": "Copa America Experience", "tags": ["Copa América", "Vela", "Evento", "Barcelona", "Mar"], "alt": "Una sala oscura iluminada por intensas luces azules que proyectan líneas horizontales dinámicas, creando una experiencia inmersiva para el grupo de personas que observa la instalación."};
+const FOTO_COPA_AMERICA_EXP_2024: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063001/cgs_portfolio/Copa-America-Experience240130-121801.webp", "caption": "Copa America Experience", "tags": ["Copa América", "Vela", "Evento", "Barcelona", "Mar"], "alt": "Una sala oscura iluminada por intensas luces azules que proyectan líneas horizontales dinámicas, creando una experiencia inmersiva para el grupo de personas que observa la instalación."};
 
-const FOTO_VELA_2024: GalleryItem = {"url": "https://i.postimg.cc/8CWjmd21/Copa-America-Vela-(24)a.webp", "caption": "Copa América de Vela", "tags": ["Copa América", "Vela", "Barco", "Barcelona", "Mar"], "alt": "Una persona en silueta observa un vasto paisaje marino con numerosos veleros navegando. La imagen en blanco y negro acentúa el contraste entre la figura y la activity en el horizonte."};
-const FOTO_ACROBACIA_2015: GalleryItem = {"url": "https://i.postimg.cc/1zGK81Xj/Acrobacias-parque-Joan-Miro-Barcelona.webp", "caption": "Vuelo al atardecer: Acrobacia en el Parque Joan Miró", "tags": ["Acrobacia", "Silueta", "Atardecer", "Barcelona", "Equilibrio"], "alt": "Una silueta realiza una pose acrobática contra un cielo de atardecer vibrante en tonos naranjas y amarillos. Los edificios del Parque Joan Miró se perfilan en la oscuridad, creando un contraste dramático y sereno."};
-const FOTO_KITESURF_MAR_BELLA_2015: GalleryItem = {"url": "https://i.postimg.cc/W4G7dcz5/Dia-de-viento-Mar-Bella-playa.webp", "caption": "Danza con el viento: Kitesurfistas en la Mar Bella", "tags": ["Kitesurfing", "Barcelona", "Mar Bella", "Mar", "Deporte"], "alt": "Vista panorámica de la costa de Barcelona con varios kitesurfistas aprovechando el viento. Al fondo, la silueta del Hotel W corona el skyline mediterráneo bajo un cielo despejado."};
-const FOTO_MARATON_BCN_2015: GalleryItem = {"url": "https://i.postimg.cc/tgQ5R4q3/Maraton-de-Barcelona-2015.webp", "caption": "Energía compartida: Puesto de avituallamiento en la Marató de Barcelona", "tags": ["Maratón", "Barcelona", "Deporte", "Avituallamiento", "Atletismo"], "alt": "Vista aérea de una mesa de avituallamiento repleta de fruta fresca lista para los corredores de la Marató de Barcelona. Voluntarios con ponchos azules asisten a los atletas bajo un sol radiante."};
-const FOTO_DEPORTE_WATERPOLO_2018: GalleryItem = {"url": "https://i.postimg.cc/Pxp3GVjQ/Europeo-Waterpolo-BCN2018.webp", "caption": "Tensiones acuáticas: la garra del waterpolo en las piscinas de Montjuïc", "tags": ["waterpolo", "deporte", "Europeo 2018", "Barcelona", "piscina", "competición"], "alt": "Jugadores de waterpolo en intensa pugna por el balón durante los Campeonatos de Europa de 2018, con la piscina de Picornell como escenario."};
+const FOTO_VELA_2024: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789062969/cgs_portfolio/Copa-America-Vela-_24_a.webp", "caption": "Copa América de Vela", "tags": ["Copa América", "Vela", "Barco", "Barcelona", "Mar"], "alt": "Una persona en silueta observa un vasto paisaje marino con numerosos veleros navegando. La imagen en blanco y negro acentúa el contraste entre la figura y la activity en el horizonte."};
+const FOTO_ACROBACIA_2015: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063006/cgs_portfolio/Acrobacias-parque-Joan-Miro-Barcelona.webp", "caption": "Vuelo al atardecer: Acrobacia en el Parque Joan Miró", "tags": ["Acrobacia", "Silueta", "Atardecer", "Barcelona", "Equilibrio"], "alt": "Una silueta realiza una pose acrobática contra un cielo de atardecer vibrante en tonos naranjas y amarillos. Los edificios del Parque Joan Miró se perfilan en la oscuridad, creando un contraste dramático y sereno."};
+const FOTO_KITESURF_MAR_BELLA_2015: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063007/cgs_portfolio/Dia-de-viento-Mar-Bella-playa.webp", "caption": "Danza con el viento: Kitesurfistas en la Mar Bella", "tags": ["Kitesurfing", "Barcelona", "Mar Bella", "Mar", "Deporte"], "alt": "Vista panorámica de la costa de Barcelona con varios kitesurfistas aprovechando el viento. Al fondo, la silueta del Hotel W corona el skyline mediterráneo bajo un cielo despejado."};
+const FOTO_MARATON_BCN_2015: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063009/cgs_portfolio/Maraton-de-Barcelona-2015.webp", "caption": "Energía compartida: Puesto de avituallamiento en la Marató de Barcelona", "tags": ["Maratón", "Barcelona", "Deporte", "Avituallamiento", "Atletismo"], "alt": "Vista aérea de una mesa de avituallamiento repleta de fruta fresca lista para los corredores de la Marató de Barcelona. Voluntarios con ponchos azules asisten a los atletas bajo un sol radiante."};
+const FOTO_DEPORTE_WATERPOLO_2018: GalleryItem = {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063012/cgs_portfolio/Europeo-Waterpolo-BCN2018.webp", "caption": "Tensiones acuáticas: la garra del waterpolo en las piscinas de Montjuïc", "tags": ["waterpolo", "deporte", "Europeo 2018", "Barcelona", "piscina", "competición"], "alt": "Jugadores de waterpolo en intensa pugna por el balón durante los Campeonatos de Europa de 2018, con la piscina de Picornell como escenario."};
 
 export const galeriasTematicas: Viaje[] = [
   {
     id: "GaleARP",
-    url: "https://i.postimg.cc/pL8yp3hf/UCV_Caracas_Jean_Arp_Pastor_de_nubes_003.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063013/cgs_portfolio/UCV_Caracas_Jean_Arp_Pastor_de_nubes_003.webp",
     titulo: "Jean Arp",
     ubicacion: "Escultura y Vanguardia",
     resumen: "Un itinerario tras el rastro escultórico y plástico de Jean Arp, explorando la fluidez orgánica y la poesía espacial de su obra en museos y plazas de Europa y América.",
     reseña: "Un diálogo visual con el universo escultórico de Jean Arp a través de colecciones y espacios públicos de cinco ciudades. Desde la imponente presencia del 'Pastor de nubes' en la Ciudad Universitaria de Caracas y su yeso fundacional en el Centro Pompidou de París, hasta los relieves del Kunstmuseum de Basilea, las curvas al aire libre en el Ródano ginebrino, las colecciones de CaixaForum Barcelona y las 'concreciones humanas' en el Louisiana Museum de Dinamarca. Esta serie documenta la incesante búsqueda de Arp por fundir la pureza abstracta con las leyes vivas y espontáneas de la naturaleza.",
-    urlImagen: "https://i.postimg.cc/pL8yp3hf/UCV-Caracas-Jean-Arp-Pastor-de-nubes-003.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063014/cgs_portfolio/UCV-Caracas-Jean-Arp-Pastor-de-nubes-003.webp",
     categoria: "Europa y América",
     fecha: "1997-2023",
     equipo: "Sony ILCE-6000 · Samsung SM-G975F · Canon PowerShot SX200 IS · Minolta X-300s",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/cLY6rPgg/Expo-Surrealismo-Caixaforum-Arp-1.webp", "caption": "Torse-fruit (1960), exposición Surrealismo en CaixaForum (2020)", "tags": ["Jean Arp", "escultura", "CaixaForum", "Barcelona", "surrealismo", "Torse-fruit"], "alt": "Escultura contemporánea de bronce con una forma orgánica y abstracta, reminiscentemente ovoide. Su superficie pulida presenta una rica pátina en tonos marrones y rojizos."},
-{"url": "https://i.postimg.cc/pL8yp3hf/UCV-Caracas-Jean-Arp-Pastor-de-nubes-003.webp", "caption": "Edición en bronce del Pastor de nubes, Ciudad Universitaria de Caracas (2021)", "tags": ["Jean Arp", "Pastor de nubes", "UCV", "Caracas", "escultura"], "alt": "Una imponente escultura de bronce con formas curvilíneas de Jean Arp, ubicada en un espacio abierto dentro de la Ciudad Universitaria de Caracas."},
-{"url": "https://i.postimg.cc/1zDkV1ZC/Paris-invierno-1997-Centro-Pompidou-Copia-Pastor-de-Nubes-ARP.webp", "caption": "Yeso original del Pastor de Nubes (1953), Centro Pompidou, París (1997)", "tags": ["Jean Arp", "Pastor de nubes", "Centro Pompidou", "París", "escultura"], "alt": "Una imponente escultura abstracta de color blanco domina el primer plano de esta galería de arte en el Centro Pompidou."},
-{"url": "https://i.postimg.cc/MKJ7ZkpC/Jean-Arp-Pistilo-1950-Caixaforum-BCN.webp", "caption": "Pistilo (1950) en CaixaForum Barcelona (2023)", "tags": ["Jean Arp", "escultura", "CaixaForum", "Barcelona", "Pistilo"], "alt": "Una escultura abstracta de tonos tierra se alza sobre un fondo negro profundo. La pieza presenta formas orgánicas y suaves curvas, asemejando dos elementos conectados en el centro."},
-{"url": "https://i.postimg.cc/x1HqcBJm/Jean-Arp-Feuille-se-reposant-1965-Calle-de-Ginebra.webp", "caption": "Feuille se reposant (1965) en Quai Turrettini, a orillas del Ródano, Ginebra, Suiza (2015)", "tags": ["Jean Arp", "escultura", "Ginebra", "Suiza", "Ródano", "Feuille se reposant"], "alt": "Una escultura abstracta de bronce oscuro, de formas orgánicas y curvilíneas, se erige sobre un pedestal cilíndrico en un espacio exterior en Ginebra."},
-{"url": "https://i.postimg.cc/KvbTSn9k/Jean-Arp-Torso-preadamita-1938-Caixaforum-BCN.webp", "caption": "Torso preadamita (1938), CaixaForum Barcelona (2023)", "tags": ["Jean Arp", "escultura", "CaixaForum", "Barcelona", "Torso preadamita"], "alt": "Varias esculturas abstractas de color crema, con formas suaves y orgánicas, se exhiben en un entorno oscuro destacando sobre un fondo azul oscuro."},
-{"url": "https://i.postimg.cc/g2Rrn1XR/Jean-Arp-Concha-nube-I-1932-Caixaforum-2019.webp", "caption": "Concha nube I (1932) en CaixaForum (2019)", "tags": ["Jean Arp", "escultura", "CaixaForum", "Barcelona", "Concha nube"], "alt": "La imagen muestra una obra de arte o diseño en relieve, de estilo abstracto y minimalista. Presenta formas orgánicas y fluidas en un tono beige uniforme."},
-{"url": "https://i.postimg.cc/XYFXptGv/Kunstmuseum-Basilea-011-Hans-Arp.webp", "caption": "Configuration (1928) en el Kunstmuseum de Basilea, Suiza (2018)", "tags": ["Jean Arp", "pintura", "Kunstmuseum", "Basilea", "Suiza", "Configuration"], "alt": "Obra de arte abstracta y monocromática en tonos blancos, presentada dentro de un marco. Consiste en formas orgánicas y geométricas en relieve."},
-{"url": "https://i.postimg.cc/Hk5jVFcj/Kunstmuseum-Basilea-012-Hans-Arp-Nombrils.webp", "caption": "Nombrils (Ombligos, 1928) en el Kunstmuseum de Basilea, Suiza (2018)", "tags": ["Jean Arp", "pintura", "Kunstmuseum", "Basilea", "Suiza", "Nombrils"], "alt": "Esta obra de arte abstracta presenta una composición minimalista dominada por un fondo negro profundo con varias formas orgánicas irregulares en tonos crema."},
-{"url": "https://i.postimg.cc/kg8DBL6G/Kunstmuseum-Basilea-013-Hans-Arp-Torse-preadamite.webp", "caption": "Torse préadamite (1938) en el Kunstmuseum de Basilea, Suiza (2018)", "tags": ["Jean Arp", "escultura", "Kunstmuseum", "Basilea", "Suiza", "Torse préadamite"], "alt": "La foto muestra una escultura abstracta de pie, con formas orgánicas y onduladas que se entrelazan verticalmente, hecha de un material con textura granulada."},
-{"url": "https://i.postimg.cc/sgS1vbQG/Museo-Louisiana-de-arte-moderno-Arp-Dinamarca-Venus-de-Meudon-1956.webp", "caption": "Vénus de Meudon (1956), Museo Louisiana de Arte Moderno, Humlebæk, Dinamarca (2019)", "tags": ["Jean Arp", "escultura", "Louisiana Museum", "Dinamarca", "Vénus de Meudon"], "alt": "Una alta escultura abstracta de tonalidad oscura y forma orgánica fluida, se erige sobre un pedestal en un exuberante jardín verde en el Museo Louisiana."},
-{"url": "https://i.postimg.cc/Dwsm8RJq/Museo-Louisiana-de-arte-moderno-Dinamarca-Arp-Concretion-humaine-sur-coupe-ovale-1948.webp", "caption": "Concrétion humaine sur coupe ovale (1948) en el Museo Louisiana de Arte Moderno, Humlebæk, Dinamarca (2019)", "tags": ["Jean Arp", "escultura", "Louisiana Museum", "Dinamarca", "Concrétion humaine"], "alt": "Una escultura abstracta de bronce, cubierta de gotas de lluvia, domina el primer plano sobre un pedestal de piedra en un extenso césped verde."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063015/cgs_portfolio/Expo-Surrealismo-Caixaforum-Arp-1.webp", "caption": "Torse-fruit (1960), exposición Surrealismo en CaixaForum (2020)", "tags": ["Jean Arp", "escultura", "CaixaForum", "Barcelona", "surrealismo", "Torse-fruit"], "alt": "Escultura contemporánea de bronce con una forma orgánica y abstracta, reminiscentemente ovoide. Su superficie pulida presenta una rica pátina en tonos marrones y rojizos."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063014/cgs_portfolio/UCV-Caracas-Jean-Arp-Pastor-de-nubes-003.webp", "caption": "Edición en bronce del Pastor de nubes, Ciudad Universitaria de Caracas (2021)", "tags": ["Jean Arp", "Pastor de nubes", "UCV", "Caracas", "escultura"], "alt": "Una imponente escultura de bronce con formas curvilíneas de Jean Arp, ubicada en un espacio abierto dentro de la Ciudad Universitaria de Caracas."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063016/cgs_portfolio/Paris-invierno-1997-Centro-Pompidou-Copia-Pastor-de-Nubes-ARP.webp", "caption": "Yeso original del Pastor de Nubes (1953), Centro Pompidou, París (1997)", "tags": ["Jean Arp", "Pastor de nubes", "Centro Pompidou", "París", "escultura"], "alt": "Una imponente escultura abstracta de color blanco domina el primer plano de esta galería de arte en el Centro Pompidou."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063017/cgs_portfolio/Jean-Arp-Pistilo-1950-Caixaforum-BCN.webp", "caption": "Pistilo (1950) en CaixaForum Barcelona (2023)", "tags": ["Jean Arp", "escultura", "CaixaForum", "Barcelona", "Pistilo"], "alt": "Una escultura abstracta de tonos tierra se alza sobre un fondo negro profundo. La pieza presenta formas orgánicas y suaves curvas, asemejando dos elementos conectados en el centro."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063018/cgs_portfolio/Jean-Arp-Feuille-se-reposant-1965-Calle-de-Ginebra.webp", "caption": "Feuille se reposant (1965) en Quai Turrettini, a orillas del Ródano, Ginebra, Suiza (2015)", "tags": ["Jean Arp", "escultura", "Ginebra", "Suiza", "Ródano", "Feuille se reposant"], "alt": "Una escultura abstracta de bronce oscuro, de formas orgánicas y curvilíneas, se erige sobre un pedestal cilíndrico en un espacio exterior en Ginebra."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063019/cgs_portfolio/Jean-Arp-Torso-preadamita-1938-Caixaforum-BCN.webp", "caption": "Torso preadamita (1938), CaixaForum Barcelona (2023)", "tags": ["Jean Arp", "escultura", "CaixaForum", "Barcelona", "Torso preadamita"], "alt": "Varias esculturas abstractas de color crema, con formas suaves y orgánicas, se exhiben en un entorno oscuro destacando sobre un fondo azul oscuro."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063020/cgs_portfolio/Jean-Arp-Concha-nube-I-1932-Caixaforum-2019.webp", "caption": "Concha nube I (1932) en CaixaForum (2019)", "tags": ["Jean Arp", "escultura", "CaixaForum", "Barcelona", "Concha nube"], "alt": "La imagen muestra una obra de arte o diseño en relieve, de estilo abstracto y minimalista. Presenta formas orgánicas y fluidas en un tono beige uniforme."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063022/cgs_portfolio/Kunstmuseum-Basilea-011-Hans-Arp.webp", "caption": "Configuration (1928) en el Kunstmuseum de Basilea, Suiza (2018)", "tags": ["Jean Arp", "pintura", "Kunstmuseum", "Basilea", "Suiza", "Configuration"], "alt": "Obra de arte abstracta y monocromática en tonos blancos, presentada dentro de un marco. Consiste en formas orgánicas y geométricas en relieve."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063023/cgs_portfolio/Kunstmuseum-Basilea-012-Hans-Arp-Nombrils.webp", "caption": "Nombrils (Ombligos, 1928) en el Kunstmuseum de Basilea, Suiza (2018)", "tags": ["Jean Arp", "pintura", "Kunstmuseum", "Basilea", "Suiza", "Nombrils"], "alt": "Esta obra de arte abstracta presenta una composición minimalista dominada por un fondo negro profundo con varias formas orgánicas irregulares en tonos crema."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063024/cgs_portfolio/Kunstmuseum-Basilea-013-Hans-Arp-Torse-preadamite.webp", "caption": "Torse préadamite (1938) en el Kunstmuseum de Basilea, Suiza (2018)", "tags": ["Jean Arp", "escultura", "Kunstmuseum", "Basilea", "Suiza", "Torse préadamite"], "alt": "La foto muestra una escultura abstracta de pie, con formas orgánicas y onduladas que se entrelazan verticalmente, hecha de un material con textura granulada."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063025/cgs_portfolio/Museo-Louisiana-de-arte-moderno-Arp-Dinamarca-Venus-de-Meudon-1956.webp", "caption": "Vénus de Meudon (1956), Museo Louisiana de Arte Moderno, Humlebæk, Dinamarca (2019)", "tags": ["Jean Arp", "escultura", "Louisiana Museum", "Dinamarca", "Vénus de Meudon"], "alt": "Una alta escultura abstracta de tonalidad oscura y forma orgánica fluida, se erige sobre un pedestal en un exuberante jardín verde en el Museo Louisiana."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063027/cgs_portfolio/Museo-Louisiana-de-arte-moderno-Dinamarca-Arp-Concretion-humaine-sur-coupe-ovale-1948.webp", "caption": "Concrétion humaine sur coupe ovale (1948) en el Museo Louisiana de Arte Moderno, Humlebæk, Dinamarca (2019)", "tags": ["Jean Arp", "escultura", "Louisiana Museum", "Dinamarca", "Concrétion humaine"], "alt": "Una escultura abstracta de bronce, cubierta de gotas de lluvia, domina el primer plano sobre un pedestal de piedra en un extenso césped verde."},
     ]
   },
   {
     id: "GaleBCN2023",
-    url: "https://i.postimg.cc/wvtX95Y3/Pont_del_Diable_004.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063028/cgs_portfolio/Pont_del_Diable_004.webp",
     titulo: "Barcelona · Manresa · Martorell",
     ubicacion: "Escenas 2023",
     resumen: "Crónica visual de 2023: la convivencia entre patrimonio bimilenario, vanguardia escénica, atmósfera marina e intervenciones artísticas en Barcelona y su entorno comarcal.",
     reseña: "Una aproximación sensible al año 2023 a través de los contrastes del paisaje urbano y comarcal catalán. La mirada transita desde la piedra romana del Pont del Diable en Martorell y la silueta gótica de La Seu de Manresa sobre el río, hasta la revitalización del histórico Invernadero de la Ciutadella y la calidez de las librerías de barrio en Gràcia. El arte contemporáneo y la danza —con piezas de Jaume Plensa, Laia Estruch y Silvia Batet— dialogan con la serenidad de la playa de la Mar Bella y la energía callejera de La Mercè.",
-    urlImagen: "https://i.postimg.cc/wvtX95Y3/Pont-del-Diable-004.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063029/cgs_portfolio/Pont-del-Diable-004.webp",
     categoria: "España",
     fecha: "2023",
     equipo: "Samsung SM-G975F",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/26qQCdNN/Playa-Mar-Bella.webp", "caption": "Atardecer en la Playa de la Mar Bella", "tags": ["playa", "Mar Bella", "atardecer", "Barcelona", "mar"], "alt": "Una vista serena de la costa con rocas cubiertas de algas verdes en primer plano, bañadas por el agua clara del mar bajo un cielo azul vibrante."},
-{"url": "https://i.postimg.cc/G2BFbPn1/Invernadero-Ciutadella-restaurado.webp", "caption": "El Invernadero de la Ciutadella tras su restauración", "tags": ["Invernadero", "Ciutadella", "arquitectura", "Barcelona", "restauración"], "alt": "La imagen muestra el interior del Invernadero de la Ciutadella en Barcelona. Es una gran estructura de cristal y hierro forjado de estilo clásico y elegante, recientemente restaurada."},
-{"url": "https://i.postimg.cc/V6Sqz9P6/Silvia-Batet-Oblivion-Festival-Nadal.webp", "caption": "Silvia Batet presenta 'Oblivion' en el Festival de Nadal", "tags": ["Silvia Batet", "danza", "Festival de Nadal", "Barcelona", "espectáculo"], "alt": "Una emotiva captura en blanco y negro de dos bailarines realizando una danza giratoria. Sus amplios vestidos blancos se elevan y fluyen, creando un efecto etéreo."},
-{"url": "https://i.postimg.cc/QtBQjgZ3/Manresa.webp", "caption": "Vistas de Manresa desde el Pont Vell", "tags": ["Manresa", "Pont Vell", "vistas", "arquitectura", "río"], "alt": "Vista exterior de la Basílica Colegiata de Santa María de la Aurora (La Seu) en Manresa, alzada sobre un promontorio rocoso rodeado de follaje otoñal."},
-{"url": "https://i.postimg.cc/wvtX95Yz/Grupo-Danza-UK-Cornella-004.webp", "caption": "Grupo de danza del Reino Unido en Cornellà", "tags": ["danza", "Cornellà", "espectáculo", "grupo", "UK"], "alt": "Una vibrante performance acrobática callejera en una plaza urbana. Una artista se suspende en el aire saltando desde andamios mientras sus compañeros se preparan para atraparla."},
-{"url": "https://i.postimg.cc/wvtX95Y3/Pont-del-Diable-004.webp", "caption": "El histórico Pont del Diable en Martorell", "tags": ["Pont del Diable", "Martorell", "puente romano", "historia", "arquitectura"], "alt": "Impresionante vista del antiguo acueducto de piedra con un gran arco central y una persona silueteada en la cima contra un cielo azul con una luna creciente."},
-{"url": "https://i.postimg.cc/mDcYT3Wc/Trena-Laia-Estruch-MNAC-(1).webp", "caption": "Trena de Laia Estruch en el MNAC: Sala de máquinas", "tags": ["Laia Estruch", "Trena", "MNAC", "arte", "Barcelona"], "alt": "Una imponente instalación artística inflable en tonos naranja y azul brillante de Laia Estruch, formada por tubos y esferas entrelazadas en un amplio espacio interior."},
-{"url": "https://i.postimg.cc/PfQWT5Bm/Libreria-Gracia.webp", "caption": "Rincón literario en el barrio de Gràcia", "tags": ["librería", "Gràcia", "libros", "Barcelona", "interior"], "alt": "Una vista interior de una librería acogedora en Gràcia, enmarcada por una puerta de madera rústica y estanterías repletas de libros hasta el techo."},
-{"url": "https://i.postimg.cc/c41QHNSf/Niebla-Mar-Bella.webp", "caption": "Niebla matutina sobre la playa de la Mar Bella", "tags": ["niebla", "playa", "Mar Bella", "Barcelona", "mar"], "alt": "Fotografía en blanco y negro que muestra un grupo de personas en silueta en la orilla de la playa de la Mar Bella bajo una atmósfera brumosa."},
-{"url": "https://i.postimg.cc/dQj2wVzr/Desde-Museo-Historia-Barcelona-003.webp", "caption": "Panorámica desde el Museo de Historia de Barcelona", "tags": ["Museo de Historia", "vistas", "Barcelona", "panorámica", "ciudad"], "alt": "La imagen muestra la imponente fachada de un edificio clásico en Barcelona, con balcones de hierro forjado y una combinación de ladrillo visto y piedra."},
-{"url": "https://i.postimg.cc/4N4zdTgQ/Nuevo-Rompeolas.webp", "caption": "El nuevo rompeolas de Barcelona al anochecer", "tags": ["rompeolas", "Barcelona", "mar", "anochecer", "urbano"], "alt": "Imagen monocromática que captura la silueta de una valla frente al mar reluciente, con las formas oscuras de un faro y barcos en el horizonte."},
-{"url": "https://i.postimg.cc/RCL74Zjw/Jaume-Plensa-El-cor-secret.webp", "caption": "El cor secret de Jaume Plensa en el Hospital Clínic", "tags": ["Jaume Plensa", "El cor secret", "escultura", "Barcelona", "Hospital Clínic"], "alt": "Instalación artística de un corazón humano gigante e inflable de Jaume Plensa, vibrante en tonos rojos y azules, situada en la entrada del Hospital Clínic."},
-{"url": "https://i.postimg.cc/kXMx4dmx/Palacio-Macaya.webp", "caption": "Detalles modernistas del Palacio Macaya", "tags": ["Palacio Macaya", "modernismo", "arquitectura", "Barcelona", "detalle"], "alt": "Fotografía en blanco y negro del interior del Palacio Macaya, destacando la escalera principal ricamente ornamentada con detalles modernistas."},
-{"url": "https://i.postimg.cc/tRN3p4LP/Merce-23-Antigua-i-Barbuda-(4)-01.webp", "caption": "Espectáculo de Antigua i Barbuda en La Mercè 2023", "tags": ["La Mercè", "Antigua i Barbuda", "espectáculo", "Barcelona", "teatro de calle"], "alt": "Un hombre trabaja en la estructura de una enorme escultura de un gorila blanco peludo, parte de la performance de Antigua i Barbuda durante las fiestas de La Mercè."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063030/cgs_portfolio/Playa-Mar-Bella.webp", "caption": "Atardecer en la Playa de la Mar Bella", "tags": ["playa", "Mar Bella", "atardecer", "Barcelona", "mar"], "alt": "Una vista serena de la costa con rocas cubiertas de algas verdes en primer plano, bañadas por el agua clara del mar bajo un cielo azul vibrante."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063032/cgs_portfolio/Invernadero-Ciutadella-restaurado.webp", "caption": "El Invernadero de la Ciutadella tras su restauración", "tags": ["Invernadero", "Ciutadella", "arquitectura", "Barcelona", "restauración"], "alt": "La imagen muestra el interior del Invernadero de la Ciutadella en Barcelona. Es una gran estructura de cristal y hierro forjado de estilo clásico y elegante, recientemente restaurada."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063033/cgs_portfolio/Silvia-Batet-Oblivion-Festival-Nadal.webp", "caption": "Silvia Batet presenta 'Oblivion' en el Festival de Nadal", "tags": ["Silvia Batet", "danza", "Festival de Nadal", "Barcelona", "espectáculo"], "alt": "Una emotiva captura en blanco y negro de dos bailarines realizando una danza giratoria. Sus amplios vestidos blancos se elevan y fluyen, creando un efecto etéreo."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063034/cgs_portfolio/Manresa.webp", "caption": "Vistas de Manresa desde el Pont Vell", "tags": ["Manresa", "Pont Vell", "vistas", "arquitectura", "río"], "alt": "Vista exterior de la Basílica Colegiata de Santa María de la Aurora (La Seu) en Manresa, alzada sobre un promontorio rocoso rodeado de follaje otoñal."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063035/cgs_portfolio/Grupo-Danza-UK-Cornella-004.webp", "caption": "Grupo de danza del Reino Unido en Cornellà", "tags": ["danza", "Cornellà", "espectáculo", "grupo", "UK"], "alt": "Una vibrante performance acrobática callejera en una plaza urbana. Una artista se suspende en el aire saltando desde andamios mientras sus compañeros se preparan para atraparla."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063029/cgs_portfolio/Pont-del-Diable-004.webp", "caption": "El histórico Pont del Diable en Martorell", "tags": ["Pont del Diable", "Martorell", "puente romano", "historia", "arquitectura"], "alt": "Impresionante vista del antiguo acueducto de piedra con un gran arco central y una persona silueteada en la cima contra un cielo azul con una luna creciente."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063327/cgs_portfolio/Trena-Laia-Estruch-MNAC-_1_.webp", "caption": "Trena de Laia Estruch en el MNAC: Sala de máquinas", "tags": ["Laia Estruch", "Trena", "MNAC", "arte", "Barcelona"], "alt": "Una imponente instalación artística inflable en tonos naranja y azul brillante de Laia Estruch, formada por tubos y esferas entrelazadas en un amplio espacio interior."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063040/cgs_portfolio/Libreria-Gracia.webp", "caption": "Rincón literario en el barrio de Gràcia", "tags": ["librería", "Gràcia", "libros", "Barcelona", "interior"], "alt": "Una vista interior de una librería acogedora en Gràcia, enmarcada por una puerta de madera rústica y estanterías repletas de libros hasta el techo."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063041/cgs_portfolio/Niebla-Mar-Bella.webp", "caption": "Niebla matutina sobre la playa de la Mar Bella", "tags": ["niebla", "playa", "Mar Bella", "Barcelona", "mar"], "alt": "Fotografía en blanco y negro que muestra un grupo de personas en silueta en la orilla de la playa de la Mar Bella bajo una atmósfera brumosa."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063042/cgs_portfolio/Desde-Museo-Historia-Barcelona-003.webp", "caption": "Panorámica desde el Museo de Historia de Barcelona", "tags": ["Museo de Historia", "vistas", "Barcelona", "panorámica", "ciudad"], "alt": "La imagen muestra la imponente fachada de un edificio clásico en Barcelona, con balcones de hierro forjado y una combinación de ladrillo visto y piedra."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063043/cgs_portfolio/Nuevo-Rompeolas.webp", "caption": "El nuevo rompeolas de Barcelona al anochecer", "tags": ["rompeolas", "Barcelona", "mar", "anochecer", "urbano"], "alt": "Imagen monocromática que captura la silueta de una valla frente al mar reluciente, con las formas oscuras de un faro y barcos en el horizonte."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063044/cgs_portfolio/Jaume-Plensa-El-cor-secret.webp", "caption": "El cor secret de Jaume Plensa en el Hospital Clínic", "tags": ["Jaume Plensa", "El cor secret", "escultura", "Barcelona", "Hospital Clínic"], "alt": "Instalación artística de un corazón humano gigante e inflable de Jaume Plensa, vibrante en tonos rojos y azules, situada en la entrada del Hospital Clínic."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063045/cgs_portfolio/Palacio-Macaya.webp", "caption": "Detalles modernistas del Palacio Macaya", "tags": ["Palacio Macaya", "modernismo", "arquitectura", "Barcelona", "detalle"], "alt": "Fotografía en blanco y negro del interior del Palacio Macaya, destacando la escalera principal ricamente ornamentada con detalles modernistas."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063308/cgs_portfolio/Merce-23-Antigua-i-Barbuda-_4_-01.webp", "caption": "Espectáculo de Antigua i Barbuda en La Mercè 2023", "tags": ["La Mercè", "Antigua i Barbuda", "espectáculo", "Barcelona", "teatro de calle"], "alt": "Un hombre trabaja en la estructura de una enorme escultura de un gorila blanco peludo, parte de la performance de Antigua i Barbuda durante las fiestas de La Mercè."},
     ]
   },
   {
     id: "GaleBCN2024",
-    url: "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063050/cgs_portfolio/Puerto-BCN.webp",
     titulo: "Barcelona",
     ubicacion: "Escenas 2024",
     resumen: "Retrato poliédrico de Barcelona en 2024: la reconversión industrial de Manifesta 15, la brisa náutica del litoral, la luz mística de Gaudí y las constelaciones lumínicas sobre la costa.",
     reseña: "El año 2024 en Barcelona quedó marcado por la reinterpretación de su memoria fabril y el dinamismo de su frente marítimo. La monumental silueta de las Tres Chimeneas del Besòs albergó las propuestas artísticas de la bienal Manifesta 15, mientras el litoral acogió la alta velocidad de la vela y las faenas tradicionales de varadero. Entre la luz cenital filtrada por las vidrieras de la Sagrada Família, las coreografías aéreas de drones sobre la arena de la Barceloneta y los atardeceres contemplados desde Glòries y el Tibidabo, esta crónica captura una ciudad en constante reinvención.",
-    urlImagen: "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063050/cgs_portfolio/Puerto-BCN.webp",
     categoria: "España",
     fecha: "2024",
     equipo: "Sony ILCE-6000 · Samsung SM-G975F",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/pXFbT084/Puerto-BCN.webp", "caption": "Puerto de Barcelona", "tags": ["puerto", "barcos", "mar", "Barcelona", "urbano"], "alt": "Un imponente velero clásico de varios mástiles se encuentra en un dique seco, rodeado de andamios, sugiriendo trabajos de restauración. Al fondo, se vislumbra la silueta de la ciudad portuaria."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063050/cgs_portfolio/Puerto-BCN.webp", "caption": "Puerto de Barcelona", "tags": ["puerto", "barcos", "mar", "Barcelona", "urbano"], "alt": "Un imponente velero clásico de varios mástiles se encuentra en un dique seco, rodeado de andamios, sugiriendo trabajos de restauración. Al fondo, se vislumbra la silueta de la ciudad portuaria."},
 FOTO_COPA_AMERICA_EXP_2024,
-{"url": "https://i.postimg.cc/qB9Bj6xj/Dragado-Playa-Nueva-Mar-Bella.webp", "caption": "Dragado en playa Nueva Mar Bella", "tags": ["dragado", "playa", "Mar Bella", "Barcelona", "mar"], "alt": "Una escena de playa con el vasto océano azul y arena dorada. Una gran cantidad de material orgánico oscuro se descarga vigorosamente en la orilla, creando mucha espuma y atrayendo gaviotas."},
-{"url": "https://i.postimg.cc/3ryJXFmP/Llum-BCN-Llum-BCN-2024-24-240202-193700.webp", "caption": "Llum Barcelona 2024", "tags": ["Llum BCN", "luces", "arte", "Barcelona", "noche"], "alt": "Una impactante vista nocturna de la Torre Glòries iluminada; en primer plano, una instalación de 'light painting' crea formas abstractas en rojo neón que contrastan con la silueta de la torre."},
-{"url": "https://i.postimg.cc/J797PH5K/Manifesta-15-Tres-chimeneas-(2).webp", "caption": "Manifesta 15. Las Tres Chimeneas", "tags": ["Manifesta 15", "Tres Chimeneas", "patrimonio industrial", "Barcelona", "arte"], "alt": "Vista de la antigua central térmica de Sant Adrià de Besòs bajo un cielo azul vibrante. En primer plano, una cúpula geométrica de crochet blanco forma una instalación artística moderna."},
-{"url": "https://i.postimg.cc/j2yp82sw/Manifesta-15-Tres-chimeneas-(3).webp", "caption": "Manifesta 15. Las Tres Chimeneas", "tags": ["Manifesta 15", "Tres Chimeneas", "arquitectura", "Barcelona", "detalle"], "alt": "Una fotografía en blanco y negro de una extensa estructura de madera con un diseño ondulado y repetitivo. La celosía de vigas crea complejos patrones geométricos y proyecta largas sombras."},
-{"url": "https://i.postimg.cc/d3GbW3qD/Manifesta-15-Tres-chimeneas-(4).webp", "caption": "Manifesta 15. Las Tres Chimeneas. Sala de máquinas", "tags": ["Manifesta 15", "Tres Chimeneas", "sala de máquinas", "Barcelona", "industrial"], "alt": "Imagen en blanco y negro de un vasto espacio industrial de hormigón. En el centro, suspendido, se aprecia un mensaje tipográfico luminoso: 'WHEN WOMEN STRIKE THE WORLD STOPS'."},
-{"url": "https://i.postimg.cc/d3GbW3q3/Sagrada-Familia-04518.webp", "caption": "La Sagrada Familia", "tags": ["Sagrada Familia", "Gaudí", "arquitectura religiosa", "Barcelona", "monumento"], "alt": "Vista interior de la Sagrada Familia, mostrando un gran rosetón central de vidrieras que irradian tonos azules y verdes, iluminando las intrincadas paredes de piedra de estilo Gaudí."},
-{"url": "https://i.postimg.cc/vT5JPTQ4/Seafood-Expo-2024.webp", "caption": "Seafood Expo 2024", "tags": ["Seafood Expo", "evento", "Barcelona", "gastronomía", "feria"], "alt": "Primer plano detallado de la cabeza de un atún junto a un gran corte de su lomo rojo intenso, mostrando su frescura y calidad en un ambiente de mercado especializado o feria profesional."},
-{"url": "https://i.postimg.cc/5y8hPyxC/Tibidabo-Estela.webp", "caption": "Estela en el Tibidabo", "tags": ["Tibidabo", "estela", "cielo", "Barcelona", "paisaje"], "alt": "Una vista icónica del Templo Expiatorio del Sagrado Corazón de Jesús. La estatua de Cristo Redentor parece disparar una estela de avión contra el cielo azul, creando una ilusión óptica."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063051/cgs_portfolio/Dragado-Playa-Nueva-Mar-Bella.webp", "caption": "Dragado en playa Nueva Mar Bella", "tags": ["dragado", "playa", "Mar Bella", "Barcelona", "mar"], "alt": "Una escena de playa con el vasto océano azul y arena dorada. Una gran cantidad de material orgánico oscuro se descarga vigorosamente en la orilla, creando mucha espuma y atrayendo gaviotas."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063052/cgs_portfolio/Llum-BCN-Llum-BCN-2024-24-240202-193700.webp", "caption": "Llum Barcelona 2024", "tags": ["Llum BCN", "luces", "arte", "Barcelona", "noche"], "alt": "Una impactante vista nocturna de la Torre Glòries iluminada; en primer plano, una instalación de 'light painting' crea formas abstractas en rojo neón que contrastan con la silueta de la torre."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063321/cgs_portfolio/Manifesta-15-Tres-chimeneas-_2_.webp", "caption": "Manifesta 15. Las Tres Chimeneas", "tags": ["Manifesta 15", "Tres Chimeneas", "patrimonio industrial", "Barcelona", "arte"], "alt": "Vista de la antigua central térmica de Sant Adrià de Besòs bajo un cielo azul vibrante. En primer plano, una cúpula geométrica de crochet blanco forma una instalación artística moderna."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063339/cgs_portfolio/Manifesta-15-Tres-chimeneas-_3_.webp", "caption": "Manifesta 15. Las Tres Chimeneas", "tags": ["Manifesta 15", "Tres Chimeneas", "arquitectura", "Barcelona", "detalle"], "alt": "Una fotografía en blanco y negro de una extensa estructura de madera con un diseño ondulado y repetitivo. La celosía de vigas crea complejos patrones geométricos y proyecta largas sombras."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063336/cgs_portfolio/Manifesta-15-Tres-chimeneas-_4_.webp", "caption": "Manifesta 15. Las Tres Chimeneas. Sala de máquinas", "tags": ["Manifesta 15", "Tres Chimeneas", "sala de máquinas", "Barcelona", "industrial"], "alt": "Imagen en blanco y negro de un vasto espacio industrial de hormigón. En el centro, suspendido, se aprecia un mensaje tipográfico luminoso: 'WHEN WOMEN STRIKE THE WORLD STOPS'."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063066/cgs_portfolio/Sagrada-Familia-04518.webp", "caption": "La Sagrada Familia", "tags": ["Sagrada Familia", "Gaudí", "arquitectura religiosa", "Barcelona", "monumento"], "alt": "Vista interior de la Sagrada Familia, mostrando un gran rosetón central de vidrieras que irradian tonos azules y verdes, iluminando las intrincadas paredes de piedra de estilo Gaudí."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063069/cgs_portfolio/Seafood-Expo-2024.webp", "caption": "Seafood Expo 2024", "tags": ["Seafood Expo", "evento", "Barcelona", "gastronomía", "feria"], "alt": "Primer plano detallado de la cabeza de un atún junto a un gran corte de su lomo rojo intenso, mostrando su frescura y calidad en un ambiente de mercado especializado o feria profesional."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063089/cgs_portfolio/Tibidabo-Estela.webp", "caption": "Estela en el Tibidabo", "tags": ["Tibidabo", "estela", "cielo", "Barcelona", "paisaje"], "alt": "Una vista icónica del Templo Expiatorio del Sagrado Corazón de Jesús. La estatua de Cristo Redentor parece disparar una estela de avión contra el cielo azul, creando una ilusión óptica."},
 FOTO_VELA_2024,
-{"url": "https://i.postimg.cc/43tmQvDf/Drones-La-Merce-2024.webp", "caption": "Espectáculo de drones en La Barceloneta", "tags": ["drones", "espectáculo", "La Mercè", "Barcelona", "noche"], "alt": "Exhibición de drones nocturna que forma las palabras 'LA MERCÈ 24' con luces azules y blancas sobre la costa, con una multitud de espectadores reunida en la arena de la playa."},
-{"url": "https://i.postimg.cc/25vV7dsj/Luz-Natural.webp", "caption": "Luz natural", "tags": ["luz natural", "atmósfera", "Barcelona", "urbano", "detalle"], "alt": "Una lámpara colgante de diseño moderno en tono beige ilumina una pared clara, creando un juego de luces y sombras orgánicas y abstractas en un ambiente minimalista."},
-{"url": "https://i.postimg.cc/cHS69gSV/Manifesta-15-Tres-chimeneas-(1).webp", "caption": "Manifesta 15. Las Tres Chimeneas", "tags": ["Manifesta 15", "Tres Chimeneas", "arquitectura", "Barcelona", "industrial"], "alt": "Fotografía en blanco y negro de la estructura industrial de las Tres Chimeneas capturada desde un contrapicado, resaltando la monumentalidad de las chimeneas y los patrones geométricos."},
-{"url": "https://i.postimg.cc/9Mhz8R23/Sagrada-Familia-04522.webp", "caption": "Lo que estás haciendo, hazlo de prisa. Juan 13.27", "tags": ["Sagrada Familia", "Gaudí", "detalle", "Barcelona", "inscripción"], "alt": "Un operario equipado con arnés desciende por la Fachada de la Pasión de la Sagrada Familia, junto a las esculturas angulares y la inscripción bíblica grabada en la piedra."},
-{"url": "https://i.postimg.cc/Kz24qk26/Torre-Glories-Mirador.webp", "caption": "Mirador de la Torre Glòries", "tags": ["Torre Glòries", "mirador", "arquitectura", "Barcelona", "vistas"], "alt": "Vista desde el interior del mirador de la Torre Glòries. Grandes ventanales curvos revelan el paisaje urbano al atardecer bajo un techo de compleja estructura geométrica."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063100/cgs_portfolio/Drones-La-Merce-2024.webp", "caption": "Espectáculo de drones en La Barceloneta", "tags": ["drones", "espectáculo", "La Mercè", "Barcelona", "noche"], "alt": "Exhibición de drones nocturna que forma las palabras 'LA MERCÈ 24' con luces azules y blancas sobre la costa, con una multitud de espectadores reunida en la arena de la playa."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063102/cgs_portfolio/Luz-Natural.webp", "caption": "Luz natural", "tags": ["luz natural", "atmósfera", "Barcelona", "urbano", "detalle"], "alt": "Una lámpara colgante de diseño moderno en tono beige ilumina una pared clara, creando un juego de luces y sombras orgánicas y abstractas en un ambiente minimalista."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063344/cgs_portfolio/Manifesta-15-Tres-chimeneas-_1_.webp", "caption": "Manifesta 15. Las Tres Chimeneas", "tags": ["Manifesta 15", "Tres Chimeneas", "arquitectura", "Barcelona", "industrial"], "alt": "Fotografía en blanco y negro de la estructura industrial de las Tres Chimeneas capturada desde un contrapicado, resaltando la monumentalidad de las chimeneas y los patrones geométricos."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063126/cgs_portfolio/Sagrada-Familia-04522.webp", "caption": "Lo que estás haciendo, hazlo de prisa. Juan 13.27", "tags": ["Sagrada Familia", "Gaudí", "detalle", "Barcelona", "inscripción"], "alt": "Un operario equipado con arnés desciende por la Fachada de la Pasión de la Sagrada Familia, junto a las esculturas angulares y la inscripción bíblica grabada en la piedra."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063148/cgs_portfolio/Torre-Glories-Mirador.webp", "caption": "Mirador de la Torre Glòries", "tags": ["Torre Glòries", "mirador", "arquitectura", "Barcelona", "vistas"], "alt": "Vista desde el interior del mirador de la Torre Glòries. Grandes ventanales curvos revelan el paisaje urbano al atardecer bajo un techo de compleja estructura geométrica."},
     ]
   },
   {
     id: "GaleBCN2025",
-    url: "https://i.postimg.cc/rFChHGMn/Tibidabo_vistas_aereas_(2).webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063345/cgs_portfolio/Tibidabo_vistas_aereas__2_.webp",
     titulo: "Barcelona",
     ubicacion: "Escenas 2025",
     resumen: "Perspectivas urbanas de 2025: geometrías fractales, alturas panorámicas sobre la ciudad, vestigios fabriles en el Poblenou y la poética de la luz crepuscular.",
     reseña: "Un recorrido contemplativo por una Barcelona que acompasa su herencia industrial y modernista con la vanguardia arquitectónica. Desde las vistas vertiginosas del Tibidabo y la silueta recortada del Palau Nacional al ocaso, hasta los destellos dorados en la cubierta del Mercat dels Encants y la serenidad vegetal de la Torre Girona en Pedralbes. Chimeneas históricas entre gigantes festivos, la audacia del kitesurf sobre las olas mediterráneas y las formas esculpidas de Gaudí componen este testimonio visual del pulso actual barcelonés.",
-    urlImagen: "https://i.postimg.cc/rFChHGMn/Tibidabo-vistas-aereas-(2).webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063383/cgs_portfolio/Tibidabo-vistas-aereas-_2_.webp",
     categoria: "España",
     fecha: "2025",
     equipo: "Samsung Galaxy S25 Ultra",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/Y9hZKvbL/Jardines-de-la-Torre-Girona-Pedralbes.webp", "caption": "Jardines de la Torre Girona, Pedralbes", "tags": ["jardín", "naturaleza", "estanque", "reflejo", "Barcelona", "Pedralbes"], "alt": "Una pintoresca vista de los Jardines de la Torre Girona en Pedralbes, destacando un pabellón rojo con tejado cónico y una escalera que desciende hacia un estanque rodeado de vegetación frondosa."},
-{"url": "https://i.postimg.cc/vBckF431/Palau-Nacional-atardecer.webp", "caption": "Atardecer sobre el Palau Nacional de Montjuïc", "tags": ["Palau Nacional", "atardecer", "arquitectura", "Barcelona", "Montjuïc"], "alt": "Impresionante silueta del Palau Nacional de Barcelona contra un vibrante cielo anaranjado al atardecer. Las cúpulas y torres icónicas se recortan majestuosamente sobre el horizonte crepuscular."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063266/cgs_portfolio/Jardines-de-la-Torre-Girona-Pedralbes.webp", "caption": "Jardines de la Torre Girona, Pedralbes", "tags": ["jardín", "naturaleza", "estanque", "reflejo", "Barcelona", "Pedralbes"], "alt": "Una pintoresca vista de los Jardines de la Torre Girona en Pedralbes, destacando un pabellón rojo con tejado cónico y una escalera que desciende hacia un estanque rodeado de vegetación frondosa."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063287/cgs_portfolio/Palau-Nacional-atardecer.webp", "caption": "Atardecer sobre el Palau Nacional de Montjuïc", "tags": ["Palau Nacional", "atardecer", "arquitectura", "Barcelona", "Montjuïc"], "alt": "Impresionante silueta del Palau Nacional de Barcelona contra un vibrante cielo anaranjado al atardecer. Las cúpulas y torres icónicas se recortan majestuosamente sobre el horizonte crepuscular."},
 FOTO_KITESURF_2025,
-{"url": "https://i.postimg.cc/Yqwn8DKs/Mercart-Encants.webp", "caption": "Geometría fractal en el Mercat dels Encants", "tags": [ "Mercat dels Encants", "arquitectura moderna", "Barcelona", "reflejos", "geometría" ], "alt": "Vista del techo angular y reflectante del Mercat dels Encants en Barcelona. La estructura dorada crea un juego de espejos y perspectivas fascinante bajo un cielo nublado." },
-{"url": "https://i.postimg.cc/bNjCLVcW/Puente-Madera-Villa-Olimpica-105742.webp", "caption": "Puente de madera en la Vila Olímpica", "tags": ["puente", "madera", "arquitectura", "Barcelona", "Vila Olímpica"], "alt": "Vista frontal y simétrica desde el interior de un puente peatonal de madera y metal en la Vila Olímpica, enmarcando un edificio circular bajo un cielo azul vibrante."},
-{"url": "https://i.postimg.cc/rFChHGMn/Tibidabo-vistas-aereas-(2).webp", "caption": "Vértigo y vistas desde el Tibidabo", "tags": [ "Tibidabo", "Barcelona", "parque de atracciones", "vistas aéreas", "Sierra de Collserola" ], "alt": "Atrevida perspectiva desde una de las atracciones del Tibidabo. La cabina en primer plano enmarca una vista espectacular de Barcelona que se extiende hasta el mar, con la Sagrada Familia destacando en la trama urbana." },
-{"url": "https://i.postimg.cc/X7c2PK41/Torre-Glories-luna-llena-1.webp", "caption": "Luna llena sobre la Torre Glòries", "tags": ["Torre Glòries", "luna llena", "noche", "arquitectura", "Barcelona"], "alt": "Vista panorámica de la icónica Torre Glòries en Barcelona con la luna llena visible en el cielo pálido. La torre refleja los tonos cálidos del atardecer sobre el paisaje urbano."},
-{"url": "https://i.postimg.cc/T36zLYYk/Can-Saladrigas-094616(1)(1)(1).webp", "caption": "Detalle arquitectónico en Can Saladrigas", "tags": ["Can Saladrigas", "arquitectura", "detalle", "Barcelona", "Poblenou"], "alt": "Plaza urbana con el edificio de ladrillo de estilo industrial de Can Saladrigas. Muestra una alta chimenea y ventanas que sugieren su pasado fabril en el barrio del Poblenou."},
-{"url": "https://i.postimg.cc/T1cjHY6V/Andamios-La-Merce-2025-hires.webp", "caption": "Andamios durante las fiestas de La Mercè", "tags": ["andamios", "construcción", "La Mercè", "Barcelona", "urbano"], "alt": "Seis trabajadores en silueta sobre una imponente estructura de andamios bajo un cielo azul. Se observa una manga de viento roja y blanca en la parte superior de la construcción."},
-{"url": "https://i.postimg.cc/hv083PBV/Cabeza-Olmeca-Pedralbes-(2).webp", "caption": "Cabeza Olmeca en los jardines de Pedralbes", "tags": ["Cabeza Olmeca", "escultura", "jardín", "Barcelona", "Pedralbes"], "alt": "Cabeza colosal Olmeca de piedra en los jardines de Pedralbes. Capturada desde un ángulo bajo, destaca sus rasgos robustos rodeada de pinos y vegetación exuberante."},
-{"url": "https://i.postimg.cc/rs9GYFkD/Can-Saladrigas.webp", "caption": "Fachada histórica de Can Saladrigas", "tags": ["Can Saladrigas", "arquitectura", "fachada", "Barcelona", "Poblenou"], "alt": "Imponente chimenea de ladrillo en el centro de una plaza con el edificio de la antigua fábrica Can Saladrigas al fondo bajo un cielo de tonos rosados y azules."},
-{"url": "https://i.postimg.cc/RhT1bVB6/Chimenea-Ramon-Turro-con-Gigant.webp", "caption": "Chimenea de la calle Ramón Turró con Gigante", "tags": ["chimenea", "patrimonio industrial", "Barcelona", "Poblenou", "gigante"], "alt": "Figura de un cabezudo (gigante) sonriente con beret rojo apoyada contra una columna de ladrillo en un entorno urbano del Poblenou, cerca de edificios modernos."},
-{"url": "https://i.postimg.cc/4y1vFNgV/Crucero.webp", "caption": "Crucero en el puerto de Barcelona", "tags": ["crucero", "barco", "puerto", "Barcelona", "mar"], "alt": "Imagen en blanco y negro de un gran crucero moderno atracado en el puerto de Barcelona bajo un cielo nublado, con palmeras y pequeñas embarcaciones en primer plano."},
-{"url": "https://i.postimg.cc/T1cjHY6h/La-Pedrera-con-farolas-(1).webp", "caption": "La Pedrera enmarcada por farolas modernistas", "tags": ["La Pedrera", "Gaudí", "modernismo", "farolas", "Barcelona"], "alt": "Perspectiva de la azotea de La Pedrera (Casa Milà). En primer plano, una reja de hierro forjado en silueta y al fondo las icónicas chimeneas escultóricas de Gaudí."},
-{"url": "https://i.postimg.cc/J0Q3d4Lh/Teleferico.webp", "caption": "Teleférico del puerto cruzando el cielo", "tags": ["teleférico", "puerto", "cielo", "Barcelona", "transporte"], "alt": "Vista de la parte superior de una torre metálica del teleférico del puerto. Dos cabinas rojas se desplazan por los cables bajo un cielo nublado sobre la infraestructura de ingeniería."},
-{"url": "https://i.postimg.cc/qqGcZMTq/Torre-Glories-con-flor.webp", "caption": "Torre Glòries y primer plano floral", "tags": ["Torre Glòries", "arquitectura", "flores", "Barcelona", "naturaleza"], "alt": "Una vibrante flor rosa en primer plano que contrasta con la silueta curvada y difuminada de la Torre Glòries al fondo, uniendo naturaleza y arquitectura moderna."},
-{"url": "https://i.postimg.cc/4y1vFNgm/Torre-Glories-luna-llena-2.webp", "caption": "Cae la tarde sobre la Torre Glòries", "tags": ["Torre Glòries", "atardecer", "arquitectura", "Barcelona", "luna"], "alt": "La icónica Torre Glòries de Barcelona capturada al caer la tarde, con el diseño elíptico del edificio destacando en el skyline urbano bajo la luz crepuscular."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063330/cgs_portfolio/Mercart-Encants.webp", "caption": "Geometría fractal en el Mercat dels Encants", "tags": [ "Mercat dels Encants", "arquitectura moderna", "Barcelona", "reflejos", "geometría" ], "alt": "Vista del techo angular y reflectante del Mercat dels Encants en Barcelona. La estructura dorada crea un juego de espejos y perspectivas fascinante bajo un cielo nublado." },
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063351/cgs_portfolio/Puente-Madera-Villa-Olimpica-105742.webp", "caption": "Puente de madera en la Vila Olímpica", "tags": ["puente", "madera", "arquitectura", "Barcelona", "Vila Olímpica"], "alt": "Vista frontal y simétrica desde el interior de un puente peatonal de madera y metal en la Vila Olímpica, enmarcando un edificio circular bajo un cielo azul vibrante."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063383/cgs_portfolio/Tibidabo-vistas-aereas-_2_.webp", "caption": "Vértigo y vistas desde el Tibidabo", "tags": [ "Tibidabo", "Barcelona", "parque de atracciones", "vistas aéreas", "Sierra de Collserola" ], "alt": "Atrevida perspectiva desde una de las atracciones del Tibidabo. La cabina en primer plano enmarca una vista espectacular de Barcelona que se extiende hasta el mar, con la Sagrada Familia destacando en la trama urbana." },
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063364/cgs_portfolio/Torre-Glories-luna-llena-1.webp", "caption": "Luna llena sobre la Torre Glòries", "tags": ["Torre Glòries", "luna llena", "noche", "arquitectura", "Barcelona"], "alt": "Vista panorámica de la icónica Torre Glòries en Barcelona con la luna llena visible en el cielo pálido. La torre refleja los tonos cálidos del atardecer sobre el paisaje urbano."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063387/cgs_portfolio/Can-Saladrigas-094616_1__1__1_.webp", "caption": "Detalle arquitectónico en Can Saladrigas", "tags": ["Can Saladrigas", "arquitectura", "detalle", "Barcelona", "Poblenou"], "alt": "Plaza urbana con el edificio de ladrillo de estilo industrial de Can Saladrigas. Muestra una alta chimenea y ventanas que sugieren su pasado fabril en el barrio del Poblenou."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063367/cgs_portfolio/Andamios-La-Merce-2025-hires.webp", "caption": "Andamios durante las fiestas de La Mercè", "tags": ["andamios", "construcción", "La Mercè", "Barcelona", "urbano"], "alt": "Seis trabajadores en silueta sobre una imponente estructura de andamios bajo un cielo azul. Se observa una manga de viento roja y blanca en la parte superior de la construcción."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063384/cgs_portfolio/Cabeza-Olmeca-Pedralbes-_2_.webp", "caption": "Cabeza Olmeca en los jardines de Pedralbes", "tags": ["Cabeza Olmeca", "escultura", "jardín", "Barcelona", "Pedralbes"], "alt": "Cabeza colosal Olmeca de piedra en los jardines de Pedralbes. Capturada desde un ángulo bajo, destaca sus rasgos robustos rodeada de pinos y vegetación exuberante."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063385/cgs_portfolio/Can-Saladrigas.webp", "caption": "Fachada histórica de Can Saladrigas", "tags": ["Can Saladrigas", "arquitectura", "fachada", "Barcelona", "Poblenou"], "alt": "Imponente chimenea de ladrillo en el centro de una plaza con el edificio de la antigua fábrica Can Saladrigas al fondo bajo un cielo de tonos rosados y azules."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063386/cgs_portfolio/Chimenea-Ramon-Turro-con-Gigant.webp", "caption": "Chimenea de la calle Ramón Turró con Gigante", "tags": ["chimenea", "patrimonio industrial", "Barcelona", "Poblenou", "gigante"], "alt": "Figura de un cabezudo (gigante) sonriente con beret rojo apoyada contra una columna de ladrillo en un entorno urbano del Poblenou, cerca de edificios modernos."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063387/cgs_portfolio/Crucero.webp", "caption": "Crucero en el puerto de Barcelona", "tags": ["crucero", "barco", "puerto", "Barcelona", "mar"], "alt": "Imagen en blanco y negro de un gran crucero moderno atracado en el puerto de Barcelona bajo un cielo nublado, con palmeras y pequeñas embarcaciones en primer plano."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063393/cgs_portfolio/La-Pedrera-con-farolas-_1_.webp", "caption": "La Pedrera enmarcada por farolas modernistas", "tags": ["La Pedrera", "Gaudí", "modernismo", "farolas", "Barcelona"], "alt": "Perspectiva de la azotea de La Pedrera (Casa Milà). En primer plano, una reja de hierro forjado en silueta y al fondo las icónicas chimeneas escultóricas de Gaudí."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063389/cgs_portfolio/Teleferico.webp", "caption": "Teleférico del puerto cruzando el cielo", "tags": ["teleférico", "puerto", "cielo", "Barcelona", "transporte"], "alt": "Vista de la parte superior de una torre metálica del teleférico del puerto. Dos cabinas rojas se desplazan por los cables bajo un cielo nublado sobre la infraestructura de ingeniería."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063394/cgs_portfolio/Torre-Glories-con-flor.webp", "caption": "Torre Glòries y primer plano floral", "tags": ["Torre Glòries", "arquitectura", "flores", "Barcelona", "naturaleza"], "alt": "Una vibrante flor rosa en primer plano que contrasta con la silueta curvada y difuminada de la Torre Glòries al fondo, uniendo naturaleza y arquitectura moderna."},
+{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063390/cgs_portfolio/Torre-Glories-luna-llena-2.webp", "caption": "Cae la tarde sobre la Torre Glòries", "tags": ["Torre Glòries", "atardecer", "arquitectura", "Barcelona", "luna"], "alt": "La icónica Torre Glòries de Barcelona capturada al caer la tarde, con el diseño elíptico del edificio destacando en el skyline urbano bajo la luz crepuscular."},
     ]
   },
   {
     id: "GaleDeporte",
-    url: "https://i.postimg.cc/Hnnf4XMH/Europeos_atletismo_BCY_2010_(3).webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063395/cgs_portfolio/Europeos_atletismo_BCY_2010__3_.webp",
     titulo: "Esfuerzos detenidos",
     ubicacion: "La estética del deporte",
     resumen: "El vigor físico, la máxima concentración mental y la plasticidad del movimiento humano detenidos en el instante culminante del gesto atlético.",
     reseña: "Más allá de las marcas y la competitividad, esta serie fija su lente en la dimensión estética y anímica del esfuerzo deportivo. Desde la silenciosa mirada de concentración antes del pistoletazo de salida en el tartán azul de Montjuïc hasta la suspensión ingrávida del salto con pértiga, la velocidad desenfocada del ciclismo urbano en Atocha y la elasticidad acrobática sobre la arena del vóley playa. La fuerza del viento dominada en el kitesurf, el agua batida en las piscinas olímpicas y el equilibrio callejero del monopatín configuran un tributo visual a la disciplina corporal.",
-    urlImagen: "https://i.postimg.cc/Hnnf4XMH/Europeos-atletismo-BCN-2010-(3).webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063396/cgs_portfolio/Europeos-atletismo-BCN-2010-_3_.webp",
     categoria: "España",
     fecha: "2009-2025",
     equipo: "",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/Hnnf4XMH/Europeos-atletismo-BCN-2010-(3).webp", "caption": "Concentración en la pista de Montjuïc", "tags": [ "Atletismo", "Barcelona 2010", "Montjuïc", "Deporte", "Atleta" ], "alt": "Primer plano de una atleta durante los Campeonatos Europeos de Atletismo en Barcelona. La imagen capta el momento de máxima concentración y el esfuerzo reflejado en su rostro sobre el azul intenso de la pista de Montjuïc." },
-      {"url": "https://i.postimg.cc/hvvHbTmq/Ciclista-en-Atocha.webp", "caption": "Velocidad urbana: Ciclismo en la Plaza de Atocha", "tags": [ "Ciclismo Urbano", "Madrid", "Atocha", "Velocidad", "Deporte" ], "alt": "Un ciclista urbano capturado con efecto de desenfoque de movimiento mientras cruza la luminosa Plaza de Atocha en Madrid. El dinamismo de la escena contrasta con la arquitectura clásica de la estación al fondo." },
-      {"url": "https://i.postimg.cc/1XXLcwFy/Europeos-atletismo-BCN-2010-(1).webp", "caption": "Salto de pértiga en el Estadio Olímpico Lluís Companys", "tags": [ "Atletismo", "Salto De Pértiga", "Barcelona 2010", "Montjuïc", "Competición" ], "alt": "Un atleta supera el listón en la prueba de salto de pértiga durante los Europeos de Barcelona 2010. La imagen, tomada desde la pista, muestra la tensión del momento y a un fotógrafo capturando la acción en segundo plano." },
-      {"url": "https://i.postimg.cc/RhhjQKtm/Europeos-atletismo-BCN-2010-(2).webp", "caption": "Flexibilidad extrema: Calentamiento de salto de altura", "tags": [ "Atletismo", "Calentamiento", "Salto De Altura", "Barcelona 2010", "Flexibilidad" ], "alt": "Un atleta de la selección de Bélgica realiza un espectacular ejercicio de flexibilidad (puente invertido) sobre el césped de Montjuïc, preparando su musculatura para la prueba de salto de altura." },
-      {"url": "https://i.postimg.cc/8ccqBMvC/Mundial-Voley-Playa-2009-12.webp", "caption": "Saque de potencia en el Mundial de Vóley Playa", "tags": [ "Vóley Playa", "Deporte", "Barcelona", "Competición", "Playa" ], "alt": "Acción dinámica durante el Mundial de Vóley Playa en Barcelona. Una jugadora brasileña se eleva en el aire para un saque de potencia, con el balón en el punto más alto, mientras su compañera y el público siguen el movimiento desde la arena." },
-      {"url": "https://i.postimg.cc/rsH7hsGM/Mundial-Voley-Playa-2009-4.webp", "caption": "La plástica del remate ante las fuentes de Montjuïc", "tags": [ "Vóley Playa", "Competición", "Barcelona", "Montjuïc", "Remate" ], "alt": "Una atleta femenina en plena acción durante una competición de vóley playa en un entorno emblemático. El salto para el remate se enmarca con el fondo de las fuentes de Montjuïc, destacando la estética del deporte en la ciudad." },
-      {"url": "https://i.postimg.cc/j22GQPf2/Mundial-Voley-Playa-2009.webp", "caption": "Dúo japonés en las arenas de Barcelona", "tags": [ "Vóley Playa", "Barcelona 2009", "Deporte", "Japón", "Mundial" ], "alt": "Jugadoras de la selección japonesa de vóley playa caminan por la pista de arena durante el Mundial de Barcelona. Sus equipaciones verdes destacan en el entorno soleado de la competición costera." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063396/cgs_portfolio/Europeos-atletismo-BCN-2010-_3_.webp", "caption": "Concentración en la pista de Montjuïc", "tags": [ "Atletismo", "Barcelona 2010", "Montjuïc", "Deporte", "Atleta" ], "alt": "Primer plano de una atleta durante los Campeonatos Europeos de Atletismo en Barcelona. La imagen capta el momento de máxima concentración y el esfuerzo reflejado en su rostro sobre el azul intenso de la pista de Montjuïc." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063397/cgs_portfolio/Ciclista-en-Atocha.webp", "caption": "Velocidad urbana: Ciclismo en la Plaza de Atocha", "tags": [ "Ciclismo Urbano", "Madrid", "Atocha", "Velocidad", "Deporte" ], "alt": "Un ciclista urbano capturado con efecto de desenfoque de movimiento mientras cruza la luminosa Plaza de Atocha en Madrid. El dinamismo de la escena contrasta con la arquitectura clásica de la estación al fondo." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063398/cgs_portfolio/Europeos-atletismo-BCN-2010-_1_.webp", "caption": "Salto de pértiga en el Estadio Olímpico Lluís Companys", "tags": [ "Atletismo", "Salto De Pértiga", "Barcelona 2010", "Montjuïc", "Competición" ], "alt": "Un atleta supera el listón en la prueba de salto de pértiga durante los Europeos de Barcelona 2010. La imagen, tomada desde la pista, muestra la tensión del momento y a un fotógrafo capturando la acción en segundo plano." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063397/cgs_portfolio/Europeos-atletismo-BCN-2010-_2_.webp", "caption": "Flexibilidad extrema: Calentamiento de salto de altura", "tags": [ "Atletismo", "Calentamiento", "Salto De Altura", "Barcelona 2010", "Flexibilidad" ], "alt": "Un atleta de la selección de Bélgica realiza un espectacular ejercicio de flexibilidad (puente invertido) sobre el césped de Montjuïc, preparando su musculatura para la prueba de salto de altura." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063398/cgs_portfolio/Mundial-Voley-Playa-2009-12.webp", "caption": "Saque de potencia en el Mundial de Vóley Playa", "tags": [ "Vóley Playa", "Deporte", "Barcelona", "Competición", "Playa" ], "alt": "Acción dinámica durante el Mundial de Vóley Playa en Barcelona. Una jugadora brasileña se eleva en el aire para un saque de potencia, con el balón en el punto más alto, mientras su compañera y el público siguen el movimiento desde la arena." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063399/cgs_portfolio/Mundial-Voley-Playa-2009-4.webp", "caption": "La plástica del remate ante las fuentes de Montjuïc", "tags": [ "Vóley Playa", "Competición", "Barcelona", "Montjuïc", "Remate" ], "alt": "Una atleta femenina en plena acción durante una competición de vóley playa en un entorno emblemático. El salto para el remate se enmarca con el fondo de las fuentes de Montjuïc, destacando la estética del deporte en la ciudad." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063400/cgs_portfolio/Mundial-Voley-Playa-2009.webp", "caption": "Dúo japonés en las arenas de Barcelona", "tags": [ "Vóley Playa", "Barcelona 2009", "Deporte", "Japón", "Mundial" ], "alt": "Jugadoras de la selección japonesa de vóley playa caminan por la pista de arena durante el Mundial de Barcelona. Sus equipaciones verdes destacan en el entorno soleado de la competición costera." },
       FOTO_ACROBACIA_2015,
       FOTO_KITESURF_MAR_BELLA_2015,
       FOTO_MARATON_BCN_2015,
@@ -186,215 +186,215 @@ FOTO_KITESURF_2025,
   },
   {
     id: "GaleMusic",
-    url: "https://i.postimg.cc/vTqQQ3GF/Concierto_Rosario_Flores_2.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063400/cgs_portfolio/Concierto_Rosario_Flores_2.webp",
     titulo: "Los rostros tras las melodías",
     ubicacion: "Compases humanos",
     resumen: "Retratos expresivos y directos en vivo que inmortalizan el duende, la entrega interpretativa y la cercanía de artistas y directores en el escenario.",
     reseña: "Un homenaje fotográfico a los protagonistas del sonido en el instante irrepetible de la interpretación musical. La cámara se adentra en el trance expresivo de los escenarios: el temperamento visceral de Rosario Flores bajo los focos de La Mercè, la sonrisa virtuosa de Esperanza Spalding acariciando el contrabajo en el Teatre Grec, la complicidad caribeña entre Chucho Valdés y Buika en los jardines de Peralada, o el gesto reflexivo del maestro Gustavo Dudamel antes de alzar la batuta. Desde los auditorios ilustres hasta la espontaneidad del músico callejero, cada encuadre festeja la pasión que anima la música.",
-    urlImagen: "https://i.postimg.cc/vTqQQ3GF/Concierto-Rosario-Flores-2.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063400/cgs_portfolio/Concierto-Rosario-Flores-2.webp",
     categoria: "España y Europa",
     fecha: "2009-2010",
     equipo: "",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/WpXp6bgq/Shakira-de-paseo-2.webp", "caption": "La cantante Shakira en la Barceloneta. Verano 2010", "tags": ["Shakira", "Celebridad", "Concierto", "Fotógrafos", "Primer plano"], "alt": "Primer plano de la cantante Shakira con su característico cabello rubio y ondulado. Su boca está ligeramente abierta, sugiriendo que está cantando, hablando o reaccionando. En el fondo, desenfocado, se aprecian figuras de fotógrafos con cámaras profesionales, uno de ellos con gorra roja y barba, capturando el momento. La imagen transmite la atmósfera de un evento público o un concierto donde la celebridad es el centro de atención."},
-      {"url": "https://i.postimg.cc/qqbkkjpT/Concha-Buika-Chucho-Valdes-3.webp", "caption": "Chucho Valdés y Concha Buika en el Festival de Peralada", "tags": [ "Buika", "concierto", "música en vivo", "jazz", "cantante", "pianista", "piano Steinway", "Castell de Peralada" ], "alt": "Una apasionada actuación en vivo en el Festival de Peralada. La cantante Concha Buika, con un traje dorado, comparte escenario con el maestro Chucho Valdés al piano de cola, bajo una iluminación que resalta la intensidad del momento." },
-      {"url": "https://i.postimg.cc/vTqQQ3GF/Concierto-Rosario-Flores-2.webp", "caption": "Fuerza y duende: Rosario Flores en La Mercè", "tags": [ "Rosario Flores", "flamenco pop", "concierto", "La Mercè", "Barcelona", "escenario" ], "alt": "La cantante Rosario Flores en un momento de gran intensidad dramática sobre el escenario durante las fiestas de La Mercè. Ataviada con un traje de plumas, sostiene el micrófono con pasión bajo un foco que realza su expresividad." },
-      {"url": "https://i.postimg.cc/qqbkkjpd/Esperanza-Spalding-BCN-2009.webp", "caption": "Esperanza Spalding y su contrabajo en el Teatre Grec", "tags": [ "Esperanza Spalding", "jazz", "contrabajo", "Barcelona", "Festival Grec", "concierto" ], "alt": "La virtuosa Esperanza Spalding sonriente mientras toca el contrabajo en el escenario del Teatre Grec. La iluminación cálida destaca la alegría y concentración de la artista durante su actuación en el festival de verano de Barcelona." },
-      {"url": "https://i.postimg.cc/yd4sDH6q/Cecilia-Bartoli-Palau-de-la-Musica-2009.webp", "caption": "Cercanía y genio: Cecilia Bartoli con sus admiradores en el Palau de la Música Catalana", "tags": ["Cecilia Bartoli", "Mezzosoprano", "Palau de la Música", "Barcelona", "Música Clásica", "Autógrafos", "Encuentro"], "alt": "La mezzosoprano italiana Cecilia Bartoli, con su característica sonrisa y una bufanda naranja, se inclina con amabilidad para firmar autógrafos a un grupo de admiradores en el Palau de la Música Catalana tras un concierto en 2009."},
-      {"url": "https://i.postimg.cc/85QN7SkQ/Gustavo-Dudamel-Auditorio-BCN-2009.webp", "caption": "La pausa del maestro: Retrato de Gustavo Dudamel en L'Auditori", "tags": ["Gustavo Dudamel", "Director de Orquesta", "Retrato", "L'Auditori", "Barcelona", "Música Clásica", "Perfil"], "alt": "Retrato de perfil del director venezolano Gustavo Dudamel en 2009. Se aprecia su expresión serena y concentrada antes de un concierto en L'Auditori de Barcelona, resaltando su icónico cabello rizado sobre un fondo neutro."},
-      {"url": "https://i.postimg.cc/Zn7TTVJz/Festival-Asia-1.webp", "caption": "Joven asiática toca el guzheng. Festival Asia - Grec 2010", "tags": ["guzheng", "música tradicional china", "mujer", "qipao", "actuación en vivo"], "alt": "Una joven asiática, vestida con un vibrante Qipao chino tradicional rojo con bordados florales, toca con concentración un Guzheng. Está sentada, con ambas manos interactuando con las cuerdas del largo instrumento de madera. El fondo oscuro realza a la intérprete y su instrumento. Un soporte de micrófono es visible, sugiriendo una actuación en vivo. Su cabello oscuro y postura elegante contribuyen a la atmósfera serena."},
-      {"url": "https://i.postimg.cc/zD0DSXKb/Musica-en-La-Barceloneta-2010.webp", "caption": "Hombre orquesta. Barceloneta 2010", "tags": ["músico", "hombre orquesta", "armónica", "batería", "sonriendo"], "alt": "Primer plano de un músico callejero rubio y sonriente, interpretando varios instrumentos simultáneamente. Lleva gafas de sol, una armónica sujeta a un soporte en el cuello y está rodeado por partes de una batería, incluyendo un tambor y un platillo. La imagen captada su expresión de alegría y energía durante una actuación al aire libre, bajo la luz del sol."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063401/cgs_portfolio/Shakira-de-paseo-2.webp", "caption": "La cantante Shakira en la Barceloneta. Verano 2010", "tags": ["Shakira", "Celebridad", "Concierto", "Fotógrafos", "Primer plano"], "alt": "Primer plano de la cantante Shakira con su característico cabello rubio y ondulado. Su boca está ligeramente abierta, sugiriendo que está cantando, hablando o reaccionando. En el fondo, desenfocado, se aprecian figuras de fotógrafos con cámaras profesionales, uno de ellos con gorra roja y barba, capturando el momento. La imagen transmite la atmósfera de un evento público o un concierto donde la celebridad es el centro de atención."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063401/cgs_portfolio/Concha-Buika-Chucho-Valdes-3.webp", "caption": "Chucho Valdés y Concha Buika en el Festival de Peralada", "tags": [ "Buika", "concierto", "música en vivo", "jazz", "cantante", "pianista", "piano Steinway", "Castell de Peralada" ], "alt": "Una apasionada actuación en vivo en el Festival de Peralada. La cantante Concha Buika, con un traje dorado, comparte escenario con el maestro Chucho Valdés al piano de cola, bajo una iluminación que resalta la intensidad del momento." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063400/cgs_portfolio/Concierto-Rosario-Flores-2.webp", "caption": "Fuerza y duende: Rosario Flores en La Mercè", "tags": [ "Rosario Flores", "flamenco pop", "concierto", "La Mercè", "Barcelona", "escenario" ], "alt": "La cantante Rosario Flores en un momento de gran intensidad dramática sobre el escenario durante las fiestas de La Mercè. Ataviada con un traje de plumas, sostiene el micrófono con pasión bajo un foco que realza su expresividad." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063402/cgs_portfolio/Esperanza-Spalding-BCN-2009.webp", "caption": "Esperanza Spalding y su contrabajo en el Teatre Grec", "tags": [ "Esperanza Spalding", "jazz", "contrabajo", "Barcelona", "Festival Grec", "concierto" ], "alt": "La virtuosa Esperanza Spalding sonriente mientras toca el contrabajo en el escenario del Teatre Grec. La iluminación cálida destaca la alegría y concentración de la artista durante su actuación en el festival de verano de Barcelona." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063402/cgs_portfolio/Cecilia-Bartoli-Palau-de-la-Musica-2009.webp", "caption": "Cercanía y genio: Cecilia Bartoli con sus admiradores en el Palau de la Música Catalana", "tags": ["Cecilia Bartoli", "Mezzosoprano", "Palau de la Música", "Barcelona", "Música Clásica", "Autógrafos", "Encuentro"], "alt": "La mezzosoprano italiana Cecilia Bartoli, con su característica sonrisa y una bufanda naranja, se inclina con amabilidad para firmar autógrafos a un grupo de admiradores en el Palau de la Música Catalana tras un concierto en 2009."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063403/cgs_portfolio/Gustavo-Dudamel-Auditorio-BCN-2009.webp", "caption": "La pausa del maestro: Retrato de Gustavo Dudamel en L'Auditori", "tags": ["Gustavo Dudamel", "Director de Orquesta", "Retrato", "L'Auditori", "Barcelona", "Música Clásica", "Perfil"], "alt": "Retrato de perfil del director venezolano Gustavo Dudamel en 2009. Se aprecia su expresión serena y concentrada antes de un concierto en L'Auditori de Barcelona, resaltando su icónico cabello rizado sobre un fondo neutro."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063403/cgs_portfolio/Festival-Asia-1.webp", "caption": "Joven asiática toca el guzheng. Festival Asia - Grec 2010", "tags": ["guzheng", "música tradicional china", "mujer", "qipao", "actuación en vivo"], "alt": "Una joven asiática, vestida con un vibrante Qipao chino tradicional rojo con bordados florales, toca con concentración un Guzheng. Está sentada, con ambas manos interactuando con las cuerdas del largo instrumento de madera. El fondo oscuro realza a la intérprete y su instrumento. Un soporte de micrófono es visible, sugiriendo una actuación en vivo. Su cabello oscuro y postura elegante contribuyen a la atmósfera serena."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063404/cgs_portfolio/Musica-en-La-Barceloneta-2010.webp", "caption": "Hombre orquesta. Barceloneta 2010", "tags": ["músico", "hombre orquesta", "armónica", "batería", "sonriendo"], "alt": "Primer plano de un músico callejero rubio y sonriente, interpretando varios instrumentos simultáneamente. Lleva gafas de sol, una armónica sujeta a un soporte en el cuello y está rodeado por partes de una batería, incluyendo un tambor y un platillo. La imagen captada su expresión de alegría y energía durante una actuación al aire libre, bajo la luz del sol."},
       FOTO_AMSTERDAM_UITMARKT_CONCIERTO,
     ]
   },
   {
     id: "Gale2019",
-    url: "https://i.postimg.cc/13yq4pFx/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063405/cgs_portfolio/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
     titulo: "Barcelona · Madrid · Caracas",
     ubicacion: "Escenas 2019",
     resumen: "Pinceladas urbanas, naturaleza tropical, expresiones artísticas y vida cotidiana captadas a lo largo de 2019 entre Barcelona, Madrid y Caracas.",
     reseña: "Un recorrido transatlántico que conecta la vibración cultural de tres ciudades emblemáticas en 2019. Desde la levedad de la danza en las piedras del Museu Picasso y la Catedral de Barcelona, pasando por los festivales de luz en el Poblenou y el dinamismo de la Gran Vía y la Estación de Atocha en Madrid, hasta la exuberante fauna y la tradición culinaria en las colinas de Caracas.",
-    urlImagen: "https://i.postimg.cc/13yq4pFx/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063405/cgs_portfolio/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
     categoria: "Europa y América",
     fecha: "2019",
     equipo: "Samsung SM-G975F · Sony ILCE-6000",
     galeriaTematica: [
       {
-        "url": "https://i.postimg.cc/13yq4pFx/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063405/cgs_portfolio/Museo-Picasso-Dia-de-los-Museos-bailarina.webp",
         "caption": "Giro en el patio gótico: la gracia de la danza en el Día Internacional de los Museos",
         "tags": ["Museu Picasso", "Danza", "Bailarina", "Día de los Museos", "Barcelona", "Patrimonio"],
         "alt": "Una bailarina con tutú rosado ejecuta un elegante pirueta sobre las losas de piedra del patio medieval del Museu Picasso durante la jornada de puertas abiertas."
       },
       {
-        "url": "https://i.postimg.cc/sDdSCFDD/Bailarina-Catedral-Barcelona.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063406/cgs_portfolio/Bailarina-Catedral-Barcelona.webp",
         "caption": "Danza y piedra: la levedad de una bailarina ante la portada gótica de la Catedral",
         "tags": ["Danza", "Bailarina", "Catedral de Barcelona", "Barri Gòtic", "Arte Urbano", "Barcelona"],
         "alt": "Una bailarina en puntas posa con elegancia frente a la majestuosa fachada neogótica de la Catedral de Barcelona, contrastando el movimiento fluido con la sobriedad del monumento."
       },
       {
-        "url": "https://i.postimg.cc/YqKgBcqv/Banos-portatiles-Cursa-Dona-2019-Montjuic.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063406/cgs_portfolio/Banos-portatiles-Cursa-Dona-2019-Montjuic.webp",
         "caption": "Ritmo y color: alineación geométrica de baños portátiles en la Cursa de la Dona",
         "tags": ["Cursa de la Dona", "Montjuïc", "Geometría Urbana", "Color", "Barcelona", "Evento Popular"],
         "alt": "Vibrantes módulos de baños portátiles de vivos colores alineados en formación sobre el entorno verde de Montjuïc con reflejos en el agua cercana."
       },
       {
-        "url": "https://i.postimg.cc/4NktRCNK/Castillo-Montjuic-2.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063408/cgs_portfolio/Castillo-Montjuic-2.webp",
         "caption": "Mirador de piedra: silueta y horizonte dramático desde el Castillo de Montjuïc",
         "tags": ["Castillo de Montjuïc", "Montjuïc", "Barcelona", "Patrimonio", "Atardecer", "Panorámica"],
         "alt": "Un transeúnte contempla el amplio paisaje urbano de Barcelona desde el adarve del Castillo de Montjuïc bajo un cielo cargado de matices dramáticos."
       },
       {
-        "url": "https://i.postimg.cc/PrsZnGrq/CC-Gran-Via-2-Decoracion-primavera.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063407/cgs_portfolio/CC-Gran-Via-2-Decoracion-primavera.webp",
         "caption": "Bóveda de sombrillas: explosión de color bajo la cubierta de cristal de Gran Vía 2",
         "tags": ["Gran Vía 2", "Instalación", "Color", "Sombrillas", "Arquitectura", "Primavera"],
         "alt": "Llamativa instalación efímera de cientos de sombrillas flotantes de múltiples colores suspendidas bajo el gran lucernario acristalado del centro comercial."
       },
       {
-        "url": "https://i.postimg.cc/KvSLhXvB/Centro-Nacional-Accion-Social-por-la-Musica-Caracas-1.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063408/cgs_portfolio/Centro-Nacional-Accion-Social-por-la-Musica-Caracas-1.webp",
         "caption": "Partitura geométrica: abstracción arquitectónica en el Centro de Acción Social por la Música",
         "tags": ["Caracas", "El Sistema", "Centro de Acción Social por la Música", "Arquitectura Moderna", "Venezuela", "Música"],
         "alt": "Detalle arquitectónico vanguardista del Centro Nacional de Acción Social por la Música en Caracas, donde volúmenes geométricos y líneas limpias rinden tributo al arte sonoro."
       },
       {
-        "url": "https://i.postimg.cc/zXChJdV3/Clochard-con-perro-y-flores.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063409/cgs_portfolio/Clochard-con-perro-y-flores.webp",
         "caption": "Dignidad en la calle: la complicidad de un hombre, su perro y un ramo de flores",
         "tags": ["Escenas de Calle", "Retrato Urbano", "Empatía", "Arte Urbano", "Vida Cotidiana"],
         "alt": "Un hombre sentado en la vía pública junto a su fiel perro sostiene con ternura un ramo de flores frescas, con un fondo de coloridos murales callejeros."
       },
       {
-        "url": "https://i.postimg.cc/J4NX1TGB/Estacion-Atocha-Madrid.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063410/cgs_portfolio/Estacion-Atocha-Madrid.webp",
         "caption": "Templo del hierro y la luz: la fachada histórica de la Estación de Atocha",
         "tags": ["Estación de Atocha", "Madrid", "Arquitectura Industrial", "Patrimonio", "Ferrocarril"],
         "alt": "Vista frontal de la emblemática marquesina de hierro y ladrillo rojo de la Estación de Atocha en Madrid bajo un cielo luminoso salpicado de nubes."
       },
       {
-        "url": "https://i.postimg.cc/28QWzHVW/Fabra-i-Coats.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063410/cgs_portfolio/Fabra-i-Coats.webp",
         "caption": "Patrimonio textil reconvertido: los ladrillos de la antigua fábrica Fabra i Coats",
         "tags": ["Fabra i Coats", "Sant Andreu", "Patrimonio Industrial", "Barcelona", "Cultura"],
         "alt": "Panorámica del gran patio interior de la antigua fábrica textil Fabra i Coats en Barcelona, resaltando la majestuosa arquitectura industrial de ladrillo visto."
       },
       {
-        "url": "https://i.postimg.cc/SN69yZJM/Fuentes-BCN.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063410/cgs_portfolio/Fuentes-BCN.webp",
         "caption": "Escultura nocturna: fuente en la Gran Vía barcelonesa bajo el resplandor de la noche",
         "tags": ["Font Màgica", "Montjuïc", "Barcelona", "Escultura", "Noche", "Iluminación"],
         "alt": "Vista posterior de un grupo escultórico clásico rodeado de parterres florales e iluminado por los cálidos focos nocturnos en Montjuïc."
       },
       {
-        "url": "https://i.postimg.cc/TYVbRkpQ/Gran-Via-Madrid-2019.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063412/cgs_portfolio/Gran-Via-Madrid-2019.webp",
         "caption": "Pulsación metropolitana: la vitalidad diurna de la Gran Vía madrileña",
         "tags": ["Gran Vía", "Madrid", "Vida Urbana", "Arquitectura", "Metrópolis"],
         "alt": "Perspectiva dinámica de la calle Gran Vía de Madrid rebosante de transeúntes, carteles de espectáculos teatrales y majestuosos edificios de inicios del siglo XX."
       },
       {
-        "url": "https://i.postimg.cc/VLqtY7dK/Guacamayas-Caracas.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063412/cgs_portfolio/Guacamayas-Caracas.webp",
         "caption": "Símbolos del cielo caraqueño: trío de guacamayas en los balcones de Caracas",
         "tags": ["Guacamayas", "Caracas", "Naturaleza Urbana", "Fauna", "Venezuela", "Colores"],
         "alt": "Tres vistosas guacamayas de plumaje azul y amarillo posadas sobre una barandilla doméstica, con la ciudad tropical de Caracas desplegada al fondo."
       },
       {
-        "url": "https://i.postimg.cc/WbGZ29hX/Hacienda-La-Trinidad.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063412/cgs_portfolio/Hacienda-La-Trinidad.webp",
         "caption": "Geometría vegetal: la singular forma de una especie botánica en Hacienda La Trinidad",
         "tags": ["Hacienda La Trinidad", "Caracas", "Botánica", "Naturaleza", "Jardines", "Venezuela"],
         "alt": "Primer plano detallado de una curiosa estructura foliar de tonos verdes intensos en el parque cultural Hacienda La Trinidad en Caracas."
       },
       {
-        "url": "https://i.postimg.cc/jdHfs8LB/Jenny-Holzer-and-Katharina-Fritsch-MACBA.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063415/cgs_portfolio/Jenny-Holzer-and-Katharina-Fritsch-MACBA.webp",
         "caption": "Diálogos contemporáneos: obras de Jenny Holzer y Katharina Fritsch en el MACBA",
         "tags": ["Jenny Holzer", "Katharina Fritsch", "MACBA", "Arte Contemporáneo", "Barcelona", "Exposición"],
         "alt": "Un visitante contempla la instalación artística en las salas del MACBA, donde las proyecciones de texto de Jenny Holzer conviven con las скульпuras icónicas de Katharina Fritsch."
       },
       {
-        "url": "https://i.postimg.cc/cLdn6QnX/La-Merce-2019-(1).webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063414/cgs_portfolio/La-Merce-2019-_1_.webp",
         "caption": "Reflejos dorados: la Cascada Monumental de la Ciutadella en La Mercè",
         "tags": ["Cascada Monumental", "Parc de la Ciutadella", "La Mercè", "Barcelona", "Patrimonio"],
         "alt": "Majestuosa vista de la Cascada Monumental del Parc de la Ciutadella reflejándose en las aguas del estanque con la instalación artística de una gran esfera."
       },
       {
-        "url": "https://i.postimg.cc/3x3vWgvL/Llum-Poble-Nou.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063415/cgs_portfolio/Llum-Poble-Nou.webp",
         "caption": "Constelación reflectante: bolas de espejos e instalaciones de luz en Llum BCN",
         "tags": ["Llum BCN", "Poblenou", "Arte Lumínico", "Instalación", "Noche", "Barcelona"],
         "alt": "Acumulación de esferas espejadas dispersando destellos de luz multicolor en la penumbra de una nave industrial durante el festival Llum BCN."
       },
       {
-        "url": "https://i.postimg.cc/zGqg3ngQ/Museo-Picasso-Dia-de-los-Museos-005.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063415/cgs_portfolio/Museo-Picasso-Dia-de-los-Museos-005.webp",
         "caption": "Cuerpo y espacio: performance de danza contemporánea en el patio del Museu Picasso",
         "tags": ["Museu Picasso", "Día Internacional de los Museos", "Danza Contemporánea", "Performance", "Barcelona"],
         "alt": "Una bailarina en pleno movimiento interactúa con los arcos góticos y los espectadores reunidos en el patio interior del Museu Picasso de Barcelona."
       },
       {
-        "url": "https://i.postimg.cc/jSR7Cz7p/Noria-Moll-de-la-Fusta-y-Bicing.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063416/cgs_portfolio/Noria-Moll-de-la-Fusta-y-Bicing.webp",
         "caption": "Ruedas marinas: la noria panorámica y la estación Bicing en el Moll de la Fusta",
         "tags": ["Moll de la Fusta", "Port Vell", "Noria", "Bicing", "Barcelona", "Atardecer"],
         "alt": "Una imponente noria blanca recortada contra el cielo azul junto a la hilera de bicicletas rojas del servicio Bicing en el paseo marítimo del Moll de la Fusta."
       },
       {
-        "url": "https://i.postimg.cc/kg7bDxS3/Nuevo-rompeolas-Barcelona.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063417/cgs_portfolio/Nuevo-rompeolas-Barcelona.webp",
         "caption": "Senda sobre el Mediterráneo: el mirador del nuevo rompeolas del Port Vell",
         "tags": ["Rompeolas", "Port Vell", "Barcelona", "Mar", "Horizonte", "Paseo"],
         "alt": "Paseantes recorriendo la plataforma elevada del nuevo rompeolas de Barcelona con panorámicas despejadas del mar Mediterráneo y el frente marítimo."
       },
       {
-        "url": "https://i.postimg.cc/Gmby9kD1/Pesebre-Ayuntamiento-2019.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063417/cgs_portfolio/Pesebre-Ayuntamiento-2019.webp",
         "caption": "Pesebre de recuerdos: la instalación navideña en la Plaça de Sant Jaume",
         "tags": ["Plaça de Sant Jaume", "Navidad", "Pesebre", "Instalación", "Barcelona", "Tradición"],
         "alt": "Inusual pesebre conceptual formado por cajas transparentes y objetos cotidianos del pasado instalado frente a la fachada del Ayuntamiento de Barcelona."
       },
       {
-        "url": "https://i.postimg.cc/T3TDhrbR/Plaza-Museo-Reina-Sofia-Madrid.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063418/cgs_portfolio/Plaza-Museo-Reina-Sofia-Madrid.webp",
         "caption": "Encuadre madrileño: la plaza del Museo Reina Sofía y la silueta de Atocha",
         "tags": ["Museo Reina Sofía", "Madrid", "Arquitectura", "Plaza", "Cultura Urbana"],
         "alt": "Vista desde la plaza ajardinada del Museo Nacional Centro de Arte Reina Sofía, abriéndose hacia la histórica arquitectura de la zona de Atocha."
       },
       {
-        "url": "https://i.postimg.cc/FHhL1jSN/Preparacion-Hallacas-Caracas.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063418/cgs_portfolio/Preparacion-Hallacas-Caracas.webp",
         "caption": "Ritual navideño: el laborioso ensamblaje de las hallacas tradicionales",
         "tags": ["Hallacas", "Gastronomía Venezolana", "Caracas", "Tradición", "Navidad", "Familia"],
         "alt": "Manos expertas envolviendo en hojas de plátano ablandadas al fuego los ingredientes del guiso, pasas y aceitunas para elaborar la tradicional hallaca venezolana."
       },
       {
-        "url": "https://i.postimg.cc/52fCjwz9/Refugio-307-Poble-Sec.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063419/cgs_portfolio/Refugio-307-Poble-Sec.webp",
         "caption": "Memoria subterránea: la galería de ladrillo del Refugi 307 en el Poble-sec",
         "tags": ["Refugi 307", "Poble-sec", "Historia", "Memoria Histórica", "Barcelona", "Arquitectura"],
         "alt": "Fotografía en blanco y negro del angosto túnel abovedado de ladrillos del Refugi 307, construido por los vecinos durante la Guerra Civil española."
       },
       {
-        "url": "https://i.postimg.cc/HkTyjQMs/Santa-Maria-del-Mar.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063420/cgs_portfolio/Santa-Maria-del-Mar.webp",
         "caption": "Perspectiva gótica: el campanario de Santa Maria del Mar entre las callejuelas del Born",
         "tags": ["Santa Maria del Mar", "El Born", "Gótico Catalán", "Arquitectura Religiosa", "Barcelona"],
         "alt": "Vista en perspectiva desde un estrecho pasaje de la calidez de las piedras y el estilizado campanario octogonal de la basílica de Santa Maria del Mar."
       },
       {
-        "url": "https://i.postimg.cc/RZvHqcth/Toboganes-Parque-Poble-Nou-004.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063420/cgs_portfolio/Toboganes-Parque-Poble-Nou-004.webp",
         "caption": "Geometrías de juego: los grandes toboganes tubulares del Parque Central del Poblenou",
         "tags": ["Parque Central del Poblenou", "Jean Nouvel", "Poblenou", "Juegos Infantiles", "Barcelona"],
         "alt": "Niños disfrutando de los imponentes toboganes metálicos de diseño vanguardista integrados en la vegetación del parque diseñado por Jean Nouvel."
       },
       {
-        "url": "https://i.postimg.cc/y87ZWFRd/Topotepuy-008.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063420/cgs_portfolio/Topotepuy-008.webp",
         "caption": "Elegancia tricolor: orquídea en flor en los jardines ecológicos de Topotepuy",
         "tags": ["Orquídea", "Topotepuy", "Caracas", "Botánica", "Flora", "Venezuela"],
         "alt": "Macro de una orquídea blanca con centro purpúreo y anaranjado en la reserva ecológica de Topotepuy, destacando la fragilidad de sus pétalos."
       },
       {
-        "url": "https://i.postimg.cc/qvQCKzcr/Topotepuy-Boton-de-oro.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063421/cgs_portfolio/Topotepuy-Boton-de-oro.webp",
         "caption": "Destello silvestre: la flor del botón de oro entre el follaje de Topotepuy",
         "tags": ["Topotepuy", "Caracas", "Botón de Oro", "Flores", "Naturaleza", "Venezuela"],
         "alt": "Detalle en primer plano de una brillante flor amarilla de botón de oro silvestre contrastando con el denso verde del bosque nublado caraqueño."
       },
       {
-        "url": "https://i.postimg.cc/y8nSRkhB/Topotepuy-Colibri.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063421/cgs_portfolio/Topotepuy-Colibri.webp",
         "caption": "Joya alada: colibrí resplandeciente en los bebederos de Topotepuy",
         "tags": ["Colibrí", "Topotepuy", "Fauna", "Caracas", "Naturaleza", "Venezuela"],
         "alt": "Un diminuto colibrí de plumas verde esmeralda posado momentáneamente junto a un bebedero en el santuario de aves de Topotepuy en Caracas."
       },
       {
-        "url": "https://i.postimg.cc/W1SJZhmb/Topotepuy-hoja-seca.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063422/cgs_portfolio/Topotepuy-hoja-seca.webp",
         "caption": "Anatomía del otoño tropical: nervaduras y gradientes en una hoja de Topotepuy",
         "tags": ["Topotepuy", "Naturaleza", "Textura", "Detalle", "Hoja", "Caracas"],
         "alt": "Plano macro de una hoja seca mostrando la compleja red de nervaduras y cálidos matices ocre, amarillos y cobrizos."
       },
       {
-        "url": "https://i.postimg.cc/wjFsN75v/Trafico-Aereo-en-Barcelona-marzo.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063423/cgs_portfolio/Trafico-Aereo-en-Barcelona-marzo.webp",
         "caption": "Estelas en el azul: trazos de condensación sobre el skyline de la Torre Mapfre",
         "tags": ["Torre Mapfre", "Vila Olímpica", "Tráfico Aéreo", "Skyline", "Barcelona", "Cielo"],
         "alt": "Trazos blancos de estelas de aviones cruzando un cielo azul intenso sobre la cima de la Torre Mapfre y la copa de palmeras mediterráneas."
@@ -403,384 +403,384 @@ FOTO_KITESURF_2025,
   },
   {
     id: "Gale2018",
-    url: "https://i.postimg.cc/26bcp9Ym/Teatre-Grec-vacio.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063423/cgs_portfolio/Teatre-Grec-vacio.webp",
     titulo: "Barcelona",
     ubicacion: "Escenas 2018",
     resumen: "Un año de contrastes visuales en Barcelona: graderíos de piedra milenaria, vanguardia tecnológica en el festival de la luz, arte público y memoria industrial.",
     reseña: "La crónica de 2018 explora la serena monumentalidad y la vitalidad nocturna de la capital catalana. Desde la quietud geométrica del Teatre Grec esculpido en Montjuïc hasta la eclosión futurista de Llum BCN transformando las naves y fachadas del Poblenou con proyecciones y neones. La serie documenta con idéntico detenimiento la 'Cabeza de Carmencita' de Antonio López ante la filigrana del Palau de la Música, el fulgor alquímico de las calderas de cobre en la fábrica Damm, el sosiego del Port Vell bajo la luna llena y las paradojas cotidianas en las calles del Raval.",
-    urlImagen: "https://i.postimg.cc/26bcp9Ym/Teatre-Grec-vacio.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063423/cgs_portfolio/Teatre-Grec-vacio.webp",
     categoria: "España",
     fecha: "2018",
     equipo: "Samsung SM-G935F · Sony ILCE-6000",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/26bcp9Ym/Teatre-Grec-vacio.webp", "caption": "Geometría de piedra: el Teatre Grec de Montjuïc reposa", "tags": ["Teatre Grec", "Montjuïc", "Barcelona", "arquitectura", "escenario", "vuelo"], "alt": "Espectacular vista cenital en blanco y negro del Teatre Grec de Barcelona, mostrando la geometría semicircular de sus gradas y el escenario tallados en la montaña de Montjuïc."},
-      {"url": "https://i.postimg.cc/50Y7cKVB/Escenas-de-Montjuic.webp", "caption": "Columnas de agua: simetría efímera frente al Palacio Nacional", "tags": ["Montjuïc", "arquitectura clásica", "columnas", "reflejo", "Barcelona", "blanco y negro"], "alt": "Cuatro columnas jónicas reflejadas perfectamente en un charco tras la lluvia, creando una composición geométrica en blanco y negro en la montaña de Montjuïc."},
-      {"url": "https://i.postimg.cc/4d7LC2gB/Llum-BCN-Poblenou-2028.webp", "caption": "Cromatismo vertical: el degradado nocturno de la Torre Glòries", "tags": ["Torre Glòries", "Jean Nouvel", "arquitectura", "iluminación", "Barcelona", "noche"], "alt": "Primer plano de la Torre Glòries exhibiendo un espectacular degradado de colores de rojo a azul bajo la noche de Barcelona."},
-      {"url": "https://i.postimg.cc/q7Zb5V98/Antonio-Lopez-Palau-Mus-Catalana.webp", "caption": "La mirada de Carmencita: realismo monumental de Antonio López ante el Palau", "tags": ["Antonio López", "escultura", "Palau de la Música", "arte contemporáneo", "Barcelona", "Realismo"], "alt": "Escultura monumental de bronce de una cabeza de bebé ('Cabeza de Carmencita') de Antonio López, situada frente a la fachada modernista del Palau de la Música Catalana."},
-      {"url": "https://i.postimg.cc/bvFCBcK0/Antigua-fabrica-Estrella-Damm-BCN-002.webp", "caption": "Alquimia dorada: el corazón de cobre de la antigua fábrica Estrella Damm", "tags": ["Estrella Damm", "patrimonio industrial", "cobre", "cervecería", "Barcelona", "interior"], "alt": "Grandes calderas de cobre pulido brillan bajo una luz cálida en la antigua fábrica de Estrella Damm, evocando la tradición cervecera de la ciudad."},
-      {"url": "https://i.postimg.cc/s206Ndtn/Castillo-de-Montjuic.webp", "caption": "Guardianes de piedra: la silueta del Castillo de Montjuïc al ocaso", "tags": ["Castillo de Montjuïc", "Barcelona", "fortaleza", "arquitectura", "piedra", "atardecer"], "alt": "Torre principal del Castillo de Montjuïc recortada contra un cielo de tonos cálidos, con visitantes contemplando la panorámica desde la fortaleza."},
-      {"url": "https://i.postimg.cc/yNrQb4wy/Bar-Boadas-con-retrete.webp", "caption": "Boadas nocturno: surrealismo urbano y neón en el corazón de Barcelona", "tags": ["Boadas", "coctelería", "Barcelona", "noche", "arte urbano", "Ramblas"], "alt": "Puerta roja y letrero de neón de la mítica coctelería Boadas, con un inodoro abandonado en la acera como una extraña pieza de arte urbano nocturno."},
-      {"url": "https://i.postimg.cc/1tnCx7QB/Grafiti-en-calle-Valdonzella.webp", "caption": "Voz en los muros: activismo y arte callejero en el Raval", "tags": ["Graffiti", "arte urbano", "feminismo", "Raval", "Barcelona", "mural"], "alt": "Mural feminista en una pared degradada de la calle Valdonzella, con un mensaje potente sobre la responsabilidad social y figuras icónicas de la cultura pop."},
-      {"url": "https://i.postimg.cc/qRhbfDrH/Puerto-Barcelona-luna-llena.webp", "caption": "Bajo la mirada de Selene: noche de luna llena en el Port Vell", "tags": ["Port Vell", "luna llena", "noche", "marina", "Barcelona", "veleros"], "alt": "Panorámica nocturna del puerto de Barcelona con los mástiles de los veleros bajo el resplandor de una luna llena que se refleja en las aguas tranquilas."},
-      {"url": "https://i.postimg.cc/vBgqR2sP/Llum-BCN-Poblenou-2035.webp", "caption": "Farolillos de ensueño: inmersión lumínica en las calles del Poblenou", "tags": ["Llum BCN", "arte lumínico", "Poblenou", "Barcelona", "instalación", "noche"], "alt": "Multitud caminando bajo una instalación de cientos de pequeñas lámparas de colores suspendidas, creando un ambiente mágico en el espacio público."},
-      {"url": "https://i.postimg.cc/3R4SMfTb/Llum-BCN-Poblenou-2047.webp", "caption": "Redes de luz: mapping tecnológico sobre el patrimonio histórico", "tags": ["Llum BCN", "Mapping", "arquitectura clásica", "Festival de la Luz", "Barcelona", "tecnología"], "alt": "Fachada de un edificio clásico iluminada con proyecciones de redes geométricas de colores brillantes durante un evento nocturno."},
-      {"url": "https://i.postimg.cc/tTZS0vjD/Llum-BCN-Poblenou-2020.webp", "caption": "Lienzo de hormigón: el Museu del Disseny late con el festival Llum BCN", "tags": ["Llum BCN", "Festival de la Luz", "Poblenou", "Museu del Disseny", "arquitectura", "Mapping"], "alt": "Proyección digital dinámica sobre la fachada del Museu del Disseny durante el festival Llum BCN, con la Torre Glòries iluminada al fondo."},
-      {"url": "https://i.postimg.cc/R0bsD5jd/Casa-Bruno-Cuadros.webp", "caption": "Paraguas y patrones: el diálogo visual de la casa Bruno Cuadros", "tags": ["Casa Bruno Cuadros", "Modernismo", "Ramblas", "arquitectura", "arte urbano", "Barcelona"], "alt": "Detalle de la fachada modernista de la Casa Bruno Cuadros en las Ramblas, combinada con una instalación de patrones de costura gigantes en el espacio público."},
-      {"url": "https://i.postimg.cc/zfPtcZ90/Cases-Antoni-Rocamora.webp", "caption": "Cúpulas de ladrillo: el atardecer en las Casas Antoni Rocamora", "tags": ["Casa Rocamora", "Modernismo", "Paseo de Gracia", "arquitectura", "Barcelona", "atardecer"], "alt": "Vista en contrapicado de las torres de ladrillo rojizo de las Casas Antoni Rocamora bajo un cielo anaranjado de atardecer."},
-      {"url": "https://i.postimg.cc/sXQ6FHrP/Escenografia-danza-Tangram-Barceloneta.webp", "caption": "Geometría portuaria: contenedores rojos en el litoral de la Barceloneta", "tags": ["Barceloneta", "contenedores", "surf", "Barcelona", "playa", "color"], "alt": "Instalación de contenedores marítimos de color rojo intenso en el paseo marítimo, con surfistas y ciclistas cruzando en un día soleado."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063423/cgs_portfolio/Teatre-Grec-vacio.webp", "caption": "Geometría de piedra: el Teatre Grec de Montjuïc reposa", "tags": ["Teatre Grec", "Montjuïc", "Barcelona", "arquitectura", "escenario", "vuelo"], "alt": "Espectacular vista cenital en blanco y negro del Teatre Grec de Barcelona, mostrando la geometría semicircular de sus gradas y el escenario tallados en la montaña de Montjuïc."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063423/cgs_portfolio/Escenas-de-Montjuic.webp", "caption": "Columnas de agua: simetría efímera frente al Palacio Nacional", "tags": ["Montjuïc", "arquitectura clásica", "columnas", "reflejo", "Barcelona", "blanco y negro"], "alt": "Cuatro columnas jónicas reflejadas perfectamente en un charco tras la lluvia, creando una composición geométrica en blanco y negro en la montaña de Montjuïc."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063425/cgs_portfolio/Llum-BCN-Poblenou-2028.webp", "caption": "Cromatismo vertical: el degradado nocturno de la Torre Glòries", "tags": ["Torre Glòries", "Jean Nouvel", "arquitectura", "iluminación", "Barcelona", "noche"], "alt": "Primer plano de la Torre Glòries exhibiendo un espectacular degradado de colores de rojo a azul bajo la noche de Barcelona."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063425/cgs_portfolio/Antonio-Lopez-Palau-Mus-Catalana.webp", "caption": "La mirada de Carmencita: realismo monumental de Antonio López ante el Palau", "tags": ["Antonio López", "escultura", "Palau de la Música", "arte contemporáneo", "Barcelona", "Realismo"], "alt": "Escultura monumental de bronce de una cabeza de bebé ('Cabeza de Carmencita') de Antonio López, situada frente a la fachada modernista del Palau de la Música Catalana."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063430/cgs_portfolio/Antigua-fabrica-Estrella-Damm-BCN-002.webp", "caption": "Alquimia dorada: el corazón de cobre de la antigua fábrica Estrella Damm", "tags": ["Estrella Damm", "patrimonio industrial", "cobre", "cervecería", "Barcelona", "interior"], "alt": "Grandes calderas de cobre pulido brillan bajo una luz cálida en la antigua fábrica de Estrella Damm, evocando la tradición cervecera de la ciudad."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063428/cgs_portfolio/Castillo-de-Montjuic.webp", "caption": "Guardianes de piedra: la silueta del Castillo de Montjuïc al ocaso", "tags": ["Castillo de Montjuïc", "Barcelona", "fortaleza", "arquitectura", "piedra", "atardecer"], "alt": "Torre principal del Castillo de Montjuïc recortada contra un cielo de tonos cálidos, con visitantes contemplando la panorámica desde la fortaleza."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063430/cgs_portfolio/Bar-Boadas-con-retrete.webp", "caption": "Boadas nocturno: surrealismo urbano y neón en el corazón de Barcelona", "tags": ["Boadas", "coctelería", "Barcelona", "noche", "arte urbano", "Ramblas"], "alt": "Puerta roja y letrero de neón de la mítica coctelería Boadas, con un inodoro abandonado en la acera como una extraña pieza de arte urbano nocturno."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063438/cgs_portfolio/Grafiti-en-calle-Valdonzella.webp", "caption": "Voz en los muros: activismo y arte callejero en el Raval", "tags": ["Graffiti", "arte urbano", "feminismo", "Raval", "Barcelona", "mural"], "alt": "Mural feminista en una pared degradada de la calle Valdonzella, con un mensaje potente sobre la responsabilidad social y figuras icónicas de la cultura pop."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063432/cgs_portfolio/Puerto-Barcelona-luna-llena.webp", "caption": "Bajo la mirada de Selene: noche de luna llena en el Port Vell", "tags": ["Port Vell", "luna llena", "noche", "marina", "Barcelona", "veleros"], "alt": "Panorámica nocturna del puerto de Barcelona con los mástiles de los veleros bajo el resplandor de una luna llena que se refleja en las aguas tranquilas."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063434/cgs_portfolio/Llum-BCN-Poblenou-2035.webp", "caption": "Farolillos de ensueño: inmersión lumínica en las calles del Poblenou", "tags": ["Llum BCN", "arte lumínico", "Poblenou", "Barcelona", "instalación", "noche"], "alt": "Multitud caminando bajo una instalación de cientos de pequeñas lámparas de colores suspendidas, creando un ambiente mágico en el espacio público."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063437/cgs_portfolio/Llum-BCN-Poblenou-2047.webp", "caption": "Redes de luz: mapping tecnológico sobre el patrimonio histórico", "tags": ["Llum BCN", "Mapping", "arquitectura clásica", "Festival de la Luz", "Barcelona", "tecnología"], "alt": "Fachada de un edificio clásico iluminada con proyecciones de redes geométricas de colores brillantes durante un evento nocturno."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063438/cgs_portfolio/Llum-BCN-Poblenou-2020.webp", "caption": "Lienzo de hormigón: el Museu del Disseny late con el festival Llum BCN", "tags": ["Llum BCN", "Festival de la Luz", "Poblenou", "Museu del Disseny", "arquitectura", "Mapping"], "alt": "Proyección digital dinámica sobre la fachada del Museu del Disseny durante el festival Llum BCN, con la Torre Glòries iluminada al fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063440/cgs_portfolio/Casa-Bruno-Cuadros.webp", "caption": "Paraguas y patrones: el diálogo visual de la casa Bruno Cuadros", "tags": ["Casa Bruno Cuadros", "Modernismo", "Ramblas", "arquitectura", "arte urbano", "Barcelona"], "alt": "Detalle de la fachada modernista de la Casa Bruno Cuadros en las Ramblas, combinada con una instalación de patrones de costura gigantes en el espacio público."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063443/cgs_portfolio/Cases-Antoni-Rocamora.webp", "caption": "Cúpulas de ladrillo: el atardecer en las Casas Antoni Rocamora", "tags": ["Casa Rocamora", "Modernismo", "Paseo de Gracia", "arquitectura", "Barcelona", "atardecer"], "alt": "Vista en contrapicado de las torres de ladrillo rojizo de las Casas Antoni Rocamora bajo un cielo anaranjado de atardecer."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063441/cgs_portfolio/Escenografia-danza-Tangram-Barceloneta.webp", "caption": "Geometría portuaria: contenedores rojos en el litoral de la Barceloneta", "tags": ["Barceloneta", "contenedores", "surf", "Barcelona", "playa", "color"], "alt": "Instalación de contenedores marítimos de color rojo intenso en el paseo marítimo, con surfistas y ciclistas cruzando en un día soleado."},
       FOTO_DEPORTE_WATERPOLO_2018,
-      {"url": "https://i.postimg.cc/JnD6wYLQ/Gunilla-Barco-sueco-001.webp", "caption": "Aparejos al cielo: el trabajo silencioso a bordo del bergantín", "tags": ["velero", "náutica", "marinero", "trabajo", "Barcelona", "mástil"], "alt": "Marinero trabajando en lo alto de la arboladura de un velero clásico, ajustando los cabos y las velas ante la inmensidad del puerto."},
-      {"url": "https://i.postimg.cc/Ss2T014F/Pesebre-Ayuntamiento-2018-002.webp", "caption": "Coronas de luz: el espíritu navideño en la Plaça Sant Jaume", "tags": ["Navidad", "Plaça Sant Jaume", "Ayuntamiento", "Barcelona", "iluminación", "fiesta"], "alt": "Estructuras luminosas circulares suspendidas en la plaza del Ayuntamiento, congregando a ciudadanos bajo una cálida luz dorada."},
-      {"url": "https://i.postimg.cc/1zYCjhLK/Boda-Playa-Nueva-Icaria.webp", "caption": "Sí, quiero mediterráneo: nupcias bajo el sol de la Nova Icària", "tags": ["boda", "playa", "Nova Icària", "Barcelona", "mar", "celebración"], "alt": "Ceremonia de boda al aire libre en la arena de la playa con un arco decorado y músicos en directo frente al mar Mediterráneo."},
-      {"url": "https://i.postimg.cc/ydgQqpHt/Museo-Ciencias-Naturales-001.webp", "caption": "Resignación científica: especímenes preservados en el Museo de Ciencias", "tags": ["entomología", "escarabajos", "ciencia", "museo", "preservación", "Naturaleza"], "alt": "Dos grandes insectos preservados en frascos de cristal con líquido, expuestos para el estudio científico en el Museo de Ciencias Naturales."},
-      {"url": "https://i.postimg.cc/1tnCx7Qd/Museo-Ciencias-Naturales.webp", "caption": "El grito del mar: la expresión eterna de la foca taxidermizada", "tags": ["taxidermia", "foca", "Museo de Ciencias", "Barcelona", "Naturaleza", "detalles"], "alt": "Detalle expresivo de una foca preservada con la boca abierta, mostrando los dientes y las vibrisas en una vitrina científica."},
-      {"url": "https://i.postimg.cc/k461rYCd/Parque-del-Forum-(1).webp", "caption": "Arquitectura de la fiesta: preparativos lumínicos en el Fòrum", "tags": ["Parque del Fòrum", "iluminación", "festival", "Barcelona", "trabajadores", "Torre Glòries"], "alt": "Operarios instalando estructuras de luz para un festival en el Fòrum, con la Torre Glòries y el skyline de Barcelona al fondo."},
-      {"url": "https://i.postimg.cc/XJGHM1b1/Llum-BCN-Poblenou-2052.webp", "caption": "Pantallas urbanas: la interacción multimedia en el festival de la luz", "tags": ["betevé", "Llum BCN", "Poblenou", "arte digital", "Barcelona", "espectadores"], "alt": "Proyección de una figura humana sobre la fachada de un edificio industrial junto a los coches de betevé, atrayendo la mirada de los transeúntes."},
-      {"url": "https://i.postimg.cc/Qt94LY3P/Llum-BCN-Poblenou-2057.webp", "caption": "Contraste moderno: la Torre Glòries asoma entre el Poblenou industrial", "tags": ["Poblenou", "Torre Glòries", "Barcelona", "arquitectura", "noche", "ciudad"], "alt": "Vista nocturna de rascacielos iluminados en el Poblenou, con la Torre Glòries destacando en el skyline barcelonés entre árboles y nuevos edificios."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063444/cgs_portfolio/Gunilla-Barco-sueco-001.webp", "caption": "Aparejos al cielo: el trabajo silencioso a bordo del bergantín", "tags": ["velero", "náutica", "marinero", "trabajo", "Barcelona", "mástil"], "alt": "Marinero trabajando en lo alto de la arboladura de un velero clásico, ajustando los cabos y las velas ante la inmensidad del puerto."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063443/cgs_portfolio/Pesebre-Ayuntamiento-2018-002.webp", "caption": "Coronas de luz: el espíritu navideño en la Plaça Sant Jaume", "tags": ["Navidad", "Plaça Sant Jaume", "Ayuntamiento", "Barcelona", "iluminación", "fiesta"], "alt": "Estructuras luminosas circulares suspendidas en la plaza del Ayuntamiento, congregando a ciudadanos bajo una cálida luz dorada."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063445/cgs_portfolio/Boda-Playa-Nueva-Icaria.webp", "caption": "Sí, quiero mediterráneo: nupcias bajo el sol de la Nova Icària", "tags": ["boda", "playa", "Nova Icària", "Barcelona", "mar", "celebración"], "alt": "Ceremonia de boda al aire libre en la arena de la playa con un arco decorado y músicos en directo frente al mar Mediterráneo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063445/cgs_portfolio/Museo-Ciencias-Naturales-001.webp", "caption": "Resignación científica: especímenes preservados en el Museo de Ciencias", "tags": ["entomología", "escarabajos", "ciencia", "museo", "preservación", "Naturaleza"], "alt": "Dos grandes insectos preservados en frascos de cristal con líquido, expuestos para el estudio científico en el Museo de Ciencias Naturales."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063446/cgs_portfolio/Museo-Ciencias-Naturales.webp", "caption": "El grito del mar: la expresión eterna de la foca taxidermizada", "tags": ["taxidermia", "foca", "Museo de Ciencias", "Barcelona", "Naturaleza", "detalles"], "alt": "Detalle expresivo de una foca preservada con la boca abierta, mostrando los dientes y las vibrisas en una vitrina científica."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063448/cgs_portfolio/Parque-del-Forum-_1_.webp", "caption": "Arquitectura de la fiesta: preparativos lumínicos en el Fòrum", "tags": ["Parque del Fòrum", "iluminación", "festival", "Barcelona", "trabajadores", "Torre Glòries"], "alt": "Operarios instalando estructuras de luz para un festival en el Fòrum, con la Torre Glòries y el skyline de Barcelona al fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063447/cgs_portfolio/Llum-BCN-Poblenou-2052.webp", "caption": "Pantallas urbanas: la interacción multimedia en el festival de la luz", "tags": ["betevé", "Llum BCN", "Poblenou", "arte digital", "Barcelona", "espectadores"], "alt": "Proyección de una figura humana sobre la fachada de un edificio industrial junto a los coches de betevé, atrayendo la mirada de los transeúntes."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063449/cgs_portfolio/Llum-BCN-Poblenou-2057.webp", "caption": "Contraste moderno: la Torre Glòries asoma entre el Poblenou industrial", "tags": ["Poblenou", "Torre Glòries", "Barcelona", "arquitectura", "noche", "ciudad"], "alt": "Vista nocturna de rascacielos iluminados en el Poblenou, con la Torre Glòries destacando en el skyline barcelonés entre árboles y nuevos edificios."},
     ]
   },
   {
     id: "Gale2017",
-    url: "https://i.postimg.cc/tT0yHX9v/Degustacion-ostras-Delta-Ebro-en-Barcelona.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063448/cgs_portfolio/Degustacion-ostras-Delta-Ebro-en-Barcelona.webp",
     titulo: "Barcelona · Costa Brava · Girona",
     ubicacion: "Escenas 2017",
     resumen: "Luces mediterráneas y celebraciones populares: de las calas de Calella y el misticismo medieval de Girona al arte público y las noches encendidas de Barcelona.",
     reseña: "Un itinerario estacional que fusiona la calidez del paisaje costero con la inventiva urbana en 2017. La luz veraniega acaricia los arenales de Calella de Palafrugell y los reflejos del río Onyar bajo el puente de hierro de Girona, mientras en Barcelona el arte toma el pulso a la comunidad: las calles de Gràcia engalanadas con techos de luz y fantasía, la rotunda gravedad del hormigón de Chillida suspendido sobre el agua en la Creueta del Coll y la geometría límpida del MACBA iluminada de carmesí en la noche.",
-    urlImagen: "https://i.postimg.cc/tT0yHX9v/Degustacion-ostras-Delta-Ebro-en-Barcelona.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063448/cgs_portfolio/Degustacion-ostras-Delta-Ebro-en-Barcelona.webp",
     categoria: "España",
     fecha: "2017",
     equipo: "Samsung SM-G935F · Sony ILCE-6000",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/mDQ4L0r3/Calella-de-Palafrugell-2017-004.webp", "caption": "Postales de verano: el bullicio mediterráneo de Calella de Palafrugell", "tags": ["Calella de Palafrugell", "playa", "verano", "Mediterráneo", "Costa Brava", "turismo"], "alt": "Una vibrante escena de playa en un día soleado de verano en Calella de Palafrugell, vista a través de un marco arquitectónico. La arena blanca está salpicada de sombrillas coloridas y bañistas disfrutando del mar cristalino."},
-      {"url": "https://i.postimg.cc/qR8rJ97X/Chillida-Elogio-del-agua.webp", "caption": "Elogio del agua: la fuerza del hormigón suspendido de Chillida", "tags": ["Chillida", "escultura", "hormigón", "arte público", "Barcelona", "Elogio del agua"], "alt": "La imponente escultura de hormigón 'Elogio del agua' de Eduardo Chillida suspendida sobre el lago del parque de la Creueta del Coll, rodeada de vegetación y reflejos acuáticos."},
-      {"url": "https://i.postimg.cc/tT0yHX9v/Degustacion-ostras-Delta-Ebro-en-Barcelona.webp", "caption": "Sinfonía marina: los matices perlados de una ostra fresca del Delta", "tags": ["ostra", "marisco", "gastronomía", "Delta de l'Ebre", "texturas"], "alt": "Primer plano macro de una ostra fresca y abierta, resaltando las texturas nacaradas y brillantes del molusco y los bordes rugosos de su concha."},
-      {"url": "https://i.postimg.cc/bJQPyKvx/Festival-de-Japon-en-Barcelona.webp", "caption": "Tambores Taiko: el latido de Japón en el puerto de Barcelona", "tags": ["cultura japonesa", "Taiko", "Barcelona", "festival", "puerto"], "alt": "Dos mujeres vestidas con trajes tradicionales japoneses sonríen junto a un gran tambor Taiko en un festival cultural al aire libre con el puerto de Barcelona al fondo."},
-      {"url": "https://i.postimg.cc/FRjvr2KW/Fiestas-de-Gracia-2017-010.webp", "caption": "Alquimia plástica: la luz filtrada a través de miles de vasos en Gràcia", "tags": ["Fiestas de Gràcia", "instalación", "reciclaje", "arte callejero", "Barcelona", "luz"], "alt": "Instalación artística aérea compuesta por miles de vasos de plástico translúcidos que crean una superficie ondulada y luminosa, transformando la calle en un espacio onírico."},
-      {"url": "https://i.postimg.cc/ZRrmb1qs/Fiestas-de-Gracia-2017-019.webp", "caption": "Vuelo escarlata: siluetas que surcan la penumbra roja", "tags": ["pájaros", "siluetas", "Fiestas de Gràcia", "rojo", "decoración", "Barcelona"], "alt": "Siluetas de pájaros negros suspendidas contra un techo de tela roja iluminado, creando un contraste dramático y una sensación de movimiento en una calle decorada de Gràcia."},
-      {"url": "https://i.postimg.cc/Jnb8r9hg/Girona-2017-002.webp", "caption": "Piedra y cielo: la sobriedad medieval de la arquitectura de Girona", "tags": ["Girona", "arquitectura medieval", "piedra", "historia", "paisaje"], "alt": "Vista de un edificio histórico de piedra en Girona, con su característico tejado de tejas árabes y arcos, destacando sobre un cielo azul nítido."},
-      {"url": "https://i.postimg.cc/KznbGdzF/Girona-2017-020.webp", "caption": "El puente de hierro: capturando el color del Onyar", "tags": ["Girona", "puente Eiffel", "río Onyar", "turismo", "casas de colores"], "alt": "Una joven turista cruza el icónico puente de hierro rojo de Girona (Eiffel) mientras se toma un selfie, con las coloridas fachadas de las casas sobre el río Onyar al fondo."},
-      {"url": "https://i.postimg.cc/RFcmSjFz/Llum-BCN-2017-004.webp", "caption": "Ritmos de neón: la inmersión lumínica en el festival Llum BCN", "tags": ["Llum BCN", "festival de luz", "arte digital", "siluetas", "Barcelona", "Poblenou"], "alt": "Siluetas de espectadores contemplando una instalación de tubos de luz verticales de intensidad variable en el festival Llum BCN, creando una atmósfera futurista."},
-      {"url": "https://i.postimg.cc/QCh3H0BR/Llum-BCN-2017-026.webp", "caption": "Fantasía interactiva: el juego entre la luz y el muro de ladrillo", "tags": ["arte interactivo", "Llum BCN", "proyección", "Barcelona", "Poblenou"], "alt": "Una niña interactúa con una proyección digital de globos de colores sobre una pared de ladrillo visto, capturada por la silueta de un adulto con su teléfono móvil."},
-      {"url": "https://i.postimg.cc/GtdCHq80/MACBA-rojizo.webp", "caption": "El MACBA bajo el filtro carmesí: nocturnidad contemporánea", "tags": ["MACBA", "Barcelona", "arquitectura moderna", "iluminación", "Richard Meier", "Raval"], "alt": "La fachada blanca del museo MACBA bañada por una intensa iluminación roja nocturna, resaltando las líneas racionales de Richard Meier en el corazón del Raval."},
-      {"url": "https://i.postimg.cc/PJTjP2ph/Palacio-Arzobispal-BCN-Festas-Sant-Roc-001.webp", "caption": "Gigantes ante la historia: la solemnidad de los Gegants de la Ciutat", "tags": ["Gegants", "Barcelona", "tradición", "Barrio Gótico", "Catedral", "fiestas populares"], "alt": "Dos figuras gigantes de la tradición catalana (el Rey y la Reina) situadas ante la fachada de piedra del Barrio Gótico, con vidrieras iluminadas al fondo."},
-      {"url": "https://i.postimg.cc/gjmWnNX0/Parque-la-Creueta-del-Coll-008.webp", "caption": "En la cima de la piedra: la cruz vigilante de la Creueta del Coll", "tags": ["Creueta del Coll", "Barcelona", "parque", "mirador", "cruz", "paisaje urbano"], "alt": "Vista en blanco y negro de una cruz metálica en la cima de la antigua cantera de la Creueta del Coll, con dos personas contemplando la panorámica de Barcelona."},
-      {"url": "https://i.postimg.cc/j2tbLZwC/Parque-Guell-noviembre-2017-001.webp", "caption": "Luz y penumbra: la abstracción geométrica bajo el Park Güell", "tags": ["Gaudí", "Park Güell", "arquitectura", "Barcelona", "blanco y negro", "geometría"], "alt": "Composición abstracta en blanco y negro de las estructuras de piedra del Park Güell, donde la luz natural penetra por aperturas geométricas creando un fuerte contraste."},
-      {"url": "https://i.postimg.cc/5ybV6nY6/Paseo-con-sombreros-012.webp", "caption": "Fantasía ambulante: la expresividad de los disfraces en la Barcelona cultural", "tags": ["disfraces", "Barcelona", "festival", "personajes", "creatividad", "maquillaje"], "alt": "Dos personajes con vestuario fantástico y maquillaje artístico posan sonrientes durante un evento cultural callejero en Barcelona."},
-      {"url": "https://i.postimg.cc/Y0MHhbGF/Pesebre-Ayuntamiento-BCN-2017-005.webp", "caption": "Reyes de luz: la silueta iluminada del Pesebre de la Plaça Sant Jaume", "tags": ["Navidad", "Barcelona", "pesebre", "Reyes Magos", "Plaça Sant Jaume", "iluminación"], "alt": "Instalación lumínica navideña en la plaza del Ayuntamiento de Barcelona que representa la caravana de los Reyes Magos en siluetas blancas sobre un fondo azul."},
-      {"url": "https://i.postimg.cc/fyDNJBtx/Tedero-de-la-Plaza-del-Rey.webp", "caption": "Vigía de hierro: la linterna gótica sobre el cielo de Barcelona", "tags": ["Barcelona", "Barrio Gótico", "arquitectura gótica", "farol", "Plaza del Rey"], "alt": "Un antiguo farol de hierro forjado se recorta contra el cielo azul intenso en el Barrio Gótico, con los muros de piedra de la Plaza del Rey a la izquierda."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063451/cgs_portfolio/Calella-de-Palafrugell-2017-004.webp", "caption": "Postales de verano: el bullicio mediterráneo de Calella de Palafrugell", "tags": ["Calella de Palafrugell", "playa", "verano", "Mediterráneo", "Costa Brava", "turismo"], "alt": "Una vibrante escena de playa en un día soleado de verano en Calella de Palafrugell, vista a través de un marco arquitectónico. La arena blanca está salpicada de sombrillas coloridas y bañistas disfrutando del mar cristalino."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063453/cgs_portfolio/Chillida-Elogio-del-agua.webp", "caption": "Elogio del agua: la fuerza del hormigón suspendido de Chillida", "tags": ["Chillida", "escultura", "hormigón", "arte público", "Barcelona", "Elogio del agua"], "alt": "La imponente escultura de hormigón 'Elogio del agua' de Eduardo Chillida suspendida sobre el lago del parque de la Creueta del Coll, rodeada de vegetación y reflejos acuáticos."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063448/cgs_portfolio/Degustacion-ostras-Delta-Ebro-en-Barcelona.webp", "caption": "Sinfonía marina: los matices perlados de una ostra fresca del Delta", "tags": ["ostra", "marisco", "gastronomía", "Delta de l'Ebre", "texturas"], "alt": "Primer plano macro de una ostra fresca y abierta, resaltando las texturas nacaradas y brillantes del molusco y los bordes rugosos de su concha."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063452/cgs_portfolio/Festival-de-Japon-en-Barcelona.webp", "caption": "Tambores Taiko: el latido de Japón en el puerto de Barcelona", "tags": ["cultura japonesa", "Taiko", "Barcelona", "festival", "puerto"], "alt": "Dos mujeres vestidas con trajes tradicionales japoneses sonríen junto a un gran tambor Taiko en un festival cultural al aire libre con el puerto de Barcelona al fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063453/cgs_portfolio/Fiestas-de-Gracia-2017-010.webp", "caption": "Alquimia plástica: la luz filtrada a través de miles de vasos en Gràcia", "tags": ["Fiestas de Gràcia", "instalación", "reciclaje", "arte callejero", "Barcelona", "luz"], "alt": "Instalación artística aérea compuesta por miles de vasos de plástico translúcidos que crean una superficie ondulada y luminosa, transformando la calle en un espacio onírico."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063455/cgs_portfolio/Fiestas-de-Gracia-2017-019.webp", "caption": "Vuelo escarlata: siluetas que surcan la penumbra roja", "tags": ["pájaros", "siluetas", "Fiestas de Gràcia", "rojo", "decoración", "Barcelona"], "alt": "Siluetas de pájaros negros suspendidas contra un techo de tela roja iluminado, creando un contraste dramático y una sensación de movimiento en una calle decorada de Gràcia."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063454/cgs_portfolio/Girona-2017-002.webp", "caption": "Piedra y cielo: la sobriedad medieval de la arquitectura de Girona", "tags": ["Girona", "arquitectura medieval", "piedra", "historia", "paisaje"], "alt": "Vista de un edificio histórico de piedra en Girona, con su característico tejado de tejas árabes y arcos, destacando sobre un cielo azul nítido."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063455/cgs_portfolio/Girona-2017-020.webp", "caption": "El puente de hierro: capturando el color del Onyar", "tags": ["Girona", "puente Eiffel", "río Onyar", "turismo", "casas de colores"], "alt": "Una joven turista cruza el icónico puente de hierro rojo de Girona (Eiffel) mientras se toma un selfie, con las coloridas fachadas de las casas sobre el río Onyar al fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063456/cgs_portfolio/Llum-BCN-2017-004.webp", "caption": "Ritmos de neón: la inmersión lumínica en el festival Llum BCN", "tags": ["Llum BCN", "festival de luz", "arte digital", "siluetas", "Barcelona", "Poblenou"], "alt": "Siluetas de espectadores contemplando una instalación de tubos de luz verticales de intensidad variable en el festival Llum BCN, creando una atmósfera futurista."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063456/cgs_portfolio/Llum-BCN-2017-026.webp", "caption": "Fantasía interactiva: el juego entre la luz y el muro de ladrillo", "tags": ["arte interactivo", "Llum BCN", "proyección", "Barcelona", "Poblenou"], "alt": "Una niña interactúa con una proyección digital de globos de colores sobre una pared de ladrillo visto, capturada por la silueta de un adulto con su teléfono móvil."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063456/cgs_portfolio/MACBA-rojizo.webp", "caption": "El MACBA bajo el filtro carmesí: nocturnidad contemporánea", "tags": ["MACBA", "Barcelona", "arquitectura moderna", "iluminación", "Richard Meier", "Raval"], "alt": "La fachada blanca del museo MACBA bañada por una intensa iluminación roja nocturna, resaltando las líneas racionales de Richard Meier en el corazón del Raval."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063458/cgs_portfolio/Palacio-Arzobispal-BCN-Festas-Sant-Roc-001.webp", "caption": "Gigantes ante la historia: la solemnidad de los Gegants de la Ciutat", "tags": ["Gegants", "Barcelona", "tradición", "Barrio Gótico", "Catedral", "fiestas populares"], "alt": "Dos figuras gigantes de la tradición catalana (el Rey y la Reina) situadas ante la fachada de piedra del Barrio Gótico, con vidrieras iluminadas al fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063458/cgs_portfolio/Parque-la-Creueta-del-Coll-008.webp", "caption": "En la cima de la piedra: la cruz vigilante de la Creueta del Coll", "tags": ["Creueta del Coll", "Barcelona", "parque", "mirador", "cruz", "paisaje urbano"], "alt": "Vista en blanco y negro de una cruz metálica en la cima de la antigua cantera de la Creueta del Coll, con dos personas contemplando la panorámica de Barcelona."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063458/cgs_portfolio/Parque-Guell-noviembre-2017-001.webp", "caption": "Luz y penumbra: la abstracción geométrica bajo el Park Güell", "tags": ["Gaudí", "Park Güell", "arquitectura", "Barcelona", "blanco y negro", "geometría"], "alt": "Composición abstracta en blanco y negro de las estructuras de piedra del Park Güell, donde la luz natural penetra por aperturas geométricas creando un fuerte contraste."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063459/cgs_portfolio/Paseo-con-sombreros-012.webp", "caption": "Fantasía ambulante: la expresividad de los disfraces en la Barcelona cultural", "tags": ["disfraces", "Barcelona", "festival", "personajes", "creatividad", "maquillaje"], "alt": "Dos personajes con vestuario fantástico y maquillaje artístico posan sonrientes durante un evento cultural callejero en Barcelona."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063459/cgs_portfolio/Pesebre-Ayuntamiento-BCN-2017-005.webp", "caption": "Reyes de luz: la silueta iluminada del Pesebre de la Plaça Sant Jaume", "tags": ["Navidad", "Barcelona", "pesebre", "Reyes Magos", "Plaça Sant Jaume", "iluminación"], "alt": "Instalación lumínica navideña en la plaza del Ayuntamiento de Barcelona que representa la caravana de los Reyes Magos en siluetas blancas sobre un fondo azul."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063459/cgs_portfolio/Tedero-de-la-Plaza-del-Rey.webp", "caption": "Vigía de hierro: la linterna gótica sobre el cielo de Barcelona", "tags": ["Barcelona", "Barrio Gótico", "arquitectura gótica", "farol", "Plaza del Rey"], "alt": "Un antiguo farol de hierro forjado se recorta contra el cielo azul intenso en el Barrio Gótico, con los muros de piedra de la Plaza del Rey a la izquierda."},
     ]
   },
   {
     id: "Gale2016",
-    url: "https://i.postimg.cc/pLp7dDS2/Catedral-de-Barcelona-003.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063461/cgs_portfolio/Catedral-de-Barcelona-003.webp",
     titulo: "Barcelona",
     ubicacion: "Escenas 2016",
     resumen: "Crónica espontánea y patrimonial de Barcelona en 2016: alturas góticas, personajes insólitos, arte en transición y la calidez del entorno mediterráneo.",
     reseña: "Barcelona contemplada desde una pluralidad de perspectivas en 2016. Desde el vértigo silencioso de los campanarios góticos que dominan el denso mar de tejados de Ciutat Vella hasta la efervescencia humana de Las Ramblas y los Búnkers del Carmel al caer la tarde. La serie retrata diálogos singulares: las letras flotantes de Jaume Plensa ensalzando el modernismo del Palau, las tensiones históricas y memoriales ante el Born, los oficios tradicionales como el encaje de bolillos y los ciclos botánicos en los jardines de Montjuïc.",
-    urlImagen: "https://i.postimg.cc/pLp7dDS2/Catedral-de-Barcelona-003.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063461/cgs_portfolio/Catedral-de-Barcelona-003.webp",
     categoria: "España",
     fecha: "2016",
     equipo: "Sony ILCE-6000",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/qvzY78Fp/Barcelona-desde-la-torre-de-Santa-Maria-del-Pi.webp", "caption": "Ocaso sobre la Ciutat Vella: la Catedral emerge entre el mar de tejados", "tags": ["Barcelona", "panorámica", "Catedral", "atardecer", "Gótico", "skyline"], "alt": "Vista aérea de Barcelona al atardecer desde Santa Maria del Pi, con la silueta de la Catedral de la Santa Cruz y Santa Eulalia destacando sobre la densa trama de edificios históricos bajo un cielo dramático."},
-      {"url": "https://i.postimg.cc/pLp7dDS2/Catedral-de-Barcelona-003.webp", "caption": "Gótico vertical: la majestuosidad pétrea de la Catedral de Barcelona", "tags": ["Gótico", "arquitectura religiosa", "Catedral", "interior", "Barcelona"], "alt": "Interior de la Catedral de Barcelona, mostrando la elevación de sus columnas y bóvedas de crucería bajo una luz dorada que resalta la textura de la piedra centenaria."},
-      {"url": "https://i.postimg.cc/y8k5NFG6/El-Liceu-desde-Sta-maria-Pi-009.webp", "caption": "Desde el campanario: del Liceu al horizonte de Montjuïc", "tags": ["Barcelona", "urbanismo", "Tibidabo", "vistas", "arquitectura"], "alt": "Perspectiva elevada desde el campanario de Santa Maria del Pi que recorre la trama del Raval hasta la montaña del Tibidabo en el horizonte."},
-      {"url": "https://i.postimg.cc/NjSn2Kht/En-Las-Ramblas.webp", "caption": "Personajes de las Ramblas: entre el ilusionismo y la bohemia urbana", "tags": ["Las Ramblas", "Barcelona", "vida urbana", "retratos", "mago", "calle"], "alt": "Dos hombres con estéticas pintorescas, uno con aspecto de mago, descansan en Las Ramblas junto a un gran peluche, reflejando el carácter ecléctico de la avenida."},
-      {"url": "https://i.postimg.cc/CxX2nRyY/Esculturas-de-Jaume-Plensa-en-Palau-de-la-Musica-001.webp", "caption": "Partituras de aire: el diálogo de Jaume Plensa con el modernismo", "tags": ["Jaume Plensa", "Palau de la Música", "modernismo", "escultura", "arte contemporáneo", "Barcelona"], "alt": "Una escultura transparente de Plensa, formada por letras y notas musicales, se asienta en el vestíbulo del Palau de la Música Catalana frente a los ventanales de mosaicos modernistas."},
-      {"url": "https://i.postimg.cc/g2Q7Lx9z/Expo-Franco-Born-001.webp", "caption": "Sombras del pasado: la estatua intervenida de Franco frente al Born", "tags": ["El Born", "Barcelona", "historia", "protesta", "monumento", "arte público", "escultura"], "alt": "La estatua ecuestre de Franco intervenida con pintura blanca frente al Born CCM, capturada en el momento en que una transeúnte documenta la controvertida instalación."},
-      {"url": "https://i.postimg.cc/T3Fs5K8R/Fiestas-de-La-Merce-2016-018.webp", "caption": "El asombro blanco: performance poética durante La Mercè", "tags": ["La Mercè", "performance", "teatro de calle", "Barcelona", "cultura"], "alt": "Grupo de artistas con rostros cubiertos de blanco realizando una expresiva interpretación gestual al aire libre durante las fiestas de Barcelona."},
-      {"url": "https://i.postimg.cc/qvSF6NfB/Fiestas-Sta-Eulalia-encaje-de-bolillos-2016.webp", "caption": "Manos que tejen historia: la tradición de los bolillos de Santa Eulàlia", "tags": ["artesanía", "encaje de bolillos", "tradición", "Barcelona", "Santa Eulàlia", "detalles"], "alt": "Primer plano detallado de una encajera moviendo los bolillos de madera sobre el patrón de hilos blancos, preservando una técnica textil milenaria."},
-      {"url": "https://i.postimg.cc/MpNLfnkT/Gemini-Generated-Image-cjmaazcjmaazcjma.webp", "caption": "Extravagancias urbanas: un cerdo mascota paseando por el asfalto", "tags": ["Barcelona", "mascotas", "curiosidades", "vida urbana", "anecdotal"], "alt": "Un cerdo oscuro con arnés pasea por una calle de Barcelona junto a su dueño, sorprendiendo a los transeúntes en una escena cotidiana inusual."},
-      {"url": "https://i.postimg.cc/wjZrR1KM/Gemini-Generated-Image-dveyvzdveyvzdvey.webp", "caption": "Polinización: el trabajo silencioso entre flores y cielo azul", "tags": ["naturaleza", "abejas", "macro", "polinización", "fauna", "flores"], "alt": "Macro de dos abejas europeas libando en flores blancas sobre un fondo de cielo azul nítido, capturando la esencia de la primavera."},
-      {"url": "https://i.postimg.cc/fRpPSV4k/Jardin-Botanico-de-Barcelona-008.webp", "caption": "Arquitectura para insectos: refugio de biodiversidad en el Jardín Botánico", "tags": ["Jardín Botánico", "biodiversidad", "Barcelona", "insectos", "ecología"], "alt": "Primer plano de un hotel de insectos construido con cañas y maderas perforadas, diseñado para fomentar la fauna útil en el parque."},
-      {"url": "https://i.postimg.cc/8z9Yf78j/Jardin-Botanico-de-Barcelona-retonos.webp", "caption": "El despertar del brote: vida incipiente ante la inmensidad del azul", "tags": ["naturaleza", "primavera", "macro", "crecimiento", "botánica"], "alt": "Detalle macro de un brote verde emergiendo de su yema contra un cielo azul eléctrico, simbolizando el renacimiento anual de la naturaleza."},
-      {"url": "https://i.postimg.cc/52TrQXcX/One-Ocean-Club-007.webp", "caption": "Retícula costera: geometrías modernas en el Port Vell", "tags": ["arquitectura", "Port Vell", "One Ocean Club", "minimalismo", "Barcelona", "blanco y negro"], "alt": "Fotografía en blanco y negro que destaca el patrón geométrico de la fachada del One Ocean Club con los yates y el Hotel W al fondo."},
-      {"url": "https://i.postimg.cc/pL4S5mN9/One-Ocean-Club-011.webp", "caption": "Juego de luces: la danza de sombras del One Ocean Club", "tags": ["geometría", "arquitectura", "luces y sombras", "blanco y negro", "abstracción"], "alt": "Perspectiva de la fachada perforada del club náutico donde la luz del sol crea un patrón rítmico de círculos luminosos sobre el suelo."},
-      {"url": "https://i.postimg.cc/P597vCGp/Pesebre-ayuntamiente-2016-013.webp", "caption": "Navidades burbuja: el pesebre minimalista de la Plaça Sant Jaume", "tags": ["Navidad", "Plaça Sant Jaume", "Pesebre", "Barcelona", "tradición", "blanco y negro"], "alt": "Instalación navideña moderna con burbujas de cristal que contienen las figuras del Belén, reflejando la arquitectura de la plaza en sus superficies esféricas."},
-      {"url": "https://i.postimg.cc/g2Q7Lx9L/Sagrada-Familia-2016-008.webp", "caption": "Paz vertical: la Sagrada Família enmarcada por el modernismo", "tags": ["Sagrada Família", "Gaudí", "arquitectura", "Barcelona", "paloma", "paz"], "alt": "La Basílica de la Sagrada Família vista tras una farola modernista de hierro forjado, con una paloma volando en una composición que une fe y arte."},
-      {"url": "https://i.postimg.cc/NjSn2KhT/Torres-venecianas-003.webp", "caption": "Mirador clásico: las Torres Venecianas abren paso a la ciudad", "tags": ["Plaza España", "Torres Venecianas", "Barcelona", "arquitectura clásica", "vistas"], "alt": "Vista enmarcada entre columnas clásicas que muestra el skyline de Barcelona y la silueta de una de las torres de Plaza España bajo el sol."},
-      {"url": "https://i.postimg.cc/0yF4KzgS/Torres-venecianas-Plaza-Espanya.webp", "caption": "Vértigo arquitectónico: el ojo de la escalera en ladrillo", "tags": ["arquitectura", "escaleras", "ladrillo", "perspectiva", "blanco y negro"], "alt": "Impresionante toma cenital de un hueco de escalera cuadrado con paredes de ladrillo visto, creando un efecto hipnótico de repetición geométrica."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063461/cgs_portfolio/Barcelona-desde-la-torre-de-Santa-Maria-del-Pi.webp", "caption": "Ocaso sobre la Ciutat Vella: la Catedral emerge entre el mar de tejados", "tags": ["Barcelona", "panorámica", "Catedral", "atardecer", "Gótico", "skyline"], "alt": "Vista aérea de Barcelona al atardecer desde Santa Maria del Pi, con la silueta de la Catedral de la Santa Cruz y Santa Eulalia destacando sobre la densa trama de edificios históricos bajo un cielo dramático."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063461/cgs_portfolio/Catedral-de-Barcelona-003.webp", "caption": "Gótico vertical: la majestuosidad pétrea de la Catedral de Barcelona", "tags": ["Gótico", "arquitectura religiosa", "Catedral", "interior", "Barcelona"], "alt": "Interior de la Catedral de Barcelona, mostrando la elevación de sus columnas y bóvedas de crucería bajo una luz dorada que resalta la textura de la piedra centenaria."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063461/cgs_portfolio/El-Liceu-desde-Sta-maria-Pi-009.webp", "caption": "Desde el campanario: del Liceu al horizonte de Montjuïc", "tags": ["Barcelona", "urbanismo", "Tibidabo", "vistas", "arquitectura"], "alt": "Perspectiva elevada desde el campanario de Santa Maria del Pi que recorre la trama del Raval hasta la montaña del Tibidabo en el horizonte."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063463/cgs_portfolio/En-Las-Ramblas.webp", "caption": "Personajes de las Ramblas: entre el ilusionismo y la bohemia urbana", "tags": ["Las Ramblas", "Barcelona", "vida urbana", "retratos", "mago", "calle"], "alt": "Dos hombres con estéticas pintorescas, uno con aspecto de mago, descansan en Las Ramblas junto a un gran peluche, reflejando el carácter ecléctico de la avenida."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063463/cgs_portfolio/Esculturas-de-Jaume-Plensa-en-Palau-de-la-Musica-001.webp", "caption": "Partituras de aire: el diálogo de Jaume Plensa con el modernismo", "tags": ["Jaume Plensa", "Palau de la Música", "modernismo", "escultura", "arte contemporáneo", "Barcelona"], "alt": "Una escultura transparente de Plensa, formada por letras y notas musicales, se asienta en el vestíbulo del Palau de la Música Catalana frente a los ventanales de mosaicos modernistas."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063463/cgs_portfolio/Expo-Franco-Born-001.webp", "caption": "Sombras del pasado: la estatua intervenida de Franco frente al Born", "tags": ["El Born", "Barcelona", "historia", "protesta", "monumento", "arte público", "escultura"], "alt": "La estatua ecuestre de Franco intervenida con pintura blanca frente al Born CCM, capturada en el momento en que una transeúnte documenta la controvertida instalación."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063466/cgs_portfolio/Fiestas-de-La-Merce-2016-018.webp", "caption": "El asombro blanco: performance poética durante La Mercè", "tags": ["La Mercè", "performance", "teatro de calle", "Barcelona", "cultura"], "alt": "Grupo de artistas con rostros cubiertos de blanco realizando una expresiva interpretación gestual al aire libre durante las fiestas de Barcelona."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063466/cgs_portfolio/Fiestas-Sta-Eulalia-encaje-de-bolillos-2016.webp", "caption": "Manos que tejen historia: la tradición de los bolillos de Santa Eulàlia", "tags": ["artesanía", "encaje de bolillos", "tradición", "Barcelona", "Santa Eulàlia", "detalles"], "alt": "Primer plano detallado de una encajera moviendo los bolillos de madera sobre el patrón de hilos blancos, preservando una técnica textil milenaria."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063465/cgs_portfolio/Gemini-Generated-Image-cjmaazcjmaazcjma.webp", "caption": "Extravagancias urbanas: un cerdo mascota paseando por el asfalto", "tags": ["Barcelona", "mascotas", "curiosidades", "vida urbana", "anecdotal"], "alt": "Un cerdo oscuro con arnés pasea por una calle de Barcelona junto a su dueño, sorprendiendo a los transeúntes en una escena cotidiana inusual."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063469/cgs_portfolio/Gemini-Generated-Image-dveyvzdveyvzdvey.webp", "caption": "Polinización: el trabajo silencioso entre flores y cielo azul", "tags": ["naturaleza", "abejas", "macro", "polinización", "fauna", "flores"], "alt": "Macro de dos abejas europeas libando en flores blancas sobre un fondo de cielo azul nítido, capturando la esencia de la primavera."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063470/cgs_portfolio/Jardin-Botanico-de-Barcelona-008.webp", "caption": "Arquitectura para insectos: refugio de biodiversidad en el Jardín Botánico", "tags": ["Jardín Botánico", "biodiversidad", "Barcelona", "insectos", "ecología"], "alt": "Primer plano de un hotel de insectos construido con cañas y maderas perforadas, diseñado para fomentar la fauna útil en el parque."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063468/cgs_portfolio/Jardin-Botanico-de-Barcelona-retonos.webp", "caption": "El despertar del brote: vida incipiente ante la inmensidad del azul", "tags": ["naturaleza", "primavera", "macro", "crecimiento", "botánica"], "alt": "Detalle macro de un brote verde emergiendo de su yema contra un cielo azul eléctrico, simbolizando el renacimiento anual de la naturaleza."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063470/cgs_portfolio/One-Ocean-Club-007.webp", "caption": "Retícula costera: geometrías modernas en el Port Vell", "tags": ["arquitectura", "Port Vell", "One Ocean Club", "minimalismo", "Barcelona", "blanco y negro"], "alt": "Fotografía en blanco y negro que destaca el patrón geométrico de la fachada del One Ocean Club con los yates y el Hotel W al fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063470/cgs_portfolio/One-Ocean-Club-011.webp", "caption": "Juego de luces: la danza de sombras del One Ocean Club", "tags": ["geometría", "arquitectura", "luces y sombras", "blanco y negro", "abstracción"], "alt": "Perspectiva de la fachada perforada del club náutico donde la luz del sol crea un patrón rítmico de círculos luminosos sobre el suelo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063472/cgs_portfolio/Pesebre-ayuntamiente-2016-013.webp", "caption": "Navidades burbuja: el pesebre minimalista de la Plaça Sant Jaume", "tags": ["Navidad", "Plaça Sant Jaume", "Pesebre", "Barcelona", "tradición", "blanco y negro"], "alt": "Instalación navideña moderna con burbujas de cristal que contienen las figuras del Belén, reflejando la arquitectura de la plaza en sus superficies esféricas."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063473/cgs_portfolio/Sagrada-Familia-2016-008.webp", "caption": "Paz vertical: la Sagrada Família enmarcada por el modernismo", "tags": ["Sagrada Família", "Gaudí", "arquitectura", "Barcelona", "paloma", "paz"], "alt": "La Basílica de la Sagrada Família vista tras una farola modernista de hierro forjado, con una paloma volando en una composición que une fe y arte."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063473/cgs_portfolio/Torres-venecianas-003.webp", "caption": "Mirador clásico: las Torres Venecianas abren paso a la ciudad", "tags": ["Plaza España", "Torres Venecianas", "Barcelona", "arquitectura clásica", "vistas"], "alt": "Vista enmarcada entre columnas clásicas que muestra el skyline de Barcelona y la silueta de una de las torres de Plaza España bajo el sol."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063475/cgs_portfolio/Torres-venecianas-Plaza-Espanya.webp", "caption": "Vértigo arquitectónico: el ojo de la escalera en ladrillo", "tags": ["arquitectura", "escaleras", "ladrillo", "perspectiva", "blanco y negro"], "alt": "Impresionante toma cenital de un hueco de escalera cuadrado con paredes de ladrillo visto, creando un efecto hipnótico de repetición geométrica."},
       FOTO_DEPORTE_MIREIA_BELMONTE,
-      {"url": "https://i.postimg.cc/vZkKx4R7/Turo-de-la-Rovira-009.webp", "caption": "Corazones sobre Barcelona: amistad en los Búnkers del Carmel", "tags": ["Barcelona", "Búnkers del Carmel", "vistas", "amistad", "atardecer", "Turó de la Rovira"], "alt": "Tres jóvenes hacen corazones con sus manos frente a la espectacular extensión panorámica de Barcelona al atardecer desde el Turó de la Rovira."},
-      {"url": "https://i.postimg.cc/Vkph0JyW/Un-mono-en-el-Arco-del-Triunfo-002.webp", "caption": "Contrapuntos urbanos: el mono vigilante del Arco de Triunfo", "tags": ["Arco de Triunfo", "Barcelona", "curiosidades", "escena urbana", "arquitectura"], "alt": "Vista en contrapicado del Arc de Triomf de Barcelona donde un pequeño mono de peluche pende de una farola, ofreciendo un detalle lúdico a la arquitectura solemne."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063476/cgs_portfolio/Turo-de-la-Rovira-009.webp", "caption": "Corazones sobre Barcelona: amistad en los Búnkers del Carmel", "tags": ["Barcelona", "Búnkers del Carmel", "vistas", "amistad", "atardecer", "Turó de la Rovira"], "alt": "Tres jóvenes hacen corazones con sus manos frente a la espectacular extensión panorámica de Barcelona al atardecer desde el Turó de la Rovira."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063476/cgs_portfolio/Un-mono-en-el-Arco-del-Triunfo-002.webp", "caption": "Contrapuntos urbanos: el mono vigilante del Arco de Triunfo", "tags": ["Arco de Triunfo", "Barcelona", "curiosidades", "escena urbana", "arquitectura"], "alt": "Vista en contrapicado del Arc de Triomf de Barcelona donde un pequeño mono de peluche pende de una farola, ofreciendo un detalle lúdico a la arquitectura solemne."},
       FOTO_DEPORTE_VOLTA_2016,
-      {"url": "https://i.postimg.cc/x1c7dKZd/Arbol-rojo-en-la-Ciutadela.webp", "caption": "Octubre de fuego: el estallido carmesí del Parque de la Ciutadella", "tags": ["Parque de la Ciutadella", "Barcelona", "otoño", "naturaleza", "árbol", "color"], "alt": "Un árbol con un asombroso follaje rojo vibrante destaca en el centro del Parque de la Ciutadella, rodeado de gente disfrutando del césped bajo un cielo azul nítido."}
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063479/cgs_portfolio/Arbol-rojo-en-la-Ciutadela.webp", "caption": "Octubre de fuego: el estallido carmesí del Parque de la Ciutadella", "tags": ["Parque de la Ciutadella", "Barcelona", "otoño", "naturaleza", "árbol", "color"], "alt": "Un árbol con un asombroso follaje rojo vibrante destaca en el centro del Parque de la Ciutadella, rodeado de gente disfrutando del césped bajo un cielo azul nítido."}
     ]
   },
   {
     id: "Gale2015",
-    url: "https://i.postimg.cc/1zGK81Xj/Acrobacias-parque-Joan-Miro-Barcelona.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063006/cgs_portfolio/Acrobacias-parque-Joan-Miro-Barcelona.webp",
     titulo: "Barcelona · Madrid · Caracas",
     ubicacion: "Escenas 2015",
     resumen: "Un puente visual sobre el Atlántico en 2015: tradiciones callejeras, vanguardias artísticas y naturaleza entre Barcelona, el clasicismo madrileño y el verdor imponente de Caracas.",
     reseña: "Tres geografías unidas por la crónica fotográfica a lo largo de 2015. El pulso urbano de Barcelona —con las fiestas populares de Sant Jordi, los primeros baños invernales en el mar y las instalaciones creativas en el MACBA y la Fundación Miró— encuentra réplica en la prestancia del Retiro y la gastronomía clásica de Madrid, para extenderse hacia la exuberancia caribeña: la silueta imponente del Ávila al atardecer, los reflejos tropicales de El Laguito y el oleaje indómito en La Guaira.",
-    urlImagen: "https://i.postimg.cc/1zGK81Xj/Acrobacias-parque-Joan-Miro-Barcelona.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063006/cgs_portfolio/Acrobacias-parque-Joan-Miro-Barcelona.webp",
     categoria: "Europa y América",
     fecha: "2015",
     equipo: "Canon PowerShot SX200 IS · Samsung GT-I9505",
     galeriaTematica: [
       FOTO_ACROBACIA_2015,
-      {"url": "https://i.postimg.cc/s2dcfgjG/Atardecer-Caracas-2015.webp", "caption": "Panorámica nocturna de Caracas: El manto de luces sobre las colinas", "tags": ["Atardecer", "Caracas", "Paisaje Urbano", "Venezuela", "Crepúsculo"], "alt": "Vista panorámica de Caracas al anochecer. El cielo se tiñe de naranjas y azules profundos mientras las luces de la ciudad comienzan a brillar sobre las siluetas de las colinas circundantes."},
-      {"url": "https://i.postimg.cc/DzkgfwvG/Ano-nuevo-chino-2015.webp", "caption": "Ritmo y tradición: Desfile del Año Nuevo Chino en Barcelona", "tags": ["Año Nuevo Chino", "Cultura", "Desfile", "Barcelona", "Tradición"], "alt": "Niños y adultos desfilan con trajes tradicionales rojos y amarillos durante la celebración del Año Nuevo Chino. El ambiente festivo se siente en cada tambor y color del desfile."},
-      {"url": "https://i.postimg.cc/R05RCZSH/Cangrejo-La-Guaira-Venezuela-2015.webp", "caption": "Naturaleza indómita: Cangrejo moteado en La Guaira", "tags": ["Fauna", "Naturaleza", "La Guaira", "Venezuela", "Mar"], "alt": "Detalle de un cangrejo con caparazón moteado sujetándose firmemente a una roca oscura y texturizada en la costa venezolana."},
-      {"url": "https://i.postimg.cc/1zhHR3mv/Castillo-Montjuic.webp", "caption": "Atravesando la historia: Perspectiva en los túneles del Castillo", "tags": ["Arquitectura", "Castillo De Montjuïc", "Blanco Y Negro", "Túnel", "Barcelona"], "alt": "Fotografía artística en blanco y negro de dos figuras caminando por un imponente túnel abovedado de ladrillo en el Castillo de Montjuïc."},
-      {"url": "https://i.postimg.cc/bvxRZfr3/Cocido-Cerveceria-Cruz-Blanca-Madrid.webp", "caption": "Gastronomía castiza: El cocido madrileño de la Cruz Blanca", "tags": ["Gastronomía", "Madrid", "Cocido Madrileño", "Tradición", "Placer Culinario"], "alt": "Una mesa bien servida con un tradicional cocido madrileño: garbanzos, carnes y verduras acompañados de vino tinto en una taberna clásica madrileña."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063477/cgs_portfolio/Atardecer-Caracas-2015.webp", "caption": "Panorámica nocturna de Caracas: El manto de luces sobre las colinas", "tags": ["Atardecer", "Caracas", "Paisaje Urbano", "Venezuela", "Crepúsculo"], "alt": "Vista panorámica de Caracas al anochecer. El cielo se tiñe de naranjas y azules profundos mientras las luces de la ciudad comienzan a brillar sobre las siluetas de las colinas circundantes."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063478/cgs_portfolio/Ano-nuevo-chino-2015.webp", "caption": "Ritmo y tradición: Desfile del Año Nuevo Chino en Barcelona", "tags": ["Año Nuevo Chino", "Cultura", "Desfile", "Barcelona", "Tradición"], "alt": "Niños y adultos desfilan con trajes tradicionales rojos y amarillos durante la celebración del Año Nuevo Chino. El ambiente festivo se siente en cada tambor y color del desfile."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063480/cgs_portfolio/Cangrejo-La-Guaira-Venezuela-2015.webp", "caption": "Naturaleza indómita: Cangrejo moteado en La Guaira", "tags": ["Fauna", "Naturaleza", "La Guaira", "Venezuela", "Mar"], "alt": "Detalle de un cangrejo con caparazón moteado sujetándose firmemente a una roca oscura y texturizada en la costa venezolana."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063481/cgs_portfolio/Castillo-Montjuic.webp", "caption": "Atravesando la historia: Perspectiva en los túneles del Castillo", "tags": ["Arquitectura", "Castillo De Montjuïc", "Blanco Y Negro", "Túnel", "Barcelona"], "alt": "Fotografía artística en blanco y negro de dos figuras caminando por un imponente túnel abovedado de ladrillo en el Castillo de Montjuïc."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063481/cgs_portfolio/Cocido-Cerveceria-Cruz-Blanca-Madrid.webp", "caption": "Gastronomía castiza: El cocido madrileño de la Cruz Blanca", "tags": ["Gastronomía", "Madrid", "Cocido Madrileño", "Tradición", "Placer Culinario"], "alt": "Una mesa bien servida con un tradicional cocido madrileño: garbanzos, carnes y verduras acompañados de vino tinto en una taberna clásica madrileña."},
       FOTO_KITESURF_MAR_BELLA_2015,
-      {"url": "https://i.postimg.cc/5td39248/El-Laguito-Caracas-2015.webp", "caption": "Espejo tropical: Atardecer sereno en El Laguito", "tags": ["Reflejos", "Atardecer", "Caracas", "Naturaleza", "Palmeras"], "alt": "Siluetas de palmeras reflejadas perfectamente sobre la superficie tranquila de un lago durante un atardecer cálido en Caracas."},
-      {"url": "https://i.postimg.cc/6QJ06pWG/El-Avila-Caracas-2015.webp", "caption": "El guardián del valle: El Ávila bajo la hora dorada", "tags": ["Caracas", "El Ávila", "Paisaje", "Venezuela", "Montaña"], "alt": "Impresionante vista de la montaña El Ávila dominando el horizonte de Caracas, bañada por la luz cálida del atardecer que resalta las texturas de la sierra."},
-      {"url": "https://i.postimg.cc/YS6xvB05/Facis-30-varas-atadas-simbolo-romano-muralla-plaza-Nova-Barcelona.webp", "caption": "Relieve romano: Fasces en la muralla de la Plaça Nova", "tags": ["Historia", "Roma", "Barcelona", "Muralla", "Escultura"], "alt": "Primer plano de un antiguo relieve de piedra en la muralla de Barcelona que representa unos fasces, símbolo de autoridad de la época romana."},
-      {"url": "https://i.postimg.cc/W4Lnp1N9/Instalacion-Castillo-Montjuic.webp", "caption": "Esfera infinita: Arte contemporáneo en el Castillo de Montjuïc", "tags": ["Arte", "Instalación", "Castillo De Montjuïc", "Reflejos", "Barcelona"], "alt": "Una gran esfera metálica reflectante en el patio del castillo, distorsionando la arquitectura histórica y el cielo azul en su superficie pulida."},
-      {"url": "https://i.postimg.cc/d029hc3W/Jornadas-queso-parmesano-Rest-Sphaglia-Barcelona.webp", "caption": "Escultura culinaria: Creatividad en Sphaglia", "tags": ["Alta Cocina", "Gastronomía", "Barcelona", "Gourmet", "Presentación"], "alt": "Plato de alta cocina elegantemente presentado con flores comestibles y salsas vibrantes durante unas jornadas gastronómicas en Barcelona."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063481/cgs_portfolio/El-Laguito-Caracas-2015.webp", "caption": "Espejo tropical: Atardecer sereno en El Laguito", "tags": ["Reflejos", "Atardecer", "Caracas", "Naturaleza", "Palmeras"], "alt": "Siluetas de palmeras reflejadas perfectamente sobre la superficie tranquila de un lago durante un atardecer cálido en Caracas."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063484/cgs_portfolio/El-Avila-Caracas-2015.webp", "caption": "El guardián del valle: El Ávila bajo la hora dorada", "tags": ["Caracas", "El Ávila", "Paisaje", "Venezuela", "Montaña"], "alt": "Impresionante vista de la montaña El Ávila dominando el horizonte de Caracas, bañada por la luz cálida del atardecer que resalta las texturas de la sierra."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063492/cgs_portfolio/Facis-30-varas-atadas-simbolo-romano-muralla-plaza-Nova-Barcelona.webp", "caption": "Relieve romano: Fasces en la muralla de la Plaça Nova", "tags": ["Historia", "Roma", "Barcelona", "Muralla", "Escultura"], "alt": "Primer plano de un antiguo relieve de piedra en la muralla de Barcelona que representa unos fasces, símbolo de autoridad de la época romana."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063484/cgs_portfolio/Instalacion-Castillo-Montjuic.webp", "caption": "Esfera infinita: Arte contemporáneo en el Castillo de Montjuïc", "tags": ["Arte", "Instalación", "Castillo De Montjuïc", "Reflejos", "Barcelona"], "alt": "Una gran esfera metálica reflectante en el patio del castillo, distorsionando la arquitectura histórica y el cielo azul en su superficie pulida."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063488/cgs_portfolio/Jornadas-queso-parmesano-Rest-Sphaglia-Barcelona.webp", "caption": "Escultura culinaria: Creatividad en Sphaglia", "tags": ["Alta Cocina", "Gastronomía", "Barcelona", "Gourmet", "Presentación"], "alt": "Plato de alta cocina elegantemente presentado con flores comestibles y salsas vibrantes durante unas jornadas gastronómicas en Barcelona."},
       FOTO_MARATON_BCN_2015,
-      {"url": "https://i.postimg.cc/tgQ5R4qM/Marea-baja-Barceloneta-invierno.webp", "caption": "Calma invernal: Atardecer en marea baja en la Barceloneta", "tags": ["Playa", "Barceloneta", "Blanco Y Negro", "Invierno", "Barcelona"], "alt": "Captura en blanco y negro de la orilla rocosa de la Barceloneta en invierno, con siluetas humanas disfrutando de la paz del mar."},
-      {"url": "https://i.postimg.cc/yN4P681F/Nit-Museos-MACBA-2015.webp", "caption": "Vuelo colectivo: La instalación de mariposas en el MACBA", "tags": ["Arte", "Instalación", "MACBA", "Barcelona", "Nit Dels Museus"], "alt": "Innumerables siluetas de mariposas negras cubren una vasta pared blanca en el MACBA, creando un efecto visual hipnótico durante la Noche de los Museos."},
-      {"url": "https://i.postimg.cc/cJym1Lxj/Nino-Jesus-Fundacion-Miro.webp", "caption": "Contraste surrealista: Intervención en la Fundación Miró", "tags": ["Arte", "Fundación Miró", "Barcelona", "Surrealismo", "Escultura"], "alt": "Una figura del Niño Jesús colocada sobre una bala de heno, creando una composición artística inesperada en los exteriores de la Fundación Miró."},
-      {"url": "https://i.postimg.cc/JhVq7zr9/Palacio-Cristal-Parque-del-Retiro-Madrid.webp", "caption": "Luz y cristal: El esplendor del Palacio de Cristal madrileño", "tags": ["Madrid", "Retiro", "Arquitectura", "Palacio De Cristal", "Invierno"], "alt": "El Palacio de Cristal del Retiro se refleja en el lago bajo el cielo invernal, destacando su elegante estructura de hierro y vidrio."},
-      {"url": "https://i.postimg.cc/JhVq7zrc/Pesebre-Ayto-Barcelona-2015.webp", "caption": "Pesebre pop-up: Creatividad navideña en la Plaza Sant Jaume", "tags": ["Navidad", "Tradición", "Barcelona", "Diseño", "Evento"], "alt": "Un pesebre artístico gigante con estética de libro pop-up, representando el viaje de los Reyes Magos en la plaza consistorial de Barcelona."},
-      {"url": "https://i.postimg.cc/W4G7dczf/Plaza-Catalunya-fuentes.webp", "caption": "Fuentes en la noche: El corazón de Barcelona iluminado", "tags": ["Barcelona", "Plaza Catalunya", "Iluminación", "Fuentes", "Nocturna"], "alt": "Las fuentes de Plaza Catalunya brillan intensamente bajo el cielo nocturno, flanqueadas por las siluetas de los edificios históricos circundantes."},
-      {"url": "https://i.postimg.cc/pdbZVLW4/Primer-caldo-2015-Barceloneta-primero-enero.webp", "caption": "Primer baño del año: Calidez tras el chapuzón en la Barceloneta", "tags": ["Tradición", "Barcelona", "Año Nuevo", "Mar", "Social"], "alt": "Amanecer del 1 de enero en la Barceloneta. Voluntarios sirven caldo caliente a los valientes que han cumplido con la tradición del primer baño del año."},
-      {"url": "https://i.postimg.cc/3wXZkQN9/Quinceanera-Ciutadella.webp", "caption": "Ritos de paso: Sesión de fotos en la Cascada de la Ciutadella", "tags": ["Barcelona", "Ciutadella", "Cultura", "Tradición", "Celebración"], "alt": "Una joven con vestido rosa de quinceañera posa frente a la majestuosa cascada monumental del Parque de la Ciutadella."},
-      {"url": "https://i.postimg.cc/0NYCz1j4/Sant-Jordi-2015-La-Rambla.webp", "caption": "El día del libro y la rosa: La bulliciosa Rambla de Sant Jordi", "tags": ["Sant Jordi", "Barcelona", "Cultura", "Libros", "Rosas"], "alt": "Multitud de personas curioseando en las paradas de libros de La Rambla durante la festividad de Sant Jordi en un día soleado."},
-      {"url": "https://i.postimg.cc/yNmTDCx2/Semana-Santa-Plaza-Catedral-Barcelona.webp", "caption": "Tradición solemne: Domingo de Ramos en la Catedral", "tags": ["Semana Santa", "Barcelona", "Religión", "Tradición", "Catedral"], "alt": "Procesión de Domingo de Ramos ante la Catedral de Barcelona, con participantes portando palmas blancas bajo la intensa luz solar."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063487/cgs_portfolio/Marea-baja-Barceloneta-invierno.webp", "caption": "Calma invernal: Atardecer en marea baja en la Barceloneta", "tags": ["Playa", "Barceloneta", "Blanco Y Negro", "Invierno", "Barcelona"], "alt": "Captura en blanco y negro de la orilla rocosa de la Barceloneta en invierno, con siluetas humanas disfrutando de la paz del mar."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063491/cgs_portfolio/Nit-Museos-MACBA-2015.webp", "caption": "Vuelo colectivo: La instalación de mariposas en el MACBA", "tags": ["Arte", "Instalación", "MACBA", "Barcelona", "Nit Dels Museus"], "alt": "Innumerables siluetas de mariposas negras cubren una vasta pared blanca en el MACBA, creando un efecto visual hipnótico durante la Noche de los Museos."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063493/cgs_portfolio/Nino-Jesus-Fundacion-Miro.webp", "caption": "Contraste surrealista: Intervención en la Fundación Miró", "tags": ["Arte", "Fundación Miró", "Barcelona", "Surrealismo", "Escultura"], "alt": "Una figura del Niño Jesús colocada sobre una bala de heno, creando una composición artística inesperada en los exteriores de la Fundación Miró."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063493/cgs_portfolio/Palacio-Cristal-Parque-del-Retiro-Madrid.webp", "caption": "Luz y cristal: El esplendor del Palacio de Cristal madrileño", "tags": ["Madrid", "Retiro", "Arquitectura", "Palacio De Cristal", "Invierno"], "alt": "El Palacio de Cristal del Retiro se refleja en el lago bajo el cielo invernal, destacando su elegante estructura de hierro y vidrio."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063496/cgs_portfolio/Pesebre-Ayto-Barcelona-2015.webp", "caption": "Pesebre pop-up: Creatividad navideña en la Plaza Sant Jaume", "tags": ["Navidad", "Tradición", "Barcelona", "Diseño", "Evento"], "alt": "Un pesebre artístico gigante con estética de libro pop-up, representando el viaje de los Reyes Magos en la plaza consistorial de Barcelona."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063497/cgs_portfolio/Plaza-Catalunya-fuentes.webp", "caption": "Fuentes en la noche: El corazón de Barcelona iluminado", "tags": ["Barcelona", "Plaza Catalunya", "Iluminación", "Fuentes", "Nocturna"], "alt": "Las fuentes de Plaza Catalunya brillan intensamente bajo el cielo nocturno, flanqueadas por las siluetas de los edificios históricos circundantes."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063495/cgs_portfolio/Primer-caldo-2015-Barceloneta-primero-enero.webp", "caption": "Primer baño del año: Calidez tras el chapuzón en la Barceloneta", "tags": ["Tradición", "Barcelona", "Año Nuevo", "Mar", "Social"], "alt": "Amanecer del 1 de enero en la Barceloneta. Voluntarios sirven caldo caliente a los valientes que han cumplido con la tradición del primer baño del año."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063498/cgs_portfolio/Quinceanera-Ciutadella.webp", "caption": "Ritos de paso: Sesión de fotos en la Cascada de la Ciutadella", "tags": ["Barcelona", "Ciutadella", "Cultura", "Tradición", "Celebración"], "alt": "Una joven con vestido rosa de quinceañera posa frente a la majestuosa cascada monumental del Parque de la Ciutadella."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063498/cgs_portfolio/Sant-Jordi-2015-La-Rambla.webp", "caption": "El día del libro y la rosa: La bulliciosa Rambla de Sant Jordi", "tags": ["Sant Jordi", "Barcelona", "Cultura", "Libros", "Rosas"], "alt": "Multitud de personas curioseando en las paradas de libros de La Rambla durante la festividad de Sant Jordi en un día soleado."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063500/cgs_portfolio/Semana-Santa-Plaza-Catedral-Barcelona.webp", "caption": "Tradición solemne: Domingo de Ramos en la Catedral", "tags": ["Semana Santa", "Barcelona", "Religión", "Tradición", "Catedral"], "alt": "Procesión de Domingo de Ramos ante la Catedral de Barcelona, con participantes portando palmas blancas bajo la intensa luz solar."},
     ]
   },
   {
     id: "Gale2014",
-    url: "https://i.postimg.cc/zDKR5FLQ/La-Merce-2014-fuegos-artificiales.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063501/cgs_portfolio/La-Merce-2014-fuegos-artificiales.webp",
     titulo: "Barcelona · Madrid · Cambrils",
     ubicacion: "Escenas 2014",
     resumen: "El esplendor modernista de Sant Pau, festividades colectivas, acrobacias al aire libre y reposo mediterráneo a lo largo de 2014.",
     reseña: "Un recorrido visual por el año 2014 articulado en torno a la arquitectura y la celebración comunitaria. La recuperación del recinto modernista del Hospital de Sant Pau desvela sus mosaicos y patios florales a la contemplación, mientras las fiestas de La Mercè visten el cielo con el estallido del Piromusical y figuras de danza aérea sobre Plaza Catalunya. Entre la calma estival de Cambrils y los monumentales rostros de bronce de Antonio López velando la estación de Atocha en Madrid, la cámara preserva instantes de arte efímero y memoria compartida.",
-    urlImagen: "https://i.postimg.cc/zDKR5FLQ/La-Merce-2014-fuegos-artificiales.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063501/cgs_portfolio/La-Merce-2014-fuegos-artificiales.webp",
     categoria: "España",
     fecha: "2014",
     equipo: "Canon PowerShot SX200 IS",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/GhRTpTG0/Arte-Efimero-Placa-Nova-2014.webp", "caption": "Estructuras de madera: El arte efímero en la Plaça Nova", "tags": ["Escultura Pública", "Arte Contemporáneo", "Estructura De Madera", "Museo", "Paisaje Urbano"], "alt": "Una gran escultura pública hecha de intrincadas vigas de madera formando una estructura de rejilla, ubicada en una plaza urbana soleada. Varias personas caminan junto a la obra, que proyecta largas sombras en el suelo. Al fondo, un edificio moderno exhibe carteles con referencias a 'Modernisme', 'Picasso' y 'Gaudí'."},
-      {"url": "https://i.postimg.cc/qByC0xhp/Auditori-de-Barcelona-caballo-madera.webp", "caption": "Caballo de madera: Escultura interactiva frente a L'Auditori", "tags": ["Escultura De Madera", "Caballo De Troya", "Arte Público", "Niño", "Interacción"], "alt": "Una gran escultura de un caballo de Troya, hecha de listones de madera clara, ubicada en una plaza urbana con edificios modernos y un techo translúcido. Un adulto se inclina para observar a un niño pequeño que explora curiosamente bajo el vientre de la imponente figura equina."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063502/cgs_portfolio/Arte-Efimero-Placa-Nova-2014.webp", "caption": "Estructuras de madera: El arte efímero en la Plaça Nova", "tags": ["Escultura Pública", "Arte Contemporáneo", "Estructura De Madera", "Museo", "Paisaje Urbano"], "alt": "Una gran escultura pública hecha de intrincadas vigas de madera formando una estructura de rejilla, ubicada en una plaza urbana soleada. Varias personas caminan junto a la obra, que proyecta largas sombras en el suelo. Al fondo, un edificio moderno exhibe carteles con referencias a 'Modernisme', 'Picasso' y 'Gaudí'."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063502/cgs_portfolio/Auditori-de-Barcelona-caballo-madera.webp", "caption": "Caballo de madera: Escultura interactiva frente a L'Auditori", "tags": ["Escultura De Madera", "Caballo De Troya", "Arte Público", "Niño", "Interacción"], "alt": "Una gran escultura de un caballo de Troya, hecha de listones de madera clara, ubicada en una plaza urbana con edificios modernos y un techo translúcido. Un adulto se inclina para observar a un niño pequeño que explora curiosamente bajo el vientre de la imponente figura equina."},
       FOTO_SKATING_PL_CAT_2014,
-      {"url": "https://i.postimg.cc/VLw0N0nY/Beso-Barrio-Gotico-2014.webp", "caption": "El muro del beso: Diálogo entre mosaico y piedra en el Gótico", "tags": ["Mural", "Mosaico", "Arte Callejero", "Arquitectura", "Contraste"], "alt": "Espacio urbano que muestra un vibrante contraste: a la izquierda, una pared de piedra envejecida con un arco rústico; a la derecha, un muro moderno con un gran mosaico artístico en tonos rojos que representa unos labios. El suelo de adoquines guía la vista hacia un edificio blanco al fondo."},
-      {"url": "https://i.postimg.cc/FsvkKk35/Carros-de-caballos-por-Barcelona-2014.webp", "caption": "Elegancia ecuestre: Caballo de tiro engalanado en las calles de Barcelona", "tags": ["Caballo", "Crin Trenzada", "Arneses", "Carruaje", "Ambiente Urbano"], "alt": "Primer plano de un majestuoso caballo de tiro en una calle urbana, destacando su elaborada crin blanca cuidadosamente trenzada. El animal lleva un arnés de cuero oscuro con cadenas, preparado para un carruaje, con la arquitectura urbana de fondo."},
-      {"url": "https://i.postimg.cc/rFTRpRxF/Fiestas-Sant-Roc-2014-tradiciones-porron-gigantes-sardanas.webp", "caption": "Tradición y porrón: Celebrando las fiestas de Sant Roc en el Gótico", "tags": ["Fiesta Tradicional", "Gegants Y Cabezudos", "Cultura Catalana", "Música En Vivo", "Celebración"], "alt": "Atmósfera vibrante de una fiesta tradicional en Cataluña. Una multitud de personas ríe y comparte momentos, destacando un hombre bebiendo de un porrón. Al fondo, se observan las figuras de los 'gegants' y una banda de música de metales en un entorno histórico."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063504/cgs_portfolio/Beso-Barrio-Gotico-2014.webp", "caption": "El muro del beso: Diálogo entre mosaico y piedra en el Gótico", "tags": ["Mural", "Mosaico", "Arte Callejero", "Arquitectura", "Contraste"], "alt": "Espacio urbano que muestra un vibrante contraste: a la izquierda, una pared de piedra envejecida con un arco rústico; a la derecha, un muro moderno con un gran mosaico artístico en tonos rojos que representa unos labios. El suelo de adoquines guía la vista hacia un edificio blanco al fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063504/cgs_portfolio/Carros-de-caballos-por-Barcelona-2014.webp", "caption": "Elegancia ecuestre: Caballo de tiro engalanado en las calles de Barcelona", "tags": ["Caballo", "Crin Trenzada", "Arneses", "Carruaje", "Ambiente Urbano"], "alt": "Primer plano de un majestuoso caballo de tiro en una calle urbana, destacando su elaborada crin blanca cuidadosamente trenzada. El animal lleva un arnés de cuero oscuro con cadenas, preparado para un carruaje, con la arquitectura urbana de fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063505/cgs_portfolio/Fiestas-Sant-Roc-2014-tradiciones-porron-gigantes-sardanas.webp", "caption": "Tradición y porrón: Celebrando las fiestas de Sant Roc en el Gótico", "tags": ["Fiesta Tradicional", "Gegants Y Cabezudos", "Cultura Catalana", "Música En Vivo", "Celebración"], "alt": "Atmósfera vibrante de una fiesta tradicional en Cataluña. Una multitud de personas ríe y comparte momentos, destacando un hombre bebiendo de un porrón. Al fondo, se observan las figuras de los 'gegants' y una banda de música de metales en un entorno histórico."},
       FOTO_SKATING_GP_A_2014,
       FOTO_SKATING_GP_B_2014,
-      {"url": "https://i.postimg.cc/nVBQZGs2/Hamaca-2014-Cambrils.webp", "caption": "Pausa estival: Reposo y sombras en Cambrils", "tags": ["Hamaca", "Relajación", "Blanco Y Negro", "Sombras", "Exterior"], "alt": "Fotografía en blanco y negro de alto contraste que muestra una hamaca de encaje colgando e invitando al descanso. La luz intensa proyecta una sombra geométrica sobre el suelo de madera y baldosas de un rincón tranquilo al aire libre."},
-      {"url": "https://i.postimg.cc/xjMbY3k7/Hospital-de-la-Santa-Creu-i-Sant-Pau-2014-1.webp", "caption": "Mosaicos y cúpulas: El esplendor modernista del Hospital de Sant Pau", "tags": ["Modernismo Catalán", "Arquitectura", "Barcelona", "Patrimonio UNESCO", "Azulejos", "Cúpula", "Decoración", "Tejado", "Lluís Domènech I Montaner", "Histórico"], "alt": "Detalle de una cúpula modernista del Hospital de Sant Pau con tejas escamadas en tonos amarillos y marrones. La estructura luce intrincados mosaicos, ventanas circulares con vidrieras azules y gárgolas de piedra bajo un cielo despejado."},
-      {"url": "https://i.postimg.cc/y6cSByJb/Hospital-de-la-Santa-Creu-i-Sant-Pau-2014.webp", "caption": "Perspectiva modernista: El conjunto histórico de Sant Pau", "tags": ["Modernismo", "Arquitectura", "Barcelona", "Patrimonio UNESCO", "Plaza Pública"], "alt": "Vista aérea del complejo modernista del Hospital de Sant Pau. El edificio principal de ladrillo rojo con cúpulas ornamentadas preside una gran plaza pavimentada donde las personas caminan entre zonas ajardinadas y farolas clásicas."},
-      {"url": "https://i.postimg.cc/QN1WsJBq/Hospital-Santa-Creu-i-Sant-Pau-fotografa.webp", "caption": "Capturando el ritmo: Fotografía y simetría en Sant Pau", "tags": ["Fotografía", "Mujer", "Cámara", "Arquitectura", "Diseño", "Patrones", "Líneas Verticales", "Celosía", "Interior", "Luz Y Sombra"], "alt": "Una mujer vestida de oscuro toma una fotografía con una cámara SLR en un interior contemporáneo. La pared de listones verticales de madera crea un potente juego de líneas paralelas y sombras que acentúan la profundidad del espacio."},
-      {"url": "https://i.postimg.cc/zDKR5FLQ/La-Merce-2014-fuegos-artificiales.webp", "caption": "Eclosión de luz: El Piromusical de La Mercè ilumina la noche", "tags": ["Fuegos Artificiales", "Noche", "Celebración", "Luces", "Espectáculo"], "alt": "Impresionante exhibición de fuegos artificiales donde una gran explosión esférica amarilla y roja domina el cielo. Debajo, múltiples estelas de luz roja zigzagueantes crean un patrón dinámico sobre el horizonte nocturno."},
-      {"url": "https://i.postimg.cc/bYk289Dp/La-Merce-2014-acrobacias-plaza-Cataluna.webp", "caption": "Geometría humana: Danza vertical sobre la Plaza de Catalunya", "tags": ["Acrobacia Aérea", "Performance", "Arte Vertical", "Trabajo En Equipo", "Patrón Humano"], "alt": "Formación de múltiples acróbatas suspendidos en el aire creando un patrón geométrico humano. Sus trajes de colores primarios contrastan con el cielo nublado durante una espectacular performance urbana."},
-      {"url": "https://i.postimg.cc/66nGwf7z/Madrid-Estacion-Atocha-2014.webp", "caption": "Miradas monumentales: 'El Día y la Noche' en la estación de Atocha", "tags": ["Escultura", "Arte Público", "Otoño", "Paisaje Urbano", "Madrid"], "alt": "Dos grandes esculturas de cabezas infantiles de Antonio López flanquean el entorno de la estación de Atocha. Los árboles lucen un vibrante follaje otoñal naranja y al fondo se aprecia la arquitectura clásica de Madrid."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063506/cgs_portfolio/Hamaca-2014-Cambrils.webp", "caption": "Pausa estival: Reposo y sombras en Cambrils", "tags": ["Hamaca", "Relajación", "Blanco Y Negro", "Sombras", "Exterior"], "alt": "Fotografía en blanco y negro de alto contraste que muestra una hamaca de encaje colgando e invitando al descanso. La luz intensa proyecta una sombra geométrica sobre el suelo de madera y baldosas de un rincón tranquilo al aire libre."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063506/cgs_portfolio/Hospital-de-la-Santa-Creu-i-Sant-Pau-2014-1.webp", "caption": "Mosaicos y cúpulas: El esplendor modernista del Hospital de Sant Pau", "tags": ["Modernismo Catalán", "Arquitectura", "Barcelona", "Patrimonio UNESCO", "Azulejos", "Cúpula", "Decoración", "Tejado", "Lluís Domènech I Montaner", "Histórico"], "alt": "Detalle de una cúpula modernista del Hospital de Sant Pau con tejas escamadas en tonos amarillos y marrones. La estructura luce intrincados mosaicos, ventanas circulares con vidrieras azules y gárgolas de piedra bajo un cielo despejado."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063506/cgs_portfolio/Hospital-de-la-Santa-Creu-i-Sant-Pau-2014.webp", "caption": "Perspectiva modernista: El conjunto histórico de Sant Pau", "tags": ["Modernismo", "Arquitectura", "Barcelona", "Patrimonio UNESCO", "Plaza Pública"], "alt": "Vista aérea del complejo modernista del Hospital de Sant Pau. El edificio principal de ladrillo rojo con cúpulas ornamentadas preside una gran plaza pavimentada donde las personas caminan entre zonas ajardinadas y farolas clásicas."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063508/cgs_portfolio/Hospital-Santa-Creu-i-Sant-Pau-fotografa.webp", "caption": "Capturando el ritmo: Fotografía y simetría en Sant Pau", "tags": ["Fotografía", "Mujer", "Cámara", "Arquitectura", "Diseño", "Patrones", "Líneas Verticales", "Celosía", "Interior", "Luz Y Sombra"], "alt": "Una mujer vestida de oscuro toma una fotografía con una cámara SLR en un interior contemporáneo. La pared de listones verticales de madera crea un potente juego de líneas paralelas y sombras que acentúan la profundidad del espacio."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063501/cgs_portfolio/La-Merce-2014-fuegos-artificiales.webp", "caption": "Eclosión de luz: El Piromusical de La Mercè ilumina la noche", "tags": ["Fuegos Artificiales", "Noche", "Celebración", "Luces", "Espectáculo"], "alt": "Impresionante exhibición de fuegos artificiales donde una gran explosión esférica amarilla y roja domina el cielo. Debajo, múltiples estelas de luz roja zigzagueantes crean un patrón dinámico sobre el horizonte nocturno."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063508/cgs_portfolio/La-Merce-2014-acrobacias-plaza-Cataluna.webp", "caption": "Geometría humana: Danza vertical sobre la Plaza de Catalunya", "tags": ["Acrobacia Aérea", "Performance", "Arte Vertical", "Trabajo En Equipo", "Patrón Humano"], "alt": "Formación de múltiples acróbatas suspendidos en el aire creando un patrón geométrico humano. Sus trajes de colores primarios contrastan con el cielo nublado durante una espectacular performance urbana."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063509/cgs_portfolio/Madrid-Estacion-Atocha-2014.webp", "caption": "Miradas monumentales: 'El Día y la Noche' en la estación de Atocha", "tags": ["Escultura", "Arte Público", "Otoño", "Paisaje Urbano", "Madrid"], "alt": "Dos grandes esculturas de cabezas infantiles de Antonio López flanquean el entorno de la estación de Atocha. Los árboles lucen un vibrante follaje otoñal naranja y al fondo se aprecia la arquitectura clásica de Madrid."},
       FOTO_SKATEPARK_2014,
-      {"url": "https://i.postimg.cc/pVznxJ91/Pesebre-2014-Placa-Sant-Jaume.webp", "caption": "Tradición compartida: El Pesebre de la Plaça de Sant Jaume", "tags": ["Belén", "Navidad", "Decoración Urbana", "Escena Pública", "Figuras"], "alt": "Elaborado belén de grandes dimensiones en la Plaça de Sant Jaume. La instalación incluye un río simulado, figuras tradicionales y maquetas de edificios históricos, con la vida urbana de Barcelona desarrollándose en el fondo festivo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063512/cgs_portfolio/Pesebre-2014-Placa-Sant-Jaume.webp", "caption": "Tradición compartida: El Pesebre de la Plaça de Sant Jaume", "tags": ["Belén", "Navidad", "Decoración Urbana", "Escena Pública", "Figuras"], "alt": "Elaborado belén de grandes dimensiones en la Plaça de Sant Jaume. La instalación incluye un río simulado, figuras tradicionales y maquetas de edificios históricos, con la vida urbana de Barcelona desarrollándose en el fondo festivo."},
     ]
   },
   {
     id: "Gale1997-2004",
-    url: "https://i.postimg.cc/FzjJX7Jf/Torres-Agua-Hotel-Ars-1997.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063510/cgs_portfolio/Torres-Agua-Hotel-Ars-1997.webp",
     titulo: "Barcelona · Bilbao · Londres · Venecia · París",
     ubicacion: "Escenas 1997-2004",
     resumen: "Un viaje nostálgico en película de 35 mm: los primeros carretes revelados que capturan la vida urbana, el patrimonio y la arquitectura entre finales de los 90 y los primeros años 2000.",
     reseña: "Esta colección reúne la mirada analógica previa a la era digital. A través de la lente de la Minolta X-300s y el grano de las emulsiones químicas digitalizadas, se suceden instantes irrepetibles: las transformaciones urbanas de Barcelona con el nuevo milenio, el destello del titanio en el recién inaugurado Guggenheim de Bilbao, el atardecer crepuscular sobre el Parlamento británico, la quietud lagunar de Venecia o el recogimiento gótico en Chartres.",
-    urlImagen: "https://i.postimg.cc/FzjJX7Jf/Torres-Agua-Hotel-Ars-1997.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063510/cgs_portfolio/Torres-Agua-Hotel-Ars-1997.webp",
     categoria: "Europa",
     fecha: "1997-2004",
     equipo: "Minolta X-300s",
     galeriaTematica: [
       {
-        "url": "https://i.postimg.cc/L5dZWz5C/Acrobacias-Plaza-Catalunya-La-Merce-2002.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063511/cgs_portfolio/Acrobacias-Plaza-Catalunya-La-Merce-2002.webp",
         "caption": "Vuelo sobre la plaza: acrobacias aéreas en la Plaça de Catalunya durante La Mercè",
         "tags": ["La Mercè", "Plaça de Catalunya", "Acrobacias", "Barcelona", "2002", "Fotografía Analógica", "Minolta X-300s"],
         "alt": "Dos acróbatas suspendidos en el aire durante un salto sincronizado en la Plaça de Catalunya de Barcelona con el emblemático edificio de Telefónica al fondo."
       },
       {
-        "url": "https://i.postimg.cc/NFhrn1FN/Barco-Mata-Ranglii-Barcelona-2001.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063512/cgs_portfolio/Barco-Mata-Ranglii-Barcelona-2001.webp",
         "caption": "Navegación ancestral: la balsa de juncos Mata Rangi II varada en la Barceloneta",
         "tags": ["Mata Rangi", "Expedición", "Platja de la Barceloneta", "Barcelona", "2001", "Fotografía Analógica"],
         "alt": "Plano general de la embarcación tradicional de juncos de totora Mata Rangi II sobre la arena de la playa de la Barceloneta con palmeras y arquitectura moderna al fondo."
       },
       {
-        "url": "https://i.postimg.cc/VvybhjvV/Bellesguard-Gaudi-2002.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063514/cgs_portfolio/Bellesguard-Gaudi-2002.webp",
         "caption": "Forja y piedra viva: texturas gaudinianas en la fachada de la Torre Bellesguard",
         "tags": ["Torre Bellesguard", "Antoni Gaudí", "Modernismo", "Arquitectura", "Barcelona", "2002", "Fotografía Analógica"],
         "alt": "Detalle de la fachada de la Torre Bellesguard en Barcelona, combinando la piedra rugosa artesanal y el trabajo en hierro forjado de estilo modernista."
       },
       {
-        "url": "https://i.postimg.cc/KjXgWnj0/Bilbao-2004-17.jpg",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063515/cgs_portfolio/Bilbao-2004-17.jpg",
         "caption": "Espejo fluvial: galerías históricas del Arenal reflejadas en las aguas de la ría de Bilbao",
         "tags": ["Bilbao", "Ría de Bilbao", "Paseo del Arenal", "Arquitectura", "Euskadi", "2004", "Fotografía Analógica"],
         "alt": "Hilera de elegantes edificios residenciales decimonónicos con miradores acristalados reflejándose en las tranquilas aguas de la ría de Bilbao."
       },
       {
-        "url": "https://i.postimg.cc/brX25QdX/Bilbao-Guguenheim2004.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063514/cgs_portfolio/Bilbao-Guguenheim2004.webp",
         "caption": "Piel de titanio: curvas orgánicas y luz diurna en el Museo Guggenheim Bilbao",
         "tags": ["Museo Guggenheim", "Frank Gehry", "Bilbao", "Arquitectura Contemporánea", "Euskadi", "2004", "Fotografía Analógica"],
         "alt": "Vista panorámica diurna del Museo Guggenheim de Bilbao diseñado por Frank Gehry, mostrando sus paneles curvados de titanio junto al paseo de la ría."
       },
       {
-        "url": "https://i.postimg.cc/mkxFnQkv/Bilbao-Metro-2004.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063517/cgs_portfolio/Bilbao-Metro-2004.webp",
         "caption": "Vanguardia bajo tierra: el acceso acristalado («fosterito») del Metro de Bilbao",
         "tags": ["Metro de Bilbao", "Norman Foster", "Fosterito", "Arquitectura", "Bilbao", "2004", "Fotografía Analógica"],
         "alt": "Estructura curva de acero y vidrio diseñada por Norman Foster como boca de metro en Bilbao, junto a una fuente urbana en movimiento y viandantes."
       },
       {
-        "url": "https://i.postimg.cc/Gt0sfk9w/Cadaques-2001.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063517/cgs_portfolio/Cadaques-2001.webp",
         "caption": "Calma mediterránea: barcas amarradas y arquitectura blanca en la bahía de Cadaqués",
         "tags": ["Cadaqués", "Costa Brava", "Mediterráneo", "Paisaje Marino", "Cataluña", "2001", "Fotografía Analógica"],
         "alt": "Una barca azul reposando sobre la orilla de Cadaqués en 2001, con el mar en calma salpicado de embarcaciones y el pueblo blanco al fondo."
       },
       {
-        "url": "https://i.postimg.cc/MHkjLyX8/Calle-de-Palafrugell-2003.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063517/cgs_portfolio/Calle-de-Palafrugell-2003.webp",
         "caption": "Surrealismo de paso: enigmática escultura urbana de piernas rojas en Palafrugell",
         "tags": ["Palafrugell", "Arte Urbano", "Surrealismo", "Girona", "2003", "Fotografía Analógica"],
         "alt": "Instalación escultórica surrealista en una calle empedrada de Palafrugell, mostrando un disco oscuro del que surgen unas piernas con medias rojas y tacones."
       },
       {
-        "url": "https://i.postimg.cc/90GqHrw8/Castellers-en-Terrasa-1997.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063519/cgs_portfolio/Castellers-en-Terrasa-1997.webp",
         "caption": "Fuerza y equilibrio: multitud y pinya castellera en la Plaça Vella de Terrassa",
         "tags": ["Castellers", "Terrassa", "Tradición Catalana", "Cultura Popular", "1997", "Fotografía Analógica"],
         "alt": "Perspectiva cenital de la multitud congregada en Terrassa en 1997 mientras se corona la estructura humana de un castell con la enxaneta alzando la mano."
       },
       {
-        "url": "https://i.postimg.cc/90GqHrwn/Catedral-de-Nuestra-Senora-de-Chartres-1997-b.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063520/cgs_portfolio/Catedral-de-Nuestra-Senora-de-Chartres-1997-b.webp",
         "caption": "Piedra que reza: contrafuertes y filigranas góticas en la Catedral de Chartres",
         "tags": ["Catedral de Chartres", "Arte Gótico", "Arquitectura Religiosa", "Francia", "1997", "Fotografía Analógica"],
         "alt": "Detalle arquitectónico de la imponente fachada gótica de la Catedral de Chartres, con contrafuertes labrados, hornacinas y un gran rosetón."
       },
       {
-        "url": "https://i.postimg.cc/1XpN1fV7/Catedral-de-Nuestra-Senora-de-Chartres-1997.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063519/cgs_portfolio/Catedral-de-Nuestra-Senora-de-Chartres-1997.webp",
         "caption": "Mirada solemne: estatuas columna del Pórtico Real en la Catedral de Chartres",
         "tags": ["Catedral de Chartres", "Pórtico Real", "Escultura Gótica", "Francia", "1997", "Fotografía Analógica"],
         "alt": "Grupo de estatuas columna del siglo XII en el Pórtico Real de Chartres, destacando el refinado modelado de los ropajes y las serenas expresiones medievales."
       },
       {
-        "url": "https://i.postimg.cc/fyx0QJSg/Catedral-Semana-2001-Santa-Lepanto.jpg",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063523/cgs_portfolio/Catedral-Semana-2001-Santa-Lepanto.jpg",
         "caption": "Penumbras y devoción: mar de velas votivas ante la capilla del Santo Cristo de Lepanto",
         "tags": ["Catedral de Barcelona", "Cristo de Lepanto", "Semana Santa", "Devoción", "Barcelona", "2001", "Fotografía Analógica"],
         "alt": "Siluetas de devotos en oración en la Catedral de Barcelona ante un mar de velas rojas encendidas en la capilla del Santo Cristo de Lepanto."
       },
       {
-        "url": "https://i.postimg.cc/KjnghR3W/Colonia-Guell-Gaudi-2002.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063522/cgs_portfolio/Colonia-Guell-Gaudi-2002.webp",
         "caption": "Cueva sagrada: columnas inclinadas y arcos parabólicos en la Cripta Gaudí",
         "tags": ["Colònia Güell", "Antoni Gaudí", "Cripta Gaudí", "Modernismo", "Barcelona", "2002", "Fotografía Analógica"],
         "alt": "Interior místico de la Cripta de la Colònia Güell de Gaudí, con sus columnas de basalto inclinadas, bóvedas de ladrillo y atmósfera recogida."
       },
       {
-        "url": "https://i.postimg.cc/nrvQfC9g/Fiesta-de-la-Primavera-Poblenou-2001.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063523/cgs_portfolio/Fiesta-de-la-Primavera-Poblenou-2001.webp",
         "caption": "Contacto exótico: un faquir con pitón albina en la Fiesta de la Primavera del Poblenou",
         "tags": ["Poblenou", "Fiesta de la Primavera", "Cultura Urbana", "Barcelona", "2001", "Fotografía Analógica"],
         "alt": "Un encantador sosteniendo una imponente pitón albina que reposa sobre los hombros de un niño frente a la multitud reunida en el Poblenou."
       },
       {
-        "url": "https://i.postimg.cc/PJm8nPv0/Gigante-Barcelona-1998.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063524/cgs_portfolio/Gigante-Barcelona-1998.webp",
         "caption": "Custodio de madera: un gegant tradicional entre las estructuras metálicas de la fiesta",
         "tags": ["Gegants", "Fiestas Tradicionales", "Cultura Popular", "Barcelona", "1998", "Fotografía Analógica"],
         "alt": "Figura majestuosa de un gegant tradicional de Barcelona con vestimenta festiva reposando junto a una armazón de andamios durante las fiestas."
       },
       {
-        "url": "https://i.postimg.cc/5ywFW6Fd/Gigante-en-La-Pedrera-1998.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063524/cgs_portfolio/Gigante-en-La-Pedrera-1998.webp",
         "caption": "Vigía de piedra: figura monumental sentada sobre la azotea ondulada de La Pedrera",
         "tags": ["La Pedrera", "Casa Milà", "Antoni Gaudí", "Modernismo", "Barcelona", "1998", "Fotografía Analógica"],
         "alt": "Vista en contrapicado de la azotea gaudiniana de Casa Milà (La Pedrera) con un gigante sentado contemplando la ciudad en 1998."
       },
       {
-        "url": "https://i.postimg.cc/vTW6wc6d/Londres-08-1998.jpg",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063528/cgs_portfolio/Londres-08-1998.jpg",
         "caption": "Destellos sobre Westminster: escultura contemporánea y atardecer en el Parlamento británico",
         "tags": ["Londres", "Palacio de Westminster", "Arquitectura Gótica", "Escultura", "Reino Unido", "1998", "Fotografía Analógica"],
         "alt": "Escultura geométrica brillante en un jardín londinense con la imponente silueta gótica del Palacio de Westminster recortada contra el cielo de la tarde."
       },
       {
-        "url": "https://i.postimg.cc/Y01mBhmH/Londres-1998-Chaplin-mira-a-Bond.jpg",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063529/cgs_portfolio/Londres-1998-Chaplin-mira-a-Bond.jpg",
         "caption": "Duelo de celuloide: la estatua de Charlie Chaplin contempla a James Bond en Leicester Square",
         "tags": ["Londres", "Leicester Square", "Charlie Chaplin", "James Bond", "Cine", "1998", "Fotografía Analógica"],
         "alt": "La estatua de bronce de Charlie Chaplin de espaldas en Leicester Square contemplando los carteles gigantes del filme Tomorrow Never Dies de James Bond."
       },
       {
-        "url": "https://i.postimg.cc/6qdGxyGK/Londres-1998.jpg",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063529/cgs_portfolio/Londres-1998.jpg",
         "caption": "Adoquines londinenses: sobriedad victoriana en el campus histórico de King's College",
         "tags": ["Londres", "King's College", "Arquitectura Victoriana", "Strand", "Reino Unido", "1998", "Fotografía Analógica"],
         "alt": "Vista arquitectónica exterior de los edificios de piedra y ladrillo del histórico King's College en Londres sobre suelo empedrado."
       },
       {
-        "url": "https://i.postimg.cc/KjnghRgF/Marce-2002-Ejercito-del-aire.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063529/cgs_portfolio/Marce-2002-Ejercito-del-aire.webp",
         "caption": "Trazos en el litoral: exhibición acrobática aérea sobre el puerto de Barcelona",
         "tags": ["La Mercè", "Exhibición Aérea", "Port de Barcelona", "Veleros", "Barcelona", "2002", "Fotografía Analógica"],
         "alt": "Aviones a reacción trazando columnas de humo blanco en el cielo sobre el puerto olímpico y los mástiles de los veleros de Barcelona."
       },
       {
-        "url": "https://i.postimg.cc/6qdGxyG6/Parque-Diagonal-Mar-Inauguracion-2002.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063533/cgs_portfolio/Parque-Diagonal-Mar-Inauguracion-2002.webp",
         "caption": "Agua y curvas futuristas: el estreno del Parc Diagonal Mar concebido por Enric Miralles",
         "tags": ["Parc Diagonal Mar", "Enric Miralles", "Arquitectura Paisajística", "Diagonal Mar", "Barcelona", "2002", "Fotografía Analógica"],
         "alt": "Estanque escalonado y estructuras tubulares sinuosas durante los primeros días de apertura del Parc Diagonal Mar diseñado por Enric Miralles."
       },
       {
-        "url": "https://i.postimg.cc/hv97Rf7K/Paris-invierno-1997-03.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063531/cgs_portfolio/Paris-invierno-1997-03.webp",
         "caption": "Niebla invernal: la monumental escalinata de la Bibliothèque Nationale de France",
         "tags": ["París", "BnF François-Mitterrand", "Dominique Perrault", "Invierno", "Francia", "1997", "Fotografía Analógica"],
         "alt": "Amplia perspectiva en ángulo contrapicado de la escalinata de madera y torres acristaladas de la Bibliothèque Nationale de France bajo la niebla parisina."
       },
       {
-        "url": "https://i.postimg.cc/NF1rv5rg/Patinadores-volantes-1997.jpg",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063534/cgs_portfolio/Patinadores-volantes-1997.jpg",
         "caption": "Vuelo urbano: pirueta en el aire de un skater frente a la torre del Hotel Arts",
         "tags": ["Skate", "Hotel Arts", "Deporte Urbano", "Vila Olímpica", "Barcelona", "1997", "Fotografía Analógica"],
         "alt": "Joven skater suspendido en el aire en plena maniobra aérea frente a la retícula metálica del Hotel Arts y la escultura del Pez de Gehry en 1997."
       },
       {
-        "url": "https://i.postimg.cc/mkQFWtFL/Pedraforca-Comunion-bajo-palio-2003.jpg",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063537/cgs_portfolio/Pedraforca-Comunion-bajo-palio-2003.jpg",
         "caption": "Devoción montañesa: procesión de comunión bajo palio al pie del Pedraforca",
         "tags": ["Saldes", "Pedraforca", "Tradición Religiosa", "Pueblos de Montaña", "Berguedà", "2003", "Fotografía Analógica"],
         "alt": "Celebración popular de primera comunión en las calles de Saldes con el sacerdote caminando bajo palio blanco arropado por los vecinos."
       },
       {
-        "url": "https://i.postimg.cc/PJm8nP8q/Sagrada-Familia-de-noche-2002.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063535/cgs_portfolio/Sagrada-Familia-de-noche-2002.webp",
         "caption": "Constelación efímera: pirotecnia nocturna sobre las agujas de la Sagrada Família",
         "tags": ["Sagrada Família", "Antoni Gaudí", "Fuegos Artificiales", "Noche", "Barcelona", "2002", "Fotografía Analógica"],
         "alt": "Vista nocturna de las torres de la Sagrada Família recortadas contra un cielo bañado de luces y destellos por un castillo de fuegos artificiales."
       },
       {
-        "url": "https://i.postimg.cc/hv97Rf7X/Sant-Sadurni-de-Anoia-01.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063537/cgs_portfolio/Sant-Sadurni-de-Anoia-01.webp",
         "caption": "Catedral del cava: arcos modernistas de Josep Puig i Cadafalch en Cavas Codorníu",
         "tags": ["Caves Codorníu", "Josep Puig i Cadafalch", "Modernismo", "Sant Sadurní d'Anoia", "Penedès", "2001", "Fotografía Analógica"],
         "alt": "Perspectiva de la gran sala de recepción modernista de las Cavas Codorníu con sus arcos catenarios de ladrillo y vitrales originales."
       },
       {
-        "url": "https://i.postimg.cc/yxFSCkSx/Santander-2004.jpg",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063539/cgs_portfolio/Santander-2004.jpg",
         "caption": "Geometría de marea: detalle costero y textura arenosa en las playas de Santander",
         "tags": ["Santander", "Cantabria", "Playa", "Costa", "Naturaleza", "2004", "Fotografía Analógica"],
         "alt": "Plano cenital de las ondulaciones modeladas por el viento y el agua en las arenas doradas de una playa de Santander en 2004."
       },
       {
-        "url": "https://i.postimg.cc/FzjJX7Jf/Torres-Agua-Hotel-Ars-1997.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063510/cgs_portfolio/Torres-Agua-Hotel-Ars-1997.webp",
         "caption": "Diálogo de épocas: la histórica Torre de les Aigües frente a la retícula del Hotel Arts",
         "tags": ["Torre de les Aigües", "Hotel Arts", "Poblenou", "Arquitectura", "Barcelona", "1997", "Fotografía Analógica"],
         "alt": "La silueta de ladrillo de la histórica Torre de les Aigües del Besòs contrastando con la estructura contemporánea del Hotel Arts al atardecer."
       },
       {
-        "url": "https://i.postimg.cc/HW5MyPvz/Venecia-2001-20.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063540/cgs_portfolio/Venecia-2001-20.webp",
         "caption": "Corona barroca: la cúpula de Santa Maria della Salute resplandeciendo bajo la luz veneciana",
         "tags": ["Venecia", "Santa Maria della Salute", "Canal Grande", "Barroco", "Italia", "2001", "Fotografía Analógica"],
         "alt": "Vista exterior en plano amplio de la monumental Basílica de Santa Maria della Salute iluminada por el sol en la entrada del Gran Canal de Venecia."
       },
       {
-        "url": "https://i.postimg.cc/xjHmzFps/Venecia-2001-21.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063540/cgs_portfolio/Venecia-2001-21.webp",
         "caption": "Navegación silenciosa: góndolas y reflejos frente a la Punta della Dogana y la Salute",
         "tags": ["Venecia", "Góndolas", "Punta della Dogana", "Santa Maria della Salute", "Italia", "2001", "Fotografía Analógica"],
         "alt": "Gondoleros remando sobre las aguas verdes del Gran Canal veneciano con el perfil arquitectónico de la Punta della Dogana y la Salute al fondo."
       },
       {
-        "url": "https://i.postimg.cc/2jvWZX9F/Venecia-2001-8.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063541/cgs_portfolio/Venecia-2001-8.webp",
         "caption": "Estela crepuscular: una lancha de madera surca la laguna frente al perfil de la Salute",
         "tags": ["Venecia", "Laguna de Venecia", "Santa Maria della Salute", "Atardecer", "Italia", "2001", "Fotografía Analógica"],
         "alt": "Clásica embarcación a motor veneciana abriéndose paso a toda velocidad en el crepúsculo mientras el horizonte de la basílica se tiñe de ocres."
       },
       {
-        "url": "https://i.postimg.cc/y69RZrpQ/Vilafranca-del-Penedes-Feria-del-Gallo-2003.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063542/cgs_portfolio/Vilafranca-del-Penedes-Feria-del-Gallo-2003.webp",
         "caption": "Sabor de antaño: la tradicional Fira del Gall y la estatua totémica en Vilafranca del Penedès",
         "tags": ["Fira del Gall", "Vilafranca del Penedès", "Tradición", "Penedès", "2003", "Fotografía Analógica"],
         "alt": "Ambiente popular de la Fira del Gall de Vilafranca del Penedès en 2003 con corrales tradicionales y una gran escultura de gallo de plumaje negro."
       },
       {
-        "url": "https://i.postimg.cc/L4fP10Qb/Zoo-Barcelona-Elefante-2001.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063543/cgs_portfolio/Zoo-Barcelona-Elefante-2001.webp",
         "caption": "Pausa en el vergel: un elefante africano entre la vegetación del Zoo de Barcelona",
         "tags": ["Zoo de Barcelona", "Elefante", "Fauna", "Parc de la Ciutadella", "Barcelona", "2001", "Fotografía Analógica"],
         "alt": "Un elefante africano caminando pausadamente entre palmeras y vegetación frondosa en el recinto del Zoo de Barcelona en el año 2001."
@@ -789,90 +789,90 @@ FOTO_KITESURF_2025,
   },
   {
     id: "GaleArteCalle",
-    url: "https://i.postimg.cc/BbjVMnmk/Esculturas-Igor-Mitoraj-25.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063543/cgs_portfolio/Esculturas-Igor-Mitoraj-25.webp",
     titulo: "Calles con arte",
     ubicacion: "Barcelona · Madrid",
     resumen: "La ciudad se transforma en un museo vivo donde la vanguardia y el clasicismo conversan con los peatones.",
     reseña: "El arte que escapa de los muros del museo para invadir las plazas y bulevares. Esta recopilación visual documenta grandes exposiciones temporales y permanentes en las calles de Barcelona y Madrid: desde el elefante suspendido de Miquel Barceló y las figuras de basura reciclada de HA Schult, hasta los dramáticos bronces neoclásicos de Igor Mitoraj y las intemporales esculturas de Rodin o Manolo Valdés conviviendo con el fluir cotidiano de la ciudad.",
-    urlImagen: "https://i.postimg.cc/BbjVMnmk/Esculturas-Igor-Mitoraj-25.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063543/cgs_portfolio/Esculturas-Igor-Mitoraj-25.webp",
     categoria: "España",
     fecha: "2005-2014",
     equipo: "Nikon & Canon",
     galeriaTematica: [
       {
-        "url": "https://i.postimg.cc/wvfrXmQ4/Elefante-de-Barcelo-Caixaforum-2010.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063544/cgs_portfolio/Elefante-de-Barcelo-Caixaforum-2010.webp",
         "caption": "Equilibrio monumental: el 'Gran Elefandret' de Miquel Barceló en CaixaForum",
         "tags": ["Escultura", "Miquel Barceló", "CaixaForum", "Barcelona", "Bronce", "Arte Contemporáneo"],
         "alt": "La imponente escultura de bronce 'Gran Elefandret' del artista mallorquín Miquel Barceló, desafiando la gravedad al sostenerse verticalmente sobre su propia trompa frente al histórico edificio modernista de CaixaForum Barcelona en 2010."
       },
       {
-        "url": "https://i.postimg.cc/x8X4t16g/Esculturas-HA-Schult-Plaza-Real-BCN.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063547/cgs_portfolio/Esculturas-HA-Schult-Plaza-Real-BCN.webp",
         "caption": "Trash People: el ejército de residuos de HA Schult coloniza la Plaça Reial",
         "tags": ["HA Schult", "Plaça Reial", "Barcelona", "Instalación", "Arte Reciclado", "Trash People"],
         "alt": "Decenas de figuras humanas construidas a base de latas comprimidas y desechos de la sociedad de consumo de la famosa instalación 'Trash People' de HA Schult, ordenadas simétricamente en el corazón de la Plaça Reial entre palmeras y transeúntes asombrados."
       },
       {
-        "url": "https://i.postimg.cc/fL2Pc9fr/Esculturas-Igor-Mitoraj-05.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063545/cgs_portfolio/Esculturas-Igor-Mitoraj-05.webp",
         "caption": "Belleza clásica fragmentada: la poética mitológica del 'Eros Alado' de Igor Mitoraj",
         "tags": ["Igor Mitoraj", "Escultura", "Bronce", "Mitología", "Arte Público", "Neoclásico"],
         "alt": "Imagen de una colosal figura de bronce agrietada representada en un torso con un ala majestuosa desplegada, obra del escultor polaco Igor Mitoraj, que emula la decadencia estética y la melancolía de la antigua Grecia."
       },
       {
-        "url": "https://i.postimg.cc/BbjVMnmk/Esculturas-Igor-Mitoraj-25.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063543/cgs_portfolio/Esculturas-Igor-Mitoraj-25.webp",
         "caption": "El eco de la antigüedad: los imponentes rostros velados de Igor Mitoraj en el espacio público",
         "tags": ["Igor Mitoraj", "Escultura Monumental", "Bronce", "Arte Público", "Plaza", "Cultura"],
         "alt": "Una enorme cabeza de bronce de estilo clásico con los ojos vendados, una de las firmas estéticas de Igor Mitoraj, dispuesta de manera imponente en un andén donde el público interactúa y toma conciencia de la escala monumental en comparación con el ser humano."
       },
       {
-        "url": "https://i.postimg.cc/tJsM24BM/Fira-de-Santa-Llucia-9.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063545/cgs_portfolio/Fira-de-Santa-Llucia-9.webp",
         "caption": "Detalles del folclore invernal: máscaras artesanales y fantasía en la Fira de Santa Llúcia",
         "tags": ["Fira de Santa Llúcia", "Barcelona", "Navidad", "Artesanía", "Tradición", "Detalle"],
         "alt": "Primer plano de un adorno artesanal en forma de máscara fantástica y multicolor, con grandes detalles ornamentales y plumas, exhibida en los emblemáticos puestos de madera de la centenaria Fira de Santa Llúcia."
       },
       {
-        "url": "https://i.postimg.cc/j2DFZS8T/La-Merce-2010-Ciutadella-10.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063547/cgs_portfolio/La-Merce-2010-Ciutadella-10.webp",
         "caption": "Levedad en el aire: acrobacia aérea entre los frondosos árboles de la Ciutadella",
         "tags": ["La Mercè", "Parque de la Ciutadella", "Acrobacia", "Performance", "Circo", "Barcelona"],
         "alt": "Una artista de danza aérea realiza un ágil y bello movimiento suspendida de unas largas telas blancas colgadas de la copa de un olmo en el Parque de la Ciutadella, durante el programa cultural de las fiestas de La Mercè de 2010."
       },
       {
-        "url": "https://i.postimg.cc/1X8jJ3Ws/La-Merce-2010-Ciutadella-11.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063547/cgs_portfolio/La-Merce-2010-Ciutadella-11.webp",
         "caption": "Oficina flotante: danza aérea y surrealismo cotidiano bajo el cielo de Barcelona",
         "tags": ["Acrobacia", "Arte", "La Mercè", "Parque de la Ciutadella", "Performance", "Suspensión"],
         "alt": "Cuatro bailarines acróbatas ataviados con trajes de sastrería oscuros ejecutan una precisa y teatral coreografía en las alturas, suspendidos contra un cielo cubierto sobre el follaje de los árboles de la Ciutadella."
       },
       {
-        "url": "https://i.postimg.cc/2y1K2S0t/La-Merce-2010-Ciutadella-4.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063549/cgs_portfolio/La-Merce-2010-Ciutadella-4.webp",
         "caption": "Teatro del absurdo: juego de perspectivas y humor físico gestual",
         "tags": ["Arte", "Performance", "Cultura", "Comedia", "Teatro de Calle", "La Mercè"],
         "alt": "Un simpático acto de circo/teatro de calle en la Ciutadella, donde un actor en actitud cómica actúa encima y dentro de cajas geométricas blancas, fusionando equilibrio, acrobacia y expresión dramática."
       },
       {
-        "url": "https://i.postimg.cc/gjxTN2gC/La-Merce-2010-Ciutadella-8.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063548/cgs_portfolio/La-Merce-2010-Ciutadella-8.webp",
         "caption": "Lienzos esculpidos por el viento: la elegancia geométrica de las telas de danza aérea",
         "tags": ["Acrobacia", "Telones", "Arte", "La Mercè", "Parque de la Ciutadella", "Minimalismo"],
         "alt": "Dos amplios lienzos de tela blanca descienden impecables y estables en el aire, superpuestos verticalmente contra un cielo gris nublado e insinuando el escenario minimalista y poético de un show de danza vertical suspendida."
       },
       {
-        "url": "https://i.postimg.cc/XqrzQY27/Manolo-Valdes-Meninas-2005-(2).webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063551/cgs_portfolio/Manolo-Valdes-Meninas-2005-_2_.webp",
         "caption": "Meninas reeditadas: las imponentes siluetas de Manolo Valdés en Rambla de Catalunya",
         "tags": ["Manolo Valdés", "Meninas", "Escultura de Bronce", "Rambla de Catalunya", "Barcelona", "Arte Público"],
         "alt": "Una majestuosa hilera de esculturas de bronce inspiradas en las Meninas de Velázquez y esculpidas por Manolo Valdés, expuesta libremente en el céntrico paseo rodeado de tupidos árboles y paseantes en 2005."
       },
       {
-        "url": "https://i.postimg.cc/vT4N3ZPG/Ollas-tapas-zapato.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063551/cgs_portfolio/Ollas-tapas-zapato.webp",
         "caption": "Marilyn: el tacón de aguja gigante de Joana Vasconcelos construido con cacerolas de acero",
         "tags": ["Joana Vasconcelos", "Escultura", "Marilyn", "Ollas de Acero", "Arte Pop", "Instalación"],
         "alt": "La famosa e ingeniosa instalación de gran envergadura de un zapato de tacón de mujer gigante, ensamblado enteramente con relucientes ollas y tapas de acero inoxidable reflectantes alineadas sobre una alfombra roja."
       },
       {
-        "url": "https://i.postimg.cc/0jhH313q/Rodin-en-Rambla-Catalunya-13.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063590/cgs_portfolio/Rodin-en-Rambla-Catalunya-13.webp",
         "caption": "Rodin bajo los árboles: 'El Pensador' en el emblemático paseo",
         "tags": ["Auguste Rodin", "El Pensador", "Escultura de Bronce", "Rambla de Catalunya", "Arte Público", "Barcelona"],
         "alt": "La emblemática escultura de bronce de 'El Pensador' de Auguste Rodin exhibida de forma monumental sobre el paseo urbano de la Rambla de Catalunya, rodeada de transeúntes y frondosos árboles."
       },
       {
-        "url": "https://i.postimg.cc/Vv2HTPT8/Sant-Joan-2005.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063553/cgs_portfolio/Sant-Joan-2005.webp",
         "caption": "Fuego y magia ancestral: las chispas mágicas en la fiesta popular nocturna",
         "tags": ["Sant Joan", "Fiesta Popular", "Pirotecnia", "Correfoc", "Noche", "Tradición Catalana"],
         "alt": "Vista de personas celebrando con júbilo una lluvia de deslumbrantes chispas incandescentes de petardos y fuego en una atmósfera cargada de humo y pólvora típica de las fiestas populares catalanas de Sant Joan."
@@ -881,90 +881,90 @@ FOTO_KITESURF_2025,
   },
   {
     id: "Gale2013",
-    url: "https://i.postimg.cc/zG5sGLDr/Miro-en-el-MNAC.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063554/cgs_portfolio/Miro-en-el-MNAC.webp",
     titulo: "Barcelona · Poblet",
     ubicacion: "Barcelona - Poblet",
     resumen: "Instantes efímeros de vida cotidiana y arte de vanguardia coleccionados por calles, playas y monasterios en 2013.",
     reseña: "Un recorrido visual que recoge el pulso urbano de Barcelona y el misticismo pétreo de Poblet a lo largo de 2013. Esta crónica fotográfica abarca desde la vibración y el esfuerzo colectivo de los castellers ante la fachada de la Catedral, hasta los apacibles domingos invernales en la arena de la Barceloneta, las expresiones lúdicas del arte en la Ciutadella, el vanguardismo arquitectónico del MACBA, las cúpulas surrealistas del Palacete Albéniz y el esplendor del retablo del Monasterio de Poblet.",
-    urlImagen: "https://i.postimg.cc/zG5sGLDr/Miro-en-el-MNAC.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063554/cgs_portfolio/Miro-en-el-MNAC.webp",
     categoria: "España",
     fecha: "2013",
     equipo: "Nikon COOLPIX L820",
     galeriaTematica: [
       {
-        "url": "https://i.postimg.cc/cLZpLK14/Castellers-frente-a-Catedral-de-Barcelona.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063562/cgs_portfolio/Castellers-frente-a-Catedral-de-Barcelona.webp",
         "caption": "Geometría de esfuerzo: la fuerza colectiva de los 'Castellers' frente a la Catedral",
         "tags": ["Castellers", "Catedral de Barcelona", "Cultura Catalana", "Tradición", "Arquitectura"],
         "alt": "Una colosal torre humana de castellers alzándose con valentía frente a la imponente fachada gótica de la Catedral de Barcelona, rodeada de una multitud expectante."
       },
       {
-        "url": "https://i.postimg.cc/YCk5C42w/Cometas-en-el-Paseo-Maritimo.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063576/cgs_portfolio/Cometas-en-el-Paseo-Maritimo.webp",
         "caption": "Danza del viento: cometas multicolores flotando sobre la Barceloneta",
         "tags": ["Barcelona", "Cometas", "Playa de la Barceloneta", "Verano", "Ocio", "Paseo Marítimo"],
         "alt": "Fabulosa escena playera en el Paseo Marítimo de la Barceloneta donde múltiples cometas de formas divertidas y colores vivos bailan en el viento sobre la orilla."
       },
       {
-        "url": "https://i.postimg.cc/jSKpSWqs/Domingo-de-invierno-2013.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063567/cgs_portfolio/Domingo-de-invierno-2013.webp",
         "caption": "Calidez invernal: la quietud de un domingo soleado en la Barceloneta",
         "tags": ["Barcelona", "Playa de la Barceloneta", "Invierno", "Sol", "Relax", "Mar"],
         "alt": "Grupo de paseantes y bañistas descansando bajo un templado sol de invierno sobre la arena de la Barceloneta, contemplando la inmensidad del mar."
       },
       {
-        "url": "https://i.postimg.cc/4xZDxKfM/La-Merce-2013-en-La-Ciutadella-001.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063570/cgs_portfolio/La-Merce-2013-en-La-Ciutadella-001.webp",
         "caption": "Detalles ingeniosos: escultura decorativa del festival de La Mercè en la Ciutadella",
         "tags": ["La Mercè", "Parque de la Ciutadella", "Arte de Calle", "Instalación", "Cultura", "Barcelona"],
         "alt": "La estatua monumental de Rafael Casanova vestida de forma vanguardista con pequeños pies y manos artificiales que simulan ascender por su base de piedra."
       },
       {
-        "url": "https://i.postimg.cc/P5hg5LXg/La-Merce-2013-en-La-Ciutadella-005.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063582/cgs_portfolio/La-Merce-2013-en-La-Ciutadella-005.webp",
         "caption": "Creatividad suspendida: instalación aérea en la arboleda de la Ciutadella",
         "tags": ["La Mercè", "Parque de la Ciutadella", "Instalación", "Fantasía", "Arte", "Barcelona"],
         "alt": "Divertido adorno de telas y piernas de trapo suspendidas con gracia entre las ramas de un gran árbol, llenando el festival de un aire surrealista."
       },
       {
-        "url": "https://i.postimg.cc/13Pk3gRS/MACBA.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063580/cgs_portfolio/MACBA.webp",
         "caption": "Arquitectura de vanguardia: la pulcritud geométrica del MACBA",
         "tags": ["MACBA", "Barcelona", "Richard Meier", "Raval", "Arquitectura Contemporánea", "Museo"],
         "alt": "La emblemática fachada blanca y acristalada del edificio central del MACBA, diseñado por Richard Meier, recortada contra un límpido cielo azul."
       },
       {
-        "url": "https://i.postimg.cc/zG5sGLDr/Miro-en-el-MNAC.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063554/cgs_portfolio/Miro-en-el-MNAC.webp",
         "caption": "Explosión abstracta: contemplando el legado polícromo de Joan Miró",
         "tags": ["Joan Miró", "MNAC", "Arte Moderno", "Pintura", "Museo", "Barcelona"],
         "alt": "Un grupo de visitantes asombrados observando a corta distancia un monumental mural cerámico cubierto con el lenguaje simbólico y de colores primarios de Joan Miró."
       },
       {
-        "url": "https://i.postimg.cc/4xZDxK4s/Monasterio-de-Poblet-009.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063587/cgs_portfolio/Monasterio-de-Poblet-009.webp",
         "caption": "Filigrana de alabastro: el magnífico retablo mayor esculpido del Monasterio de Poblet",
         "tags": ["Monasterio de Poblet", "Retablo de Alabastro", "Damián Forment", "Arquitectura Religiosa", "Patrimonio", "Tarragona"],
         "alt": "Detalle en primer plano de la asombrosa talla renacentista de alabastro del retablo mayor de Poblet, que muestra con increíble detalle diversas figuras y hornacinas mariológicas."
       },
       {
-        "url": "https://i.postimg.cc/XY3RYZjm/Palacete-Albeniz-Pintura-de-Dali.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063586/cgs_portfolio/Palacete-Albeniz-Pintura-de-Dali.webp",
         "caption": "Frescos oníricos: la fantasía pictórica de Salvador Dalí en el Palacete Albéniz",
         "tags": ["Salvador Dalí", "Palacete Albéniz", "Montjuïc", "Surrealismo", "Pintura", "Cultura"],
         "alt": "Pintura al fresco del techo decorado en el Palacete Albéniz donde resalta el estilo surrealista e inconfundible de Salvador Dalí con caballos alados y perspectivas imposibles."
       },
       {
-        "url": "https://i.postimg.cc/vZMJZ18m/Parque-Cervantes-Primera-Comunion.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063598/cgs_portfolio/Parque-Cervantes-Primera-Comunion.webp",
         "caption": "Primavera y pureza: retrato infantil entre rosas en el Parque Cervantes",
         "tags": ["Parque de Cervantes", "Rosaleda", "Flores", "Primavera", "Retrato", "Barcelona"],
         "alt": "Una dulce niña ataviada con un traje ceremonial blanco pasea sonriente entre majestuosos e hileras de rosales rosáceos que colorean el hermoso parque."
       },
       {
-        "url": "https://i.postimg.cc/K8F68KGd/Pesebre-Plaza-Sant-Jaume-2013.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063590/cgs_portfolio/Pesebre-Plaza-Sant-Jaume-2013.webp",
         "caption": "Pesebre efímero: la singular narrativa navideña en la Plaza de Sant Jaume",
         "tags": ["Pesebre", "Navidad", "Plaça de Sant Jaume", "Barcelona", "Instalación", "Tradición"],
         "alt": "Siluetas rústicas e iluminadas de madera que componen el pesebre minimalista montado en la Plaza Sant Jaume para las festividades navideñas de 2013."
       },
       {
-        "url": "https://i.postimg.cc/GmrWmB3t/Plaza-de-los-Angeles.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063592/cgs_portfolio/Plaza-de-los-Angeles.webp",
         "caption": "Punto de encuentro: el pulso urbano juvenil en la Plaça dels Àngels",
         "tags": ["Plaça dels Àngels", "Raval", "MACBA", "Barcelona", "Vida Urbana", "Skate"],
         "alt": "Vista vibrante de la Plaça dels Àngels del Raval con multitud de chicos sentados, andando en patinete y socializando bajo una agradable luz."
       },
       {
-        "url": "https://i.postimg.cc/T3Gz3y2d/Saltos-en-la-Barceloneta.webp",
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063592/cgs_portfolio/Saltos-en-la-Barceloneta.webp",
         "caption": "Vuelo sobre la arena: piruetas acrobáticas en la playa",
         "tags": ["Barceloneta", "Playa", "Acrobacias", "Deportes", "Juventud", "Barcelona"],
         "alt": "Un hábil joven congelado en mitad de una pirueta acrobática en el aire en la playa de la Barceloneta con la línea del mar y compañeros observando al fondo."
@@ -973,17 +973,17 @@ FOTO_KITESURF_2025,
   },
   {
     id: "GaleArte",
-    url: "https://i.postimg.cc/65Pvchn0/Gego-en-el-Macba-2006-04.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063603/cgs_portfolio/Gego-en-el-Macba-2006-04.webp",
     titulo: "Contemplar el arte",
     ubicacion: "Personas en museos",
     resumen: "La experiencia íntima de la mirada: el encuentro silencioso entre el espectador y la creación plástica en las salas de grandes museos.",
     reseña: "La contemplación estética concebida como sujeto fotográfico. Esta serie explora el instante suspendido en que los visitantes habitan el espacio expositivo y se detienen ante la obra de arte: la ligereza de las redes suspendidas de Gego dibujando geometrías aéreas en el MACBA de Barcelona, la vibración lumínica ante los lienzos de Van Gogh o la solemnidad histórica del Rijksmuseum en Ámsterdam. Una meditación visual sobre el acto de mirar y dejarse conmover por las formas y el color.",
-    urlImagen: "https://i.postimg.cc/65Pvchn0/Gego-en-el-Macba-2006-04.webp",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063603/cgs_portfolio/Gego-en-el-Macba-2006-04.webp",
     categoria: "Europa",
     fecha: "2006-2019",
     equipo: "",
     galeriaTematica: [
-      {"url": "https://i.postimg.cc/65Pvchn0/Gego-en-el-Macba-2006-04.webp", "caption": "Dibujar en el espacio: la sutil y perfecta retícula de Gego desafiando la gravedad en el MACBA", "tags": ["Gego", "MACBA", "Barcelona", "escultura", "arte contemporáneo", "geometría", "espacio"], "alt": "Escultura de red metálica suspendida de la artista venezolana Gego, cuyas líneas finas y nodos crean una trama espacial transparente que dialoga con la luz y la arquitectura minimalista del museu MACBA."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063603/cgs_portfolio/Gego-en-el-Macba-2006-04.webp", "caption": "Dibujar en el espacio: la sutil y perfecta retícula de Gego desafiando la gravedad en el MACBA", "tags": ["Gego", "MACBA", "Barcelona", "escultura", "arte contemporáneo", "geometría", "espacio"], "alt": "Escultura de red metálica suspendida de la artista venezolana Gego, cuyas líneas finas y nodos crean una trama espacial transparente que dialoga con la luz y la arquitectura minimalista del museu MACBA."},
       FOTO_AMSTERDAM_VAN_GOGH,
       FOTO_AMSTERDAM_RIJKSMUSEUM,
     ]

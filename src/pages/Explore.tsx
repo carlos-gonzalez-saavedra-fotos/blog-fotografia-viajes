@@ -206,6 +206,7 @@ export const Explore = () => {
                   height={300}
                   loading="lazy" 
                   decoding="async"
+                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" 
                 />
               </div>

@@ -81,6 +81,7 @@ export const ReviewDetail = () => {
           transition={{ duration: 1.5 }} 
           src={viaje.urlImagen || viaje.url} 
           alt={viaje.titulo}
+          referrerPolicy="no-referrer"
           width={1920}
           height={1080}
           decoding="async"
@@ -183,6 +184,7 @@ export const ReviewDetail = () => {
                           alt={itemCaption || viaje.titulo}
                           loading="lazy"
                           decoding="async"
+                          referrerPolicy="no-referrer"
                           width={400}
                           height={400}
                           className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" 

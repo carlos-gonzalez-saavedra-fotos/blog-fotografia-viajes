@@ -116,7 +116,7 @@ export const Home = () => {
                 <div className="w-32 md:w-48 shrink-0 mx-auto md:mx-0 reveal-on-scroll">
                   <div className="aspect-[3/4] overflow-hidden grayscale opacity-60 hover:opacity-100 transition-opacity duration-1000">
                     <img 
-                      src="https://i.postimg.cc/GhB8RZvM/Carlos-Gonzalez-Saavedra.webp" 
+                      src="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064350/cgs_portfolio/Carlos_Gonzalez_Saavedra.webp" 
                       alt="Carlos González Saavedra"
                       loading="lazy"
                       decoding="async"

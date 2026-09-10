@@ -42,6 +42,7 @@ export const PhotographySection = () => {
                   alt={photo.titulo} 
                   loading="lazy"
                   decoding="async"
+                  referrerPolicy="no-referrer"
                   width={600}
                   height={450}
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out" 
