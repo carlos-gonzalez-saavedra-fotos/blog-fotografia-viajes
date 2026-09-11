@@ -77,7 +77,64 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <nav class="fixed top-0 left-0 right-0 z-[120] transition-all duration-500 translate-y-0 py-8 bg-transparent px-6">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+          <a href="/" data-discover="true">
+            <div class="flex items-center gap-2 group">
+              <div class="relative w-6 h-6 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-camera w-6 h-6 text-gold" aria-hidden="true"><path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"></path><circle cx="12" cy="13" r="3"></circle></svg>
+              </div>
+              <div class="flex flex-col">
+                <span class="font-serif text-xl tracking-widest uppercase leading-none">CGS</span>
+              </div>
+            </div>
+          </a>
+          <div class="hidden md:flex items-center gap-12">
+            <div><a class="text-xs uppercase tracking-[0.2em] hover:text-gold transition-colors" href="/" data-discover="true">Inicio</a></div>
+            <div><a href="#viajes" class="text-xs uppercase tracking-[0.2em] hover:text-gold transition-colors">Viajes</a></div>
+            <div><a href="#galeria" class="text-xs uppercase tracking-[0.2em] hover:text-gold transition-colors">Galería</a></div>
+            <div><a class="text-xs uppercase tracking-[0.2em] hover:text-gold transition-colors" href="/explorar" data-discover="true">Explorar</a></div>
+            <div><a href="#el-autor" class="text-xs uppercase tracking-[0.2em] hover:text-gold transition-colors">El Autor</a></div>
+          </div>
+          <button class="md:hidden text-white" aria-label="Abrir menú">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+          </button>
+        </div>
+      </nav>
+      <div class="min-h-screen bg-black selection:bg-gold selection:text-black">
+        <div class="fixed top-0 left-0 right-0 h-1 bg-gold z-[60] origin-left transition-transform duration-75 ease-out" style="transform:scaleX(0)"></div>
+        <main>
+          <section id="inicio" class="relative h-screen flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+              <picture>
+                <source media="(max-width: 768px)" srcset="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_800,c_limit/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp" />
+                <source media="(min-width: 769px)" srcset="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_1920,c_limit/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp" />
+                <img src="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_800,c_limit/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp" alt="Playa de las Catedrales - Galicia" width="1920" height="1080" decoding="sync" fetchpriority="high" class="w-full h-full object-cover opacity-60" referrerpolicy="no-referrer" />
+              </picture>
+              <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black"></div>
+            </div>
+            <div class="relative z-10 text-center px-4">
+              <p class="text-xs md:text-sm uppercase tracking-[0.4em] text-gold mb-6">Fotografía &amp; Relatos</p>
+              <h1 class="font-serif text-5xl md:text-8xl lg:text-9xl mb-8 leading-tight">Fúlgidos <br /><span class="italic">Ecos</span></h1>
+              <div class="flex flex-col items-center gap-4">
+                <div class="w-[1px] h-24 bg-gradient-to-b from-gold/0 to-gold"></div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down w-4 h-4 text-gold animate-bounce" aria-hidden="true"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg>
+              </div>
+            </div>
+            <div class="hidden lg:block absolute left-12 bottom-24 rotate-[-90deg] origin-left">
+              <p class="text-[10px] uppercase tracking-[0.5em] opacity-40">Carlos González Saavedra — Portfolio 2026</p>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script>
+      if (window.location.pathname !== '/' && window.location.pathname !== '') {
+        var r = document.getElementById('root');
+        if (r) r.innerHTML = '';
+      }
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -1,4 +1,3 @@
-import { motion } from 'motion/react';
 import { ArrowDown } from 'lucide-react';
 
 export const Hero = () => {
@@ -34,25 +33,15 @@ export const Hero = () => {
           Fotografía & Relatos
         </p>
         
-        <motion.h1 
-          initial={{ opacity: 1, y: 15 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="font-serif text-5xl md:text-8xl lg:text-9xl mb-8 leading-tight"
-        >
+        <h1 className="font-serif text-5xl md:text-8xl lg:text-9xl mb-8 leading-tight">
           Fúlgidos <br />
           <span className="italic">Ecos</span>
-        </motion.h1>
+        </h1>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="flex flex-col items-center gap-4"
-        >
+        <div className="flex flex-col items-center gap-4">
           <div className="w-[1px] h-24 bg-gradient-to-b from-gold/0 to-gold" />
           <ArrowDown className="w-4 h-4 text-gold animate-bounce" />
-        </motion.div>
+        </div>
       </div>
 
       {/* Decorative Side Text */}

@@ -88,11 +88,7 @@ export const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link to="/">
-          <motion.div 
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="flex items-center gap-2 group"
-          >
+          <div className="flex items-center gap-2 group">
             <div className="relative w-6 h-6 flex items-center justify-center">
               {isHome ? (
                 <Camera className="w-6 h-6 text-gold" />
@@ -106,19 +102,14 @@ export const Navbar = () => {
                 <span className="text-[8px] uppercase tracking-[0.3em] text-gold/60 mt-1 leading-none">Volver</span>
               )}
             </div>
-          </motion.div>
+          </div>
         </Link>
 
         <div className="hidden md:flex items-center gap-12">
-          {navItems.map((item, i) => (
-            <motion.div
-              key={item.id}
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.1 }}
-            >
+          {navItems.map((item) => (
+            <div key={item.id}>
               <NavLink item={item} />
-            </motion.div>
+            </div>
           ))}
         </div>
 
