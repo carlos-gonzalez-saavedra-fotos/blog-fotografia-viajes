@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
-import { X, ChevronLeft, ChevronRight, Camera, BookOpen, RotateCw, AlertCircle } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Camera, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 interface LightboxPhoto {
@@ -28,9 +28,6 @@ export const Lightbox: React.FC<LightboxProps> = ({
   onIndexChange,
 }) => {
   const [isPortrait, setIsPortrait] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
-  const [hasError, setHasError] = useState(false);
-  const [retryKey, setRetryKey] = useState(0);
 
   // Navegación por teclado
   useEffect(() => {
@@ -53,13 +50,6 @@ export const Lightbox: React.FC<LightboxProps> = ({
     }
     return () => { document.body.style.overflow = 'unset'; };
   }, [isOpen]);
-
-  // Reset de estado de carga al cambiar de foto
-  useEffect(() => {
-    setIsLoading(true);
-    setHasError(false);
-    setRetryKey(0);
-  }, [currentIndex, isOpen]);
 
   // Precarga inteligente (Prefetch) de la foto siguiente y anterior
   useEffect(() => {
@@ -101,11 +91,6 @@ export const Lightbox: React.FC<LightboxProps> = ({
   } else if (!currentPhoto?.tripId && currentPhoto?.titulo) {
     headerText = currentPhoto.titulo;
   }
-
-  // URL con parámetro de reintento si se produce error de red
-  const imageUrl = currentPhoto?.url 
-    ? (retryKey > 0 ? `${currentPhoto.url}${currentPhoto.url.includes('?') ? '&' : '?'}t=${Date.now()}` : currentPhoto.url)
-    : '';
 
   return (
     <AnimatePresence>
@@ -182,67 +167,26 @@ export const Lightbox: React.FC<LightboxProps> = ({
 
           {/* Contenedor de Imagen */}
           <div className="flex-grow flex items-center justify-center p-4 overflow-hidden relative">
-            {/* Indicador sutil de carga (Spinner / Skeleton) */}
-            {isLoading && !hasError && (
-              <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none z-0">
-                <div className="w-9 h-9 rounded-full border border-gold/20 border-t-gold animate-spin mb-4" />
-                <span className="text-[10px] uppercase tracking-[0.3em] text-white/40 font-light">
-                  Cargando fotografía...
-                </span>
-              </div>
-            )}
-
-            {/* Aviso y botón de reintento si la red falla */}
-            {hasError && (
-              <div 
-                className="relative z-20 py-12 px-8 flex flex-col items-center justify-center text-center max-w-sm bg-neutral-900/80 border border-white/10 backdrop-blur-md rounded-sm"
-                onClick={(e) => e.stopPropagation()}
-              >
-                <AlertCircle className="w-8 h-8 text-gold/80 mb-4 stroke-thin" />
-                <p className="font-serif text-lg text-white mb-2">Respuesta demorada</p>
-                <p className="text-xs text-white/50 mb-6 font-light leading-relaxed">
-                  El servidor de la imagen está tardando en responder. Pulsa para reintentar la conexión.
-                </p>
-                <button
-                  onClick={() => {
-                    setHasError(false);
-                    setIsLoading(true);
-                    setRetryKey(prev => prev + 1);
-                  }}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 border border-gold/60 text-gold hover:bg-gold hover:text-black text-[10px] uppercase tracking-[0.25em] transition-all duration-300"
-                >
-                  <RotateCw size={14} />
-                  <span>Reintentar carga</span>
-                </button>
-              </div>
-            )}
-
             <div 
-              className={`relative flex flex-col items-center transition-all duration-500 ${isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl'} ${hasError ? 'hidden' : 'block'}`}
+              className={`relative flex flex-col items-center transition-all duration-500 ${isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl'}`}
               onClick={(e) => e.stopPropagation()}
             >
               {/* Imagen Principal */}
               <motion.img 
-                key={`${currentPhoto.url}-${retryKey}`}
+                key={currentPhoto.url}
                 initial={{ opacity: 0, scale: 0.98 }} 
-                animate={{ opacity: isLoading ? 0 : 1, scale: 1 }}
+                animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.25 }}
                 onPanEnd={handlePanEnd}
-                src={imageUrl}
+                src={currentPhoto.url}
                 alt={currentPhoto.caption || currentPhoto.titulo || 'Fotografía'}
                 referrerPolicy="no-referrer"
                 decoding="async"
                 className="max-w-full shadow-2xl object-contain z-10"
                 style={{ maxHeight: '72vh', touchAction: 'pan-y pinch-zoom' }}
                 onLoad={(e) => {
-                  setIsLoading(false);
-                  setHasError(false);
                   setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth);
-                }}
-                onError={() => {
-                  setIsLoading(false);
-                  setHasError(true);
                 }}
               />
 
