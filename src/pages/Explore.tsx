@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
-import { MIS_VIAJES, MIS_FOTOS } from '../data/mis_viajes';
+import { VIAJES_COMPLETOS, FOTOS_COMPLETAS } from '../data/viajesCompleto';
 import { Search } from 'lucide-react';
 import { Lightbox } from '../components/ui/Lightbox';
 import { Footer } from '../components/Footer';
@@ -32,7 +32,7 @@ export const Explore = () => {
     const photos: PhotoItem[] = [];
     const seenUrls = new Set<string>();
 
-    MIS_VIAJES.forEach(viaje => {
+    VIAJES_COMPLETOS.forEach(viaje => {
       if (viaje.galeria) {
         viaje.galeria.forEach(item => {
           const url = typeof item === 'string' ? item : item.url;
@@ -46,7 +46,7 @@ export const Explore = () => {
       }
     });
 
-    MIS_FOTOS.forEach(foto => {
+    FOTOS_COMPLETAS.forEach(foto => {
       if (foto.galeriaTematica) {
         foto.galeriaTematica.forEach(item => {
           const url = typeof item === 'string' ? item : item.url;

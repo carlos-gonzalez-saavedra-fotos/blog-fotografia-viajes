@@ -5,17 +5,25 @@ import { getOptimizedImageUrl } from '../utils/image';
 
 export const PhotographySection = () => {
   const allGalleries = React.useMemo(() => {
-    const tripGalleries = MIS_VIAJES.filter(v => v.galeria && v.galeria.length > 0).map(v => ({
+    const tripGalleries = MIS_VIAJES.filter(v => (v.galeriaCount !== undefined && v.galeriaCount > 0) || (v.galeria && v.galeria.length > 0)).map(v => ({
       id: v.id, 
-      url: v.urlImagen, 
+      url: v.urlImagen || v.url || '', 
       titulo: v.titulo, 
       ubicacion: v.ubicacion, 
-      galeriaTematica: v.galeria,
+      fotosCount: v.galeriaCount || (v.galeria ? v.galeria.length : 0),
       fecha: v.fecha,
       categoria: v.categoria,
       esViaje: true // Flag para identificar que es un viaje con crónica
     }));
-    const photoGalleries = MIS_FOTOS.map(f => ({ ...f, esViaje: false }));
+    const photoGalleries = MIS_FOTOS.map(f => ({
+      id: f.id,
+      url: f.url || '',
+      titulo: f.titulo,
+      ubicacion: f.ubicacion,
+      fotosCount: f.fotosCount || (f.galeriaTematica ? f.galeriaTematica.length : 0),
+      fecha: f.fecha,
+      esViaje: false
+    }));
     return [...photoGalleries, ...tripGalleries];
   }, []);
 
@@ -55,7 +63,7 @@ export const PhotographySection = () => {
                   <div className="flex items-center justify-between text-white/60 text-xs font-light pt-3 border-t border-white/10">
                     <span className="text-[11px] tracking-wider text-white/70">
                       {photo.fecha || ''}
-                      {photo.galeriaTematica?.length ? ` · ${photo.galeriaTematica.length} fotos` : ''}
+                      {photo.fotosCount ? ` · ${photo.fotosCount} fotos` : ''}
                     </span>
                     <span className="text-gold text-[11px] uppercase tracking-wider font-medium flex items-center gap-1 group-hover:translate-x-1 transition-transform">
                       Ver galería →

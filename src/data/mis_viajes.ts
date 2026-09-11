@@ -1,17 +1,7 @@
-import { Viaje, Photo } from '../types';
+import { ViajeResumen, PhotoResumen } from '../types';
+import { VIAJES_RESUMEN, FOTOS_RESUMEN } from './viajesResumen';
 
-// Importaciones con nombres limpios
-import { viajesEuropa } from './viajesEuropa';
-import { viajesEspana } from './viajesEspana';
-import { viajesMundo } from './viajesMundo';
-import { galeriasTematicas } from './galeriasTematicas';
-
-// Usamos el operador || [] para que si un archivo está vacío o falla, 
-// la web no se quede en blanco y siga cargando el resto.
-export const MIS_VIAJES: Viaje[] = [
-  ...(viajesEuropa || []),
-  ...(viajesEspana || []),
-  ...(viajesMundo || [])
-];
-
-export const MIS_FOTOS: any[] = galeriasTematicas || [];
+// Estructura de datos ligera para la portada (BlogSection, PhotographySection)
+// Solo incluye metadatos básicos y conteos para arranque ultrarrápido sin sobrecarga de memoria
+export const MIS_VIAJES: ViajeResumen[] = VIAJES_RESUMEN;
+export const MIS_FOTOS: PhotoResumen[] = FOTOS_RESUMEN;

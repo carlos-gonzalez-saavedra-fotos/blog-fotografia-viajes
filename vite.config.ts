@@ -20,8 +20,17 @@ export default defineConfig(({mode}) => {
       rollupOptions: {
         output: {
           manualChunks(id) {
-            if (id.includes('src/data/')) {
-              return 'data-viajes';
+            if (
+              id.includes('viajesEuropa') ||
+              id.includes('viajesEspana') ||
+              id.includes('viajesMundo') ||
+              id.includes('galeriasTematicas') ||
+              id.includes('viajesCompleto')
+            ) {
+              return 'data-viajes-full';
+            }
+            if (id.includes('viajesResumen') || id.includes('mis_viajes')) {
+              return 'data-viajes-resumen';
             }
             if (
               id.includes('node_modules/react/') ||

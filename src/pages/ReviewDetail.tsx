@@ -1,6 +1,6 @@
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { MIS_VIAJES, MIS_FOTOS } from '../data/mis_viajes';
+import { VIAJES_COMPLETOS, FOTOS_COMPLETAS, getViajeCompletoById } from '../data/viajesCompleto';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { MapPin, ArrowLeft, Quote, Search } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
@@ -12,8 +12,8 @@ export const ReviewDetail = () => {
   const navigate = useNavigate();
   const location = useLocation();
   
-  // Buscar en viajes y en fotos (galerías temáticas)
-  const viaje = MIS_VIAJES.find(v => v.id === id) || (MIS_FOTOS.find(f => f.id === id) as any);
+  // Buscar en viajes y en fotos completas (galerías temáticas)
+  const viaje = getViajeCompletoById(id) as any;
   
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isPortrait, setIsPortrait] = useState(false);
