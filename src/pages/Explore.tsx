@@ -5,6 +5,7 @@ import { MIS_VIAJES, MIS_FOTOS } from '../data/mis_viajes';
 import { Search } from 'lucide-react';
 import { Lightbox } from '../components/ui/Lightbox';
 import { Footer } from '../components/Footer';
+import { getOptimizedImageUrl } from '../utils/image';
 
 interface PhotoItem {
   url: string;
@@ -200,7 +201,7 @@ export const Explore = () => {
             <div key={index} className="cursor-zoom-in group transition-transform duration-300 hover:scale-[1.02]" onClick={() => setSelectedPhotoIndex(index)}>
               <div className="aspect-square bg-white/5 overflow-hidden mb-2">
                 <img 
-                  src={photo.url} 
+                  src={getOptimizedImageUrl(photo.url, { width: 360, height: 360, crop: 'fill' })} 
                   alt={photo.caption} 
                   width={300}
                   height={300}

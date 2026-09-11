@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MIS_FOTOS, MIS_VIAJES } from '../data/mis_viajes';
+import { getOptimizedImageUrl } from '../utils/image';
 
 export const PhotographySection = () => {
   const allGalleries = React.useMemo(() => {
@@ -38,7 +39,7 @@ export const PhotographySection = () => {
                 className="block relative group cursor-pointer overflow-hidden rounded-sm bg-neutral-950 aspect-[4/3]"
               >
                 <img 
-                  src={photo.url} 
+                  src={getOptimizedImageUrl(photo.url, { width: 600, height: 450, crop: 'fill' })} 
                   alt={photo.titulo} 
                   loading="lazy"
                   decoding="async"

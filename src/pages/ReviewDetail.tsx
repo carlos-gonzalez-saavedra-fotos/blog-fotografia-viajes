@@ -5,6 +5,7 @@ import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { MapPin, ArrowLeft, Quote, Search } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
 import { Lightbox } from '../components/ui/Lightbox';
+import { getOptimizedImageUrl } from '../utils/image';
 
 export const ReviewDetail = () => {
   const { id } = useParams();
@@ -79,7 +80,7 @@ export const ReviewDetail = () => {
           initial={{ scale: 1.1 }} 
           animate={{ scale: 1 }} 
           transition={{ duration: 1.5 }} 
-          src={viaje.urlImagen || viaje.url} 
+          src={getOptimizedImageUrl(viaje.urlImagen || viaje.url, { width: 1920, crop: 'limit' })} 
           alt={viaje.titulo}
           referrerPolicy="no-referrer"
           width={1920}
@@ -180,7 +181,7 @@ export const ReviewDetail = () => {
                         className="aspect-square cursor-zoom-in overflow-hidden relative group bg-neutral-900"
                       >
                         <img 
-                          src={itemUrl} 
+                          src={getOptimizedImageUrl(itemUrl, { width: 400, height: 400, crop: 'fill' })} 
                           alt={itemCaption || viaje.titulo}
                           loading="lazy"
                           decoding="async"

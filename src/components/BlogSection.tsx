@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { MIS_VIAJES } from '../data/mis_viajes';
 import { MapPin, ArrowRight, BookOpen, Filter } from 'lucide-react';
+import { getOptimizedImageUrl } from '../utils/image';
 
 const ITEMS_PER_PAGE = 6;
 
@@ -78,7 +79,7 @@ export const BlogSection = () => {
                 {/* Imagen */}
                 <div className="aspect-[16/10] overflow-hidden relative">
                   <img 
-                    src={viaje.urlImagen} 
+                    src={getOptimizedImageUrl(viaje.urlImagen, { width: 640, height: 400, crop: 'fill' })} 
                     alt={viaje.titulo}
                     loading="lazy"
                     decoding="async"
