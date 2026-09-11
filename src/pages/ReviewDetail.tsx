@@ -2,7 +2,7 @@ import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { VIAJES_COMPLETOS, FOTOS_COMPLETAS, getViajeCompletoById } from '../data/viajesCompleto';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
-import { MapPin, ArrowLeft, Quote, Search } from 'lucide-react';
+import { MapPin, ArrowLeft, Quote, Search, BookOpen } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
 import { Lightbox } from '../components/ui/Lightbox';
 import { getOptimizedImageUrl } from '../utils/image';
@@ -59,12 +59,43 @@ export const ReviewDetail = () => {
     else if (info.offset.x > 50) setSelectedIndex((selectedIndex! - 1 + fotosGaleria.length) % fotosGaleria.length);
   };
 
-  if (!viaje) return <div className="min-h-screen bg-black" />;
+  if (!viaje) {
+    return (
+      <div className="min-h-screen bg-black text-white flex flex-col justify-center items-center px-6 text-center">
+        <Helmet>
+          <title>Crónica no encontrada | Carlos González Saavedra</title>
+          <meta name="robots" content="noindex" />
+        </Helmet>
+        <div className="w-16 h-16 rounded-full border border-gold/30 flex items-center justify-center mb-6 text-gold">
+          <BookOpen className="w-8 h-8 stroke-thin" />
+        </div>
+        <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Destino no disponible</p>
+        <h1 className="font-serif text-3xl md:text-5xl text-white mb-4">Crónica no encontrada</h1>
+        <p className="text-white/60 text-sm md:text-base max-w-md mb-8 font-light leading-relaxed">
+          La crónica o galería solicitada no está disponible o la dirección no es correcta.
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <Link
+            to="/explorar"
+            className="px-6 py-3 border border-gold text-gold text-xs uppercase tracking-[0.2em] hover:bg-gold hover:text-black transition-all duration-300"
+          >
+            Explorar Crónicas
+          </Link>
+          <Link
+            to="/"
+            className="px-6 py-3 border border-white/20 text-white/80 text-xs uppercase tracking-[0.2em] hover:border-white hover:text-white transition-all duration-300"
+          >
+            Volver a Portada
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-screen bg-black text-white font-light">
+    <div className="min-h-screen bg-black text-white font-light">
       <Helmet>
-        <title>{viaje.titulo} | Carlos González Saavedra</title>
+        <title>{`${viaje.titulo} | Carlos González Saavedra`}</title>
         <meta name="description" content={viaje.resumen || (viaje.reseña ? viaje.reseña.slice(0, 160) : '')} />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={`https://carlos-gonzalez-saavedra.vercel.app/viaje/${viaje.id}`} />
@@ -231,6 +262,8 @@ export const ReviewDetail = () => {
           tripId: viaje.id
         }))}
       />
-    </motion.div>
+    </div>
   );
 };
+
+export default ReviewDetail;

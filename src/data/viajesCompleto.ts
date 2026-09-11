@@ -14,5 +14,12 @@ export const FOTOS_COMPLETAS: Photo[] = (galeriasTematicas as Photo[]) || [];
 
 export function getViajeCompletoById(id: string | undefined): Viaje | Photo | undefined {
   if (!id) return undefined;
-  return VIAJES_COMPLETOS.find(v => v.id === id) || FOTOS_COMPLETAS.find(f => f.id === id);
+  const decoded = decodeURIComponent(id).trim();
+  const normalized = decoded.toLowerCase().replace(/\/+$/, '');
+  return (
+    VIAJES_COMPLETOS.find(v => v.id.toLowerCase() === normalized) ||
+    FOTOS_COMPLETAS.find(f => f.id.toLowerCase() === normalized) ||
+    VIAJES_COMPLETOS.find(v => v.id === decoded) ||
+    FOTOS_COMPLETAS.find(f => f.id === decoded)
+  );
 }
