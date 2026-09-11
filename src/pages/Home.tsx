@@ -66,9 +66,7 @@ export const Home = () => {
       const id = location.hash.replace('#', '');
       const element = document.getElementById(id);
       if (element) {
-        setTimeout(() => {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }, 100);
+        element.scrollIntoView({ behavior: 'auto' });
       }
     } else {
       window.scrollTo(0, 0);

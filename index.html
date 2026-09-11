@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="kBlj-5GCguEUhLEEzrmPbajUuK7vDqvOL2hClcmGtpw" />
     <!-- Performance Preconnects -->
+    <link rel="preconnect" href="https://res.cloudinary.com" crossorigin />
+    <link rel="dns-prefetch" href="https://res.cloudinary.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://i.postimg.cc" />
 
-    <!-- Preload Hero LCP Image -->
-    <link rel="preload" as="image" href="https://i.postimg.cc/5NPDKYtR/Playa-de-las-Catedrales.webp" fetchpriority="high" />
+    <!-- Preload Hero LCP Image for Mobile and Desktop -->
+    <link rel="preload" as="image" href="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_800,c_limit/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp" media="(max-width: 768px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_1920,c_limit/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp" media="(min-width: 769px)" fetchpriority="high" />
 
     <!-- Non-blocking Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;1,400&display=swap" media="print" onload="this.media='all'" />
@@ -40,14 +42,14 @@
     <meta property="og:url" content="https://carlos-gonzalez-saavedra.vercel.app/" />
     <meta property="og:title" content="Carlos González Saavedra | Fotografía & Relatos de Viaje" />
     <meta property="og:description" content="Explora el mundo a través de la lente y las palabras de Carlos González Saavedra. Crónicas de viaje y fotografía artística." />
-    <meta property="og:image" content="https://i.postimg.cc/GhB8RZvM/Carlos-Gonzalez-Saavedra.webp" />
+    <meta property="og:image" content="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_800,h_800,c_fill/v1789064350/cgs_portfolio/Carlos_Gonzalez_Saavedra.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://carlos-gonzalez-saavedra.vercel.app/" />
     <meta property="twitter:title" content="Carlos González Saavedra | Fotografía & Relatos de Viaje" />
     <meta property="twitter:description" content="Explora el mundo a través de la lente y las palabras de Carlos González Saavedra. Crónicas de viaje y fotografía artística." />
-    <meta property="twitter:image" content="https://i.postimg.cc/GhB8RZvM/Carlos-Gonzalez-Saavedra.webp" />
+    <meta property="twitter:image" content="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_800,h_800,c_fill/v1789064350/cgs_portfolio/Carlos_Gonzalez_Saavedra.webp" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -56,7 +58,7 @@
         "@type": "Person",
         "name": "Carlos González Saavedra",
         "url": "https://carlos-gonzalez-saavedra.vercel.app/",
-        "image": "https://i.postimg.cc/GhB8RZvM/Carlos-Gonzalez-Saavedra.webp",
+        "image": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_800,h_800,c_fill/v1789064350/cgs_portfolio/Carlos_Gonzalez_Saavedra.webp",
         "description": "Fotógrafo y escritor de relatos de viaje.",
         "jobTitle": "Fotógrafo y Escritor",
         "knowsAbout": ["Fotografía", "Viajes", "Literatura de viajes"]

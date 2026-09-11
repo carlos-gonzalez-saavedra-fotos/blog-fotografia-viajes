@@ -81,8 +81,9 @@ export const BlogSection = () => {
                   <img 
                     src={getOptimizedImageUrl(viaje.urlImagen, { width: 640, height: 400, crop: 'fill' })} 
                     alt={viaje.titulo}
-                    loading="lazy"
+                    loading={i < 2 ? "eager" : "lazy"}
                     decoding="async"
+                    fetchPriority={i === 0 ? "high" : "auto"}
                     width={640}
                     height={400}
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-110"
