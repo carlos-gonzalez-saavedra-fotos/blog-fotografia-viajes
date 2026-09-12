@@ -113,10 +113,7 @@ export const ReviewDetail = () => {
       
       {/* Header / Hero */}
       <div className="relative h-[70vh] w-full overflow-hidden">
-        <motion.img 
-          initial={{ scale: 1.1 }} 
-          animate={{ scale: 1 }} 
-          transition={{ duration: 1.5 }} 
+        <img 
           src={getOptimizedImageUrl(viaje.urlImagen || viaje.url, { width: 1920, crop: 'limit' })} 
           alt={viaje.titulo}
           referrerPolicy="no-referrer"
@@ -124,14 +121,14 @@ export const ReviewDetail = () => {
           height={1080}
           decoding="async"
           {...({ fetchPriority: "high" } as any)}
-          className="w-full h-full object-cover opacity-60 grayscale" 
+          className="w-full h-full object-cover opacity-60 grayscale will-change-transform transform scale-100 transition-transform duration-1000 ease-out" 
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
-          <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="flex items-center gap-2 text-gold text-[10px] uppercase tracking-[0.4em] mb-6">
+          <div className="flex items-center gap-2 text-gold text-[10px] uppercase tracking-[0.4em] mb-6 animate-fade-in">
             <MapPin size={14} strokeWidth={1.5} /> {viaje.ubicacion}
-          </motion.div>
-          <motion.h1 initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }} className="font-serif text-5xl md:text-8xl lg:text-9xl mb-8 tracking-tighter">{viaje.titulo}</motion.h1>
+          </div>
+          <h1 className="font-serif text-5xl md:text-8xl lg:text-9xl mb-8 tracking-tighter animate-fade-in">{viaje.titulo}</h1>
         </div>
       </div>
 
