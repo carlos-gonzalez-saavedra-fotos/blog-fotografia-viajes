@@ -103,6 +103,12 @@ export const ReviewDetail = () => {
         <meta property="og:description" content={viaje.resumen || (viaje.reseña ? viaje.reseña.slice(0, 160) : '')} />
         <meta property="og:url" content={`https://carlos-gonzalez-saavedra.vercel.app/viaje/${viaje.id}`} />
         <meta property="og:image" content={viaje.urlImagen || viaje.url} />
+        <link 
+          rel="preload" 
+          as="image" 
+          href={getOptimizedImageUrl(viaje.urlImagen || viaje.url, { width: 1920, crop: 'limit' })} 
+          {...({ fetchPriority: "high" } as any)}
+        />
       </Helmet>
       
       {/* Header / Hero */}
@@ -117,6 +123,7 @@ export const ReviewDetail = () => {
           width={1920}
           height={1080}
           decoding="async"
+          {...({ fetchPriority: "high" } as any)}
           className="w-full h-full object-cover opacity-60 grayscale" 
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />

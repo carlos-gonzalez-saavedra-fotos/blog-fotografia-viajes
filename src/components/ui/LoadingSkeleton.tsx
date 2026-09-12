@@ -1,6 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { getViajeResumenById } from '../../data/viajesResumen';
+import { getOptimizedImageUrl } from '../../utils/image';
 
 export const ChronicleSkeleton: React.FC = () => {
+  // Disparo anticipado de la imagen LCP en paralelo durante la fase de carga
+  useEffect(() => {
+    const pathname = window.location.pathname;
+    const match = pathname.match(/\/viaje\/([^/]+)/);
+    if (match && match[1]) {
+      const resumen = getViajeResumenById(match[1]);
+      const rawUrl = (resumen as any)?.urlImagen || (resumen as any)?.url;
+      if (rawUrl) {
+        const optimizedUrl = getOptimizedImageUrl(rawUrl, { width: 1920, crop: 'limit' });
+        // Inyecta el <link rel="preload" as="image" fetchpriority="high"> si no existe ya
+        if (!document.querySelector(`link[rel="preload"][href="${optimizedUrl}"]`)) {
+          const link = document.createElement('link');
+          link.rel = 'preload';
+          link.as = 'image';
+          link.href = optimizedUrl;
+          link.setAttribute('fetchpriority', 'high');
+          document.head.appendChild(link);
+        }
+      }
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-black text-white font-light selection:bg-gold selection:text-black">
       {/* Hero Skeleton */}

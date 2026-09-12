@@ -380,3 +380,11 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 3
   }
 ];
+
+export function getViajeResumenById(id?: string): (ViajeResumen | PhotoResumen) | undefined {
+  if (!id) return undefined;
+  const cleanId = decodeURIComponent(id).trim().toLowerCase().replace(/\/+$/, '');
+  const viaje = VIAJES_RESUMEN.find(v => v.id.toLowerCase() === cleanId);
+  if (viaje) return viaje;
+  return FOTOS_RESUMEN.find(f => f.id.toLowerCase() === cleanId);
+}
