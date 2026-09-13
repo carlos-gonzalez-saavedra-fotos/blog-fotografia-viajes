@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'motion/react';
 import { Camera, Map, Menu, X, ArrowLeft } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -123,17 +122,15 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="md:hidden absolute top-full left-0 right-0 bg-black/95 border-b border-white/10 p-8 flex flex-col gap-6 items-center"
+        <div 
+          className="md:hidden absolute top-full left-0 right-0 bg-black/95 border-b border-white/10 p-8 flex flex-col gap-6 items-center animate-fade-in transition-all duration-300"
         >
           {navItems.map((item) => (
             <div key={item.id} onClick={() => setIsOpen(false)}>
               <NavLink item={item} />
             </div>
           ))}
-        </motion.div>
+        </div>
       )}
     </nav>
   );

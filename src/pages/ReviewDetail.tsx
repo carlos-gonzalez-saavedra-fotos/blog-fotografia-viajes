@@ -1,11 +1,11 @@
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { VIAJES_COMPLETOS, FOTOS_COMPLETAS, getViajeCompletoById } from '../data/viajesCompleto';
-import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import { MapPin, ArrowLeft, Quote, Search, BookOpen } from 'lucide-react';
-import { useEffect, useState, useRef } from 'react';
-import { Lightbox } from '../components/ui/Lightbox';
+import { useEffect, useState, useRef, lazy, Suspense } from 'react';
 import { getOptimizedImageUrl } from '../utils/image';
+
+const Lightbox = lazy(() => import('../components/ui/Lightbox').then(m => ({ default: m.Lightbox })));
 
 export const ReviewDetail = () => {
   const { id } = useParams();
@@ -52,12 +52,6 @@ export const ReviewDetail = () => {
     document.body.style.overflow = selectedIndex !== null ? 'hidden' : 'unset';
     return () => { document.body.style.overflow = 'unset'; };
   }, [selectedIndex]);
-
-  const handlePanEnd = (_e: any, info: PanInfo) => {
-    if (!fotosGaleria.length) return;
-    if (info.offset.x < -50) setSelectedIndex((selectedIndex! + 1) % fotosGaleria.length);
-    else if (info.offset.x > 50) setSelectedIndex((selectedIndex! - 1 + fotosGaleria.length) % fotosGaleria.length);
-  };
 
   if (!viaje) {
     return (
@@ -252,20 +246,24 @@ export const ReviewDetail = () => {
         </div>
       </div>
 
-      {/* Lightbox Unificado */}
-      <Lightbox 
-        isOpen={selectedIndex !== null}
-        onClose={() => setSelectedIndex(null)}
-        currentIndex={selectedIndex || 0}
-        onIndexChange={(index) => setSelectedIndex(index)}
-        photos={fotosGaleria.map((item: any) => ({
-          url: typeof item === 'string' ? item : item.url,
-          caption: typeof item === 'string' ? undefined : item.caption,
-          titulo: viaje.titulo,
-          ubicacion: viaje.ubicacion,
-          tripId: viaje.id
-        }))}
-      />
+      {/* Lightbox Unificado (Diferido bajo demanda) */}
+      {selectedIndex !== null && (
+        <Suspense fallback={null}>
+          <Lightbox 
+            isOpen={true}
+            onClose={() => setSelectedIndex(null)}
+            currentIndex={selectedIndex}
+            onIndexChange={(index) => setSelectedIndex(index)}
+            photos={fotosGaleria.map((item: any) => ({
+              url: typeof item === 'string' ? item : item.url,
+              caption: typeof item === 'string' ? undefined : item.caption,
+              titulo: viaje.titulo,
+              ubicacion: viaje.ubicacion,
+              tripId: viaje.id
+            }))}
+          />
+        </Suspense>
+      )}
     </div>
   );
 };
