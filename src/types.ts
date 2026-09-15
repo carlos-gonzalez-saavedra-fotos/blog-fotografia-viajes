@@ -3,6 +3,7 @@ export interface GalleryItem {
   caption?: string;
   tags?: string[];
   alt?: string;
+  location?: string;
 }
 
 export interface ViajeResumen {

@@ -258,7 +258,7 @@ export const ReviewDetail = () => {
               url: typeof item === 'string' ? item : item.url,
               caption: typeof item === 'string' ? undefined : item.caption,
               titulo: viaje.titulo,
-              ubicacion: viaje.ubicacion,
+              ubicacion: typeof item === 'string' ? viaje.ubicacion : (item.location || viaje.ubicacion),
               tripId: viaje.id
             }))}
           />

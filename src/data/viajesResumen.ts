@@ -344,6 +344,15 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 17
   },
   {
+    "id": "Gale2004-2007",
+    "titulo": "Barcelona · París · Bilbao · Cuenca · Zaragoza · Caracas",
+    "ubicacion": "Escenas 2004-2007",
+    "fecha": "2004-2007",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789460493/Barcelona-Tibidabo_diciembre_2004-24.webp",
+    "equipo": "Sony DSC-P73",
+    "fotosCount": 30
+  },
+  {
     "id": "Gale1997-2004",
     "titulo": "Barcelona · Bilbao · Londres · Venecia · París",
     "ubicacion": "Escenas 1997-2004",
