@@ -1,6 +1,7 @@
 import { Viaje } from '../types'; export const FOTO_AMSTERDAM_VAN_GOGH = {
   "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063721/cgs_portfolio/Museo-van-Gogh-011.webp",
   "caption": "Ante 'El dormitorio': la vigencia del trazo de Van Gogh",
+  "location": "Museo Van Gogh, Ámsterdam, Países Bajos",
   "tags": ["Van Gogh", "museo", "arte", "postimpresionismo", "Ámsterdam", "espectadores"],
   "alt": "Visitantes detenidos frente a la famosa pintura 'El dormitorio en Arlés' en el Museo Van Gogh, destacando el marco dorado y la vibrante paleta de amarillos de la obra original."
 };
@@ -8,6 +9,7 @@ import { Viaje } from '../types'; export const FOTO_AMSTERDAM_VAN_GOGH = {
 export const FOTO_AMSTERDAM_RIJKSMUSEUM = {
   "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063723/cgs_portfolio/Rijks-Museum-2013.webp",
   "caption": "Cita con Rembrandt: la reverencia colectiva ante la Ronda de Noche",
+  "location": "Rijksmuseum, Ámsterdam, Países Bajos",
   "tags": ["Rijksmuseum", "Rembrandt", "turismo", "arte", "colección nacional", "Ámsterdam"],
   "alt": "Una multitud silenciosa de turistas contempla absorta el enorme lienzo de la Ronda de Noche en la sala principal del Rijksmuseum."
 };
@@ -15,6 +17,7 @@ export const FOTO_AMSTERDAM_RIJKSMUSEUM = {
 export const FOTO_AMSTERDAM_UITMARKT_CONCIERTO = {
   "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063723/cgs_portfolio/Festival-Uitmarkt-Explanada-de-los-Museos-022.webp",
   "caption": "Acordeones al viento: la vibrante propuesta del Uitmarkt",
+  "location": "Museumplein (Uitmarkt), Ámsterdam, Países Bajos",
   "tags": ["Uitmarkt", "festival", "música en vivo", "acordeón", "Ámsterdam", "actuación"],
   "alt": "Retrato expresivo de una cantante tocando un acordeón con fuelles rojos durante un concierto al aire libre en el festival cultural Uitmarkt."
 };
