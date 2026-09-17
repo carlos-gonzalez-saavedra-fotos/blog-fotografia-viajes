@@ -344,6 +344,15 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 17
   },
   {
+    "id": "Gale2008",
+    "titulo": "Barcelona · Valle del Loira · Normandía · Bretaña · Venezuela",
+    "ubicacion": "Escenas 2008",
+    "fecha": "2008",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789575342/Uchire-fauna-paisajes-03.webp",
+    "equipo": "Nikon COOLPIX L4 · Nikon D50 · Sony DSC-P73",
+    "fotosCount": 28
+  },
+  {
     "id": "Gale2004-2007",
     "titulo": "Barcelona · París · Bilbao · Cuenca · Zaragoza · Caracas",
     "ubicacion": "Escenas 2004-2007",
