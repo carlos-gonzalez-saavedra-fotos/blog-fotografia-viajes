@@ -136,11 +136,11 @@ export const Lightbox: React.FC<LightboxProps> = ({
           </div>
 
           {/* Metadatos Superiores (Ubicación/Título y Contador) */}
-          <div className="w-full px-6 md:px-20 py-2 flex justify-between items-center z-[90] shrink-0">
-            <span className="text-gold text-[10px] uppercase tracking-[0.5em] font-medium truncate max-w-[70vw]">
+          <div className="w-full px-6 md:px-20 py-2 flex justify-between items-start gap-4 z-[90] shrink-0">
+            <span className="flex-1 text-gold text-[10px] uppercase tracking-[0.4em] sm:tracking-[0.5em] font-medium leading-relaxed">
               {headerText}
             </span>
-            <span className="text-white/40 text-[10px] tracking-[0.5em] uppercase shrink-0">
+            <span className="shrink-0 text-white/40 text-[10px] tracking-[0.5em] uppercase self-start pt-0.5">
               {currentIndex + 1} / {photos.length}
             </span>
           </div>
