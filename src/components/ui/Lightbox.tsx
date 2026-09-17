@@ -99,11 +99,11 @@ export const Lightbox: React.FC<LightboxProps> = ({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-[9999] bg-black/98 backdrop-blur-xl flex flex-col" 
+          className="fixed inset-0 z-[9999] bg-black/98 backdrop-blur-xl flex flex-col justify-between h-[100dvh] max-h-[100dvh] overflow-hidden" 
           onClick={onClose}
         >
           {/* Header Superior (Logo y Acciones) */}
-          <div className="w-full px-6 py-4 md:px-10 flex justify-between items-center z-[100] bg-black/50 backdrop-blur-sm">
+          <div className="w-full px-6 py-4 md:px-10 flex justify-between items-center z-[100] bg-black/50 backdrop-blur-sm shrink-0">
             <div className="flex items-center gap-3">
               <Camera className="w-5 h-5 text-gold" />
               <span className="font-serif text-lg tracking-[0.3em] text-white uppercase">CGS</span>
@@ -136,11 +136,11 @@ export const Lightbox: React.FC<LightboxProps> = ({
           </div>
 
           {/* Metadatos Superiores (Ubicación/Título y Contador) */}
-          <div className="w-full px-6 md:px-20 py-2 flex justify-between items-center z-[90]">
-            <span className="text-gold text-[10px] uppercase tracking-[0.5em] font-medium">
+          <div className="w-full px-6 md:px-20 py-2 flex justify-between items-center z-[90] shrink-0">
+            <span className="text-gold text-[10px] uppercase tracking-[0.5em] font-medium truncate max-w-[70vw]">
               {headerText}
             </span>
-            <span className="text-white/40 text-[10px] tracking-[0.5em] uppercase">
+            <span className="text-white/40 text-[10px] tracking-[0.5em] uppercase shrink-0">
               {currentIndex + 1} / {photos.length}
             </span>
           </div>
@@ -165,10 +165,10 @@ export const Lightbox: React.FC<LightboxProps> = ({
             </>
           )}
 
-          {/* Contenedor de Imagen */}
-          <div className="flex-grow flex items-center justify-center p-4 overflow-hidden relative">
+          {/* Contenedor de Imagen Central */}
+          <div className="flex-1 min-h-0 w-full flex items-center justify-center px-4 py-2 overflow-hidden relative">
             <div 
-              className={`relative flex flex-col items-center transition-all duration-500 ${isPortrait ? 'lg:max-w-[40%]' : 'w-full max-w-5xl'}`}
+              className={`relative flex items-center justify-center w-full h-full max-h-full transition-all duration-500 ${isPortrait ? 'lg:max-w-[45%]' : 'max-w-5xl'}`}
               onClick={(e) => e.stopPropagation()}
             >
               {/* Imagen Principal */}
@@ -183,22 +183,25 @@ export const Lightbox: React.FC<LightboxProps> = ({
                 alt={currentPhoto.caption || currentPhoto.titulo || 'Fotografía'}
                 referrerPolicy="no-referrer"
                 decoding="async"
-                className="max-w-full shadow-2xl object-contain z-10"
-                style={{ maxHeight: '72vh', touchAction: 'pan-y pinch-zoom' }}
+                className="max-w-full max-h-full shadow-2xl object-contain z-10 select-none"
+                style={{ touchAction: 'pan-y pinch-zoom' }}
                 onLoad={(e) => {
                   setIsPortrait(e.currentTarget.naturalHeight > e.currentTarget.naturalWidth);
                 }}
               />
-
-              {/* Caption */}
-              <div className="mt-8 text-center w-full px-4 z-20">
-                {currentPhoto.caption && (
-                  <p className="font-cormorant text-xl md:text-2xl text-white/80 italic mb-4 leading-relaxed tracking-wide">
-                    {currentPhoto.caption}
-                  </p>
-                )}
-              </div>
             </div>
+          </div>
+
+          {/* Caption Inferior con espacio reservado independiente y soporte safe-area */}
+          <div 
+            className="w-full shrink-0 px-6 pt-2 pb-[max(1.25rem,env(safe-area-inset-bottom))] text-center z-20"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {currentPhoto.caption && (
+              <p className="font-cormorant text-lg sm:text-xl md:text-2xl text-white/80 italic leading-snug sm:leading-relaxed tracking-wide max-w-4xl mx-auto">
+                {currentPhoto.caption}
+              </p>
+            )}
           </div>
         </motion.div>
       )}
