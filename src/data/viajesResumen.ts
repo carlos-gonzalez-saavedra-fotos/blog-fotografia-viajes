@@ -160,11 +160,11 @@ export const VIAJES_RESUMEN: ViajeResumen[] = [
     "titulo": "Paisajes e historia",
     "ubicacion": "Andalucía-Extremadura",
     "resumen": "El sol de mayo ya brillaba con fuerza en las tierras del sur cuando nuestro avión aterrizó en Sevilla aquella mañana. Con la emoción de un viaje que se inicia, recogimos nuestro coche de alquiler y pusimos rumbo hacia el oeste, donde nos esperaba una jornada llena de descubrimientos.",
-    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063700/cgs_portfolio/Huelva_004.webp",
+    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/v1789658626/Sevilla-025.webp",
     "categoria": "España",
     "fecha": "Mayo 2016",
     "equipo": "Sony ILSE-6000",
-    "galeriaCount": 1
+    "galeriaCount": 28
   },
   {
     "id": "granada",
