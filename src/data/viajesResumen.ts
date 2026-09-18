@@ -371,13 +371,13 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 30
   },
   {
-    "id": "Gale1997-2004",
-    "titulo": "Barcelona · Bilbao · Londres · Venecia · París",
-    "ubicacion": "Escenas 1997-2004",
-    "fecha": "1997-2004",
+    "id": "Gale1995-2004",
+    "titulo": "Barcelona · San Sebastián · Bilbao · Londres · Venecia · París",
+    "ubicacion": "Escenas 1995-2004",
+    "fecha": "1995-2004",
     "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063510/cgs_portfolio/Torres-Agua-Hotel-Ars-1997.webp",
     "equipo": "Minolta X-300s",
-    "fotosCount": 33
+    "fotosCount": 34
   },
   {
     "id": "GaleArteCalle",

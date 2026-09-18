@@ -733,17 +733,24 @@ FOTO_KITESURF_2025,
     ]
   },
   {
-    id: "Gale1997-2004",
+    id: "Gale1995-2004",
     url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063510/cgs_portfolio/Torres-Agua-Hotel-Ars-1997.webp",
-    titulo: "Barcelona · Bilbao · Londres · Venecia · París",
-    ubicacion: "Escenas 1997-2004",
-    resumen: "Un viaje nostálgico en película de 35 mm: los primeros carretes revelados que capturan la vida urbana, el patrimonio y la arquitectura entre finales de los 90 y los primeros años 2000.",
-    reseña: "Esta colección reúne la mirada analógica previa a la era digital. A través de la lente de la Minolta X-300s y el grano de las emulsiones químicas digitalizadas, se suceden instantes irrepetibles: las transformaciones urbanas de Barcelona con el nuevo milenio, el destello del titanio en el recién inaugurado Guggenheim de Bilbao, el atardecer crepuscular sobre el Parlamento británico, la quietud lagunar de Venecia o el recogimiento gótico en Chartres.",
+    titulo: "Barcelona · San Sebastián · Bilbao · Londres · Venecia · París",
+    ubicacion: "Escenas 1995-2004",
+    resumen: "Un viaje nostálgico en película de 35 mm: los primeros carretes revelados que capturan la vida urbana, el patrimonio y la arquitectura entre mediados de los 90 y los primeros años 2000.",
+    reseña: "Esta colección reúne la mirada analógica previa a la era digital. A través de la lente de la Minolta X-300s y el grano de las emulsiones químicas digitalizadas, se suceden instantes irrepetibles: los peldaños de piedra que descienden hacia el mar al capricho de las mareas en La Concha de San Sebastián, las transformaciones urbanas de Barcelona con el nuevo milenio, el destello del titanio en el recién inaugurado Guggenheim de Bilbao, el atardecer crepuscular sobre el Parlamento británico, la quietud lagunar de Venecia o el recogimiento gótico en Chartres.",
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063510/cgs_portfolio/Torres-Agua-Hotel-Ars-1997.webp",
     categoria: "Europa",
-    fecha: "1997-2004",
+    fecha: "1995-2004",
     equipo: "Minolta X-300s",
     galeriaTematica: [
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789731982/La-Concha-San-Sebastian-1995.webp",
+        "caption": "Peldaños al Cantábrico: escaleras entregadas al vaivén y los caprichos de la marea en La Concha",
+        "location": "Paseo de La Concha, San Sebastián, Guipúzcoa",
+        "tags": ["Bahía De La Concha", "San Sebastián", "Donostia", "Escaleras Al Mar", "Mareas Cantábricas", "Cantábrico", "Euskadi", "1995", "Fotografía Analógica", "Minolta X-300s"],
+        "alt": "Vista de unas escaleras que descienden desde el paseo marítimo directamente hacia las aguas de la bahía de La Concha en San Sebastián, sumergiéndose al compás de las mareas cantábricas bajo la suave luz de 1995."
+      },
       {
         "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063511/cgs_portfolio/Acrobacias-Plaza-Catalunya-La-Merce-2002.webp",
         "caption": "Vuelo sobre la plaza: acrobacias aéreas en la Plaça de Catalunya durante La Mercè",
