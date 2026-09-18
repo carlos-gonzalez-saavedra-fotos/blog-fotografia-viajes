@@ -109,7 +109,7 @@ export const VIAJES_RESUMEN: ViajeResumen[] = [
     "categoria": "Europa",
     "fecha": "Septiembre 1996 - 2008",
     "equipo": "Minolta X300s - NIKON COOLPIX L4",
-    "galeriaCount": 12
+    "galeriaCount": 13
   },
   {
     "id": "amsterdam",
