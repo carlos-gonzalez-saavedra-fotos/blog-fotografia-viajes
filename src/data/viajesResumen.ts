@@ -87,7 +87,7 @@ export const VIAJES_RESUMEN: ViajeResumen[] = [
     "categoria": "Europa",
     "fecha": "Septiembre 2011",
     "equipo": "Canon PowerShot SX200 IS",
-    "galeriaCount": 17
+    "galeriaCount": 25
   },
   {
     "id": "narbonaagde",
