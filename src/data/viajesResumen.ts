@@ -344,6 +344,15 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 17
   },
   {
+    "id": "Gale2009",
+    "titulo": "Barcelona · Londres · Caruao · Sant Pere de Rodes · Peralada",
+    "ubicacion": "Escenas 2009",
+    "fecha": "2009",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789725946/El-Liceu-2009b.webp",
+    "equipo": "Canon PowerShot SX200 IS · Samsung SGH-i900",
+    "fotosCount": 25
+  },
+  {
     "id": "Gale2008",
     "titulo": "Barcelona · Valle del Loira · Normandía · Bretaña · Venezuela",
     "ubicacion": "Escenas 2008",

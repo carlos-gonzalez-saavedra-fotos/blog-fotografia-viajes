@@ -41,7 +41,8 @@ export const Explore = () => {
           
           const caption = typeof item === 'string' ? '' : item.caption || '';
           const tags = typeof item === 'string' ? [] : item.tags || [];
-          photos.push({ url, caption, tags, ubicacion: viaje.ubicacion, titulo: viaje.titulo, tripId: viaje.id });
+          const itemLocation = typeof item === 'string' ? undefined : item.location;
+          photos.push({ url, caption, tags, ubicacion: itemLocation || viaje.ubicacion, titulo: viaje.titulo, tripId: viaje.id });
         });
       }
     });
@@ -55,14 +56,15 @@ export const Explore = () => {
 
           const caption = typeof item === 'string' ? '' : item.caption || '';
           const tags = typeof item === 'string' ? [] : item.tags || [];
+          const itemLocation = typeof item === 'string' ? undefined : item.location;
           photos.push({ 
             url, 
             caption, 
             tags, 
-            ubicacion: foto.ubicacion, 
+            ubicacion: itemLocation || foto.ubicacion, 
             titulo: foto.titulo,
             tripId: foto.id,
-            useTitleAsHeader: true 
+            useTitleAsHeader: !itemLocation 
           });
         });
       }
