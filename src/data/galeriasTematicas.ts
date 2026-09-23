@@ -608,6 +608,258 @@ FOTO_KITESURF_2025,
     ]
   },
   {
+    id: "Gale2010",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790176816/Avi%C3%B1%C3%B3n-2010-Dialogo.en.las.alturas.webp",
+    titulo: "Barcelona · Tarragona · Nimes · Carcassonne · Aviñón · Arlés",
+    ubicacion: "Escenas 2010",
+    resumen: "Un recorrido diverso por el pulso mediterráneo: desde la histórica e insólita nevada sobre Barcelona y los almendros de Tarragona, hasta los ecos imperiales de Nimes y Arlés, la magnificencia papal de Aviñón, la silueta feudal de Carcassonne y el sosiego pétreo de Escaladei.",
+    reseña: "El año 2010 se abre y discurre bajo el signo de los contrastes en Cataluña: desde el acontecimiento extraordinario de la nevada del 8 de marzo, que cubrió de un manto blanco y desacostumbrado la Plaça de Catalunya sumiendo a Barcelona en una atmósfera mágica de postal nórdica, hasta la calidez primaveral de los almendros en flor en Tarragona. En la capital catalana, la mirada callejera documenta el latido inagotable de sus plazas y esquinas: la emoción vertical y la disciplina ancestral de los castellers en la diada de Santa Eulàlia, la irreverente y enérgica exhibición de la cultura maorí y su haka en los patios del CCCB, el diálogo entre hornacinas piadosas y celosías vanguardistas en el Raval, los gigantes asomando tras las bambalinas festivas de La Mercè y la audaz composición geométrica de un avión recortando el vidrio curvo del Hotel W frente al mar.\n\nEl viaje avanza hacia el norte y se adentra en el corazón de Occitania y la Provenza francesa, siguiendo la ruta del patrimonio romano y gótico más imperecedero. En Nimes y Arlés, la grandeza imperial cobra vida en la colosal fábrica de piedra de sus anfiteatros, en la armonía impoluta de la Maison Carrée y en la conmovedora escultura del torero Nimeño II vigilando las arenas. La vecina iglesia de San Trófimo en Arlés despliega un catecismo pétreo en los solemnes relieves románicos de su pórtico, mientras las columnas truncadas del teatro antiguo atestiguan el paso implacable de los siglos bajo la límpida luz del sur francés.\n\nLa culminación del recorrido alcanza la solemnidad monumental de Aviñón y Carcassonne. En la ciudad papal, las imponentes murallas conducen a la inmensidad del Palacio de los Papas, donde las bóvedas de cañón en madera de alerce y los arcos ojivales conviven con la poesía visual de un diálogo en las alturas entre la Virgen dorada y las gárgolas catedralicias. El mítico Pont Saint-Bénézet, quebrado sobre las corrientes del Ródano, el bastión inexpugnable del Fuerte de San Andrés en Villeneuve y las enigmáticas ménsulas y gárgolas de la ciudadela medieval de Carcassonne cierran un itinerario de piedra, luz y memoria, al que se suma la serenidad monástica del ventanal octogonal en las ruinas de la Cartuja de Escaladei.",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/v1790176816/Avi%C3%B1%C3%B3n-2010-Dialogo.en.las.alturas.webp",
+    categoria: "Europa",
+    fecha: "2010",
+    equipo: "Canon PowerShot SX200 IS",
+    galeriaTematica: [
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176808/Almendros_en_flor-Tarragona-2010.webp",
+        "location": "Tarragona, Cataluña",
+        "caption": "Alborada floral: los almendros en flor anunciando la primavera en los campos de Tarragona",
+        "tags": ["Almendros En Flor", "Tarragona", "Primavera", "Naturaleza", "Botánica", "Cataluña"],
+        "alt": "Primer plano detallado de ramas de almendro cargadas de flores blancas con centros de tonos rosados y rojizos intensos, creando un hermoso tapiz floral primaveral que llena la composición de luminosidad y delicadeza."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176808/Arl%C3%A9s_Francia-11.webp",
+        "location": "Teatro Romano de Arlés, Provenza, Francia",
+        "caption": "Ecos del clasicismo: fuste solitario y arquerías milenarias en el Teatro Antiguo de Arlés",
+        "tags": ["Teatro Romano De Arlés", "Arlés", "Provenza", "Francia", "Arquitectura Clásica", "Patrimonio Romano"],
+        "alt": "Vista parcial del antiguo teatro romano de Arlés, destacando una alta columna solitaria de piedra y una serie de arcos monumentales en ruinas. Al fondo, se aprecian los tejados tradicionales de tejas rojas de la ciudad provenzal y una densa arboleda bajo un luminoso cielo azul."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176809/Arl%C3%A9s_Francia-14.webp",
+        "location": "Anfiteatro Romano de Arlés, Provenza, Francia",
+        "caption": "Corona de piedra: las arcadas del Anfiteatro de Arlés recortadas contra el azul provenzal",
+        "tags": ["Anfiteatro De Arlés", "Arlés", "Provenza", "Francia", "Arquitectura Romana", "Arquerías"],
+        "alt": "Vista detallada de la fachada superior del Anfiteatro romano de Arlés en Francia, mostrando una serie de tres grandes arcos de piedra caliza desgastada por el tiempo, separados por columnas adosadas, con el cielo azul brillante visible a través de los vanos."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176809/Arl%C3%A9s_Francia-16.webp",
+        "location": "Iglesia de San Trófimo, Arlés, Provenza, Francia",
+        "caption": "Plegaria esculpida: la filigrana románica y los santos pétreos en la portada de San Trófimo",
+        "tags": ["Iglesia De San Trófimo", "Arlés", "Provenza", "Francia", "Arte Románico", "Escultura Medieval"],
+        "alt": "Detalle de la elaborada fachada esculpida de la iglesia de San Trófimo en Arlés, Francia. Se aprecian figuras de santos talladas en piedra con túnicas drapeadas, columnas con capiteles corintios y frisos con relieves narrativos de estilo románico bajo la luz del sol."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176809/Avi%C3%B1on-4-1.webp",
+        "location": "Aviñón, Provenza, Francia",
+        "caption": "La risa dorada: fulgor metálico y jovialidad en el arte escultórico urbano de Aviñón",
+        "tags": ["Aviñón", "Provenza", "Francia", "Escultura Contemporánea", "Arte Urbano", "Bronce Dorado"],
+        "alt": "Plano medio de una escultura dorada y reflectante que representa a un hombre con una camisa de guayabera, riendo con la boca abierta y la cabeza ligeramente levantada, ubicado frente a un edificio de piedra en Aviñón."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176816/Avi%C3%B1%C3%B3n-2010-Dialogo.en.las.alturas.webp",
+        "location": "Catedral Notre-Dame des Doms, Aviñón, Francia",
+        "caption": "Diálogo en las alturas: la Virgen dorada y la mirada petrificada de la gárgola gótica",
+        "tags": ["Catedral De Aviñón", "Notre-Dame Des Doms", "Aviñón", "Francia", "Virgen Dorada", "Gárgola", "Escultura Gótica"],
+        "alt": "Plano medio de la estatua dorada de la Virgen María con una aureola de estrellas, situada en lo alto de la Catedral de Aviñón. A su izquierda, una gárgola de piedra se proyecta hacia ella, creando una composición visual que simula un diálogo silencioso frente a un cielo azul despejado."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176810/Avi%C3%B1%C3%B3n-22.webp",
+        "location": "Fuerte de San Andrés, Villeneuve-lès-Avignon, Francia",
+        "caption": "Bastión sobre el Ródano: la imponente muralla y las torres almenadas del Fuerte de San Andrés",
+        "tags": ["Fuerte De San Andrés", "Villeneuve-Lès-Avignon", "Aviñón", "Francia", "Arquitectura Militar", "Fortaleza Medieval"],
+        "alt": "Impresionante fotografía panorámica del histórico Fuerte de San Andrés en Villeneuve-lès-Avignon, Francia. Sus imponentes murallas de piedra dorada y torres almenadas se extienden sobre una colina verde rodeada de frondosa vegetación, bajo un cielo claro."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176812/Avi%C3%B1%C3%B3n-38.webp",
+        "location": "Escalinatas de Aviñón, Provenza, Francia",
+        "caption": "Geometría en ascenso: arabescos de forja y líneas vanguardistas en la escalinata de Aviñón",
+        "tags": ["Aviñón", "Provenza", "Francia", "Hierro Forjado", "Escalinata", "Arte Urbano"],
+        "alt": "Vista en primer plano de una barandilla de hierro forjado con un diseño vanguardista y esférico que asciende por una escalinata de piedra en Aviñón, destacando las líneas geométricas y el contraste de texturas."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176812/Avi%C3%B1%C3%B3n-51.webp",
+        "location": "Taller artesanal, Aviñón, Provenza, Francia",
+        "caption": "Manos y arcilla: la maestría artesanal torneando columnas de cerámica y cuerda en Aviñón",
+        "tags": ["Aviñón", "Provenza", "Francia", "Alfarería", "Oficios Tradicionales", "Cerámica", "Artesanía"],
+        "alt": "Dos hombres trabajan minuciosamente en un taller. En primer plano, un hombre con gorro rojo observa con atención mientras otro, vestido con jersey de punto, moldea arcilla alrededor de una alta columna cilíndrica recubierta con cuerda gruesa enrollada en espiral. La escena transmite la concentración y la dedicación del trabajo artesanal tradicional."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176813/Avi%C3%B1%C3%B3n-52.webp",
+        "location": "Palacio de los Papas, Aviñón, Francia",
+        "caption": "Perspectivas de la fe: juegos de arcos ojivales y sillería gótica en el Palacio de los Papas",
+        "tags": ["Palacio De Los Papas", "Aviñón", "Francia", "Arquitectura Gótica", "Arcos Ojivales", "Patrimonio"],
+        "alt": "Vista en primer plano de una estructura de piedra con arcos ojivales superpuestos que crean profundidad. En la parte inferior, asoma discretamente la cabeza de un hombre joven. La iluminación dorada resalta las texturas antiguas de los muros de sillería medieval."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176815/Avi%C3%B1%C3%B3n-80a.webp",
+        "location": "Murallas y Palacio de los Papas, Aviñón, Francia",
+        "caption": "Perfil papal: la imponente muralla medieval custodiando las siluetas del Palacio y la Catedral",
+        "tags": ["Palacio De Los Papas", "Aviñón", "Francia", "Murallas Medievales", "Arquitectura Gótica", "Panorámica"],
+        "alt": "Vista panorámica diurna de Aviñón bajo un cielo dramático y nublado. En primer plano se aprecian las imponentes murallas medievales de piedra y un césped verde. Al fondo destacan las torres y la arquitectura histórica del Palacio de los Papas y la catedral."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176815/Avi%C3%B1%C3%B3n-84.webp",
+        "location": "Palacio de los Papas, Aviñón, Francia",
+        "caption": "Almenas de la cristiandad: la sobria monumentalidad defensiva en el Palacio de los Papas",
+        "tags": ["Palacio De Los Papas", "Aviñón", "Francia", "Fortaleza Papal", "Arquitectura Gótica"],
+        "alt": "Vista detallada de las imponentes murallas de piedra y torres almenadas del Palacio de los Papas en Aviñón, con tejados de teja roja y vegetación verde bajo un cielo claro."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176818/Avi%C3%B1%C3%B3n-Palacio-papal.webp",
+        "location": "Gran Sala, Palacio de los Papas, Aviñón, Francia",
+        "caption": "Quilla invertida: la colosal bóveda de cañón en madera de alerce en el Palacio Papal",
+        "tags": ["Palacio De Los Papas", "Aviñón", "Francia", "Bóveda De Madera", "Arquitectura Gótica", "Interiorismo Histórico"],
+        "alt": "Vista en contrapicado de la gran bóveda de madera de cañón apuntado que cubre una sala histórica en el Palacio de los Papas de Aviñón. La estructura de listones de madera cálida está enmarcada por muros de piedra clara y sutilmente iluminada desde los laterales."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176819/Avi%C3%B1%C3%B3n-Puente-truncado.webp",
+        "location": "Puente Saint-Bénézet (Puente de Aviñón), Francia",
+        "caption": "La leyenda truncada: los arcos de Saint-Bénézet resistiendo el cauce del Ródano",
+        "tags": ["Puente Saint-Bénézet", "Puente De Aviñón", "Río Ródano", "Aviñón", "Francia", "Puente Medieval"],
+        "alt": "Vista lateral del histórico Puente de Aviñón cruzando sobre las aguas del río Ródano bajo un cielo nublado, con pequeños turistas caminando sobre su estructura de piedra medieval."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176820/Carcassonne-11.webp",
+        "location": "Basílica de Saint-Nazaire, Carcasona, Francia",
+        "caption": "El grito de piedra: la expresiva gárgola gótica desafiando el cielo de Saint-Nazaire",
+        "tags": ["Carcasona", "Basílica De Saint-Nazaire", "Gárgola", "Arquitectura Gótica", "Escultura Medieval", "Francia"],
+        "alt": "Primer plano de una gárgola de piedra tallada en la arquitectura de Carcasona, con la boca abierta en gesto de grito y la mano levantada."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176823/Carcassonne-17.webp",
+        "location": "Ciudadela de Carcasona, Francia",
+        "caption": "Testigo en la madera: ménsula antropomorfa tallada bajo el alero medieval de Carcasona",
+        "tags": ["Carcasona", "Cité Medieval", "Ménsula Tallada", "Entramado De Madera", "Arquitectura Medieval", "Francia"],
+        "alt": "Primer plano de un detalle arquitectónico medieval en Carcasona, Francia. Se observa una sólida estructura de entramado de madera y mampostería sobre una ventana de marco oscuro. Destaca una ménscula de madera tallada con la forma de una figura humana con las manos en la cabeza, sosteniendo el dintel."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176824/Cartuja_de_Escaladei-2010-octogonal-azulado.webp",
+        "location": "Cartuja de Escaladei, La Morera de Montsant, Tarragona",
+        "caption": "Marco de infinito: el ventanal octogonal abriendo el muro cartujo hacia el azul del cielo",
+        "tags": ["Cartuja De Escaladei", "Priorat", "Tarragona", "Ruinas Históricas", "Ventana Octogonal", "Patrimonio"],
+        "alt": "Primer plano de una ventana octogonal de piedra esculpida integrada en un muro de piedra rústica y antigua. A través del vano abierto se observa un cielo limpio de un intenso color azul vibrante, creando un contraste visual llamativo y evocador."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176824/Castellers-Fiesta-Santa-Eulalia-2010-plaza-Sant-Jaume-1.webp",
+        "location": "Plaça de Sant Jaume, Barcelona",
+        "caption": "Saludo en la cumbre: la mirada infantil coronando la diada castellera de Santa Eulàlia",
+        "tags": ["Castellers", "Plaça De Sant Jaume", "Santa Eulàlia", "Enxaneta", "Barcelona", "Cultura Catalana"],
+        "alt": "Un niño pequeño con casco negro y jersey azul de manga larga se encuentra de espaldas, levantando una mano para saludar. Al fondo, detrás de una elegante balaustrada de piedra blanca, asoma una niña sonriente observando la escena con curiosidad en la plaza de Sant Jaume."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176828/Castellers-Plaza-Sant-Jaume_2010.webp",
+        "location": "Plaça de Sant Jaume, Barcelona",
+        "caption": "Determinación y piña: la tensión serena de la castellera en el corazón de Sant Jaume",
+        "tags": ["Castellers", "Plaça De Sant Jaume", "Barcelona", "Tradición Catalana", "Fuerza Y Equilibrio"],
+        "alt": "Primer plano de una joven castellera enmarcada por los brazos y camisas azules de otros participantes. Sostiene parte de la tela azul entre sus dientes con intensa concentración, luciendo una pañoleta en la cabeza y el tradicional fajín rojo alrededor de la cintura."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176829/Chica_Macba_con_pelota-2010.webp",
+        "location": "Plaça dels Àngels, MACBA, El Raval, Barcelona",
+        "caption": "Sonrisa contemporánea: juego, geometría y arquitectura blanca en el atrio del MACBA",
+        "tags": ["MACBA", "Plaça Dels Àngels", "El Raval", "Richard Meier", "Barcelona", "Retrato Urbano"],
+        "alt": "Una mujer joven con jersey morado y vaqueros está sentada sobre un muro de piedra gris donde se lee en grandes letras grabadas 'MACBA'. A su lado, sostiene una gran pelota de ejercicio azul brillante decorada con una cara sonriente negra. Al fondo se ve la fachada blanca y acristalada del museo de arte contemporáneo de Barcelona."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176829/Contrastes_con_hornacina-Calle-Montalegre-Raval-2010.webp",
+        "location": "Carrer de Montalegre, El Raval, Barcelona",
+        "caption": "Frontera de eras: la hornacina piadosa y la celosía metálica vanguardista en Montalegre",
+        "tags": ["El Raval", "Carrer De Montalegre", "Barcelona", "Contraste Arquitectónico", "Hornacina", "Malla Metálica"],
+        "alt": "Imagen compositiva que muestra el contraste urbano en Barcelona. A la izquierda, una pared amarilla tradicional con una hornacina arqueada que alberga una pequeña escultura religiosa blanca y una placa blanca con el texto Carrer de Montalegre. A la derecha, una moderna fachada metálica gris compuesta por paneles perforados con patrones geométricos."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176835/Expo-Neveras_cubanas_Estacio-Fran%C3%A7a-septiembre-2010.webp",
+        "location": "Estació de França, Barcelona",
+        "caption": "Tránsito y memoria: la instalación de neveras intervenidas conviviendo con los andenes de França",
+        "tags": ["Estació De França", "Barcelona", "Arte Contemporáneo", "Exposición", "Viajeros", "Ferrocarril"],
+        "alt": "En la Estación de Francia de Barcelona, varios viajeros esperan sentados en la sala con sus maletas negras. En primer plano, una nevera intervenida artísticamente con una ilustración de escaleras en blanco y negro contrasta con el entorno de tránsito ferroviario."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176835/Festa_medieval_de_Montblanc-2010.webp",
+        "location": "Montblanc, Conca de Barberà, Tarragona",
+        "caption": "Crudeza festiva: bodegón de cuchillo y matanza en la Semana Medieval de Montblanc",
+        "tags": ["Montblanc", "Semana Medieval", "Conca De Barberà", "Tarragona", "Tradición Popular"],
+        "alt": "Primer plano vertical de una cabeza de cerdo fresca sobre un tocón de madera, atravesada por un gran cuchillo de carnicero con mango de madera, expuesta al aire libre con un fondo de piedra rústica."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176836/Gigantes_en_Gravina-La-Merce-2010.webp",
+        "location": "Carrer de Gravina, El Raval, Barcelona",
+        "caption": "El alma del cartón piedra: la mirada oculta tras la celosía del gegant en La Mercè",
+        "tags": ["Gegants", "La Mercè", "Carrer De Gravina", "Barcelona", "Fiesta Mayor", "Cultura Popular"],
+        "alt": "Primer plano detallado que muestra la mirada de una persona oculta dentro del traje azul de un gigante tradicional durante las fiestas de La Mercè en Barcelona en 2010. Alrededor de la abertura romboidal con malla negra cuelgan elementos decorativos alargados que simulan embutidos tradicionales."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176842/Gigantes_Calle-Gravina-Barcelona-2010.webp",
+        "location": "Carrer de Gravina, Barcelona",
+        "caption": "Manos titánicas: la escala monumental de los gigantes cruzando el pulso cotidiano de Gravina",
+        "tags": ["Gegants", "Carrer De Gravina", "Barcelona", "La Mercè", "Fotografía Callejera"],
+        "alt": "Plano urbano en la calle Gravina de Barcelona en 2010. En primer plano destaca la mano gigante de una figura festiva en tono azulado, superpuesta ante un gran cartel publicitario con el rostro sonriente de una mujer pelirroja. Abajo, varios peatones caminan con naturalidad."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176843/Hotel_Vela_2010.webp",
+        "location": "Hotel W Barcelona, Nova Bocana, Barcelona",
+        "caption": "Cruce de trayectorias: el vuelo rasante del avión sobre la silueta de cristal del Hotel W",
+        "tags": ["Hotel W Barcelona", "Hotel Vela", "Ricardo Bofill", "Aviación", "Arquitectura Moderna", "Barcelona"],
+        "alt": "Vista en primer plano de la fachada de cristal azul del Hotel W Barcelona, con sus característicos salientes geométricos. A la izquierda, un avión de pasajeros vuela en paralelo, creando una perspectiva visual donde parece estar a punto de tocar el edificio bajo un cielo azul claro."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176848/La_Merc%C3%A9_2010.webp",
+        "location": "Port Vell, Barcelona",
+        "caption": "Crepúsculo náutico: la Mare de Déu de la Mercè velando el bosque de mástiles en Port Vell",
+        "tags": ["Port Vell", "La Mercè", "Atardecer", "Siluetas Náuticas", "Barcelona", "Marina Port Vell"],
+        "alt": "Fotografía en plano general donde se aprecia la silueta oscura de la estatua de la Virgen con el Niño sobre un pedestal, enmarcada por los mástiles y obenques de veleros. El fondo es un intenso cielo anaranjado al atardecer, creando un fuerte contraste visual de formas geométricas y náuticas en el puerto."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176850/M%C3%BAsica_La_Barceloneta-2010.webp",
+        "location": "Paseo Marítimo de la Barceloneta, Barcelona",
+        "caption": "Cadencia marinera: la complicidad de los aplausos al compás de la música en La Barceloneta",
+        "tags": ["La Barceloneta", "Música Al Aire Libre", "Barcelona", "Vida Callejera", "Mediterráneo"],
+        "alt": "Una mujer en primer plano aplaude sonriente entre una multitud diversa que asiste a un evento musical al aire libre en La Barceloneta, iluminada por una cálida luz de atardecer."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176857/Neozelandeses-CCCB-2010-2a.webp",
+        "location": "Pati de les Dones, CCCB, Barcelona",
+        "caption": "Plumas del Pacífico: perfil y ornamento tradicional maorí en los patios del CCCB",
+        "tags": ["CCCB", "Cultura Maorí", "Nueva Zelanda", "Retrato", "Barcelona", "Pati De Les Dones"],
+        "alt": "Retrato de perfil de una joven de cabello negro liso que lleva plumas blancas, azules y amarillas adornando su peinado, con un fondo de pared de azulejos rojizos con motivos florales."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176850/Neozelandeses-CCCB-2010.webp",
+        "location": "Pati de les Dones, CCCB, Barcelona",
+        "caption": "El vigor del Haka: fuerza gestual y expresión ceremonial maorí en el CCCB",
+        "tags": ["CCCB", "Haka", "Cultura Maorí", "Nueva Zelanda", "Barcelona", "Expresión Cultural"],
+        "alt": "Plano medio de un joven de piel clara con el torso desnudo y cabello oscuro en punta, que saca la lengua en una mueca exagerada. Detrás de él, una joven con el pelo oscuro y expresión asombrada mira fijamente hacia la cámara. De fondo, una pared con azulejos decorados con motivos florales en tonos naranjas y blancos."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176858/Nevada_en_Barcelona-08-marzo-2010-Plaza-Catalunya.webp",
+        "location": "Plaça de Catalunya, Barcelona",
+        "caption": "La noche blanca: la insólita e histórica nevada cubriendo de silencio la Plaça de Catalunya",
+        "tags": ["Nevada 2010", "Plaça De Catalunya", "Barcelona Nevada", "Invierno Histórico", "Paisaje Nocturno"],
+        "alt": "Vista nocturna de la Plaça de Catalunya en Barcelona completamente nevada. En primer plano, macizos de flores cubiertos de nieve y una barandilla metálica tras la cual dos personas posan de pie. Al fondo, la amplia plaza iluminada por farolas y los edificios circundantes con rótulos luminosos de marcas bajo un cielo oscuro."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176858/Nimes_Francia-1-1.webp",
+        "location": "Anfiteatro de Nimes (Les Arènes), Nimes, Francia",
+        "caption": "El héroe de bronce: el porte torero de Nimeño II custodiando los arcos romanos de Nimes",
+        "tags": ["Anfiteatro De Nimes", "Nimes", "Francia", "Nimeño II", "Escultura En Bronce", "Patrimonio Romano"],
+        "alt": "Plano medio de una estatua oscura de bronce que representa a un torero con su característico sombrero, recortada frente a los imponentes y antiguos arcos de piedra del anfiteatro romano de Nimes, iluminados por una cálida luz solar que resalta la textura de la fachada histórica."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176867/Nimes_Francia-11.webp",
+        "location": "Maison Carrée, Nimes, Francia",
+        "caption": "Templo intacto: la pureza clásica y las columnas corintias de la Maison Carrée en Nimes",
+        "tags": ["Maison Carrée", "Nimes", "Francia", "Templo Romano", "Arquitectura Clásica", "Patrimonio Mundial"],
+        "alt": "Vista en contrapicado de la fachada lateral de la Maison Carrée en Nimes, destacando sus elegantes columnas corintias de piedra blanca bajo un cielo azul con nubes."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176868/Pesebre_Pla%C3%A7a_Sant_Jaume_2010.webp",
+        "location": "Plaça de Sant Jaume, Barcelona",
+        "caption": "Asombro compartido: el pesebre tradicional de corteza y musgo reuniendo a la ciudad en Sant Jaume",
+        "tags": ["Plaça De Sant Jaume", "Pesebre", "Navidad Barcelona", "Tradición", "Barcelona"],
+        "alt": "Una multitud de personas observa atentamente un gran pesebre navideño montado con cortezas de árbol y musgo, que muestra las figuras tradicionales del Niño Jesús, la Virgen María y San José en el centro, flanqueados por el buey y la mula."
+      }
+    ]
+  },
+  {
     id: "Gale2009",
     url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789725946/El-Liceu-2009b.webp",
     titulo: "Barcelona · Londres · Caruao · Sant Pere de Rodes · Peralada",

@@ -217,6 +217,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2010</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2009</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2008</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>

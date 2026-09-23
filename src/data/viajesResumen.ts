@@ -344,6 +344,15 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 17
   },
   {
+    "id": "Gale2010",
+    "titulo": "Barcelona · Tarragona · Nimes · Carcassonne · Aviñón · Arlés",
+    "ubicacion": "Escenas 2010",
+    "fecha": "2010",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790176816/Avi%C3%B1%C3%B3n-2010-Dialogo.en.las.alturas.webp",
+    "equipo": "Canon PowerShot SX200 IS",
+    "fotosCount": 34
+  },
+  {
     "id": "Gale2009",
     "titulo": "Barcelona · Londres · Caruao · Sant Pere de Rodes · Peralada",
     "ubicacion": "Escenas 2009",
