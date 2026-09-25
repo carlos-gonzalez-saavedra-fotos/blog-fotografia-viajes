@@ -608,6 +608,167 @@ FOTO_KITESURF_2025,
     ]
   },
   {
+    id: "Gale2011",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323850/PlazaNova-pompa-2011.webp",
+    titulo: "Barcelona · Frankfurt · Bages · Puerto Cabello · Tucacas",
+    ubicacion: "Escenas 2011",
+    resumen: "Un itinerario poliédrico marcado por la multiplicidad de paisajes y atmósferas: desde los contrastes financieros e invernales de Fráncfort del Meno y la vibrante cotidianidad festiva y vanguardista de Barcelona, hasta la espiritualidad telúrica de Montserrat y Sant Benet de Bages, cruzando el Atlántico hacia la luz colonial y la naturaleza exuberante de Puerto Cabello y Tucacas en el Caribe venezolano.",
+    reseña: "El año 2011 dibuja una cartografía fascinante trazada a través de dos continentes y múltiples estados de ánimo visuales. La mirada arranca en el corazón financiero de Europa, en Fráncfort del Meno, donde la monumentalidad helada del invierno envuelve los senderos nevados del parque Taunusanlage y los rascacielos de cristal y acero conviven con las buhardillas de pizarra de la arquitectura tradicional. Frente a la Bolsa, el icónico toro de bronce vigila los vaivenes del mercado, mientras la ternura imprevista de un pequeño poni en una calle comercial peatonal aporta una pausa cálida y entrañable a la estampa urbana alemana.\n\nAl regresar a Cataluña, la lente capta el latido incesante y transformador de Barcelona y sus comarcas. En la capital, la vida pública se revela en episodios de asombrosa diversidad plástica: el dinamismo casi hipnótico de las decenas de bicicletas estáticas en el coso circular reconvertido del Centro Comercial Las Arenas, la atmósfera caleidoscópica de los espejos y arcos históricos en la renovada Fàbrica Moritz, la geometría de cuerdas suspendidas frente a Montjuïc durante el Mobile World Congress, y la comedia entrañable de los payasos en las fiestas de La Mercè. En las calles del Barrio Gótico, la fotografía alcanza su momento más lírico y efímero cuando una gigantesca pompa de jabón iridiscente enmarca el paso de los transeúntes sobre los adoquines de la Plaça Nova, reflejando el arcoíris contra los sillares milenarios.\n\nHacia el interior de la comarca del Bages, el periplo se sumerge en el sosiego y la densidad histórica. En el Monasterio de Sant Benet, las galerías del claustro románico, el desgaste noble de las tallas devocionales en madera y el óxido secular de su aldaba forjada transmiten una serenidad suspendida en el tiempo, coronada por la sobrecogedora fuerza pétrea del macizo de Montserrat y el fervor recogido ante La Moreneta. Finalmente, el viaje da el salto transatlántico hacia Venezuela: el cromatismo vibrante y cálido de las casonas coloniales en la empedrada calle Los Lanceros de Puerto Cabello y el encuentro apacible con la fauna silvestre en los humedales costeros de Tucacas completan un año fotográfico memorable donde la sorpresa, la geometría y la emoción dialogan a través de los océanos.",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323850/PlazaNova-pompa-2011.webp",
+    categoria: "Europa · América",
+    fecha: "2011",
+    equipo: "Canon PowerShot SX200 IS · Samsung GT-I9100",
+    galeriaTematica: [
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323832/A%C3%B1o_nuevo_chino_A%C3%B1o_del_conejo-2011.webp",
+        location: "Passeig de Lluís Companys, Barcelona",
+        caption: "El peso del símbolo: mirada solemne bajo la escultura del guante de boxeo en el Año Nuevo Chino",
+        tags: ["Año Nuevo Chino", "Arte Urbano", "Escultura", "Retrato", "Barcelona", "Cultura Callejera"],
+        alt: "Primer plano de una mujer asiática de perfil, con mirada seria y decidida, parcialmente ensombrecida. Sobre su cabeza y ocupando gran parte de la composición superior se alza un enorme guante de boxeo rojo brillante y acolchado, generando un contraste visual llamativo y simbólico contra una pared de piedra rugosa."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323833/Carveceria-Moritz-Barcelona.webp",
+        location: "Fàbrica Moritz, Ronda de Sant Antoni, Barcelona",
+        caption: "Laberinto de reflejos: geometrías caleidoscópicas y arquerías históricas en la Fàbrica Moritz",
+        tags: ["Fàbrica Moritz", "Barcelona", "Arquitectura De Interiores", "Reflejos", "Arquerías", "Diseño Vanguardista"],
+        alt: "Vista interior abstracta y geométrica de la Fàbrica Moritz en Barcelona, donde un complejo juego de espejos fractura y multiplica arcos de piedra y ladrillo antiguo. La iluminación cálida baña las superficies rugosas creando un efecto caleidoscópico y vanguardista, con un pequeño reflejo humano en la esquina inferior izquierda."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323833/Contraste_en_La_Barcelonte_IIa.webp",
+        location: "Playa de la Barceloneta, Barcelona",
+        caption: "Diálogo de siluetas: el homenaje oxidado de Rebecca Horn y la vela de cristal del Hotel W",
+        tags: ["Barceloneta", "Barcelona", "Rebecca Horn", "Hotel W", "Escultura Contemporánea", "Mediterráneo"],
+        alt: "En primer plano destaca la escultura 'Homenatge a la Barceloneta' de Rebecca Horn, una torre de bloques metálicos oxidados con ventanales. Al fondo, a la derecha, se alza imponente el Hotel W Barcelona, con su característica forma de vela de vidrio. En la playa de arena, varias personas disfrutan del día soleado junto al mar."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323833/Frankfurt_Bolsa-1b.webp",
+        location: "Bolsa de Fráncfort (Börse Frankfurt), Fráncfort del Meno, Alemania",
+        caption: "Símbolos del mercado: el toro de bronce desafiando la serenidad clásica de la Bolsa de Fráncfort",
+        tags: ["Bolsa De Fráncfort", "Fráncfort", "Alemania", "Escultura En Bronce", "Arquitectura Neorrenacentista", "Distrito Financiero"],
+        alt: "Una mujer con abrigo negro con capucha de pelo posa sonriente junto a la imponente estatua de bronce del toro de la Bolsa de Fráncfort, con la arquitectura clásica del edificio de fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323833/Frankfurt_centro-5.webp",
+        location: "Distrito financiero (Innenstadt), Fráncfort del Meno, Alemania",
+        caption: "Perspectivas encontradas: el diálogo entre las cornisas neoclásicas y el acero financiero",
+        tags: ["Fráncfort", "Alemania", "Rascacielos", "Arquitectura Urbana", "Distrito Financiero", "Contrastes"],
+        alt: "Vista urbana en el centro de Fráncfort que contrasta un edificio clásico de fachada beige con grandes ventanales y un complejo moderno de oficinas revestido de cristal y acero. En primer plano, dos farolas de diseño esférico oscuro se alzan contra un cielo gris y nublado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323834/Frankfurt_centro-7.webp",
+        location: "Parque Taunusanlage, Fráncfort del Meno, Alemania",
+        caption: "Cadencia invernal: senderos nevados y soledad entre los rascacielos de Fráncfort",
+        tags: ["Taunusanlage", "Fráncfort", "Alemania", "Blanco Y Negro", "Invierno", "Nieve", "Paisaje Urbano"],
+        alt: "Fotografía en blanco y negro de un parque nevado en el centro de Fráncfort, con árboles altos sin hojas en primer término y dos hombres caminando por un sendero. Al fondo se alzan modernos rascacielos de cristal y edificios clásicos bajo un cielo nublado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323837/Frankfurt_centro-9.webp",
+        location: "Centro peatonal (Zeil), Fráncfort del Meno, Alemania",
+        caption: "Ternura urbana: la mirada mansa de un poni en el corazón bullicioso de Fráncfort",
+        tags: ["Fráncfort", "Alemania", "Escena Callejera", "Vida Cotidiana", "Invierno", "Retrato Animal"],
+        alt: "Un tierno poni marrón con melena rubia y una manta negra con un cartel de cartón escrito a mano sobre su lomo se encuentra en una calle peatonal de Fráncfort. Varias personas abrigadas caminan y observan al fondo frente a grandes escaparates de tiendas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323833/Frankfurt_centro.webp",
+        location: "Centro histórico e Innenstadt, Fráncfort del Meno, Alemania",
+        caption: "Tiempos superpuestos: buhardillas tradicionales de pizarra bajo el filo de las torres de cristal",
+        tags: ["Fráncfort", "Alemania", "Tejados Históricos", "Rascacielos", "Arquitectura", "Contraste Urbano"],
+        alt: "Vista en primer plano del tejado de pizarra oscura de un edificio histórico con buhardillas de piedra rojiza y chimeneas, sobre el cual descansan varias palomas. De fondo, imponentes rascacielos modernos de cristal y acero se alzan bajo un cielo gris, creando un llamativo contraste urbano."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323837/La_Merce-2011-payasos.webp",
+        location: "Fiestas de La Mercè, Barcelona",
+        caption: "Comedia en claroscuro: música, histrionismo y complicidad payasa en La Mercè",
+        tags: ["La Mercè", "Barcelona", "Circo", "Teatro De Calle", "Música Popular", "Artes Escénicas"],
+        alt: "Fotografía de tres artistas de circo maquillados como payasos sobre fondo negro. A la izquierda, un hombre con camiseta turquesa sostiene una concertina. En el centro, una payasa con peluca blanca rizada, lazo rojo y vestido amarillo sostiene un bastón amarillo. A la derecha, un payaso con sombrero negro y abrigo verde también toca una pequeña concertina."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323838/Mobile-World_Congress-2011.webp",
+        location: "Fira de Barcelona (Montjuïc), Plaça d'Espanya, Barcelona",
+        caption: "Urdimbre tecnológica: geometrías suspendidas y la silueta de Montjuïc en el Mobile World Congress",
+        tags: ["Mobile World Congress", "Fira De Barcelona", "Montjuïc", "Arte Efímero", "Geometría", "Tecnología"],
+        alt: "Fotografía tomada en el Mobile World Congress de 2011 en Barcelona, que muestra en primer plano una compleja red geométrica de cuerdas y barras blancas entrelazadas con soportes verdes. A través de este entramado se aprecian personas con traje de negocios caminando y, al fondo, las icónicas columnas y la montaña de Montjuïc."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323839/Monasterio_de_Sant_Benet-8.webp",
+        location: "Monasterio de Sant Benet de Bages, Sant Fruitós de Bages, Cataluña",
+        caption: "Sosiego monástico: arquerías y capiteles esculpidos en el claustro románico de Sant Benet",
+        tags: ["Monasterio De Sant Benet", "Bages", "Claustro", "Arte Románico", "Arquitectura Medieval", "Cataluña"],
+        alt: "Vista enmarcada a través de los arcos y columnas con capiteles esculpidos del claustro del monasterio de Sant Benet de Bages, revelando al fondo un muro de piedra dorada y una pequeña columna solitaria."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323843/Monasterio-de_Sant_Benet-aldaba.webp",
+        location: "Monasterio de Sant Benet de Bages, Sant Fruitós de Bages, Cataluña",
+        caption: "Pátina y cerrajería: la noble herrumbre de una aldaba forjada sobre la madera vetusta",
+        tags: ["Monasterio De Sant Benet", "Hierro Forjado", "Aldaba", "Madera", "Texturas", "Patrimonio"],
+        alt: "Primer plano detallado de una puerta de madera rústica y envejecida en el Monasterio de Sant Benet. Destaca una pesada aldaba de hierro forjado con un soporte circular decorado con perforaciones geométricas, cubierta por una pátina de óxido rojizo que contrasta con las vetas y grietas de la madera."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323842/Monasterio_de_Sant-Benet-4.webp",
+        location: "Monasterio de Sant Benet de Bages, Sant Fruitós de Bages, Cataluña",
+        caption: "La huella del fervor: madera policromada y desgastes seculares en la imaginería de Sant Benet",
+        tags: ["Monasterio De Sant Benet", "Imaginería Medieval", "Escultura En Madera", "Arte Sacro", "Bages"],
+        alt: "Primer plano en ángulo picado de una figura escultórica de madera oscura y desgastada, con restos de pintura y una corona o tocado superior, reflejando el paso del tiempo en el arte religioso medieval."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323843/Montserrat-20.webp",
+        location: "Macizo de Montserrat, Cataluña",
+        caption: "Arquitectura geológica: las formas cóncavas y farallones milenarios de Montserrat",
+        tags: ["Montserrat", "Geología", "Montaña", "Paisaje Natural", "Roca", "Cataluña"],
+        alt: "Vista detallada de las singulares formaciones rocosas de conglomerado en Montserrat, destacando una gran abertura natural en la roca bajo un cielo azul despejado y vegetación en las laderas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323845/Montserrat-La-Moreneta_2.webp",
+        location: "Camarín de la Basílica de Montserrat, Monistrol de Montserrat, Cataluña",
+        caption: "Corona y misterio: la mirada serena de la Mare de Déu de Montserrat en su camarín dorado",
+        tags: ["La Moreneta", "Virgen De Montserrat", "Arte Sacro", "Monasterio De Montserrat", "Iconografía"],
+        alt: "Primer plano de la imagen dorada y oscura de la Virgen de Montserrat, conocida como La Moreneta, sosteniendo al Niño Jesús, rodeada por elaborados relieves plateados y detalles ornamentales dentro del santuario."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323849/Pesebre-romanico__Ayuntamiento-2011.webp",
+        location: "Plaça de Sant Jaume, Barcelona",
+        caption: "Nacimiento de piedra: el pesebre monumental de inspiración románica frente al Ayuntamiento",
+        tags: ["Pesebre", "Plaça De Sant Jaume", "Barcelona", "Navidad", "Arte Románico", "Tradición"],
+        alt: "Fotografía nocturna del pesebre románico situado en la plaza del Ayuntamiento de Barcelona en 2011. En primer plano aparecen figuras esculpidas de estilo medieval que representan personajes y animales, iluminadas artificialmente. Al fondo se aprecian edificios ornamentados con luces navideñas y ciudadanos paseando."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323850/PlazaNova-pompa-2011.webp",
+        location: "Plaça Nova, Barrio Gótico, Barcelona",
+        caption: "Mundo efímero: el universo iridiscente de una pompa de jabón gigante suspendida en la Plaça Nova",
+        tags: ["Plaça Nova", "Barrio Gótico", "Barcelona", "Pompa De Jabón", "Fotografía Callejera", "Instante Efímero"],
+        alt: "Tres personas caminan juntas por la soleada Plaça Nova en Barcelona, rodeadas y parcialmente enmarcadas por la gigantesca estructura iridiscente de una pompa de jabón que refleja los colores del arco iris, proyectando sombras alargadas sobre la histórica fachada de piedra y la verja de hierro."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323851/Puerto-Cabello-Venezuela.webp",
+        location: "Calle Los Lanceros, Casco Histórico de Puerto Cabello, Venezuela",
+        caption: "Aroma caribeño: callejón de adoquines y fachadas coloniales en la histórica calle Los Lanceros",
+        tags: ["Puerto Cabello", "Calle Los Lanceros", "Venezuela", "Arquitectura Colonial", "Caribe", "Colorido Urbano"],
+        alt: "Vista en ángulo contrapicado de una calle empedrada estrecha en Puerto Cabello, flanqueada por casas coloniales de fachadas intensamente coloridas en tonos fucsia, azul y naranja, bajo un cielo parcialmente nublado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323855/Randa-Sant-Antoni-Barcelona-2011.webp",
+        location: "Mercat de Sant Antoni, Eixample, Barcelona",
+        caption: "Malla de forja y reflejo: la elegancia de las celosías modernistas en el Mercat de Sant Antoni",
+        tags: ["Mercat De Sant Antoni", "Barcelona", "Modernismo", "Hierro Forjado", "Arquitectura Industrial"],
+        alt: "Vista en ángulo picado de una fachada modernista en Barcelona, destacando grandes ventanales reticulados de cristales reflejando el cielo azul y una elegante barandilla de hierro forjado negro en un balcón superior."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323856/Spining_en_CC_Las_Arenas-Barcelona-2011.webp",
+        location: "Centro Comercial Las Arenas, Plaça d'Espanya, Barcelona",
+        caption: "Vórtice naranja: el pulso deportivo multitudinario en el coso circular de Las Arenas",
+        tags: ["Centro Comercial Las Arenas", "Plaça D'Espanya", "Barcelona", "Spinning", "Geometría Circular", "Deporte"],
+        alt: "Vista cenital en gran angular del interior del centro comercial Las Arenas en Barcelona en 2011, donde decenas de personas con camisetas naranjas practican spinning organizadamente en un gran círculo sobre el suelo de mármol, rodeados por los diferentes niveles de galerías llenas de espectadores curiosos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790323858/Tucacas-Venezuela-2011.webp",
+        location: "Tucacas, Parque Nacional Morrocoy, Falcón, Venezuela",
+        caption: "Sosiego tropical: un chigüire vigilante entre el follaje esmeralda de la costa venezolana",
+        tags: ["Tucacas", "Morrocoy", "Venezuela", "Chigüire", "Capibara", "Fauna Silvestre", "Caribe"],
+        alt: "Fotografía horizontal de un chigüire o capibara de pelaje marrón oscuro parado sobre un montículo de césped verde brillante. El animal está orientado hacia la derecha, flanqueado por hojas tropicales alargadas en primer plano y arbustos verdes densos al fondo, cerca de una masa de agua."
+      }
+    ]
+  },
+  {
     id: "Gale2010",
     url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790176816/Avi%C3%B1%C3%B3n-2010-Dialogo.en.las.alturas.webp",
     titulo: "Barcelona · Tarragona · Nimes · Carcassonne · Aviñón · Arlés",

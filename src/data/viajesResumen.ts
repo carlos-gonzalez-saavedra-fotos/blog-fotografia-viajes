@@ -344,6 +344,15 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 17
   },
   {
+    "id": "Gale2011",
+    "titulo": "Barcelona · Frankfurt · Bages · Puerto Cabello · Tucacas",
+    "ubicacion": "Escenas 2011",
+    "fecha": "2011",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790323850/PlazaNova-pompa-2011.webp",
+    "equipo": "Canon PowerShot SX200 IS · Samsung GT-I9100",
+    "fotosCount": 21
+  },
+  {
     "id": "Gale2010",
     "titulo": "Barcelona · Tarragona · Nimes · Carcassonne · Aviñón · Arlés",
     "ubicacion": "Escenas 2010",
