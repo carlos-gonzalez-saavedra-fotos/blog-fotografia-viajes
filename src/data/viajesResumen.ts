@@ -112,6 +112,17 @@ export const VIAJES_RESUMEN: ViajeResumen[] = [
     "galeriaCount": 13
   },
   {
+    "id": "crucero",
+    "titulo": "Pequeños bocados del Mediterráneo",
+    "ubicacion": "Mediterráneo",
+    "resumen": "Una travesía marítima en Semana Santa que desgrana los encantos del Mare Nostrum: del misticismo marinero de Marsella a la quietud sarda de Porto Torres, la huella suspendida de Pompeya, la eternidad monumental de Roma y el fulgor renacentista de Florencia y la Costa Azul.",
+    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497037/Villefranche.webp",
+    "categoria": "Europa",
+    "fecha": "Abril 2012",
+    "equipo": "Canon PowerShot SX200 IS",
+    "galeriaCount": 21
+  },
+  {
     "id": "amsterdam",
     "titulo": "Caminatas culturales por Ámsterdam",
     "ubicacion": "Países Bajos",
@@ -278,7 +289,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fecha": "2009-2025",
     "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063395/cgs_portfolio/Europeos_atletismo_BCY_2010__3_.webp",
     "equipo": "",
-    "fotosCount": 20
+    "fotosCount": 21
   },
   {
     "id": "GaleMusic",
@@ -344,6 +355,24 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 17
   },
   {
+    "id": "Gale2013",
+    "titulo": "Barcelona · Poblet",
+    "ubicacion": "Barcelona - Poblet",
+    "fecha": "2013",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063554/cgs_portfolio/Miro-en-el-MNAC.webp",
+    "equipo": "Nikon COOLPIX L820",
+    "fotosCount": 13
+  },
+  {
+    "id": "Gale2012",
+    "titulo": "Barcelona · Oviedo · Girona · Besalú · Empúries · Caracas · Santa Teresa",
+    "ubicacion": "Escenas 2012",
+    "fecha": "2012",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496210/Besalu-puente.webp",
+    "equipo": "Canon PowerShot SX200 IS",
+    "fotosCount": 26
+  },
+  {
     "id": "Gale2011",
     "titulo": "Barcelona · Frankfurt · Bages · Puerto Cabello · Tucacas",
     "ubicacion": "Escenas 2011",
@@ -404,15 +433,6 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fecha": "2005-2014",
     "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063543/cgs_portfolio/Esculturas-Igor-Mitoraj-25.webp",
     "equipo": "Nikon & Canon",
-    "fotosCount": 13
-  },
-  {
-    "id": "Gale2013",
-    "titulo": "Barcelona · Poblet",
-    "ubicacion": "Barcelona - Poblet",
-    "fecha": "2013",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063554/cgs_portfolio/Miro-en-el-MNAC.webp",
-    "equipo": "Nikon COOLPIX L820",
     "fotosCount": 13
   },
   {

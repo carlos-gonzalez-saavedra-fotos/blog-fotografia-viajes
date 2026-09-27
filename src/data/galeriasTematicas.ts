@@ -167,6 +167,7 @@ FOTO_KITESURF_2025,
       {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063396/cgs_portfolio/Europeos-atletismo-BCN-2010-_3_.webp", "caption": "Concentración en la pista de Montjuïc", "location": "Estadi Olímpic Lluís Companys, Montjuïc, Barcelona", "tags": [ "Atletismo", "Barcelona 2010", "Montjuïc", "Deporte", "Atleta" ], "alt": "Primer plano de una atleta durante los Campeonatos Europeos de Atletismo en Barcelona. La imagen capta el momento de máxima concentración y el esfuerzo reflejado en su rostro sobre el azul intenso de la pista de Montjuïc." },
       {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063397/cgs_portfolio/Ciclista-en-Atocha.webp", "caption": "Velocidad urbana: Ciclismo en la Plaza de Atocha", "location": "Plaza del Emperador Carlos V (Atocha), Madrid", "tags": [ "Ciclismo Urbano", "Madrid", "Atocha", "Velocidad", "Deporte" ], "alt": "Un ciclista urbano capturado con efecto de desenfoque de movimiento mientras cruza la luminosa Plaza de Atocha en Madrid. El dinamismo de la escena contrasta con la arquitectura clásica de la estación al fondo." },
       {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063398/cgs_portfolio/Europeos-atletismo-BCN-2010-_1_.webp", "caption": "Salto de pértiga en el Estadio Olímpico Lluís Companys", "location": "Estadi Olímpic Lluís Companys, Montjuïc, Barcelona", "tags": [ "Atletismo", "Salto De Pértiga", "Barcelona 2010", "Montjuïc", "Competición" ], "alt": "Un atleta supera el listón en la prueba de salto de pértiga durante los Europeos de Barcelona 2010. La imagen, tomada desde la pista, muestra la tensión del momento y a un fotógrafo capturando la acción en segundo plano." },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496226/Mundial-atletismo-junior-Montjuic.webp", "caption": "Tensión en el listón: el instante suspendido del salto con pértiga en el Estadio Olímpico de Montjuïc", "location": "Estadi Olímpic Lluís Companys, Montjuïc, Barcelona", "tags": ["Estadio Olímpico De Montjuïc", "Mundial Junior De Atletismo", "Salto Con Pértiga", "Barcelona", "Deporte"], "alt": "Una pertiguista con casco blanco y el dorsal 1312 se eleva con la pértiga frente a las gradas vacías del Estadio Olímpico de Montjuïc en Barcelona. En primer plano, de espaldas, un operador de cámara con un chaleco de la IAAF con el número 374 graba la acción." },
       {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063397/cgs_portfolio/Europeos-atletismo-BCN-2010-_2_.webp", "caption": "Flexibilidad extrema: Calentamiento de salto de altura", "location": "Estadi Olímpic Lluís Companys, Montjuïc, Barcelona", "tags": [ "Atletismo", "Calentamiento", "Salto De Altura", "Barcelona 2010", "Flexibilidad" ], "alt": "Un atleta de la selección de Bélgica realiza un espectacular ejercicio de flexibilidad (puente invertido) sobre el césped de Montjuïc, preparando su musculatura para la prueba de salto de altura." },
       {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063398/cgs_portfolio/Mundial-Voley-Playa-2009-12.webp", "caption": "Saque de potencia en el Mundial de Vóley Playa", "location": "Plaça de les Cascades, Montjuïc, Barcelona", "tags": [ "Vóley Playa", "Deporte", "Barcelona", "Competición", "Playa" ], "alt": "Acción dinámica durante el Mundial de Vóley Playa en Barcelona. Una jugadora brasileña se eleva en el aire para un saque de potencia, con el balón en el punto más alto, mientras su compañera y el público siguen el movimiento desde la arena." },
       {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063399/cgs_portfolio/Mundial-Voley-Playa-2009-4.webp", "caption": "La plástica del remate ante las fuentes de Montjuïc", "location": "Plaça de les Cascades, Montjuïc, Barcelona", "tags": [ "Vóley Playa", "Competición", "Barcelona", "Montjuïc", "Remate" ], "alt": "Una atleta femenina en plena acción durante una competición de vóley playa en un entorno emblemático. El salto para el remate se enmarca con el fondo de las fuentes de Montjuïc, destacando la estética del deporte en la ciudad." },
@@ -605,6 +606,202 @@ FOTO_KITESURF_2025,
       {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063509/cgs_portfolio/Madrid-Estacion-Atocha-2014.webp", "caption": "Miradas monumentales: 'El Día y la Noche' en la estación de Atocha", "location": "Estación de Atocha, Madrid", "tags": ["Escultura", "Arte Público", "Otoño", "Paisaje Urbano", "Madrid"], "alt": "Dos grandes esculturas de cabezas infantiles de Antonio López flanquean el entorno de la estación de Atocha. Los árboles lucen un vibrante follaje otoñal naranja y al fondo se aprecia la arquitectura clásica de Madrid."},
       FOTO_SKATEPARK_2014,
       {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063512/cgs_portfolio/Pesebre-2014-Placa-Sant-Jaume.webp", "caption": "Tradición compartida: El Pesebre de la Plaça de Sant Jaume", "location": "Plaça de Sant Jaume, Barcelona", "tags": ["Belén", "Navidad", "Decoración Urbana", "Escena Pública", "Figuras"], "alt": "Elaborado belén de grandes dimensiones en la Plaça de Sant Jaume. La instalación incluye un río simulado, figuras tradicionales y maquetas de edificios históricos, con la vida urbana de Barcelona desarrollándose en el fondo festivo."},
+    ]
+  },
+  {
+    id: "Gale2012",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496210/Besalu-puente.webp",
+    titulo: "Barcelona · Oviedo · Girona · Besalú · Empúries · Caracas · Santa Teresa",
+    ubicacion: "Escenas 2012",
+    resumen: "Un año de resonancias monumentales, prodigios culinarios y horizontes compartidos entre dos orillas: desde la piedra viva y milenaria de Besalú, las ruinas mediterráneas de Empúries y la vanguardia estética de El Celler de Can Roca en Girona, pasando por la vibrante agenda escénica y efímera de Barcelona, la nobleza prerrománica y burguesa de Oviedo, hasta culminar bajo la luz limpia de El Ávila en Caracas y los fértiles valles roneros de la Hacienda Santa Teresa en Venezuela.",
+    reseña: "El año 2012 despliega un itinerario de extraordinaria riqueza plástica y vivencial, un diálogo continuo entre la pervivencia de la historia en la piedra y la intensidad fugaz del presente. En las tierras gerundenses, el periplo se adentra primero en la memoria remota: el puente angular y fortificado de Besalú reflejándose con serenidad sobre el río Fluvià mientras sus callejuelas y bestiarios románicos susurran ecos medievales; la soledad augusta de Empúries, donde la figura marmórea de Esculapio contempla el Mediterráneo entre pinos centenarios y mosaicos que vencieron al olvido; y las empinadas escalinatas de Girona, cuya arquitectura pétrea sirve de telón tanto al blanco y negro nostálgico del Barri Vell como a la vibrante comunión física de los castellers. Esa búsqueda de la armonía encuentra su cumbre sensorial en El Celler de Can Roca, donde la gastronomía trasciende la técnica para convertirse en poesía pura: desde la sutileza terrosa del trigo verde con sardina ahumada hasta el retorno a la inocencia que suscita la manzana acaramelada sobre nube de algodón.\n\nEn Barcelona, la ciudad se confirma como un inagotable escenario de creatividad y asombro efímero. La brisa marina de la Barceloneta acompaña las frágiles esculturas de arena que desafían el oleaje frente a la silueta náutica del Hotel W, mientras las noches de verano se tiñen de fábula bajo el Arc de Triomf con los vuelos oníricos de Theater Tol durante el Festival Grec. El pulso deportivo y el tesón juvenil marcan los saltos sobre el foso olímpico de Montjuïc, la comedia humana se viste de ternura con el histrionismo de Tortell Poltrona en Carnaval, y el año avanza entre las cascadas de pólvora dorada del Piromusical de La Mercè y el audaz pesebre contenido en una orbe metálica dorada en la Plaça de Sant Jaume, desafiando las convenciones del espacio público.\n\nEl viaje ensancha sus límites al adentrarse en la cordillera cantábrica y cruzar el océano hacia el trópico. Oviedo revela su señorial elegancia en las galerías vidriadas de la Calle Uría, los claroscuros del casco antiguo en la Calle Mon y el pulso cercano de sus plazas, donde la lechera tradicional convive con los volúmenes rotundamente tiernos de la Maternidad de Botero, coronado todo por la solemnidad milenaria de San Miguel de Lillo en el Monte Naranco, joya intocada del siglo IX. Finalmente, en Venezuela, el horizonte recupera la grandiosidad telúrica: la mole vegetal de El Ávila bañada por la limpidez del sol de enero acaricia la urbe caraqueña, mientras los valles de Aragua abren paso a la histórica Hacienda Santa Teresa, donde los colosales samanes cobijan con su fronda el sosiego de los cañaverales y la paciente alquimia del ron. Un tapiz de instantes irrepetibles donde arte, naturaleza y memoria humana confluyen en armonía.",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496210/Besalu-puente.webp",
+    categoria: "Europa · América",
+    fecha: "2012",
+    equipo: "Canon PowerShot SX200 IS",
+    galeriaTematica: [
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496209/Besalu-2012-Ruta-de-piedra.webp",
+        location: "Besalú, La Garrotxa, Girona",
+        caption: "Laberinto de cantos rodados: la quietud umbría de un callejón medieval en Besalú",
+        tags: ["Besalú", "La Garrotxa", "Girona", "Arquitectura Medieval", "Empedrado", "Patrimonio Histórico"],
+        alt: "Vista en primer plano de un estrecho callejón medieval en pendiente con suelo de cantos rodados y paredes laterales de piedra rústica. Al fondo, un arco de piedra conduce hacia una escalinata ascendente bañada por una suave luz cálida, flanqueada a la derecha por vegetación colgante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496210/Besalu-Iglesia-Sant-Vicenc.webp",
+        location: "Iglesia de Sant Vicenç, Besalú, Girona",
+        caption: "Bestiario esculpido: el león románico y el simbolismo medieval en la iglesia de Sant Vicenç",
+        tags: ["Iglesia De Sant Vicenç", "Besalú", "Arte Románico", "Escultura Medieval", "Bestiario", "Girona"],
+        alt: "Fotografía en primer plano de un relieve románico tallado en piedra caliza sobre un muro de sillería en la Iglesia de Sant Vicenç de Besalú. Se representa a un gran león con una melena estilizada que pisa y ataca a una figura humana contorsionada y a otro animal pequeño bajo sus garras. A la izquierda se aprecian columnas con capiteles decorados."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496210/Besalu-puente.webp",
+        location: "Puente medieval de Besalú, Río Fluvià, Girona",
+        caption: "Reflejo fortificado: la silueta angular del puente medieval de Besalú sobre las aguas del Fluvià",
+        tags: ["Besalú", "Puente Medieval", "Río Fluvià", "La Garrotxa", "Girona", "Arquitectura Románica"],
+        alt: "Fotografía en ángulo picado del emblemático puente medieval de Besalú en Cataluña. Construido en piedra con varios arcos, destaca una torre fortificada en su centro. El monumento se refleja perfectamente en las calmadas aguas del río Fluvià, mientras que en primer plano a la izquierda florecen arbustos con flores amarillas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496210/Calle_Mon-Oviedo.webp",
+        location: "Calle Mon, Casco Antiguo, Oviedo, Asturias",
+        caption: "Sombras y sillería: el claroscuro matutino sobre los adoquines de la histórica Calle Mon",
+        tags: ["Calle Mon", "Oviedo", "Asturias", "Casco Antiguo", "Arquitectura Tradicional", "Luz Y Sombra"],
+        alt: "Vista en plano general y contrapicado de la Calle Mon en Oviedo. El suelo empedrado en pendiente refleja la luz del sol, creando un fuerte contraste de luces y sombras entre las fachadas tradicionales de edificios históricos de colores cálidos, con balcones de forja y farolas clásicas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496210/Calle_Uria-Oviedo.webp",
+        location: "Calle Uría, Oviedo, Asturias",
+        caption: "Miradores de cristal y forja: el porte burgués y ecléctico de la Calle Uría",
+        tags: ["Calle Uría", "Oviedo", "Asturias", "Modernismo", "Miradores", "Arquitectura Urbana"],
+        alt: "Fachada detallada de un edificio de arquitectura ecléctica y modernista en la Calle Uría de Oviedo, destacando sus ornamentados miradores acristalados, balcones de forja negra y esculturas clásicas de piedra bajo los aleros, junto a una farola tradicional y un árbol frondoso."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496210/Carnaval-2012-Barcelona-Tortell-Poltrona.webp",
+        location: "Plaça de Sant Jaume, Barcelona",
+        caption: "Rey de la risa: la mirada tierna y transgresora de Tortell Poltrona en el Carnaval",
+        tags: ["Tortell Poltrona", "Carnaval De Barcelona", "Circo", "Clown", "Barcelona", "Cultura Popular"],
+        alt: "Primer plano del reconocido payaso Tortell Poltrona en el Carnaval de Barcelona de 2012. Lleva un sombrero oscuro adornado con una corona dorada y tela roja, maquillaje tradicional blanco y rojo, una gran nariz roja y detalles de plumas negras sobre los hombros."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496210/Cochinillo-iberico-con-blanqueta-al-riesling-Celler-Can-Roca.webp",
+        location: "El Celler de Can Roca, Girona",
+        caption: "Arquitectura del paladar: cochinillo ibérico sobre blanqueta al riesling en El Celler de Can Roca",
+        tags: ["El Celler De Can Roca", "Alta Gastronomía", "Girona", "Vanguardia Culinaria", "Estrella Michelin"],
+        alt: "Plato de alta cocina con trozos dorados y crujientes de cochinillo ibérico flotando sobre una suave blanqueta al riesling, decorado con coloridos cubos de fruta y hojas oscuras."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496211/El_%C3%81vila-luz-de-enero-2012.webp",
+        location: "Parque Nacional Warairarepano (El Ávila), Caracas, Venezuela",
+        caption: "Centinela verde: la caricia dorada del sol de enero sobre los pliegues de El Ávila",
+        tags: ["El Ávila", "Warairarepano", "Caracas", "Venezuela", "Paisaje De Montaña", "Luz De Atardecer"],
+        alt: "Vista vertical del imponente cerro El Ávila en Caracas, bañado por la cálida luz dorada de enero. En la base se aprecian los edificios de la ciudad, mientras la montaña muestra sus laderas cubiertas de vegetación con profundas sombras."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496214/Empuries-034.webp",
+        location: "Yacimiento arqueológico de Empúries, L'Escala, Girona",
+        caption: "Geometría clásica: el laberinto de teselas bícromas del mosaico romano de Empúries",
+        tags: ["Empúries", "Mosaico Romano", "Arqueología", "L'Escala", "Costa Brava", "Patrimonio Clásico"],
+        alt: "Vista en primer plano de un suelo de mosaico romano en las ruinas de Empúries, elaborado con teselas blancas y oscuras. Presenta un diseño geométrico de hexágonos y rombos que conduce la mirada hacia un medallón central decorado con motivos florales y ondas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496215/Empuries-042.webp",
+        location: "Yacimiento arqueológico de Empúries, L'Escala, Girona",
+        caption: "Mirada al oleaje: la presencia clásica de Esculapio oteando el Mediterráneo entre los pinos de Empúries",
+        tags: ["Empúries", "Esculapio", "Escultura Clásica", "Mediterráneo", "Costa Brava", "Arqueología Griega"],
+        alt: "Vista posterior de una estatua clásica de mármol blanco situada tras un muro de piedra antigua, contemplando el azul intenso del mar Mediterráneo y un frondoso pinar bajo un cielo despejado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496215/Esculturas_de_arena_en_La_Barceloneta-002a.webp",
+        location: "Playa de la Barceloneta, Barcelona",
+        caption: "Monumento de grano efímero: alegoría clásica modelada en arena frente a la vela del Hotel W",
+        tags: ["Playa De La Barceloneta", "Escultura De Arena", "Arte Efímero", "Hotel W", "Barcelona", "Costa"],
+        alt: "Fotografía diurna de una elaborada escultura de arena en la playa de La Barceloneta, Barcelona. Representa un edificio clásico con una gran lira y el texto VIENA ARA OMAI, con el perfil acristalado del Hotel W y el cielo azul de fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496215/Esculturas_de_arena_en_La_Barceloneta-006.webp",
+        location: "Playa de la Barceloneta, Barcelona",
+        caption: "Música en la marea: violonchelistas nacidos de la arena en la orilla de la Barceloneta",
+        tags: ["Playa De La Barceloneta", "Escultura De Arena", "Arte Efímero", "Músicos", "Barcelona"],
+        alt: "Detalle de una compleja escultura de arena en la playa de La Barceloneta que representa a dos músicos tocando el violonchelo, mientras una persona observa el trabajo con detalle."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496217/Girona-Castellers.webp",
+        location: "Plaça del Vi, Girona",
+        caption: "Columna de confianza: la solidez del castell alzándose bajo el arco de piedra en Girona",
+        tags: ["Castellers", "Girona", "Cultura Popular", "Tradición Catalana", "Torres Humanas", "Plaça Del Vi"],
+        alt: "Vista enmarcada por un arco arquitectónico de un grupo de castellers en Girona formando una torre humana. Los participantes visten camisas claras y pantalones blancos con fajas negras, unidos en un esfuerzo coordinado mientras el público observa desde abajo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496220/Girona-en-otono.webp",
+        location: "Pujada de Sant Martí, Barri Vell, Girona",
+        caption: "Perspectiva de piedra: el silencio monumental de la Pujada de Sant Martí en blanco y negro",
+        tags: ["Pujada De Sant Martí", "Girona", "Blanco Y Negro", "Barri Vell", "Escalinata Barroca", "Otoño"],
+        alt: "Fotografía en blanco y negro que muestra una perspectiva en contrapicado de la escalinata que asciende hacia la fachada barroca de la iglesia de Sant Martí Sacosta en Girona, enmarcada por muros de piedra antiguos y con un hito de piedra rematado por una esfera en primer plano."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496220/Hacienda-Santa_Teresa-Venezuela.webp",
+        location: "Hacienda Santa Teresa, El Consejo, Aragua, Venezuela",
+        caption: "Cobijo centenario: la fronda protectora del samán sobre los valles de la Hacienda Santa Teresa",
+        tags: ["Hacienda Santa Teresa", "El Consejo", "Aragua", "Venezuela", "Samán", "Paisaje Tropical"],
+        alt: "Vista panorámica de la Hacienda Santa Teresa en Venezuela, destacando un enorme árbol centenario con ramas extendidas en primer plano izquierdo. Bajo su sombra y de otros árboles, grupos de personas disfrutan sentadas en mesas de madera al aire libre. Al fondo, un extenso valle verde con filas de palmeras se extiende hasta las montañas bajo un cielo despejado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496221/Hacienda-Santa-Teresa-Venezuela-1.webp",
+        location: "Hacienda Santa Teresa, El Consejo, Aragua, Venezuela",
+        caption: "Memoria destilada: arquitectura señorial y vegetación exuberante en el terruño del ron",
+        tags: ["Hacienda Santa Teresa", "Arquitectura Colonial", "El Consejo", "Aragua", "Venezuela", "Tradición Ronera"],
+        alt: "Vista contrapicada de una edificación tradicional de varios niveles con techo a dos aguas y estructura de madera, parcialmente oculta tras un denso follaje de árboles y ramas oscuras que contrastan con el cielo azul brillante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496222/Iglesia-de-San-Juan-Oviedo.webp",
+        location: "Iglesia de San Juan el Real, Oviedo, Asturias",
+        caption: "Verticalidad historicista: la fachada de San Juan el Real dialogando con el cartel de ópera",
+        tags: ["Iglesia De San Juan El Real", "Oviedo", "Asturias", "Historicismo", "Arquitectura Sacra"],
+        alt: "Vista frontal de la monumental iglesia de San Juan el Real en Oviedo, destacando su fachada de piedra con intrincados detalles y dos torres campanario simétricas. En primer plano, se interpone un cartel publicitario vertical con el rostro en blanco y negro de una mujer y texto anunciando la temporada de ópera."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496225/Iglesia-de-San-Miguel-de-Lillo-prerromanica-siglo-IX-Oviedo.webp",
+        location: "Iglesia de San Miguel de Lillo, Monte Naranco, Oviedo, Asturias",
+        caption: "Amanecer del Reino: la piedra prerrománica del siglo IX en San Miguel de Lillo",
+        tags: ["San Miguel De Lillo", "Monte Naranco", "Oviedo", "Prerrománico Asturiano", "Siglo IX", "Patrimonio De La Humanidad"],
+        alt: "Vista exterior de la histórica Iglesia de San Miguel de Lillo en Oviedo, una obra maestra del arte prerrománico asturiano del siglo IX. El edificio de piedra cuenta con contrafuertes, tejados a varias aguas y una puerta de madera abocinada. Varios visitantes contemplan el monumento en una plaza empedrada rodeada de frondosos árboles y colinas verdes."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496225/Manzana-de_feria-Celler-Can-Roca.webp",
+        location: "El Celler de Can Roca, Girona",
+        caption: "Espejismo de infancia: la célebre manzana de feria sobre algodón de azúcar en El Celler de Can Roca",
+        tags: ["El Celler De Can Roca", "Manzana De Feria", "Postre", "Alta Pastelería", "Girona", "Gastronomía Emocional"],
+        alt: "Plato de alta cocina que presenta una brillante manzana roja acaramelada reposando sobre un delicado lecho de algodón de azúcar blanco, todo dispuesto elegantemente sobre un plato de cristal tallado en un fondo neutro."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496226/Mundial-atletismo-junior-Montjuic.webp",
+        location: "Estadi Olímpic Lluís Companys, Montjuïc, Barcelona",
+        caption: "Tensión en el listón: el instante suspendido del salto con pértiga en el Estadio Olímpico de Montjuïc",
+        tags: ["Estadio Olímpico De Montjuïc", "Mundial Junior De Atletismo", "Salto Con Pértiga", "Barcelona", "Deporte"],
+        alt: "Una pertiguista con casco blanco y el dorsal 1312 se eleva con la pértiga frente a las gradas vacías del Estadio Olímpico de Montjuïc en Barcelona. En primer plano, de espaldas, un operador de cámara con un chaleco de la IAAF con el número 374 graba la acción."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496226/Pesebre-Plaza-Sant-Jaume-2012.webp",
+        location: "Plaça de Sant Jaume, Barcelona",
+        caption: "Orbe navideño: la esfera dorada y el pesebre contemporáneo en la Plaça de Sant Jaume",
+        tags: ["Plaça De Sant Jaume", "Pesebre", "Navidad", "Barcelona", "Instalación Urbana"],
+        alt: "Vista detallada del controvertido pesebre navideño de 2012 en la Plaza Sant Jaume de Barcelona, consistente en una enorme esfera dorada brillante con una abertura ovalada que muestra figuras tradicionales de los Reyes Magos en su interior, mientras varios transeúntes observan curiosos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496226/Piromusical-Merce-2012.webp",
+        location: "Avinguda de la Reina Maria Cristina, Montjuïc, Barcelona",
+        caption: "Catarata de fuego: trazos dorados y palmeras incandescentes cerrando La Mercè 2012",
+        tags: ["La Mercè", "Piromusical", "Fuegos Artificiales", "Montjuïc", "Barcelona", "Noche Festiva"],
+        alt: "Fotografía nocturna de un intenso espectáculo pirotécnico con múltiples estallidos superpuestos de fuegos artificiales en tonos dorados, amarillos y rojos brillantes, creando líneas de luz onduladas sobre un fondo completamente negro."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496232/Plaza-de-la-Escandalera-Maternidad-de-Botero.webp",
+        location: "Plaza de la Escandalera, Oviedo, Asturias",
+        caption: "Volumen y ternura: el bronce monumental de la 'Maternidad' de Botero en la Plaza de la Escandalera",
+        tags: ["Plaza De La Escandalera", "Fernando Botero", "Maternidad", "Escultura Urbana", "Oviedo", "Asturias"],
+        alt: "Plano medio de la monumental escultura en bronce negro 'Maternidad' de Fernando Botero, ubicada en la Plaza de la Escandalera en Oviedo. La obra muestra a una madre de formas voluminosas sosteniendo a un bebé rechoncho con los brazos extendidos. De fondo se aprecian edificios urbanos de arquitectura clásica con balcones y ventanas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496233/Plaza-del-paraguas-Oviedo.webp",
+        location: "Plaza del Paraguas, Casco Antiguo, Oviedo, Asturias",
+        caption: "Homenaje a la costumbre: la escultura de la lechera reposando bajo el sol de la Plaza del Paraguas",
+        tags: ["Plaza Del Paraguas", "Oviedo", "Asturias", "La Lechera", "Escultura Costumbrista", "Casco Antiguo"],
+        alt: "Fotografía a nivel de suelo que muestra la escultura de bronce de una lechera y un burro cargado de cántaros de leche en la soleada Plaza del Paraguas en Oviedo, con edificios tradicionales de fondo y el suelo empedrado brillando bajo la luz."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496237/Theater-Tol-en-el-Arco-del-Triunfo-Grec-2012.webp",
+        location: "Passeig de Lluís Companys, Arc de Triomf, Barcelona",
+        caption: "Vuelo de fábula: acróbata con sombrilla en la noche inaugural de Theater Tol en el Arc de Triomf",
+        tags: ["Festival Grec", "Theater Tol", "Arc De Triomf", "Artes De Calle", "Acrobacia Aérea", "Barcelona"],
+        alt: "Una acróbata sonriente con vestido blanco y detalles rojos desciende suspendida del aire bajo una gran estructura circular roja, sosteniendo una sombrilla decorada contra un fondo completamente negro."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496237/Trigo-verde-con-sardina-ahumada-uva-helado-de_pan-tostado-con-aceite-espuma-levadura_Celler-Can-Roca.webp",
+        location: "El Celler de Can Roca, Girona",
+        caption: "Poética de los sentidos: trigo verde, sardina ahumada y helado de pan tostado en El Celler de Can Roca",
+        tags: ["El Celler De Can Roca", "Trigo Verde", "Sardina Ahumada", "Vanguardia Culinaria", "Girona", "Alta Cocina"],
+        alt: "Plato de alta cocina presentado en un cuenco blanco. Destaca una base circular de trigo verde brillante sobre una emulsión anaranjada, decorado con finos trozos de sardina ahumada, uvas translúcidas, pequeñas gotas rojas y una delicada espuma blanca en el centro que corona la composición."
+      }
     ]
   },
   {

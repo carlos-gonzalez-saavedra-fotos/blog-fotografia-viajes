@@ -203,6 +203,7 @@ export const ReviewDetail = () => {
                     const isLast = !esTematica && i === 5 && fotosGaleria.length > 6;
                     const itemUrl = typeof item === 'string' ? item : item.url;
                     const itemCaption = typeof item === 'string' ? '' : item.caption;
+                    const itemLocation = typeof item === 'string' ? viaje.ubicacion : (item.location || viaje.ubicacion);
                     return (
                       <div 
                         key={i} 
@@ -227,6 +228,12 @@ export const ReviewDetail = () => {
                           </div>
                         ) : (
                           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-4">
+                            {itemLocation && (
+                              <p className="text-[10px] text-gold uppercase tracking-wider mb-1 line-clamp-1 flex items-center gap-1 font-medium">
+                                <MapPin size={10} className="shrink-0" />
+                                <span className="truncate">{itemLocation}</span>
+                              </p>
+                            )}
                             {itemCaption && (
                               <p className="text-xs text-white/90 font-light line-clamp-2 mb-2">{itemCaption}</p>
                             )}

@@ -422,6 +422,211 @@ Antes de partir, paseamos por los Jardines Reales, cuyos parterres geométricos 
     ]
   },
   {
+    id: "crucero",
+    titulo: "Pequeños bocados del Mediterráneo",
+    ubicacion: "Mediterráneo",
+    resumen: "Una travesía marítima en Semana Santa que desgrana los encantos del Mare Nostrum: del misticismo marinero de Marsella a la quietud sarda de Porto Torres, la huella suspendida de Pompeya, la eternidad monumental de Roma y el fulgor renacentista de Florencia y la Costa Azul.",
+    reseña: `La mañana del Lunes Santo comenzó con el suave balanceo del crucero anclado en el puerto de Marsella. El despertar “tardío” a las 7:30 fue un lujo que agradecimos, pues la noche anterior, primera de esta travesía, incluyó una copiosa cena, espectáculo de circo y velada musical de aires brasileños. El ritual matutino a bordo de estos barcos gigantes tiene su encanto: el buffet del desayuno es un momento para espabilar los sentidos, con aromas de café y pan caliente. Nos deleitamos especialmente con las almojábanas, esos deliciosos panes de yuca y queso que recordaban sabores andinos, acompañados de frutas frescas y yogur: energía para afrontar la primera incursión en tierra firme.
+
+El trayecto desde el puerto hasta el corazón de Marsella fue nuestra primera inmersión en esta ciudad francesa. El autobús se adentró raudo por las calles del puerto, hasta que nos encontramos con uno de esos tesoros cotidianos que hacen única a Marsella: su mercado de pescadores. Los puestos exhibían llamativas criaturas marinas, mientras los vendedores pregonaban sus productos con ese acento marsellés tan característico.
+
+El principal objetivo de nuestra visita fue Notre-Dame de la Garde, la majestuosa basílica que corona la ciudad desde 1214. El ascenso en el bus 70 nos regaló vistas cada vez más impresionantes y en la cima, apareció la iglesia, imponente guardiana de Marsella, con su virgen de nueve metros, que parecía tocar el cielo para proteger a sus fieles. La cripta, austera y solemne, contrastaba con la nave principal, donde cada pared contaba historias de marineros y plegarias, plasmadas en pinturas de tempestades y placas de agradecimiento que narran milagros en alta mar.
+
+En el descenso pasamos por barrios que parecían sacados de antiguas postales: casas con tejas rojizas, comercios tradicionales y edificios que son testigos de siglos de historia. El clima, con sus agradables 17 grados en la mañana que ascendieron a 21 al mediodía, nos acompañó perfectamente en nuestro paseo. El ritmo de los cruceros puede ser implacable, así que a las 12:30 ya tocaba regresar al barco para el almuerzo. Mientras el barco zarpaba hacia nuestro siguiente destino, guardé en mi memoria, y en la cámara fotográfica, el perfil de Notre-Dame de la Garde, vigilante eterna de esta ciudad de marineros y comerciantes, de historias y milagros.
+
+La mañana siguiente nos recibió con una nueva promesa de paseo mientras el sol mediterráneo acariciaba las costas de Cerdeña. A las 7:30, completamente descansados tras una noche reparadora, nos dirigimos a uno de los restaurantes para disfrutar del desayuno: dátiles jugosos y dulces higos secos, panquecas esponjosas, una selección de quesos, café, zumos frescos y frutas de temporada. Mientras saboreábamos cada bocado, podíamos ver a través de los ventanales cómo el barco completaba su aproximación a Porto Torres.
+
+Ya atracados en puerto, un breve trayecto en autobús de apenas cinco minutos nos transportó al corazón de esta joya sarda. Caminamos por las calles empedradas del centro, vimos discretas tiendas que mostraban orgullosas sus productos locales y llegamos a la elegante Basílica de San Gavino. Este monumento románico, construido entre 1030 y 1080, de altos muros de piedra recortados ante el puro y limpio azul del cielo, es un canto a la belleza arquitectónica.
+
+Descendiendo por las callejuelas, llegamos a un pintoresco mercado callejero, con puestos rebosantes de hortalizas frescas, setas silvestres y quesos artesanales. No pudimos resistirnos a comprar unas mandarinas locales que resultaron ser de las más dulces que habíamos probado: una explosión de sabor mediterráneo en cada gajo.
+
+Ya a bordo, se celebró la noche de gala del crucero. Los 1.722 pasajeros, ataviados con sus mejores galas, se congregaron expectantes ante la presentación oficial de la tripulación. El capitán, con su uniforme impecable y porte distinguido, comenzó la ceremonia junto a una selección de los 522 miembros de su equipo. Fascina descubrir la diversidad cultural que hace funcionar este gigante flotante: el meticuloso administrador griego, los experimentados oficiales italianos en el puente de mando, la eficiente colombiana dirigiendo la recepción, el carismático brasileño en relaciones públicas, el sofisticado director de crucero francés, y el talentoso chef indio que deleita los paladares.
+
+Conforme se suceden las noches a bordo, nos sumergimos en un mundo de entretenimiento que, en tierra firme, raramente frecuentaríamos. Es precisamente esta peculiaridad lo que hace de los cruceros una experiencia interesante. Nos encontramos riendo con un monologuista del club de la comedia; en el cabaret, observamos cómo las lentejuelas brillan bajo los focos mientras las artistas ejecutan sus números; en un amplio salón, hay parejas aprendiendo los pasos básicos del chachachá o aventurándose con la salsa; en otro escenario, una cantante versátil sorprende a todos interpretando una ranchera en euskera; y en el karaoke, algunos pasajeros, armados de valor y entusiasmo, comparten sus aspiraciones musicales con una audiencia comprensiva.
+
+Observo con curiosidad este desfile de entretenimiento y reflexiono sobre cómo estos rituales crucerísticos, que podrían parecer triviales a primera vista, evidencian una red de conexiones humanas y experiencias compartidas. El barco se convierte en un microcosmos que induce a todos a participar de esta peculiar celebración de la vida en alta mar.
+
+El Miércoles Santo contemplamos desde la cubierta del barco cómo Nápoles emergía gradualmente de la bruma matinal, con el imponente Vesubio dominando el horizonte, una vista que hacía honor a la célebre frase "ver Nápoles y morir". Mientras el barco se aproximaba lentamente al puerto, me sumergí en la fascinante historia de esta urbe milenaria. Fundada por colonos griegos en el siglo VI a.C., Nápoles ha sido testigo del paso de civilizaciones que han dejado su huella indeleble. Los romanos la transformaron en una villa espléndida, y aún hoy, después de más de dos milenios, la ciudad conserva ese aire de grandeza antigua, mezclada con un caos vital típicamente italiano.
+
+Apenas desembarcamos, nos dirigimos a la Plaza Garibaldi, centro neurálgico de la ciudad y punto de partida hacia nuestro principal objetivo: Pompeya. El trayecto en tren atraviesa campos cultivados y pequeños pueblos que viven a la sombra del Vesubio. Antes de entrar a las ruinas, nos detuvimos asombrados ante unos limones gigantescos, verdaderas maravillas cítricas que resultaron ser un híbrido local de limón y pomelo, utilizados en la gastronomía regional.
+
+La entrada a Pompeya fue como cruzar un portal temporal. Las calles empedradas, perfectamente conservadas, permitían recorrer una ciudad congelada en el tiempo. El foro, centro de la vida pública romana, lucía majestuoso, mientras que la Basílica y las Termas nos hablaban de una sociedad sofisticada y organizada. La Casa del Poeta Trágico y la Casa del Fauno, con sus mosaicos exquisitos, mostraban la vida cotidiana de la élite pompeyana.
+
+Particularmente conmovedor fue el horno donde se encontraron panes carbonizados, un testimonio sobrecogedor del día fatídico en que el Vesubio decidió despertar. Y los frescos sugerentes del lupanar rememoraban una ciudad muy viva, con todas las complejidades de una sociedad urbana desarrollada. De regreso a Nápoles, el contraste entre la silenciosa Pompeya y la vibrante metrópolis no pudo ser más marcado: callejuelas estrechas rebosantes de vida, grandes avenidas plenas de conductores ajenos a peatones escrupulosos, edificios de colores cálidos y el inconfundible aroma a pizza napolitana creando un entrañable caos sensorial.
+
+El Jueves Santo el crucero atracó en Civitavecchia, la antigua puerta marítima de Roma. Con la ilusión de visitar la Ciudad Eterna en una fecha tan significativa, abordamos el tren que nos llevaría hasta la capital italiana. El trayecto de una hora se convirtió en un evocador preludio: por un lado, el azul intenso del Mediterráneo se fundía con el horizonte; por el otro, un mosaico de campos cultivados y casas tradicionales componían una estampa singular, acompañada por el traqueteo de la vía y la conversación animada de numerosos peregrinos.
+
+Al descender en la estación cercana a la Plaza San Pedro, nos encontramos inmersos en un mar humano de una diversidad fascinante. La plaza rebosaba de vida y fe: grupos de religiosas con sus hábitos tradicionales, cardenales con sus vestimentas escarlata y una sorprendente cantidad de sacerdotes orientales —japoneses, chinos, filipinos— que aportaban un carácter verdaderamente universal a la celebración de la Semana Santa en Roma.
+
+Nuestro paseo nos llevó por el histórico puente Cavour, donde el Tíber fluía majestuoso, y ante la imponente fachada de la Embajada de España. En la Fontana de Trevi, siguiendo el ritual compartido por millones de viajeros, lanzamos monedas por encima del hombro izquierdo, custodiando en secreto nuestros deseos. Tras una parada en la monumental Terminal de Roma Termini para disfrutar de una auténtica pizza romana y un espresso perfecto, emprendimos el regreso a Civitavecchia. Antes de embarcar, recorrimos su elegante paseo marítimo hasta toparnos con la gran escultura del beso entre un marinero y una joven, síntesis de la memoria portuaria y el romance mediterráneo.
+
+El amanecer del Viernes Santo atracamos en el puerto de Livorno, la "pequeña Venecia" de canales serpenteantes entre edificios señoriales. Nuestra primera escala fue Pisa. Nada te prepara realmente para el primer encuentro con la Torre inclinada: sus 88 columnas de inmaculado mármol de Carrara desafiando la gravedad con una audacia de siglos. El Campo de los Milagros ofrece una sinfonía monumental: el Duomo románico con sus galerías danzantes, el Baptisterio circular de relieves primorosos y el verdor cuidado que acoge la admiración de los visitantes.
+
+A solo una hora de distancia, Florencia nos abrió sus puertas. El primer tributo a los sentidos tuvo lugar en el Mercado Central, degustando un parmesano coronado con una gota de concentrado de trufa. Luego, las calles bordeadas de artesanía en cuero desembocaron en el prodigio de Santa Maria del Fiore, cuya cúpula ideada por Brunelleschi conmueve siempre como la primera vez.
+
+La capital toscana es un museo viviente a cielo abierto: la Piazza della Signoria presidida por el Palazzo Vecchio, la colosal Fuente de Neptuno y el asombroso "Rapto de las Sabinas" de Giambologna, labrado en un único bloque de mármol. Tras contemplar el Puente Vecchio sobre el río Arno y admirar el genio de Miguel Ángel en el Mausoleo de los Médicis en San Lorenzo, sellamos la tarde con helados artesanales y cannoli sicilianos en la Cafetería Florencia.
+
+La mañana del Sábado de Gloria el barco fondeó en las aguas mansas de Villefranche. Una lancha nos condujo a tierra firme para enlazar en tren hacia Niza. La ciudad nos recibió con su elegancia Belle Époque, sus bulevares sombreados por plátanos centenarios y la majestuosidad de la Iglesia de la Asunción. Al cruzar hacia la Promenade des Anglais, el mar Mediterráneo hizo honor pleno a la Costa Azul con una paleta de turquesas intensos que se perdían en el horizonte bajo la brisa costera.
+
+El regreso a Villefranche-sur-Mer completó la postal: un pueblo marinero colgado de la ladera rocosa, donde cada escalera y callejón empinado regala tiestos rebosantes de geranios, contraventanas de colores desvaídos y el fondo omnipresente del mar azul. La serena visita a Notre-Dame de France puso el punto de recogimiento antes de regresar a bordo.
+
+La última madrugada el Mediterráneo mostró algo más de brío con un oleaje que mecía el barco. Con el alba del Domingo de Resurrección, la silueta de Barcelona emergió de la bruma marítima. Aproximarse a una ciudad desde el mar, como hacían los antiguos navegantes, posee una magia singular: el perfil urbano se devela lentamente, capa a capa. Estas escalas se convirtieron en auténticas degustaciones urbanas, pequeños bocados de cultura, arte y memoria que dejan encendida la promesa de volver.`,
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497037/Villefranche.webp",
+    url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497037/Villefranche.webp",
+    categoria: "Europa",
+    fecha: "Abril 2012",
+    equipo: "Canon PowerShot SX200 IS",
+    galeria: [
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497037/Villefranche.webp",
+        location: "Villefranche-sur-Mer, Costa Azul, Francia",
+        caption: "Balcón a la rada: el anfiteatro de fachadas pastel y techumbres de teja sobre la bahía de Villefranche",
+        tags: ["Villefranche-Sur-Mer", "Costa Azul", "Riviera Francesa", "Mediterráneo", "Paisaje Costero", "Francia"],
+        alt: "Vista panorámica elevada de Villefranche-sur-Mer, Francia, mostrando un denso conjunto de edificios de tonos pastel con tejados de terracota que descienden hacia la costa. Destacan la iglesia barroca de Saint-Michel con su campanario y el Hotel Welcome en primer plano, junto a un mar azul intenso y la costa rocosa."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496982/El_Vesuvio-2012.webp",
+        location: "Golfo de Nápoles, Italia",
+        caption: "Bruma en la bahía: el perfil mitológico del Vesubio recortado sobre las aguas del golfo de Nápoles",
+        tags: ["Vesubio", "Nápoles", "Italia", "Volcán", "Golfo De Nápoles", "Paisaje Marino"],
+        alt: "Fotografía panorámica del golfo de Nápoles bajo una suave neblina. En primer plano se aprecia una plataforma de madera con una barandilla metálica azul oscuro. Al fondo, las aguas tranquilas del mar separan el muelle de la costa urbana, coronada por la colosal y difuminada silueta del volcán Vesubio."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496983/Florencia-020.webp",
+        location: "Piazza della Signoria, Florencia, Italia",
+        caption: "El coloso de mármol: la imponente presencia del Nettuno de Ammannati en la Piazza della Signoria",
+        tags: ["Florencia", "Fuente De Neptuno", "Piazza Della Signoria", "Bartolomeo Ammannati", "Escultura Renacentista", "Italia"],
+        alt: "Vista en primer plano de la imponente Fuente de Neptuno en Florencia. En el centro destaca la gran estatua de mármol blanco de Neptuno con barba, bajo la cual se aprecian figuras de bronce patinado en verde y caballos marinos, con la fachada de piedra rústica del Palazzo Vecchio como telón de fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496984/Florencia-021.webp",
+        location: "Loggia dei Lanzi, Piazza della Signoria, Florencia, Italia",
+        caption: "Dinamismo helicoidal: la tensión dramática de El rapto de las sabinas de Giambologna",
+        tags: ["Florencia", "Loggia Dei Lanzi", "Giambologna", "El Rapto De Las Sabinas", "Manierismo", "Escultura", "Italia"],
+        alt: "Fotografía vertical y detallada de la famosa escultura renacentista 'El rapto de las sabinas' de Giambologna, ubicada en la Loggia dei Lanzi de Florencia. Muestra en mármol blanco la compleja composición espiral de tres figuras humanas entrelazadas con expresiones de tensión y dramatismo sobre un fondo neutro y oscuro."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496985/Florencia-026.webp",
+        location: "Piazza della Signoria, Florencia, Italia",
+        caption: "Vigías cívicos: diálogo escultórico entre el Neptuno y el monumento ecuestre a Cosme I",
+        tags: ["Florencia", "Piazza Della Signoria", "Neptuno", "Cosme I De Médici", "Escultura", "Italia"],
+        alt: "Plano medio vertical que muestra una estatua de mármol blanco de Neptuno junto a figuras de bronce, incluyendo el monumento ecuestre de Cosme I, frente a edificios históricos con fachadas amarillas y de piedra en Florencia."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496987/Florencia-2012.webp",
+        location: "Catedral de Santa Maria del Fiore, Florencia, Italia",
+        caption: "La cúspide del Renacimiento: la cúpula de Brunelleschi sobre los mármoles polícromos del Duomo",
+        tags: ["Florencia", "Duomo", "Santa Maria Del Fiore", "Brunelleschi", "Cúpula", "Arquitectura Renacentista", "Italia"],
+        alt: "Vista en contrapicado de la Catedral de Florencia y su imponente cúpula de tejas rojas. La fachada muestra un elaborado diseño geométrico en mármol blanco, verde oscuro y rosa, destacando la gran cúpula diseñada por Brunelleschi bajo un cielo azul con ligeras nubes."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496988/Marsella-013.webp",
+        location: "Catedral de la Major, Marsella, Francia",
+        caption: "Rayas bizantinas sobre el muelle: la silueta monumental de la Catedral de la Major junto al puerto de Marsella",
+        tags: ["Marsella", "Catedral De La Major", "Puerto", "Arquitectura Románico-Bizantina", "Francia"],
+        alt: "Vista aérea y detallada de la Catedral de Marsella, destacando sus cúpulas de estilo bizantino y romano, y su fachada de piedra a rayas. Al fondo se observa el bullicioso puerto marítimo con barcos y contenedores."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496989/Marsella-2012.webp",
+        location: "Marsella, Provenza-Alpes-Costa Azul, Francia",
+        caption: "Horizonte provenzal: la densa marea de tejados terracota fundiéndose con el azul mediterráneo",
+        tags: ["Marsella", "Panorámica", "Tejados", "Mediterráneo", "Provenza", "Francia"],
+        alt: "Vista aérea diurna de la ciudad de Marsella, mostrando una densa amalgama de edificios residenciales con tejados de tejas naranjas, grandes bloques de oficinas modernos y, al fondo, el azul intenso del mar Mediterráneo bajo un cielo claro."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496991/Napoles-002.webp",
+        location: "Molo San Vincenzo, Puerto de Nápoles, Italia",
+        caption: "Centinela carmesí: el faro del Molo San Vincenzo guiando las aguas de la bahía napolitana",
+        tags: ["Nápoles", "Faro", "Molo San Vincenzo", "Puerto", "Golfo De Nápoles", "Italia"],
+        alt: "Vista panorámica elevada del faro rojo del Molo San Vincenzo en Nápoles, ubicado al final de un largo rompeolas de piedra que se adentra en el mar azul, con la colorida ciudad y los edificios históricos de fondo bajo una luz brillante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496993/Napoles-004a.webp",
+        location: "Centro Histórico, Nápoles, Italia",
+        caption: "Estratigrafía barroca: cúpulas, terrazas y la vibrante superposición urbana de Nápoles",
+        tags: ["Nápoles", "Paisaje Urbano", "Cúpula", "Campania", "Arquitectura", "Italia"],
+        alt: "Vista panorámica y densa del paisaje urbano de Nápoles en Italia, donde se mezclan edificios históricos de tonos cálidos y fachadas modernas, destacando en el centro una elegante cúpula metálica gris y una compleja superposición de tejados y terrazas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496994/Napoles-007a.webp",
+        location: "Piazza Nicola Amore, Nápoles, Italia",
+        caption: "Fuerza en la cornisa: los atlantes colosales que sostienen los palacios de la Piazza Nicola Amore",
+        tags: ["Nápoles", "Piazza Nicola Amore", "Atlantes", "Arquitectura Neorrenacentista", "Escultura", "Italia"],
+        alt: "Fotografía en ángulo picado de la fachada de un majestuoso edificio de color ocre en Nápoles, iluminado por el sol. En la planta baja, una serie de esculturas de atlantes musculosos sostienen el peso de los balcones y arcos superiores, mientras múltiples ventanas rectangulares con contraventanas marrones y balaustradas blancas ritman la simetría de la estructura monumental."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497002/Niza-011.webp",
+        location: "Baie des Anges, Niza, Costa Azul, Francia",
+        caption: "Sinfonía en turquesa: el luminoso degradado marino de la Baie des Anges en Niza",
+        tags: ["Niza", "Baie Des Anges", "Costa Azul", "Mediterráneo", "Mar", "Francia"],
+        alt: "Vista panorámica del mar Mediterráneo en Niza, donde el agua muestra un llamativo degradado de colores que va desde un azul turquesa muy claro y brillante en primer plano hasta un tono azul marino oscuro al fondo, con el horizonte lejano difuminado por la bruma."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497013/Notre-Dame-de-la-Garde-Marsella.webp",
+        location: "Basílica de Notre-Dame de la Garde, Marsella, Francia",
+        caption: "Devoción dorada: mosaicos bizantinos y exvotos marineros bajo las cúpulas de Notre-Dame de la Garde",
+        tags: ["Marsella", "Notre-Dame De La Garde", "Mosaicos", "Exvotos", "Arquitectura Religiosa", "Francia"],
+        alt: "Vista interior de la basílica de Notre-Dame de la Garde en Marsella, destacando las cúpulas cubiertas con mosaicos dorados brillantes y los característicos arcos de piedra en tonos rojos y blancos, con pequeñas maquetas de barcos colgando como ofrendas marineras."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497014/Pisa-018.webp",
+        location: "Piazza dei Miracoli, Pisa, Italia",
+        caption: "Desafío a la gravedad: el fuste inclinado del campanile y las arcadas de mármol en el Campo dei Miracoli",
+        tags: ["Pisa", "Piazza Dei Miracoli", "Torre De Pisa", "Duomo", "Románico Pisano", "Italia"],
+        alt: "Vista en primer plano de la emblemática Torre de Pisa inclinándose hacia la derecha, flanqueada a la izquierda por la fachada de mármol blanco y gris con intrincadas arcadas y detalles geométricos de la Catedral de Pisa, enmarcada por un cielo azul parcialmente nublado con numerosos turistas en la base."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497017/Pompeya-2012.webp",
+        location: "Basílica del Foro, Pompeya, Italia",
+        caption: "Silencio petrificado: las columnas de la Basílica de Pompeya erguidas bajo la sombra del Vesubio",
+        tags: ["Pompeya", "Basílica Romana", "Foro", "Arqueología", "Imperio Romano", "Campania", "Italia"],
+        alt: "Vista horizontal de las imponentes columnas de piedra de la antigua Basílica en Pompeya, proyectando largas sombras sobre un camino de piedra. Al fondo, las ruinas de la ciudad antigua se extienden bajo un cielo azul brillante con nubes ligeras y la silueta de una montaña lejana."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497019/Puerto-Civitavecchia-a.webp",
+        location: "Paseo Marítimo, Civitavecchia, Italia",
+        caption: "El abrazo del retorno: el colosal Monumento al Beso despidiendo la costa del Tirreno",
+        tags: ["Civitavecchia", "Monumento Al Beso", "Paseo Marítimo", "Puerto", "Tirreno", "Italia"],
+        alt: "Fotografía vertical que muestra la gran escultura 'El Beso del Marinero' en la plaza portuaria de Civitavecchia. De fondo se aprecia el mar Tirreno, palmeras y el paseo marítimo con algunos transeúntes caminando bajo un cielo despejado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497021/Puerto-Torres-Cerdena-009a.webp",
+        location: "Porto Torres, Cerdeña, Italia",
+        caption: "Pátina y salitre: persianas cerúleas y muros de solera en las callejuelas de Porto Torres",
+        tags: ["Porto Torres", "Cerdeña", "Arquitectura Popular", "Mediterráneo", "Texturas", "Italia"],
+        alt: "Primer plano de una fachada desgastada en tonos rosados y ocres en Porto Torres, Cerdeña. En el centro destaca una ventana con contraventanas celestes y, a la izquierda, una escalinata de piedra bajo tejados de teja árabe."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497024/Roma-009a.webp",
+        location: "Ponte Sant'Angelo y Río Tíber, Roma, Italia",
+        caption: "Arcos sobre el Tíber: el Ponte Sant'Angelo enmarcando la lejana cúpula de San Pedro",
+        tags: ["Roma", "Ponte Sant'Angelo", "Río Tíber", "Basílica De San Pedro", "Vaticano", "Italia"],
+        alt: "Vista panorámica del río Tíber cruzado por el histórico Puente de Sant'Angelo, con sus arcos de piedra y estatuas. Al fondo, la monumental cúpula de la Basílica de San Pedro en el Vaticano se eleva majestuosa bajo un cielo nublado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497026/Roma-015a.webp",
+        location: "Centro Histórico, Roma, Italia",
+        caption: "Piedad en la esquina: hornacina devocional en un rincón ocre del callejero romano",
+        tags: ["Roma", "Madonnelle", "Hornacina", "Centro Histórico", "Arquitectura Tradicional", "Italia"],
+        alt: "Plano medio de una fachada en Roma con paredes de color ocre y contraventanas grises. A la derecha destaca una hornacina de piedra con un pequeño arco que alberga una figura escultórica de tonos marrones. Los volúmenes arquitectónicos crean un juego de sombras y texturas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497030/Roma-020a.webp",
+        location: "Fontana di Trevi, Roma, Italia",
+        caption: "El triunfo del agua: la carroza de Océano y el rugido cristalino de la Fontana di Trevi",
+        tags: ["Roma", "Fontana Di Trevi", "Nicola Salvi", "Barroco", "Océano", "Monumento", "Italia"],
+        alt: "Vista frontal detallada de la Fontana de Trevi en Roma. En el nicho central destaca la imponente estatua de Océano sobre una carroza en forma de concha tirada por dos caballos marinos, flanqueado por columnas corintias, esculturas alegóricas en los nichos laterales y cascadas de agua cristalina cayendo sobre rocas artificiales."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497033/Roma-Vaticano.webp",
+        location: "Basílica de San Pedro, Ciudad del Vaticano",
+        caption: "Inscripción imperial: el friso de Maderno y las columnas monumentales de San Pedro",
+        tags: ["Vaticano", "Basílica De San Pedro", "Carlo Maderno", "Fachada", "Arquitectura Renacentista", "Roma"],
+        alt: "Detalle arquitectónico de la fachada de la Basílica de San Pedro en el Vaticano, destacando la inscripción 'BVRGHESIVS ROMA' en el friso superior, imponentes columnas corintias, ventanas abovedadas con balcones y un relieve escultórico clásico tallado en mármol."
+      }
+    ]
+  },
+  {
     id: "amsterdam", titulo: "Caminatas culturales por Ámsterdam", ubicacion: "Países Bajos", resumen: "Cuando terminé el viaje de cuatro días por Ámsterdam, mi reloj marcaba que había caminado 81 kilómetros. Y aunque el número me impresionó, lo cierto es que no me notaba cansado. Al contrario, sentía que cada paso había valido la pena, porque esta ciudad tiene esa magia de sorprenderte a cada rato, de esconder belleza en los lugares más cotidianos.", reseña: `Cuando terminé el viaje de cuatro días por Ámsterdam, mi reloj marcaba que había caminado 81 kilómetros. Y aunque el número me impresionó, lo cierto es que no me notaba cansado. Al contrario, sentía que cada paso había valido la pena, porque esta ciudad tiene esa magia de sorprenderte a cada rato, de esconder belleza en los lugares más cotidianos.
 Uno de mis primeros destinos fue el Eye Filmmuseum, un edificio con forma de nave espacial (o de figura de origami gigante, según desde dónde lo mires) que parece flotar junto al canal. Además de sus exposiciones dedicadas al cine, lo que más me gustó fue sentarme un rato en la terraza y mirar el paisaje: barcos enormes cruzando el IJ, la estación central de trenes con su techo de vidrio que reflejaba el sol, y la silueta de Ámsterdam desplegándose delante mío.
  En el bar del Eye me sorprendió un elocuente detalle: los sobres de azúcar que acompañaban al café, reproducían la célebre foto en la que Sylvia (Anita Ekberg) se baña en la Fontana di Trevi, durante la película La Dolce Vita (1960) de Federico Fellini. Dulce guiño cinéfilo.
