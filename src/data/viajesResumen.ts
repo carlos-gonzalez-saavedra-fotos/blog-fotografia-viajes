@@ -350,18 +350,18 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona · Madrid · Cambrils",
     "ubicacion": "Escenas 2014",
     "fecha": "2014",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063501/cgs_portfolio/La-Merce-2014-fuegos-artificiales.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063508/cgs_portfolio/Hospital-Santa-Creu-i-Sant-Pau-fotografa.webp",
     "equipo": "Canon PowerShot SX200 IS",
     "fotosCount": 17
   },
   {
     "id": "Gale2013",
     "titulo": "Barcelona · Poblet",
-    "ubicacion": "Barcelona - Poblet",
+    "ubicacion": "Escenas 2013",
     "fecha": "2013",
     "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063554/cgs_portfolio/Miro-en-el-MNAC.webp",
     "equipo": "Nikon COOLPIX L820",
-    "fotosCount": 13
+    "fotosCount": 14
   },
   {
     "id": "Gale2012",

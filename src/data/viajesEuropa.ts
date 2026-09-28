@@ -477,153 +477,27 @@ La última madrugada el Mediterráneo mostró algo más de brío con un oleaje q
     fecha: "Abril 2012",
     equipo: "Canon PowerShot SX200 IS",
     galeria: [
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497037/Villefranche.webp",
-        location: "Villefranche-sur-Mer, Costa Azul, Francia",
-        caption: "Balcón a la rada: el anfiteatro de fachadas pastel y techumbres de teja sobre la bahía de Villefranche",
-        tags: ["Villefranche-Sur-Mer", "Costa Azul", "Riviera Francesa", "Mediterráneo", "Paisaje Costero", "Francia"],
-        alt: "Vista panorámica elevada de Villefranche-sur-Mer, Francia, mostrando un denso conjunto de edificios de tonos pastel con tejados de terracota que descienden hacia la costa. Destacan la iglesia barroca de Saint-Michel con su campanario y el Hotel Welcome en primer plano, junto a un mar azul intenso y la costa rocosa."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496982/El_Vesuvio-2012.webp",
-        location: "Golfo de Nápoles, Italia",
-        caption: "Bruma en la bahía: el perfil mitológico del Vesubio recortado sobre las aguas del golfo de Nápoles",
-        tags: ["Vesubio", "Nápoles", "Italia", "Volcán", "Golfo De Nápoles", "Paisaje Marino"],
-        alt: "Fotografía panorámica del golfo de Nápoles bajo una suave neblina. En primer plano se aprecia una plataforma de madera con una barandilla metálica azul oscuro. Al fondo, las aguas tranquilas del mar separan el muelle de la costa urbana, coronada por la colosal y difuminada silueta del volcán Vesubio."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496983/Florencia-020.webp",
-        location: "Piazza della Signoria, Florencia, Italia",
-        caption: "El coloso de mármol: la imponente presencia del Nettuno de Ammannati en la Piazza della Signoria",
-        tags: ["Florencia", "Fuente De Neptuno", "Piazza Della Signoria", "Bartolomeo Ammannati", "Escultura Renacentista", "Italia"],
-        alt: "Vista en primer plano de la imponente Fuente de Neptuno en Florencia. En el centro destaca la gran estatua de mármol blanco de Neptuno con barba, bajo la cual se aprecian figuras de bronce patinado en verde y caballos marinos, con la fachada de piedra rústica del Palazzo Vecchio como telón de fondo."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496984/Florencia-021.webp",
-        location: "Loggia dei Lanzi, Piazza della Signoria, Florencia, Italia",
-        caption: "Dinamismo helicoidal: la tensión dramática de El rapto de las sabinas de Giambologna",
-        tags: ["Florencia", "Loggia Dei Lanzi", "Giambologna", "El Rapto De Las Sabinas", "Manierismo", "Escultura", "Italia"],
-        alt: "Fotografía vertical y detallada de la famosa escultura renacentista 'El rapto de las sabinas' de Giambologna, ubicada en la Loggia dei Lanzi de Florencia. Muestra en mármol blanco la compleja composición espiral de tres figuras humanas entrelazadas con expresiones de tensión y dramatismo sobre un fondo neutro y oscuro."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496985/Florencia-026.webp",
-        location: "Piazza della Signoria, Florencia, Italia",
-        caption: "Vigías cívicos: diálogo escultórico entre el Neptuno y el monumento ecuestre a Cosme I",
-        tags: ["Florencia", "Piazza Della Signoria", "Neptuno", "Cosme I De Médici", "Escultura", "Italia"],
-        alt: "Plano medio vertical que muestra una estatua de mármol blanco de Neptuno junto a figuras de bronce, incluyendo el monumento ecuestre de Cosme I, frente a edificios históricos con fachadas amarillas y de piedra en Florencia."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496987/Florencia-2012.webp",
-        location: "Catedral de Santa Maria del Fiore, Florencia, Italia",
-        caption: "La cúspide del Renacimiento: la cúpula de Brunelleschi sobre los mármoles polícromos del Duomo",
-        tags: ["Florencia", "Duomo", "Santa Maria Del Fiore", "Brunelleschi", "Cúpula", "Arquitectura Renacentista", "Italia"],
-        alt: "Vista en contrapicado de la Catedral de Florencia y su imponente cúpula de tejas rojas. La fachada muestra un elaborado diseño geométrico en mármol blanco, verde oscuro y rosa, destacando la gran cúpula diseñada por Brunelleschi bajo un cielo azul con ligeras nubes."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496988/Marsella-013.webp",
-        location: "Catedral de la Major, Marsella, Francia",
-        caption: "Rayas bizantinas sobre el muelle: la silueta monumental de la Catedral de la Major junto al puerto de Marsella",
-        tags: ["Marsella", "Catedral De La Major", "Puerto", "Arquitectura Románico-Bizantina", "Francia"],
-        alt: "Vista aérea y detallada de la Catedral de Marsella, destacando sus cúpulas de estilo bizantino y romano, y su fachada de piedra a rayas. Al fondo se observa el bullicioso puerto marítimo con barcos y contenedores."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496989/Marsella-2012.webp",
-        location: "Marsella, Provenza-Alpes-Costa Azul, Francia",
-        caption: "Horizonte provenzal: la densa marea de tejados terracota fundiéndose con el azul mediterráneo",
-        tags: ["Marsella", "Panorámica", "Tejados", "Mediterráneo", "Provenza", "Francia"],
-        alt: "Vista aérea diurna de la ciudad de Marsella, mostrando una densa amalgama de edificios residenciales con tejados de tejas naranjas, grandes bloques de oficinas modernos y, al fondo, el azul intenso del mar Mediterráneo bajo un cielo claro."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496991/Napoles-002.webp",
-        location: "Molo San Vincenzo, Puerto de Nápoles, Italia",
-        caption: "Centinela carmesí: el faro del Molo San Vincenzo guiando las aguas de la bahía napolitana",
-        tags: ["Nápoles", "Faro", "Molo San Vincenzo", "Puerto", "Golfo De Nápoles", "Italia"],
-        alt: "Vista panorámica elevada del faro rojo del Molo San Vincenzo en Nápoles, ubicado al final de un largo rompeolas de piedra que se adentra en el mar azul, con la colorida ciudad y los edificios históricos de fondo bajo una luz brillante."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496993/Napoles-004a.webp",
-        location: "Centro Histórico, Nápoles, Italia",
-        caption: "Estratigrafía barroca: cúpulas, terrazas y la vibrante superposición urbana de Nápoles",
-        tags: ["Nápoles", "Paisaje Urbano", "Cúpula", "Campania", "Arquitectura", "Italia"],
-        alt: "Vista panorámica y densa del paisaje urbano de Nápoles en Italia, donde se mezclan edificios históricos de tonos cálidos y fachadas modernas, destacando en el centro una elegante cúpula metálica gris y una compleja superposición de tejados y terrazas."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790496994/Napoles-007a.webp",
-        location: "Piazza Nicola Amore, Nápoles, Italia",
-        caption: "Fuerza en la cornisa: los atlantes colosales que sostienen los palacios de la Piazza Nicola Amore",
-        tags: ["Nápoles", "Piazza Nicola Amore", "Atlantes", "Arquitectura Neorrenacentista", "Escultura", "Italia"],
-        alt: "Fotografía en ángulo picado de la fachada de un majestuoso edificio de color ocre en Nápoles, iluminado por el sol. En la planta baja, una serie de esculturas de atlantes musculosos sostienen el peso de los balcones y arcos superiores, mientras múltiples ventanas rectangulares con contraventanas marrones y balaustradas blancas ritman la simetría de la estructura monumental."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497002/Niza-011.webp",
-        location: "Baie des Anges, Niza, Costa Azul, Francia",
-        caption: "Sinfonía en turquesa: el luminoso degradado marino de la Baie des Anges en Niza",
-        tags: ["Niza", "Baie Des Anges", "Costa Azul", "Mediterráneo", "Mar", "Francia"],
-        alt: "Vista panorámica del mar Mediterráneo en Niza, donde el agua muestra un llamativo degradado de colores que va desde un azul turquesa muy claro y brillante en primer plano hasta un tono azul marino oscuro al fondo, con el horizonte lejano difuminado por la bruma."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497013/Notre-Dame-de-la-Garde-Marsella.webp",
-        location: "Basílica de Notre-Dame de la Garde, Marsella, Francia",
-        caption: "Devoción dorada: mosaicos bizantinos y exvotos marineros bajo las cúpulas de Notre-Dame de la Garde",
-        tags: ["Marsella", "Notre-Dame De La Garde", "Mosaicos", "Exvotos", "Arquitectura Religiosa", "Francia"],
-        alt: "Vista interior de la basílica de Notre-Dame de la Garde en Marsella, destacando las cúpulas cubiertas con mosaicos dorados brillantes y los característicos arcos de piedra en tonos rojos y blancos, con pequeñas maquetas de barcos colgando como ofrendas marineras."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497014/Pisa-018.webp",
-        location: "Piazza dei Miracoli, Pisa, Italia",
-        caption: "Desafío a la gravedad: el fuste inclinado del campanile y las arcadas de mármol en el Campo dei Miracoli",
-        tags: ["Pisa", "Piazza Dei Miracoli", "Torre De Pisa", "Duomo", "Románico Pisano", "Italia"],
-        alt: "Vista en primer plano de la emblemática Torre de Pisa inclinándose hacia la derecha, flanqueada a la izquierda por la fachada de mármol blanco y gris con intrincadas arcadas y detalles geométricos de la Catedral de Pisa, enmarcada por un cielo azul parcialmente nublado con numerosos turistas en la base."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497017/Pompeya-2012.webp",
-        location: "Basílica del Foro, Pompeya, Italia",
-        caption: "Silencio petrificado: las columnas de la Basílica de Pompeya erguidas bajo la sombra del Vesubio",
-        tags: ["Pompeya", "Basílica Romana", "Foro", "Arqueología", "Imperio Romano", "Campania", "Italia"],
-        alt: "Vista horizontal de las imponentes columnas de piedra de la antigua Basílica en Pompeya, proyectando largas sombras sobre un camino de piedra. Al fondo, las ruinas de la ciudad antigua se extienden bajo un cielo azul brillante con nubes ligeras y la silueta de una montaña lejana."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497019/Puerto-Civitavecchia-a.webp",
-        location: "Paseo Marítimo, Civitavecchia, Italia",
-        caption: "El abrazo del retorno: el colosal Monumento al Beso despidiendo la costa del Tirreno",
-        tags: ["Civitavecchia", "Monumento Al Beso", "Paseo Marítimo", "Puerto", "Tirreno", "Italia"],
-        alt: "Fotografía vertical que muestra la gran escultura 'El Beso del Marinero' en la plaza portuaria de Civitavecchia. De fondo se aprecia el mar Tirreno, palmeras y el paseo marítimo con algunos transeúntes caminando bajo un cielo despejado."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497021/Puerto-Torres-Cerdena-009a.webp",
-        location: "Porto Torres, Cerdeña, Italia",
-        caption: "Pátina y salitre: persianas cerúleas y muros de solera en las callejuelas de Porto Torres",
-        tags: ["Porto Torres", "Cerdeña", "Arquitectura Popular", "Mediterráneo", "Texturas", "Italia"],
-        alt: "Primer plano de una fachada desgastada en tonos rosados y ocres en Porto Torres, Cerdeña. En el centro destaca una ventana con contraventanas celestes y, a la izquierda, una escalinata de piedra bajo tejados de teja árabe."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497024/Roma-009a.webp",
-        location: "Ponte Sant'Angelo y Río Tíber, Roma, Italia",
-        caption: "Arcos sobre el Tíber: el Ponte Sant'Angelo enmarcando la lejana cúpula de San Pedro",
-        tags: ["Roma", "Ponte Sant'Angelo", "Río Tíber", "Basílica De San Pedro", "Vaticano", "Italia"],
-        alt: "Vista panorámica del río Tíber cruzado por el histórico Puente de Sant'Angelo, con sus arcos de piedra y estatuas. Al fondo, la monumental cúpula de la Basílica de San Pedro en el Vaticano se eleva majestuosa bajo un cielo nublado."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497026/Roma-015a.webp",
-        location: "Centro Histórico, Roma, Italia",
-        caption: "Piedad en la esquina: hornacina devocional en un rincón ocre del callejero romano",
-        tags: ["Roma", "Madonnelle", "Hornacina", "Centro Histórico", "Arquitectura Tradicional", "Italia"],
-        alt: "Plano medio de una fachada en Roma con paredes de color ocre y contraventanas grises. A la derecha destaca una hornacina de piedra con un pequeño arco que alberga una figura escultórica de tonos marrones. Los volúmenes arquitectónicos crean un juego de sombras y texturas."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497030/Roma-020a.webp",
-        location: "Fontana di Trevi, Roma, Italia",
-        caption: "El triunfo del agua: la carroza de Océano y el rugido cristalino de la Fontana di Trevi",
-        tags: ["Roma", "Fontana Di Trevi", "Nicola Salvi", "Barroco", "Océano", "Monumento", "Italia"],
-        alt: "Vista frontal detallada de la Fontana de Trevi en Roma. En el nicho central destaca la imponente estatua de Océano sobre una carroza en forma de concha tirada por dos caballos marinos, flanqueado por columnas corintias, esculturas alegóricas en los nichos laterales y cascadas de agua cristalina cayendo sobre rocas artificiales."
-      },
-      {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790497033/Roma-Vaticano.webp",
-        location: "Basílica de San Pedro, Ciudad del Vaticano",
-        caption: "Inscripción imperial: el friso de Maderno y las columnas monumentales de San Pedro",
-        tags: ["Vaticano", "Basílica De San Pedro", "Carlo Maderno", "Fachada", "Arquitectura Renacentista", "Roma"],
-        alt: "Detalle arquitectónico de la fachada de la Basílica de San Pedro en el Vaticano, destacando la inscripción 'BVRGHESIVS ROMA' en el friso superior, imponentes columnas corintias, ventanas abovedadas con balcones y un relieve escultórico clásico tallado en mármol."
-      }
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497037/Villefranche.webp", "location": "Villefranche-sur-Mer, Costa Azul, Francia", "caption": "Balcón a la rada: el anfiteatro de fachadas pastel y techumbres de teja sobre la bahía de Villefranche", "tags": ["Villefranche-Sur-Mer", "Costa Azul", "Riviera Francesa", "Mediterráneo", "Paisaje Costero", "Francia"], "alt": "Vista panorámica elevada de Villefranche-sur-Mer, Francia, mostrando un denso conjunto de edificios de tonos pastel con tejados de terracota que descienden hacia la costa. Destacan la iglesia barroca de Saint-Michel con su campanario y el Hotel Welcome en primer plano, junto a un mar azul intenso y la costa rocosa."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496982/El_Vesuvio-2012.webp", "location": "Golfo de Nápoles, Italia", "caption": "Bruma en la bahía: el perfil mitológico del Vesubio recortado sobre las aguas del golfo de Nápoles", "tags": ["Vesubio", "Nápoles", "Italia", "Volcán", "Golfo De Nápoles", "Paisaje Marino"], "alt": "Fotografía panorámica del golfo de Nápoles bajo una suave neblina. En primer plano se aprecia una plataforma de madera con una barandilla metálica azul oscuro. Al fondo, las aguas tranquilas del mar separan el muelle de la costa urbana, coronada por la colosal y difuminada silueta del volcán Vesubio."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496983/Florencia-020.webp", "location": "Piazza della Signoria, Florencia, Italia", "caption": "El coloso de mármol: la imponente presencia del Nettuno de Ammannati en la Piazza della Signoria", "tags": ["Florencia", "Fuente De Neptuno", "Piazza Della Signoria", "Bartolomeo Ammannati", "Escultura Renacentista", "Italia"], "alt": "Vista en primer plano de la imponente Fuente de Neptuno en Florencia. En el centro destaca la gran estatua de mármol blanco de Neptuno con barba, bajo la cual se aprecian figuras de bronce patinado en verde y caballos marinos, con la fachada de piedra rústica del Palazzo Vecchio como telón de fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496984/Florencia-021.webp", "location": "Loggia dei Lanzi, Piazza della Signoria, Florencia, Italia", "caption": "Dinamismo helicoidal: la tensión dramática de El rapto de las sabinas de Giambologna", "tags": ["Florencia", "Loggia Dei Lanzi", "Giambologna", "El Rapto De Las Sabinas", "Manierismo", "Escultura", "Italia"], "alt": "Fotografía vertical y detallada de la famosa escultura renacentista 'El rapto de las sabinas' de Giambologna, ubicada en la Loggia dei Lanzi de Florencia. Muestra en mármol blanco la compleja composición espiral de tres figuras humanas entrelazadas con expresiones de tensión y dramatismo sobre un fondo neutro y oscuro."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496985/Florencia-026.webp", "location": "Piazza della Signoria, Florencia, Italia", "caption": "Vigías cívicos: diálogo escultórico entre el Neptuno y el monumento ecuestre a Cosme I", "tags": ["Florencia", "Piazza Della Signoria", "Neptuno", "Cosme I De Médici", "Escultura", "Italia"], "alt": "Plano medio vertical que muestra una estatua de mármol blanco de Neptuno junto a figuras de bronce, incluyendo el monumento ecuestre de Cosme I, frente a edificios históricos con fachadas amarillas y de piedra en Florencia."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496987/Florencia-2012.webp", "location": "Catedral de Santa Maria del Fiore, Florencia, Italia", "caption": "La cúspide del Renacimiento: la cúpula de Brunelleschi sobre los mármoles polícromos del Duomo", "tags": ["Florencia", "Duomo", "Santa Maria Del Fiore", "Brunelleschi", "Cúpula", "Arquitectura Renacentista", "Italia"], "alt": "Vista en contrapicado de la Catedral de Florencia y su imponente cúpula de tejas rojas. La fachada muestra un elaborado diseño geométrico en mármol blanco, verde oscuro y rosa, destacando la gran cúpula diseñada por Brunelleschi bajo un cielo azul con ligeras nubes."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496988/Marsella-013.webp", "location": "Catedral de la Major, Marsella, Francia", "caption": "Rayas bizantinas sobre el muelle: la silueta monumental de la Catedral de la Major junto al puerto de Marsella", "tags": ["Marsella", "Catedral De La Major", "Puerto", "Arquitectura Románico-Bizantina", "Francia"], "alt": "Vista aérea y detallada de la Catedral de Marsella, destacando sus cúpulas de estilo bizantino y romano, y su fachada de piedra a rayas. Al fondo se observa el bullicioso puerto marítimo con barcos y contenedores."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496989/Marsella-2012.webp", "location": "Marsella, Provenza-Alpes-Costa Azul, Francia", "caption": "Horizonte provenzal: la densa marea de tejados terracota fundiéndose con el azul mediterráneo", "tags": ["Marsella", "Panorámica", "Tejados", "Mediterráneo", "Provenza", "Francia"], "alt": "Vista aérea diurna de la ciudad de Marsella, mostrando una densa amalgama de edificios residenciales con tejados de tejas naranjas, grandes bloques de oficinas modernos y, al fondo, el azul intenso del mar Mediterráneo bajo un cielo claro."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496991/Napoles-002.webp", "location": "Molo San Vincenzo, Puerto de Nápoles, Italia", "caption": "Centinela carmesí: el faro del Molo San Vincenzo guiando las aguas de la bahía napolitana", "tags": ["Nápoles", "Faro", "Molo San Vincenzo", "Puerto", "Golfo De Nápoles", "Italia"], "alt": "Vista panorámica elevada del faro rojo del Molo San Vincenzo en Nápoles, ubicado al final de un largo rompeolas de piedra que se adentra en el mar azul, con la colorida ciudad y los edificios históricos de fondo bajo una luz brillante."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496993/Napoles-004a.webp", "location": "Centro Histórico, Nápoles, Italia", "caption": "Estratigrafía barroca: cúpulas, terrazas y la vibrante superposición urbana de Nápoles", "tags": ["Nápoles", "Paisaje Urbano", "Cúpula", "Campania", "Arquitectura", "Italia"], "alt": "Vista panorámica y densa del paisaje urbano de Nápoles en Italia, donde se mezclan edificios históricos de tonos cálidos y fachadas modernas, destacando en el centro una elegante cúpula metálica gris y una compleja superposición de tejados y terrazas."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790496994/Napoles-007a.webp", "location": "Piazza Nicola Amore, Nápoles, Italia", "caption": "Fuerza en la cornisa: los atlantes colosales que sostienen los palacios de la Piazza Nicola Amore", "tags": ["Nápoles", "Piazza Nicola Amore", "Atlantes", "Arquitectura Neorrenacentista", "Escultura", "Italia"], "alt": "Fotografía en ángulo picado de la fachada de un majestuoso edificio de color ocre en Nápoles, iluminado por el sol. En la planta baja, una serie de esculturas de atlantes musculosos sostienen el peso de los balcones y arcos superiores, mientras múltiples ventanas rectangulares con contraventanas marrones y balaustradas blancas ritman la simetría de la estructura monumental."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497002/Niza-011.webp", "location": "Baie des Anges, Niza, Costa Azul, Francia", "caption": "Sinfonía en turquesa: el luminoso degradado marino de la Baie des Anges en Niza", "tags": ["Niza", "Baie Des Anges", "Costa Azul", "Mediterráneo", "Mar", "Francia"], "alt": "Vista panorámica del mar Mediterráneo en Niza, donde el agua muestra un llamativo degradado de colores que va desde un azul turquesa muy claro y brillante en primer plano hasta un tono azul marino oscuro al fondo, con el horizonte lejano difuminado por la bruma."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497013/Notre-Dame-de-la-Garde-Marsella.webp", "location": "Basílica de Notre-Dame de la Garde, Marsella, Francia", "caption": "Devoción dorada: mosaicos bizantinos y exvotos marineros bajo las cúpulas de Notre-Dame de la Garde", "tags": ["Marsella", "Notre-Dame De La Garde", "Mosaicos", "Exvotos", "Arquitectura Religiosa", "Francia"], "alt": "Vista interior de la basílica de Notre-Dame de la Garde en Marsella, destacando las cúpulas cubiertas con mosaicos dorados brillantes y los característicos arcos de piedra en tonos rojos y blancos, con pequeñas maquetas de barcos colgando como ofrendas marineras."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497014/Pisa-018.webp", "location": "Piazza dei Miracoli, Pisa, Italia", "caption": "Desafío a la gravedad: el fuste inclinado del campanile y las arcadas de mármol en el Campo dei Miracoli", "tags": ["Pisa", "Piazza Dei Miracoli", "Torre De Pisa", "Duomo", "Románico Pisano", "Italia"], "alt": "Vista en primer plano de la emblemática Torre de Pisa inclinándose hacia la derecha, flanqueada a la izquierda por la fachada de mármol blanco y gris con intrincadas arcadas y detalles geométricos de la Catedral de Pisa, enmarcada por un cielo azul parcialmente nublado con numerosos turistas en la base."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497017/Pompeya-2012.webp", "location": "Basílica del Foro, Pompeya, Italia", "caption": "Silencio petrificado: las columnas de la Basílica de Pompeya erguidas bajo la sombra del Vesubio", "tags": ["Pompeya", "Basílica Romana", "Foro", "Arqueología", "Imperio Romano", "Campania", "Italia"], "alt": "Vista horizontal de las imponentes columnas de piedra de la antigua Basílica en Pompeya, proyectando largas sombras sobre un camino de piedra. Al fondo, las ruinas de la ciudad antigua se extienden bajo un cielo azul brillante con nubes ligeras y la silueta de una montaña lejana."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497019/Puerto-Civitavecchia-a.webp", "location": "Paseo Marítimo, Civitavecchia, Italia", "caption": "El abrazo del retorno: el colosal Monumento al Beso despidiendo la costa del Tirreno", "tags": ["Civitavecchia", "Monumento Al Beso", "Paseo Marítimo", "Puerto", "Tirreno", "Italia"], "alt": "Fotografía vertical que muestra la gran escultura 'El Beso del Marinero' en la plaza portuaria de Civitavecchia. De fondo se aprecia el mar Tirreno, palmeras y el paseo marítimo con algunos transeúntes caminando bajo un cielo despejado."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497021/Puerto-Torres-Cerdena-009a.webp", "location": "Porto Torres, Cerdeña, Italia", "caption": "Pátina y salitre: persianas cerúleas y muros de solera en las callejuelas de Porto Torres", "tags": ["Porto Torres", "Cerdeña", "Arquitectura Popular", "Mediterráneo", "Texturas", "Italia"], "alt": "Primer plano de una fachada desgastada en tonos rosados y ocres en Porto Torres, Cerdeña. En el centro destaca una ventana con contraventanas celestes y, a la izquierda, una escalinata de piedra bajo tejados de teja árabe."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497024/Roma-009a.webp", "location": "Ponte Sant'Angelo y Río Tíber, Roma, Italia", "caption": "Arcos sobre el Tíber: el Ponte Sant'Angelo enmarcando la lejana cúpula de San Pedro", "tags": ["Roma", "Ponte Sant'Angelo", "Río Tíber", "Basílica De San Pedro", "Vaticano", "Italia"], "alt": "Vista panorámica del río Tíber cruzado por el histórico Puente de Sant'Angelo, con sus arcos de piedra y estatuas. Al fondo, la monumental cúpula de la Basílica de San Pedro en el Vaticano se eleva majestuosa bajo un cielo nublado."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497026/Roma-015a.webp", "location": "Centro Histórico, Roma, Italia", "caption": "Piedad en la esquina: hornacina devocional en un rincón ocre del callejero romano", "tags": ["Roma", "Madonnelle", "Hornacina", "Centro Histórico", "Arquitectura Tradicional", "Italia"], "alt": "Plano medio de una fachada en Roma con paredes de color ocre y contraventanas grises. A la derecha destaca una hornacina de piedra con un pequeño arco que alberga una figura escultórica de tonos marrones. Los volúmenes arquitectónicos crean un juego de sombras y texturas."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497030/Roma-020a.webp", "location": "Fontana di Trevi, Roma, Italia", "caption": "El triunfo del agua: la carroza de Océano y el rugido cristalino de la Fontana di Trevi", "tags": ["Roma", "Fontana Di Trevi", "Nicola Salvi", "Barroco", "Océano", "Monumento", "Italia"], "alt": "Vista frontal detallada de la Fontana de Trevi en Roma. En el nicho central destaca la imponente estatua de Océano sobre una carroza en forma de concha tirada por dos caballos marinos, flanqueado por columnas corintias, esculturas alegóricas en los nichos laterales y cascadas de agua cristalina cayendo sobre rocas artificiales."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790497033/Roma-Vaticano.webp", "location": "Basílica de San Pedro, Ciudad del Vaticano", "caption": "Inscripción imperial: el friso de Maderno y las columnas monumentales de San Pedro", "tags": ["Vaticano", "Basílica De San Pedro", "Carlo Maderno", "Fachada", "Arquitectura Renacentista", "Roma"], "alt": "Detalle arquitectónico de la fachada de la Basílica de San Pedro en el Vaticano, destacando la inscripción 'BVRGHESIVS ROMA' en el friso superior, imponentes columnas corintias, ventanas abovedadas con balcones y un relieve escultórico clásico tallado en mármol."}
     ]
   },
   {
@@ -643,141 +517,31 @@ Volví a la música para escuchar los acordes del órgano de la Westerkerk bajo 
 Dejé la capital neerlandesa tras haber recorrido en sus calles, parques, canales y museos el equivalente a dos maratones, y con la sensación de que cada metro caminado valió la pena.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063723/cgs_portfolio/Rijks-Museum-2013.webp", categoria: "Europa", fecha: "Septiembre 2013", equipo: "Canon PowerShot SX200 IS",
     galeria: [
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063998/cgs_portfolio/Enjambre-Bicicletas.webp",
-        "caption": "Caosmosis urbana: el enjambre de bicicletas frente a la Basílica de San Nicolás",
-        "tags": ["movilidad", "bicicletas", "Basílica de San Nicolás", "arquitectura", "Ámsterdam", "caos dinámico"],
-        "alt": "Perspectiva de gran angular que muestra cientos de bicicletas estacionadas en densas hileras en primer plano, con la imponente Basílica de San Nicolás y sus cúpulas gemelas dominando el horizonte bajo un cielo azul vibrante."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064000/cgs_portfolio/Por-la-ciudad-chica-ventana.webp",
-        "caption": "Transparencia y cotidianeidad: la luz de la tarde en un alféizar de De Pijp",
-        "tags": ["cotidianidad", "luz natural", "arquitectura", "ventana", "Ámsterdam", "estilo de vida"],
-        "alt": "Primer plano de una joven sentada de forma relajada y descalza en el alféizar de un ventanal de una casa de ladrillo rojo, capturada en un momento de introspección bañado por una cálida luz lateral."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064002/cgs_portfolio/Por-la-ciudad-004-fachadas.webp",
-        "caption": "El ritmo de los gabletes: fachadas históricas que se asoman al canal",
-        "tags": ["arquitectura", "Casas de Canal", "historia", "Patrimonio", "Ámsterdam", "diseño"],
-        "alt": "Vista frontal de una hilera de casas tradicionales de Ámsterdam con diferentes terminaciones de gabletes (cuello, campana y escalón), destacando los contrastes entre ladrillo oscuro, marcos blancos y el cielo despejado."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064004/cgs_portfolio/Stadssshouwburg-001.webp",
-        "caption": "Verticalidad barroca: los palcos dorados del Stadsschouwburg",
-        "tags": ["teatro", "ópera", "interiores", "arquitectura barroca", "Ámsterdam", "cultura"],
-        "alt": "Vista en contrapicado de los múltiples niveles de palcos circulares de un teatro clásico, mostrando una opulenta decoración en oro, terciopelo rojo y la inscripción SPQA en el arco del proscenio."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064059/cgs_portfolio/Westerkerk-002.webp",
-        "caption": "La voz de la Westerkerk: el monumental órgano barroco y su espacio sagrado",
-        "tags": ["Westerkerk", "órgano", "barroco", "arquitectura religiosa", "Ámsterdam", "música"],
-        "alt": "Interior de la iglesia Westerkerk destacando el gigantesco órgano ricamente tallado y decorado con figuras doradas, rodeado por la austeridad de los arcos blancos y la luz cenital del templo."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064062/cgs_portfolio/EYE-Instituto-Holandes-de-Cine-006.webp",
-        "caption": "Futurismo sobre el IJ: la proa de cristal del EYE Filmmuseum",
-        "tags": ["EYE Filmmuseum", "arquitectura contemporánea", "río IJ", "museo", "Ámsterdam", "vanguardia"],
-        "alt": "Arquitectura deconstructivista del Museo del Cine EYE en Ámsterdam, un edificio blanco y angulado que recuerda a un ojo o un barco moderno, situado frente a las aguas del río IJ bajo una luz nítida."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064064/cgs_portfolio/Estacion-Central-001.webp",
-        "caption": "Geometría luminosa: el techo caleidoscópico de la Estación Central",
-        "tags": ["ingeniería", "arquitectura moderna", "Estación Central", "lucernario", "Ámsterdam", "abstracción"],
-        "alt": "Detalle abstracto del techo curvo de la estación, compuesto por paneles geométricos translúcidos en tonos naranjas y rojos que filtran la luz solar creando un patrón rítmico y futurista."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064066/cgs_portfolio/Quesos-holandeses.webp",
-        "caption": "Bodegón urbano: ruedas de Gouda bajo el sol de mediodía",
-        "tags": ["gastronomía", "queso holandés", "tradición", "escaparate", "Ámsterdam", "detalle"],
-        "alt": "Composición centrada en una ventana de ladrillo donde se exhiben verticalmente grandes ruedas de queso de color naranja intenso, iluminadas por un rayo de sol que destaca su textura y color."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064068/cgs_portfolio/Plaza-Rembrandt-001.webp",
-        "caption": "La Ronda de Noche en 3D: diálogo entre el bronce y el paseante",
-        "tags": ["Rembrandt", "escultura", "La Ronda de Noche", "Rembrandtplein", "Ámsterdam", "arte público"],
-        "alt": "Conjunto escultórico de bronce en la Plaza Rembrandt que recrea a los personajes de la famosa pintura de Rembrandt, con un turista real posando entre las figuras de los milicianos."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064071/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum-009.webp",
-        "caption": "Perspectivas de Moore: el Rijksmuseum enmarcado en bronce",
-        "tags": ["Henry Moore", "escultura", "Rijksmuseum", "arte moderno", "Ámsterdam", "perspectiva"],
-        "alt": "Fotografía creativa tomada a través de una abertura orgánica en una escultura de Henry Moore, enmarcando a lo lejos otra estatua y el flujo de gente en los jardines del museo."
-      },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063998/cgs_portfolio/Enjambre-Bicicletas.webp", "caption": "Caosmosis urbana: el enjambre de bicicletas frente a la Basílica de San Nicolás", "tags": ["movilidad", "bicicletas", "Basílica de San Nicolás", "arquitectura", "Ámsterdam", "caos dinámico"], "alt": "Perspectiva de gran angular que muestra cientos de bicicletas estacionadas en densas hileras en primer plano, con la imponente Basílica de San Nicolás y sus cúpulas gemelas dominando el horizonte bajo un cielo azul vibrante."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064000/cgs_portfolio/Por-la-ciudad-chica-ventana.webp", "caption": "Transparencia y cotidianeidad: la luz de la tarde en un alféizar de De Pijp", "tags": ["cotidianidad", "luz natural", "arquitectura", "ventana", "Ámsterdam", "estilo de vida"], "alt": "Primer plano de una joven sentada de forma relajada y descalza en el alféizar de un ventanal de una casa de ladrillo rojo, capturada en un momento de introspección bañado por una cálida luz lateral."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064002/cgs_portfolio/Por-la-ciudad-004-fachadas.webp", "caption": "El ritmo de los gabletes: fachadas históricas que se asoman al canal", "tags": ["arquitectura", "Casas de Canal", "historia", "Patrimonio", "Ámsterdam", "diseño"], "alt": "Vista frontal de una hilera de casas tradicionales de Ámsterdam con diferentes terminaciones de gabletes (cuello, campana y escalón), destacando los contrastes entre ladrillo oscuro, marcos blancos y el cielo despejado."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064004/cgs_portfolio/Stadssshouwburg-001.webp", "caption": "Verticalidad barroca: los palcos dorados del Stadsschouwburg", "tags": ["teatro", "ópera", "interiores", "arquitectura barroca", "Ámsterdam", "cultura"], "alt": "Vista en contrapicado de los múltiples niveles de palcos circulares de un teatro clásico, mostrando una opulenta decoración en oro, terciopelo rojo y la inscripción SPQA en el arco del proscenio."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064059/cgs_portfolio/Westerkerk-002.webp", "caption": "La voz de la Westerkerk: el monumental órgano barroco y su espacio sagrado", "tags": ["Westerkerk", "órgano", "barroco", "arquitectura religiosa", "Ámsterdam", "música"], "alt": "Interior de la iglesia Westerkerk destacando el gigantesco órgano ricamente tallado y decorado con figuras doradas, rodeado por la austeridad de los arcos blancos y la luz cenital del templo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064062/cgs_portfolio/EYE-Instituto-Holandes-de-Cine-006.webp", "caption": "Futurismo sobre el IJ: la proa de cristal del EYE Filmmuseum", "tags": ["EYE Filmmuseum", "arquitectura contemporánea", "río IJ", "museo", "Ámsterdam", "vanguardia"], "alt": "Arquitectura deconstructivista del Museo del Cine EYE en Ámsterdam, un edificio blanco y angulado que recuerda a un ojo o un barco moderno, situado frente a las aguas del río IJ bajo una luz nítida."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064064/cgs_portfolio/Estacion-Central-001.webp", "caption": "Geometría luminosa: el techo caleidoscópico de la Estación Central", "tags": ["ingeniería", "arquitectura moderna", "Estación Central", "lucernario", "Ámsterdam", "abstracción"], "alt": "Detalle abstracto del techo curvo de la estación, compuesto por paneles geométricos translúcidos en tonos naranjas y rojos que filtran la luz solar creando un patrón rítmico y futurista."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064066/cgs_portfolio/Quesos-holandeses.webp", "caption": "Bodegón urbano: ruedas de Gouda bajo el sol de mediodía", "tags": ["gastronomía", "queso holandés", "tradición", "escaparate", "Ámsterdam", "detalle"], "alt": "Composición centrada en una ventana de ladrillo donde se exhiben verticalmente grandes ruedas de queso de color naranja intenso, iluminadas por un rayo de sol que destaca su textura y color."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064068/cgs_portfolio/Plaza-Rembrandt-001.webp", "caption": "La Ronda de Noche en 3D: diálogo entre el bronce y el paseante", "tags": ["Rembrandt", "escultura", "La Ronda de Noche", "Rembrandtplein", "Ámsterdam", "arte público"], "alt": "Conjunto escultórico de bronce en la Plaza Rembrandt que recrea a los personajes de la famosa pintura de Rembrandt, con un turista real posando entre las figuras de los milicianos."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064071/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum-009.webp", "caption": "Perspectivas de Moore: el Rijksmuseum enmarcado en bronce", "tags": ["Henry Moore", "escultura", "Rijksmuseum", "arte moderno", "Ámsterdam", "perspectiva"], "alt": "Fotografía creativa tomada a través de una abertura orgánica en una escultura de Henry Moore, enmarcando a lo lejos otra estatua y el flujo de gente en los jardines del museo."},
       FOTO_AMSTERDAM_VAN_GOGH,
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064073/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum.webp",
-        "caption": "Un abrazo de metal frente a la historia",
-        "tags": ["escultura", "bronce", "Rijksmuseum", "arte abstracto", "Ámsterdam"],
-        "alt": "Escultura de bronce de formas fluidas situada en primer plano, con la majestuosa fachada neorrenacentista del Rijksmuseum de fondo."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064076/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum-008.webp",
-        "caption": "Figura reclinada: armonía entre arte moderno y arquitectura del siglo XIX",
-        "tags": ["Henry Moore", "Rijksmuseum", "jardines", "escultura", "Ámsterdam", "bronce"],
-        "alt": "Vista lateral de una escultura reclinada de Moore que contrasta su modernidad con los arcos y torres de ladrillo del museo nacional."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064079/cgs_portfolio/Canales-de-Amsterdam-031.webp",
-        "caption": "El pulso del canal: barcos de recreo, bicicletas y el viejo Ámsterdam",
-        "tags": ["canal", "transporte", "vidau urbana", "barcos", "Ámsterdam", "verano"],
-        "alt": "Panorámica de un canal con barcos de excursión, filas de bicicletas en el muelle y edificios históricos que se curvan siguiendo la vía de agua."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064080/cgs_portfolio/Musicos-en-el-barrio-de-Jordaan.webp",
-        "caption": "Melodías en Jordaan: el espíritu bohemio del barrio de las flores",
-        "tags": ["música callejera", "Jordaan", "acordeón", "violonchelo", "Ámsterdam", "atmósfera"],
-        "alt": "Un trío de músicos tocando en una intersección soleada del barrio Jordaan, rodeados de terrazas de café, bicicletas y la luz dorada del atardecer."
-      },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064073/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum.webp", "caption": "Un abrazo de metal frente a la historia", "tags": ["escultura", "bronce", "Rijksmuseum", "arte abstracto", "Ámsterdam"], "alt": "Escultura de bronce de formas fluidas situada en primer plano, con la majestuosa fachada neorrenacentista del Rijksmuseum de fondo."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064076/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum-008.webp", "caption": "Figura reclinada: armonía entre arte moderno y arquitectura del siglo XIX", "tags": ["Henry Moore", "Rijksmuseum", "jardines", "escultura", "Ámsterdam", "bronce"], "alt": "Vista lateral de una escultura reclinada de Moore que contrasta su modernidad con los arcos y torres de ladrillo del museo nacional."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064079/cgs_portfolio/Canales-de-Amsterdam-031.webp", "caption": "El pulso del canal: barcos de recreo, bicicletas y el viejo Ámsterdam", "tags": ["canal", "transporte", "vidau urbana", "barcos", "Ámsterdam", "verano"], "alt": "Panorámica de un canal con barcos de excursión, filas de bicicletas en el muelle y edificios históricos que se curvan siguiendo la vía de agua."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064080/cgs_portfolio/Musicos-en-el-barrio-de-Jordaan.webp", "caption": "Melodías en Jordaan: el espíritu bohemio del barrio de las flores", "tags": ["música callejera", "Jordaan", "acordeón", "violonchelo", "Ámsterdam", "atmósfera"], "alt": "Un trío de músicos tocando en una intersección soleada del barrio Jordaan, rodeados de terrazas de café, bicicletas y la luz dorada del atardecer."},
       FOTO_AMSTERDAM_UITMARKT_CONCIERTO,
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064091/cgs_portfolio/Plaza-DAM-004.webp",
-        "caption": "Atlas soporta los cielos: el guardián de la Plaza Dam",
-        "tags": ["Plaza Dam", "Atlas", "escultura", "mitología", "Ámsterdam", "monumento"],
-        "alt": "Escultura de bronce en contrapicado de Atlas sosteniendo la esfera celeste, situada en la parte superior del Palacio Real en la Plaza Dam, recortada contra el cielo azul."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064093/cgs_portfolio/Cultura-del-reciclaje.webp",
-        "caption": "Civismo temprano: niños recolectando vasos en el Uitmarkt",
-        "tags": ["ecología", "niños", "reciclaje", "festival", "cultura holandesa", "Uitmarkt"],
-        "alt": "Escena costumbrista que muestra a varios niños apilando con entusiasmo vasos de plástico para cambiarlos por monedas, educando en la sostenibilidad."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064094/cgs_portfolio/Canales-de-Amsterdam-027.webp",
-        "caption": "Vida a ras de agua: tarde de ocio en una casa flotante",
-        "tags": ["casa flotante", "canal", "estilo de vida", "verano", "Ámsterdam", "barco"],
-        "alt": "Un grupo de amigos descansa en la cubierta de madera de una casa flotante decorada con plantas y muebles sencillos, reflejando la vida relajada sobre los canales."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064097/cgs_portfolio/Homenaje-a-musicos-de-jazz.webp",
-        "caption": "Johnny Jordaan y su eterna sonrisa de bronce",
-        "tags": ["Jordaan", "estatua", "Johnny Jordaan", "música", "Ámsterdam", "folclore"],
-        "alt": "Estatua de bronce dedicada al cantante folclórico Johnny Jordaan sentado con su acordeón y una pipa, en una callejuela pintoresca de su barrio natal."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064098/cgs_portfolio/Festival-Uitmarkt-Explanada-de-los-Museos-017.webp",
-        "caption": "Pequeñas divas: la pureza del arte infantil en el Uitmarkt",
-        "tags": ["festival", "niños", "actuación", "teatro", "Ámsterdam", "pureza"],
-        "alt": "Una niña pequeña vestida de princesa blanca sentada ante un micrófono profesional en un escenario, capturando la inocencia y el valor del debut artístico."
-      },
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064091/cgs_portfolio/Plaza-DAM-004.webp", "caption": "Atlas soporta los cielos: el guardián de la Plaza Dam", "tags": ["Plaza Dam", "Atlas", "escultura", "mitología", "Ámsterdam", "monumento"], "alt": "Escultura de bronce en contrapicado de Atlas sosteniendo la esfera celeste, situada en la parte superior del Palacio Real en la Plaza Dam, recortada contra el cielo azul."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064093/cgs_portfolio/Cultura-del-reciclaje.webp", "caption": "Civismo temprano: niños recolectando vasos en el Uitmarkt", "tags": ["ecología", "niños", "reciclaje", "festival", "cultura holandesa", "Uitmarkt"], "alt": "Escena costumbrista que muestra a varios niños apilando con entusiasmo vasos de plástico para cambiarlos por monedas, educando en la sostenibilidad."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064094/cgs_portfolio/Canales-de-Amsterdam-027.webp", "caption": "Vida a ras de agua: tarde de ocio en una casa flotante", "tags": ["casa flotante", "canal", "estilo de vida", "verano", "Ámsterdam", "barco"], "alt": "Un grupo de amigos descansa en la cubierta de madera de una casa flotante decorada con plantas y muebles sencillos, reflejando la vida relajada sobre los canales."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064097/cgs_portfolio/Homenaje-a-musicos-de-jazz.webp", "caption": "Johnny Jordaan y su eterna sonrisa de bronce", "tags": ["Jordaan", "estatua", "Johnny Jordaan", "música", "Ámsterdam", "folclore"], "alt": "Estatua de bronce dedicada al cantante folclórico Johnny Jordaan sentado con su acordeón y una pipa, en una callejuela pintoresca de su barrio natal."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064098/cgs_portfolio/Festival-Uitmarkt-Explanada-de-los-Museos-017.webp", "caption": "Pequeñas divas: la pureza del arte infantil en el Uitmarkt", "tags": ["festival", "niños", "actuación", "teatro", "Ámsterdam", "pureza"], "alt": "Una niña pequeña vestida de princesa blanca sentada ante un micrófono profesional en un escenario, capturando la inocencia y el valor del debut artístico."},
       FOTO_AMSTERDAM_RIJKSMUSEUM,
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064101/cgs_portfolio/Stedelijk-Museum-La-banera-Explanada-de-los-Museos-001-Explanada-de-los-Museos-001.webp",
-        "caption": "La bañera blanca: el atrevido anexo del Museo Stedelijk",
-        "tags": ["Stedelijk Museum", "arquitectura moderna", "Museumplein", "diseño", "Ámsterdam"],
-        "alt": "Fachada futurista del Museo Stedelijk conocida como la 'bañera' por sus paredes blancas y curvas, con gente descansando en el césped de la Explanada de los Museos."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064103/cgs_portfolio/Rijks-Museum-Museo-Nacional-002.webp",
-        "caption": "El café del museo: un refugio de diseño en el corazón del Rijksmuseum",
-        "tags": ["Rijksmuseum", "café", "interiores", "ocio", "Ámsterdam"],
-        "alt": "Vista interior de la moderna cafetería del Rijksmuseum, con sus lámparas colgantes y la gente disfrutando de un descanso entre obras de arte."
-      },
-      {
-        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064105/cgs_portfolio/Vondelpark-siesta.webp",
-        "caption": "Pausa en el verde: una siesta bajo el cielo del Vondelpark",
-        "tags": ["Vondelpark", "descanso", "naturaleza", "parque urbano", "Ámsterdam"],
-        "alt": "Una persona duerme plácidamente boca abajo sobre la hierba fresca del Vondelpark, rodeada de la inmensidad verde del parque más famoso de la ciudad."
-      }
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064101/cgs_portfolio/Stedelijk-Museum-La-banera-Explanada-de-los-Museos-001-Explanada-de-los-Museos-001.webp", "caption": "La bañera blanca: el atrevido anexo del Museo Stedelijk", "tags": ["Stedelijk Museum", "arquitectura moderna", "Museumplein", "diseño", "Ámsterdam"], "alt": "Fachada futurista del Museo Stedelijk conocida como la 'bañera' por sus paredes blancas y curvas, con gente descansando en el césped de la Explanada de los Museos."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064103/cgs_portfolio/Rijks-Museum-Museo-Nacional-002.webp", "caption": "El café del museo: un refugio de diseño en el corazón del Rijksmuseum", "tags": ["Rijksmuseum", "café", "interiores", "ocio", "Ámsterdam"], "alt": "Vista interior de la moderna cafetería del Rijksmuseum, con sus lámparas colgantes y la gente disfrutando de un descanso entre obras de arte."},
+      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064105/cgs_portfolio/Vondelpark-siesta.webp", "caption": "Pausa en el verde: una siesta bajo el cielo del Vondelpark", "tags": ["Vondelpark", "descanso", "naturaleza", "parque urbano", "Ámsterdam"], "alt": "Una persona duerme plácidamente boca abajo sobre la hierba fresca del Vondelpark, rodeada de la inmensidad verde del parque más famoso de la ciudad."}
     ]
   },
 ];
