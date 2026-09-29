@@ -301,6 +301,15 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 9
   },
   {
+    "id": "Gale2020",
+    "titulo": "Barcelona",
+    "ubicacion": "Escenas 2020",
+    "fecha": "2020",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790597495/Modelo_Avenida_Reina_Cristina-Montjuic.webp",
+    "equipo": "Samsung SM-G975F",
+    "fotosCount": 27
+  },
+  {
     "id": "Gale2019",
     "titulo": "Barcelona · Madrid · Caracas",
     "ubicacion": "Escenas 2019",
