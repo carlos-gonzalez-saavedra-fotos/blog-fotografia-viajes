@@ -269,7 +269,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona",
     "ubicacion": "Escenas 2024",
     "fecha": "2024",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063050/cgs_portfolio/Puerto-BCN.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063339/cgs_portfolio/Manifesta-15-Tres-chimeneas-_3_.webp",
     "equipo": "Sony ILCE-6000 · Samsung SM-G975F",
     "fotosCount": 16
   },
@@ -278,7 +278,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona",
     "ubicacion": "Escenas 2025",
     "fecha": "2025",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063345/cgs_portfolio/Tibidabo_vistas_aereas__2_.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063330/cgs_portfolio/Mercart-Encants.webp",
     "equipo": "Samsung Galaxy S25 Ultra",
     "fotosCount": 17
   },
@@ -341,7 +341,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona · Costa Brava · Girona",
     "ubicacion": "Escenas 2017",
     "fecha": "2017",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063448/cgs_portfolio/Degustacion-ostras-Delta-Ebro-en-Barcelona.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063453/cgs_portfolio/Chillida-Elogio-del-agua.webp",
     "equipo": "Samsung SM-G935F · Sony ILCE-6000",
     "fotosCount": 17
   },
