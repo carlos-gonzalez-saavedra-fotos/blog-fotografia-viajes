@@ -301,6 +301,15 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 9
   },
   {
+    "id": "Gale2021",
+    "titulo": "Barcelona · Madrid",
+    "ubicacion": "Escenas 2021",
+    "fecha": "2021",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1790698322/MNAC_Francesc-Torres_Aeronautica-Vuelo_interior-010.webp",
+    "equipo": "Samsung SM-G975F · Sony ILCE-6000",
+    "fotosCount": 25
+  },
+  {
     "id": "Gale2020",
     "titulo": "Barcelona",
     "ubicacion": "Escenas 2020",
