@@ -83,7 +83,7 @@ export const VIAJES_RESUMEN: ViajeResumen[] = [
     "titulo": "Berlín al ocaso del verano",
     "ubicacion": "Berlín",
     "resumen": "Berlín es una ciudad que ha sabido transformar sus cicatrices en arte y su historia en futuro. A través de este recorrido en bicicleta, descubrimos contrastes fascinantes: desde la majestuosidad de sus catedrales y palacios prusianos hasta la vanguardia de Potsdamer Platz y el emotivo Monumento al Holocausto.",
-    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063881/cgs_portfolio/Catedral.webp",
+    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063952/cgs_portfolio/Konzerthaus-1.webp",
     "categoria": "Europa",
     "fecha": "Septiembre 2011",
     "equipo": "Canon PowerShot SX200 IS",
@@ -251,7 +251,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Jean Arp",
     "ubicacion": "Escultura y Vanguardia",
     "fecha": "1997-2023",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063013/cgs_portfolio/UCV_Caracas_Jean_Arp_Pastor_de_nubes_003.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063027/cgs_portfolio/Museo-Louisiana-de-arte-moderno-Dinamarca-Arp-Concretion-humaine-sur-coupe-ovale-1948.webp",
     "equipo": "Sony ILCE-6000 · Samsung SM-G975F · Canon PowerShot SX200 IS · Minolta X-300s",
     "fotosCount": 12
   },
@@ -305,7 +305,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona · Valencia · Portbou · Sant Cugat · Sant Pol",
     "ubicacion": "Escenas 2022",
     "fecha": "2022",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1790875716/Desde_Hotel_Vela-002.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1790875774/Sant_Pol-de_Mar-007.webp",
     "equipo": "Samsung SM-G975F",
     "fotosCount": 42
   },
@@ -359,7 +359,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona",
     "ubicacion": "Escenas 2016",
     "fecha": "2016",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063461/cgs_portfolio/Barcelona-desde-la-torre-de-Santa-Maria-del-Pi.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063475/cgs_portfolio/Torres-venecianas-Plaza-Espanya.webp",
     "equipo": "Sony ILCE-6000",
     "fotosCount": 23
   },
@@ -386,7 +386,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona · Poblet",
     "ubicacion": "Escenas 2013",
     "fecha": "2013",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063554/cgs_portfolio/Miro-en-el-MNAC.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063582/cgs_portfolio/La-Merce-2013-en-La-Ciutadella-005.webp",
     "equipo": "Nikon COOLPIX L820",
     "fotosCount": 14
   },
@@ -431,7 +431,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona · Valle del Loira · Normandía · Bretaña · Venezuela",
     "ubicacion": "Escenas 2008",
     "fecha": "2008",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789575342/Uchire-fauna-paisajes-03.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789575327/Oro_Verde-Iguanas-Venezuela-1.webp",
     "equipo": "Nikon COOLPIX L4 · Nikon D50 · Sony DSC-P73",
     "fotosCount": 28
   },
