@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
-import { X, ChevronLeft, ChevronRight, Camera, BookOpen } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Camera, BookOpen, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 interface LightboxPhoto {
   url: string;
   caption?: string;
   ubicacion?: string;
+  location?: string;
   titulo?: string;
   tripId?: string;
   useTitleAsHeader?: boolean;
@@ -84,11 +85,12 @@ export const Lightbox: React.FC<LightboxProps> = ({
 
   const currentPhoto = photos[currentIndex];
 
-  // Lógica de encabezado ultra-robusta:
-  let headerText = currentPhoto?.ubicacion;
+  // Lógica de encabezado con preferencia por ubicación geográfica concreta:
+  const photoLocation = currentPhoto?.location || currentPhoto?.ubicacion;
+  let headerText = photoLocation;
   if (currentPhoto?.useTitleAsHeader && currentPhoto?.titulo) {
     headerText = currentPhoto.titulo;
-  } else if (!currentPhoto?.tripId && currentPhoto?.titulo) {
+  } else if (!currentPhoto?.tripId && currentPhoto?.titulo && !photoLocation) {
     headerText = currentPhoto.titulo;
   }
 
@@ -136,11 +138,12 @@ export const Lightbox: React.FC<LightboxProps> = ({
           </div>
 
           {/* Metadatos Superiores (Ubicación/Título y Contador) */}
-          <div className="w-full px-6 md:px-20 py-2 flex justify-between items-start gap-4 z-[90] shrink-0">
-            <span className="flex-1 text-gold text-[10px] uppercase tracking-[0.4em] sm:tracking-[0.5em] font-medium leading-relaxed">
-              {headerText}
-            </span>
-            <span className="shrink-0 text-white/40 text-[10px] tracking-[0.5em] uppercase self-start pt-0.5">
+          <div className="w-full px-6 md:px-20 py-2 flex justify-between items-center gap-4 z-[90] shrink-0">
+            <div className="flex-1 flex items-center gap-2 text-gold text-[10px] sm:text-xs uppercase tracking-[0.3em] sm:tracking-[0.4em] font-medium leading-relaxed truncate">
+              {headerText && <MapPin size={13} strokeWidth={1.5} className="shrink-0 text-gold" />}
+              <span className="truncate">{headerText}</span>
+            </div>
+            <span className="shrink-0 text-white/40 text-[10px] tracking-[0.5em] uppercase self-center pt-0.5">
               {currentIndex + 1} / {photos.length}
             </span>
           </div>

@@ -75,8 +75,10 @@ export const Home = () => {
 
   return (
     <div className="min-h-screen bg-black selection:bg-gold selection:text-black">
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: 'es' }}>
         <title>Carlos González Saavedra | Fotografía & Relatos de Viaje</title>
+        <meta httpEquiv="content-language" content="es" />
+        <meta property="og:locale" content="es_ES" />
         <meta name="description" content="Explora el mundo a través de la lente y la pluma de Carlos González Saavedra. Fotografía artística, crónicas de viaje y relatos que capturan la esencia de cada destino." />
         <meta name="keywords" content="Carlos González Saavedra, fotografía, relatos de viaje, crónicas, viajes, arte, fotografía artística, blog de viajes" />
         <meta name="robots" content="index, follow" />

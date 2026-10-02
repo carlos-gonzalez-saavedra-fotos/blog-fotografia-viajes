@@ -256,7 +256,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 12
   },
   {
-    "id": "GaleBCN2023",
+    "id": "Gale2023",
     "titulo": "Barcelona · Manresa · Martorell",
     "ubicacion": "Escenas 2023",
     "fecha": "2023",
@@ -265,7 +265,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 14
   },
   {
-    "id": "GaleBCN2024",
+    "id": "Gale2024",
     "titulo": "Barcelona",
     "ubicacion": "Escenas 2024",
     "fecha": "2024",
@@ -274,7 +274,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fotosCount": 16
   },
   {
-    "id": "GaleBCN2025",
+    "id": "Gale2025",
     "titulo": "Barcelona",
     "ubicacion": "Escenas 2025",
     "fecha": "2025",
@@ -287,7 +287,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Esfuerzos detenidos",
     "ubicacion": "La estética del deporte",
     "fecha": "2009-2025",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063395/cgs_portfolio/Europeos_atletismo_BCY_2010__3_.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063398/cgs_portfolio/Europeos-atletismo-BCN-2010-_1_.webp",
     "equipo": "",
     "fotosCount": 21
   },
@@ -299,6 +299,15 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063400/cgs_portfolio/Concierto_Rosario_Flores_2.webp",
     "equipo": "",
     "fotosCount": 9
+  },
+  {
+    "id": "Gale2022",
+    "titulo": "Barcelona · Valencia · Portbou · Sant Cugat · Sant Pol",
+    "ubicacion": "Escenas 2022",
+    "fecha": "2022",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1790875716/Desde_Hotel_Vela-002.webp",
+    "equipo": "Samsung SM-G975F",
+    "fotosCount": 42
   },
   {
     "id": "Gale2021",
@@ -350,7 +359,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona",
     "ubicacion": "Escenas 2016",
     "fecha": "2016",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063461/cgs_portfolio/Catedral-de-Barcelona-003.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063461/cgs_portfolio/Barcelona-desde-la-torre-de-Santa-Maria-del-Pi.webp",
     "equipo": "Sony ILCE-6000",
     "fotosCount": 23
   },
@@ -440,7 +449,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "titulo": "Barcelona · San Sebastián · Bilbao · Londres · Venecia · París",
     "ubicacion": "Escenas 1995-2004",
     "fecha": "1995-2004",
-    "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063510/cgs_portfolio/Torres-Agua-Hotel-Ars-1997.webp",
+    "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789731982/La-Concha-San-Sebastian-1995.webp",
     "equipo": "Minolta X-300s",
     "fotosCount": 34
   },
@@ -457,10 +466,10 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "id": "GaleArte",
     "titulo": "Contemplar el arte",
     "ubicacion": "Personas en museos",
-    "fecha": "2006-2019",
+    "fecha": "2006-2022",
     "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063603/cgs_portfolio/Gego-en-el-Macba-2006-04.webp",
     "equipo": "",
-    "fotosCount": 3
+    "fotosCount": 8
   }
 ];
 

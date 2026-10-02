@@ -88,8 +88,10 @@ export const ReviewDetail = () => {
 
   return (
     <div className="min-h-screen bg-black text-white font-light">
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: 'es' }}>
         <title>{`${viaje.titulo} | Carlos González Saavedra`}</title>
+        <meta httpEquiv="content-language" content="es" />
+        <meta property="og:locale" content="es_ES" />
         <meta name="description" content={viaje.resumen || (viaje.reseña ? viaje.reseña.slice(0, 160) : '')} />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={`https://carlos-gonzalez-saavedra.vercel.app/viaje/${viaje.id}`} />
@@ -266,6 +268,7 @@ export const ReviewDetail = () => {
               caption: typeof item === 'string' ? undefined : item.caption,
               titulo: viaje.titulo,
               ubicacion: typeof item === 'string' ? viaje.ubicacion : (item.location || viaje.ubicacion),
+              location: typeof item === 'string' ? viaje.ubicacion : (item.location || viaje.ubicacion),
               tripId: viaje.id
             }))}
           />

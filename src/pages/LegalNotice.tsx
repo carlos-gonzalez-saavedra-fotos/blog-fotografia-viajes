@@ -6,8 +6,10 @@ import { Helmet } from 'react-helmet-async';
 export const LegalNotice = () => {
   return (
     <div className="min-h-screen bg-black text-white pt-32 pb-24 px-6">
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: 'es' }}>
         <title>Aviso Legal | Carlos González Saavedra</title>
+        <meta httpEquiv="content-language" content="es" />
+        <meta property="og:locale" content="es_ES" />
         <meta name="description" content="Aviso legal y condiciones de uso del sitio web de Carlos González Saavedra. Información sobre propiedad intelectual y protección de datos." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://carlos-gonzalez-saavedra.vercel.app/aviso-legal" />

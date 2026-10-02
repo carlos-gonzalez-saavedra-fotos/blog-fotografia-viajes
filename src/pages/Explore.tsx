@@ -12,6 +12,7 @@ interface PhotoItem {
   caption: string;
   tags: string[];
   ubicacion: string;
+  location?: string;
   titulo: string;
   tripId?: string;
   useTitleAsHeader?: boolean;
@@ -42,7 +43,15 @@ export const Explore = () => {
           const caption = typeof item === 'string' ? '' : item.caption || '';
           const tags = typeof item === 'string' ? [] : item.tags || [];
           const itemLocation = typeof item === 'string' ? undefined : item.location;
-          photos.push({ url, caption, tags, ubicacion: itemLocation || viaje.ubicacion, titulo: viaje.titulo, tripId: viaje.id });
+          photos.push({ 
+            url, 
+            caption, 
+            tags, 
+            ubicacion: itemLocation || viaje.ubicacion, 
+            location: itemLocation || viaje.ubicacion,
+            titulo: viaje.titulo, 
+            tripId: viaje.id 
+          });
         });
       }
     });
@@ -62,6 +71,7 @@ export const Explore = () => {
             caption, 
             tags, 
             ubicacion: itemLocation || foto.ubicacion, 
+            location: itemLocation || foto.ubicacion,
             titulo: foto.titulo,
             tripId: foto.id,
             useTitleAsHeader: !itemLocation 
@@ -158,8 +168,10 @@ export const Explore = () => {
 
   return (
     <div className="min-h-screen bg-black text-white pt-32 pb-20 px-6 font-light">
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: 'es' }}>
         <title>Explorar Archivo Visual | Carlos González Saavedra</title>
+        <meta httpEquiv="content-language" content="es" />
+        <meta property="og:locale" content="es_ES" />
         <meta name="description" content="Explora el archivo visual completo de fotografías y crónicas de viajes de Carlos González Saavedra. Búsqueda por temas, lugares y etiquetas." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://carlos-gonzalez-saavedra.vercel.app/explorar" />
@@ -229,6 +241,7 @@ export const Explore = () => {
           url: p.url,
           caption: p.caption,
           ubicacion: p.ubicacion,
+          location: p.location || p.ubicacion,
           titulo: p.titulo,
           tripId: p.tripId,
           useTitleAsHeader: p.useTitleAsHeader

@@ -157,19 +157,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleBCN2023</loc>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2022</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2023</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleBCN2024</loc>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2024</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/GaleBCN2025</loc>
+    <loc>https://carlos-gonzalez-saavedra.vercel.app/viaje/Gale2025</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
