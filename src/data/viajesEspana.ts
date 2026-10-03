@@ -1,4 +1,20 @@
-import { Viaje } from "../types";
+import { Viaje, GalleryItem } from "../types";
+
+export const FOTO_MADRID_PALACIO_CRISTAL: GalleryItem = {
+  url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063493/cgs_portfolio/Palacio-Cristal-Parque-del-Retiro-Madrid.webp",
+  caption: "Luz y cristal: El esplendor del Palacio de Cristal madrileño",
+  location: "Palacio de Cristal, Parque del Retiro, Madrid",
+  tags: ["Madrid", "Retiro", "Arquitectura", "Palacio De Cristal", "Invierno"],
+  alt: "El Palacio de Cristal del Retiro se refleja en el lago bajo el cielo invernal, destacando su elegante estructura de hierro y vidrio."
+};
+
+export const FOTO_MADRID_COCIDO_CRUZ_BLANCA: GalleryItem = {
+  url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1790939691/cgs_portfolio/Cocido-Cerveceria-Cruz-Blanca-Madrid.webp",
+  caption: "Gastronomía castiza: El cocido madrileño de la Cruz Blanca en Vallecas",
+  location: "Cervecería Cruz Blanca, Vallecas, Madrid",
+  tags: ["Gastronomía", "Madrid", "Cocido Madrileño", "Cruz Blanca", "Tradición", "Placer Culinario", "Vallecas"],
+  alt: "Una mesa bien servida con un tradicional cocido madrileño en tres vuelcos: garbanzos, carnes y verduras acompañados de vino en la Cervecería Cruz Blanca de Vallecas."
+};
 
 export const viajesEspana: Viaje[] = [
 {
@@ -301,7 +317,11 @@ La tarde la dediqué a un peregrinaje por dos templos del arte. En el Prado, me 
 Mi última parada fue una visita rasante al Museo Reina Sofía, apenas con tiempo para someterme al magnetismo habitual del Guernica de Picasso y para sentarme un momento en el patio, exhausto pero satisfecho, junto al móvil Carmen de Alexander Calder, cuyas formas abstractas y coloridas danzaban suavemente con la brisa de la otoñal tarde madrileña.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063723/cgs_portfolio/Gran-Via-de-Madrid-sin-trafico-2015.webp", categoria: "España", fecha: "Noviembre 2015", equipo: "Samsung GT-I9505",
     galeria: [
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063723/cgs_portfolio/Gran-Via-de-Madrid-sin-trafico-2015.webp", caption: "Pareja de novios en una Gran Vía sin tráfico", tags: ["madrid", "gran vía", "novios", "boda", "ciudad", "arquitectura urbana"], "alt": "Vista de la Gran Vía de Madrid despejada de tráfico, con una pareja de novios caminando por el asfalto. Los edificios clásicos y el asfalto vacío crean una atmósfera inusual en el corazón de la capital." },
+      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063723/cgs_portfolio/Gran-Via-de-Madrid-sin-trafico-2015.webp", caption: "Pareja de novios en una Gran Vía sin tráfico", location: "Gran Vía, Madrid", tags: ["madrid", "gran vía", "novios", "boda", "ciudad", "arquitectura urbana"], alt: "Vista de la Gran Vía de Madrid despejada de tráfico, con una pareja de novios caminando por el asfalto. Los edificios clásicos y el asfalto vacío crean una atmósfera inusual en el corazón de la capital." },
+      { url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790939395/Gran-Via-Madris-novia-flecha-002.webp", caption: "Rumbo nupcial: la novia y la flecha sobre el asfalto despejado de la Gran Vía", location: "Gran Vía, Madrid", tags: ["Gran Vía", "Madrid", "Boda", "Novia", "Arquitectura Urbana", "Peatonalización"], alt: "Una novia con su vestido blanco camina sobre el asfalto peatonalizado de la Gran Vía de Madrid, junto a una flecha vial y con la arquitectura histórica de fondo." },
+      { url: "https://res.cloudinary.com/tsruit2h/image/upload/v1790939395/Palacio-de-Cristal_Parque-del_Retiro.04a.webp", caption: "Cúpulas transparentes: filigrana de hierro y vidrio en el Palacio de Cristal", location: "Palacio de Cristal, Parque del Retiro, Madrid", tags: ["Palacio de Cristal", "Parque del Retiro", "Madrid", "Arquitectura en Hierro", "Vidrio", "Patrimonio", "Otoño"], alt: "Perspectiva del Palacio de Cristal en el Parque del Retiro de Madrid, resaltando su majestuosa cúpula acristalada y su estructura de hierro entre los árboles del parque." },
+      FOTO_MADRID_PALACIO_CRISTAL,
+      FOTO_MADRID_COCIDO_CRUZ_BLANCA,
     ]
   },
 ];
