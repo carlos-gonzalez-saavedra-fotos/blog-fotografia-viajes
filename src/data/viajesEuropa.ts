@@ -358,7 +358,7 @@ Definitivamente, Berlín es una metrópolis que ha sabido transformar sus cicatr
   },
 
   {
-    id: "narbonaagde", url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063972/cgs_portfolio/Calles_de_Toulouse_010.webp", titulo: "Cálidos destellos", ubicacion: "Narbona-Agde-Toulouse", resumen: "Avanza el tren hacia Narbona un luminoso día de septiembre. Apenas pongo un pie en sus calles, me encuentro con una imagen que parece darme la bienvenida: una loba amamantando a dos niños...", reseña: `Avanza el tren hacia Narbona un luminoso día de septiembre. Apenas pongo un pie en sus calles, me encuentro con una imagen que parece darme la bienvenida: una loba amamantando a dos niños, escultura que presagia el rico pasado romano que estoy a punto de descubrir. Esta antigua capital de la Galia Narbonense, estratégicamente ubicada entre los Pirineos y los Alpes, conserva en sus entrañas las huellas de su glorioso pasado como Narbo Martius.
+    id: "narbonaagde", url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791050714/La_Garonne.webp", titulo: "Cálidos destellos", ubicacion: "Narbona-Agde-Toulouse", resumen: "Avanza el tren hacia Narbona un luminoso día de septiembre. Apenas pongo un pie en sus calles, me encuentro con una imagen que parece darme la bienvenida: una loba amamantando a dos niños...", reseña: `Avanza el tren hacia Narbona un luminoso día de septiembre. Apenas pongo un pie en sus calles, me encuentro con una imagen que parece darme la bienvenida: una loba amamantando a dos niños, escultura que presagia el rico pasado romano que estoy a punto de descubrir. Esta antigua capital de la Galia Narbonense, estratégicamente ubicada entre los Pirineos y los Alpes, conserva en sus entrañas las huellas de su glorioso pasado como Narbo Martius.
 Camino sobre adoquines perfectamente alineados hasta llegar a la Plaza del Ayuntamiento, donde descubro los vestigios de la Vía Domitia, primera autopista romana en la actual Francia, desenterrada en 1997. Una joven lee absorta junto a estas piedras milenarias, creando una curiosa simbiosis entre presente y pasado.
 Ansioso por obtener una perspectiva más amplia, asciendo los 162 escalones del Torreón Gilles-Aycelin. El esfuerzo vale la pena: desde las alturas aprecio en panorámica la catedral, la planicie circundante, la montaña de la Clape y las lagunas litorales que abrazan la ciudad. El Museo Arqueológico complementa esta visión, con su fascinante colección lapidaria y sus vibrantes pinturas y mosaicos: ventanas a la vida cotidiana de los antiguos habitantes de Narbo Martius.
 La Catedral de San Justo y San Pastor desborda majestuosidad gótica. Aunque técnicamente es solo un presbiterio con claustro, sus vitrales multicolores y la música que intuyo del órgano (pues nadie lo toca ahora), crean una atmósfera de paz y recogimiento espiritual. No puedo evitar sonreír al encontrar en uno de sus retablos el curioso "gemelo medieval" del expresidente español Zapatero.
@@ -377,9 +377,176 @@ A lo lejos veo la imponente silueta de La Basílica de San Saturnino y al cruzar
 En el Convento de los Jacobinos, destaca la magistral bóveda en forma de palmera. La columna central se despliega hacia el techo como un árbol de piedra, creando un efecto visual que desafía la gravedad. Los rayos de sol atraviesan los vitrales y tiñen las paredes de ladrillo del interior con tonalidades rojizas. El vestido carmesí de una mujer se suma a este espectáculo de luz y color.
 Paso luego junto al majestuoso Hôtel d'Assézat y la Iglesia de Taur, y desemboco en el paseo de La Garonne. Desde el Pont Saint-Pierre, contemplo cómo el río abraza la ciudad mientras el sol de la tarde dora la cúpula de cobre de la Chapelle Saint-Joseph de la Grave. Las farolas del puente enmarcan una postal perfecta de esta ciudad que respira historia y elegancia.
 Al atardecer, en la estación de trenes, unas chicas interpretan a cuatro manos una suave melodía en un piano público.  Grata despedida de estas tierras que encarnan la esencia del arte de vivir francés: la celebración del buen comer, el respeto por la tradición, los puentes vivientes hacia el pasado y el placer de los pequeños momentos. La frase de Rabelais resuena en mi mente, recordándome que a veces, la verdadera libertad está en permitirnos disfrutar plenamente de los placeres que la vida nos ofrece.`,
-    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063972/cgs_portfolio/Calles_de_Toulouse_010.webp", categoria: "Europa", fecha: "Septiembre 2016", equipo: "Sony ILSE-6000",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/v1791050714/La_Garonne.webp", categoria: "Europa", fecha: "Septiembre 2016", equipo: "Sony ILSE-6000",
     galeria: [
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063972/cgs_portfolio/Calles_de_Toulouse_010.webp", caption: "Recién casados en las calles de la Ciudad Rosa", tags: ["pareja", "boda", "amor", "recién casados", "Toulouse", "Francia", "urbano", "ladrillo rosa", "celebración"], alt: "Una pareja de recién casados camina sonriente por una calle histórica de Toulouse. La característica arquitectura de ladrillo rosa y la luz cálida de la tarde enmarcan un momento romántico cargado de felicidad urbana." },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050661/Agde-justa-acuatica.webp",
+        "location": "Río Hérault, Agde, Francia",
+        "caption": "Duelo y tradición náutica: Las justas sobre el río Hérault frente a la catedral fortificada de Agde",
+        "tags": ["Agde", "Justas Náuticas", "Río Hérault", "Tradición", "Catedral De San Esteban", "Languedoc", "Francia"],
+        "alt": "Vista panorámica del río Hérault en Agde durante una competición de justas acuáticas. Dos barcos tradicionales engalanados se acercan mientras dos participantes vestidos de blanco se equilibran sobre plataformas elevadas con lanzas y escudos, listos para el impacto. Al fondo, destaca la imponente silueta de piedra dorada de la Catedral de San Esteban bañada por la luz del atardecer."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050662/Agde-pintura_mural-urbana.webp",
+        "location": "Centro histórico, Agde, Francia",
+        "caption": "Ilusión en la pared: Mural en trampantojo recreando balcones floridos y fachadas ficticias en Agde",
+        "tags": ["Agde", "Mural Urbano", "Trampantojo", "Arte Callejero", "Arquitectura", "Languedoc", "Francia"],
+        "alt": "Vista en contrapicado de un impresionante mural trampantojo pintado sobre la fachada de varios edificios en Agde, creando una ilusión óptica tridimensional con ventanas, balcones y calles ficticias bajo un cielo azul despejado."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050662/Bas%C3%ADlica-de-San-Saturnino-Toulouse.webp",
+        "location": "Basílica de San Saturnino, Toulouse, Francia",
+        "caption": "Ábside celestial: El majestuoso baldaquino barroco bajo la cúpula de San Saturnino",
+        "tags": ["Basílica De San Saturnino", "Toulouse", "Arquitectura Románica", "Baldaquino", "Arte Sacro", "Camino De Santiago", "Francia"],
+        "alt": "Vista interior de la Basílica de San Saturnino en Toulouse. En primer plano a la izquierda, una lámpara de araña dorada con velas encendidas. En el centro, un majestuoso baldaquino dorado con columnas y figuras de ángeles, situado frente al ábside. Arriba, una cúpula pintada con la figura de Cristo en majestad rodeado de nubes y un cielo estrellado."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050665/Calles_de_Toulouse-010.webp",
+        "location": "Centro histórico, Toulouse, Francia",
+        "caption": "Sinfonía en ladrillo: Curvaturas arquitectónicas y balconadas de forja en la Ciudad Rosa",
+        "tags": ["Toulouse", "Ciudad Rosa", "Arquitectura", "Ladrillo Visto", "Hierro Forjado", "Francia"],
+        "alt": "Plano medio de la arquitectura en Toulouse que muestra la yuxtaposición de un edificio circular de ladrillo rojo con un campanario y una fachada de ladrillo amarillo con un ornamentado balcón de hierro forjado."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050666/Calles-de-Narbona-004.webp",
+        "location": "Torreón Gilles-Aycelin, Narbona, Francia",
+        "caption": "Océano de arcilla: Panorámica de los tejados y callejuelas históricas desde el Torreón Gilles-Aycelin",
+        "tags": ["Narbona", "Torreón Gilles-Aycelin", "Tejados De Terracota", "Panorámica", "Arquitectura Histórica", "Francia"],
+        "alt": "Vista aérea cenital de Narbona, mostrando un mar denso de tejados de teja de arcilla roja y edificios históricos de tonos claros, con la sombra de una torre proyectada en primer plano y un edificio ornamentado en la esquina inferior derecha."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050669/Calles-de-Narbona-arco-farol.webp",
+        "location": "Casco antiguo, Narbona, Francia",
+        "caption": "Paso del tiempo: Arco de piedra y farol clásico en el callejón medieval de Narbona",
+        "tags": ["Narbona", "Arquitectura Medieval", "Arco De Piedra", "Faroles", "Calles Históricas", "Francia"],
+        "alt": "Callejón medieval en Narbona con muros de piedra ocre, un gran arco de piedra que cruza la calle y un farol colgando en la parte superior."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050670/Calles-de-Narbona-campana.webp",
+        "location": "Torreón Gilles-Aycelin, Narbona, Francia",
+        "caption": "Vigía de bronce: Campanas históricas y vista en picado sobre las terrazas de Narbona",
+        "tags": ["Narbona", "Torreón Gilles-Aycelin", "Campanas De Bronce", "Arquitectura Gótica", "Terrazas", "Francia"],
+        "alt": "Fotografía cenital tomada desde la torre de la catedral de Narbona. En primer plano se aprecian campanas de bronce oxidado junto a pináculos y gárgolas de piedra esculpida. Abajo, en la calle adoquinada, se distinguen las mesas de una terraza de café con personas sentadas y caminando."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050674/Calles-de-Narbona-tejados.webp",
+        "location": "Torreón Gilles-Aycelin, Narbona, Francia",
+        "caption": "Trazado medieval: Ángulo picado sobre la callejuela y el torreón de tejas curvas",
+        "tags": ["Narbona", "Torreón Gilles-Aycelin", "Tejados", "Perspectiva Cenital", "Arquitectura Urbana", "Francia"],
+        "alt": "Vista aérea en ángulo picado de una calle estrecha en Narbona, bordeada por edificios tradicionales con balcones de forja y cubiertas de tejas rojas. A la derecha, una torre de piedra antigua con techo abovedado de tejas curvas completa la composición mientras unos peatones caminan por la acera en sombra."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050675/Calles-de-Toulouse-fuente.webp",
+        "location": "Place de la Trinité, Toulouse, Francia",
+        "caption": "Punto de encuentro: La fuente monumental y las terrazas de la Place de la Trinité",
+        "tags": ["Toulouse", "Place De La Trinité", "Fuente Monumental", "Ladrillo Ocre", "Vida Urbana", "Francia"],
+        "alt": "Vista panorámica de una plaza en Toulouse durante el día. En el centro se alza una fuente de piedra con una pila circular y esculturas. Está rodeada por edificios históricos de varios pisos con fachadas de ladrillo visto, tonos ocres, balcones de forja y persianas blancas. Varios peatones caminan por la plaza pavimentada y hay terrazas de restaurantes al fondo."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050679/Calles-de-Toulouse-ventanas.webp",
+        "location": "Centro histórico, Toulouse, Francia",
+        "caption": "Geometría de colombage: Entramados de madera vista y contraventanas azul pastel en Toulouse",
+        "tags": ["Toulouse", "Colombage", "Entramado De Madera", "Contraventanas", "Arquitectura Tradicional", "Francia"],
+        "alt": "Vista en primer plano de fachadas históricas en Toulouse, destacando una estructura de ladrillo rojizo y entramado de madera junto a paredes ocres, adornadas con elegantes contraventanas azuladas que aportan un contraste lleno de encanto mediterráneo y tradición urbana."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050680/Canal_de_la_Robine-008.webp",
+        "location": "Canal de la Robine, Narbona, Francia",
+        "caption": "Ribera florida: Embarcaciones amarradas y sosiego fluvial en el Canal de la Robine",
+        "tags": ["Canal De La Robine", "Narbona", "Patrimonio Unesco", "Embarcaciones", "Paisaje Fluvial", "Francia"],
+        "alt": "Vista elevada del Canal de la Robine en Narbona, con embarcaciones amarradas a la orilla izquierda y un camino peatonal a la derecha. En primer plano, flores moradas desenfocadas aportan un marco natural y colorido a la escena bajo la luz del sol."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050685/Capitolio-pareja.paraguas.webp",
+        "location": "Place du Capitole, Toulouse, Francia",
+        "caption": "Contraste y teatro urbano: Pose con sombrillas de encaje ante los surtidores del Capitolio",
+        "tags": ["Toulouse", "Place Du Capitole", "Sombrillas", "Teatro Urbano", "Fuentes", "Retrato", "Francia"],
+        "alt": "Dos hombres vestidos con trajes negros y elegantes sombrillas blancas de encaje posan de espaldas junto a una fuente urbana en la Plaza del Capitolio de Toulouse, rodeados por curiosos y fotógrafos."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050690/Catedral-de-San-Justo-y-San-_Pastor-Narbona-1.webp",
+        "location": "Catedral de San Justo y San Pastor, Narbona, Francia",
+        "caption": "Elocuencia barroca: La monumental tribuna tallada del órgano en la catedral de Narbona",
+        "tags": ["Narbona", "Catedral De San Justo", "Órgano Monumental", "Blanco Y Negro", "Escultura Barroca", "Francia"],
+        "alt": "Fotografía en blanco y negro que muestra el magnífico órgano de tubos de la Catedral de San Justo y San Pastor en Narbona, destacando sus intrincados detalles de madera tallada, esculturas barrocas y la imponente disposición de los tubos metálicos iluminados por la luz tenue del templo."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050689/Catedral-de-San-Justo-y-San-_Pastor-Narbona.webp",
+        "location": "Catedral de San Justo y San Pastor, Narbona, Francia",
+        "caption": "Resplandor en la penumbra: Altar escultórico con cruz radiante y ángeles custodios",
+        "tags": ["Narbona", "Catedral De San Justo", "Altar Mayor", "Arte Sacro", "Blanco Y Negro", "Gótico", "Francia"],
+        "alt": "Fotografía en blanco y negro tomada desde un ángulo bajo dentro de la catedral de San Justo y San Pastor en Narbona. En el centro destaca un altar escultórico coronado por una cruz radiante, flanqueado por figuras de ángeles con alas extendidas y velas estilizadas, enmarcado por imponentes columnas oscuras."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050697/Catedral-de-San-Justo-y-San-Pastor-sillas.webp",
+        "location": "Catedral de San Justo y San Pastor, Narbona, Francia",
+        "caption": "Geometría litúrgica: Sillería alineada y alfombra carmesí en el coro de la catedral",
+        "tags": ["Narbona", "Catedral De San Justo", "Nave Gótica", "Sillería", "Arquitectura Religiosa", "Francia"],
+        "alt": "Vista simétrica del pasillo central de la Catedral de San Justo y San Pastor, cubierto por una alfombra roja con bordes dorados. A ambos lados se alinean numerosas sillas de madera oscura dispuestas sobre un suelo de baldosas de piedra, creando una atmósfera solemne y ordenada."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050705/Convento-de-los-Jacobinos-Toulouse-1.webp",
+        "location": "Convento de los Jacobinos, Toulouse, Francia",
+        "caption": "Gótico meridional: El austero e imponente ábside de ladrillo del Convento de los Jacobinos",
+        "tags": ["Toulouse", "Convento De Los Jacobinos", "Gótico Meridional", "Ladrillo Rojo", "Arquitectura", "Francia"],
+        "alt": "Vista exterior del ábside del Convento de los Jacobinos en Toulouse bajo un cielo azul despejado. La imponente estructura de ladrillo rojo muestra contrafuertes, altas ventanas ojivales con tracería y gárgolas esculpidas que sobresalen a lo largo de la fachada gótica meridional."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050700/Convento-de-los-Jacobinos-Toulouse.webp",
+        "location": "Convento de los Jacobinos, Toulouse, Francia",
+        "caption": "Palmera de piedra: Las célebres nervaduras góticas desplegándose hacia las bóvedas de los Jacobinos",
+        "tags": ["Toulouse", "Convento De Los Jacobinos", "Palmera De Piedra", "Bóveda De Crucería", "Gótico", "Francia"],
+        "alt": "Vista interior del Convento de los Jacobinos en Toulouse, destacando esbeltas columnas de piedra que sostienen bóvedas de crucería y vitrales iluminados por la luz del sol."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050706/Hotel-de-Assezat-Fundacion-Bemberg-Toulouse.webp",
+        "location": "Hôtel d'Assézat (Fundación Bemberg), Toulouse, Francia",
+        "caption": "Serenidad clásica: Las órdenes renacentistas y logias en el patio del Hôtel d'Assézat",
+        "tags": ["Toulouse", "Hôtel D'Assézat", "Fundación Bemberg", "Arquitectura Renacentista", "Blanco Y Negro", "Francia"],
+        "alt": "Fotografía en blanco y negro de la fachada interior del Hôtel d'Assézat en Toulouse, destacando su arquitectura renacentista con múltiples niveles de ventanales decorados, columnas clásicas y arcos simétricos que aportan un gran sentido de ritmo visual y profundidad histórica."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050714/La_Garonne.webp",
+        "location": "Río Garona y Cúpula de La Grave, Toulouse, Francia",
+        "caption": "Espejo del Garona: Reflejos dorados de la Cúpula de La Grave y la noria panorámica",
+        "tags": ["Toulouse", "Río Garona", "Cúpula De La Grave", "Puente Saint-Pierre", "Noria", "Reflejos", "Francia"],
+        "alt": "Vista panorámica diurna del río Garona en Toulouse. En la orilla izquierda se alza la cúpula verde de la Capilla de la Grave junto a una gran noria blanca y roja, ambas perfectamente reflejadas en el agua. A la derecha, el Puente Saint-Pierre cruza el río con sus arcos metálicos."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050719/La-Garonne-004.webp",
+        "location": "Pont Saint-Pierre, Toulouse, Francia",
+        "caption": "Vínculo sobre las aguas: El Pont Saint-Pierre encuadrando la Cúpula de Saint-Joseph de la Grave",
+        "tags": ["Toulouse", "Pont Saint-Pierre", "Chapelle De La Grave", "Río Garona", "Farolas", "Francia"],
+        "alt": "Vista diurna del Pont Saint-Pierre en Toulouse cruzando el río Garona. En el fondo destaca la imponente cúpula verde de la emblemática Chapelle Saint-Joseph de la Grave, rodeada por farolas clásicas de hierro y una estructura de puentes de metal y mampostería bajo un cielo claro."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050720/Les_Grands_Bufets._Narbona.webp",
+        "location": "Les Grands Buffets, Narbona, Francia",
+        "caption": "Festín pantagruélico: La fastuosa galería de repostería y macarons en Les Grands Buffets",
+        "tags": ["Les Grands Buffets", "Narbona", "Gastronomía Francesa", "Repostería", "Macarons", "Gourmet", "Francia"],
+        "alt": "Vista interior del lujoso y elegante buffet de postres en Les Grands Buffets en Narbona, destacando mostradores dorados, cascadas de chocolate, pirámides de macarons y una gran variedad de pasteles, frutas y dulces iluminados cálidamente."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050730/Torre%C3%B3n_Gilles-Aycelin-Narbona.webp",
+        "location": "Torreón Gilles-Aycelin, Narbona, Francia",
+        "caption": "Firmeza gótica: La imponente fábrica defensiva del Torreón Gilles-Aycelin",
+        "tags": ["Torreón Gilles-Aycelin", "Narbona", "Palacio De Los Arzobispos", "Arquitectura Gótica", "Fortaleza", "Francia"],
+        "alt": "Vista frontal de la fachada de piedra de sillería del Torreón Gilles Aycelin en Narbona. Presenta una serie de grandes arcos ojivales y ventanas geminadas dispuestas simétricamente. En el centro destaca la puerta principal con un tímpano esculpido en relieve bajo un arco apuntado, y una persona de pie en la entrada bajo la luz del sol."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050734/V%C3%ADa-Domitia-cenital-2.webp",
+        "location": "Vía Domitia, Place de l'Hôtel de Ville, Narbona, Francia",
+        "caption": "Huellas del Imperio: Vista cenital del tramo descubierto de la calzada romana Vía Domitia",
+        "tags": ["Vía Domitia", "Narbona", "Calzada Romana", "Arqueología", "Narbo Martius", "Plaza Del Ayuntamiento", "Francia"],
+        "alt": "Vista cenital que muestra los restos arqueológicos de la calzada romana de la Vía Domitia en Narbona, rodeada por escalinatas de piedra clara y adoquines decorativos, con una niña asomándose al borde bajo la luz del sol."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050742/V%C3%ADa-Domitia-chica-lee.webp",
+        "location": "Vía Domitia, Place de l'Hôtel de Ville, Narbona, Francia",
+        "caption": "Simbiosis de siglos: Lectura serena al borde de las piedras milenarias de la Vía Domitia",
+        "tags": ["Vía Domitia", "Narbona", "Calzada Romana", "Lectura", "Arqueología", "Vida Cotidiana", "Francia"],
+        "alt": "Vista en ángulo picado de los restos arqueológicos de la Vía Domitia en Narbona, con un pavimento de grandes piedras irregulares y una inscripción esculpida en un muro de piedra superior. En el borde superior izquierdo, una joven sentada con camiseta blanca lee concentrada un libro."
+      }
     ]
   },
   {

@@ -94,11 +94,11 @@ export const VIAJES_RESUMEN: ViajeResumen[] = [
     "titulo": "Cálidos destellos",
     "ubicacion": "Narbona-Agde-Toulouse",
     "resumen": "Avanza el tren hacia Narbona un luminoso día de septiembre. Apenas pongo un pie en sus calles, me encuentro con una imagen que parece darme la bienvenida: una loba amamantando a dos niños...",
-    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063972/cgs_portfolio/Calles_de_Toulouse_010.webp",
+    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/v1791050714/La_Garonne.webp",
     "categoria": "Europa",
     "fecha": "Septiembre 2016",
     "equipo": "Sony ILSE-6000",
-    "galeriaCount": 1
+    "galeriaCount": 24
   },
   {
     "id": "praga",
@@ -160,7 +160,7 @@ export const VIAJES_RESUMEN: ViajeResumen[] = [
     "titulo": "2884 kilómetros",
     "ubicacion": "Norte de España",
     "resumen": "La cifra definitiva no se desveló hasta el final del viaje, pero aquella mañana del 24 de abril cuando salimos de Barcelona en un reluciente Mercedes, ya sabíamos que el recorrido de una semana planeado por el norte peninsular era ambicioso.",
-    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063659/cgs_portfolio/Santander-037.webp",
+    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063679/cgs_portfolio/Castillo-de-Loarre-001.webp",
     "categoria": "España",
     "fecha": "Mayo 2013",
     "equipo": "Canon PowerShot SX200 IS",
@@ -237,7 +237,7 @@ export const VIAJES_RESUMEN: ViajeResumen[] = [
     "titulo": "Tres continentes en 32 horas",
     "ubicacion": "América-Asia-Europa",
     "resumen": "El sol apenas despuntaba sobre los cerros de Caracas cuando inicié uno de esos viajes que quedan grabados en la memoria, no tanto por su destino final sino por la aventura misma de atravesar tres continentes en poco más de un día.",
-    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064145/cgs_portfolio/Parque-del-Este-2021.webp",
+    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064155/cgs_portfolio/Los-Proceres.webp",
     "categoria": "América",
     "fecha": "Enero 2021",
     "equipo": "Samsung SM-G975F",
