@@ -35,33 +35,195 @@ El viaje por tierras y mares gallegos termina en la Plaza de Obradoiro, kilómet
 Tras caminar por el entramado de calles del casco antiguo de Santiago, algunas flanqueadas por atractivos soportales (rúa do Vilar), y contemplar elegantes plazas (Quintana) y regias posadas (como la fundada por los Reyes Católicos), a solo ocho minutos andando desde la plaza del Obradoiro, en un restaurante de amenazador nombre (Puñal) frecuentado por compostelanos, se puede disfrutar de un apetitoso menú del mediodía de diez euros que es toda una bendición: el caldo gallego revive al más exhausto de los peregrinos, el jarrete de ternera guisado lo lleva a la gloria y la tarta Santiago lo eleva místicamente.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp", categoria: "España", fecha: "Septiembre 2017", equipo: "Sony ILSE-6000",
     galeria: [
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063602/cgs_portfolio/Playa-de-las-Catedrales-004.webp", "caption": "Imponentes arcos esculpidos por el viento y el mar", "tags": ["Playa", "Arcos Naturales", "Formaciones Rocosas", "Paisaje Costero", "Acantilados"], "alt": "La imagen muestra la famosa Praia das Catedrais, donde imponentes arcos y acantilados rocosos esculpidos por el mar dominan el paisaje. La arena clara se extiende bajo las estructuras naturales, mientras que el océano y el cielo azul con nubes blancas completan la escena. La luz resalta las texturas oscuras de la roca, creando un ambiente dramático y majestuoso de esta maravilla natural de Galicia."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063609/cgs_portfolio/Playa-de-las-Catedrales-008.webp", "caption": "Pórticos naturales tallados pacientemente por las olas", "tags": ["playa", "arcos naturales", "formaciones rocosas", "turismo", "costa"], "alt": "La imagen muestra la famosa Playa de las Catedrales en un día soleado, con un cielo azul y algunas nubes. Numerosos visitantes caminan sobre la arena, explorando las espectaculares formaciones rocosas y arcos naturales esculpidos por la erosión del mar. Las imponentes estructuras de roca ofrecen pasajes y vistas únicas, con el océano y sus olas visibles al fondo."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063608/cgs_portfolio/Playa-de-las-Catedrales-023.webp", "caption": "Una mujer solitaria se sienta en la cima de una formación rocosa", "tags": ["playa", "rocas", "acantilado", "paisaje marino", "atardecer"], "alt": "Una mujer solitaria se sienta en la cima de una imponente formación rocosa estratificada en una playa. Las rocas, de tonos cálidos y texturas marcadas, se elevan sobre las olas que rompen suavemente en la orilla. El cielo azul claro con nubes dispersas se combina con la luz dorada del atardecer, creando un paisaje costero sereno y majestuoso. La escena evoca tranquilidad y la inmensidad de la naturaleza."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063611/cgs_portfolio/Playa-de-las-Catedrales-064.webp", "caption": "Texturas y formas en las rocas de la Playa de las Catedrales", "tags": ["playa", "formaciones rocosas", "paisaje costero", "marea baja", "belleza natural"], "alt": "La imagen muestra la icónica Playa de las Catedrales con sus impresionantes acantilados y arcos rocosos. En primer plano, una gran formación rocosa estratificada de tonos ocres domina la vista, mientras que al fondo se aprecian más rocas y personas paseando por la arena mojada durante la marea baja. El cielo azul con nubes dispersas complementa la majestuosidad del paisaje."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063610/cgs_portfolio/Playa-de-las-Catedrales-071.webp", "caption": "La Playa de As Catedrais, con sus majestuosos acantilados", "tags": ["playa", "acantilados", "reflexión", "paisaje", "océano"], "alt": "Una vista impresionante de la Playa de As Catedrais, donde majestuosos acantilados de roca estratificada se alzan imponentes. La arena mojada y pulida por la marea baja crea un espejo natural que refleja con perfecta claridad las formaciones rocosas y el cielo azul salpicado de nubes blancas. Las suaves olas rompen en la orilla, completando esta idílica escena costera de gran belleza natural."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp", "caption": "Los caprichosos arcos naturales de la Playa de las Catedrales", "tags": ["cueva", "mar", "costa", "silueta", "naturaleza"], "alt": "Una perspectiva desde el interior oscuro de una cueva, revelando una estrecha abertura vertical que enmarca el mar. Afuera, se observan olas rompiendo suavemente en la orilla de una playa arenosa, bajo un cielo parcialmente visible. El agua dentro de la cueva, tranquila y oscura, refleja los tonos del exterior, creando un dramático contraste."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063613/cgs_portfolio/Pontevedra-Feira-Franca-004.webp", "caption": "Ambiente medieval en la Feira Franca de Pontevedra", "tags": ["Feria medieval", "Disfraces históricos", "Burros", "Niños", "Evento cultural"], "alt": "Una escena animada de una feria medieval o evento histórico. Varios niños y adultos visten elaborados disfraces de época. En primer plano, una niña con una corona de flores y un niño guían a un burro por una cuerda, mientras otro niño aparece montado en un segundo burro en el fondo. La imagen evoca un ambiente festivo y tradicional al aire libre, con paja en el suelo, mostrando la interacción de las personas con los animales en un contexto cultural o de recreación histórica."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063612/cgs_portfolio/Pontevedra-Feira-Franca-006.webp", "caption": "La ciudad vieja de Pontevedra transformada en un escenario del siglo XV", "tags": ["feria medieval", "trajes de época", "fotografía móvil", "escena familiar", "recreación histórica"], "alt": "Una escena vibrante en lo que parece ser una feria o recreación histórica al aire libre. Tres personas, vestidas con elaborados trajes de época, están sentadas alrededor de una mesa rústica con frutas y vasijas de barro. Una mujer, de espaldas al espectador, captura el momento con su teléfono móvil, enfocando a una niña sonriente. La imagen contrasta la autenticidad histórica de los atuendos y el ambiente con la presencia de tecnología moderna, mostrando un momento familiar en un evento cultural."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063613/cgs_portfolio/Pontevedra-Feira-Franca-020.webp", "caption": "Joven sonriente observa de cerca a un majestuoso búho real con intensos ojos", "tags": ["búho", "mujer", "aves rapaces", "exhibición", "interacción"], "alt": "Una joven sonriente observa de cerca a un majestuoso búho real con intensos ojos naranjas. El búho está posado tranquilamente, posiblemente en el contexto de una exhibición o demostración de aves rapaces al aire libre. La imagen captura un momento de curiosidad y conexión entre la persona y el animal, con un fondo de pared de piedra y una estructura rústica de madera."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063619/cgs_portfolio/Pontevedra-Feira-Franca-Praza-da-Lena-016.webp", "caption": "Histórica Plaza da Leña de Pontevedra,escenario medieval", "tags": ["Pontevedra", "Arquitectura Gallega", "Comida al aire libre", "Plaza histórica", "Restaurante", "Verano", "Festival medieval", "Balcones tradicionales", "Ambiente festivo", "España"], "alt": "Una animada escena diurna en la histórica Praza da Leña de Pontevedra, Galicia. Múltiples mesas de restaurante están dispuestas al aire libre bajo sombrillas blancas, esperando comensales. Al fondo, edificios tradicionales gallegos con distintivos balcones de madera y tejados de teja rodean la plaza. El ambiente sugiere una festividad o mercado medieval, con algunas personas vestidas con atuendos de época y una bandera heráldica decorando un balcón."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063621/cgs_portfolio/Basilica-de-San-Martin-de-Mondonedo-002.webp", "caption": "La Basílica de San Martín de Mondoñedo, joya del románico en un paraje remoto", "tags": ["arquitectura románica", "iglesia", "edificio histórico", "piedra", "cielo azul", "apse", "campanario", "vegetación", "exterior", "patrimonio"], "alt": "Vista angular de una antigua iglesia de estilo románico, construida con sólidos sillares de piedra en tonos dorados. El edificio presenta un ábside semicircular con arcos ciegos y ventanas estrechas, coronado por un campanario con veleta. El cielo azul intenso con nubes blancas proporciona un contraste vibrante. Hojas verdes en primer plano enmarcan la escena, realzando la majestuosidad de la construcción."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063620/cgs_portfolio/Basilica-de-San-Martin-de-Mondonedo-012.webp", "caption": "Detalles arquitectónicos de la antigua sede catedralicia de San Martín", "tags": ["Arquitectura románica", "Capitel esculpido", "Columna de piedra", "Arco de medio punto", "Detalle medieval"], "alt": "La fotografía capta un detalle del interior de una edificación románica, destacando una columna robusta con un capitel de piedra finamente esculpido, adornado con motivos vegetales y figuras. Al fondo, se aprecia un arco de medio punto, también de piedra, que evidencia la solidez de la construcción. La pared muestra una textura antigua y, en una zona, un pequeño motivo decorativo circular con diseño floral en tonos azules y ocres, que añade un toque de color al ambiente histórico y pétreo."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063626/cgs_portfolio/Burela-005.webp", "caption": "Farol y faro en Burela", "tags": [ "Burela", "faro", "Mar Cantábrico", "luz urbana", "paisaje costero", "Galicia" ], "alt": "Una poética vista del horizonte marino en Burela bajo un cielo de suaves nubes. En la lejanía, un pequeño faro de rayas amarillas y negras se alza en un islote, mientras un farol de diseño esférico en primer plano enmarca la profundidad del Atlántico." },
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063623/cgs_portfolio/Cabo-de-Estaca-de-Baras-002.webp", "caption": "Acantilados y azul infinito en Estaca de Bares", "tags": [ "Estaca de Bares", "acantilados", "Océano Atlántico", "paisaje salvaje", "naturaleza", "Galicia" ], "alt": "Vista panorámica desde los acantilados del Cabo de Estaca de Bares, el punto más septentrional de la península. El mar, teñido de un turquesa profundo, rompe con fuerza contra las rocas milenarias, creando un contraste salvaje y majestuoso con el verde de la costa." },
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063625/cgs_portfolio/Cabo-de-Estaca-de-Baras-014.webp", "caption": "Detalle marinero en el faro de Estaca de Bares", "tags": [ "Estaca de Bares", "artesanía", "madera", "decoración náutica", "faro", "tradición", "Galicia" ], "alt": "Una escultura rústica de madera de un marinero con sombrero en el entorno del faro de Estaca de Bares. Al fondo, una pared de piedra y una soga anudada refuerzan la estética tradicional y marinera de este enclave geográfico único." },
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063626/cgs_portfolio/Castropol.webp", "caption": "La silueta de Castropol reflejada en la ría", "tags": [ "Castropol", "Ría del Eo", "Asturias", "atardecer", "paisaje fluvial", "arquitectura tradicional" ], "alt": "Vista panorámica de la villa de Castropol desde la orilla gallega al atardecer. Las fachadas blancas y la torre de la iglesia se reflejan en las tranquilas aguas de la ría del Eo, bajo un cielo crepuscular de nubes dramáticas y luces doradas." },
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063629/cgs_portfolio/Isla-de-Ons-004.webp", "caption": "Paz y naturaleza virgen en la Isla de Ons", "tags": [ "Isla de Ons", "Parque Nacional", "horizonte", "mar", "nubes", "Galicia" ], "alt": "Una serena vista del horizonte desde la Isla de Ons, donde un cielo cubierto de nubes algodonosas se funde con el mar en calma. La silueta de un islote lejano añade una sensación de inmensidad y paz a este paraje protegido." },
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063631/cgs_portfolio/Isla-de-Ons-Horreos-020.webp", "caption": "Tradicionales hórreos en la Isla de Ons, guardianes de las cosechas", "tags": ["hórreo", "arquitectura tradicional", "tejado", "costa", "patrimonio"], "alt": "Primer plano de una estructura rural tradicional, probablemente un hórreo gallego, con su característico tejado de tejas de terracota envejecidas y un pináculo de piedra. La fachada presenta colores blanco, gris y naranja, mostrando signos del paso del tiempo. De fondo, un vasto mar azul y montañas distantes bajo un cielo despejado, destacando la ubicación costera y el encanto rústico."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063628/cgs_portfolio/Lugo-musica-tradicional.webp", "caption": "Jóvenes músicos animando las calles de Lugo con melodías tradicionales", "tags": ["Música tradicional", "Folclore gallego", "Concierto callejero", "Gaitas", "Vieiras"], "alt": "Un grupo de personas, incluyendo niños, interpreta música tradicional gallega en una calle. Visten camisetas blancas con inscripciones como \"Ágora cultura\" y \"Asociación de Lugo\". Algunos tocan gaitas y panderetas, mientras otros, especialmente los más jóvenes, utilizan conchas de vieira como instrumento de percusión. La escena muestra una vibrante celebración cultural y la transmisión del folclore local."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063631/cgs_portfolio/Lugo-Catedral-de-Santa-Maria-007.webp", "caption": "Las torres de la Catedral de Lugo emergiendo de la niebla al amanecer", "tags": ["Lugo", "amanecer", "niebla", "paisaje urbano", "catedral"], "alt": "Impresionante vista panorámica de la ciudad de Lugo, España, al amanecer. Una densa capa de niebla cubre el valle más allá de los edificios, creando una atmósfera etérea. Las icónicas torres de la Catedral de Lugo se alzan prominentemente sobre el entramado de tejados tradicionales y modernos. El cielo exhibe una hermosa gradación de colores, desde tonos anaranjados y rosados en el horizonte hasta un azul suave en lo alto, iluminando suavemente el paisaje urbano. La imagen transmite una sensación de calma y misterio."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063632/cgs_portfolio/Lugo-Catedral-de-Santa-Maria-013-Virgen-de-los-Ojos-Grandes.webp", "caption": "La Virgen de los Ojos Grandes, protectora y símbolo de la catedral lucense", "tags": ["arte religioso", "escultura barroca", "Virgen y Niño", "dorado", "querubines"], "alt": "Una detallada escultura religiosa de estilo barroco, representando a la Virgen María y el Niño Jesús, ambos coronados, en el centro de la composición. La pieza está ricamente ornamentada con pan de oro, destacando las vestimentas y coronas con incrustaciones. La figura central está rodeada por numerosos putti o querubines tallados, flotando entre nubes y adornos dorados. Probablemente forma parte de un retablo o altar en una iglesia, mostrando gran maestría artesanal y devoción."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063632/cgs_portfolio/Lugo-Murallas-Romanas-025.webp", "caption": "Iluminación nocturna de la histórica Muralla Romana de Lugo", "tags": ["Muralla Romana", "Noche", "Iluminación", "Catedral", "Patrimonio Mundial"], "alt": "Una vista nocturna de la histórica Muralla Romana de Lugo, España, bellamente iluminada. La imponente estructura de piedra domina la imagen, mostrando su textura y antigüedad. Al fondo, se asoman las majestuosas torres de la Catedral de Santa María de Lugo, también parcialmente iluminadas, destacándose contra el cielo oscuro. La escena evoca la rica historia y el patrimonio de esta ciudad gallega."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063634/cgs_portfolio/Mondonedo-Catedral-007.webp", "caption": "La Catedral de Mondoñedo y la estatua de Cunqueiro", "tags": [ "Mondoñedo", "Catedral", "Álvaro Cunqueiro", "arquitectura", "historia", "Lugo", "Galicia" ], "alt": "Vista de la imponente fachada de la Catedral de Mondoñedo, con sus torres gemelas y gran rosetón. En el primer plano, se observa la estatua de bronce del escritor Álvaro Cunqueiro sentada en un banco, contemplando el templo en este histórico enclave del Camino del Norte." },
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063635/cgs_portfolio/Mondonedo-Catedral-peregrino-asiatico-medita.webp", "caption": "Peregrino asiático en un momento de meditación en la Catedral de Mondoñedo", "tags": ["hombre", "barba", "iglesia", "banco", "contemplación"], "alt": "Un hombre con barba larga y cabello gris atado en un moño se sienta descalzo en un banco de madera dentro de lo que parece ser un edificio religioso antiguo. Viste una camiseta de tirantes y pantalones cortos, con sus sandalias a un lado sobre la alfombra roja. La escena, enmarcada por pilares de piedra, sugiere un momento de quietud y reflexión en un ambiente sobrio."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063636/cgs_portfolio/Ribadeo-005.webp", "caption": "Aires indianos y fachadas coloridas en la Plaza España de Ribadeo", "tags": ["Arquitectura", "Plaza", "Edificios históricos", "Palmeras", "Avilés"], "alt": "La imagen captura la vibrante Plaza de España en Avilés, España, bajo una luz cálida. Se aprecian edificios históricos con fachadas de colores distintivos como amarillo, naranja y crema, adornados con balcones y detalles arquitectónicos. Destaca un edificio con una torrecilla abovedada. En primer plano, majestuosas palmeras enmarcan la escena. Varias personas disfrutan de las terrazas de cafeterías con sombrillas, creando una atmósfera animada y relajada en el corazón urbano."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063636/cgs_portfolio/Santiago-de-Compostela-Catedral-Botafumeiro-016.webp", "caption": "El reposo del Botafumeiro en la Catedral de Santiago, final de todos los caminos", "tags": ["Barroco", "Iglesia", "Oro", "Escultura religiosa", "Opulencia"], "alt": "Vista detallada del opulento interior de una iglesia de estilo barroco, predominando el dorado del pan de oro en su elaborada decoración. Se observan numerosas esculturas de ángeles y figuras religiosas con ropajes fluidos, incrustadas en estructuras ricamente ornamentadas. Grandes candelabros e incensarios cuelgan del techo, iluminando el complejo entramado de detalles que reflejan la grandiosidad y la profunda religiosidad del arte sacro."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063638/cgs_portfolio/Vivero-001.webp", "caption": "Elegantes construcciones en Vivero", "tags": ["arquitectura gallega", "edificios tradicionales", "techos de teja", "galerías", "pueblo costero"], "alt": "Una vista pintoresca de un pueblo en Galicia, España. En primer plano, un edificio con base de piedra y tejado de tejas de terracota cubiertas de líquenes. Al fondo, una hilera de casas tradicionales con sus distintivas galerías blancas acristaladas, que se elevan por una ladera cubierta de vegetación bajo un cielo nublado, mostrando la arquitectura típica de la región."},
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063602/cgs_portfolio/Playa-de-las-Catedrales-004.webp",
+        "location": "Praia das Catedrais, Ribadeo, Lugo",
+        "caption": "Arcos del Cantábrico: Monumentales contrafuertes esculpidos por la bravura del mar",
+        "tags": ["Praia Das Catedrais", "Ribadeo", "Mariña Lucense", "Arcos Naturales", "Cantábrico", "Monumento Natural", "Galicia"],
+        "alt": "La imagen muestra la famosa Praia das Catedrais, donde imponentes arcos y acantilados rocosos esculpidos por el mar dominan el paisaje. La arena clara se extiende bajo las estructuras naturales, mientras que el océano y el cielo azul con nubes blancas completan la escena. La luz resalta las texturas oscuras de la roca, creando un ambiente dramático y majestuoso de esta maravilla natural de Galicia."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063609/cgs_portfolio/Playa-de-las-Catedrales-008.webp",
+        "location": "Praia das Catedrais, Ribadeo, Lugo",
+        "caption": "Paseo entre catedrales: La marea baja descubriendo bóvedas y pasadizos de roca",
+        "tags": ["Praia Das Catedrais", "Ribadeo", "Marea Baja", "Formaciones Rocosas", "Mariña Lucense", "Galicia"],
+        "alt": "La imagen muestra la famosa Playa de las Catedrales en un día soleado, con un cielo azul y algunas nubes. Numerosos visitantes caminan sobre la arena, explorando las espectaculares formaciones rocosas y arcos naturales esculpidos por la erosión del mar. Las imponentes estructuras de roca ofrecen pasajes y vistas únicas, con el océano y sus olas visibles al fondo."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063608/cgs_portfolio/Playa-de-las-Catedrales-023.webp",
+        "location": "Praia das Catedrais, Ribadeo, Lugo",
+        "caption": "Contemplación en la roca: Silueta solitaria sobre los estratos milenarios al atardecer",
+        "tags": ["Praia Das Catedrais", "Ribadeo", "Acantilados", "Atardecer", "Costa Cantábrica", "Galicia"],
+        "alt": "Una mujer solitaria se sienta en la cima de una imponente formación rocosa estratificada en una playa. Las rocas, de tonos cálidos y texturas marcadas, se elevan sobre las olas que rompen suavemente en la orilla. El cielo azul claro con nubes dispersas se combina con la luz dorada del atardecer, creando un paisaje costero sereno y majestuoso. La escena evoca tranquilidad y la inmensidad de la naturaleza."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063611/cgs_portfolio/Playa-de-las-Catedrales-064.webp",
+        "location": "Praia das Catedrais, Ribadeo, Lugo",
+        "caption": "Geología esculpida: Texturas ocres y láminas de pizarra labradas por el oleaje",
+        "tags": ["Praia Das Catedrais", "Ribadeo", "Pizarra", "Geología", "Paisaje Costero", "Galicia"],
+        "alt": "La imagen muestra la icónica Playa de las Catedrales con sus impresionantes acantilados y arcos rocosos. En primer plano, una gran formación rocosa estratificada de tonos ocres domina la vista, mientras que al fondo se aprecian más rocas y personas paseando por la arena mojada durante la marea baja. El cielo azul con nubes dispersas complementa la majestuosidad del paisaje."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063610/cgs_portfolio/Playa-de-las-Catedrales-071.webp",
+        "location": "Praia das Catedrais, Ribadeo, Lugo",
+        "caption": "Espejo de arena: Reflejos infinitos de los farallones sobre la orilla pulida",
+        "tags": ["Praia Das Catedrais", "Ribadeo", "Reflejos", "Farallones", "Marea Baja", "Galicia"],
+        "alt": "Una vista impresionante de la Playa de As Catedrais, donde majestuosos acantilados de roca estratificada se alzan imponentes. La arena mojada y pulida por la marea baja crea un espejo natural que refleja con perfecta claridad las formaciones rocosas y el cielo azul salpicado de nubes blancas. Las suaves olas rompen en la orilla, completando esta idílica escena costera de gran belleza natural."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp",
+        "location": "Praia das Catedrais, Ribadeo, Lugo",
+        "caption": "Mirada desde la gruta: La claridad del océano enmarcada por la oscura bóveda marina",
+        "tags": ["Praia Das Catedrais", "Ribadeo", "Gruta Marina", "Océano Atlántico", "Contraste", "Galicia"],
+        "alt": "Una perspectiva desde el interior oscuro de una cueva, revelando una estrecha abertura vertical que enmarca el mar. Afuera, se observan olas rompiendo suavemente en la orilla de una playa arenosa, bajo un cielo parcialmente visible. El agua dentro de la cueva, tranquila y oscura, refleja los tonos del exterior, creando un dramático contraste."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063613/cgs_portfolio/Pontevedra-Feira-Franca-004.webp",
+        "location": "Feira Franca, Pontevedra",
+        "caption": "Recreación medieval: Niños con atuendos del siglo XV guiando burros por el casco viejo",
+        "tags": ["Feira Franca", "Pontevedra", "Recreación Histórica", "Trajes Medievales", "Tradición", "Galicia"],
+        "alt": "Una escena animada de una feria medieval o evento histórico. Varios niños y adultos visten elaborados disfraces de época. En primer plano, una niña con una corona de flores y un niño guían a un burro por una cuerda, mientras otro niño aparece montado en un segundo burro en el fondo. La imagen evoca un ambiente festivo y tradicional al aire libre, con paja en el suelo, mostrando la interacción de las personas con los animales en un contexto cultural o de recreación histórica."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063612/cgs_portfolio/Pontevedra-Feira-Franca-006.webp",
+        "location": "Feira Franca, Pontevedra",
+        "caption": "Encuentro de épocas: Banquete campesino y recuerdos digitales en la Pontevedra medieval",
+        "tags": ["Feira Franca", "Pontevedra", "Casco Histórico", "Siglo XV", "Vida Popular", "Galicia"],
+        "alt": "Una escena vibrante en lo que parece ser una feria o recreación histórica al aire libre. Tres personas, vestidas con elaborados trajes de época, están sentadas alrededor de una mesa rústica con frutas y vasijas de barro. Una mujer, de espaldas al espectador, captura el momento con su teléfono móvil, enfocando a una niña sonriente. La imagen contrasta la autenticidad histórica de los atuendos y el ambiente con la presencia de tecnología moderna, mostrando un momento familiar en un evento cultural."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063613/cgs_portfolio/Pontevedra-Feira-Franca-020.webp",
+        "location": "Feira Franca, Pontevedra",
+        "caption": "Mirada hipnótica: Fascinación cercana ante el majestuoso búho real en la feria",
+        "tags": ["Feira Franca", "Pontevedra", "Cetrería", "Búho Real", "Aves Rapaces", "Galicia"],
+        "alt": "Una joven sonriente observa de cerca a un majestuoso búho real con intensos ojos naranjas. El búho está posado tranquilamente, posiblemente en el contexto de una exhibición o demostración de aves rapaces al aire libre. La imagen captura un momento de curiosidad y conexión entre la persona y el animal, con un fondo de pared de piedra y una estructura rústica de madera."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063619/cgs_portfolio/Pontevedra-Feira-Franca-Praza-da-Lena-016.webp",
+        "location": "Praza da Leña, Pontevedra",
+        "caption": "Escenario de época: Mesas de taberna bajo los balcones y cruceiro de la Praza da Leña",
+        "tags": ["Praza Da Leña", "Pontevedra", "Feira Franca", "Arquitectura Gallega", "Cruceiro", "Galicia"],
+        "alt": "Una animada escena diurna en la histórica Praza da Leña de Pontevedra, Galicia. Múltiples mesas de restaurante están dispuestas al aire libre bajo sombrillas blancas, esperando comensales. Al fondo, edificios tradicionales gallegos con distintivos balcones de madera y tejados de teja rodean la plaza. El ambiente sugiere una festividad o mercado medieval, con algunas personas vestidas con atuendos de época y una bandera heráldica decorando un balcón."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063621/cgs_portfolio/Basilica-de-San-Martin-de-Mondonedo-002.webp",
+        "location": "Basílica de San Martiño de Mondoñedo, Foz, Lugo",
+        "caption": "Catedral más antigua del sur: El sobrio ábside románico de San Martiño entre el verdor",
+        "tags": ["San Martiño De Mondoñedo", "Foz", "Románico", "Arquitectura Sacra", "Mariña Lucense", "Galicia"],
+        "alt": "Vista angular de una antigua iglesia de estilo románico, construida con sólidos sillares de piedra en tonos dorados. El edificio presenta un ábside semicircular con arcos ciegos y ventanas estrechas, coronado por un campanario con veleta. El cielo azul intenso con nubes blancas proporciona un contraste vibrante. Hojas verdes en primer plano enmarcan la escena, realzando la majestuosidad de la construcción."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063620/cgs_portfolio/Basilica-de-San-Martin-de-Mondonedo-012.webp",
+        "location": "Basílica de San Martiño de Mondoñedo, Foz, Lugo",
+        "caption": "Legado pétreo: Capitel historiado y frescos primitivos en la venerable basílica",
+        "tags": ["San Martiño De Mondoñedo", "Foz", "Capiteles", "Arte Románico", "Frescos", "Galicia"],
+        "alt": "La fotografía capta un detalle del interior de una edificación románica, destacando una columna robusta con un capitel de piedra finamente esculpido, adornado con motivos vegetales y figuras. Al fondo, se aprecia un arco de medio punto, también de piedra, que evidencia la solidez de la construcción. La pared muestra una textura antigua y, en una zona, un pequeño motivo decorativo circular con diseño floral en tonos azules y ocres, que añade un toque de color al ambiente histórico y pétreo."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063626/cgs_portfolio/Burela-005.webp",
+        "location": "Puerto de Burela, Mariña Lucense, Lugo",
+        "caption": "Baliza y horizonte: El faro rayado sobre el islote y la inmensidad del Mar Cantábrico",
+        "tags": ["Burela", "Mariña Lucense", "Faro", "Mar Cantábrico", "Puerto Pesquero", "Galicia"],
+        "alt": "Una poética vista del horizonte marino en Burela bajo un cielo de suaves nubes. En la lejanía, un pequeño faro de rayas amarillas y negras se alza en un islote, mientras un farol de diseño esférico en primer plano enmarca la profundidad del Atlántico."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063623/cgs_portfolio/Cabo-de-Estaca-de-Baras-002.webp",
+        "location": "Cabo de Estaca de Bares, Mañón, A Coruña",
+        "caption": "Finisterre norte: Acantilados escarpados y mar esmeralda en el extremo septentrional peninsular",
+        "tags": ["Estaca De Bares", "Mañón", "Acantilados", "Océano Atlántico", "Mar Cantábrico", "Galicia"],
+        "alt": "Vista panorámica desde los acantilados del Cabo de Estaca de Bares, el punto más septentrional de la península. El mar, teñido de un turquesa profundo, rompe con fuerza contra las rocas milenarias, creando un contraste salvaje y majestuoso con el verde de la costa."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063625/cgs_portfolio/Cabo-de-Estaca-de-Baras-014.webp",
+        "location": "Cabo de Estaca de Bares, Mañón, A Coruña",
+        "caption": "Alma marinera: Escultura de madera rústica custodiando el faro de Estaca de Bares",
+        "tags": ["Estaca De Bares", "Faro", "Escultura Marinera", "Artesanía", "Tradición", "Galicia"],
+        "alt": "Una escultura rústica de madera de un marinero con sombrero en el entorno del faro de Estaca de Bares. Al fondo, una pared de piedra y una soga anudada refuerzan la estética tradicional y marinera de este enclave geográfico único."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063626/cgs_portfolio/Castropol.webp",
+        "location": "Ría del Eo, Ribadeo / Castropol",
+        "caption": "Reflejos en el estuario: La villa blanca de Castropol espejada en las aguas de la Ría del Eo",
+        "tags": ["Ría Del Eo", "Ribadeo", "Castropol", "Estuario", "Paisaje Fluvial", "Galicia", "Asturias"],
+        "alt": "Vista panorámica de la villa de Castropol desde la orilla gallega al atardecer. Las fachadas blancas y la torre de la iglesia se reflejan en las tranquilas aguas de la ría del Eo, bajo un cielo crepuscular de nubes dramáticas y luces doradas."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063629/cgs_portfolio/Isla-de-Ons-004.webp",
+        "location": "Isla de Ons, Parque Nacional de las Islas Atlánticas, Pontevedra",
+        "caption": "Calma insular: Nubes tenues y horizonte atlántico desde los senderos de Ons",
+        "tags": ["Isla De Ons", "Parque Nacional Islas Atlánticas", "Ría De Pontevedra", "Atlántico", "Naturaleza", "Galicia"],
+        "alt": "Una serena vista del horizonte desde la Isla de Ons, donde un cielo cubierto de nubes algodonosas se funde con el mar en calma. La silueta de un islote lejano añade una sensación de inmensidad y paz a este paraje protegido."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063631/cgs_portfolio/Isla-de-Ons-Horreos-020.webp",
+        "location": "Isla de Ons, Parque Nacional de las Islas Atlánticas, Pontevedra",
+        "caption": "Guardianes del grano: Hórreo tradicional gallego asomado al océano en la Isla de Ons",
+        "tags": ["Isla De Ons", "Hórreo Gallego", "Arquitectura Popular", "Parque Nacional", "Patrimonio", "Galicia"],
+        "alt": "Primer plano de una estructura rural tradicional, probablemente un hórreo gallego, con su característico tejado de tejas de terracota envejecidas y un pináculo de piedra. La fachada presenta colores blanco, gris y naranja, mostrando signos del paso del tiempo. De fondo, un vasto mar azul y montañas distantes bajo un cielo despejado, destacando la ubicación costera y el encanto rústico."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063628/cgs_portfolio/Lugo-musica-tradicional.webp",
+        "location": "Casco histórico, Lugo",
+        "caption": "Gaitas y vieiras: Juventud y tradición popular en el tapeo nocturno de Lugo",
+        "tags": ["Lugo", "Música Tradicional", "Gaita Gallega", "Conchas De Vieira", "Folclore", "Galicia"],
+        "alt": "Un grupo de personas, incluyendo niños, interpreta música tradicional gallega en una calle. Visten camisetas blancas con inscripciones como \"Ágora cultura\" y \"Asociación de Lugo\". Algunos tocan gaitas y panderetas, mientras otros, especialmente los más jóvenes, utilizan conchas de vieira como instrumento de percusión. La escena muestra una vibrante celebración cultural y la transmisión del folclore local."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063631/cgs_portfolio/Lugo-Catedral-de-Santa-Maria-007.webp",
+        "location": "Catedral de Santa María, Lugo",
+        "caption": "Amanecer entre brumas: Las torres de la Catedral de Lugo despuntando sobre el mar de niebla",
+        "tags": ["Lugo", "Catedral De Santa María", "Amanecer", "Niebla", "Paisaje Urbano", "Galicia"],
+        "alt": "Impresionante vista panorámica de la ciudad de Lugo, España, al amanecer. Una densa capa de niebla cubre el valle más allá de los edificios, creando una atmósfera etérea. Las icónicas torres de la Catedral de Lugo se alzan prominentemente sobre el entramado de tejados tradicionales y modernos. El cielo exhibe una hermosa gradación de colores, desde tonos anaranjados y rosados en el horizonte hasta un azul suave en lo alto, iluminando suavemente el paisaje urbano. La imagen transmite una sensación de calma y misterio."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063632/cgs_portfolio/Lugo-Catedral-de-Santa-Maria-013-Virgen-de-los-Ojos-Grandes.webp",
+        "location": "Catedral de Santa María, Lugo",
+        "caption": "Mirada protectora: La Virgen de los Ojos Grandes en su fastuoso camarín barroco",
+        "tags": ["Catedral De Santa María", "Lugo", "Virgen De Los Ojos Grandes", "Barroco Gallego", "Arte Sacro", "Galicia"],
+        "alt": "Una detallada escultura religiosa de estilo barroco, representando a la Virgen María y el Niño Jesús, ambos coronados, en el centro de la composición. La pieza está ricamente ornamentada con pan de oro, destacando las vestimentas y coronas con incrustaciones. La figura central está rodeada por numerosos putti o querubines tallados, flotando entre nubes y adornos dorados. Probablemente forma parte de un retablo o altar en una iglesia, mostrando gran maestría artesanal y devoción."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063632/cgs_portfolio/Lugo-Murallas-Romanas-025.webp",
+        "location": "Muralla Romana, Lugo",
+        "caption": "Piedra bimilenaria: La Muralla Romana iluminada en la noche con las torres catedralicias al fondo",
+        "tags": ["Muralla Romana De Lugo", "Lugo", "Patrimonio De La Humanidad", "Muralla Bimilenaria", "Nocturna", "Galicia"],
+        "alt": "Una vista nocturna de la histórica Muralla Romana de Lugo, España, bellamente iluminada. La imponente estructura de piedra domina la imagen, mostrando su textura y antigüedad. Al fondo, se asoman las majestuosas torres de la Catedral de Santa María de Lugo, también parcialmente iluminadas, destacándose contra el cielo oscuro. La escena evoca la rica historia y el patrimonio de esta ciudad gallega."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063634/cgs_portfolio/Mondonedo-Catedral-007.webp",
+        "location": "Plaza de la Catedral, Mondoñedo, Lugo",
+        "caption": "Cunqueiro ante su templo: La estatua del cronista contemplando la Catedral de Mondoñedo",
+        "tags": ["Mondoñedo", "Catedral De Mondoñedo", "Álvaro Cunqueiro", "Camino Del Norte", "Escultura", "Galicia"],
+        "alt": "Vista de la imponente fachada de la Catedral de Mondoñedo, con sus torres gemelas y gran rosetón. En el primer plano, se observa la estatua de bronce del escritor Álvaro Cunqueiro sentada en un banco, contemplando el templo en este histórico enclave del Camino del Norte."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063635/cgs_portfolio/Mondonedo-Catedral-peregrino-asiatico-medita.webp",
+        "location": "Catedral de Mondoñedo, Lugo",
+        "caption": "Plegaria descalza: Peregrino oriental meditando con su rosario en la soledad del templo",
+        "tags": ["Catedral De Mondoñedo", "Mondoñedo", "Peregrino", "Camino De Santiago", "Meditación", "Galicia"],
+        "alt": "Un hombre con barba larga y cabello gris atado en un moño se sienta descalzo en un banco de madera dentro de lo que parece ser un edificio religioso antiguo. Viste una camiseta de tirantes y pantalones cortos, con sus sandalias a un lado sobre la alfombra roja. La escena, enmarcada por pilares de piedra, sugiere un momento de quietud y reflexión en un ambiente sobrio."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063636/cgs_portfolio/Ribadeo-005.webp",
+        "location": "Plaza de España, Ribadeo, Lugo",
+        "caption": "Huella de indianos: Torres modernistas, palmeras y coloridas fachadas en la Plaza de España",
+        "tags": ["Ribadeo", "Plaza De España", "Arquitectura Indiana", "Torre Dos Moreno", "Mariña Lucense", "Galicia"],
+        "alt": "La imagen captura la vibrante Plaza de España en Avilés, España, bajo una luz cálida. Se aprecian edificios históricos con fachadas de colores distintivos como amarillo, naranja y crema, adornados con balcones y detalles arquitectónicos. Destaca un edificio con una torrecilla abovedada. En primer plano, majestuosas palmeras enmarcan la escena. Varias personas disfrutan de las terrazas de cafeterías con sombrillas, creando una atmósfera animada y relajada en el corazón urbano."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063636/cgs_portfolio/Santiago-de-Compostela-Catedral-Botafumeiro-016.webp",
+        "location": "Catedral de Santiago de Compostela, A Coruña",
+        "caption": "El gran incensario: Reposo del Botafumeiro bajo las doradas bóvedas del crucero compostelano",
+        "tags": ["Catedral De Santiago", "Santiago De Compostela", "Botafumeiro", "Crucero", "Barroco", "Galicia"],
+        "alt": "Vista detallada del opulento interior de una iglesia de estilo barroco, predominando el dorado del pan de oro en su elaborada decoración. Se observan numerosas esculturas de ángeles y figuras religiosas con ropajes fluidos, incrustadas en estructuras ricamente ornamentadas. Grandes candelabros e incensarios cuelgan del techo, iluminando el complejo entramado de detalles que reflejan la grandiosidad y la profunda religiosidad del arte sacro."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063638/cgs_portfolio/Vivero-001.webp",
+        "location": "Viveiro, Mariña Lucense, Lugo",
+        "caption": "Cristal y pizarra: Galerías acristaladas blancas escalando la ladera histórica de Viveiro",
+        "tags": ["Viveiro", "Mariña Lucense", "Galerías Gallegas", "Arquitectura Tradicional", "Ría De Viveiro", "Galicia"],
+        "alt": "Una vista pintoresca de un pueblo en Galicia, España. En primer plano, un edificio con base de piedra y tejado de tejas de terracota cubiertas de líquenes. Al fondo, una hilera de casas tradicionales con sus distintivas galerías blancas acristaladas, que se elevan por una ladera cubierta de vegetación bajo un cielo nublado, mostrando la arquitectura típica de la región."
+      }
     ]
   },
   {
@@ -73,29 +235,167 @@ Son grandes pueblos de reducido tamaño y escasa población, emplazados en paisa
 Bajando de las sierras que albergan a estos pueblos encaramados, se llega a otros no menos singulares, como Peñíscola, en la vecina provincia de Castellón. En el imponente castillo templario que domina este peñón metido en el mar, ejerció su papado Benedicto XIII, conocido como el Papa Luna. Y a pocos kilómetros de allí, en la desembocadura del río Ebro, las piedras dan paso a un paisaje horizontal, donde se mezclan los intensos azules del Mediterráneo con el verdor profundo de los arrozales.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063638/cgs_portfolio/Pe__scola_044.webp", categoria: "España", fecha: "Noviembre 2014", equipo: "Nikon COOLPIX L820",
     galeria: [
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063639/cgs_portfolio/Albarracin-022.webp", "caption": "Vista panorámica del histórico pueblo de Albarracín en otoño", "tags": [ "Albarracín", "Otoño", "Pueblo medieval", "Paisaje", "Arquitectura" ], "alt": "Vista panorámica del histórico pueblo de Albarracín en otoño. En primer plano, se aprecian tejados de teja. El pueblo se extiende por la ladera, destacando una iglesia con torre campanario de cúpula colorida. Un vibrante follaje otoñal, con árboles en tonos rojos y amarillos, llena el valle y las laderas. Al fondo, se elevan montañas rocosas bajo un cielo claro, creando un contraste espectacular entre la arquitectura medieval y la naturaleza." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063642/cgs_portfolio/Albarracin-025.webp", "caption": "Una vista de Albarracín con casas de tonos rojizos y tejados", "tags": [ "Albarracín", "pueblo medieval", "arquitectura tradicional", "murallas históricas", "paisaje urbano", "España" ], "alt": "Una vista pintoresca de un pueblo medieval con casas de tonos rojizos y tejados de teja. Las calles estrechas y sinuosas están bordeadas por edificios con balcones de forja y farolas antiguas. En el fondo, una imponente muralla histórica corona una colina escarpada, añadiendo al encanto y la antigüedad del lugar." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063641/cgs_portfolio/Calaceite-002.webp", "caption": "Una encantadora fachada de piedra clara, característica de Calaceite", "tags": [ "Calaceite", "arquitectura tradicional", "fachada de piedra", "pueblo antiguo", "balcón", "escaleras" ], "alt": "Una encantadora fachada de piedra clara, característica de un pueblo histórico. Destacan un ventanal de madera oscura, un balcón con plantas y un gran arco que da paso a unas amplias escaleras de piedra. La luz del sol crea fuertes contrastes de sombras, realzando la textura de la mampostería y la riqueza arquitectónica del lugar. La escena evoca la atmósfera cálida y tradicional de una calle mediterránea." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063641/cgs_portfolio/Calaceite-008-JPG-1.webp", "caption": "Puerta de madera robusta y envejecida, adornada con remaches metálicos, enmarca una vista interior", "tags": [ "Calaceite", "madera", "piedra", "arquitectura", "escalera", "rústico", "antiguo", "detalle", "puerta", "barandilla" ], "alt": "Una puerta de madera robusta y envejecida, adornada con remaches metálicos, enmarca una vista interior. Al fondo, una pared de piedra irregular con iluminación cálida crea un ambiente rústico. A la derecha, una elegante escalera de madera oscura, con una barandilla torneada y un poste de inicio esculpido, invita a descender, añadiendo profundidad y misterio a la escena." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063644/cgs_portfolio/Calaceite-011.webp", "caption": "Contrapicado de la elaborada fachada de piedra de una iglesia de estilo barroco en Calaceite", "tags": [ "Calaceite", "arquitectura", "barroco", "iglesia", "piedra", "historia" ], "alt": "Una vista en contrapicado de la elaborada fachada de piedra de un edificio histórico, presumiblemente una iglesia de estilo barroco. La luz solar incide fuertemente, creando contrastes marcados y resaltando los intrincados detalles arquitectónicos, como las columnas salomónicas y los relieves decorativos. Se aprecian dos grandes puertas de madera o metal con texturas, flanqueadas por pilastras y ornamentos. La construcción es de un tono cálido, reflejando la antigüedad y la riqueza artística." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063644/cgs_portfolio/Calaceite-015.webp", "caption": "Arco de piedra antiguo que sirve de paso a una calle empedrada en Calaceite", "tags": [ "Calaceite", "Arquitectura histórica", "Arco de piedra", "Balcón de hierro", "Callejón", "Patrimonio cultural" ], "alt": "La imagen muestra un arco de piedra antiguo que sirve de paso a una calle empedrada en un pueblo histórico. Sobre el arco se aprecia un balcón con una barandilla de hierro forjado y una puerta de madera. Los detalles arquitectónicos, incluyendo inscripciones como \"AVE\" y \"MARIA\" en las pilastras, y los edificios de piedra al fondo, evocan un entorno tradicional y posiblemente medieval, típico de alguna región de España o el sur de Europa." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063644/cgs_portfolio/Cantavieja-001.webp", "caption": "Casas de piedra con tejados rojos se asienta precariamente sobre un imponente acantilado rocoso en Cantavieja", "tags": [ "Cantavieja", "acantilado", "pueblo", "arquitectura_rural", "otoño", "paisaje" ], "alt": "Una pintoresca aldea de casas de piedra con tejados rojos se asienta precariamente sobre un imponente acantilado rocoso. Abajo, árboles con follaje otoñal vibrante en tonos dorados y anaranjados añaden calidez al paisaje. La escena combina la tenacidad de la construcción humana con la belleza dramática de la naturaleza, creando una vista serena y vertical de un clásico 'pueblo colgado'." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063646/cgs_portfolio/Cantavieja-006.webp", "caption": "Cantavieja: un pintoresco pueblo tradicional encaramado en el borde de un escarpado acantilado", "tags": [ "Cantavieja", "pueblo", "acantilado", "arquitectura tradicional", "paisaje", "tejados rojos" ], "alt": "La imagen muestra un pintoresco pueblo tradicional encaramado en el borde de un escarpado acantilado. Las casas de piedra, con sus característicos tejados de teja roja, se integran armoniosamente en el paisaje rocoso. Se aprecia una carretera serpenteando en la distancia y vegetación exuberante en primer plano, añadiendo profundidad a esta vista de un asentamiento único." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063646/cgs_portfolio/Fresneda-001.webp", "caption": "Una vista en perspectiva de un pórtico, característico del pueblo medieval de Fresneda", "tags": [ "Fresneda", "Arquitectura", "Medieval", "Pórtico", "Piedra", "Madera" ], "alt": "Una vista en perspectiva de un pórtico o pasillo cubierto, característico de un pueblo medieval. A la izquierda, paredes de piedra con puertas rústicas de madera y vigas del mismo material sobre ellas. El techo muestra un entramado de vigas de madera oscura sobre un fondo claro. A la derecha, una sucesión de arcos de piedra crea una galería abierta, proyectando sombras. El suelo es un sendero claro que se adentra en la distancia, invitando a explorar este espacio histórico." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063647/cgs_portfolio/Mirambel-004.webp", "caption": "Vista de una fachada histórica en Mirambel, posiblemente de estilo Mudejar, con mampostería, paneles enlucidos y vigas de madera", "tags": [ "Mirambel", "Arquitectura Mudejar", "Celosía", "Calados de piedra", "Fachada antigua", "Patrones geométricos" ], "alt": "Detallada vista de una fachada histórica, posiblemente de estilo Mudejar, que combina mampostería, paneles enlucidos en ocre y vigas de madera oscura. Destacan intrincados calados de piedra con patrones geométricos y florales, junto a pequeñas celosías de madera. Un tejado de tejas de barro remata la estructura bajo un cielo azul, capturando la luz del sol que resalta las texturas y el diseño artesanal." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063649/cgs_portfolio/Mirambel-011.webp", "caption": "Un callejón empedrado serpentea entre antiguas casas de piedra en Mirambel", "tags": [ "Mirambel", "Pueblo", "Callejón", "Arquitectura de piedra", "España", "Tradicional" ], "alt": "Un callejón empedrado serpentea entre antiguas casas de piedra, típicas de un pueblo rural español. Los edificios presentan balcones con barandillas de hierro forjado y faroles tradicionales adornan sus muros. Al fondo, se eleva una ladera árida, sugiriendo un entorno montañoso. La escena evoca la tranquilidad y la rica historia de la arquitectura popular en España." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063648/cgs_portfolio/Morella-002-_2_.webp", "caption": "Imponente puerta de madera antigua en Morella, con un diseño de cuadrícula y numerosos remaches metálicos", "tags": [ "Morella", "puerta antigua", "madera", "herrajes", "arquitectura histórica", "entrada" ], "alt": "Una imponente puerta de madera antigua con un diseño de cuadrícula distintivo y numerosos remaches metálicos. La puerta, de tono rojizo oscuro y aspecto robusto, presenta una parte superior arqueada y muestra signos evidentes de envejecimiento y textura rugosa. Se encuentra empotrada en una pared de mampostería, con una placa parcialmente visible a la izquierda que alude a 'Valencia' y 'Vinatea', sugiriendo un significado histórico en la región." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063650/cgs_portfolio/Morella-013.webp", "caption": "Vibrante tejado abovedado cubierto con azulejos cerámicos de un intenso color azul, en Morella", "tags": [ "Morella", "arquitectura", "tejado azul", "ruinas", "muralla de piedra", "azulejos" ], "alt": "La imagen presenta un primer plano de un vibrante tejado abovedado cubierto con azulejos cerámicos de un intenso color azul, que se asienta sobre una base de ladrillo rojizo. En el fondo, bajo un cielo despejado, se aprecian las imponentes ruinas de una antigua fortificación o castillo de piedra, caracterizadas por muros robustos y una sección de torre derruida. La composición crea un contraste visual entre la distintiva arquitectura del tejado y el legado histórico de las ruinas." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063649/cgs_portfolio/Morella-026.webp", "caption": "Vista del Castillo de Morella, una fortaleza medieval erigida sobre una imponente roca", "tags": [ "castillo", "Morella", "pueblo medieval", "arquitectura", "paisaje histórico" ], "alt": "Una impresionante vista del Castillo de Morella, una fortaleza medieval erigida sobre una imponente roca. Debajo del castillo, se extiende el casco antiguo del pueblo, con sus casas de tonos cálidos y tejados de teja, destacando una cúpula azul. La luz del sol ilumina la escena, resaltando la textura de las rocas y las edificaciones. Es un ejemplo clásico de ciudad fortificada española." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063651/cgs_portfolio/Parque-Natural-Delta-del-Ebro-005.webp", "caption": "Un ave zancuda se posa en un bancal de tierra en medio de los extensos arrozales inundados del Delta del Ebro", "tags": [ "Parque Natural Delta del Ebro", "garza", "arrozales", "humedal", "naturaleza", "paisaje" ], "alt": "Un ave zancuda, posiblemente una garza, se posa en un bancal de tierra en medio de extensos arrozales inundados. El agua azul y el verde vibrante de las plantas de arroz dominan la escena, bajo un cielo claro. En el fondo, se aprecia vegetación más densa y un horizonte lejano, característico de un entorno deltaico." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063650/cgs_portfolio/Parque-Natural-Delta-del-Ebro-020-Flamencos.webp", "caption": "Una numerosa bandada de flamencos se agrupa en las aguas poco profundas de un humedal deltiano", "tags": [ "Parque Natural Delta del Ebro", "flamencos", "aves acuáticas", "naturaleza", "fauna silvestre", "laguna" ], "alt": "Una numerosa bandada de flamencos se agrupa en las aguas poco profundas de un humedal, mostrando plumajes blancos y rosados. Algunas aves están descansando con sus cabezas metidas, mientras otras permanecen de pie. En el fondo azul del agua, se observan varias aves acuáticas más pequeñas y oscuras nadando. El primer plano presenta vegetación arbustiva en tonos verdes y marrones, bordeando la orilla." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063651/cgs_portfolio/Peniscola-044.webp", "caption": "Castillo de Peñíscola, conocido como el Castillo del Papa Luna, emergiendo sobre una península rocosa en el Mediterráneo", "tags": [ "Peñíscola", "castillo", "fortificación", "costa", "arquitectura", "histórico" ], "alt": "La imagen muestra el imponente Castillo de Peñíscola, conocido como el Castillo del Papa Luna, emergiendo sobre una península rocosa en el Mediterráneo. La fortaleza de piedra antigua, con una iglesia de cúpula de tejas naranjas, se alza majestuosa. A sus pies, un pueblo de casas blancas desciende hacia el mar, rodeado por murallas defensivas y palmeras. La escena captura la rica historia y la belleza costera de este emblemático lugar bajo un cielo nublado." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063655/cgs_portfolio/Puertomingalvo-005.webp", "caption": "Casa antigua de piedra con paredes robustas y un tejado de tejas de arcilla, típicas de la arquitectura rural en Puertomingalvo", "tags": [ "Puertomingalvo", "arquitectura rural", "casa de piedra", "tejado de tejas", "pueblo antiguo", "rústico" ], "alt": "Una casa antigua de piedra con paredes robustas y un tejado de tejas de arcilla, típicas de la arquitectura rural tradicional. La fachada muestra el paso del tiempo, con mortero desprendido y piedras expuestas, además de pequeñas ventanas y puertas de madera que le confieren un carácter auténtico y desgastado. La imagen evoca un ambiente histórico y sereno de un viejo pueblo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063654/cgs_portfolio/Puertomingalvo-018.webp", "caption": "Primer plano de un antiguo reloj de sol tallado en piedra arenisca (Puertomingalvo)", "tags": [ "Puertomingalvo", "reloj de sol", "gnomon", "piedra", "antiguo", "grabado" ], "alt": "Primer plano de un antiguo reloj de sol tallado en piedra arenisca. Presenta un gnomon metálico que proyecta una sombra nítida, líneas radiales grabadas y una inscripción visible que incluye 'ANNO' y posiblemente otros símbolos o números estilizados. La superficie de la piedra muestra signos de desgaste por el tiempo y manchas naturales de color rojizo, indicando su antigüedad y exposición a los elementos." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063653/cgs_portfolio/Valderrobres-006.webp", "caption": "El conjunto monumental de Valderrobres", "tags": [ "Valderrobres", "Castillo", "Iglesia", "arquitectura medieval", "Teruel", "Maestrazgo", "Aragón" ], "alt": "Vista panorámica del histórico pueblo de Valderrobres, con su imponente castillo-palacio de piedra y la iglesia de Santa María la Mayor. El entramado de casas tradicionales con tejados de terracota se extiende a los pies de la fortaleza, bajo un cielo azul vibrante que realza la piedra dorada de Teruel." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063675/cgs_portfolio/Valderrobres-009.webp", "caption": "Dos tramos de escaleras de piedra rústica, ascendiendo entre paredes también construidas con grandes bloques de piedra en Valderrobres", "tags": [ "Valderrobres", "escaleras", "piedra", "arquitectura", "antiguo", "textura" ], "alt": "La imagen presenta dos tramos de escaleras de piedra rústica y erosionada, ascendiendo entre paredes también construidas con grandes bloques de piedra. A la izquierda, se vislumbra una puerta de madera oscura. El conjunto evoca la atmósfera de un paso o callejón en una ciudad o edificación antigua, resaltando las ricas texturas y los tonos terrosos de la piedra." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063656/cgs_portfolio/Valderrobres-012.webp", "caption": "Primer plano detallado de un rosetón gótico, característico por su compleja tracería de piedra calada que forma patrones florales y geométricos", "tags": [ "Valderrobres", "Rosetón", "Gótico", "Arquitectura", "Detalle", "Piedra" ], "alt": "La imagen muestra un primer plano detallado de un rosetón gótico, característico por su compleja tracería de piedra calada que forma patrones florales y geométricos. El rosetón está enmarcado por una fachada de mampostería de piedra, con bloques de tonos ocres y grises. Debajo del ventanal, se aprecia un friso ornamentado con pequeños arcos y figuras escultóricas. La luz atraviesa los cristales blancos, destacando la delicadeza del trabajo artesanal. A la izquierda, se vislumbra parte de un edificio adyacente con un balcón y tejado de madera." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063657/cgs_portfolio/Valencia-009.webp", "caption": "Fuente decorativa con una máscara dorada incrustada en una pared de piedra ocre y texturizada (Valencia)", "tags": [ "Valencia", "fuente", "máscara", "dorado", "escultura", "agua" ], "alt": "Primer plano de una fuente decorativa con una máscara dorada incrustada en una pared de piedra ocre y texturizada. La máscara presenta un rostro sereno con ojos cerrados y elaborados detalles ornamentales alrededor de la cabeza, incluyendo lo que parecen ser elementos marinos y florales, con una pátina verdosa en algunas áreas. Un chorro de agua emerge directamente de la boca de la figura, creando un punto focal y un contraste visual con el brillo del metal y la rugosidad del fondo." },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063639/cgs_portfolio/Albarracin-022.webp",
+        "location": "Albarracín, Sierra de Albarracín, Teruel",
+        "caption": "Sinfonía otoñal: Caserío medieval de Albarracín arropado por el bosque dorado del Guadalaviar",
+        "tags": ["Albarracín", "Teruel", "Otoño", "Sierra De Albarracín", "Arquitectura Medieval", "Aragón"],
+        "alt": "Vista panorámica del histórico pueblo de Albarracín en otoño. En primer plano, se aprecian tejados de teja. El pueblo se extiende por la ladera, destacando una iglesia con torre campanario de cúpula colorida. Un vibrante follaje otoñal, con árboles en tonos rojos y amarillos, llena el valle y las laderas. Al fondo, se elevan montañas rocosas bajo un cielo claro, creando un contraste espectacular entre la arquitectura medieval y la naturaleza."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063642/cgs_portfolio/Albarracin-025.webp",
+        "location": "Albarracín, Sierra de Albarracín, Teruel",
+        "caption": "Laberinto de yeso rojo: Callejones empinados bajo la imponente muralla de Albarracín",
+        "tags": ["Albarracín", "Murallas Medievales", "Yeso Rojo", "Teruel", "Arquitectura Popular", "Aragón"],
+        "alt": "Una vista pintoresca de un pueblo medieval con casas de tonos rojizos y tejados de teja. Las calles estrechas y sinuosas están bordeadas por edificios con balcones de forja y farolas antiguas. En el fondo, una imponente muralla histórica corona una colina escarpada, añadiendo al encanto y la antigüedad del lugar."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063641/cgs_portfolio/Calaceite-002.webp",
+        "location": "Calaceite, Matarraña, Teruel",
+        "caption": "Luz en la sillería: Escalinata y fachadas solariegas de piedra dorada en Calaceite",
+        "tags": ["Calaceite", "Matarraña", "Teruel", "Arquitectura De Piedra", "Casonas Solariegas", "Aragón"],
+        "alt": "Una encantadora fachada de piedra clara, característica de un pueblo histórico. Destacan un ventanal de madera oscura, un balcón con plantas y un gran arco que da paso a unas amplias escaleras de piedra. La luz del sol crea fuertes contrastes de sombras, realzando la textura de la mampostería y la riqueza arquitectónica del lugar. La escena evoca la atmósfera cálida y tradicional de una calle mediterránea."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063641/cgs_portfolio/Calaceite-008-JPG-1.webp",
+        "location": "Calaceite, Matarraña, Teruel",
+        "caption": "Umbral añejo: Portal claveteado de madera noble que descubre escaleras de sillería",
+        "tags": ["Calaceite", "Matarraña", "Portales Históricos", "Herrajes", "Detalle Arquitectónico", "Aragón"],
+        "alt": "Una puerta de madera robusta y envejecida, adornada con remaches metálicos, enmarca una vista interior. Al fondo, una pared de piedra irregular con iluminación cálida crea un ambiente rústico. A la derecha, una elegante escalera de madera oscura, con una barandilla torneada y un poste de inicio esculpido, invita a descender, añadiendo profundidad y misterio a la escena."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063644/cgs_portfolio/Calaceite-011.webp",
+        "location": "Iglesia de la Asunción, Calaceite, Teruel",
+        "caption": "Barroco en piedra: Monumental portada de columnas salomónicas en la parroquia de Calaceite",
+        "tags": ["Calaceite", "Iglesia De La Asunción", "Barroco", "Columnas Salomónicas", "Matarraña", "Aragón"],
+        "alt": "Una vista en contrapicado de la elaborada fachada de piedra de un edificio histórico, presumiblemente una iglesia de estilo barroco. La luz solar incide fuertemente, creando contrastes marcados y resaltando los intrincados detalles arquitectónicos, como las columnas salomónicas y los relieves decorativos. Se aprecian dos grandes puertas de madera o metal con texturas, flanqueadas por pilastras y ornamentos. La construcción es de un tono cálido, reflejando la antigüedad y la riqueza artística."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063644/cgs_portfolio/Calaceite-015.webp",
+        "location": "Calaceite, Matarraña, Teruel",
+        "caption": "Paso de ronda: Arco de piedra coronado por balcón de forja sobre la calle empedrada",
+        "tags": ["Calaceite", "Matarraña", "Arcos De Piedra", "Hierro Forjado", "Urbanismo Medieval", "Aragón"],
+        "alt": "La imagen muestra un arco de piedra antiguo que sirve de paso a una calle empedrada en un pueblo histórico. Sobre el arco se aprecia un balcón con una barandilla de hierro forjado y una puerta de madera. Los detalles arquitectónicos, incluyendo inscripciones como \"AVE\" y \"MARIA\" en las pilastras, y los edificios de piedra al fondo, evocan un entorno tradicional y posiblemente medieval, típico de alguna región de España o el sur de Europa."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063644/cgs_portfolio/Cantavieja-001.webp",
+        "location": "Cantavieja, Maestrazgo, Teruel",
+        "caption": "Vértigo en la muela: Casas de piedra encaramadas al precipicio en el balcón del Maestrazgo",
+        "tags": ["Cantavieja", "Maestrazgo", "Pueblo Colgado", "Acantilado", "Teruel", "Aragón"],
+        "alt": "Una pintoresca aldea de casas de piedra con tejados rojos se asienta precariamente sobre un imponente acantilado rocoso. Abajo, árboles con follaje otoñal vibrante en tonos dorados y anaranjados añaden calidez al paisaje. La escena combina la tenacidad de la construcción humana con la belleza dramática de la naturaleza, creando una vista serena y vertical de un clásico 'pueblo colgado'."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063646/cgs_portfolio/Cantavieja-006.webp",
+        "location": "Cantavieja, Maestrazgo, Teruel",
+        "caption": "Atalaya pétrea: La silueta inexpugnable de Cantavieja dominando el abrupto paisaje turolense",
+        "tags": ["Cantavieja", "Maestrazgo", "Fortaleza Natural", "Arquitectura Tradicional", "Teruel", "Aragón"],
+        "alt": "La imagen muestra un pintoresco pueblo tradicional encaramado en el borde de un escarpado acantilado. Las casas de piedra, con sus característicos tejados de teja roja, se integran armoniosamente en el paisaje rocoso. Se aprecia una carretera serpenteando en la distancia y vegetación exuberante en primer plano, añadiendo profundidad a esta vista de un asentamiento único."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063646/cgs_portfolio/Fresneda-001.webp",
+        "location": "La Fresneda, Matarraña, Teruel",
+        "caption": "Galería de arcos: La solemne lonja porticada de piedra y vigas de madera en La Fresneda",
+        "tags": ["La Fresneda", "Matarraña", "Soportales", "Lonja Medieval", "Arquitectura", "Aragón"],
+        "alt": "Una vista en perspectiva de un pórtico o pasillo cubierto, característico de un pueblo medieval. A la izquierda, paredes de piedra con puertas rústicas de madera y vigas del mismo material sobre ellas. El techo muestra un entramado de vigas de madera oscura sobre un fondo claro. A la derecha, una sucesión de arcos de piedra crea una galería abierta, proyectando sombras. El suelo es un sendero claro que se adentra en la distancia, invitando a explorar este espacio histórico."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063647/cgs_portfolio/Mirambel-004.webp",
+        "location": "Portal de las Monjas, Mirambel, Teruel",
+        "caption": "Filigrana mudéjar: Las singulares celosías de yeso y calados geométricos de Mirambel",
+        "tags": ["Mirambel", "Maestrazgo", "Portal De Las Monjas", "Celosía Mudéjar", "Artesanía", "Aragón"],
+        "alt": "Detallada vista de una fachada histórica, posiblemente de estilo Mudejar, que combina mampostería, paneles enlucidos en ocre y vigas de madera oscura. Destacan intrincados calados de piedra con patrones geométricos y florales, junto a pequeñas celosías de madera. Un tejado de tejas de barro remata la estructura bajo un cielo azul, capturando la luz del sol que resalta las texturas y el diseño artesanal."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063649/cgs_portfolio/Mirambel-011.webp",
+        "location": "Casco histórico, Mirambel, Teruel",
+        "caption": "Silencio empedrado: Callejuela medieval entre muros de sillería y aleros de madera",
+        "tags": ["Mirambel", "Maestrazgo", "Casco Histórico", "Premio Europa Nostra", "Teruel", "Aragón"],
+        "alt": "Un callejón empedrado serpentea entre antiguas casas de piedra, típicas de un pueblo rural español. Los edificios presentan balcones con barandillas de hierro forjado y faroles tradicionales adornan sus muros. Al fondo, se eleva una ladera árida, sugiriendo un entorno montañoso. La escena evoca la tranquilidad y la rica historia de la arquitectura popular en España."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063648/cgs_portfolio/Morella-002-_2_.webp",
+        "location": "Morella, Els Ports, Castellón",
+        "caption": "Entrada señorial: Imponente portón de madera en retícula con forja artesanal en Morella",
+        "tags": ["Morella", "Els Ports", "Portones Históricos", "Herrajes Medievales", "Castellón"],
+        "alt": "Una imponente puerta de madera antigua con un diseño de cuadrícula distintivo y numerosos remaches metálicos. La puerta, de tono rojizo oscuro y aspecto robusto, presenta una parte superior arqueada y muestra signos evidentes de envejecimiento y textura rugosa. Se encuentra empotrada en una pared de mampostería, con una placa parcialmente visible a la izquierda que alude a 'Valencia' y 'Vinatea', sugiriendo un significado histórico en la región."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063650/cgs_portfolio/Morella-013.webp",
+        "location": "Basílica de Santa María la Mayor, Morella, Castellón",
+        "caption": "Reflejos de zafiro: Tejado de azulejos vidriados azules frente a las murallas de Morella",
+        "tags": ["Morella", "Els Ports", "Azulejo Vidriado", "Santa María La Mayor", "Castillo De Morella", "Castellón"],
+        "alt": "La imagen presenta un primer plano de un vibrante tejado abovedado cubierto con azulejos cerámicos de un intenso color azul, que se asienta sobre una base de ladrillo rojizo. En el fondo, bajo un cielo despejado, se aprecian las imponentes ruinas de una antigua fortificación o castillo de piedra, caracterizadas por muros robustos y una sección de torre derruida. La composición crea un contraste visual entre la distintiva arquitectura del tejado y el legado histórico de las ruinas."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063649/cgs_portfolio/Morella-026.webp",
+        "location": "Castillo de Morella, Els Ports, Castellón",
+        "caption": "Corona de roca: La inexpugnable fortaleza medieval de Morella reinando sobre la comarca",
+        "tags": ["Morella", "Castillo De Morella", "Els Ports", "Fortaleza Medieval", "Patrimonio", "Castellón"],
+        "alt": "Una impresionante vista del Castillo de Morella, una fortaleza medieval erigida sobre una imponente roca. Debajo del castillo, se extiende el casco antiguo del pueblo, con sus casas de tonos cálidos y tejados de teja, destacando una cúpula azul. La luz del sol ilumina la escena, resaltando la textura de las rocas y las edificaciones. Es un ejemplo clásico de ciudad fortificada española."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063651/cgs_portfolio/Parque-Natural-Delta-del-Ebro-005.webp",
+        "location": "Parque Natural del Delta del Ebro, Tarragona",
+        "caption": "El vigía del humedal: Garza real posada sobre la mota entre los arrozales inundados",
+        "tags": ["Delta Del Ebro", "Tarragona", "Arrozales", "Garza Real", "Humedal", "Biodiversidad", "Cataluña"],
+        "alt": "Un ave zancuda, posiblemente una garza, se posa en un bancal de tierra en medio de extensos arrozales inundados. El agua azul y el verde vibrante de las plantas de arroz dominan la escena, bajo un cielo claro. En el fondo, se aprecia vegetación más densa y un horizonte lejano, característico de un entorno deltaico."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063650/cgs_portfolio/Parque-Natural-Delta-del-Ebro-020-Flamencos.webp",
+        "location": "Laguna de la Tancada, Delta del Ebro, Tarragona",
+        "caption": "Destellos rosados: Colonia de flamencos alimentándose en las aguas someras del delta",
+        "tags": ["Delta Del Ebro", "Tarragona", "Flamencos", "Aves Acuáticas", "Laguna De La Tancada", "Cataluña"],
+        "alt": "Una numerosa bandada de flamencos se agrupa en las aguas poco profundas de un humedal, mostrando plumajes blancos y rosados. Algunas aves están descansando con sus cabezas metidas, mientras otras permanecen de pie. En el fondo azul del agua, se observan varias aves acuáticas más pequeñas y oscuras nadando. El primer plano presenta vegetación arbustiva en tonos verdes y marrones, bordeando la orilla."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063651/cgs_portfolio/Peniscola-044.webp",
+        "location": "Castillo de Peñíscola, Castellón",
+        "caption": "El peñón papal: El Castillo del Papa Luna erigido sobre el Mediterráneo entre murallas blancas",
+        "tags": ["Peñíscola", "Castillo Del Papa Luna", "Castillo Templario", "Mediterráneo", "Costa De Azahar", "Castellón"],
+        "alt": "La imagen muestra el imponente Castillo de Peñíscola, conocido como el Castillo del Papa Luna, emergiendo sobre una península rocosa en el Mediterráneo. La fortaleza de piedra antigua, con una iglesia de cúpula de tejas naranjas, se alza majestuosa. A sus pies, un pueblo de casas blancas desciende hacia el mar, rodeado por murallas defensivas y palmeras. La escena captura la rica historia y la belleza costera de este emblemático lugar bajo un cielo nublado."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063655/cgs_portfolio/Puertomingalvo-005.webp",
+        "location": "Puertomingalvo, Maestrazgo, Teruel",
+        "caption": "Arquitectura de sillar: Fachadas de piedra viva y aleros envejecidos en Puertomingalvo",
+        "tags": ["Puertomingalvo", "Maestrazgo", "Pueblo Medieval", "Arquitectura De Piedra", "Teruel", "Aragón"],
+        "alt": "Una casa antigua de piedra con paredes robustas y un tejado de tejas de arcilla, típicas de la arquitectura rural tradicional. La fachada muestra el paso del tiempo, con mortero desprendido y piedras expuestas, además de pequeñas ventanas y puertas de madera que le confieren un carácter auténtico y desgastado. La imagen evoca un ambiente histórico y sereno de un viejo pueblo."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063654/cgs_portfolio/Puertomingalvo-018.webp",
+        "location": "Puertomingalvo, Maestrazgo, Teruel",
+        "caption": "El pulso del sol: Antiguo cuadrante solar grabado en piedra arenisca con gnomon metálico",
+        "tags": ["Puertomingalvo", "Maestrazgo", "Reloj De Sol", "Piedra Arenisca", "Patrimonio", "Aragón"],
+        "alt": "Primer plano de un antiguo reloj de sol tallado en piedra arenisca. Presenta un gnomon metálico que proyecta una sombra nítida, líneas radiales grabadas y una inscripción visible que incluye 'ANNO' y posiblemente otros símbolos o números estilizados. La superficie de la piedra muestra signos de desgaste por el tiempo y manchas naturales de color rojizo, indicando su antigüedad y exposición a los elementos."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063653/cgs_portfolio/Valderrobres-006.webp",
+        "location": "Conjunto monumental, Valderrobres, Teruel",
+        "caption": "Trinidad de piedra: El castillo-palacio, Santa María la Mayor y el caserío sobre el Matarraña",
+        "tags": ["Valderrobres", "Matarraña", "Castillo De Valderrobres", "Santa María La Mayor", "Teruel", "Aragón"],
+        "alt": "Vista panorámica del histórico pueblo de Valderrobres, con su imponente castillo-palacio de piedra y la iglesia de Santa María la Mayor. El entramado de casas tradicionales con tejados de terracota se extiende a los pies de la fortaleza, bajo un cielo azul vibrante que realza la piedra dorada de Teruel."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063675/cgs_portfolio/Valderrobres-009.webp",
+        "location": "Casco antiguo, Valderrobres, Teruel",
+        "caption": "Ascenso medieval: Empinada escalinata de sillares rústicos hacia el recinto del castillo",
+        "tags": ["Valderrobres", "Matarraña", "Escaleras De Piedra", "Callejón Medieval", "Teruel", "Aragón"],
+        "alt": "La imagen presenta dos tramos de escaleras de piedra rústica y erosionada, ascendiendo entre paredes también construidas con grandes bloques de piedra. A la izquierda, se vislumbra una puerta de madera oscura. El conjunto evoca la atmósfera de un paso o callejón en una ciudad o edificación antigua, resaltando las ricas texturas y los tonos terrosos de la piedra."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063656/cgs_portfolio/Valderrobres-012.webp",
+        "location": "Iglesia de Santa María la Mayor, Valderrobres, Teruel",
+        "caption": "Tracería de luz: El monumental rosetón gótico florido de Santa María la Mayor",
+        "tags": ["Valderrobres", "Santa María La Mayor", "Rosetón Gótico", "Gótico Levantino", "Matarraña", "Aragón"],
+        "alt": "La imagen muestra un primer plano detallado de un rosetón gótico, característico por su compleja tracería de piedra calada que forma patrones florales y geométricos. El rosetón está enmarcado por una fachada de mampostería de piedra, con bloques de tonos ocres y grises. Debajo del ventanal, se aprecia un friso ornamentado con pequeños arcos y figuras escultóricas. La luz atraviesa los cristales blancos, destacando la delicadeza del trabajo artesanal. A la izquierda, se vislumbra parte de un edificio adyacente con un balcón y tejado de madera."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063657/cgs_portfolio/Valencia-009.webp",
+        "location": "Centro histórico, Valencia",
+        "caption": "Máscara y fuente: Mascarón dorado ornamental brotando agua sobre el muro de piedra texturizada",
+        "tags": ["Valencia", "Fuente Urbana", "Mascarón Dorado", "Escultura", "Detalle Clásico", "Comunidad Valenciana"],
+        "alt": "Primer plano de una fuente decorativa con una máscara dorada incrustada en una pared de piedra ocre y texturizada. La máscara presenta un rostro sereno con ojos cerrados y elaborados detalles ornamentales alrededor de la cabeza, incluyendo lo que parecen ser elementos marinos y florales, con una pátina verdosa en algunas áreas. Un chorro de agua emerge directamente de la boca de la figura, creando un punto focal y un contraste visual con el brillo del metal y la rugosidad del fondo."
+      }
     ]
   },
   {
@@ -144,27 +444,153 @@ La fortaleza bullía de actividad. Un grupo de escolares representaba con entusi
 A las seis de la tarde llegamos a una Barcelona arropada todavía por la luz mediterránea. Repasé el itinerario de siete días - Zaragoza, Burgos, León, Carrión de los Condes, Oviedo, Avilés, Santander, Santillana del Mar, Bilbao, Biarritz, San Juan de Luz, San Sebastián, Castillo de Loarre – y constaté en el coche los kilómetros recorridos:  2.884.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063679/cgs_portfolio/Castillo-de-Loarre-001.webp", categoria: "España", fecha: "Mayo 2013", equipo: "Canon PowerShot SX200 IS",
     galeria: [
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063673/cgs_portfolio/Basilica-del-Pilar-Zaragoza-005.webp", "caption": "La Basílica del Pilar en Zaragoza", "tags": ["basílica", "zaragoza", "pilar", "arquitectura religiosa", "monumento", "plaza", "personas"], "alt": "Una vista de la bulliciosa Calle Alfonso I en Zaragoza, España, que conduce directamente a la imponente Basílica de Nuestra Señora del Pilar, cuya cúpula domina el horizonte."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063687/cgs_portfolio/Bilbao-Guggenheim-011.webp", "caption": "El titanio del Guggenheim reflejando la luz de Bilbao", "tags": ["arquitectura moderna", "museo", "titanio", "reflejos", "bilbao", "guggenheim"], "alt": "Una vista exterior del icónico Museo Guggenheim de Bilbao, con sus formas ondulantes y paneles de titanio bajo un cielo parcialmente nublado."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063678/cgs_portfolio/Bilbao-Guggenheim-017.webp", "caption": "Reflejos metálicos en el Museo Guggenheim de Bilbao", "tags": ["bilbao", "guggenheim", "metal", "reflejos", "arquitectura moderna", "museo"], "alt": "Una vista de la icónica fachada del Museo Guggenheim Bilbao, caracterizada por sus paneles de titanio que reflejan la luz y el cielo azul."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063679/cgs_portfolio/Castillo-de-Loarre-001.webp", "caption": "La imponente silueta del Castillo de Loarre", "tags": ["castillo", "loarre", "fortaleza", "medieval", "huesca", "aragón", "románico"], "alt": "La imagen muestra el imponente Castillo de Loarre, una fortaleza románica y gótica del siglo XI estratégicamente ubicada en la cima de una escarpada colina rocosa en Huesca."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063681/cgs_portfolio/Castillo-de-Loarre-024.webp", "caption": "Una ventana al valle desde el Castillo de Loarre", "tags": ["castillo", "vistas", "valle", "paisaje", "huesca", "loarre", "panorámica"], "alt": "Una vista panorámica desde uno de los ventanales del Castillo de Loarre hacia un pintoresco valle verde salpicado de vegetación y formaciones rocosas."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063683/cgs_portfolio/Catedral-de-Burgos-La-escalera-Dorada.webp", "caption": "La Escalera Dorada, joya renacentista de la Catedral de Burgos", "tags": ["escalera dorada", "catedral de burgos", "renacimiento", "diego de siloé", "burgos", "interior"], "alt": "Magnífica Escalera Dorada de la Catedral de Burgos, obra de Diego de Siloé, caracterizada por su rica ornamentación plateresca y sus intrincados pasamanos de hierro con detalles dorados."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063685/cgs_portfolio/Catedral-de-Burgos-017.webp", "caption": "La majestuosidad gótica de la Catedral de Burgos", "tags": ["catedral de burgos", "gótico", "burgos", "bóveda de crucería", "arquitectura religiosa", "patrimonio"], "alt": "Vista detallada de una majestuosa bóveda de crucería gótica en la Catedral de Burgos, con nervios que convergen en un rosetón central calado de gran belleza."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063689/cgs_portfolio/Centro-Niemeyer-006.webp", "caption": "Curvas blancas y vanguardia en el Centro Niemeyer de Avilés", "tags": ["centro niemeyer", "avilés", "asturias", "arquitectura moderna", "oscar niemeyer", "vanguardia"], "alt": "La fotografía muestra el icónico Centro Niemeyer en Avilés, Asturias. Destacan la torre cilíndrica con rampa exterior y la gran cúpula blanca, obras del arquitecto brasileño Oscar Niemeyer."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063691/cgs_portfolio/Gijon-001.webp", "caption": "El espíritu marinero de Gijón frente al mar", "tags": ["mar", "gijón", "puerto", "costa", "asturias", "playa de san lorenzo"], "alt": "Una vista pintoresca de la Playa de San Lorenzo en Gijón, España, con la emblemática Iglesia de San Pedro dominando el horizonte."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063692/cgs_portfolio/Leon-011.webp", "caption": "Dos escriben y uno lee en un banco de León", "tags": ["personas", "gente", "banco", "león", "ciudad", "vida cotidiana"], "alt": "La imagen muestra a dos personas y una estatua de bronce sentados en un banco de parque en León. El hombre escribe y la mujer examina papeles junto a la estatua."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063692/cgs_portfolio/Luna-llena-en-Burgos-001.webp", "caption": "Luna llena sobre los tejados de Burgos", "tags": ["noche", "luna", "burgos", "ciudad", "tejados", "atmósfera"], "alt": "Paisaje urbano al anochecer donde una luna llena brillante domina el cielo violeta sobre edificios de estilo clásico iluminados."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063695/cgs_portfolio/Oviedo-027.webp", "caption": "La elegancia clásica de las calles de Oviedo", "tags": [ "Oviedo", "arquitectura clásica", "casco histórico", "Asturias", "urbanismo", "España" ], "alt": "Una pintoresca y estrecha calle en el casco antiguo de Oviedo, flanqueada por elegantes edificios históricos con balcones y molduras clásicas. Al fondo, la torre de la Catedral se alza como hito arquitectónico bajo la luz suave de la tarde." },
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063693/cgs_portfolio/Oviedo-Monte-el-Naranco.webp", "caption": "Vida rural en la cima del Monte Naranco", "tags": [ "Monte Naranco", "Oviedo", "Asturias", "animales", "naturaleza", "paisaje rural" ], "alt": "Una escena de vida rural en las laderas del Monte Naranco en Oviedo. Un gallo blanco y un gato moteado comparten un espacio de hierba frente a una rústica edificación de piedra, con el paisaje montañoso asturiano de fondo." },
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063695/cgs_portfolio/Oviedo-Santa-Maria-del-Naranco-004.webp", "caption": "Santa María del Naranco, cumbre del Prerrománico", "tags": [ "Santa María del Naranco", "Prerrománico Asturiano", "Patrimonio de la Humanidad", "arquitectura", "Oviedo", "Asturias" ], "alt": "El histórico palacio reconvertido en iglesia de Santa María del Naranco, emblema del arte prerrománico asturiano. Su singular estructura de piedra caliza, situada en una explanada verde del Monte Naranco, destaca por sus logias abiertas y su exquisita proporción arquitectónica del siglo IX." },
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063695/cgs_portfolio/Parque-en-Burgos.webp", "caption": "Paseo primaveral por los parques de Burgos", "tags": ["parque", "naturaleza", "verde", "árboles", "burgos", "primavera"], "alt": "Vista panorámica de la Catedral de Burgos en el horizonte, con el río Arlanzón serpenteando a través de un amplio parque verde."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063699/cgs_portfolio/Paseos-en-Burgos-003.webp", "caption": "Color tras los soportales en el centro de Burgos", "tags": ["burgos", "soportales", "color", "arquitectura tradicional", "calle"], "alt": "Calle de Burgos enmarcada por un arco oscuro, mostrando edificios con soportales de piedra y balcones de hierro forjado."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063697/cgs_portfolio/San-Sebastian-013.webp", "caption": "Una pareja contempla la elegancia de la bahía de San Sebastián", "tags": ["mar", "bahía", "playa", "san sebastián", "costa", "paisaje"], "alt": "Vista panorámica de la Bahía de la Concha. Una pareja se abraza en el muro del paseo marítimo con la ciudad y el mar de fondo."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063697/cgs_portfolio/Santander-006.webp", "caption": "Una vistosa calle de Santander", "tags": ["calle", "ciudad", "santander", "urbano", "fachadas", "color"], "alt": "Vista de una calle urbana en Santander con edificios caracterizados por sus distintivos miradores acristalados de varios colores."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063659/cgs_portfolio/Santander-037.webp", "caption": "Una casona verde en Santander", "tags": ["arquitectura tradicional", "casa", "verde", "santander", "fachada", "hiedra"], "alt": "Una imponente casa de varios niveles casi enteramente cubierta por una densa hiedra verde vibrante en Santander."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063699/cgs_portfolio/Santillana-del-Mar-006.webp", "caption": "El bucólico emplazamiento de Santillana del Mar", "tags": ["pueblo", "histórico", "santillana del mar", "piedra", "tradicional", "paisaje"], "alt": "Vista panorámica de Santillana del Mar destacando la Colegiata de Santa Juliana rodeada de prados verdes y colinas."},
-    {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063700/cgs_portfolio/Vistas-de-Bilbao-001.webp", "caption": "Panorámica de Bilbao desde las alturas", "tags": ["vistas aéreas", "panorámica", "ciudad", "bilbao", "autopista", "urbano"], "alt": "Vista aérea de Bilbao mostrando el entramado urbano, el sistema de carreteras elevadas y las colinas verdes que rodean la ciudad."},
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063673/cgs_portfolio/Basilica-del-Pilar-Zaragoza-005.webp",
+        "location": "Basílica de Nuestra Señora del Pilar, Zaragoza",
+        "caption": "Faro del Ebro: La monumental cúpula del Pilar asomando sobre la calle Alfonso I",
+        "tags": ["Basílica Del Pilar", "Zaragoza", "Calle Alfonso I", "Arquitectura Barroca", "Aragón"],
+        "alt": "Una vista de la bulliciosa Calle Alfonso I en Zaragoza, España, que conduce directamente a la imponente Basílica de Nuestra Señora del Pilar, cuya cúpula domina el horizonte."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063687/cgs_portfolio/Bilbao-Guggenheim-011.webp",
+        "location": "Museo Guggenheim Bilbao, Vizcaya",
+        "caption": "Escamas de titanio: Curvas escultóricas y dinamismo arquitectónico junto a la ría",
+        "tags": ["Guggenheim Bilbao", "Bilbao", "Titanio", "Frank Gehry", "Arquitectura Contemporánea", "País Vasco"],
+        "alt": "Una vista exterior del icónico Museo Guggenheim de Bilbao, con sus formas ondulantes y paneles de titanio bajo un cielo parcialmente nublado."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063678/cgs_portfolio/Bilbao-Guggenheim-017.webp",
+        "location": "Museo Guggenheim Bilbao, Vizcaya",
+        "caption": "Reflejos metálicos: El titanio del Guggenheim capturando la luz cambiante del Cantábrico",
+        "tags": ["Guggenheim Bilbao", "Bilbao", "Ría De Bilbao", "Arquitectura", "País Vasco"],
+        "alt": "Una vista de la icónica fachada del Museo Guggenheim Bilbao, caracterizada por sus paneles de titanio que reflejan la luz y el cielo azul."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063679/cgs_portfolio/Castillo-de-Loarre-001.webp",
+        "location": "Castillo de Loarre, Huesca",
+        "caption": "Centinela de la Hoya: La imponente muralla y torre del homenaje del castillo románico de Loarre",
+        "tags": ["Castillo De Loarre", "Huesca", "Románico", "Fortaleza Medieval", "Patrimonio", "Aragón"],
+        "alt": "La imagen muestra el imponente Castillo de Loarre, una fortaleza románica y gótica del siglo XI estratégicamente ubicada en la cima de una escarpada colina rocosa en Huesca."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063681/cgs_portfolio/Castillo-de-Loarre-024.webp",
+        "location": "Castillo de Loarre, Huesca",
+        "caption": "Mirador al infinito: El valle oscense enmarcado por las troneras de la fortaleza",
+        "tags": ["Castillo De Loarre", "Huesca", "Hoya De Huesca", "Vistas Panorámicas", "Aragón"],
+        "alt": "Una vista panorámica desde uno de los ventanales del Castillo de Loarre hacia un pintoresco valle verde salpicado de vegetación y formaciones rocosas."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063683/cgs_portfolio/Catedral-de-Burgos-La-escalera-Dorada.webp",
+        "location": "Catedral de Santa María, Burgos",
+        "caption": "Filigrana renacentista: La suntuosa Escalera Dorada esculpida por Diego de Siloé",
+        "tags": ["Catedral De Burgos", "Burgos", "Escalera Dorada", "Diego De Siloé", "Renacimiento", "Castilla Y León"],
+        "alt": "Magnífica Escalera Dorada de la Catedral de Burgos, obra de Diego de Siloé, caracterizada por su rica ornamentación plateresca y sus intrincados pasamanos de hierro con detalles dorados."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063685/cgs_portfolio/Catedral-de-Burgos-017.webp",
+        "location": "Catedral de Santa María, Burgos",
+        "caption": "Bóveda estrellada: El prodigio gótico del cimborrio calado en la Catedral de Burgos",
+        "tags": ["Catedral De Burgos", "Burgos", "Gótico Flamígero", "Bóveda De Crucería", "Patrimonio", "Castilla Y León"],
+        "alt": "Vista detallada de una majestuosa bóveda de crucería gótica en la Catedral de Burgos, con nervios que convergen en un rosetón central calado de gran belleza."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063689/cgs_portfolio/Centro-Niemeyer-006.webp",
+        "location": "Centro Niemeyer, Avilés, Asturias",
+        "caption": "Olas de hormigón: La cúpula y torre espiral de Oscar Niemeyer junto a la ría de Avilés",
+        "tags": ["Centro Niemeyer", "Avilés", "Oscar Niemeyer", "Arquitectura Vanguardista", "Asturias"],
+        "alt": "La fotografía muestra el icónico Centro Niemeyer en Avilés, Asturias. Destacan la torre cilíndrica con rampa exterior y la gran cúpula blanca, obras del arquitecto brasileño Oscar Niemeyer."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063691/cgs_portfolio/Gijon-001.webp",
+        "location": "Playa de San Lorenzo, Gijón, Asturias",
+        "caption": "Vigía cantábrico: La silueta de San Pedro dominando el arenal de San Lorenzo",
+        "tags": ["Playa De San Lorenzo", "Gijón", "Iglesia De San Pedro", "Costa Cantábrica", "Asturias"],
+        "alt": "Una vista pintoresca de la Playa de San Lorenzo en Gijón, España, con la emblemática Iglesia de San Pedro dominando el horizonte."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063692/cgs_portfolio/Leon-011.webp",
+        "location": "Plaza de las Palomas, León",
+        "caption": "Diálogo de bronce: Lectores y paseantes compartiendo reposo en el centro leonés",
+        "tags": ["León", "Escultura Urbana", "Casco Antiguo", "Vida Cotidiana", "Castilla Y León"],
+        "alt": "La imagen muestra a dos personas y una estatua de bronce sentados en un banco de parque en León. El hombre escribe y la mujer examina papeles junto a la estatua."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063692/cgs_portfolio/Luna-llena-en-Burgos-001.webp",
+        "location": "Casco histórico, Burgos",
+        "caption": "Noche de plenilunio: La luna llena plateando los tejados y fachadas burgalesas",
+        "tags": ["Burgos", "Luna Llena", "Paisaje Nocturno", "Casco Histórico", "Castilla Y León"],
+        "alt": "Paisaje urbano al anochecer donde una luna llena brillante domina el cielo violeta sobre edificios de estilo clásico iluminados."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063695/cgs_portfolio/Oviedo-027.webp",
+        "location": "Casco antiguo, Oviedo, Asturias",
+        "caption": "Perspectiva señorial: Balcones de forja y piedra ocre con la torre de la Catedral al fondo",
+        "tags": ["Oviedo", "Casco Antiguo", "Catedral De Oviedo", "Arquitectura Señorial", "Asturias"],
+        "alt": "Una pintoresca y estrecha calle en el casco antiguo de Oviedo, flanqueada por elegantes edificios históricos con balcones y molduras clásicas. Al fondo, la torre de la Catedral se alza como hito arquitectónico bajo la luz suave de la tarde."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063693/cgs_portfolio/Oviedo-Monte-el-Naranco.webp",
+        "location": "Monte Naranco, Oviedo, Asturias",
+        "caption": "Sosiego campesino: Escena rural y casona de piedra en las faldas del Naranco",
+        "tags": ["Monte Naranco", "Oviedo", "Vida Rural", "Paisaje Campestre", "Asturias"],
+        "alt": "Una escena de vida rural en las laderas del Monte Naranco en Oviedo. Un gallo blanco y un gato moteado comparten un espacio de hierba frente a una rústica edificación de piedra, con el paisaje montañoso asturiano de fondo."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063695/cgs_portfolio/Oviedo-Santa-Maria-del-Naranco-004.webp",
+        "location": "Santa María del Naranco, Oviedo, Asturias",
+        "caption": "Joyel ramirense: La armoniosa arquería del palacio prerrománico del siglo IX",
+        "tags": ["Santa María Del Naranco", "Oviedo", "Prerrománico Asturiano", "Patrimonio De La Humanidad", "Asturias"],
+        "alt": "El histórico palacio reconvertido en iglesia de Santa María del Naranco, emblema del arte prerrománico asturiano. Su singular estructura de piedra caliza, situada en una explanada verde del Monte Naranco, destaca por sus logias abiertas y su exquisita proporción arquitectónica del siglo IX."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063695/cgs_portfolio/Parque-en-Burgos.webp",
+        "location": "Paseo del Espolón y río Arlanzón, Burgos",
+        "caption": "Ribera verde: La Catedral emergiendo tras el bosquejo primaveral del río Arlanzón",
+        "tags": ["Burgos", "Paseo Del Espolón", "Río Arlanzón", "Catedral De Burgos", "Castilla Y León"],
+        "alt": "Vista panorámica de la Catedral de Burgos en el horizonte, con el río Arlanzón serpenteando a través de un amplio parque verde."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063699/cgs_portfolio/Paseos-en-Burgos-003.webp",
+        "location": "Plaza Mayor, Burgos",
+        "caption": "Color en la plaza: Soportales de piedra y fachadas polícromas en el corazón burgalés",
+        "tags": ["Burgos", "Plaza Mayor", "Soportales", "Arquitectura Tradicional", "Castilla Y León"],
+        "alt": "Calle de Burgos enmarcada por un arco oscuro, mostrando edificios con soportales de piedra y balcones de hierro forjado."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063697/cgs_portfolio/San-Sebastian-013.webp",
+        "location": "Paseo de La Concha, San Sebastián, Guipúzcoa",
+        "caption": "Mirador al Cantábrico: Abrazo cómplice contemplando la elegancia de la Bahía de La Concha",
+        "tags": ["Bahía De La Concha", "San Sebastián", "Donostia", "Paseo Marítimo", "Guipúzcoa", "País Vasco"],
+        "alt": "Vista panorámica de la Bahía de la Concha. Una pareja se abraza en el muro del paseo marítimo con la ciudad y el mar de fondo."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063697/cgs_portfolio/Santander-006.webp",
+        "location": "Paseo de Pereda, Santander, Cantabria",
+        "caption": "Elegancia blanca: Miradores acristalados decimonónicos asomados a la bahía de Santander",
+        "tags": ["Santander", "Paseo De Pereda", "Galerías Acristaladas", "Arquitectura Señorial", "Cantabria"],
+        "alt": "Vista de una calle urbana en Santander con edificios caracterizados por sus distintivos miradores acristalados de varios colores."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063659/cgs_portfolio/Santander-037.webp",
+        "location": "El Sardinero, Santander, Cantabria",
+        "caption": "Hiedra y memoria: Casona señorial vestida por un denso manto vegetal",
+        "tags": ["Santander", "El Sardinero", "Arquitectura Regionalista", "Vegetación", "Cantabria"],
+        "alt": "Una imponente casa de varios niveles casi enteramente cubierta por una densa hiedra verde vibrante en Santander."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063699/cgs_portfolio/Santillana-del-Mar-006.webp",
+        "location": "Santillana del Mar, Cantabria",
+        "caption": "Arcadia medieval: La Colegiata de Santa Juliana arropada por los prados verdes cántabros",
+        "tags": ["Santillana Del Mar", "Colegiata De Santa Juliana", "Románico", "Pueblo Medieval", "Cantabria"],
+        "alt": "Vista panorámica de Santillana del Mar destacando la Colegiata de Santa Juliana rodeada de prados verdes y colinas."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063700/cgs_portfolio/Vistas-de-Bilbao-001.webp",
+        "location": "Mirador de Artxanda, Bilbao, Vizcaya",
+        "caption": "El 'Botxo' desde las alturas: Panorámica de Bilbao encajonada entre verdes montañas",
+        "tags": ["Bilbao", "Mirador De Artxanda", "Panorámica", "Arquitectura Urbana", "País Vasco"],
+        "alt": "Vista aérea de Bilbao mostrando el entramado urbano, el sistema de carreteras elevadas y las colinas verdes que rodean la ciudad."
+      }
     ]
   },
   {
@@ -247,18 +673,90 @@ La visita a la Capilla Real, donde reposan los Reyes Católicos, Isabel y Fernan
 Tras conocer la Alhambra, las historias de Irving, que me habían acompañado durante meses, se entrelazan con mis propias experiencias. Granada, con su mezcla de historia y vida cotidiana, se había convertido en mucho más que un destino: era ahora un capítulo indeleble en mi propia memoria de viajero.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063700/cgs_portfolio/La_Alhambra_Palacios_Nazar_es_Patio_del_cuarto_dorado_Palacios_Nazar_es_7.webp", categoria: "España", fecha: "Septiembre 2010", equipo: "Canon PowerShot SX200 IS",
     galeria: [
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063704/cgs_portfolio/El-Albaycin.webp", caption: "Laberinto de cal y flores en el Albaicín", tags: ["Albaicín", "Granada", "arquitectura tradicional", "calle", "flores", "Andalucía"], alt: "Vista aérea panorámica de Granada. El denso paisaje urbano del Albaicín presenta edificios blancos con tejados tradicionales anidados en la ladera bajo una luz suave." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063702/cgs_portfolio/El-Albaycin-2.webp", caption: "Tejados y patios desde las alturas del Albaicín", tags: ["Albaicín", "Granada", "vistas", "tejados", "patrimonio"], alt: "Panorámica de los tejados de teja de arcilla en el barrio histórico de Granada, mostrando la trama urbana medieval con sus patios interiores." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063703/cgs_portfolio/El-Generalife-12.webp", caption: "Detalle de yesería nazarí en los jardines del Generalife", tags: ["Generalife", "Granada", "Alhambra", "yesería", "detalle", "arte nazarí"], alt: "Primer plano de las intrincadas yeserías de la Alhambra, con caligrafía árabe y motivos geométricos esculpidos con precisión magistral." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063703/cgs_portfolio/La-Alhambra-desde-el-restaurant-Mirador-de-Morayma-8.webp", caption: "Vista privilegiada de la fortaleza roja desde el Albaycín", tags: ["Alhambra", "Granada", "vistas", "restaurante", "Mirador de Morayma"], alt: "Terraza del restaurante Mirador de Morayma con una mesa puesta, ofreciendo una vista espectacular de la Alhambra bajo un cielo azul con nubes." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063705/cgs_portfolio/La-Alhambra-Palacio-de-Carlos-V-6.webp", caption: "El patio circular del Palacio de Carlos V", tags: ["Alhambra", "Palacio de Carlos V", "arquitectura", "renacimiento", "Granada"], alt: "Perspectiva del patio circular del Palacio de Carlos V, con sus columnas renacentistas enmarcando el cielo azul." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063707/cgs_portfolio/La-Alhambra-Palacio-de-Carlos-V-7.webp", caption: "Columnatas renacentistas en el corazón nazarí", tags: ["Alhambra", "Palacio de Carlos V", "columnas", "arquitectura circular", "Granada"], alt: "Detalle del patio circular del Palacio de Carlos V en la Alhambra, mostrando los niveles de arcadas clásicas bañadas por la luz del sol." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063707/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Cuarto-Dorado-Palacios-Nazaries-3.webp", caption: "Interior del Cuarto Dorado con vistas a la ciudad", tags: ["Alhambra", "Palacios Nazaríes", "Cuarto Dorado", "Granada", "celosías"], alt: "Interior decorado con yesería y caligrafía islámica. A través de las ventanas con celosías se divisa el caserío del Albaicín." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063707/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Cuarto-Dorado-Palacios-Nazaries-5.webp", caption: "Luz y sombra a través de las celosías nazaríes", tags: ["Alhambra", "Palacios Nazaríes", "Cuarto Dorado", "luz", "arquitectura islámica"], alt: "Juego de luces y sombras en una pared con ventanas arqueadas y yesería detallada en el Cuarto Dorado de la Alhambra." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063711/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Patio-de-los-Arrayanes-Palacios-Nazaries-24.webp", caption: "Arquitectura reflejada en el Patio de los Arrayanes", tags: ["Alhambra", "Palacios Nazaríes", "Patio de los Arrayanes", "reflejo", "geometría"], alt: "Bóveda ornamentada con mocárabes vista desde el interior, resaltando los intrincados patrones geométricos y la maestría artesanal del estilo nazarí." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063712/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Patio-de-los-Leones-Palacios-Nazaries-51.webp", caption: "Columnas esbeltas y arabescos en el Patio de los Leones", tags: ["Alhambra", "Palacios Nazaríes", "Patio de los Leones", "columnas", "caligrafía árabe"], alt: "Detalle de las finas columnas y la profusa decoración mural del Patio de los Leones, con inscripciones y motivos florales en estuco." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063710/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Patio-del-cuarto-dorado-Palacios-Nazaries-13.webp", caption: "Simbolismo y arte en los arcos del Cuarto Dorado", tags: ["Alhambra", "Palacios Nazaríes", "Cuarto Dorado", "arcos", "detalle artesanal"], alt: "Dos arcos de herradura entrelazados con caligrafía árabe y celosías de madera que forman estrellas sobre un fondo azul intenso." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063711/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Patio-del-cuarto-dorado-Palacios-Nazaries-7.webp", caption: "La luz de la historia sobre el arte nazarí", tags: ["Alhambra", "Palacios Nazaríes", "Cuarto Dorado", "Granada", "patrimonio"], alt: "Una columna y arco nazarí bañados por una luz cálida que resalta la profundidad de los patrones geométricos tallados en piedra." },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063704/cgs_portfolio/El-Albaycin.webp",
+        location: "Mirador de San Nicolás, Albaicín, Granada",
+        caption: "Laberinto de cal y flores: Las callejuelas y cármenes del Albaicín derramándose sobre la colina",
+        tags: ["Albaicín", "Granada", "Cármenes", "Arquitectura Tradicional", "Andalucía", "Patrimonio Unesco"],
+        alt: "Vista aérea panorámica de Granada. El denso paisaje urbano del Albaicín presenta edificios blancos con tejados tradicionales anidados en la ladera bajo una luz suave."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063702/cgs_portfolio/El-Albaycin-2.webp",
+        location: "Albaicín, Granada",
+        caption: "Mosaico de barro cocido: La marea de tejados árabes y patios ocultos del barrio histórico",
+        tags: ["Albaicín", "Granada", "Tejados Árabes", "Patrimonio", "Arquitectura Mudéjar", "Andalucía"],
+        alt: "Panorámica de los tejados de teja de arcilla en el barrio histórico de Granada, mostrando la trama urbana medieval con sus patios interiores."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063703/cgs_portfolio/El-Generalife-12.webp",
+        location: "Palacio del Generalife, La Alhambra, Granada",
+        caption: "Filigrana en el yeso: Inscripciones coránicas y lacerías geométricas en las galerías del Generalife",
+        tags: ["Generalife", "La Alhambra", "Yesería Nazarí", "Arte Islámico", "Granada", "Andalucía"],
+        alt: "Primer plano de las intrincadas yeserías de la Alhambra, con caligrafía árabe y motivos geométricos esculpidos con precisión magistral."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063703/cgs_portfolio/La-Alhambra-desde-el-restaurant-Mirador-de-Morayma-8.webp",
+        location: "Restaurante Mirador de Morayma, Albaicín, Granada",
+        caption: "Sobremesa con vistas a la historia: La silueta bermeja de la Alhambra desde el cármen de Morayma",
+        tags: ["Mirador De Morayma", "Albaicín", "La Alhambra", "Vistas Panorámicas", "Gastronomía", "Granada", "Andalucía"],
+        alt: "Terraza del restaurante Mirador de Morayma con una mesa puesta, ofreciendo una vista espectacular de la Alhambra bajo un cielo azul con nubes."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063705/cgs_portfolio/La-Alhambra-Palacio-de-Carlos-V-6.webp",
+        location: "Palacio de Carlos V, La Alhambra, Granada",
+        caption: "Círculo renacentista: El patio circular y la columnata de orden toscano en el recinto nazarí",
+        tags: ["Palacio De Carlos V", "La Alhambra", "Renacimiento", "Arquitectura Clásica", "Granada", "Andalucía"],
+        alt: "Perspectiva del patio circular del Palacio de Carlos V, con sus columnas renacentistas enmarcando el cielo azul."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063707/cgs_portfolio/La-Alhambra-Palacio-de-Carlos-V-7.webp",
+        location: "Palacio de Carlos V, La Alhambra, Granada",
+        caption: "Doble arquería imperial: Juego de luces y sombras en las galerías de Carlos V",
+        tags: ["Palacio De Carlos V", "La Alhambra", "Columnatas", "Patio Circular", "Granada", "Andalucía"],
+        alt: "Detalle del patio circular del Palacio de Carlos V en la Alhambra, mostrando los niveles de arcadas clásicas bañadas por la luz del sol."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063707/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Cuarto-Dorado-Palacios-Nazaries-3.webp",
+        location: "Cuarto Dorado, Palacios Nazaríes, La Alhambra, Granada",
+        caption: "Mirador velado: Celosías de madera y yeserías enmarcando la colina del Albaicín",
+        tags: ["Cuarto Dorado", "Palacios Nazaríes", "La Alhambra", "Celosías", "Arte Nazarí", "Granada", "Andalucía"],
+        alt: "Interior decorado con yesería y caligrafía islámica. A través de las ventanas con celosías se divisa el caserío del Albaicín."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063707/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Cuarto-Dorado-Palacios-Nazaries-5.webp",
+        location: "Cuarto Dorado, Palacios Nazaríes, La Alhambra, Granada",
+        caption: "Península de sombras: El haz de luz esculpiendo los arcos lobulados del Cuarto Dorado",
+        tags: ["Cuarto Dorado", "Palacios Nazaríes", "La Alhambra", "Arcos Lobulados", "Luz Y Sombra", "Granada", "Andalucía"],
+        alt: "Juego de luces y sombras en una pared con ventanas arqueadas y yesería detallada en el Cuarto Dorado de la Alhambra."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063711/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Patio-de-los-Arrayanes-Palacios-Nazaries-24.webp",
+        location: "Patio de los Arrayanes, Palacios Nazaríes, La Alhambra, Granada",
+        caption: "Espejo de calma: El estanque de los arrayanes reflejando la Torre de Comares",
+        tags: ["Patio De Los Arrayanes", "Palacios Nazaríes", "Torre De Comares", "Reflejos", "La Alhambra", "Granada", "Andalucía"],
+        alt: "Bóveda ornamentada con mocárabes vista desde el interior, resaltando los intrincados patrones geométricos y la maestría artesanal del estilo nazarí."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063712/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Patio-de-los-Leones-Palacios-Nazaries-51.webp",
+        location: "Patio de los Leones, Palacios Nazaríes, La Alhambra, Granada",
+        caption: "Bosque de mármol: Columnas esbeltas y mocárabes que desafían la gravedad en el Patio de los Leones",
+        tags: ["Patio De Los Leones", "Palacios Nazaríes", "La Alhambra", "Mármol De Macael", "Mocárabes", "Granada", "Andalucía"],
+        alt: "Detalle de las finas columnas y la profusa decoración mural del Patio de los Leones, con inscripciones y motivos florales en estuco."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063710/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Patio-del-cuarto-dorado-Palacios-Nazaries-13.webp",
+        location: "Fachada del Cuarto Dorado, Palacios Nazaríes, La Alhambra, Granada",
+        caption: "Geometría sagrada: La fastuosa fachada de Comares bordada en yeso y madera de cedro",
+        tags: ["Cuarto Dorado", "Fachada De Comares", "Palacios Nazaríes", "La Alhambra", "Ebanistería", "Granada", "Andalucía"],
+        alt: "Dos arcos de herradura entrelazados con caligrafía árabe y celosías de madera que forman estrellas sobre un fondo azul intenso."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063711/cgs_portfolio/La-Alhambra-Palacios-Nazaries-Patio-del-cuarto-dorado-Palacios-Nazaries-7.webp",
+        location: "Patio del Cuarto Dorado, Palacios Nazaríes, La Alhambra, Granada",
+        caption: "Aura dorada: La luz del atardecer encendiendo las filigranas de los capiteles nazaríes",
+        tags: ["Patio Del Cuarto Dorado", "Palacios Nazaríes", "La Alhambra", "Capiteles Nazaríes", "Granada", "Andalucía"],
+        alt: "Una columna y arco nazarí bañados por una luz cálida que resalta la profundidad de los patrones geométricos tallados en piedra."
+      }
     ]
   },
   {
@@ -277,21 +775,111 @@ El mediodía nos encontró camino al bar de Amadeo, "Los Caracoles", cerca del C
 Mientras nos hablaba sobre el valor de la taberna como punto de conexión humana, comprendí que estábamos experimentando un momento de auténtica conexión madrileña. Y así, con el corazón pleno por la hospitalidad de Amadeo, pusimos rumbo de regreso a Barcelona.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063712/cgs_portfolio/Catedral_de_Salamanca_14.webp", categoria: "España", fecha: "Marzo 2008", equipo: "NIKON COOLPIX L4",
     galeria: [
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063712/cgs_portfolio/Amadeo-caracoles-2008-Madrid-1.webp", caption: "Amadeo y sus míticos caracoles en el Madrid castizo", tags: ["gastronomía", "Madrid", "Amadeo", "caracoles", "tradición"], alt: "Amadeo, un cocinero experimentado de cabello blanco y tirantes, remueve un gran caldero de guiso de caracoles en su cocina rústica en Madrid." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063714/cgs_portfolio/Caixa-Forum-Madrid-2008.webp", caption: "Vanguardia y naturaleza en el CaixaForum Madrid", tags: ["CaixaForum", "arquitectura", "Madrid", "jardín vertical", "diseño"], alt: "Fachada del CaixaForum Madrid mostrando el diálogo entre el acero Corten oxidado del edificio y el impresionante jardín vertical adyacente." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063713/cgs_portfolio/Catedral-de-la-Almudena-vitral-_1_.webp", caption: "Vitrales modernistas en la Catedral de la Almudena", tags: ["vitral", "arte religioso", "Catedral Almudena", "Madrid", "luz"], alt: "Un imponente vitral modernista en la Catedral de la Almudena dominado por tonos azules y amarillos con figuras sagradas estilizadas." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063714/cgs_portfolio/Guardian-del-Templo-Egipcio-de-Dabod.webp", caption: "Reflexión bajo las columnas del Templo de Debod", tags: ["Templo de Debod", "Madrid", "historia", "Egipto", "arquitectura"], alt: "Vista del Templo de Debod en Madrid, con sus columnas de piedra bajo un cielo azul claro y un hombre descansando en su base." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063714/cgs_portfolio/Imagenes-de-Madrid.webp", caption: "La fachada roja de la histórica Posada del Peine", tags: ["Madrid", "arquitectura", "historia", "Posada del Peine", "fachada"], alt: "Detalle de la vibrante fachada roja de la Posada del Peine con sus balcones de hierro forjado y ornamentación clásica." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063716/cgs_portfolio/Paseo-del-Prado.webp", caption: "Arte interactivo en el Paseo del Prado", tags: ["escultura", "Paseo del Prado", "Madrid", "niño", "bronce"], alt: "Un niño sonríe asomándose por la abertura de una gran escultura abstracta de bronce en el entorno del Paseo del Prado de Madrid." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063716/cgs_portfolio/Plaza-Espana.webp", caption: "Cervantes vigila la renovada Plaza de España", tags: ["Plaza España", "Madrid", "Cervantes", "monumento", "ciudad"], alt: "Vista panorámica del Monumento a Cervantes en la Plaza de España con el estanque y los rascacielos al fondo bajo un sol radiante." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063715/cgs_portfolio/Vistas-desde-la-Casa-de-Campo-02.webp", caption: "Madrid desde las alturas de la Casa de Campo", tags: ["Madrid", "vistas", "río Manzanares", "paisaje urbano", "panorámica"], alt: "Vista elevada del río Manzanares y el skyline de Madrid, con el Palacio Real y la Almudena silueteados contra el cielo." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063712/cgs_portfolio/Catedral_de_Salamanca_14.webp", caption: "Interior de la Catedral: bóvedas que tocan el cielo", tags: ["Catedral", "Salamanca", "gótico", "arquitectura", "piedra"], alt: "Vista interior de la Catedral de Salamanca mostrando las complejas bóvedas de crucería y la cúpula central bañadas por luz dorada." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063718/cgs_portfolio/Catedral-y-puente-romano-01.webp", caption: "Dos milenios de historia reflejados en el río Tormes", tags: ["Salamanca", "puente romano", "Catedral", "río Tormes", "paisaje"], alt: "Panorámica de Salamanca con el histórico Puente Romano en primer plano reflejándose en el río Tormes bajo la sombra majestuosa de la Catedral." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063718/cgs_portfolio/Catedral-y-puente-romano-02.webp", caption: "La silueta eterna de Salamanca sobre el puente romano", tags: ["Salamanca", "Catedral", "Tormes", "silueta", "horizonte"], alt: "La silueta de la Catedral de Salamanca elevándose sobre la ciudad con la luz del sol resaltando la piedra de Villamayor." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063718/cgs_portfolio/Universidad-de-Salamanca-03.webp", caption: "Sabiduría grabada en la fachada plateresca", tags: ["Universidad", "Salamanca", "arquitectura", "patio", "historia"], alt: "Patio interior de la histórica Universidad de Salamanca con arcos renacentistas y columnas robustas forman una arcada elegante." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063720/cgs_portfolio/Universidad-de-Salamanca-07.webp", caption: "Inscripciones centenarias en los muros del saber", tags: ["Universidad", "Salamanca", "historia", "inscripciones", "detalle"], alt: "Detalle de graffiti y marcas históricas en los muros de madera y piedra de la Universidad de Salamanca, testigos del paso de estudiantes." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063720/cgs_portfolio/Casa-de-las-Conchas-01.webp", caption: "Símbolos de peregrinaje en los muros de la Casa de las Conchas", tags: ["Casa de las Conchas", "Salamanca", "arquitectura civil", "conchas"], alt: "Fachada detallada de la Casa de las Conchas en Salamanca con su singular decoración exterior con más de 300 conchas de vieira." },
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063720/cgs_portfolio/Catedral-de-Salamanca-10.webp", caption: "Atardecer violáceo sobre las cúpulas salmantinas", tags: ["Catedral", "Salamanca", "atardecer", "cúpulas", "crepúsculo"], alt: "Las cúpulas de la Catedral de Salamanca bajo un cielo crepuscular púrpura, enmarcadas por ramas de árboles en invierno." },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063712/cgs_portfolio/Amadeo-caracoles-2008-Madrid-1.webp",
+        location: "Bar Los Caracoles (Casa Amadeo), Plaza de Cascorro, Madrid",
+        caption: "Sazón castiza: Amadeo oficiando el cazo de sus célebres caracoles en salsa en La Latina",
+        tags: ["Casa Amadeo", "Plaza De Cascorro", "La Latina", "Gastronomía Castiza", "Caracoles", "Madrid"],
+        alt: "Amadeo, un cocinero experimentado de cabello blanco y tirantes, remueve un gran caldero de guiso de caracoles en su cocina rústica en Madrid."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063714/cgs_portfolio/Caixa-Forum-Madrid-2008.webp",
+        location: "CaixaForum Madrid, Paseo del Prado, Madrid",
+        caption: "Óxido y clorofila: El vuelo del acero Corten de Herzog & de Meuron y el muro vegetal de Patrick Blanc",
+        tags: ["CaixaForum", "Paseo Del Prado", "Jardín Vertical", "Patrick Blanc", "Arquitectura Contemporánea", "Madrid"],
+        alt: "Fachada del CaixaForum Madrid mostrando el diálogo entre el acero Corten oxidado del edificio y el impresionante jardín vertical adyacente."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063713/cgs_portfolio/Catedral-de-la-Almudena-vitral-_1_.webp",
+        location: "Catedral de Santa María la Real de la Almudena, Madrid",
+        caption: "Prisma multicolor: Los vitrales de estética contemporánea bañando de luz la nave de la Almudena",
+        tags: ["Catedral De La Almudena", "Vitrales", "Arte Sacro Contemporáneo", "Madrid"],
+        alt: "Un imponente vitral modernista en la Catedral de la Almudena dominado por tonos azules y amarillos con figuras sagradas estilizadas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063714/cgs_portfolio/Guardian-del-Templo-Egipcio-de-Dabod.webp",
+        location: "Templo de Debod, Parque del Oeste, Madrid",
+        caption: "Piedras del Nilo en Madrid: El milenario Templo de Debod al amparo del Parque del Oeste",
+        tags: ["Templo De Debod", "Parque Del Oeste", "Egipto", "Arquitectura Antigua", "Madrid"],
+        alt: "Vista del Templo de Debod en Madrid, con sus columnas de piedra bajo un cielo azul claro y un hombre descansando en su base."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063714/cgs_portfolio/Imagenes-de-Madrid.webp",
+        location: "Posada del Peine, Calle de Postas, Madrid",
+        caption: "Cuna de viajeros: El emblemático edificio bermejo de la Posada del Peine junto a la Plaza Mayor",
+        tags: ["Posada Del Peine", "Calle De Postas", "Madrid Histórico", "Arquitectura Civil", "Madrid"],
+        alt: "Detalle de la vibrante fachada roja de la Posada del Peine con sus balcones de hierro forjado y ornamentación clásica."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063716/cgs_portfolio/Paseo-del-Prado.webp",
+        location: "Paseo del Prado, Madrid",
+        caption: "Juego en el bronce: Niño asomándose con curiosidad a través de la escultura urbana",
+        tags: ["Paseo Del Prado", "Escultura Urbana", "Arte Público", "Vida Cotidiana", "Madrid"],
+        alt: "Un niño sonríe asomándose por la abertura de una gran escultura abstracta de bronce en el entorno del Paseo del Prado de Madrid."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063716/cgs_portfolio/Plaza-Espana.webp",
+        location: "Plaza de España, Madrid",
+        caption: "Caballero y escudero: Don Quijote y Sancho Panza a los pies del monumento a Cervantes",
+        tags: ["Plaza De España", "Monumento A Cervantes", "Don Quijote", "Escultura", "Madrid"],
+        alt: "Vista panorámica del Monumento a Cervantes en la Plaza de España con el estanque y los rascacielos al fondo bajo un sol radiante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063715/cgs_portfolio/Vistas-desde-la-Casa-de-Campo-02.webp",
+        location: "Mirador de la Casa de Campo, Madrid",
+        caption: "Balcón a la cornisa imperial: La silueta del Palacio Real y La Almudena desde la Casa de Campo",
+        tags: ["Casa De Campo", "Mirador", "Palacio Real", "Catedral De La Almudena", "Panorámica", "Madrid"],
+        alt: "Vista elevada del río Manzanares y el skyline de Madrid, con el Palacio Real y la Almudena silueteados contra el cielo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063712/cgs_portfolio/Catedral_de_Salamanca_14.webp",
+        location: "Catedral Nueva de Salamanca",
+        caption: "Ascensión gótica: Nervaduras estelares y filigranas doradas en las bóvedas de la Catedral",
+        tags: ["Catedral Nueva", "Salamanca", "Gótico Flamígero", "Bóvedas De Crucería", "Piedra Franca", "Castilla Y León"],
+        alt: "Vista interior de la Catedral de Salamanca mostrando las complejas bóvedas de crucería y la cúpula central bañadas por luz dorada."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063718/cgs_portfolio/Catedral-y-puente-romano-01.webp",
+        location: "Puente Romano sobre el río Tormes, Salamanca",
+        caption: "Espejismo dorado: La mole catedralicia duplicada sobre el cauce tranquilo del Tormes",
+        tags: ["Puente Romano", "Río Tormes", "Catedral De Salamanca", "Reflejos", "Salamanca", "Castilla Y León"],
+        alt: "Panorámica de Salamanca con el histórico Puente Romano en primer plano reflejándose en el río Tormes bajo la sombra majestuosa de la Catedral."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063718/cgs_portfolio/Catedral-y-puente-romano-02.webp",
+        location: "Riberas del río Tormes, Salamanca",
+        caption: "Perfil monumental: Los arcos de piedra romana custodiando el horizonte salmantino",
+        tags: ["Salamanca", "Puente Romano", "Catedral", "Río Tormes", "Patrimonio Unesco", "Castilla Y León"],
+        alt: "La silueta de la Catedral de Salamanca elevándose sobre la ciudad con la luz del sol resaltando la piedra de Villamayor."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063718/cgs_portfolio/Universidad-de-Salamanca-03.webp",
+        location: "Edificio de Escuelas Mayores, Universidad de Salamanca",
+        caption: "Claustro del saber: Arquerías renacentistas en el corazón universitario fundado en 1218",
+        tags: ["Universidad De Salamanca", "Escuelas Mayores", "Claustro Renacentista", "Historia", "Salamanca", "Castilla Y León"],
+        alt: "Patio interior de la histórica Universidad de Salamanca con arcos renacentistas y columnas robustas forman una arcada elegante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063720/cgs_portfolio/Universidad-de-Salamanca-07.webp",
+        location: "Universidad de Salamanca",
+        caption: "Ecos de aulas: Vítores históricos e inscripciones bermejas en los muros universitarios",
+        tags: ["Universidad De Salamanca", "Vítores", "Inscripciones Históricas", "Tradición Universitaria", "Salamanca", "Castilla Y León"],
+        alt: "Detalle de graffiti y marcas históricas en los muros de madera y piedra de la Universidad de Salamanca, testigos del paso de estudiantes."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063720/cgs_portfolio/Casa-de-las-Conchas-01.webp",
+        location: "Casa de las Conchas, Calle Compañía, Salamanca",
+        caption: "Manto de vieiras: Los más de trescientos relieves santiaguistas en los muros de la Casa de las Conchas",
+        tags: ["Casa De Las Conchas", "Gótico Civil", "Plateresco", "Conchas De Santiago", "Salamanca", "Castilla Y León"],
+        alt: "Fachada detallada de la Casa de las Conchas en Salamanca con su singular decoración exterior con más de 300 conchas de vieira."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063720/cgs_portfolio/Catedral-de-Salamanca-10.webp",
+        location: "Entorno monumental de las Catedrales, Salamanca",
+        caption: "Crepúsculo de Villamayor: Las cúpulas y pináculos salmantinos encendidos por la última luz",
+        tags: ["Catedral De Salamanca", "Atardecer", "Piedra De Villamayor", "Cúpulas", "Salamanca", "Castilla Y León"],
+        alt: "Las cúpulas de la Catedral de Salamanca bajo un cielo crepuscular púrpura, enmarcadas por ramas de árboles en invierno."
+      }
     ]
   },
   {
@@ -305,7 +893,13 @@ Como broche final del viaje, ya en el camino de regreso, admiramos la Bodega Bai
 Regresamos a Cambrils en paz pues este viaje, aunque nacido de la tristeza, nos regaló momentos de belleza, reflexión y esperanza. Como los vinos de las tierras riojanas, la vida está hecha de capas complejas donde se mezclan la alegría y la pena, la tradición y la modernidad, la muerte y la renovación.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063721/cgs_portfolio/Pais-Vasco.webp", categoria: "España", fecha: "Febrero 2016", equipo: "Sony ILSE-6000",
     galeria: [
-      { url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063721/cgs_portfolio/Pais-Vasco.webp", caption: "Viñedos riojanos bajo un cielo invernal en Haro", tags: ["Haro", "La Rioja", "viñedos", "paisaje", "invierno", "cultura del vino", "enologia"], alt: "Extensos campos de viñedos en reposo invernal en las cercanías de Haro, con las montañas al fondo bajo un cielo nublado. La imagen captura la esencia de la región vitivinícola de La Rioja." }
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063721/cgs_portfolio/Pais-Vasco.webp",
+        location: "Viñedos de Haro, La Rioja Alta",
+        caption: "Silencio de sarmientos: Los viñedos en reposo invernal arropados por la sierra riojana",
+        tags: ["Haro", "La Rioja Alta", "Viñedos", "Paisaje Invernal", "Enología", "La Rioja"],
+        alt: "Extensos campos de viñedos en reposo invernal en las cercanías de Haro, con las montañas al fondo bajo un cielo nublado. La imagen captura la esencia de la región vitivinícola de La Rioja."
+      }
     ]
   },
   {

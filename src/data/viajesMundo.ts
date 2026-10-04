@@ -35,27 +35,153 @@ Fue después, viendo las fotos de ese atardecer, cuando me di cuenta de un detal
 Y de alguna forma, eso quedó grabado. No solo por la estética perfecta del atardecer, sino porque me recordó que las cosas más sublimes muchas veces pasan sin que uno se dé cuenta. Ocurren, y ya. Como los llanos, que no necesitan nada más que luz, agua y silencio para regalarte momentos que no se olvidan.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064107/cgs_portfolio/Hato-El-Cedral-Paisajes-atardecer.webp", categoria: "América", fecha: "Diciembre 2013", equipo: "Nikon COOLPIX L820",
     galeria: [
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064107/cgs_portfolio/Hato-El-Cedral-Paisajes-atardecer.webp", "caption": "Atardecer crepuscular teñido de carmín sobre el río Matiyure", "tags": [ "Venezuela", "Llanos", "Atardecer", "Hato El Cedral", "Naturaleza", "Río Matiyure", "Paisaje" ], "alt": "Un espectacular atardecer crepuscular en los llanos de Venezuela, en el Hato El Cedral. El cielo se tiñe de intensos tonos naranjas, amarillos y rojos, con siluetas de nubes oscuras y la vegetación de la sabana reflejada en las mansas aguas del río Matiyure." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064109/cgs_portfolio/Hato-El-Cedral-2818x2115.webp", "caption": "Búho excavador (Athene cunicularia) atento en la llanura", "tags": [ "Búho", "Ave", "Búho excavador", "Vida silvestre", "Naturaleza" ], "alt": "Una imagen de un búho excavador (Athene cunicularia) de pie en un terreno árido y arenoso con algunas hierbas verdes esparcidas. El búho, con sus distintivos ojos amarillos y plumaje moteado en tonos marrones y blancos, mira directamente al espectador. El entorno sugiere un hábitat natural abierto, bañado por la luz del sol, con sombras claras en el suelo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064110/cgs_portfolio/Hato-El-Cedral-2880x2162.webp", "caption": "Encuentro tropical: Cardenal de gorro rojo y bienteveo común", "tags": [ "Aves", "Fauna", "Cardenal de gorro rojo", "Bienteveo común", "Naturaleza" ], "alt": "Una foto vibrante captura dos aves tropicales posadas sobre una superficie oscura. En primer plano, un Cardenal de gorro rojo (Paroaria gularis) se distingue por su cabeza roja brillante, espalda negra y pecho blanco, con restos de comida en su pico. Detrás, asoma un Bienteveo común (Pitangus sulphuratus) con su plumaje rayado blanco y negro en la cabeza y cuerpo amarillento. Ambas aves parecen buscar alimento en un entorno con follaje verde borroso y una estructura blanca al fondo, sugiriendo un jardín o parque tropical." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064111/cgs_portfolio/Hato-El-Cedral-3045x2283.webp", "caption": "Carpintero de Gila (Melanerpes uropygialis) aferrado cabeza abajo en un viejo tronco", "tags": [ "Ave", "Pájaro carpintero", "Melanerpes uropygialis", "Vida silvestre", "Naturaleza" ], "alt": "Un carpintero de Gila macho (Melanerpes uropygialis) se aferra cabeza abajo a la parte inferior de una rama gruesa. El ave exhibe su distintiva corona y nuca rojas, con una cara gris pálido y un pico oscuro y afilado. Su espalda y alas están cubiertas de un patrón de barras blancas y negras, mientras que su vientre es de un tono grisáceo claro. El entorno es un bosque o arboleda, con ramas y follaje borroso al fondo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064113/cgs_portfolio/Hato-El-Cedral-3264x2448-025.webp", "caption": "Mosquero bermellón (Pyrocephalus rubinus), un destello escarlata en la sabana", "tags": [ "Ave", "Mosquero bermellón", "Naturaleza", "Vida silvestre", "Rojo" ], "alt": "Un vibrante mosquero bermellón, con su llamativo plumaje rojo y una máscara ocular negra, se posa tranquilamente sobre una rama. El entorno natural difuminado en el fondo resalta la intensidad de sus colores. El ave parece atenta, con su pequeño pico negro ligeramente inclinado." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064114/cgs_portfolio/Hato-El-Cedral-3264x2448-038.webp", "caption": "Pájaro vaco o garza tigre (Tigrisoma lineatum) camuflado pacientemente en el estero", "tags": [ "Ave acuática", "Garza tigre", "Pájaro vaco", "Naturaleza", "Vida silvestre" ], "alt": "Primer plano de un ave acuática con plumaje moteado en tonos marrones y negros, fusionándose con el entorno de un humedal. Se aprecia su largo cuello y parte de la cabeza, mirando atentamente hacia la derecha. La vegetación de la orilla, con hojas verdes y una pequeña flor blanca, bordea el agua azul y tranquila que sirve de fondo, destacando la belleza y serenidad de la vida silvestre." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064116/cgs_portfolio/Hato-El-Cedral-3264x2448-048.webp", "caption": "Buitre aura (Cathartes aura) oteando el horizonte sobre los postes del cercado", "tags": [ "Buitre", "Buitre aura", "Naturaleza", "Ave", "Vida silvestre" ], "alt": "Un buitre aura (zopilote) de plumaje oscuro y cabeza rojiza se posa sobre un poste de madera en un entorno rural. Debajo, se observa una valla con alambre de púas. El fondo muestra un extenso campo de vegetación verde y, a la derecha, una figura oscura borrosa en la distancia, sugiriendo la presencia de otro animal o elemento del paisaje." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064117/cgs_portfolio/Hato-El-Cedral-3264x2448-049.webp", "caption": "El enigmático hoacín (Opisthocomus hoazin), vestigio prehistórico de la sabana", "tags": [ "Hoacín", "Hoatzin", "Ave tropical", "Fauna", "Naturaleza", "Sudamérica" ], "alt": "Un hoatzin adulto posado entre el denso follaje verde de un árbol. El ave exhibe su distintiva cresta desordenada, eyes rojos intensos y plumaje rayado marrón y crema, con la cola oscura y partes rojizas visibles. La luz del sol ilumina parte de las ramas y el fondo frondoso." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064118/cgs_portfolio/Hato-El-Cedral-3264x2448-051.webp", "caption": "Garza real (Pilherodius pileatus) desplegando sus magníficas alas al sol", "tags": [ "Garza real", "Pilherodius pileatus", "Ave", "Vida silvestre", "Naturaleza" ], "alt": "Una garza real (Pilherodius pileatus) se erige en primer plano sobre una orilla de tierra, con sus alas extendidas, mostrando su plumaje blanco, negro y gris. La cabeza exhibe una corona azul oscuro, pico anaranjado y ojos amarillos. Al fondo, se aprecia una densa vegetación verde, sugiriendo un entorno natural tropical. En la base, hay plantas acuáticas, indicando la proximidad de agua. La pose del ave podría ser para secar sus alas o tomar el sol." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064119/cgs_portfolio/Hato-El-Cedral-3264x2448-055.webp", "caption": "Retrato noble de un caracara crestado o cari cari (Caracara plancus)", "tags": [ "Caracara", "Cari cari", "Ave rapaz", "Vida silvestre", "Naturaleza" ], "alt": "Primer plano de un majestuoso caracara crestado, mostrando su distintivo plumaje. Su cabeza presenta un capuchón oscuro, una piel facial anaranjada vibrante y un pico azul claro. El ave, con su pecho rayado en blanco y negro y un toque amarillo en el flanco, mira atentamente hacia la izquierda. El fondo, ligeramente desenfocado, revela un terreno seco con brotes de vegetación verde, sugiriendo su hábitat natural." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064121/cgs_portfolio/Hato-El-Cedral-3264x2448-058.webp", "caption": "Carancho chimachima (Milvago chimachima) en su indispensable rol ecológico", "tags": [ "Carancho", "Chimachima", "Ave", "Vida silvestre", "Naturaleza" ], "alt": "Un carancho (Milvago chimachima) se posa sobre el cuerpo de un capibara muerto o incapacitado en un paisaje seco y arenoso. La escena natural muestra al ave rapaz carroñera en su entorno, probablemente alimentándose o custodiando el hallazgo. El fondo con vegetación escasa sugiere un hábitat salvaje en Sudamérica." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064122/cgs_portfolio/Hato-El-Cedral-Babas-2935x2205.webp", "caption": "Baba o caimán de anteojos (Caiman crocodilus) mimetizado en los tapetes flotantes", "tags": [ "Caimán", "Baba", "Reptil", "Vida salvaje", "Naturaleza", "Humedal" ], "alt": "Un caimán descansa parcialmente oculto entre vegetación acuática de un verde vibrante. Sus escamas brillan bajo la luz solar, contrastando con el fondo oscuro y el agua en primer plano que refleja claramente las plantas. La imagen captura un instante de vida salvaje en un hábitat natural, transmitiendo una sensación de quietud y armonía." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064123/cgs_portfolio/Hato-El-Cedral-Babas-3264x2448-015.webp", "caption": "Mirada reptiliana: Detalle serrado de la cabeza de un caimán de anteojos", "tags": [ "Caimán", "Baba", "Reptil", "Vida silvestre", "Naturaleza", "Depredador" ], "alt": "Impactante primer plano de la cabeza de un caimán, destacando su ojo con pupila vertical y las texturas escamosas de su piel. Su boca está ligeramente abierta, revelando una hilera de afilados dientes, indicativos de su naturaleza depredadora. Restos de tierra o barro se adhieren a su cuerpo, sugiriendo un entorno salvaje y húmedo. La imagen resalta la fuerza y la adaptación de este reptil en su hábitat natural sudamericano." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064124/cgs_portfolio/Hato-El-Cedral-Chiguires-3264x2448-004.webp", "caption": "Chigüire sumergido plácidamente en una exuberante alfombra de lechugas de agua", "tags": [ "Chigüire", "Capibara", "Carpincho", "Vida salvaje", "Naturaleza", "Humedal" ], "alt": "Un carpincho (Hydrochoerus hydrochaeris) descansa apaciblemente sumergido en un cuerpo de agua cubierto por una densa capa de vegetación acuática. Sus ojos están semicerrados, mostrando un momento de tranquilidad en su hábitat natural. Las plantas flotantes forman una alfombra verde brillante alrededor del mamífero, con algunas hojas más grandes y una pequeña flor morada en primer plano. La luz del sol ilumina la escena, destacando la textura del pelaje mojado del animal y la exuberancia del ecosistema." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064125/cgs_portfolio/Hato-El-Cedral-Chiguires-3264x2448-006.webp", "caption": "Familia de chigüires compartiendo un plácido descanso a orillas del río", "tags": [ "Chigüire", "Capibara", "Vida salvaje", "Descanso", "Grupo", "Naturaleza" ], "alt": "Un grupo de capibaras se observa descansando pacíficamente en la orilla, con los ojos cerrados, lo que sugiere que están durmiendo o relajándose. Sus pelajes marrones son prominentes, y en el fondo se aprecia la superficie ondulada de un cuerpo de agua. Una rama de árbol se extiende por encima, indicando un hábitat natural y posiblemente ribereño." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064126/cgs_portfolio/Hato-El-Cedral-Ganado-3264x2448-068.webp", "caption": "Manada de ganado Cebú pastando bajo el sol de la tarde llanera", "tags": [ "Ganado", "Cebú", "Pastizal", "Llanos", "Rural" ], "alt": "Una manada de ganado, predominantemente vacas blancas de la raza Cebú con cuernos, junto a algunos bovinos marrones, pastando en un amplio campo verde. En segundo plano, se observa un caballo oscuro también alimentándose. La escena transcurre en un entorno rural bajo una luz cálida, posiblemente al amanecer o atardecer, creando una atmósfera tranquila y natural." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064128/cgs_portfolio/Hato-El-Cedral-Garzon-Soldado-3264x2448-063.webp", "caption": "Garzón soldado o jabirú (Jabiru mycteria), la cigüeña más imponente del continente", "tags": [ "Jabirú", "Garzón soldado", "Ave", "Naturaleza", "Vida silvestre" ], "alt": "Un jabirú adulto se alza majestuosamente contra un cielo azul despejado. Destacan su cabeza y cuello negros, su pico largo y puntiagudo del mismo color, y un característico collar rojo en la base del cuello, que contrasta con su cuerpo de plumaje blanco. Sus largas patas son visibles, posado en la cima de un árbol." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064134/cgs_portfolio/Hato-El-Cedral-Garzon-Soldado-3264x2448-064.webp", "caption": "Siluetas de garzones soldado custodiando su nido en el crepúsculo", "tags": [ "Garzón soldado", "Nido", "Atardecer", "Silueta", "Naturaleza", "Vida silvestre" ], "alt": "Dos aves grandes, probablemente cigüeñas, se posan en un nido imponente en la cima de un árbol de ramas desnudas. La escena está bañada por los tonos cálidos y dorados de un atardecer o amanecer, creando una silueta dramática contra el cielo claro. La imagen captura un momento tranquilo y majestuoso de la vida silvestre en su entorno natural." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064137/cgs_portfolio/Hato-El-Cedral-Higuanas-3264x2448-009.webp", "caption": "Detalle escamoso de una iguana verde (Iguana iguana) en reposo", "tags": [ "Iguana", "Iguana verde", "Reptil", "Naturaleza", "Vida salvaje" ], "alt": "Primer plano de una iguana adulta, probablemente una iguana verde, posada en la rama de un árbol. Su piel presenta una textura escamosa detallada con tonos verdes, marrones y rojizos. Se aprecian su distintiva cresta dorsal y el gran tímpano circular. El fondo difuminado y la luz brillante resaltan al reptil en su entorno natural, mostrando su tranquilidad y majestuosidad." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064140/cgs_portfolio/Hato-El-Cedral-Patos-2986x2240-001.webp", "caption": "Elegante ganso del Orinoco (Neochen jubata) exhibiendo su iridiscencia", "tags": [ "Ganso del Orinoco", "Ave", "Fauna silvestre", "Naturaleza", "Plumaje" ], "alt": "Primer plano de un ganso del Orinoco, probablemente una hembra, de pie y mirando hacia la izquierda. Muestra un plumaje vibrante con la cabeza y el cuello grisáceos, un cuerpo de tonos rojizos y alas oscuras con un distintivo parche verde iridiscente. El pico es rojizo y las patas rosáceas. El fondo está desenfocado, insinuando un entorno natural." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064142/cgs_portfolio/Hato-El-Cedral-Patos-3264x2448-035.webp", "caption": "Vuelo sincronizado de una bandada de patos güiríes sobre la sabana", "tags": [ "Patos", "Güiríes", "Aves", "Vuelo", "Naturaleza", "Bandada" ], "alt": "Una numerosa bandada de aves acuáticas, probablemente patos de vientre negro, vuela activamente sobre un extenso campo de hierba verde bajo un sol brillante. Las aves exhiben un plumaje oscuro con toques blancos en las alas y patas rosadas o rojizas, mientras baten sus alas con energía. La escena captura un momento dinámico de la vida silvestre en movimiento en su hábitat natural, transmitiendo una sensación de libertad y acción." }
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064107/cgs_portfolio/Hato-El-Cedral-Paisajes-atardecer.webp",
+        location: "Río Matiyure, Hato El Cedral, Apure, Venezuela",
+        caption: "Fuego sobre el agua: El ocaso carmín encendiendo las aguas calmas del río Matiyure",
+        tags: ["Hato El Cedral", "Río Matiyure", "Atardecer Llanero", "Apure", "Venezuela", "Paisaje"],
+        alt: "Un espectacular atardecer crepuscular en los llanos de Venezuela, en el Hato El Cedral. El cielo se tiñe de intensos tonos naranjas, amarillos y rojos, con siluetas de nubes oscuras y la vegetación de la sabana reflejada en las mansas aguas del río Matiyure."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064109/cgs_portfolio/Hato-El-Cedral-2818x2115.webp",
+        location: "Sabana del Hato El Cedral, Apure, Venezuela",
+        caption: "Atalaya en la arena: La mirada inquisitiva y amarilla del búho excavador en la llanura",
+        tags: ["Hato El Cedral", "Búho Excavador", "Fauna Llanera", "Aves Silvestres", "Apure", "Venezuela"],
+        alt: "Una imagen de un búho excavador (Athene cunicularia) de pie en un terreno árido y arenoso con algunas hierbas verdes esparcidas. El búho, con sus distintivos ojos amarillos y plumaje moteado en tonos marrones y blancos, mira directamente al espectador. El entorno sugiere un hábitat natural abierto, bañado por la luz del sol, con sombras claras en el suelo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064110/cgs_portfolio/Hato-El-Cedral-2880x2162.webp",
+        location: "Campamento Matiyure, Hato El Cedral, Apure, Venezuela",
+        caption: "Comensales tropicales: Cardenal de gorro rojo y bienteveo compartiendo el festín matinal",
+        tags: ["Hato El Cedral", "Cardenal De Gorro Rojo", "Bienteveo", "Aves Tropicales", "Apure", "Venezuela"],
+        alt: "Una foto vibrante captura dos aves tropicales posadas sobre una superficie oscura. En primer plano, un Cardenal de gorro rojo (Paroaria gularis) se distingue por su cabeza roja brillante, espalda negra y pecho blanco, con restos de comida en su pico. Detrás, asoma un Bienteveo común (Pitangus sulphuratus) con su plumaje rayado blanco y negro en la cabeza y cuerpo amarillento. Ambas aves parecen buscar alimento en un entorno con follaje verde borroso y una estructura blanca al fondo, sugiriendo un jardín o parque tropical."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064111/cgs_portfolio/Hato-El-Cedral-3045x2283.webp",
+        location: "Bosque de galería, Hato El Cedral, Apure, Venezuela",
+        caption: "Acróbata del bosque: El carpintero habado desafiando la gravedad en un tronco añoso",
+        tags: ["Hato El Cedral", "Pájaro Carpintero", "Carpintero Habado", "Bosque De Galería", "Apure", "Venezuela"],
+        alt: "Un carpintero de Gila macho (Melanerpes uropygialis) se aferra cabeza abajo a la parte inferior de una rama gruesa. El ave exhibe su distintiva corona y nuca rojas, con una cara gris pálido y un pico oscuro y afilado. Su espalda y alas están cubiertas de un patrón de barras blancas y negras, mientras que su vientre es de un tono grisáceo claro. El entorno es un bosque o arboleda, con ramas y follaje borroso al fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064113/cgs_portfolio/Hato-El-Cedral-3264x2448-025.webp",
+        location: "Esteros del Hato El Cedral, Apure, Venezuela",
+        caption: "Destello bermellón: El plumaje encendido del atrapamoscas pechirrojo entre el follaje",
+        tags: ["Hato El Cedral", "Mosquero Bermellón", "Aves Tropicales", "Esteros", "Apure", "Venezuela"],
+        alt: "Un vibrante mosquero bermellón, con su llamativo plumaje rojo y una máscara ocular negra, se posa tranquilamente sobre una rama. El entorno natural difuminado en el fondo resalta la intensidad de sus colores. El ave parece atenta, con su pequeño pico negro ligeramente inclinado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064114/cgs_portfolio/Hato-El-Cedral-3264x2448-038.webp",
+        location: "Humedales del Hato El Cedral, Apure, Venezuela",
+        caption: "Paciencia rayada: El camuflaje perfecto del pájaro vaco entre las sombras ribereñas",
+        tags: ["Hato El Cedral", "Pájaro Vaco", "Garza Tigre", "Humedales", "Apure", "Venezuela"],
+        alt: "Primer plano de un ave acuática con plumaje moteado en tonos marrones y negros, fusionándose con el entorno de un humedal. Se aprecia su largo cuello y parte de la cabeza, mirando atentamente hacia la derecha. La vegetación de la orilla, con hojas verdes y una pequeña flor blanca, bordea el agua azul y tranquila que sirve de fondo, destacando la belleza y serenidad de la vida silvestre."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064116/cgs_portfolio/Hato-El-Cedral-3264x2448-048.webp",
+        location: "Linderos del Hato El Cedral, Apure, Venezuela",
+        caption: "Centinela del llano: El buitre aura oteando la sabana infinita desde el alambrado",
+        tags: ["Hato El Cedral", "Buitre Aura", "Zopilote", "Sabana", "Apure", "Venezuela"],
+        alt: "Un buitre aura (zopilote) de plumaje oscuro y cabeza rojiza se posa sobre un poste de madera en un entorno rural. Debajo, se observa una valla con alambre de púas. El fondo muestra un extenso campo de vegetación verde y, a la derecha, una figura oscura borrosa en la distancia, sugiriendo la presencia de otro animal o elemento del paisaje."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064117/cgs_portfolio/Hato-El-Cedral-3264x2448-049.webp",
+        location: "Riberas del río Matiyure, Hato El Cedral, Apure, Venezuela",
+        caption: "Fósil viviente: El enigmático perfil y la cresta arcaica del hoacín entre las ramas",
+        tags: ["Hato El Cedral", "Hoacín", "Guacharaca De Agua", "Fauna Prehistórica", "Apure", "Venezuela"],
+        alt: "Un hoatzin adulto posado entre el denso follaje verde de un árbol. El ave exhibe su distintiva cresta desordenada, eyes rojos intensos y plumaje rayado marrón y crema, con la cola oscura y partes rojizas visibles. La luz del sol ilumina parte de las ramas y el fondo frondoso."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064118/cgs_portfolio/Hato-El-Cedral-3264x2448-051.webp",
+        location: "Caño Matiyure, Hato El Cedral, Apure, Venezuela",
+        caption: "Corona azul: La garza silbadora desplegando sus alas nacaradas al sol matinal",
+        tags: ["Hato El Cedral", "Garza Silbadora", "Aves Acuáticas", "Plumaje", "Apure", "Venezuela"],
+        alt: "Una garza real (Pilherodius pileatus) se erige en primer plano sobre una orilla de tierra, con sus alas extendidas, mostrando su plumaje blanco, negro y gris. La cabeza exhibe una corona azul oscuro, pico anaranjado y ojos amarillos. Al fondo, se aprecia una densa vegetación verde, sugiriendo un entorno natural tropical. En la base, hay plantas acuáticas, indicando la proximidad de agua. La pose del ave podría ser para secar sus alas o tomar el sol."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064119/cgs_portfolio/Hato-El-Cedral-3264x2448-055.webp",
+        location: "Sabana abierta, Hato El Cedral, Apure, Venezuela",
+        caption: "Nobleza rapaz: La mirada altiva del cari-cari y su antifaz anaranjado",
+        tags: ["Hato El Cedral", "Cari Cari", "Caracara", "Rapaces", "Apure", "Venezuela"],
+        alt: "Primer plano de un majestuoso caracara crestado, mostrando su distintivo plumaje. Su cabeza presenta un capuchón oscuro, una piel facial anaranjada vibrante y un pico azul claro. El ave, con su pecho rayado en blanco y negro y un toque amarillo en el flanco, mira atentamente hacia la izquierda. El fondo, ligeramente desenfocado, revela un terreno seco con brotes de vegetación verde, sugiriendo su hábitat natural."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064121/cgs_portfolio/Hato-El-Cedral-3264x2448-058.webp",
+        location: "Sabana del Hato El Cedral, Apure, Venezuela",
+        caption: "Ciclos de la dehesa: Carancho chimachima cumpliendo su función vital en la llanura",
+        tags: ["Hato El Cedral", "Carancho Chimachima", "Fauna Silvestre", "Ecosistema Llanero", "Apure", "Venezuela"],
+        alt: "Un carancho (Milvago chimachima) se posa sobre el cuerpo de un capibara muerto o incapacitado en un paisaje seco y arenoso. La escena natural muestra al ave rapaz carroñera en su entorno, probablemente alimentándose o custodiando el hallazgo. El fondo con vegetación escasa sugiere un hábitat salvaje en Sudamérica."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064122/cgs_portfolio/Hato-El-Cedral-Babas-2935x2205.webp",
+        location: "Humedales del Hato El Cedral, Apure, Venezuela",
+        caption: "Vigía esmeralda: La baba o caimán de anteojos sumergido en el tapiz de lechugas de agua",
+        tags: ["Hato El Cedral", "Caimán De Anteojos", "Baba", "Reptiles", "Humedales", "Apure", "Venezuela"],
+        alt: "Un caimán descansa parcialmente oculto entre vegetación acuática de un verde vibrante. Sus escamas brillan bajo la luz solar, contrastando con el fondo oscuro y el agua en primer plano que refleja claramente las plantas. La imagen captura un instante de vida salvaje en un hábitat natural, transmitiendo una sensación de quietud y armonía."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064123/cgs_portfolio/Hato-El-Cedral-Babas-3264x2448-015.webp",
+        location: "Esteros del Hato El Cedral, Apure, Venezuela",
+        caption: "Fuerza ancestral: La mirada impasible y las escamas de barro del caimán llanero",
+        tags: ["Hato El Cedral", "Caimán De Anteojos", "Depredadores", "Vida Silvestre", "Apure", "Venezuela"],
+        alt: "Impactante primer plano de la cabeza de un caimán, destacando su ojo con pupila vertical y las texturas escamosas de su piel. Su boca está ligeramente abierta, revelando una hilera de afilados dientes, indicativos de su naturaleza depredadora. Restos de tierra o barro se adhieren a su cuerpo, sugiriendo un entorno salvaje y húmedo. La imagen resalta la fuerza y la adaptación de este reptil en su hábitat natural sudamericano."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064124/cgs_portfolio/Hato-El-Cedral-Chiguires-3264x2448-004.webp",
+        location: "Laguna de Matiyure, Hato El Cedral, Apure, Venezuela",
+        caption: "Remanso verde: Chigüire flotando en paz entre una alfombra de vegetación acuática",
+        tags: ["Hato El Cedral", "Chigüire", "Capibara", "Fauna Autóctona", "Humedales", "Apure", "Venezuela"],
+        alt: "Un carpincho (Hydrochoerus hydrochaeris) descansa apaciblemente sumergido en un cuerpo de agua cubierto por una densa capa de vegetación acuática. Sus ojos están semicerrados, mostrando un momento de tranquilidad en su hábitat natural. Las plantas flotantes forman una alfombra verde brillante alrededor del mamífero, con algunas hojas más grandes y una pequeña flor morada en primer plano. La luz del sol ilumina la escena, destacando la textura del pelaje mojado del animal y la exuberancia del ecosistema."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064125/cgs_portfolio/Hato-El-Cedral-Chiguires-3264x2448-006.webp",
+        location: "Riberas del Hato El Cedral, Apure, Venezuela",
+        caption: "Sosiego en la orilla: Familia de chigüires entregada al sueño bajo la sombra ribereña",
+        tags: ["Hato El Cedral", "Chigüire", "Capibaras", "Comportamiento Animal", "Apure", "Venezuela"],
+        alt: "Un grupo de capibaras se observa descansando pacíficamente en la orilla, con los ojos cerrados, lo que sugiere que están durmiendo o relajándose. Sus pelajes marrones son prominentes, y en el fondo se aprecia la superficie ondulada de un cuerpo de agua. Una rama de árbol se extiende por encima, indicando un hábitat natural y posiblemente ribereño."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064126/cgs_portfolio/Hato-El-Cedral-Ganado-3264x2448-068.webp",
+        location: "Pastizales del Hato El Cedral, Apure, Venezuela",
+        caption: "Estampa ganadera: Vacas cebú pastando en la inmensidad verde del llano apureño",
+        tags: ["Hato El Cedral", "Ganado Cebú", "Llanos De Apure", "Paisaje Rural", "Apure", "Venezuela"],
+        alt: "Una manada de ganado, predominantemente vacas blancas de la raza Cebú con cuernos, junto a algunos bovinos marrones, pastando en un amplio campo verde. En segundo plano, se observa un caballo oscuro también alimentándose. La escena transcurre en un entorno rural bajo una luz cálida, posiblemente al amanecer o atardecer, creando una atmósfera tranquila y natural."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064128/cgs_portfolio/Hato-El-Cedral-Garzon-Soldado-3264x2448-063.webp",
+        location: "Sabana del Hato El Cedral, Apure, Venezuela",
+        caption: "El señor de las alturas: El imponente porte del jabirú o garzón soldado en la copa del árbol",
+        tags: ["Hato El Cedral", "Garzón Soldado", "Jabirú", "Cigüeñas", "Aves Gigantes", "Apure", "Venezuela"],
+        alt: "Un jabirú adulto se alza majestuosamente contra un cielo azul despejado. Destacan su cabeza y cuello negros, su pico largo y puntiagudo del mismo color, y un característico collar rojo en la base del cuello, que contrasta con su cuerpo de plumaje blanco. Sus largas patas son visibles, posado en la cima de un árbol."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064134/cgs_portfolio/Hato-El-Cedral-Garzon-Soldado-3264x2448-064.webp",
+        location: "Nidales de la sabana, Hato El Cedral, Apure, Venezuela",
+        caption: "Hogar crepuscular: La silueta de los garzones soldado custodiando su nido en el atardecer",
+        tags: ["Hato El Cedral", "Garzón Soldado", "Jabirú", "Nido", "Atardecer", "Apure", "Venezuela"],
+        alt: "Dos aves grandes, probablemente cigüeñas, se posan en un nido imponente en la cima de un árbol de ramas desnudas. La escena está bañada por los tonos cálidos y dorados de un atardecer o amanecer, creando una silueta dramática contra el cielo claro. La imagen captura un momento tranquilo y majestuoso de la vida silvestre en su entorno natural."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064137/cgs_portfolio/Hato-El-Cedral-Higuanas-3264x2448-009.webp",
+        location: "Campamento Matiyure, Hato El Cedral, Apure, Venezuela",
+        caption: "Textura primordial: La imponente cresta y el brillo escamoso de la iguana verde",
+        tags: ["Hato El Cedral", "Iguana Verde", "Reptiles", "Fauna Neotropical", "Apure", "Venezuela"],
+        alt: "Primer plano de una iguana adulta, probablemente una iguana verde, posada en la rama de un árbol. Su piel presenta una textura escamosa detallada con tonos verdes, marrones y rojizos. Se aprecian su distintiva cresta dorsal y el gran tímpano circular. El fondo difuminado y la luz brillante resaltan al reptil en su entorno natural, mostrando su tranquilidad y majestuosidad."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064140/cgs_portfolio/Hato-El-Cedral-Patos-2986x2240-001.webp",
+        location: "Orillas del río Matiyure, Hato El Cedral, Apure, Venezuela",
+        caption: "Elegancia ribereña: El plumaje canela e iridiscente del ganso del Orinoco",
+        tags: ["Hato El Cedral", "Ganso Del Orinoco", "Aves Acuáticas", "Plumaje", "Apure", "Venezuela"],
+        alt: "Primer plano de un ganso del Orinoco, probablemente una hembra, de pie y mirando hacia la izquierda. Muestra un plumaje vibrante con la cabeza y el cuello grisáceos, un cuerpo de tonos rojizos y alas oscuras con un distintivo parche verde iridiscente. El pico es rojizo y las patas rosáceas. El fondo está desenfocado, insinuando un entorno natural."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064142/cgs_portfolio/Hato-El-Cedral-Patos-3264x2448-035.webp",
+        location: "Cielos del Hato El Cedral, Apure, Venezuela",
+        caption: "Sinfonía al vuelo: Bandada de güiríes surcando al unísono el cielo de los esteros",
+        tags: ["Hato El Cedral", "Patos Güiríes", "Bandada En Vuelo", "Aves Acuáticas", "Apure", "Venezuela"],
+        alt: "Una numerosa bandada de aves acuáticas, probablemente patos de vientre negro, vuela activamente sobre un extenso campo de hierba verde bajo un sol brillante. Las aves exhiben un plumaje oscuro con toques blancos en las alas y patas rosadas o rojizas, mientras baten sus alas con energía. La escena captura un momento dinámico de la vida silvestre en movimiento en su hábitat natural, transmitiendo una sensación de libertad y acción."
+      }
     ]
   },
   {
@@ -68,14 +194,62 @@ En el aeropuerto disfruté de un vigorizante zumo de granadas recién exprimidas
 El último tramo hacia Barcelona fue como un suspiro. Cuando finalmente llegué, a las ocho de la noche, el cansancio se mezclaba con una extraña satisfacción. Habían pasado 32 horas desde que salí de Caracas, y en ese tiempo había pisado América, Europa y Asia. Mientras deshacía el equipaje, pensaba en cómo los avances tecnológicos han convertido estos viajes intercontinentales en algo cotidiano, pero no por ello menos extraordinarios. Cada kilómetro recorrido había sido un recordatorio de lo vasto y a la vez lo conectado que está nuestro mundo.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064155/cgs_portfolio/Los-Proceres.webp", categoria: "América", fecha: "Enero 2021", equipo: "Samsung SM-G975F",
     galeria: [
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064147/cgs_portfolio/Aereopuerto-Estambul-004.webp", "caption": "Arquitectura de vanguardia en el Aeropuerto de Estambul", "tags": [ "Aeropuerto de Estambul", "Turquía", "arquitectura moderna", "diseño interior", "viajes", "zona comercial" ], "alt": "Vista panorámica de la zona comercial del Aeropuerto de Estambul. Destacan las imponentes estructuras doradas en forma de árbol que sostienen una iluminación circular futurista, creando un ambiente de lujo y sofisticación bajo un techo ondulado." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064149/cgs_portfolio/Aereopuerto-Milan-Malpensa-2021.webp", "caption": "Llanura padana y Alpes nevados desde el aire", "tags": [ "Milán", "Italia", "vista aérea", "Alpes", "paisaje invernal", "llanura padana" ], "alt": "Impresionante fotografía aérea de la llanura padana cerca de Milán. Un mosaico de campos agrícolas se extiende hasta la imponente cordillera de los Alpes, cuyas cimas nevadas brillan bajo un cielo despejado de invierno." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064150/cgs_portfolio/Aereopuerto-Milan-Malpensa-004.webp", "caption": "Terminal del Aeropuerto de Milán-Malpensa", "tags": [ "Aeropuerto de Malpensa", "Milán", "Italia", "arquitectura", "transporte", "viajes" ], "alt": "Vista exterior de la terminal del Aeropuerto de Milán-Malpensa en un día soleado. La estructura metálica de la fachada y el diseño contemporáneo reflejan la eficiencia del principal 'hub' del norte de Italia." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064153/cgs_portfolio/El-Rey-del-Pescado-Frito-001.webp", "caption": "Gastronomía caribeña: Pescado frito y tostones", "tags": [ "Venezuela", "gastronomía", "pescado frito", "tostones", "Caribe", "comida tradicional" ], "alt": "Un banquete tradicional venezolano: pescado entero frito a la perfección, crujiente y dorado, servido con tostones de plátano verde y rodajas de aguacate sobre una mesa de madera rústica." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064155/cgs_portfolio/Los-Proceres.webp", "caption": "Simetría y memoria en Los Próceres, Caracas", "tags": [ "Los Próceres", "Caracas", "Venezuela", "monumento", "arquitectura", "patrimonio" ], "alt": "Vista del Paseo de los Próceres en Caracas. El largo espejo de agua refleja con nitidez las palmeras reales y los monumentos de mármol, con la majestuosa montaña de El Ávila asomando entre la bruma al fondo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064145/cgs_portfolio/Parque-del-Este-2021.webp", "caption": "El Ávila desde el Parque del Este", "tags": [ "Parque del Este", "Caracas", "Venezuela", "El Ávila", "naturaleza", "paisaje urbano" ], "alt": "Vista icónica del cerro El Ávila (Waraira Repano) desde los verdes jardines del Parque del Este de Caracas. La montaña, pulmón vegetal de la ciudad, se alza majestuosa bajo un cielo azul salpicado de nubes blancas." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064157/cgs_portfolio/Parque-del-Este-001.webp", "caption": "Lago y vegetación en el Parque del Este", "tags": [ "Parque del Este", "Caracas", "Venezuela", "lago", "naturaleza", "paisaje" ], "alt": "Paisaje sereno del lago central del Parque del Este en Caracas, donde el agua tranquila refleja un cielo azul vibrante. Las orillas están pobladas de palmeras y árboles tropicales, creando un oasis de paz en la ciudad." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064160/cgs_portfolio/Teatro-Teresa-Carreno-002.webp", "caption": "Nubes de Jesús Soto en el Teatro Teresa Carreño", "tags": [ "Teatro Teresa Carreño", "Jesús Soto", "cinetismo", "arte", "Caracas", "arquitectura" ], "alt": "Perspectiva ascendente de la obra cinética de Jesús Soto suspendida en el vestíbulo del Teatro Teresa Carreño de Caracas. Las varillas blancas crean un patrón geométrico vibrante que dialoga con la arquitectura brutalista del edificio." },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064147/cgs_portfolio/Aereopuerto-Estambul-004.webp",
+        location: "Aeropuerto de Estambul (IST), Turquía",
+        caption: "Bosque futurista: Estructuras doradas y cúpulas de luz en la terminal de Estambul",
+        tags: ["Aeropuerto De Estambul", "Estambul", "Turquía", "Arquitectura Contemporánea", "Hub Intercontinental"],
+        alt: "Vista panorámica de la zona comercial del Aeropuerto de Estambul. Destacan las imponentes estructuras doradas en forma de árbol que sostienen una iluminación circular futurista, creando un ambiente de lujo y sofisticación bajo un techo ondulado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064149/cgs_portfolio/Aereopuerto-Milan-Malpensa-2021.webp",
+        location: "Espacio aéreo de Lombardía, Milán, Italia",
+        caption: "Muralla alpina: La llanura padana abriéndose hacia las cumbres nevadas de los Alpes",
+        tags: ["Milán", "Lombardía", "Italia", "Alpes", "Vista Aérea", "Llanura Padana"],
+        alt: "Impresionante fotografía aérea de la llanura padana cerca de Milán. Un mosaico de campos agrícolas se extiende hasta la imponente cordillera de los Alpes, cuyas cimas nevadas brillan bajo un cielo despejado de invierno."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064150/cgs_portfolio/Aereopuerto-Milan-Malpensa-004.webp",
+        location: "Aeropuerto de Milán-Malpensa (MXP), Lombardía, Italia",
+        caption: "Punto de enlace: La elegante fachada acristalada de Malpensa bajo el cielo lombardo",
+        tags: ["Aeropuerto De Malpensa", "Milán", "Italia", "Arquitectura Terminal", "Transporte"],
+        alt: "Vista exterior de la terminal del Aeropuerto de Milán-Malpensa en un día soleado. La estructura metálica de la fachada y el diseño contemporáneo reflejan la eficiencia del principal 'hub' del norte de Italia."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064153/cgs_portfolio/El-Rey-del-Pescado-Frito-001.webp",
+        location: "La Guaira, Litoral Central, Venezuela",
+        caption: "Sabor del Caribe: Pescado frito crujiente con tostones y aguacate frente al mar",
+        tags: ["La Guaira", "Gastronomía Caribeña", "Pescado Frito", "Tostones", "Litoral", "Venezuela"],
+        alt: "Un banquete tradicional venezolano: pescado entero frito a la perfección, crujiente y dorado, servido con tostones de plátano verde y rodajas de aguacate sobre una mesa de madera rústica."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064155/cgs_portfolio/Los-Proceres.webp",
+        location: "Paseo Los Próceres, Caracas, Venezuela",
+        caption: "Espejo monumental: Monolitos de mármol y palmeras reflejados a los pies de El Ávila",
+        tags: ["Paseo Los Próceres", "Caracas", "Monumento Nacional", "El Ávila", "Arquitectura Neoclásica", "Venezuela"],
+        alt: "Vista del Paseo de los Próceres en Caracas. El largo espejo de agua refleja con nitidez las palmeras reales y los monumentos de mármol, con la majestuosa montaña de El Ávila asomando entre la bruma al fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064145/cgs_portfolio/Parque-del-Este-2021.webp",
+        location: "Parque del Este (Generalísimo Francisco de Miranda), Caracas, Venezuela",
+        caption: "Pulmón caraqueño: La majestuosa silueta de El Ávila abrazando las praderas del parque",
+        tags: ["Parque Del Este", "El Ávila", "Waraira Repano", "Caracas", "Roberto Burle Marx", "Venezuela"],
+        alt: "Vista icónica del cerro El Ávila (Waraira Repano) desde los verdes jardines del Parque del Este de Caracas. La montaña, pulmón vegetal de la ciudad, se alza majestuosa bajo un cielo azul salpicado de nubes blancas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064157/cgs_portfolio/Parque-del-Este-001.webp",
+        location: "Lago del Parque del Este, Caracas, Venezuela",
+        caption: "Calma tropical: Palmeras y flora acuática duplicadas en las aguas serenas del parque",
+        tags: ["Parque Del Este", "Caracas", "Paisajismo Tropical", "Lagos Urbanos", "Venezuela"],
+        alt: "Paisaje sereno del lago central del Parque del Este en Caracas, donde el agua tranquila refleja un cielo azul vibrante. Las orillas están pobladas de palmeras y árboles tropicales, creando un oasis de paz en la ciudad."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064160/cgs_portfolio/Teatro-Teresa-Carreno-002.webp",
+        location: "Teatro Teresa Carreño, Los Caobos, Caracas, Venezuela",
+        caption: "Vibración cinética: Las 'Nubes' suspendidas de Jesús Soto en el coloso brutalista",
+        tags: ["Teatro Teresa Carreño", "Jesús Soto", "Cinetismo", "Arte Contemporáneo", "Brutalismo", "Caracas", "Venezuela"],
+        alt: "Perspectiva ascendente de la obra cinética de Jesús Soto suspendida en el vestíbulo del Teatro Teresa Carreño de Caracas. Las varillas blancas crean un patrón geométrico vibrante que dialoga con la arquitectura brutalista del edificio."
+      }
     ]
   },
 ];

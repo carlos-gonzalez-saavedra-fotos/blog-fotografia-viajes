@@ -49,32 +49,164 @@ Finalmente, está el Museo Tinguely, que expone algunas de las ingeniosas creaci
 Salgo de Basilea reconfortado por el espíritu de aquella Helvetia del Mittlere Brücke: por muy pesados que sean, siempre podremos dejar a un lado nuestros bártulos para emprender ilusionados un nuevo viaje.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063733/cgs_portfolio/Rio-Rin-Torre-Roche-002-01.webp", categoria: "Europa", fecha: "Marzo 2018", equipo: "Sony ILSE-6000",
     galeria: [
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063724/cgs_portfolio/Basilea-001.webp", "caption": "Callejón histórico en el casco antiguo de Basilea (Augustinergasse)", "tags": [ "Casco Antiguo", "Arquitectura histórica", "Calles empedradas", "Edificios europeos", "Contraventanas", "Augustinergasse", "Basilea" ], "alt": "Una pintoresca calle empedrada en un casco antiguo europeo, flanqueada por edificios históricos bien conservados. Las fachadas combinan paredes claras con detalles en piedra rojiza y contraventanas de madera en tonos verdes. Destaca un edificio con una singular torreta octogonal de color rojo intenso y un tejado puntiagudo al final de la calle. Una elegante verja de hierro forjado se extiende a lo largo del lado izquierdo, contribuyendo al ambiente sereno y clásico del lugar." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063726/cgs_portfolio/Basilea-desde-el-aire.webp", "caption": "Panorámica aérea de Basilea y el río Rin", "tags": [ "vista aérea", "ciudad", "río", "avión", "easyJet", "urbano", "paisaje", "Basilea", "Suiza", "nublado" ], "alt": "Vista aérea de la ciudad de Basilea, Suiza, en un día nublado. La imagen captura la densa expansión urbana a lo largo del río Rin, con múltiples puentes, edificios y una gran estación de tren. Se observa el ala naranja y blanca de un avión EasyJet en el primer plano superior derecho, enmarcando la escena. En la distancia, se aprecian montañas cubiertas por nubes, mientras que áreas verdes y campos rodean la metrópolis." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063725/cgs_portfolio/Catedral-de-Basile-003.webp", "caption": "San Jorge y el dragón en la fachada de la Catedral de Basilea", "tags": [ "escultura", "arquitectura gótica", "caballero", "dragón", "arte religioso", "San Jorge", "Basilea", "Suiza" ], "alt": "Una detallada escultura de piedra arenisca roja en la fachada de la Catedral de Basilea representa a un caballero montado a caballo, empuñando una lanza para enfrentarse a un dragón alado. El arte medieval se integra en la rica arquitectura gótica con paredes de piedra vista." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063725/cgs_portfolio/Catedral-de-Basile-011.webp", "caption": "Decoración floral en el interior de la Catedral de Basilea", "tags": [ "flores", "rosas", "altar", "decoración floral", "iglesia" ], "alt": "La foto muestra un altar o estructura de piedra profusamente decorado con un arreglo floral exuberante. Predominan rosas rosadas y blancas, mezcladas con follaje verde, que cubren la superficie y caen por los lados. Al fondo, se aprecia una pared de madera oscura con tallas góticas intrincadas. Sillas de madera oscura con diseños calados flanquean la estructura, sugiriendo el interior de una iglesia o capilla. El suelo es de losas claras. La escena evoca un ambiente ceremonial o festivo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063727/cgs_portfolio/Catedral-de-Basile-022.webp", "caption": "Arcada y tejado polícromo de la Catedral de Basilea", "tags": [ "arquitectura", "tejados", "arcos", "piedra arenisca", "patrones" ], "alt": "Una vista en ángulo de la arquitectura de un edificio histórico, donde destacan múltiples arcos de piedra rojiza que forman parte de una arcada. Encima, un llamativo tejado escalonado compuesto por tejas de diversos tonos de verde, blanco y marrón crea un mosaico vibrante. Un canalón oscuro recorre la línea de encuentro entre la pared y el techo, completando la composición con texturas y colores contrastantes." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063724/cgs_portfolio/Elisabethenanlage-001-01.webp", "caption": "Pabellón en el parque Elisabethenanlage de Basilea", "tags": [ "Basilea", "Elisabethenanlage", "Edificio histórico", "Reloj", "Pabellón", "Suiza" ], "alt": "Vista frontal del histórico pabellón de Elisabethenanlage en Basilea, Suiza. En primer plano, se observa un elegante pabellón de metal con cúpula y estructuras arqueadas." },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063724/cgs_portfolio/Basilea-001.webp",
+        "location": "Augustinergasse, Casco Antiguo, Basilea, Suiza",
+        "caption": "Perspectiva medieval: Adoquines y miradores de arenisca roja en Augustinergasse",
+        "tags": ["Augustinergasse", "Casco Antiguo", "Basilea", "Arquitectura Medieval", "Suiza"],
+        "alt": "Una pintoresca calle empedrada en un casco antiguo europeo, flanqueada por edificios históricos bien conservados. Las fachadas combinan paredes claras con detalles en piedra rojiza y contraventanas de madera en tonos verdes. Destaca un edificio con una singular torreta octogonal de color rojo intenso y un tejado puntiagudo al final de la calle. Una elegante verja de hierro forjado se extiende a lo largo del lado izquierdo, contribuyendo al ambiente sereno y clásico del lugar."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063726/cgs_portfolio/Basilea-desde-el-aire.webp",
+        "location": "Espacio aéreo sobre el río Rin, Basilea, Suiza",
+        "caption": "Meandro fronterizo: La curva del Rin y los puentes de Basilea desde el aire",
+        "tags": ["Basilea", "Río Rin", "Vista Aérea", "Suiza", "Frontera Trinacional"],
+        "alt": "Vista aérea de la ciudad de Basilea, Suiza, en un día nublado. La imagen captura la densa expansión urbana a lo largo del río Rin, con múltiples puentes, edificios y una gran estación de tren. Se observa el ala naranja y blanca de un avión EasyJet en el primer plano superior derecho, enmarcando la escena. En la distancia, se aprecian montañas cubiertas por nubes, mientras que áreas verdes y campos rodean la metrópolis."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063725/cgs_portfolio/Catedral-de-Basile-003.webp",
+        "location": "Catedral de Basilea (Basler Münster), Basilea, Suiza",
+        "caption": "Lanza y dragón: El relieve gótico de San Jorge en la arenisca de la Catedral",
+        "tags": ["Basler Münster", "Catedral De Basilea", "San Jorge Y El Dragón", "Gótico", "Escultura", "Suiza"],
+        "alt": "Una detallada escultura de piedra arenisca roja en la fachada de la Catedral de Basilea representa a un caballero montado a caballo, empuñando una lanza para enfrentarse a un dragón alado. El arte medieval se integra en la rica arquitectura gótica con paredes de piedra vista."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063725/cgs_portfolio/Catedral-de-Basile-011.webp",
+        "location": "Altar Mayor, Basler Münster, Basilea, Suiza",
+        "caption": "Ofrenda de rosas: Profusión floral y sillería tallada en el coro de la Catedral",
+        "tags": ["Basler Münster", "Altar Mayor", "Arte Sacro", "Decoración Floral", "Basilea", "Suiza"],
+        "alt": "La foto muestra un altar o estructura de piedra profusamente decorado con un arreglo floral exuberante. Predominan rosas rosadas y blancas, mezcladas con follaje verde, que cubren la superficie y caen por los lados. Al fondo, se aprecia una pared de madera oscura con tallas góticas intrincadas. Sillas de madera oscura con diseños calados flanquean la estructura, sugiriendo el interior de una iglesia o capilla. El suelo es de losas claras. La escena evoca un ambiente ceremonial o festivo."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063727/cgs_portfolio/Catedral-de-Basile-022.webp",
+        "location": "Claustro de la Basler Münster, Basilea, Suiza",
+        "caption": "Geometría vidriada: Arquerías de arenisca bajo el mosaico polícromo del tejado",
+        "tags": ["Basler Münster", "Claustro", "Tejado Polícromo", "Arquitectura Gótica", "Basilea", "Suiza"],
+        "alt": "Una vista en ángulo de la arquitectura de un edificio histórico, donde destacan múltiples arcos de piedra rojiza que forman parte de una arcada. Encima, un llamativo tejado escalonado compuesto por tejas de diversos tonos de verde, blanco y marrón crea un mosaico vibrante. Un canalón oscuro recorre la línea de encuentro entre la pared y el techo, completando la composición con texturas y colores contrastantes."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063724/cgs_portfolio/Elisabethenanlage-001-01.webp",
+        "location": "Parque Elisabethenanlage, Basilea, Suiza",
+        "caption": "Kiosco melómano: El templete de música en el remanso verde de Elisabethenanlage",
+        "tags": ["Elisabethenanlage", "Pabellón", "Música", "Parques Urbanos", "Basilea", "Suiza"],
+        "alt": "Vista frontal del histórico pabellón de Elisabethenanlage en Basilea, Suiza. En primer plano, se observa un elegante pabellón de metal con cúpula y estructuras arqueadas."
+      },
       FOTO_BASILEA_FONDATION_BEYELER,
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063727/cgs_portfolio/Fondation-Beyeler-030-Calder-Otto-s-Mobile-1952.webp", "caption": "Móvil de Oto (1952) de Alexander Calder en la Fundación Beyeler", "tags": [ "escultura", "móvil", "arte cinético", "abstracto", "diseño" ], "alt": "Una escultura móvil de estilo cinético cuelga de un techo reticulado, presentando formas abstractas en colores negro, rojo y naranja. Las piezas están interconectadas por delgadas varillas, creando una composición equilibrada y dinámica. El fondo cuadriculado, con tonos cálidos, sugiere un espacio interior iluminado, posiblemente un museo o galería de arte moderno." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063729/cgs_portfolio/Fondation-Beyeler-Basilea.webp", "caption": "Jardines y estanque de la Fundación Beyeler", "tags": [ "estanque", "esculturas", "jardín", "árboles", "paisaje" ], "alt": "Una vista de un parque o jardín público con un estanque en primer plano, cuyas aguas reflejan el cielo y los árboles. En el centro, una pendiente de césped escalonada conduce a una escultura principal que representa varias figuras. El fondo presenta una variedad de árboles desnudos y arbustos frondosos, con un cenador blanco y otra escultura visible a la derecha, creando un ambiente tranquilo y artístico." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063728/cgs_portfolio/Fundacion-Beyeler-Thomas-Schutte-Hase-2013.webp", "caption": "La liebre (Hase, 2013) de Thomas Schütte en la Fundación Beyeler", "tags": [ "escultura", "arte", "parque", "conejo", "agua", "paisaje", "exterior", "otoño", "verde", "museo" ], "alt": "Una escultura de bronce de un conejo (obra de Barry Flanagan) se alza sobre un espejo de agua, reflejando su silueta. Detrás, una pradera de césped verde intenso se eleva hacia un edificio moderno con grandes ventanales, posiblemente una galería. Árboles con ramas desnudas enmarcan la escena bajo un cielo cubierto, sugiriendo un día fresco. Pequeñas ondas en el agua indican el viento o una ligera lluvia, añadiendo dinamismo a esta fusión de arte y naturaleza." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063729/cgs_portfolio/Gymnasium-Leonhard-01.webp", "caption": "Estatua ecuestre Rossbändiger frente al Gymnasium Leonhard", "tags": [ "Basilea", "Suiza", "Rossbändiger", "Gymnasium Leonhard", "estatua ecuestre", "arte público", "arquitectura" ], "alt": "La imagen captura la estatua ecuestre 'Rossbändiger' situada frente a la imponente fachada del Gymnasium Leonhard en Basilea. La escultura de bronce oscuro muestra a un jinete con un caballo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063729/cgs_portfolio/Helvetia-auf-Reisen-Basilea.webp", "caption": "Helvetia auf Reisen: la personificación de Suiza contemplando el Rin", "tags": [ "Basilea", "Suiza", "Río Rin", "Estatua", "Paisaje urbano" ], "alt": "Una estatua de bronce de una figura sentada, con un escudo con la cruz suiza y una lanza, mira hacia el río Rin en Basilea. En la orilla opuesta, una hilera de edificios históricos y coloridos se alza bajo un cielo nublado, reflejando la arquitectura tradicional de la ciudad. La escena transmite una sensación de calma y contemplación." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063730/cgs_portfolio/Kantonale-Verwaltung-Basel-Stadt-Marktplatz.webp", "caption": "Ambiente en la Marktplatz con el Ayuntamiento al fondo", "tags": [ "Marktplatz Basel", "Rathaus Basel", "mercado al aire libre", "arquitectura histórica", "ciudad europea" ], "alt": "La imagen muestra la bulliciosa Marktplatz en Basilea, Suiza, dominada por el icónico Rathaus rojo. El cielo azul vibrante contrasta con la arquitectura histórica y las coloridas fachadas. Varias personas transitan la plaza adoquinada, donde se aprecian puestos de un mercado al aire libre, añadiendo vida y actividad al entorno urbano. La perspectiva de 360 grados captura la atmósfera animada de este centro histórico." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063731/cgs_portfolio/Kantonale-Verwaltung-Basel-Stadt-001.webp", "caption": "Fachada renacentista y frescos del Ayuntamiento (Rathaus) de Basilea", "tags": [ "Basilea", "Rathaus", "Arquitectura", "Fresco", "Reloj astronómico" ], "alt": "Una vista detallada del histórico Rathaus de Basilea, Suiza, destacando su fachada de vibrante color rojo. El edificio está ricamente decorado con numerosos frescos que representan figuras históricas y escudos heráldicos. Un reloj astronómico ornamentado cuelga de la fachada central, añadiendo un elemento distintivo a su arquitectura renacentista. Las ventanas con marcos verdes contrastan con el tono principal, resaltando la complejidad y belleza de esta joya arquitectónica." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063730/cgs_portfolio/Kunstmuseum-Basilea-010-Giacometti.webp", "caption": "Cabeza de hombre sobre tallo, de Alberto Giacometti, en el Kunstmuseum", "tags": [ "escultura", "bronce", "arte_abstracto", "perfil", "textura_rugosa" ], "alt": "La imagen muestra una escultura abstracta en metal, probablemente bronce, con una pátina oscura y tonos verdosos. Representa una cabeza o figura en perfil, con rasgos estilizados y una forma alargada y puntiaguda en la parte superior. La superficie de la obra es rugosa y altamente texturizada, evocando una sensación orgánica o antigua. Se exhibe sobre un fondo blanco liso, resaltando sus contornos dramáticos y su materialidad." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063731/cgs_portfolio/Kunstmuseum-Basilea-026-Auguste-Rodin-La-grande-ombre.webp", "caption": "La gran sombra (La grande ombre) de Auguste Rodin en el Kunstmuseum", "tags": [ "escultura", "arte", "museo", "blanco y negro", "figura humana", "monumental", "arquitectura", "interior", "contraste", "Klimsch" ], "alt": "Una fotografía en blanco y negro que presenta una monumental escultura masculina y musculosa en primer plano, vista desde atrás. La escultura, posiblemente el 'Der Schreitende Mann' de Fritz Klimsch, mira hacia una gran escalera que conduce a amplias ventanas, donde una estatua más pequeña y esbelta se siluetea. La iluminación dramática y la arquitectura minimalista realzan las poderosas formas de la obra de arte dentro de un entorno museístico." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063732/cgs_portfolio/Kunstmuseum-Basilea.webp", "caption": "Ampliación contemporánea del Kunstmuseum de Basilea", "tags": [ "arquitectura", "urbano", "contraste", "fachada", "calle", "Basilea" ], "alt": "Una escena urbana en Basilea que yuxtapone la arquitectura clásica de un edificio residencial con la imponente y moderna extensión del Kunstmuseum, diseñada por el arquitecto Christ & Gantenbein. La fachada del museo, con sus distintivas filas de ladrillos claros, contrasta fuertemente con los detalles ornamentados del edificio vecino. Dos coches añaden vida a esta intersección de estilos y épocas arquitectónicas." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063732/cgs_portfolio/Kunstmuseum-Basilea-Georg-Baselitz-works-on-paper-Basilea.webp", "caption": "Exposición de dibujos de Georg Baselitz en el Kunstmuseum", "tags": [ "arte", "dibujos", "expresionista", "blanco y negro", "galería", "exposición", "arte contemporáneo", "cuadros", "pared", "abstracción" ], "alt": "Una vista de una sala de exposición con varias obras de arte enmarcadas colgadas en paredes blancas. Los cuadros, principalmente dibujos en blanco y negro con trazos gruesos y expresivos, representan figuras abstractas, rostros y texturas densas, sugiriendo una estética cruda y visceral. La disposición en cuadrículas crea un ritmo visual en la galería." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063733/cgs_portfolio/Mittlere-Brucke-Basilea.webp", "caption": "El histórico puente Mittlere Brücke sobre el río Rin", "tags": [ "Basilea", "Mittlere Brücke", "tranvía", "río Rin", "arquitectura histórica" ], "alt": "Una vista pintoresca del histórico Mittlere Brücke en Basilea, Suiza, cruzando las aguas verdes del río Rin. Un moderno tranvía verde se desplaza sobre el puente de arcos de piedra, flanqueado por edificios tradicionales de tejados rojos y fachadas detalladas. Banderas decorativas ondean a lo largo de la estructura, añadiendo color a este icónico paisaje urbano que combina patrimonio y vida contemporánea bajo un cielo nublado." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063733/cgs_portfolio/Rio-Rin-Torre-Roche-002-01.webp", "caption": "La silueta de la Torre Roche dominando el horizonte del Rin", "tags": [ "arquitectura", "rascacielos", "Basilea", "Suiza", "río Rin", "blanco y negro", "paisaje urbano", "moderno", "Roche Tower", "edificio corporativo" ], "alt": "Vista en blanco y negro del imponente Roche Tower (Bau 1) en Basilea, Suiza, con su distintivo diseño escalonado. El edificio se eleva a orillas del río Rin, cuyas aguas reflejan el cielo nublado. La imagen captura la silueta moderna del rascacielos y el entorno industrial, incluyendo otras estructuras y grúas, bajo una atmósfera dramática." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063733/cgs_portfolio/Strassburger-Denkmal-Basilea.webp", "caption": "Monumento de Estrasburgo (Strassburger Denkmal) en Basilea", "tags": [ "escultura", "monumento", "arte público", "alegoría", "figuras" ], "alt": "Grupo escultórico de piedra que representa una alegoría con varias figuras clásicas. Una figura central sostiene un escudo con una cruz, protegiendo a una mujer con un niño en brazos y a otra figura alada, posiblemente un ángel. Un joven arrodillado completa la escena. La obra, con su vestimenta fluida y expresiones serias, evoca temas históricos o patrióticos, destacando por sus detalles y composición dinámica. Refleja el arte neoclásico o romántico en un espacio público." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063734/cgs_portfolio/Tinguely-Brunnen-Basilea-1.webp", "caption": "Detalle de la Fuente Tinguely (Tinguely-Brunnen) en la Plaza del Teatro", "tags": [ "niña", "fuente", "escultura", "parque", "color selectivo" ], "alt": "Una niña con un abrigo rosa vibrante y mochila azul se alza junto a una fuente con grandes esculturas de metal oscuro y detalles intrincados. El fondo, que incluye árboles, edificios y otras estatuas, está desaturado en blanco y negro, creando un fuerte contraste con los colores vivos de la niña. La escena transcurre en un entorno urbano al aire libre, posiblemente un parque o plaza, destacando la figura infantil en un ambiente artístico." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063735/cgs_portfolio/Tinguely-Brunnen-Basilea.webp", "caption": "Esculturas cinéticas en movimiento de la Fuente Tinguely", "tags": [ "fountain", "coins", "water", "wishing_well", "outdoor" ], "alt": "Una característica de agua única que parece un pozo de los deseos, donde un tazón de metal oscuro y perforado está suspendido sobre un cuerpo de agua. El tazón contiene numerosas monedas de cobre y oro. Múltiples chorros de agua caen del tazón, formando delicadas columnas que regresan a la superficie ondulada debajo. La escena sugiere una tradición de hacer deseos." },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063727/cgs_portfolio/Fondation-Beyeler-030-Calder-Otto-s-Mobile-1952.webp",
+        "location": "Fondation Beyeler, Riehen / Basilea, Suiza",
+        "caption": "Equilibrio ingrávido: El 'Móvil de Oto' (1952) de Alexander Calder danzando en la luz",
+        "tags": ["Fondation Beyeler", "Alexander Calder", "Arte Cinético", "Escultura", "Riehen", "Suiza"],
+        "alt": "Una escultura móvil de estilo cinético cuelga de un techo reticulado, presentando formas abstractas en colores negro, rojo y naranja. Las piezas están interconectadas por delgadas varillas, creando una composición equilibrada y dinámica. El fondo cuadriculado, con tonos cálidos, sugiere un espacio interior iluminado, posiblemente un museo o galería de arte moderno."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063729/cgs_portfolio/Fondation-Beyeler-Basilea.webp",
+        "location": "Jardines de la Fondation Beyeler, Riehen / Basilea, Suiza",
+        "caption": "Diálogo con el paisaje: Estanques y esculturas en los jardines de Renzo Piano",
+        "tags": ["Fondation Beyeler", "Renzo Piano", "Jardines", "Estanques", "Escultura", "Suiza"],
+        "alt": "Una vista de un parque o jardín público con un estanque en primer plano, cuyas aguas reflejan el cielo y los árboles. En el centro, una pendiente de césped escalonada conduce a una escultura principal que representa varias figuras. El fondo presenta una variedad de árboles desnudos y arbustos frondosos, con un cenador blanco y otra escultura visible a la derecha, creando un ambiente tranquilo y artístico."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063728/cgs_portfolio/Fundacion-Beyeler-Thomas-Schutte-Hase-2013.webp",
+        "location": "Parque de la Fondation Beyeler, Riehen / Basilea, Suiza",
+        "caption": "Reflejo lúdico: La escultura 'Hase' (2013) de Thomas Schütte sobre el estanque",
+        "tags": ["Fondation Beyeler", "Thomas Schütte", "Escultura Contemporánea", "Riehen", "Suiza"],
+        "alt": "Una escultura de bronce de un conejo (obra de Barry Flanagan) se alza sobre un espejo de agua, reflejando su silueta. Detrás, una pradera de césped verde intenso se eleva hacia un edificio moderno con grandes ventanales, posiblemente una galería. Árboles con ramas desnudas enmarcan la escena bajo un cielo cubierto, sugiriendo un día fresco. Pequeñas ondas en el agua indican el viento o una ligera lluvia, añadiendo dinamismo a esta fusión de arte y naturaleza."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063729/cgs_portfolio/Gymnasium-Leonhard-01.webp",
+        "location": "Kohlenberg, Gymnasium Leonhard, Basilea, Suiza",
+        "caption": "Tensión en bronce: La escultura ecuestre 'Rossbändiger' custodiando el Kohlenberg",
+        "tags": ["Gymnasium Leonhard", "Kohlenberg", "Rossbändiger", "Escultura Ecuestre", "Basilea", "Suiza"],
+        "alt": "La imagen captura la estatua ecuestre 'Rossbändiger' situada frente a la imponente fachada del Gymnasium Leonhard en Basilea. La escultura de bronce oscuro muestra a un jinete con un caballo."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063729/cgs_portfolio/Helvetia-auf-Reisen-Basilea.webp",
+        "location": "Mittlere Brücke, río Rin, Basilea, Suiza",
+        "caption": "Helvetia viajera: La personificación suiza de Bettina Eichin contemplando el Rin con su maleta",
+        "tags": ["Mittlere Brücke", "Helvetia Auf Reisen", "Bettina Eichin", "Río Rin", "Basilea", "Suiza"],
+        "alt": "Una estatua de bronce de una figura sentada, con un escudo con la cruz suiza y una lanza, mira hacia el río Rin en Basilea. En la orilla opuesta, una hilera de edificios históricos y coloridos se alza bajo un cielo nublado, reflejando la arquitectura tradicional de la ciudad. La escena transmite una sensación de calma y contemplación."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063730/cgs_portfolio/Kantonale-Verwaltung-Basel-Stadt-Marktplatz.webp",
+        "location": "Marktplatz, Basilea, Suiza",
+        "caption": "Pulso matinal: Puestos de mercado al amparo de la fachada bermeja del Rathaus",
+        "tags": ["Marktplatz", "Rathaus", "Mercado Tradicional", "Vida Urbana", "Basilea", "Suiza"],
+        "alt": "La imagen muestra la bulliciosa Marktplatz en Basilea, Suiza, dominada por el icónico Rathaus rojo. El cielo azul vibrante contrasta con la arquitectura histórica y las coloridas fachadas. Varias personas transitan la plaza adoquinada, donde se aprecian puestos de un mercado al aire libre, añadiendo vida y actividad al entorno urbano. La perspectiva de 360 grados captura la atmósfera animada de este centro histórico."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063731/cgs_portfolio/Kantonale-Verwaltung-Basel-Stadt-001.webp",
+        "location": "Ayuntamiento de Basilea (Rathaus), Marktplatz, Basilea, Suiza",
+        "caption": "Joyel renacentista: Frescos dorados, escudos y el reloj astronómico del Rathaus",
+        "tags": ["Rathaus", "Ayuntamiento", "Renacimiento", "Frescos", "Marktplatz", "Basilea", "Suiza"],
+        "alt": "Una vista detallada del histórico Rathaus de Basilea, Suiza, destacando su fachada de vibrante color rojo. El edificio está ricamente decorado con numerosos frescos que representan figuras históricas y escudos heráldicos. Un reloj astronómico ornamentado cuelga de la fachada central, añadiendo un elemento distintivo a su arquitectura renacentista. Las ventanas con marcos verdes contrastan con el tono principal, resaltando la complejidad y belleza de esta joya arquitectónica."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063730/cgs_portfolio/Kunstmuseum-Basilea-010-Giacometti.webp",
+        "location": "Kunstmuseum Basel, Basilea, Suiza",
+        "caption": "Fragilidad existencial: 'Tête d'homme sur tige' de Alberto Giacometti",
+        "tags": ["Kunstmuseum Basel", "Alberto Giacometti", "Escultura Moderna", "Bronce", "Basilea", "Suiza"],
+        "alt": "La imagen muestra una escultura abstracta en metal, probablemente bronce, con una pátina oscura y tonos verdosos. Representa una cabeza o figura en perfil, con rasgos estilizados y una forma alargada y puntiaguda en la parte superior. La superficie de la obra es rugosa y altamente texturizada, evocando una sensación orgánica o antigua. Se exhibe sobre un fondo blanco liso, resaltando sus contornos dramáticos y su materialidad."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063731/cgs_portfolio/Kunstmuseum-Basilea-026-Auguste-Rodin-La-grande-ombre.webp",
+        "location": "Kunstmuseum Basel, Basilea, Suiza",
+        "caption": "Anatomía heroica: 'La grande ombre' de Auguste Rodin recortada en la escalinata",
+        "tags": ["Kunstmuseum Basel", "Auguste Rodin", "La Grande Ombre", "Escultura", "Basilea", "Suiza"],
+        "alt": "Una fotografía en blanco y negro que presenta una monumental escultura masculina y musculosa en primer plano, vista desde atrás. La escultura, posiblemente el 'Der Schreitende Mann' de Fritz Klimsch, mira hacia una gran escalera que conduce a amplias ventanas, donde una estatua más pequeña y esbelta se siluetea. La iluminación dramática y la arquitectura minimalista realzan las poderosas formas de la obra de arte dentro de un entorno museístico."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063732/cgs_portfolio/Kunstmuseum-Basilea.webp",
+        "location": "St. Alban-Graben, Kunstmuseum Basel, Basilea, Suiza",
+        "caption": "Contrapunto urbano: El sobrio ladrillo de Christ & Gantenbein dialogando con la tradición",
+        "tags": ["Kunstmuseum Basel", "Christ & Gantenbein", "Arquitectura Contemporánea", "Basilea", "Suiza"],
+        "alt": "Una escena urbana en Basilea que yuxtapone la arquitectura clásica de un edificio residencial con la imponente y moderna extensión del Kunstmuseum, diseñada por el arquitecto Christ & Gantenbein. La fachada del museo, con sus distintivas filas de ladrillos claros, contrasta fuertemente con los detalles ornamentados del edificio vecino. Dos coches añaden vida a esta intersección de estilos y épocas arquitectónicas."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063732/cgs_portfolio/Kunstmuseum-Basilea-Georg-Baselitz-works-on-paper-Basilea.webp",
+        "location": "Kunstmuseum Basel | Neubau, Basilea, Suiza",
+        "caption": "Trazos viscerales: Obras sobre papel de Georg Baselitz en la galería del museo",
+        "tags": ["Kunstmuseum Basel", "Georg Baselitz", "Expresionismo", "Arte Contemporáneo", "Basilea", "Suiza"],
+        "alt": "Una vista de una sala de exposición con varias obras de arte enmarcadas colgadas en paredes blancas. Los cuadros, principalmente dibujos en blanco y negro con trazos gruesos y expresivos, representan figuras abstractas, rostros y texturas densas, sugiriendo una estética cruda y visceral. La disposición en cuadrículas crea un ritmo visual en la galería."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063733/cgs_portfolio/Mittlere-Brucke-Basilea.webp",
+        "location": "Mittlere Brücke sobre el río Rin, Basilea, Suiza",
+        "caption": "Arteria fluvial: El tranvía verde cruzando los arcos centenarios del Mittlere Brücke",
+        "tags": ["Mittlere Brücke", "Río Rin", "Tranvía", "Puentes Históricos", "Basilea", "Suiza"],
+        "alt": "Una vista pintoresca del histórico Mittlere Brücke en Basilea, Suiza, cruzando las aguas verdes del río Rin. Un moderno tranvía verde se desplaza sobre el puente de arcos de piedra, flanqueado por edificios tradicionales de tejados rojos y fachadas detalladas. Banderas decorativas ondean a lo largo de la estructura, añadiendo color a este icónico paisaje urbano que combina patrimonio y vida contemporánea bajo un cielo nublado."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063733/cgs_portfolio/Rio-Rin-Torre-Roche-002-01.webp",
+        "location": "Kleinbasel, ribera del río Rin, Basilea, Suiza",
+        "caption": "Escalera al cielo: La silueta blanca de la Torre Roche emergiendo sobre el cauce del Rin",
+        "tags": ["Torre Roche", "Río Rin", "Herzog & de Meuron", "Rascacielos", "Basilea", "Suiza"],
+        "alt": "Vista en blanco y negro del imponente Roche Tower (Bau 1) en Basilea, Suiza, con su distintivo diseño escalonado. El edificio se eleva a orillas del río Rin, cuyas aguas reflejan el cielo nublado. La imagen captura la silueta moderna del rascacielos y el entorno industrial, incluyendo otras estructuras y grúas, bajo una atmósfera dramática."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063733/cgs_portfolio/Strassburger-Denkmal-Basilea.webp",
+        "location": "Centralbahnplatz, Basilea, Suiza",
+        "caption": "Tributo a la concordia: El Monumento de Estrasburgo de Frédéric Auguste Bartholdi",
+        "tags": ["Centralbahnplatz", "Strassburger Denkmal", "Auguste Bartholdi", "Escultura", "Basilea", "Suiza"],
+        "alt": "Grupo escultórico de piedra que representa una alegoría con varias figuras clásicas. Una figura central sostiene un escudo con una cruz, protegiendo a una mujer con un niño en brazos y a otra figura alada, posiblemente un ángel. Un joven arrodillado completa la escena. La obra, con su vestimenta fluida y expresiones serias, evoca temas históricos o patrióticos, destacando por sus detalles y composición dinámica. Refleja el arte neoclásico o romántico en un espacio público."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063734/cgs_portfolio/Tinguely-Brunnen-Basilea-1.webp",
+        "location": "Theaterplatz, Basilea, Suiza",
+        "caption": "Juego mecánico: El teatro de artilugios acuáticos de Jean Tinguely en la Plaza del Teatro",
+        "tags": ["Tinguely Brunnen", "Jean Tinguely", "Theaterplatz", "Arte Cinético", "Basilea", "Suiza"],
+        "alt": "Una niña con un abrigo rosa vibrante y mochila azul se alza junto a una fuente con grandes esculturas de metal oscuro y detalles intrincados. El fondo, que incluye árboles, edificios y otras estatuas, está desaturado en blanco y negro, creando un fuerte contraste con los colores vivos de la niña. La escena transcurre en un entorno urbano al aire libre, posiblemente un parque o plaza, destacando la figura infantil en un ambiente artístico."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063735/cgs_portfolio/Tinguely-Brunnen-Basilea.webp",
+        "location": "Fuente Tinguely (Fasnachtsbrunnen), Theaterplatz, Basilea, Suiza",
+        "caption": "Engranajes en el agua: Aspersores y monedas en los cuencos de Jean Tinguely",
+        "tags": ["Tinguely Brunnen", "Fasnachtsbrunnen", "Jean Tinguely", "Escultura Mecánica", "Basilea", "Suiza"],
+        "alt": "Una característica de agua única que parece un pozo de los deseos, donde un tazón de metal oscuro y perforado está suspendido sobre un cuerpo de agua. El tazón contiene numerosas monedas de cobre y oro. Múltiples chorros de agua caen del tazón, formando delicadas columnas que regresan a la superficie ondulada debajo. La escena sugiere una tradición de hacer deseos."
+      }
     ]
   },
-{
+  {
     id: "burdeos", titulo: "Burdeos y sus virtudes", ubicacion: "Burdeos-Francia", resumen: "Tiene Burdeos virtudes dignas de una gran ciudad: es ordenada, pulcra, acogedora y ha sabido adaptar sus recursos a los tiempos que corren. Tras una campaña de rehabilitación, los cinco mil edificios del casco histórico lucen hoy, impoluta, como cuando se construyeron en el siglo XVIII, la tradicional piedra ocre de las canteras de los alrededores.", reseña: `Tiene Burdeos virtudes dignas de una gran ciudad: es ordenada, pulcra, acogedora y ha sabido adaptar sus recursos a los tiempos que corren. Tras una campaña de rehabilitación, los cinco mil edificios del casco histórico lucen hoy, impoluta, como cuando se construyeron en el siglo XVIII, la tradicional piedra ocre de las canteras de los alrededores. Dado que el tráfico está restringido en gran parte del centro, por donde solo circulan tranvías, bicicletas y peatones, las alineadas fachadas de grandes ventanales blancos mantienen su esplendor y pueden ser disfrutadas sin interferencias por residentes y visitantes. Las virtudes de Burdeos, eficientemente gestionadas por las autoridades y respetadas por los ciudadanos, le han valida ser declarada por la UNESCO Patrimonio de la Humanidad.
 El corazón de la ciudad no ha sucumbido a la tentación moderna de los rascacielos y la construcción más alta, de 114 metros, se levantó hace 500 años: es el campanario independiente de la basílica de Saint-Michel, conocido como Le Flèche (la aguja). Otra torre singular es la Tour Pey-Berland, segregada de la Catedral de St-André. En ambos casos la recompensa por subir los más de 200 peldaños de sus angostas escaleras de caracol es una maravillosa panorámica del entramado urbano. Aunque de menor altura, también puede subirse por el interior de la puerta de la Grosse Cloche (donde se aprecia la Gran Campana, el mecanismo del reloj y una pequeña celda donde en otros tiempos se encerraba a los borrachos) y de la puerta Cailhau (un arco del triunfo monumental). Curiosamente, estas cuatro construcciones datan del siglo XV.
 Otras de las virtudes de Burdeos es el río Garona, que a su paso por la ciudad hace un reverencial recorrido en forma de media luna. Aunque tiene un característico color marrón terroso debido a las fuertes mareas del cercano océano Atlántico, que remueven constantemente sus sedimentos, su agua es limpia y su cauce profundo. Navegan por él barcos muy largos que se adaptan discretamente a la horizontalidad del río, y cruceros tan grandes que superan en altura a la mayoría de los edificios de la ciudad y obligan a abrir a su paso el Puente Jacques Chaban-Delmas. El que no puede moverse es el Puente de Piedra, pues sus 17 arcos (que coinciden con el número de letras de quien impulsó su construcción: Napoleón Bonaparte) están sembrados en el cauce. Como su estructura es firme pero hueca, las leyendas dicen que en su interior hay una carroza emparedada. 
@@ -92,14 +224,62 @@ El llamativo edificio de la ciudad de la justicia, que alberga los tribunales de
 En verano la pequeña playa del parque del lago de Burdeos se llena de bañistas y amantes del sol. La sombra natural que ofrecen los pinos y otros árboles locales también permite hacer a las familias y amigos agradables picnic. Arena, césped y agua para una jornada relajante. En otro parque de la ciudad, el Jardín Público, el verde intenso reina y algunos jóvenes (hay muchos en Burdeos, pues la ciudad cuenta con varias universidades y escuelas superiores de prestigio) aprovechan para jugar a las cartas, conversar o tomar el sol; los niños se columpian o dan vueltas en una antigua noria; mientras que otros visitantes pasean por las caminerías y por los puentes de hierro forjado, acompañados de ocas y patos. En fin, parece muy grata la vida en una ciudad con tantas virtudes.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063739/cgs_portfolio/Rue-Vital-Carles.webp", categoria: "Europa", fecha: "Septiembre 2018", equipo: "Sony ILSE-6000",
     galeria: [
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063735/cgs_portfolio/Burdeos-desde-Torre-de-Pey-Berland-004-01.webp", "caption": "Burdeos desde la Torre de Pey Berland, con una gárgola de piedra en primer plano", "tags": [ "Burdeos", "Francia", "panorámica", "gárgola", "vista aérea", "arquitectura", "Torre de Pey Berland" ], "alt": "Impresionante vista panorámica de la ciudad de Burdeos desde la Torre de Pey Berland, con una gárgola de piedra en primer plano. El paisaje urbano se extiende mostrando sus característicos tejados anaranjados y edificios históricos." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063737/cgs_portfolio/Cours-de-la-Intendance-01.webp", "caption": "Cours de la Intendance, flanqueada por edificios de piedra con arquitectura clásica y balcones de hierro forjado", "tags": [ "Burdeos, Francia", "calle peatonal", "arquitectura clásica", "ciudad europea", "vida urbana", "día soleado" ], "alt": "La imagen muestra una animada calle peatonal en Burdeos, Francia, flanqueada por majestuosos edificios de piedra con arquitectura clásica y balcones de hierro forjado. Bajo un cielo azul salpicado de nubes blancas, numerosas personas caminan, pasean en bicicleta y disfrutan de las terrazas de los cafés al aire libre. La escena irradia una atmósfera vibrante y típica de una ciudad europea." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063737/cgs_portfolio/Espejo-de-agua-009.webp", "caption": "Una multitud de personas disfruta del Miroir d'eau en Burdeos bajo un cielo despejado", "tags": [ "Miroir d'eau, Burdeos, Francia", "miroir d'eau", "burdeos", "niños", "reflejo", "gente", "verano", "actividad", "plaza", "agua", "pont de pierre", "turismo" ], "alt": "Una multitud de personas disfruta del Miroir d'eau en Burdeos bajo un cielo despejado. En primer plano, dos personas hacen planchas, mientras un niño monta en bicicleta, todos reflejados vívidamente en la superficie mojada. Al fondo, se distingue el histórico Pont de Pierre y la ciudad, con muchas más personas paseando. La escena captura un ambiente relajado y alegre, con la arquitectura clásica y moderna de Burdeos sirviendo de telón de fondo para esta popular atracción." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063737/cgs_portfolio/Monumento-a-los-Girondinos-003-01.webp", "caption": "La imponente Fuente de los Girondinos en Burdeos, contemplada por una paseante", "tags": [ "Monumento a los Girondinos, Burdeos, Francia", "fuente", "esculturas", "bronce", "arte", "monumento", "agua", "Bordeaux" ], "alt": "La imagen muestra una vista detallada de la imponente Fuente de los Girondinos en Burdeos, Francia. Se aprecian múltiples esculturas de bronce de figuras humanas, caballos y criaturas marinas emergiendo del agua, con chorros que salpican la base rocosa. La pátina verdosa del bronce resalta los detalles de las figuras. Una persona de espaldas, con una mochila azul, observa la grandiosa obra arquitectónica y artística, sumergida en el ambiente de este icónico monumento." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063738/cgs_portfolio/Playa-del-Lago-001.webp", "caption": "La concurrida playa del lago, en un día soleado de verano", "tags": [ "Playa lacustre o fluvial", "playa", "verano", "bosque", "gente", "relax" ], "alt": "Una concurrida playa de arena, posiblemente en un lago o río, en un día soleado de verano. Numerosas personas disfrutan tomando el sol bajo sombrillas de colores y bañándose en el agua tranquila. Un denso bosque de pinos bordea la orilla, proporcionando sombra natural. En primer plano, una valla de madera y una bicicleta marcan el límite de la zona recreativa, creando una escena vibrante de ocio al aire libre." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063738/cgs_portfolio/Plaza-de-la-Bolsa-005.webp", "caption": "Vista nocturna de la icónica Place de la Bourse en Burdeos", "tags": [ "Place de la Bourse, Burdeos, Francia", "Burdeos", "Miroir d'eau", "Noche", "Arquitectura", "Reflejos" ], "alt": "Vista nocturna de la icónica Place de la Bourse en Burdeos, Francia. Los majestuosos edificios del siglo XVIII, elegantemente iluminados, se reflejan en el famoso Miroir d'eau, creando una imagen deslumbrante. Se observa a personas paseando por la plaza y a través del espejo de agua, disfrutando del ambiente mágico y sereno de este emblemático lugar." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063739/cgs_portfolio/Plaza-de-la-Bolsa-01.webp", "caption": "Vista panorámica de la icónica Place de la Bourse en Burdeos, bajo un cielo azul despejado", "tags": [ "Bordeaux, France", "Bordeaux", "Francia", "Arquitectura", "Plaza", "Día soleado", "Edificios históricos", "Escaleras", "Urbano", "Cielo azul", "Turismo" ], "alt": "Una vista panorámica de la icónica Place de la Bourse en Burdeos, Francia, bajo un cielo azul despejado. La imagen muestra los elegantes edificios del siglo XVIII que rodean la plaza, con sus fachadas clásicas y tejados elaborados. En primer plano, una serie de amplias escaleras de piedra bajan hacia un área adoquinada. Se aprecian algunas personas paseando o sentadas, disfrutando de la atmósfera tranquila del lugar." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063739/cgs_portfolio/Rue-Vital-Carles.webp", "caption": "La adoquinada Rue Vital Carles, flanqueada por edificios históricos", "tags": [ "Burdeos, Francia", "ciudad", "arquitectura", "calle", "tranvía", "histórico" ], "alt": "Una pintoresca calle adoquinada en Burdeos, Francia, flanqueada por edificios históricos de piedra con balcones de hierro forjado y diversas tiendas. Las vías de un tranvía recorren el centro de la calle, que se extiende hacia el fondo donde se alzan las icónicas agujas góticas de una catedral. Varias personas transitan a pie por la vía, disfrutando de un día soleado con algunas nubes." },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063735/cgs_portfolio/Burdeos-desde-Torre-de-Pey-Berland-004-01.webp",
+        "location": "Torre Pey-Berland, Plaza Pey-Berland, Burdeos, Francia",
+        "caption": "Vigía de piedra: Gárgola gótica oteando el mar de tejados ocres de Burdeos",
+        "tags": ["Torre Pey Berland", "Burdeos", "Gárgola", "Panorámica", "Gótico Flamígero", "Francia"],
+        "alt": "Impresionante vista panorámica de la ciudad de Burdeos desde la Torre de Pey Berland, con una gárgola de piedra en primer plano. El paisaje urbano se extiende mostrando sus característicos tejados anaranjados y edificios históricos."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063737/cgs_portfolio/Cours-de-la-Intendance-01.webp",
+        "location": "Cours de l'Intendance, Triángulo de Oro, Burdeos, Francia",
+        "caption": "Elegancia ilustrada: Fachadas del siglo XVIII y balcones de forja en el Cours de l'Intendance",
+        "tags": ["Cours De L'Intendance", "Triángulo De Oro", "Arquitectura Neoclásica", "Burdeos", "Francia"],
+        "alt": "La imagen muestra una animada calle peatonal en Burdeos, Francia, flanqueada por majestuosos edificios de piedra con arquitectura clásica y balcones de hierro forjado. Bajo un cielo azul salpicado de nubes blancas, numerosas personas caminan, pasean en bicicleta y disfrutan de las terrazas de los cafés al aire libre. La escena irradia una atmósfera vibrante y típica de una ciudad europea."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063737/cgs_portfolio/Espejo-de-agua-009.webp",
+        "location": "Miroir d'eau, Place de la Bourse, Burdeos, Francia",
+        "caption": "Efímero reflejo: Juegos y bruma sobre la lámina de granito del Miroir d'eau",
+        "tags": ["Miroir D'eau", "Place De La Bourse", "Río Garona", "Paisajismo Urbano", "Burdeos", "Francia"],
+        "alt": "Una multitud de personas disfruta del Miroir d'eau en Burdeos bajo un cielo despejado. En primer plano, dos personas hacen planchas, mientras un niño monta en bicicleta, todos reflejados vívidamente en la superficie mojada. Al fondo, se distingue el histórico Pont de Pierre y la ciudad, con muchas más personas paseando. La escena captura un ambiente relajado y alegre, con la arquitectura clásica y moderna de Burdeos sirviendo de telón de fondo para esta popular atracción."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063737/cgs_portfolio/Monumento-a-los-Girondinos-003-01.webp",
+        "location": "Place des Quinconces, Burdeos, Francia",
+        "caption": "Furia de bronce: Los corceles marinos desbocados en la Fuente de los Girondinos",
+        "tags": ["Monumento A Los Girondinos", "Place Des Quinconces", "Escultura En Bronce", "Burdeos", "Francia"],
+        "alt": "La imagen muestra una vista detallada de la imponente Fuente de los Girondinos en Burdeos, Francia. Se aprecian múltiples esculturas de bronce de figuras humanas, caballos y criaturas marinas emergiendo del agua, con chorros que salpican la base rocosa. La pátina verdosa del bronce resalta los detalles de las figuras. Una persona de espaldas, con una mochila azul, observa la grandiosa obra arquitectónica y artística, sumergida en el ambiente de este icónico monumento."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063738/cgs_portfolio/Playa-del-Lago-001.webp",
+        "location": "Parc Floral et Lac de Bordeaux, Burdeos, Francia",
+        "caption": "Remanso estival: La arena y el pinar del lago de Burdeos en una tarde de verano",
+        "tags": ["Lac De Bordeaux", "Playa Urbana", "Ocio Estival", "Naturaleza", "Burdeos", "Francia"],
+        "alt": "Una concurrida playa de arena, posiblemente en un lago o río, en un día soleado de verano. Numerosas personas disfrutan tomando el sol bajo sombrillas de colores y bañándose en el agua tranquila. Un denso bosque de pinos bordea la orilla, proporcionando sombra natural. En primer plano, una valla de madera y una bicicleta marcan el límite de la zona recreativa, creando una escena vibrante de ocio al aire libre."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063738/cgs_portfolio/Plaza-de-la-Bolsa-005.webp",
+        "location": "Place de la Bourse, Burdeos, Francia",
+        "caption": "Palacio flotante: La herradura del siglo XVIII resplandeciendo sobre el agua nocturna",
+        "tags": ["Place De La Bourse", "Miroir D'eau", "Fotografía Nocturna", "Patrimonio Unesco", "Burdeos", "Francia"],
+        "alt": "Vista nocturna de la icónica Place de la Bourse en Burdeos, Francia. Los majestuosos edificios del siglo XVIII, elegantemente iluminados, se reflejan en el famoso Miroir d'eau, creando una imagen deslumbrante. Se observa a personas paseando por la plaza y a través del espejo de agua, disfrutando del ambiente mágico y sereno de este emblemático lugar."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063739/cgs_portfolio/Plaza-de-la-Bolsa-01.webp",
+        "location": "Place de la Bourse, Burdeos, Francia",
+        "caption": "Simetría regia: El hemiciclo de Ange-Jacques Gabriel abriéndose al Garona",
+        "tags": ["Place De La Bourse", "Ange Jacques Gabriel", "Arquitectura Clásica", "Burdeos", "Francia"],
+        "alt": "Una vista panorámica de la icónica Place de la Bourse en Burdeos, Francia, bajo un cielo azul despejado. La imagen muestra los elegantes edificios del siglo XVIII que rodean la plaza, con sus fachadas clásicas y tejados elaborados. En primer plano, una serie de amplias escaleras de piedra bajan hacia un área adoquinada. Se aprecian algunas personas paseando o sentadas, disfrutando de la atmósfera tranquila del lugar."
+      },
+      {
+        "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063739/cgs_portfolio/Rue-Vital-Carles.webp",
+        "location": "Rue Vital-Carles, Burdeos, Francia",
+        "caption": "Rumbo a las agujas: El tranvía avanzando hacia los pináculos de la Catedral de Saint-André",
+        "tags": ["Rue Vital Carles", "Catedral Saint André", "Tranvía", "Casco Histórico", "Burdeos", "Francia"],
+        "alt": "Una pintoresca calle adoquinada en Burdeos, Francia, flanqueada por edificios históricos de piedra con balcones de hierro forjado y diversas tiendas. Las vías de un tranvía recorren el centro de la calle, que se extiende hacia el fondo donde se alzan las icónicas agujas góticas de una catedral. Varias personas transitan a pie por la vía, disfrutando de un día soleado con algunas nubes."
+      }
     ]
   },
   {
@@ -127,40 +307,244 @@ En el cercano Parque Churchill hay fuentes con motivos mitológicos, un perro gr
 Vuelvo al aeropuerto, subo a un avión con destino Barcelona, ¡vía Oslo!, y doy desde el aire una última mirada a ese maravilloso puente entre Malmö y Copenhague que descubrí en la ficción, crucé seis veces en la realidad y que hace más grandes a las dos ciudades que une.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063741/cgs_portfolio/Playa-de-Ribergsborg-_4_.jpg", categoria: "Europa", fecha: "Septiembre 2019", equipo: "Sony ILSE-6000",
     galeria: [
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063741/cgs_portfolio/Biblioteca-Real-Danesa-Diamante-negro-002.jpg", "caption": "El Diamante Negro (Den Sorte Diamant), extensión de la Biblioteca Real Danesa", "tags": [ "Biblioteca Real Danesa-Diamante negro", "Copenhague", "arquitectura moderna", "biblioteca", "frente al agua", "monumento" ], "alt": "Una vista exterior del icónico edificio 'El Diamante Negro', la extensión de la Biblioteca Real Danesa en Copenhague. Su distintiva fachada de granito negro y cristal brilla bajo un cielo azul. Desde un bote, se observa a numerosas personas disfrutando del día a lo largo del muelle adyacente al canal, capturando la vibrante atmósfera urbana." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063740/cgs_portfolio/Blox-Centro-de-Arquitectura-Danesa-001.jpg", "caption": "Edificio BLOX, sede del Centro de Arquitectura Danesa (DAC)", "tags": [ "Blox-Centro de Arquitectura Danesa", "arquitectura moderna", "frente al mar", "BLOX", "paisaje urbano", "canal" ], "alt": "La foto captura el icónico edificio BLOX en Copenhague, con su distintiva fachada de cristal escalonada en tonos blancos y azul-verde, reflejándose en las aguas de un canal. Se observa gente paseando por el muelle frente al edificio. A la derecha, se distinguen edificaciones históricas de ladrillo rojo, ofreciendo un contraste arquitectónico. El cielo azul despejado sugiere un día soleado." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063742/cgs_portfolio/Canal-_2_.jpg", "caption": "Canal de Malmö con el complejo Malmö Live al fondo", "tags": [ "Canal", "arquitectura moderna", "canal", "ciudad", "edificios", "escultura" ], "alt": "La imagen muestra un paisaje urbano moderno en Malmö, Suecia, centrado en el Clarion Hotel & Congress Malmö Live y sus alrededores. Varios edificios contemporáneos con fachadas de colores llamativos, como naranja y dorado, se alinean a lo largo de un canal. Un prominente rascacielos blanco de diseño retorcido se alza al fondo. En el primer plano, un camino empedrado y una barandilla verde bordean el canal, cuyas aguas reflejan las estructuras circundantes. Una escultura blanca y abstracta decora la orilla del canal." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063744/cgs_portfolio/Castillo-_4_.jpg", "caption": "Patio de armas del Castillo de Malmö (Malmöhus Slott)", "tags": [ "Castillo", "castillo", "arquitectura", "ladrillo", "patio", "histórico" ], "alt": "La imagen muestra el patio empedrado del Castillo de Malmöhus, con su distintiva fachada de ladrillo rojo y tejados a dos aguas escalonados bajo un cielo azul. Varias mesas de pícnic de madera oscura se encuentran en primer plano, invitando a descansar. Al fondo, se observan bicicletas aparcadas y algunas personas, sugiriendo un día soleado y agradable para los visitantes de este histórico lugar." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063742/cgs_portfolio/Desde-el-Ayuntamiento-002-_2_.jpg", "caption": "Skyline de Copenhague desde la torre del Ayuntamiento", "tags": [ "Copenhague", "Dinamarca", "ciudad", "paisaje urbano", "arquitectura", "vista aérea" ], "alt": "Vista panorámica aérea de Copenhague en un día soleado, destacando una densa agrupación de edificios históricos con tejados de terracota." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063744/cgs_portfolio/Desde-el-Ayuntamiento-011.jpg", "caption": "Boda en el Ayuntamiento de Copenhague", "tags": [ "Copenhague", "Boda", "Celebración", "Flores", "Tocados", "Invitados", "Ayuntamiento" ], "alt": "Momento de una boda en el Ayuntamiento de Copenhague. El primer plano muestra a varias personas, destacando dos mujeres con elaborados tocados florales." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063744/cgs_portfolio/Dinamarca-Suecia-desde-el-aire-001.jpg", "caption": "El Puente de Øresund uniendo Copenhague y Malmö", "tags": [ "Dinamarca-Suecia-desde-el-aire", "Øresund Bridge", "vista aérea", "avión", "puente", "mar" ], "alt": "Una impresionante vista aérea del Puente de Øresund, que conecta Dinamarca y Suecia, capturada desde la ventana de un avión. Parte del ala derecha del avión es visible en primer plano, enmarcando la larga estructura del puente que se extiende sobre las aguas, con el horizonte y un cielo parcialmente nublado de fondo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063746/cgs_portfolio/Estacion-Triangeln-_4_.jpg", "caption": "Arquitectura subterránea en la estación Triangeln de Malmö", "tags": [ "Estación Triangeln", "metro", "arquitectura moderna", "escaleras mecánicas", "diseño subterráneo", "arte abstracto" ], "alt": "Vista en picada de una persona descendiendo por las escaleras mecánicas en una moderna estación de metro. Las paredes de hormigón presentan un patrón ondulado distintivo y un gran mural decorativo de intrincadas formas geométricas metálicas. La estación es profunda, con múltiples tramos de escaleras mecánicas que conducen a niveles inferiores, iluminados por focos empotrados. El diseño es limpio, funcional y estéticamente llamativo, con una atmósfera contemporánea y algo futurista." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063746/cgs_portfolio/Estacion-Triangeln-_7_.jpg", "caption": "Cúpula geodésica de la estación Triangeln", "tags": [ "Estación Triangeln", "arquitectura moderna", "escaleras mecánicas", "techo de cristal", "cielo azul", "estructura metálica", "Malmö" ], "alt": "La imagen muestra personas subiendo por escaleras mecánicas dentro de una estructura moderna. El techo es una impresionante cúpula o bóveda de cristal y metal con un patrón geométrico complejo, a través del cual se observa el cielo azul claro con algunas nubes. La luz del sol ilumina el espacio, destacando la arquitectura y las personas en movimiento." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063746/cgs_portfolio/Estacion-Triangeln-_8_.jpg", "caption": "Luz natural y geometría en el acceso a Triangeln", "tags": [ "Estación Triangeln", "Arquitectura moderna", "Cúpula de vidrio", "Escaleras mecánicas", "Estructura geométrica", "Luz natural", "Espacio público", "Cielo azul", "Diseño contemporáneo", "Sombras", "Transporte urbano", "Malmö" ], "alt": "La imagen muestra el interior de una moderna estación de tránsito, caracterizada por una espectacular cúpula de vidrio y acero con un diseño geodésico. Grandes escaleras mecánicas ascienden hacia la salida, donde dos personas se encuentran en la parte superior. La luz natural inunda el espacio, revelando el cielo azul con nubes a través del techo transparente. Las sombras proyectadas por la estructura metálica crean interesantes patrones geométricos en las paredes y los escalones, destacando la estética funcional y contemporánea del lugar." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063747/cgs_portfolio/Gliptoteca-Ny-Carlsberg-004.jpg", "caption": "Detalle escultórico en la Gliptoteca Ny Carlsberg", "tags": [ "Gliptoteca Ny Carlsberg", "escultura", "mano", "bronce", "arte clásico", "figura femenina" ], "alt": "Una composición artística con una mano de bronce oscuro en primer plano, detallada y texturizada, extendiéndose hacia el centro. En un segundo plano difuminado, se aprecia una figura femenina de mármol blanco o claro con cabello rizado. El fondo es una pared lisa de color terracota, creando un contraste visual entre los materiales y la profundidad de campo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063747/cgs_portfolio/Iglesia-de-Marmol-_2_.jpg", "caption": "La imponente cúpula de la Iglesia de Federico (Marmorkirken)", "tags": [ "Iglesia de Mármol", "Copenhague", "iglesia", "arquitectura", "cúpula", "dinamarca", "Marmorkirken" ], "alt": "Una perspectiva de gran angular de la majestuosa Iglesia de Federico (Marmorkirken) en Copenhague, destacando su imponente cúpula de cobre verde y su fachada de mármol gris. La edificación de estilo neoclásico se alza bajo un cielo azul claro salpicado de nubes blancas. Se aprecian detalles arquitectónicos, estatuas y edificios urbanos en el entorno, con algo de vegetación en el borde superior izquierdo. La imagen captura la grandiosidad del monumento." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063748/cgs_portfolio/Iglesia-San-Pedro-_11_.jpg", "caption": "Órgano y candelabro en la Iglesia de San Pedro (Sankt Petri kyrka)", "tags": [ "Sankt Petri kyrka", "órgano de tubos", "candelabro", "arquitectura religiosa", "instrumento musical", "detalles ornamentales", "Copenhague" ], "alt": "Una vista en ángulo de un gran órgano de tubos de metal brillante y un ornamentado candelabro de bronce. El órgano presenta tubos pulidos y paneles perforados, mientras que el candelabro, en primer plano, cuelga elegantemente con múltiples brazos y bombillas que simulan velas encendidas. La escena sugiere el interior de una iglesia o sala de conciertos, destacando la solemnidad y la riqueza de sus elementos decorativos y musicales." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063748/cgs_portfolio/Kungsparken-_17_.jpg", "caption": "El Turning Torso asomando sobre el Kungsparken", "tags": [ "Kungsparken", "Turning Torso", "Malmö", "parque", "arquitectura", "paisaje urbano" ], "alt": "Una vista amplia de un extenso parque verde con árboles frondosos bajo un cielo azul con algunas nubes. Al fondo, se alza el distintivo rascacielos blanco Turning Torso, con su diseño retorcido, asomando sobre la línea de árboles. La imagen muestra una combinación de naturaleza urbana y arquitectura moderna." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063750/cgs_portfolio/Kungsparken-_4_.webp", "caption": "Molino de viento de estilo holandés en Kungsparken", "tags": [ "Kungsparken", "molino de viento", "arquitectura", "histórico", "paisaje", "cielo nublado" ], "alt": "Una imponente toma de un molino de viento de estilo holandés con su parte superior pintada de azul oscuro y una base de piedra robusta. El molino cuenta con aspas grandes y una pasarela de madera que lo rodea. El sol se vislumbra entre las aspas, creando un efecto de contraluz contra un cielo parcialmente nublado. Está situado en un entorno verde con césped bien cuidado y árboles frondosos, sugiriendo un parque o una zona rural." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063751/cgs_portfolio/Maersk-sede-empresa-global-de-trasportes-001.jpg", "caption": "Sede central de Maersk en el puerto de Copenhague", "tags": [ "Maersk", "arquitectura", "urbano", "fachada", "puerto", "geometría", "Copenhague" ], "alt": "Una vista frontal del edificio moderno de la sede de Maersk en Copenhague con una fachada geométrica de hormigón." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063750/cgs_portfolio/Malmo-_11_.jpg", "caption": "Arte público de Elizabeth Toubro en el canal de Malmö", "tags": [ "Malmö", "arte público", "escultura", "frente marítimo", "arquitectura moderna", "cielo azul", "Elizabeth Toubro" ], "alt": "Dos esculturas abstractas y coloridas adornan una plaza adoquinada junto a un canal en Copenhague. A la izquierda, modernos edificios de cristal reflejan el cielo despejado, mientras que a la derecha, construcciones de ladrillo con tejados rojos añaden contraste. El cielo azul brillante con nubes dispersas ilumina la vibrante escena urbana, donde las obras de arte de Elizabeth Toubro destacan prominentemente." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063751/cgs_portfolio/Museo-Louisiana-Calder-001.jpg", "caption": "Esculturas de Alexander Calder frente al mar en el Museo Louisiana", "tags": [ "Museo Louisiana", "Calder", "escultura", "arte moderno", "jardín", "paisaje marino", "Alexander Calder" ], "alt": "Vista panorámica de un jardín de esculturas al aire libre con el mar de fondo bajo un cielo nublado. A la izquierda, una gran escultura abstracta negra de metal, con formas angulares y punzantes, característica de Alexander Calder. A la derecha, una esbelta escultura roja vibrante, también abstracta, que se eleva hacia el cielo, posiblemente con un elemento blanco en la cima. El césped verde contrasta con los tonos grises del cielo y el mar, creando una escena de arte y naturaleza. El lugar es reconocido por su colección al aire libre." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063752/cgs_portfolio/Palacio-de-Rosenborg-017.jpg", "caption": "Exuberante colección de porcelana antigua en el Palacio de Rosenborg", "tags": [ "Palacio de Rosenborg", "Porcelana", "Antigüedades", "ArteDecorativo", "Colección", "VajillaOrnamentada" ], "alt": "Una exuberante colección de porcelana antigua se exhibe en una sala de paredes verde pálido. Cientos de piezas, incluyendo platos, tazas, soperas y jarrones ornamentados, cubren densamente las superficies. Cada objeto presenta intrincados diseños florales, escenas pastorales y detalles dorados, reflejando la exquisitez y el arte decorativo de épocas pasadas. Es una muestra impresionante de vajilla y objetos de lujo históricos." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063753/cgs_portfolio/Palacio-Rosenborg.jpg", "caption": "León guardián frente al Castillo de Rosenborg", "tags": [ "Palacio Rosenborg", "castillo", "copenhague", "estatua de león", "arquitectura", "turismo" ], "alt": "La imagen muestra una estatua de león de bronce con pátina verde en primer plano, con el majestuoso Castillo de Rosenborg en Copenhague, Dinamarca, al fondo. El castillo de ladrillo rojo presenta una distintiva arquitectura renacentista con sus torres puntiagudas de tejados verdes. Un grupo de turistas se observa haciendo fila para cruzar un puente de acceso, flanqueado por setos, hacia el recinto del castillo, bajo un cielo parcialmente nublado. La escena captura la entrada a esta histórica fortaleza." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063754/cgs_portfolio/Parque-Churchill-001.jpg", "caption": "Paseo familiar junto a la Fuente de Gefion", "tags": [ "Parque Churchill", "fuente", "Gran Danés", "Copenhagen", "familia", "niños", "gente", "verano" ], "alt": "Una familia con su gran perro negro disfruta de un día soleado junto a la icónica Fuente de Gefion en Copenhague. Un hombre sostiene la correa del can mientras una niña sonriente interactúa con el animal. Una mujer se refresca con el agua que brota de la fuente, creando una escena de ocio y diversión al aire libre." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063755/cgs_portfolio/Parque-Pildam-_2_.jpg", "caption": "Serenitud otoñal en el parque Pildammsparken", "tags": [ "Parque Pildam", "lago", "naturaleza", "paisaje", "cielo azul", "otoño", "Malmö" ], "alt": "Una hermosa vista panorámica de un lago sereno bajo un cielo azul vibrante, salpicado de grandes nubes blancas. La orilla está rodeada por una densa vegetación de árboles con tonos verdes y algunos matices otoñales, creando un marco natural. En primer plano, el agua muestra leves ondas y vegetación acuática. A la derecha, se aprecian escalones de piedra que bajan hacia el agua, sugiriendo un área de paseo. La escena irradia paz y belleza natural." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063754/cgs_portfolio/Parque-Pildam-_11_.jpg", "caption": "Una persona solitaria camina por un sendero cubierto de hojas caídas en el parque Pildam", "tags": [ "Parque Pildam", "naturaleza", "bosque", "otoño", "sendero", "árboles", "Malmö" ], "alt": "Una persona solitaria camina por un sendero cubierto de hojas caídas, serpenteando a través de un denso bosque o parque. Grandes y majestuosos árboles con follaje verde y algunos toques otoñales flanquean el camino, creando una atmósfera serena y envolvente. La luz se filtra suavemente entre las copas, realzando la belleza natural del entorno." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063741/cgs_portfolio/Playa-de-Ribergsborg-_4_.jpg", "caption": "Pasarela hacia el balneario Ribersborgs Kallbadhus", "tags": [ "Playa de Ribergsborg", "muelle", "mar", "arquitectura", "verano", "Malmö", "Suecia", "balneario", "pasarela" ], "alt": "Una vista panorámica de un largo muelle de madera que se extiende sobre el mar tranquilo bajo un brillante cielo azul salpicado de nubes blancas. Al final del muelle se alza una estructura grande y distintiva, el Ribersborgs Kallbadhus. El muelle cuenta con barandillas de madera pintadas de rojo y crema, guiando la vista hacia el horizonte. Algunas personas se pueden observar caminando por el muelle, disfrutando del día soleado. En el lado derecho del horizonte se distingue la silueta de la ciudad." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063755/cgs_portfolio/Playa-Ribergsborg-_10_.jpg", "caption": "Contraste entre el balneario tradicional y el Turning Torso", "tags": [ "Playa Ribersborg", "Turning Torso", "Malmö", "Arquitectura", "Frente al mar", "Gaviotas" ], "alt": "Una vista de la ciudad de Malmö, Suecia, con un edificio tradicional de madera pintado de verde claro sobre el agua en primer plano. Varias gaviotas se posan o vuelan cerca de esta estructura. Al otro lado del cuerpo de agua, se alza el icónico rascacielos Turning Torso con su distintivo diseño retorcido, junto a otros edificios modernos que componen el paisaje urbano costero." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063756/cgs_portfolio/Plaza-Lilla-_4_.jpg", "caption": "Fuente de granito en la plaza Lilla Torg", "tags": [ "Plaza Lilla", "plaza histórica", "fuente", "arquitectura tradicional", "empedrado", "cafeterías", "Malmö" ], "alt": "Una vista panorámica de una plaza histórica con empedrado, mostrando una fuente central de granito y bronce. Alrededor, edificios de arquitectura tradicional, incluyendo casas con entramado de madera y construcciones de ladrillo, albergan restaurantes y cafeterías con terrazas. El cielo parcialmente nublado añade dramatismo a la escena. Es un lugar pintoresco y típico de una ciudad europea." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063756/cgs_portfolio/Plaza-Lilla-_5_.jpg", "caption": "Escena animada en la plaza Lilla, con una calle adoquinada", "tags": [ "Plaza Lilla", "ciudad histórica", "calle adoquinada", "restaurante al aire libre", "arquitectura tradicional", "vida urbana" ], "alt": "Una escena animada en una plaza europea con una calle adoquinada. En primer plano, personas caminan y andan en bicicleta. Al fondo, un edificio histórico de ladrillo y madera alberga un restaurante con una amplia terraza exterior, protegida por grandes sombrillas amarillas. El ambiente es de un día soleado en una ciudad con encanto antiguo, con edificios coloridos y faroles tradicionales adornando el entorno." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063757/cgs_portfolio/Puente-de-Oresund-_5_.jpg", "caption": "El Puente de Øresund desde la orilla sueca", "tags": [ "Puente de Oresund", "Øresund Bridge", "Puente", "Mar", "Paisaje", "Nubes", "Malmö" ], "alt": "Una vista panorámica del majestuoso Puente de Øresund, que conecta Dinamarca y Suecia, extendiéndose sobre el mar azul bajo un cielo parcialmente nublado. En primer plano, grandes rocas delimitan la orilla cubierta de césped, añadiendo textura al paisaje. La estructura del puente, con sus pilares y cables, se erige imponente a lo lejos, creando una escena serena y arquitectónicamente impresionante." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063759/cgs_portfolio/Puente-de-Oresund-_7_.jpg", "caption": "Instalación de arte o un monumento rodeando un montículo central de tierra y piedra", "tags": [ "Puente de Oresund", "arte al aire libre", "paisaje costero", "cielo azul", "arquitectura moderna", "parque" ], "alt": "Una vista exterior que muestra una instalación de arte o un monumento con postes de madera verticales y travesaños, rodeando un montículo central de tierra y piedra. Un sendero de grava serpentea alrededor de la base. Al fondo, se observan edificios residenciales modernos con tejados rojos y ventanales bajo un cielo intensamente azul salpicado de nubes blancas y esponjosas. La escena sugiere un área costera o un parque, con zonas verdes y una sensación de amplitud." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063758/cgs_portfolio/Puerto-Nuevo-007.jpg", "caption": "Nyhavn: el icónico puerto de colores de Copenhague", "tags": [ "Nyhavn", "Puerto Nuevo", "Copenhague", "Dinamarca", "edificios coloridos", "canal", "muelle", "turismo", "verano", "gente", "bicicletas" ], "alt": "Vibrante vista de Nyhavn en Copenhague con sus casas de colores." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063759/cgs_portfolio/Suecos-_2_.jpg", "caption": "Zuecos de bronce: homenaje a Gören från Hylle en Malmö", "tags": [ "Malmö", "escultura", "zuecos de bronce", "canal", "arte público", "monumento" ], "alt": "Una escultura de bronce de dos zuecos tradicionales se exhibe prominentemente junto a un canal en Växjö, Suecia. La pieza reposa sobre una base de granito, con una placa que identifica la obra como un homenaje a 'Gören från Hylle', un comediante rural sueco (1868-1944). En el agua tranquila del canal se observa una pequeña barca naranja, añadiendo un toque pintoresco a la escena. La escultura es un ejemplo de arte público que conmemora figuras locales y la cultura tradicional." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063760/cgs_portfolio/The-Royal-Cast-Collection-moldes-esculturas-002.jpg", "caption": "Réplica del David de Miguel Ángel en The Royal Cast Collection", "tags": [ "The Royal Cast Collection", "moldes", "estatua", "David de Miguel Ángel", "réplica", "arquitectura", "escultura", "Copenhague" ], "alt": "Una réplica patinada en bronce de la famosa estatua de David de Miguel Ángel se alza majestuosamente frente a un imponente edificio histórico de ladrillo rojo. La edificación, posiblemente un antiguo almacén, presenta múltiples ventanas arqueadas y se ubica a orillas de un canal o puerto. La base de la estatua menciona 'DAVID UDFØRT AF MICHEL ANGELO FLORENS 1904', indicando su origen. La escena conmina arte clásico con la arquitectura industrial portuaria, reflejando una atmósfera urbana distintiva." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063762/cgs_portfolio/Tourning-Torso-_11_.jpg", "caption": "Turning Torso: la torre retorcida de Santiago Calatrava", "tags": [ "Turning Torso", "Calatrava", "Rascacielos", "Arquitectura moderna", "Malmö", "Edificio" ], "alt": "Fotografía de un rascacielos moderno y emblemático, el Turning Torso de Malmö, Suecia, capturado desde un ángulo bajo. El edificio presenta una distintiva estructura giratoria con fachadas de paneles blancos y numerosas ventanas que reflejan un cielo variado, con nubes en un lado y azul intenso en el otro. Su diseño arquitectónico es audaz y contemporáneo, destacando en el paisaje urbano y mostrando elementos de soporte externos." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063761/cgs_portfolio/Western-Harbour-_4_.jpg", "caption": "Costa rocosa con un muelle de madera que se extiende hacia aguas tranquilas", "tags": [ "Western Harbour", "playa rocosa", "muelle de madera", "bañistas", "mar", "verano", "Malmö" ], "alt": "La imagen muestra una costa rocosa con un muelle de madera que se extiende hacia aguas tranquilas. Grandes rocas forman la orilla. Dos personas se encuentran en el agua cerca del muelle, mientras otras se sientan en una estructura de madera sobre las rocas. La escena sugiere un día de verano relajado en un lugar de baño natural." },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063741/cgs_portfolio/Biblioteca-Real-Danesa-Diamante-negro-002.jpg",
+        location: "El Diamante Negro (Den Sorte Diamant), Slotsholmen, Copenhague, Dinamarca",
+        caption: "Vanguardia sobre el canal: El prisma de granito negro de la Biblioteca Real Danesa",
+        tags: ["Diamante Negro", "Biblioteca Real Danesa", "Slotsholmen", "Arquitectura Contemporánea", "Copenhague", "Dinamarca"],
+        alt: "Una vista exterior del icónico edificio 'El Diamante Negro', la extensión de la Biblioteca Real Danesa en Copenhague. Su distintiva fachada de granito negro y cristal brilla bajo un cielo azul. Desde un bote, se observa a numerosas personas disfrutando del día a lo largo del muelle adyacente al canal, capturando la vibrante atmósfera urbana."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063740/cgs_portfolio/Blox-Centro-de-Arquitectura-Danesa-001.jpg",
+        location: "Centro de Arquitectura Danesa (BLOX), Bryghuspladsen, Copenhague, Dinamarca",
+        caption: "Cajas de cristal: El complejo BLOX dialogando con el frente marítimo",
+        tags: ["BLOX", "Centro De Arquitectura Danesa", "OMA", "Puerto De Copenhague", "Copenhague", "Dinamarca"],
+        alt: "La foto captura el icónico edificio BLOX en Copenhague, con su distintiva fachada de cristal escalonada en tonos blancos y azul-verde, reflejándose en las aguas de un canal. Se observa gente paseando por el muelle frente al edificio. A la derecha, se distinguen edificaciones históricas de ladrillo rojo, ofreciendo un contraste arquitectónico. El cielo azul despejado sugiere un día soleado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063742/cgs_portfolio/Canal-_2_.jpg",
+        location: "Canal de Malmö Live, Malmö, Suecia",
+        caption: "Reflejos contemporáneos: El perfil dorado de Malmö Live sobre el canal",
+        tags: ["Malmö Live", "Canales Urbanos", "Arquitectura Contemporánea", "Malmö", "Suecia"],
+        alt: "La imagen muestra un paisaje urbano moderno en Malmö, Suecia, centrado en el Clarion Hotel & Congress Malmö Live y sus alrededores. Varios edificios contemporáneos con fachadas de colores llamativos, como naranja y dorado, se alinean a lo largo de un canal. Un prominente rascacielos blanco de diseño retorcido se alza al fondo. En el primer plano, un camino empedrado y una barandilla verde bordean el canal, cuyas aguas reflejan las estructuras circundantes. Una escultura blanca y abstracta decora la orilla del canal."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063744/cgs_portfolio/Castillo-_4_.jpg",
+        location: "Castillo de Malmöhus, Malmö, Suecia",
+        caption: "Fortaleza renacentista: El patio de armas y ladrillo rojizo de Malmöhus",
+        tags: ["Castillo De Malmöhus", "Patio De Armas", "Arquitectura Histórica", "Malmö", "Suecia"],
+        alt: "La imagen muestra el patio empedrado del Castillo de Malmöhus, con su distintiva fachada de ladrillo rojo y tejados a dos aguas escalonados bajo un cielo azul. Varias mesas de pícnic de madera oscura se encuentran en primer plano, invitando a descansar. Al fondo, se observan bicicletas aparcadas y algunas personas, sugiriendo un día soleado y agradable para los visitantes de este histórico lugar."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063742/cgs_portfolio/Desde-el-Ayuntamiento-002-_2_.jpg",
+        location: "Torre del Ayuntamiento (Københavns Rådhus), Rådhuspladsen, Copenhague, Dinamarca",
+        caption: "Mar de terracota: Panorámica aérea de Copenhague desde la torre consistorial",
+        tags: ["Rådhuspladsen", "Ayuntamiento De Copenhague", "Panorámica", "Tejados Históricos", "Copenhague", "Dinamarca"],
+        alt: "Vista panorámica aérea de Copenhague en un día soleado, destacando una densa agrupación de edificios históricos con tejados de terracota."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063744/cgs_portfolio/Desde-el-Ayuntamiento-011.jpg",
+        location: "Salón consistorial, Københavns Rådhus, Copenhague, Dinamarca",
+        caption: "Guirnaldas nupciales: Tocados florales en una ceremonia en el Ayuntamiento",
+        tags: ["Ayuntamiento De Copenhague", "Boda Civil", "Tocados Florales", "Tradición Danesa", "Copenhague", "Dinamarca"],
+        alt: "Momento de una boda en el Ayuntamiento de Copenhague. El primer plano muestra a varias personas, destacando dos mujeres con elaborados tocados florales."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063744/cgs_portfolio/Dinamarca-Suecia-desde-el-aire-001.jpg",
+        location: "Estrecho de Øresund, conexión Dinamarca - Suecia",
+        caption: "La cicatriz que une: El puente de Øresund suspendido sobre el mar Báltico",
+        tags: ["Puente De Øresund", "Estrecho De Øresund", "Fotografía Aérea", "Ingeniería", "Dinamarca", "Suecia"],
+        alt: "Una impresionante vista aérea del Puente de Øresund, que conecta Dinamarca y Suecia, capturada desde la ventana de un avión. Parte del ala derecha del avión es visible en primer plano, enmarcando la larga estructura del puente que se extiende sobre las aguas, con el horizonte y un cielo parcialmente nublado de fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063746/cgs_portfolio/Estacion-Triangeln-_4_.jpg",
+        location: "Estación subterránea Triangeln, Malmö, Suecia",
+        caption: "Geometría en descenso: La profundidad escultórica de la estación Triangeln",
+        tags: ["Estación Triangeln", "Metro De Malmö", "Diseño Subterráneo", "Arquitectura De Infraestructura", "Malmö", "Suecia"],
+        alt: "Vista en picada de una persona descendiendo por las escaleras mecánicas en una moderna estación de metro. Las paredes de hormigón presentan un patrón ondulado distintivo y un gran mural decorativo de intrincadas formas geométricas metálicas. La estación es profunda, con múltiples tramos de escaleras mecánicas que conducen a niveles inferiores, iluminados por focos empotrados. El diseño es limpio, funcional y estéticamente llamativo, con una atmósfera contemporánea y algo futurista."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063746/cgs_portfolio/Estacion-Triangeln-_7_.jpg",
+        location: "Vestíbulo de la estación Triangeln, Malmö, Suecia",
+        caption: "Vórtice de luz: La cúpula geodésica iluminando el ascenso urbano",
+        tags: ["Estación Triangeln", "Cúpula Geodésica", "Luz Natural", "Arquitectura Moderna", "Malmö", "Suecia"],
+        alt: "La imagen muestra personas subiendo por escaleras mecánicas dentro de una estructura moderna. El techo es una impresionante cúpula o bóveda de cristal y metal con un patrón geométrico complejo, a través del cual se observa el cielo azul claro con algunas nubes. La luz del sol ilumina el espacio, destacando la arquitectura y las personas en movimiento."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063746/cgs_portfolio/Estacion-Triangeln-_8_.jpg",
+        location: "Acceso norte, estación Triangeln, Malmö, Suecia",
+        caption: "Trama de sombras: El caleidoscopio cenital sobre las escaleras mecánicas",
+        tags: ["Estación Triangeln", "Estructura Metálica", "Escaleras Mecánicas", "Geometría", "Malmö", "Suecia"],
+        alt: "La imagen muestra el interior de una moderna estación de tránsito, caracterizada por una espectacular cúpula de vidrio y acero con un diseño geodésico. Grandes escaleras mecánicas ascienden hacia la salida, donde dos personas se encuentran en la parte superior. La luz natural inunda el espacio, revelando el cielo azul con nubes a través del techo transparente. Las sombras proyectadas por la estructura metálica crean interesantes patrones geométricos en las paredes y los escalones, destacando la estética funcional y contemporánea del lugar."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063747/cgs_portfolio/Gliptoteca-Ny-Carlsberg-004.jpg",
+        location: "Ny Carlsberg Glyptotek, Dantes Plads, Copenhague, Dinamarca",
+        caption: "Bronce y mármol: Diálogo de texturas clásicas en la Gliptoteca Ny Carlsberg",
+        tags: ["Ny Carlsberg Glyptotek", "Escultura Clásica", "Bronce", "Mármol", "Copenhague", "Dinamarca"],
+        alt: "Una composición artística con una mano de bronce oscuro en primer plano, detallada y texturizada, extendiéndose hacia el centro. En un segundo plano difuminado, se aprecia una figura femenina de mármol blanco o claro con cabello rizado. El fondo es una pared lisa de color terracota, creando un contraste visual entre los materiales y la profundidad de campo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063747/cgs_portfolio/Iglesia-de-Marmol-_2_.jpg",
+        location: "Iglesia de Federico (Marmorkirken), Frederiksstaden, Copenhague, Dinamarca",
+        caption: "Cúpula soberana: La silueta de cobre de Marmorkirken reinando en Frederiksstaden",
+        tags: ["Marmorkirken", "Frederiksstaden", "Cúpula De Cobre", "Barroco Nórdico", "Copenhague", "Dinamarca"],
+        alt: "Una perspectiva de gran angular de la majestuosa Iglesia de Federico (Marmorkirken) en Copenhague, destacando su imponente cúpula de cobre verde y su fachada de mármol gris. La edificación de estilo neoclásico se alza bajo un cielo azul claro salpicado de nubes blancas. Se aprecian detalles arquitectónicos, estatuas y edificios urbanos en el entorno, con algo de vegetación en el borde superior izquierdo. La imagen captura la grandiosidad del monumento."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063748/cgs_portfolio/Iglesia-San-Pedro-_11_.jpg",
+        location: "Iglesia de San Pedro (Sankt Petri kyrka), Göran Olsgatan, Malmö, Suecia",
+        caption: "Música y bronce: El gran órgano de tubos y el candelabro de Sankt Petri",
+        tags: ["Sankt Petri Kyrka", "Órgano De Tubos", "Candelabro De Bronce", "Gótico Báltico", "Malmö", "Suecia"],
+        alt: "Una vista en ángulo de un gran órgano de tubos de metal brillante y un ornamentado candelabro de bronce. El órgano presenta tubos pulidos y paneles perforados, mientras que el candelabro, en primer plano, cuelga elegantemente con múltiples brazos y bombillas que simulan velas encendidas. La escena sugiere el interior de una iglesia o sala de conciertos, destacando la solemnidad y la riqueza de sus elementos decorativos y musicales."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063748/cgs_portfolio/Kungsparken-_17_.jpg",
+        location: "Parque Kungsparken, Malmö, Suecia",
+        caption: "Espiral en lontananza: El Turning Torso alzándose sobre la espesura del parque",
+        tags: ["Kungsparken", "Turning Torso", "Santiago Calatrava", "Paisajismo Urbano", "Malmö", "Suecia"],
+        alt: "Una vista amplia de un extenso parque verde con árboles frondosos bajo un cielo azul con algunas nubes. Al fondo, se alza el distintivo rascacielos blanco Turning Torso, con su diseño retorcido, asomando sobre la línea de árboles. La imagen muestra una combinación de naturaleza urbana y arquitectura moderna."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063750/cgs_portfolio/Kungsparken-_4_.webp",
+        location: "Molino de viento (Slottsmöllan), Kungsparken, Malmö, Suecia",
+        caption: "Herencia del viento: El molino tradicional Slottsmöllan en el corazón verde de Malmö",
+        tags: ["Slottsmöllan", "Kungsparken", "Molino De Viento", "Patrimonio Histórico", "Malmö", "Suecia"],
+        alt: "Una imponente toma de un molino de viento de estilo holandés con su parte superior pintada de azul oscuro y una base de piedra robusta. El molino cuenta con aspas grandes y una pasarela de madera que lo rodea. El sol se vislumbra entre las aspas, creando un efecto de contraluz contra un cielo parcialmente nublado. Está situado en un entorno verde con césped bien cuidado y árboles frondosos, sugiriendo un parque o una zona rural."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063751/cgs_portfolio/Maersk-sede-empresa-global-de-trasportes-001.jpg",
+        location: "Sede central de Maersk, Esplanaden, Copenhague, Dinamarca",
+        caption: "Sobriedad nórdica: Líneas geométricas de la sede corporativa de Maersk",
+        tags: ["Maersk", "Esplanaden", "Arquitectura Corporativa", "Frente Marítimo", "Copenhague", "Dinamarca"],
+        alt: "Una vista frontal del edificio moderno de la sede de Maersk en Copenhague con una fachada geométrica de hormigón."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063750/cgs_portfolio/Malmo-_11_.jpg",
+        location: "Canal y muelle de Västra Hamnen, Malmö, Suecia",
+        caption: "Trazo cromático: Escultura pública frente a las aguas de Malmö",
+        tags: ["Västra Hamnen", "Arte Público", "Canales Urbanos", "Escultura Moderna", "Malmö", "Suecia"],
+        alt: "Dos esculturas abstractas y coloridas adornan una plaza adoquinada junto a un canal en Copenhague. A la izquierda, modernos edificios de cristal reflejan el cielo despejado, mientras que a la derecha, construcciones de ladrillo con tejados rojos añaden contraste. El cielo azul brillante con nubes dispersas ilumina la vibrante escena urbana, donde las obras de arte de Elizabeth Toubro destacan prominentemente."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063751/cgs_portfolio/Museo-Louisiana-Calder-001.jpg",
+        location: "Jardín de esculturas, Louisiana Museum of Modern Art, Humlebæk, Dinamarca",
+        caption: "Viento y metal: Esculturas de Alexander Calder recortadas frente al estrecho de Øresund",
+        tags: ["Louisiana Museum", "Alexander Calder", "Escultura Moderna", "Jardín De Esculturas", "Humlebæk", "Dinamarca"],
+        alt: "Vista panorámica de un jardín de esculturas al aire libre con el mar de fondo bajo un cielo nublado. A la izquierda, una gran escultura abstracta negra de metal, con formas angulares y punzantes, característica de Alexander Calder. A la derecha, una esbelta escultura roja vibrante, también abstracta, que se eleva hacia el cielo, posiblemente con un elemento blanco en la cima. El césped verde contrasta con los tonos grises del cielo y el mar, creando una escena de arte y naturaleza. El lugar es reconocido por su colección al aire libre."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063752/cgs_portfolio/Palacio-de-Rosenborg-017.jpg",
+        location: "Gabinete de Porcelanas, Palacio de Rosenborg, Copenhague, Dinamarca",
+        caption: "Festín dinástico: La fastuosa colección real de porcelana en Rosenborg",
+        tags: ["Palacio De Rosenborg", "Colección Real", "Porcelana Antigua", "Artes Decorativas", "Copenhague", "Dinamarca"],
+        alt: "Una exuberante colección de porcelana antigua se exhibe en una sala de paredes verde pálido. Cientos de piezas, incluyendo platos, tazas, soperas y jarrones ornamentados, cubren densamente las superficies. Cada objeto presenta intrincados diseños florales, escenas pastorales y detalles dorados, reflejando la exquisitez y el arte decorativo de épocas pasadas. Es una muestra impresionante de vajilla y objetos de lujo históricos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063753/cgs_portfolio/Palacio-Rosenborg.jpg",
+        location: "Foso y puente de acceso, Palacio de Rosenborg, Copenhague, Dinamarca",
+        caption: "Leones custodios: El puente de acceso a la fortaleza renacentista de Rosenborg",
+        tags: ["Palacio De Rosenborg", "Castillo Renacentista", "León De Bronce", "Patrimonio Real", "Copenhague", "Dinamarca"],
+        alt: "La imagen muestra una estatua de león de bronce con pátina verde en primer plano, con el majestuoso Castillo de Rosenborg en Copenhague, Dinamarca, al fondo. El castillo de ladrillo rojo presenta una distintiva arquitectura renacentista con sus torres puntiagudas de tejados verdes. Un grupo de turistas se observa haciendo fila para cruzar un puente de acceso, flanqueado por setos, hacia el recinto del castillo, bajo un cielo parcialmente nublado. La escena captura la entrada a esta histórica fortaleza."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063754/cgs_portfolio/Parque-Churchill-001.jpg",
+        location: "Fuente de Gefion, Churchillparken, Copenhague, Dinamarca",
+        caption: "Diosa del arado: Descanso estival junto a los surtidores de la Fuente de Gefion",
+        tags: ["Fuente De Gefion", "Churchillparken", "Mitología Nórdica", "Escultura Monumental", "Copenhague", "Dinamarca"],
+        alt: "Una familia con su gran perro negro disfruta de un día soleado junto a la icónica Fuente de Gefion en Copenhague. Un hombre sostiene la correa del can mientras una niña sonriente interactúa con el animal. Una mujer se refresca con el agua que brota de la fuente, creando una escena de ocio y diversión al aire libre."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063755/cgs_portfolio/Parque-Pildam-_2_.jpg",
+        location: "Estanque de Pildammsparken, Malmö, Suecia",
+        caption: "Espejo otoñal: Calma y sauces en la ribera del Pildammsparken",
+        tags: ["Pildammsparken", "Estanque", "Otoño", "Paisajismo Urbano", "Malmö", "Suecia"],
+        alt: "Una hermosa vista panorámica de un lago sereno bajo un cielo azul vibrante, salpicado de grandes nubes blancas. La orilla está rodeada por una densa vegetación de árboles con tonos verdes y algunos matices otoñales, creando un marco natural. En primer plano, el agua muestra leves ondas y vegetación acuática. A la derecha, se aprecian escalones de piedra que bajan hacia el agua, sugiriendo un área de paseo. La escena irradia paz y belleza natural."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063754/cgs_portfolio/Parque-Pildam-_11_.jpg",
+        location: "Alameda central, Pildammsparken, Malmö, Suecia",
+        caption: "Manto de hojas: Paseo solitario bajo la bóveda dorada del bosque urbano",
+        tags: ["Pildammsparken", "Paseo Arbolado", "Otoño", "Naturaleza Urbana", "Malmö", "Suecia"],
+        alt: "Una persona solitaria camina por un sendero cubierto de hojas caídas, serpenteando a través de un denso bosque o parque. Grandes y majestuosos árboles con follaje verde y algunos toques otoñales flanquean el camino, creando una atmósfera serena y envolvente. La luz se filtra suavemente entre las copas, realzando la belleza natural del entorno."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063741/cgs_portfolio/Playa-de-Ribergsborg-_4_.jpg",
+        location: "Ribersborgs Kallbadhus, playa de Ribersborg, Malmö, Suecia",
+        caption: "Pasarela infinita: El muelle de madera que conduce a los baños marinos de Ribersborg",
+        tags: ["Ribersborgs Kallbadhus", "Playa De Ribersborg", "Muelle De Madera", "Tradición Balnearia", "Malmö", "Suecia"],
+        alt: "Una vista panorámica de un largo muelle de madera que se extiende sobre el mar tranquilo bajo un brillante cielo azul salpicado de nubes blancas. Al final del muelle se alza una estructura grande y distintiva, el Ribersborgs Kallbadhus. El muelle cuenta con barandillas de madera pintadas de rojo y crema, guiando la vista hacia el horizonte. Algunas personas se pueden observar caminando por el muelle, disfrutando del día soleado. En el lado derecho del horizonte se distingue la silueta de la ciudad."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063755/cgs_portfolio/Playa-Ribergsborg-_10_.jpg",
+        location: "Ribersborgsstranden, Malmö, Suecia",
+        caption: "Diálogo costero: La silueta blanca del Turning Torso sobre las casetas de Ribersborg",
+        tags: ["Playa De Ribersborg", "Turning Torso", "Litoral Báltico", "Arquitectura Y Mar", "Malmö", "Suecia"],
+        alt: "Una vista de la ciudad de Malmö, Suecia, con un edificio tradicional de madera pintado de verde claro sobre el agua en primer plano. Varias gaviotas se posan o vuelan cerca de esta estructura. Al otro lado del cuerpo de agua, se alza el icónico rascacielos Turning Torso con su distintivo diseño retorcido, junto a otros edificios modernos que componen el paisaje urbano costero."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063756/cgs_portfolio/Plaza-Lilla-_4_.jpg",
+        location: "Plaza Lilla Torg, Gamla Staden, Malmö, Suecia",
+        caption: "Corazón adoquinado: La fuente de granito en la histórica plaza Lilla Torg",
+        tags: ["Lilla Torg", "Gamla Staden", "Fuente De Granito", "Casco Antiguo", "Malmö", "Suecia"],
+        alt: "Una vista panorámica de una plaza histórica con empedrado, mostrando una fuente central de granito y bronce. Alrededor, edificios de arquitectura tradicional, incluyendo casas con entramado de madera y construcciones de ladrillo, albergan restaurantes y cafeterías con terrazas. El cielo parcialmente nublado añade dramatismo a la escena. Es un lugar pintoresco y típico de una ciudad europea."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063756/cgs_portfolio/Plaza-Lilla-_5_.jpg",
+        location: "Plaza Lilla Torg, Gamla Staden, Malmö, Suecia",
+        caption: "Calidez entramada: Terrazas y vigas centenarias bajo el sol de Lilla Torg",
+        tags: ["Lilla Torg", "Entramado De Madera", "Arquitectura Tradicional", "Terrazas", "Malmö", "Suecia"],
+        alt: "Una escena animada en una plaza europea con una calle adoquinada. En primer plano, personas caminan y andan en bicicleta. Al fondo, un edificio histórico de ladrillo y madera alberga un restaurante con una amplia terraza exterior, protegida por grandes sombrillas amarillas. El ambiente es de un día soleado en una ciudad con encanto antiguo, con edificios coloridos y faroles tradicionales adornando el entorno."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063757/cgs_portfolio/Puente-de-Oresund-_5_.jpg",
+        location: "Mirador de Lernacken, Malmö, Suecia",
+        caption: "Tirantes hacia el horizonte: El colosal puente de Øresund desde la costa sueca",
+        tags: ["Puente De Øresund", "Lernacken", "Mar Báltico", "Gran Ingeniería", "Malmö", "Suecia"],
+        alt: "Una vista panorámica del majestuoso Puente de Øresund, que conecta Dinamarca y Suecia, extendiéndose sobre el mar azul bajo un cielo parcialmente nublado. En primer plano, grandes rocas delimitan la orilla cubierta de césped, añadiendo textura al paisaje. La estructura del puente, con sus pilares y cables, se erige imponente a lo lejos, creando una escena serena y arquitectónicamente impresionante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063759/cgs_portfolio/Puente-de-Oresund-_7_.jpg",
+        location: "Parque costero de Lernacken, Malmö, Suecia",
+        caption: "Hito territorial: Instalación paisajística en el promontorio de Øresund",
+        tags: ["Lernacken", "Monumento Paisajístico", "Costa Báltica", "Malmö", "Suecia"],
+        alt: "Una vista exterior que muestra una instalación de arte o un monumento con postes de madera verticales y travesaños, rodeando un montículo central de tierra y piedra. Un sendero de grava serpentea alrededor de la base. Al fondo, se observan edificios residenciales modernos con tejados rojos y ventanales bajo un cielo intensamente azul salpicado de nubes blancas y esponjosas. La escena sugiere un área costera o un parque, con zonas verdes y una sensación de amplitud."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063758/cgs_portfolio/Puerto-Nuevo-007.jpg",
+        location: "Canal histórico de Nyhavn, Copenhague, Dinamarca",
+        caption: "Postal cromática: Casas dieciochescas y mástiles en el puerto de Nyhavn",
+        tags: ["Nyhavn", "Puerto Nuevo", "Casas De Colores", "Canal Histórico", "Copenhague", "Dinamarca"],
+        alt: "Vibrante vista de Nyhavn en Copenhague con sus casas de colores."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063759/cgs_portfolio/Suecos-_2_.jpg",
+        location: "Puente sobre el canal histórico, Södra Vallgatan, Malmö, Suecia",
+        caption: "Homenaje al comediante: Los zuecos de bronce de Gören från Hylle junto al agua",
+        tags: ["Gören Från Hylle", "Escultura De Bronce", "Canal De Malmö", "Arte Público", "Malmö", "Suecia"],
+        alt: "Una escultura de bronce de dos zuecos tradicionales se exhibe prominentemente junto a un canal en Växjö, Suecia. La pieza reposa sobre una base de granito, con una placa que identifica la obra como un homenaje a 'Gören från Hylle', un comediante rural sueco (1868-1944). En el agua tranquila del canal se observa una pequeña barca naranja, añadiendo un toque pintoresco a la escena. La escultura es un ejemplo de arte público que conmemora figuras locales y la cultura tradicional."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063760/cgs_portfolio/The-Royal-Cast-Collection-moldes-esculturas-002.jpg",
+        location: "The Royal Cast Collection, Vestindisk Pakhus, Toldbodgade, Copenhague, Dinamarca",
+        caption: "Gigante en el muelle: Réplica en bronce del David de Miguel Ángel ante el almacén real",
+        tags: ["The Royal Cast Collection", "David De Miguel Ángel", "Vestindisk Pakhus", "Toldbodgade", "Copenhague", "Dinamarca"],
+        alt: "Una réplica patinada en bronce de la famosa estatua de David de Miguel Ángel se alza majestuosamente frente a un imponente edificio histórico de ladrillo rojo. La edificación, posiblemente un antiguo almacén, presenta múltiples ventanas arqueadas y se ubica a orillas de un canal o puerto. La base de la estatua menciona 'DAVID UDFØRT AF MICHEL ANGELO FLORENS 1904', indicando su origen. La escena conmina arte clásico con la arquitectura industrial portuaria, reflejando una atmósfera urbana distintiva."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063762/cgs_portfolio/Tourning-Torso-_11_.jpg",
+        location: "Turning Torso, Lilla Varvsgatan, Västra Hamnen, Malmö, Suecia",
+        caption: "Torsión en blanco: Los nueve cubos helicoidales del rascacielos de Santiago Calatrava",
+        tags: ["Turning Torso", "Santiago Calatrava", "Västra Hamnen", "Rascacielos", "Malmö", "Suecia"],
+        alt: "Fotografía de un rascacielos moderno y emblemático, el Turning Torso de Malmö, Suecia, capturado desde un ángulo bajo. El edificio presenta una distintiva estructura giratoria con fachadas de paneles blancos y numerosas ventanas que reflejan un cielo variado, con nubes en un lado y azul intenso en el otro. Su diseño arquitectónico es audaz y contemporáneo, destacando en el paisaje urbano y mostrando elementos de soporte externos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063761/cgs_portfolio/Western-Harbour-_4_.jpg",
+        location: "Paseo marítimo de Scaniaparken, Västra Hamnen, Malmö, Suecia",
+        caption: "Bañistas del Báltico: Plataformas de madera y rocas en la costa de Västra Hamnen",
+        tags: ["Västra Hamnen", "Scaniaparken", "Playa Urbana", "Mar Báltico", "Malmö", "Suecia"],
+        alt: "La imagen muestra una costa rocosa con un muelle de madera que se extiende hacia aguas tranquilas. Grandes rocas forman la orilla. Dos personas se encuentran en el agua cerca del muelle, mientras otras se sientan en una estructura de madera sobre las rocas. La escena sugiere un día de verano relajado en un lugar de baño natural."
+      }
     ]
   },
   {
@@ -176,29 +560,167 @@ De tierras milanesas viajo finalmente hasta la Alta Franconia, conocida en alem�
 Muchas más cosas podrían contarse de estas intensas jornadas, como una maravillosa cena de comida piamontesa en la Trattoria Valgranda, con protagonismo del legendario vino Barbaresco y de la bagna cauda (especie de fondue en la que se bañan verduras crudas y cocidas en una salsa caliente de anchoas, ajos y aceite de oliva); los paseos por el monumental centro de Turín; la visita al Museo Egipcio y su espectacular sala negra; el recorrido por Porta Palatzzo, el mercado libre más grande de Europa; el viaje por carretera Barcelona-Turín-Barcelona, que atraviesa los Alpes nevados; y, sobre todo, la compañía de un clan de ilustres cicerones encabezados por Antonio Pasquali, capaces de crear a su alrededor verdaderos laboratorios ambulantes del gusto y del conocimiento.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063765/cgs_portfolio/Piazza-San-Carlo-2.webp", categoria: "Europa", fecha: "Octubre 2010", equipo: "Canon PowerShot SX200 IS",
     galeria: [
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063763/cgs_portfolio/Laboratorio-Milano-Mieles-Salon-del-Gusto.webp", "caption": "Degustación de mieles artesanales en el Laboratorio del Gusto de Turín.", "tags": ["miel", "degustación", "Salón del Gusto", "Turín", "Slow Food"], "alt": "Una vista aérea de una degustación de líquidos dulces, posiblemente mieles o jarabes, presentados en una fuente blanca con varias cucharas y pan rústico."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063765/cgs_portfolio/Porchetto-3-Salon-del-Gusto.webp", "caption": "Exhibición de productos cárnicos tradicionales en el Salón del Gusto.", "tags": ["carne", "embutidos", "Salón del Gusto", "Turín", "gastronomía"], "alt": "Una escena vibrante de un puesto de mercado gastronómico con dos grandes porchettas asadas, embutidos y quesos artesanales."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063765/cgs_portfolio/Portales-de-Turin-3.webp", "caption": "La elegancia arquitectónica de los portales de Turín.", "tags": ["Turín", "arquitectura", "portales", "ciudad", "Italia"], "alt": "Vista de una elegante calle urbana en Turín, Italia, flanqueada por edificios clásicos con extensos pórticos y banderas italianas."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063765/cgs_portfolio/Piazza-San-Carlo-2.webp", "caption": "La majestuosa Piazza San Carlo, el salón de Turín.", "tags": ["Piazza San Carlo", "Turín", "plaza", "arquitectura", "Italia"], "alt": "Una vista panorámica de la icónica Piazza San Carlo en Turín, Italia, con sus iglesias gemelas y la estatua ecuestre de Emmanuel Filiberto."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063766/cgs_portfolio/Piazza-Castello.webp", "caption": "Piazza Castello, el corazón histórico y político de la ciudad.", "tags": ["Piazza Castello", "Turín", "plaza", "palacio", "Italia"], "alt": "Una impresionante estatua ecuestre de bronce con pátina verdosa domina el primer plano ante un edificio histórico de estilo europeo en Piazza Castello."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063766/cgs_portfolio/Puente.webp", "caption": "Vistas sobre el río Po desde uno de los puentes de Turín.", "tags": ["río Po", "puente", "Turín", "paisaje urbano", "Italia", "arquitectura moderna", "arco", "rojo"], "alt": "Una vista abstracta que destaca el gran arco rojo y la compleja red de cables de suspensión de un puente moderno sobre un cielo blanco."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063766/cgs_portfolio/Centro-de-Turin-4.webp", "caption": "Arquitectura monumental en el centro histórico de Turín.", "tags": ["Turín", "centro histórico", "arquitectura", "estatua", "Italia", "detalle", "balcones", "flores"], "alt": "Una vista frontal detallada de la fachada de un edificio histórico con una vibrante pintura amarilla ocre y balcones con flores rojas."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063767/cgs_portfolio/Laboratorio-Alta-Franconia-Cervezas-Salon-del-Gusto.webp", "caption": "Cata de cervezas tradicionales de la Alta Franconia alemana.", "tags": ["cerveza", "degustación", "Salón del Gusto", "Turín", "Alemania"], "alt": "Una mujer con cabello rojizo, visiblemente expresiva, habla ante un micrófono durante una cata de cervezas en el Salone del Gusto."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063763/cgs_portfolio/Portales-de-Turin.webp", "caption": "Paseo bajo los infinitos soportales que caracterizan a Turín.", "tags": ["Turín", "portales", "arquitectura", "calle", "Italia", "galería", "columnas"], "alt": "Una vista a través de una majestuosa galería columnada con personas paseando; al fondo se divisa la fachada de un edificio clásico."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063768/cgs_portfolio/Terra-Madre-1-Salon-del-Gusto.webp", "caption": "Encuentro de comunidades de productores en Terra Madre.", "tags": ["Terra Madre", "Salón del Gusto", "Turín", "productores", "gente", "cultura", "diversidad", "África"], "alt": "Un hombre con un vistoso atuendo tradicional africano se destaca en primer plano durante el evento de Terra Madre."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063768/cgs_portfolio/Laboratorio-Alta-Franconia-Salon-del-Gusto.webp", "caption": "Aprendiendo sobre la cultura cervecera de Baviera en el Salón del Gusto.", "tags": ["cerveza", "cultura", "Salón del Gusto", "Turín", "Alemania", "grifos", "barriles", "artesanal"], "alt": "Una imagen vibrante que muestra una hilera de copas llenas de cerveza artesanal servidas directamente de barriles oscuros con grifos de latón."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063768/cgs_portfolio/Museo-Egipcio-10.webp", "caption": "Tesoros milenarios en el Museo Egipcio de Turín, el segundo más importante del mundo.", "tags": ["Museo Egipcio", "Turín", "arqueología", "Egipto", "historia"], "alt": "La imagen muestra varias esfinges egipcias antiguas exhibidas en un museo con una iluminación dramática que resalta la figura en primer plano."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063769/cgs_portfolio/Museo-Egipcio-2.webp", "caption": "Esculturas faraónicas en la espectacular sala negra del Museo Egipcio.", "tags": ["Museo Egipcio", "Turín", "estatua", "faraón", "Egipto", "sarcófago", "oro", "arte sacro"], "alt": "Un sarcófago egipcio dorado de forma antropomorfa, mostrando un rostro sereno con ojos azules y elaborados detalles en su tocado."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063769/cgs_portfolio/Museo-Egipsio-Granadas.webp", "caption": "Curiosos detalles de la vida cotidiana en el antiguo Egipto.", "tags": ["Museo Egipcio", "Turín", "granadas", "antigüedad", "Egipto", "arqueología", "detalle"], "alt": "Varias granadas oscuras y desecadas, artefactos antiguos o restos arqueológicos, se exhiben sobre pedestales transparentes en el museo."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063770/cgs_portfolio/Laboratorio-Milano-2-Cervezas-Salon-del-Gusto.webp", "caption": "Cervezas artesanales del monasterio Cascinazza de Milán.", "tags": ["cerveza artesanal", "degustación", "Salón del Gusto", "Turín", "Italia"], "alt": "Toma de ángulo bajo que muestra dos copas de cerveza, una rojiza y otra dorada, con abundante espuma y un camarero al fondo."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063770/cgs_portfolio/Quesos-Salon-del-Gusto.webp", "caption": "Vistosos quesos en el Salón del Gusto.", "tags": ["queso", "gastronomía", "Salón del Gusto", "Turín", "Italia", "artesanal", "tradición", "Caciocavallo"], "alt": "Una pareja de quesos tipo Caciocavallo, de color amarillo claro y forma de pera, presentados atados con una cuerda sobre madera."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063771/cgs_portfolio/Salon-del-Gusto-5-Salon-del-Gusto.webp", "caption": "Ambiente vibrante y diversidad gastronómica.", "tags": ["Salón del Gusto", "Turín", "gastronomía", "feria", "gente", "chiles", "pimientos", "color"], "alt": "Vibrante exhibición de ristras de chiles y pimientos de diversas formas y tamaños en un mercado tradicional."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063771/cgs_portfolio/Salon-del-Gusto-7-Salon-del-Gusto.webp", "caption": "Explorando los sabores del mundo en el caldero de Slow Food.", "tags": ["Salón del Gusto", "Turín", "Slow Food", "gastronomía", "Italia", "pan", "Ferrara", "tradición"], "alt": "Abundante exhibición de Coppia Ferrarese, pan tradicional de Ferrara, apilado sobre manteles blancos en la feria gastronómica."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063772/cgs_portfolio/Lab-Milano-Panes-Salon-del-Gusto.webp", "caption": "Panes biológicos y productos del Parque Agrícola Sur de Milán.", "tags": ["pan", "biológico", "Salón del Gusto", "Turín", "Italia", "artesano", "detalle", "Milán"], "alt": "Un hombre barbudo sostiene un enorme pan rústico y redondo con una corteza gruesa en una presentación del Salón del Gusto."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063773/cgs_portfolio/Museo-Egipcio-14.webp", "caption": "Inmersión en la historia antigua en las salas del Museo Egipcio.", "tags": ["Museo Egipcio", "Turín", "arqueología", "Egipto", "historia", "sarcófago", "piedra", "faraón"], "alt": "Detalle de una imponente estatua o sarcófago egipcio en piedra oscura que representa una figura faraónica con manos cruzadas."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063773/cgs_portfolio/Museo-Egipcio-8.webp", "caption": "Estatuas monumentales que custodian el legado de los faraones.", "tags": ["Museo Egipcio", "Turín", "estatua", "faraón", "Egipto", "Ramesses II", "granito"], "alt": "Imponente estatua de granito oscuro de Ramesses II sentado majestuosamente, con el tradicional tocado nemes y jeroglíficos incisos."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063773/cgs_portfolio/Museo-Egipcio-9.webp", "caption": "Detalle de la colección lapidaria del Museo Egipcio.", "tags": ["Museo Egipcio", "Turín", "arqueología", "Egipto", "historia", "Hatshepsut", "granito"], "alt": "Estatua antigua de granito que representa a la faraona Hatshepsut arrodillada, sosteniendo un par de vasijas de ofrenda."},
-{"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063774/cgs_portfolio/Trattoria-Valgranda-2-Torino.webp", "caption": "Cena tradicional piamontesa en la Trattoria Valgranda.", "tags": ["Trattoria Valgranda", "Turín", "cena", "gastronomía", "Italia"], "alt": "Interior rústico de la Trattoria Valgranda con manteles de cuadros verdes, paredes decoradas con carteles antiguos y botellas de vino."},    
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063763/cgs_portfolio/Laboratorio-Milano-Mieles-Salon-del-Gusto.webp",
+        location: "Lingotto Fiere, Salone del Gusto, Turín, Italia",
+        caption: "Alquimia ambarina: Degustación de mieles artesanales en el Laboratorio del Gusto",
+        tags: ["Salone Del Gusto", "Laboratorio Del Gusto", "Lingotto Fiere", "Slow Food", "Turín", "Italia"],
+        alt: "Una vista aérea de una degustación de líquidos dulces, posiblemente mieles o jarabes, presentados en una fuente blanca con varias cucharas y pan rústico."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063765/cgs_portfolio/Porchetto-3-Salon-del-Gusto.webp",
+        location: "Pabellón gastronómico, Lingotto Fiere, Turín, Italia",
+        caption: "Oficio y tradición: Maestros chacineros y porchetta en el Salón del Gusto",
+        tags: ["Salone Del Gusto", "Porchetta", "Chacinería Tradicional", "Lingotto Fiere", "Turín", "Italia"],
+        alt: "Una escena vibrante de un puesto de mercado gastronómico con dos grandes porchettas asadas, embutidos y quesos artesanales."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063765/cgs_portfolio/Portales-de-Turin-3.webp",
+        location: "Via Roma, pórticos históricos, Turín, Italia",
+        caption: "Perspectiva solemne: La columnata dieciochesca y las banderas de Via Roma",
+        tags: ["Via Roma", "Pórticos De Turín", "Arquitectura Saboyana", "Centro Histórico", "Turín", "Italia"],
+        alt: "Vista de una elegante calle urbana en Turín, Italia, flanqueada por edificios clásicos con extensos pórticos y banderas italianas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063765/cgs_portfolio/Piazza-San-Carlo-2.webp",
+        location: "Piazza San Carlo, Turín, Italia",
+        caption: "El salón del Piamonte: La majestuosa Piazza San Carlo y sus iglesias gemelas",
+        tags: ["Piazza San Carlo", "Emanuele Filiberto", "Barroco Piamontés", "Turín", "Italia"],
+        alt: "Una vista panorámica de la icónica Piazza San Carlo en Turín, Italia, con sus iglesias gemelas y la estatua ecuestre de Emmanuel Filiberto."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063766/cgs_portfolio/Piazza-Castello.webp",
+        location: "Piazza Castello, Palazzo Madama, Turín, Italia",
+        caption: "Corazón ducal: Estatua ecuestre de bronce ante la fachada de Piazza Castello",
+        tags: ["Piazza Castello", "Palazzo Madama", "Escultura Ecuestre", "Turín", "Italia"],
+        alt: "Una impresionante estatua ecuestre de bronce con pátina verdosa domina el primer plano ante un edificio histórico de estilo europeo en Piazza Castello."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063766/cgs_portfolio/Puente.webp",
+        location: "Ponte della Musica sobre el río Po, Turín, Italia",
+        caption: "Arco escarlata: Tensión y cables de suspensión sobre las aguas del Po",
+        tags: ["Río Po", "Puente Metálico", "Arquitectura Contemporánea", "Turín", "Italia"],
+        alt: "Una vista abstracta que destaca el gran arco rojo y la compleja red de cables de suspensión de un puente moderno sobre un cielo blanco."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063766/cgs_portfolio/Centro-de-Turin-4.webp",
+        location: "Via Po, centro histórico, Turín, Italia",
+        caption: "Ocre saboyano: Balcones floridos y molduras clásicas en el corazón de Turín",
+        tags: ["Via Po", "Centro Histórico", "Fachada Barroca", "Balcones Floridos", "Turín", "Italia"],
+        alt: "Una vista frontal detallada de la fachada de un edificio histórico con una vibrante pintura amarilla ocre y balcones con flores rojas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063767/cgs_portfolio/Laboratorio-Alta-Franconia-Cervezas-Salon-del-Gusto.webp",
+        location: "Taller cervecero, Lingotto Fiere, Turín, Italia",
+        caption: "Cultura bávara: Conferencia y cata guiada de cervezas de la Alta Franconia",
+        tags: ["Salone Del Gusto", "Alta Franconia", "Cultura Cervecera", "Lingotto Fiere", "Turín", "Italia"],
+        alt: "Una mujer con cabello rojizo, visiblemente expresiva, habla ante un micrófono durante una cata de cervezas en el Salone del Gusto."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063763/cgs_portfolio/Portales-de-Turin.webp",
+        location: "Pórticos de Piazza Castello, Turín, Italia",
+        caption: "Galería de sombras: El infinito cobijo de las arcadas turinesas",
+        tags: ["Pórticos De Turín", "Piazza Castello", "Arquitectura Clásica", "Turín", "Italia"],
+        alt: "Una vista a través de una majestuosa galería columnada con personas paseando; al fondo se divisa la fachada de un edificio clásico."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063768/cgs_portfolio/Terra-Madre-1-Salon-del-Gusto.webp",
+        location: "Oval Lingotto, Encuentro Mundial Terra Madre, Turín, Italia",
+        caption: "Mosaico planetario: Delegaciones campesinas y colores de Terra Madre",
+        tags: ["Terra Madre", "Slow Food", "Oval Lingotto", "Biodiversidad", "Turín", "Italia"],
+        alt: "Un hombre con un vistoso atuendo tradicional africano se destaca en primer plano durante el evento de Terra Madre."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063768/cgs_portfolio/Laboratorio-Alta-Franconia-Salon-del-Gusto.webp",
+        location: "Stand de Oberfranken, Salone del Gusto, Turín, Italia",
+        caption: "Espuma y roble: Barriles artesanales y copas de cata en el Salone del Gusto",
+        tags: ["Salone Del Gusto", "Cerveza Artesana", "Alta Franconia", "Lingotto Fiere", "Turín", "Italia"],
+        alt: "Una imagen vibrante que muestra una hilera de copas llenas de cerveza artesanal servidas directamente de barriles oscuros con grifos de latón."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063768/cgs_portfolio/Museo-Egipcio-10.webp",
+        location: "Sala de las Esfinges, Museo Egizio, Via Accademia delle Scienze, Turín, Italia",
+        caption: "Guardianes milenarios: Hilera de esfinges bajo la penumbra del Museo Egizio",
+        tags: ["Museo Egizio", "Esfinges", "Arqueología Egipcia", "Turín", "Italia"],
+        alt: "La imagen muestra varias esfinges egipcias antiguas exhibidas en un museo con una iluminación dramática que resalta la figura en primer plano."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063769/cgs_portfolio/Museo-Egipcio-2.webp",
+        location: "Galería de los Reyes, Museo Egizio, Turín, Italia",
+        caption: "Resplandor sagrado: Sarcófago antropomorfo de oro en la cámara negra",
+        tags: ["Museo Egizio", "Sarcófago Dorado", "Arte Funerario", "Turín", "Italia"],
+        alt: "Un sarcófago egipcio dorado de forma antropomorfa, mostrando un rostro sereno con ojos azules y elaborados detalles en su tocado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063769/cgs_portfolio/Museo-Egipsio-Granadas.webp",
+        location: "Colección arqueobotánica, Museo Egizio, Turín, Italia",
+        caption: "Tesoros cotidianos: Granadas desecadas de ofrendas funerarias faraónicas",
+        tags: ["Museo Egizio", "Arqueobotánica", "Ofrendas Funerarias", "Turín", "Italia"],
+        alt: "Varias granadas oscuras y desecadas, artefactos antiguos o restos arqueológicos, se exhiben sobre pedestales transparentes en el museo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063770/cgs_portfolio/Laboratorio-Milano-2-Cervezas-Salon-del-Gusto.webp",
+        location: "Laboratorio del Gusto, Lingotto Fiere, Turín, Italia",
+        caption: "Fermentación monástica: Las cervezas artesanales del Monasterio Cascinazza",
+        tags: ["Salone Del Gusto", "Cerveza Cascinazza", "Monasterio Cascinazza", "Turín", "Italia"],
+        alt: "Toma de ángulo bajo que muestra dos copas de cerveza, una rojiza y otra dorada, con abundante espuma y un camarero al fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063770/cgs_portfolio/Quesos-Salon-del-Gusto.webp",
+        location: "Pabellón de queserías, Salone del Gusto, Turín, Italia",
+        caption: "Esculturas lácteas: Piezas curadas de Caciocavallo atadas a la usanza tradicional",
+        tags: ["Salone Del Gusto", "Caciocavallo", "Quesos Artesanales", "Gastronomía Italiana", "Turín", "Italia"],
+        alt: "Una pareja de quesos tipo Caciocavallo, de color amarillo claro y forma de pera, presentados atados con una cuerda sobre madera."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063771/cgs_portfolio/Salon-del-Gusto-5-Salon-del-Gusto.webp",
+        location: "Mercado internacional, Lingotto Fiere, Turín, Italia",
+        caption: "Ristras ardientes: Pimientos secos y especias en el mosaico de Slow Food",
+        tags: ["Salone Del Gusto", "Slow Food", "Mercado Tradicional", "Turín", "Italia"],
+        alt: "Vibrante exhibición de ristras de chiles y pimientos de diversas formas y tamaños en un mercado tradicional."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063771/cgs_portfolio/Salon-del-Gusto-7-Salon-del-Gusto.webp",
+        location: "Sección de panadería artesanal, Salone del Gusto, Turín, Italia",
+        caption: "Geometría del trigo: Pirámides de Coppia Ferrarese sobre manteles blancos",
+        tags: ["Salone Del Gusto", "Coppia Ferrarese", "Pan Tradicional", "Turín", "Italia"],
+        alt: "Abundante exhibición de Coppia Ferrarese, pan tradicional de Ferrara, apilado sobre manteles blancos en la feria gastronómica."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063772/cgs_portfolio/Lab-Milano-Panes-Salon-del-Gusto.webp",
+        location: "Taller del Parco Agricolo Sud Milano, Salone del Gusto, Turín, Italia",
+        caption: "Masa madre y solera: Hogaza rústica del Parque Agrícola Sur de Milán",
+        tags: ["Salone Del Gusto", "Parco Agricolo Sud", "Pan Biológico", "Turín", "Italia"],
+        alt: "Un hombre barbudo sostiene un enorme pan rústico y redondo con una corteza gruesa en una presentación del Salón del Gusto."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063773/cgs_portfolio/Museo-Egipcio-14.webp",
+        location: "Cámara monumental, Museo Egizio, Turín, Italia",
+        caption: "Gravedad de basalto: Busto colosal de faraón en la penumbra del museo",
+        tags: ["Museo Egizio", "Escultura Faraónica", "Dante Ferretti", "Turín", "Italia"],
+        alt: "Detalle de una imponente estatua o sarcófago egipcio en piedra oscura que representa una figura faraónica con manos cruzadas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063773/cgs_portfolio/Museo-Egipcio-8.webp",
+        location: "Galería de los Reyes, Museo Egizio, Turín, Italia",
+        caption: "El trono eterno: Estatua sedente de Ramsés II tallada en diorita negra",
+        tags: ["Museo Egizio", "Ramsés II", "Galería De Los Reyes", "Turín", "Italia"],
+        alt: "Imponente estatua de granito oscuro de Ramsés II sentado majestuosamente, con el tradicional tocado nemes y jeroglíficos incisos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063773/cgs_portfolio/Museo-Egipcio-9.webp",
+        location: "Sala lapidaria, Museo Egizio, Turín, Italia",
+        caption: "Ofrenda eterna: Estatua orante de la reina Hatshepsut ante las divinidades",
+        tags: ["Museo Egizio", "Hatshepsut", "Arte Lapidario", "Turín", "Italia"],
+        alt: "Estatua antigua de granito que representa a la faraona Hatshepsut arrodillada, sosteniendo un par de vasijas de ofrenda."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063774/cgs_portfolio/Trattoria-Valgranda-2-Torino.webp",
+        location: "Trattoria Valgranda, Via Valgranda, Turín, Piamonte, Italia",
+        caption: "Noche piamontesa: Manteles de cuadros y aromas de bagna cauda en Valgranda",
+        tags: ["Trattoria Valgranda", "Cocina Piamontesa", "Bagna Cauda", "Turín", "Italia"],
+        alt: "Interior rústico de la Trattoria Valgranda con manteles de cuadros verdes, paredes decoradas con carteles antiguos y botellas de vino."
+      }
     ]
   },
   {
@@ -215,15 +737,69 @@ Austria debe ser uno de los pocos países que siguen confiando en la honradez de
 Un día emprendimos un viaje en coche hacia la abadía benedictina de Melk, a unos ochenta kilómetros de Viena. En este edificio imponente se desarrolla la novela de Umberto Eco El nombre de la rosa, y el pequeño pueblo que la acoge es en invierno una tranquila villa renacentista por donde el Danubio solía correr hasta que el frío de este invierno lo congeló irremediablemente. De allí avanzamos por carreteras secundarias hasta Dürnstein, donde se pueden ver las ruinas del castillo que en el siglo XI sirvió de cárcel a Ricardo Corazón de León. Y tras recorrer un paisaje adornado por fortalezas, Iglesias, ciudades vinícolas y un Danubio ahora sí fluido y descongelado, llegamos a Krems e instintivamente entramos a otro de esos templos de la repostería donde había tal cantidad de pasteles que alineados unirían a Viena con el Paraíso Terrenal. Tartas, bizcochos, melindres, hojaldres, buñuelos, pudines y mazapanes elaboradísimos bailaban constantemente entre las mesas de la numerosa clientela, mientras que otras delicias ocupaban raudas los espacios abiertos por aquellas en las elegantes vitrinas, todo en un acompasado vaivén de colores, olores y sabores digno del más famoso vals del insigne músico austríaco Johann Strauss.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063776/cgs_portfolio/Alto-Belvedere-a.webp", categoria: "Europa", fecha: "Enero 2002", equipo: "Minolta X300s",
     galeria: [
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063775/cgs_portfolio/Abadia-de-Melk-3.webp", "caption": "Abadía de Melk, joya del barroco sobre el Danubio", "tags": [ "Abadía de Melk", "Austria", "arquitectura barroca", "monasterio", "invierno", "árbol sin hojas", "paisaje cultural", "edificio histórico", "río Danubio", "paisaje invernal" ], "alt": "Una vista impresionante de la Abadía de Melk, una joya barroca ubicada en una colina rocosa en Austria. La fotografía, tomada en invierno, muestra la majestuosa abadía con sus distintivas fachadas amarillas y blancas y sus dos imponentes torres con reloj. En primer plano, las ramas desnudas de un gran árbol, posiblemente un sauce llorón, enmarcan la estructura, añadiendo una atmósfera serena y melancólica a la escena. El cielo pálido y el terreno rocoso y escaso de vegetación sugieren el frío de la estación." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063776/cgs_portfolio/Alto-Belvedere-01a.webp", "caption": "Atlantes de mármol en la entrada del Palacio Belvedere", "tags": [ "Alto Belvedere", "museo", "arquitectura", "estatuas", "barroco", "viena", "palacio", "exposición", "arte", "atlantes", "interior" ], "alt": "Una gran sala de un palacio barroco, posiblemente el Belvedere en Viena, adornada con intrincadas decoraciones en el techo y dos imponentes estatuas de atlantes de mármol que flanquean la vista. Al fondo, se aprecia una entrada a una exposición titulada 'Italienische Reisen' (Viajes Italianos), con una zona de recepción a la izquierda y una gran ventana arqueada a la derecha que ilumina el espacio. El ambiente es majestuoso y cultural, típico de un museo histórico." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063776/cgs_portfolio/Alto-Belvedere-a.webp", "caption": "Fachada barroca del Palacio Belvedere Superior", "tags": [ "Palacio Belvedere", "palacio", "arquitectura barroca", "Viena", "historia", "Austria", "agua", "reflejo", "atardecer", "edificio histórico", "monumento" ], "alt": "Una vista panorámica del Palacio Belvedere en Viena, destacando su majestuosa arquitectura barroca. La fachada del palacio, bañada por una luz cálida, se refleja de forma vibrante en la superficie de un cuerpo de agua, posiblemente una fuente o estanque. La imagen captura la belleza y la serenidad del lugar, con un contraste entre los tonos dorados del edificio y los azules y naranjas del reflejo en el agua." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063776/cgs_portfolio/Arcos-de-la-Colina-HMoore.webp", "caption": "Arcos de la Colina (Hill Arches) de Henry Moore", "tags": [ "Arcos de la Colina HMoore", "Escultura abstracta", "Arte público", "Bronce", "Invierno", "Paisaje urbano" ], "alt": "Una imponente escultura abstracta de bronce con pátina verdosa domina la imagen, mostrando formas entrelazadas y huecos. A través de una de sus aberturas, se asoma una persona joven con un gorro rojo, observando el entorno. El fondo está compuesto por árboles desnudos bajo un cielo claro, indicando una estación fría, posiblemente invierno. La obra de arte está situada al aire libre, posiblemente en un parque o plaza urbana." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063777/cgs_portfolio/Danubio-congelado-a.webp", "caption": "Atardecer sobre el Danubio congelado", "tags": [ "Río Danubio", "invierno", "patinaje sobre hielo", "atardecer", "lago helado", "gente", "Viena" ], "alt": "Escena invernal de un gran lago congelado al atardecer, donde numerosas personas disfrutan de actividades al aire libre. La imagen muestra a individuos patinando y caminando sobre el hielo, así como a otros sentados en los muelles de madera cubiertos de nieve en primer plano. Al fondo, árboles sin hojas y algunas casas iluminadas bordean la orilla, bajo un cielo con tonos suaves de azul y naranja, creando una atmósfera tranquila y recreativa." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063777/cgs_portfolio/Hundertwasser.webp", "caption": "Fachada polícroma de la Hundertwasserhaus", "tags": [ "arquitectura", "colorido", "Hundertwasser", "Viena", "diseño-único" ], "alt": "Una vibrante y asimétrica fachada del icónico Hundertwasserhaus en Viena. El edificio presenta franjas de colores como azul, blanco y magenta, con ventanas de formas y tamaños variados que reflejan el cielo. La arquitectura única de Hundertwasser se manifiesta en las líneas onduladas, los balcones orgánicos y los pequeños detalles decorativos que crean una experiencia visual lúdica y artística en el paisaje urbano." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063777/cgs_portfolio/Jesuitenkirche-a.webp", "caption": "Opulencia barroca en la Iglesia de los Jesuitas (Jesuitenkirche)", "tags": [ "Jesuitenkirche", "arquitectura", "barroco", "dorado", "iglesia", "ornamentado", "Viena" ], "alt": "Una majestuosa vista interior de una basílica barroca, caracterizada por su opulenta decoración dorada, arcos ornamentados y columnas de mármol. Rayos de luz natural atraviesan el espacio, iluminando los intrincados detalles arquitectónicos y creando una atmósfera etérea. Se aprecian balcones y un órgano detallado en la parte superior derecha." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063778/cgs_portfolio/Musica-silente.webp", "caption": "Música silente: esculturas de músicos en mármol", "tags": [ "Música silente", "esculturas", "música", "arquitectura europea", "mármol", "arte urbano" ], "alt": "Dos imponentes esculturas de mármol blanco, que representan a músicos tocando un violín y un violonchelo, se alzan en primer plano. Detrás, una fila de edificios históricos con intrincada arquitectura europea, de estilo barroco o neoclásico, forma un telón de fondo urbano. La escena transmite una atmósfera cultural y artística, común en ciudades del centro de Europa, posiblemente en un día nublado de invierno." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063778/cgs_portfolio/Schonbrunn-02.webp", "caption": "Palmenhaus (Casa de las Palmeras) en los jardines de Schönbrunn", "tags": [ "Invernadero", "Arquitectura", "Schönbrunn", "Estructura de cristal", "Palmenhaus" ], "alt": "La imagen muestra el imponente Palmenhaus (Casa de las Palmeras) en los Jardines de Schönbrunn, Viena. Este gran invernadero presenta una elaborada estructura de hierro forjado en color verde y numerosos paneles de vidrio que forman sus secciones abovedadas y techos. Se aprecian detalles ornamentales en la armazón metálica. En el primer plano, hay arbustos podados y césped, mientras que ramas de árboles sin hojas se extienden por el cielo claro, sugiriendo una estación fría." },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063775/cgs_portfolio/Abadia-de-Melk-3.webp",
+        location: "Abadía benedictina de Melk, Valle de Wachau, Baja Austria",
+        caption: "Bastión sobre el Danubio: La abadía de Melk enmarcada por sauces invernales",
+        tags: ["Abadía De Melk", "Valle De Wachau", "Barroco Austríaco", "Río Danubio", "Austria"],
+        alt: "Una vista impresionante de la Abadía de Melk, una joya barroca ubicada en una colina rocosa en Austria. La fotografía, tomada en invierno, muestra la majestuosa abadía con sus distintivas fachadas amarillas y blancas y sus dos imponentes torres con reloj. En primer plano, las ramas desnudas de un gran árbol, posiblemente un sauce llorón, enmarcan la estructura, añadiendo una atmósfera serena y melancólica a la escena. El cielo pálido y el terreno rocoso y escaso de vegetación sugieren el frío de la estación."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063776/cgs_portfolio/Alto-Belvedere-01a.webp",
+        location: "Sala de los Gigantes, Palacio Belvedere Superior, Viena, Austria",
+        caption: "Tensión en mármol: Los colosales atlantes sustentando el techo del Belvedere",
+        tags: ["Palacio Belvedere", "Atlantes De Mármol", "Johann Lukas Von Hildebrandt", "Viena", "Austria"],
+        alt: "Una gran sala de un palacio barroco, posiblemente el Belvedere en Viena, adornada con intrincadas decoraciones en el techo y dos imponentes estatuas de atlantes de mármol que flanquean la vista. Al fondo, se aprecia una entrada a una exposición titulada 'Italienische Reisen' (Viajes Italianos), con una zona de recepción a la izquierda y una gran ventana arqueada a la derecha que ilumina el espacio. El ambiente es majestuoso y cultural, típico de un museo histórico."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063776/cgs_portfolio/Alto-Belvedere-a.webp",
+        location: "Jardines y estanque del Palacio Belvedere Superior, Viena, Austria",
+        caption: "Reflejo imperial: El Palacio Belvedere y su estanque al declinar la tarde",
+        tags: ["Palacio Belvedere", "Barroco Imperial", "Estanque Reflectante", "Viena", "Austria"],
+        alt: "Una vista panorámica del Palacio Belvedere en Viena, destacando su majestuosa arquitectura barroca. La fachada del palacio, bañada por una luz cálida, se refleja de forma vibrante en la superficie de un cuerpo de agua, posiblemente una fuente o estanque. La imagen captura la belleza y la serenidad del lugar, con un contraste entre los tonos dorados del edificio y los azules y naranjas del reflejo en el agua."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063776/cgs_portfolio/Arcos-de-la-Colina-HMoore.webp",
+        location: "Karlsplatz, frente a la Karlskirche, Viena, Austria",
+        caption: "Mirada entre vacíos: 'Hill Arches' de Henry Moore en la Karlsplatz invernal",
+        tags: ["Karlsplatz", "Henry Moore", "Hill Arches", "Escultura Moderna", "Viena", "Austria"],
+        alt: "Una imponente escultura abstracta de bronce con pátina verdosa domina la imagen, mostrando formas entrelazadas y huecos. A través de una de sus aberturas, se asoma una persona joven con un gorro rojo, observando el entorno. El fondo está compuesto por árboles desnudos bajo un cielo claro, indicando una estación fría, posiblemente invierno. La obra de arte está situada al aire libre, posiblemente en un parque o plaza urbana."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063777/cgs_portfolio/Danubio-congelado-a.webp",
+        location: "Alte Donau (Danubio Viejo), Viena, Austria",
+        caption: "Caminantes sobre el hielo: Atardecer dorado en el Danubio congelado",
+        tags: ["Alte Donau", "Danubio Congelado", "Invierno Vienés", "Atardecer", "Viena", "Austria"],
+        alt: "Escena invernal de un gran lago congelado al atardecer, donde numerosas personas disfrutan de actividades al aire libre. La imagen muestra a individuos patinando y caminando sobre el hielo, así como a otros sentados en los muelles de madera cubiertos de nieve en primer plano. Al fondo, árboles sin hojas y algunas casas iluminadas bordean la orilla, bajo un cielo con tonos suaves de azul y naranja, creando una atmósfera tranquila y recreativa."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063777/cgs_portfolio/Hundertwasser.webp",
+        location: "Hundertwasserhaus, Kegelgasse, Landstraße, Viena, Austria",
+        caption: "Rebelión orgánica: Policromía y curvas de la Hundertwasserhaus",
+        tags: ["Hundertwasserhaus", "Friedensreich Hundertwasser", "Arquitectura Orgánica", "Viena", "Austria"],
+        alt: "Una vibrante y asimétrica fachada del icónico Hundertwasserhaus en Viena. El edificio presenta franjas de colores como azul, blanco y magenta, con ventanas de formas y tamaños variados que reflejan el cielo. La arquitectura única de Hundertwasser se manifiesta en las líneas onduladas, los balcones orgánicos y los pequeños detalles decorativos que crean una experiencia visual lúdica y artística en el paisaje urbano."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063777/cgs_portfolio/Jesuitenkirche-a.webp",
+        location: "Iglesia de los Jesuitas (Jesuitenkirche), Dr.-Ignaz-Seipel-Platz, Viena, Austria",
+        caption: "Teatralidad sacra: Columnas retorcidas y pan de oro en la Jesuitenkirche",
+        tags: ["Jesuitenkirche", "Andrea Pozzo", "Barroco Ilusionista", "Arte Sacro", "Viena", "Austria"],
+        alt: "Una majestuosa vista interior de una basílica barroca, caracterizada por su opulenta decoración dorada, arcos ornamentados y columnas de mármol. Rayos de luz natural atraviesan el espacio, iluminando los intrincados detalles arquitectónicos y creando una atmósfera etérea. Se aprecian balcones y un órgano detallado en la parte superior derecha."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063778/cgs_portfolio/Musica-silente.webp",
+        location: "Stadtpark, Viena, Austria",
+        caption: "Música silente: Músicos de mármol petrificados bajo el cielo invernal",
+        tags: ["Stadtpark", "Escultura Clásica", "Patrimonio Musical", "Viena", "Austria"],
+        alt: "Dos imponentes esculturas de mármol blanco, que representan a músicos tocando un violín y un violonchelo, se alzan en primer plano. Detrás, una fila de edificios históricos con intrincada arquitectura europea, de estilo barroco o neoclásico, forma un telón de fondo urbano. La escena transmite una atmósfera cultural y artística, común en ciudades del centro de Europa, posiblemente en un día nublado de invierno."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063778/cgs_portfolio/Schonbrunn-02.webp",
+        location: "Palmenhaus, Jardines del Palacio de Schönbrunn, Viena, Austria",
+        caption: "Palacio de cristal: La estructura decimonónica del Palmenhaus de Schönbrunn",
+        tags: ["Schönbrunn", "Palmenhaus", "Arquitectura En Hierro Y Vidrio", "Invernadero Imperial", "Viena", "Austria"],
+        alt: "La imagen muestra el imponente Palmenhaus (Casa de las Palmeras) en los Jardines de Schönbrunn, Viena. Este gran invernadero presenta una elaborada estructura de hierro forjado en color verde y numerosos paneles de vidrio que forman sus secciones abovedadas y techos. Se aprecian detalles ornamentales en la armazón metálica. En el primer plano, hay arbustos podados y césped, mientras que ramas de árboles sin hojas se extienden por el cielo claro, sugiriendo una estación fría."
+      }
     ]
   },
   {
@@ -247,39 +823,237 @@ Otro tren me lleva a Lausana, sede del olimpismo mundial como recuerda un reloj 
 De regreso a Ginebra y, antes de cerrar el viaje, voy en un momento a Francia, que está a 25 minutos en autobús, para subir al Teleférico de Salève, desde donde las vistas confirman la pequeña grandeza de estas ciudades, que reposan elegantes alrededor del lago Léman, con su mágico juego de escalas alteradas.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063778/cgs_portfolio/Lago-Leman-barco.webp", categoria: "Europa", fecha: "Septiembre 2015", equipo: "Canon PowerShot SX200 IS",
     galeria: [
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063779/cgs_portfolio/Henry-Moore-frente-Museo-de-Arte-Ginebra.webp", "caption": "Diálogo artístico: Una joven ante las formas de Henry Moore", "tags": ["Escultura", "Arte Moderno", "Ginebra", "Museo", "Henry Moore"], "alt": "Una mujer joven se sienta sobre una gran escultura abstracta de bronce de Henry Moore, ubicada en un espacio verde frente a un majestuoso edificio clásico del Museo de Arte e Historia de Ginebra." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063795/cgs_portfolio/Vinedos-de-Lavaux.webp", "caption": "El jardín de Baco: Terrazas de viñedos de Lavaux", "tags": ["Viñedos", "Lavaux", "Lago Léman", "Suiza", "Patrimonio UNESCO"], "alt": "Vista panorámica de los viñedos en terrazas del Lavaux descendiendo hacia las aguas azules del Lago Léman, con los Alpes al fondo bajo un cielo despejado." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063817/cgs_portfolio/Banco-verde-Ginebra.webp", "caption": "Oasis urbano: Diseño y descanso sobre el 'césped' ginebrino", "tags": ["Diseño Urbano", "Ginebra", "Relajación", "Césped Artificial"], "alt": "Una persona descansa en un banco de diseño contemporáneo cubierto de césped artificial en una calle de Ginebra, rodeado de vegetación urbana." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063780/cgs_portfolio/Castillo-de-Chillon-vistas-lago.webp", "caption": "Ventanas al paraíso: El lago Léman y los Alpes", "tags": ["Lago Léman", "Alpes", "Castillo de Chillon", "Paisaje", "Suiza"], "alt": "Vista enmarcada por una reja de hierro del sereno Lago Léman y las cumbres nevadas de los Alpes suizos bajo un cielo azul intenso." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063781/cgs_portfolio/Castillo-de-Chillon.webp", "caption": "Fortaleza lacustre: El Castillo de Chillon y sus tejados medievales", "tags": ["Castillo de Chillon", "Arquitectura Medieval", "Lago Léman", "Historia", "Suiza"], "alt": "Vista elevada de los intrincados tejados de tejas y patios del Castillo de Chillon, resaltando su arquitectura defensiva a orillas del lago." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063782/cgs_portfolio/Catedral-St-Pierre-Ginebra.webp", "caption": "Cimas espirituales: Agujas góticas y policromía", "tags": ["Catedral", "St-Pierre", "Ginebra", "Arquitectura Gótica", "Detalle"], "alt": "Detalle de la sección superior de la Catedral de San Pedro en Ginebra, mostrando sus pináculos góticos y el colorido tejado de tejas esmaltadas." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063800/cgs_portfolio/Cementerio-Reyes-Ginebra-Tumba-Jean-Calvin-Juan-Calvino.webp", "caption": "Sencillez eterna: La tumba de Juan Calvino en el Cimetière des Rois", "tags": ["Juan Calvino", "Reforma", "Cementerio", "Ginebra", "Historia"], "alt": "La sencilla y austera tumba del reformador Juan Calvino en Ginebra, con una jardinera rodeada por una valla baja de hierro." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063796/cgs_portfolio/Ginebra-Batiment-des-Forces-Motrices.webp", "caption": "Maquinaria cultural: El Bâtiment des Forces Motrices", "tags": ["Ginebra", "Río Ródano", "Arquitectura Industrial", "Cultura", "BFM"], "alt": "Panorámica del Bâtiment des Forces Motrices, una antigua central eléctrica sobre el Ródano reconvertida en teatro, con su fachada barroca iluminada por el sol." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063797/cgs_portfolio/Ginebra-Banos-Paquis.webp", "caption": "Sol y lago: El animado ambiente de los Bains des Pâquis", "tags": ["Bains des Pâquis", "Ginebra", "Lago Léman", "Verano", "Ocio"], "alt": "Escena estival en el popular balneario de los Bains des Pâquis, con gente disfrutando del sol en el muelle frente a los edificios clásicos del Quai du Mont-Blanc." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063801/cgs_portfolio/Gstaad-casa-olla.webp", "caption": "Herencia alpina: Detalles y calderos en Gstaad", "tags": ["Gstaad", "Chalet Alpino", "Arquitectura", "Madera", "Tradición"], "alt": "Detalle de la fachada de madera tallada de un chalet tradicional en Gstaad, con un gran caldero de hierro oxidado colgando de las vigas del tejado." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063802/cgs_portfolio/Gstaad-fachadas-floridas.webp", "caption": "Primavera en el Oberland: Chalets floridos en Gstaad", "tags": ["Gstaad", "Alpes Suizos", "Flores", "Arquitectura", "Pueblo Alpino"], "alt": "Calle peatonal del pueblo de Gstaad con sus característicos chalets de madera adornados con profusión de flores en los balcones bajo un sol radiante." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063802/cgs_portfolio/Jardin-Botanico-Ginebra-Noria.webp", "caption": "Fantasía mecánica: Esculturas cinéticas en el Jardín Botánico", "tags": ["Arte Cinético", "Escultura", "Ginebra", "Jardín Botánico", "Imaginación"], "alt": "Esculturas mecánicas de estilo 'steampunk' representando un caballo y otros elementos fantásticos integrados en los jardines del Jardín Botánico de Ginebra." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063803/cgs_portfolio/Jet-d-Eau-ave.webp", "caption": "Vigía del Léman: Gaviota frente a la silueta del Jet d'Eau", "tags": ["Gaviota", "Jet d'Eau", "Ginebra", "Lago Léman", "Urbano"], "alt": "Una gaviota posada en un poste de madera en el puerto de Ginebra, con el gran chorro de agua del Jet d'Eau elevándose al fondo entre los edificios." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063778/cgs_portfolio/Lago-Leman-barco.webp", "caption": "Navegación nostalgia: El vapor 'La Suisse' surcando el Léman", "tags": ["Barco de Vapor", "La Suisse", "Lago Léman", "Alpes", "Suiza"], "alt": "El vapor de ruedas 'La Suisse' navegando por las aguas turquesas del lago Léman, con la bandera suiza en proa y las montañas alpinas de fondo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063803/cgs_portfolio/Lago-Leman.webp", "caption": "Elegancia lacustre: 'La Suisse' bajo la mirada de los Alpes", "tags": ["Lago Léman", "Navegación", "Paisaje", "Alpes", "Suiza"], "alt": "El histórico barco 'La Suisse' alejándose por el lago, visto desde la orilla sombreada de un parque donde el mobiliario urbano de color rojo destaca entre el verde." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063804/cgs_portfolio/Lausana-caminantes-con-cuadro.webp", "caption": "Arte en movimiento: Fugacidad ante el Palais de Rumine", "tags": ["Palais de Rumine", "Lausana", "Arquitectura Neorrenacentista", "Museo", "Urbano"], "alt": "Personas transportando un gran panel artístico a través de la plaza frente a la monumental fachada neorrenacentista del Palais de Rumine en Lausana." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063806/cgs_portfolio/Lausana-esculturas.webp", "caption": "Ginebra ilustrada: El Monumento a Jean-Jacques Rousseau", "tags": ["Rousseau", "Estatua", "Monumento", "Ginebra", "Historia"], "alt": "Estatua de bronce de Jean-Jacques Rousseau sedente en su isla en Ginebra, con un relieve clásico de mármol blanco al fondo enmarcado por vegetación." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063811/cgs_portfolio/Lausana-monumento.webp", "caption": "Guardianes de piedra: La esfinge alada y la pátina del tiempo", "tags": ["Escultura", "Esfinge", "Bronce", "Detalle", "Lausana"], "alt": "Una esfinge alada de bronce con pátina verde envejecida sobre un pedestal, ante los relieves de piedra de un edificio institucional en Lausana." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063807/cgs_portfolio/Montreux-vistas.webp", "caption": "La Riviera Suiza: Miradas clásicas hacia el lago desde Montreux", "tags": ["Montreux", "Riviera Suiza", "Arquitectura", "Lago Léman", "Vistas"], "alt": "Perspectiva de los elegantes edificios de Montreux y sus balcones hacia las aguas azules del lago y las montañas brumosas de Saboya." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063813/cgs_portfolio/Monumento-Nacional-Ginebra.webp", "caption": "Unión helvética: Simbolismo del Monumento Nacional", "tags": ["Monumento Nacional", "Ginebra", "Historia", "Suiza", "Escultura"], "alt": "Detalle de las dos figuras femeninas de bronce abrazadas en el Jardin Anglais, simbolizando la entrada de Ginebra en la Confederación Helvética." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063814/cgs_portfolio/ONU-Ginebra-arquitectura.webp", "caption": "Diplomacia en piedra: Columnatas y jardines en la ONU", "tags": ["Palais des Nations", "ONU", "Ginebra", "Arquitectura", "Institucional"], "alt": "Vista del ala clásica del Palais des Nations en Ginebra, resaltando sus sobrias columnas de piedra y los cuidados jardines parterres." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063814/cgs_portfolio/ONU-Ginebra-ciclista.webp", "caption": "Armonía global: La esfera 'La Boule Harmonique' y el Parc de l'Ariana", "tags": ["ONU", "Escultura", "Ginebra", "Parque", "Símbolos"], "alt": "La escultura esférica de bronce en el Parc de l'Ariana, con la bandera de las Naciones Unidas ondeando ante el paisaje del lago Léman." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063816/cgs_portfolio/Parque-de-Mon-Repos-Ginebra.webp", "caption": "Reflejo de exclusividad: El hotel La Réserve sobre el lago", "tags": ["La Réserve", "Hotel", "Lujo", "Ginebra", "Lago Léman"], "alt": "El edificio del hotel La Réserve Genève destacando entre el follaje otoñal sobre el lago, con la bandera suiza en primer plano." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063816/cgs_portfolio/Rochers-de-Naye.webp", "caption": "Desde las nubes: Panorámica del lago Léman desde Rochers-de-Naye", "tags": ["Alpes", "Rochers-de-Naye", "Panorámica", "Lago Léman", "Montaña"], "alt": "Vistas espectaculares desde el pico Rochers-de-Naye, con las nubes acariciando las montañas y la ciudad de Montreux a orillas del inmenso lago azul." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063817/cgs_portfolio/Rochers-de-Naye-animales.webp", "caption": "Vigilantes alpinos: Marmotas en las cumbres", "tags": ["Marmotas", "Vida Silvestre", "Rochers-de-Naye", "Cumbres", "Alpes"], "alt": "Dos marmotas atentas sobre el césped alpino de Rochers-de-Naye, integradas perfectamente en su hábitat natural de alta montaña." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063818/cgs_portfolio/Rochers-de-Naye-niebla.webp", "caption": "Caminando entre brumas: Senderos en Rochers-de-Naye", "tags": ["Niebla", "Montaña", "Senderismo", "Alpes", "Atmósfera"], "alt": "Un sendero de montaña al borde del precipicio protegido por una barandilla, con la niebla envolviendo parte de la cresta en Rochers-de-Naye." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063822/cgs_portfolio/Teleferico-de-Saleve.webp", "caption": "Hacia el balcón de Ginebra: El teleférico del Salève", "tags": ["Teleférico", "Salève", "Ginebra", "Vistas", "Francia"], "alt": "La cabina del teleférico que asciende al monte Salève, ofreciendo una vista aérea del valle y la expansión urbana de Ginebra al fondo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063821/cgs_portfolio/Vevey-Chaplin-tenedor.webp", "caption": "Surrealismo lacustre: El tenedor de Vevey y la sombra de Chaplin", "tags": ["Charlie Chaplin", "Vevey", "Lago Léman", "Escultura", "Surrealismo"], "alt": "La estatua de Charlie Chaplin a orillas del lago en Vevey, con la inesperada escultura del tenedor gigante emergiendo de las aguas." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063820/cgs_portfolio/Vevey-saltadores.webp", "caption": "Juventud y saltos: Verano activo en Vevey", "tags": ["Saltadores", "Lago Léman", "Verano", "Deporte", "Diversión"], "alt": "Jóvenes saltando al lago desde un trampolín natural en Vevey, capturando un momento de vitalidad y frescor en un día soleado." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063822/cgs_portfolio/Castillo-de-Chillon-persona.webp", "caption": "Composición en azul: Un muelle solitario ante el lago", "tags": ["Lago Léman", "Muelle", "Minimalismo", "Fotografía", "Chillon"], "alt": "Silueta de una persona en un muelle de madera proyectando largas sombras sobre las aguas azules turquesas del lago, vista a través de un arco de piedra." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063823/cgs_portfolio/Vevey-tenedor-lago-aves.webp", "caption": "Paz matutina: Cisnes y bruma ante el tenedor de Vevey", "tags": ["Vevey", "Lago Léman", "Cisnes", "Escultura", "Serenidad"], "alt": "Cisnes nadando tranquilamente en el lago al amanecer, con la escultura del tenedor gigante destacando sobre las montañas envueltas en bruma azulada." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063823/cgs_portfolio/Lausana-torre.webp", "caption": "Verticalidad gótica: La torre de la Catedral de Lausana", "tags": ["Catedral de Lausana", "Gótico", "Arquitectura", "Torre", "Suiza"], "alt": "Primer plano de la torre principal de la Catedral gótica de Lausana, con sus agujas y tejados cónicos recortados contra un cielo azul." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063827/cgs_portfolio/ONU-Ginebra-silla-agua.webp", "caption": "Símbolos de paz: La 'Broken Chair' ante la ONU", "tags": ["Broken Chair", "Ginebra", "ONU", "Derechos Humanos", "Escultura"], "alt": "El monumental banco de madera con una pata rota diseñado por Daniel Berset, situado en la Place des Nations frente a la sede de la ONU en Ginebra." }
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063779/cgs_portfolio/Henry-Moore-frente-Museo-de-Arte-Ginebra.webp",
+        location: "Musée d'Art et d'Histoire, Ginebra, Suiza",
+        caption: "Diálogo artístico: Una joven ante las formas de Henry Moore en el Musée d'Art et d'Histoire",
+        tags: ["Musée D'Art Et D'Histoire", "Henry Moore", "Escultura Moderna", "Ginebra", "Suiza"],
+        alt: "Una mujer joven se sienta sobre una gran escultura abstracta de bronce de Henry Moore, ubicada en un espacio verde frente a un majestuoso edificio clásico del Museo de Arte e Historia de Ginebra."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063795/cgs_portfolio/Vinedos-de-Lavaux.webp",
+        location: "Terrazas de viñedos de Lavaux, Puidoux-Chexbres, Suiza",
+        caption: "El jardín de Baco: Terrazas de viñedos de Lavaux descendiendo hacia el lago Léman",
+        tags: ["Lavaux", "Puidoux-Chexbres", "Lago Léman", "Patrimonio Unesco", "Viñedos", "Suiza"],
+        alt: "Vista panorámica de los viñedos en terrazas del Lavaux descendiendo hacia las aguas azules del Lago Léman, con los Alpes al fondo bajo un cielo despejado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063817/cgs_portfolio/Banco-verde-Ginebra.webp",
+        location: "Centro de Ginebra, Suiza",
+        caption: "Oasis urbano: Diseño contemporáneo y descanso sobre el césped artificial ginebrino",
+        tags: ["Mobiliario Urbano", "Ginebra", "Diseño Contemporáneo", "Espacio Público", "Suiza"],
+        alt: "Una persona descansa en un banco de diseño contemporáneo cubierto de césped artificial en una calle de Ginebra, rodeado de vegetación urbana."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063780/cgs_portfolio/Castillo-de-Chillon-vistas-lago.webp",
+        location: "Castillo de Chillon, Veytaux / Montreux, Suiza",
+        caption: "Ventanas al paraíso: El lago Léman y las cumbres nevadas desde Chillon",
+        tags: ["Castillo De Chillon", "Lago Léman", "Alpes Suizos", "Montreux", "Suiza"],
+        alt: "Vista enmarcada por una reja de hierro del sereno Lago Léman y las cumbres nevadas de los Alpes suizos bajo un cielo azul intenso."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063781/cgs_portfolio/Castillo-de-Chillon.webp",
+        location: "Castillo de Chillon, Veytaux / Montreux, Suiza",
+        caption: "Fortaleza lacustre: El Castillo de Chillon y sus tejados medievales sobre el agua",
+        tags: ["Castillo De Chillon", "Arquitectura Medieval", "Casa De Saboya", "Montreux", "Suiza"],
+        alt: "Vista elevada de los intrincados tejados de tejas y patios del Castillo de Chillon, resaltando su arquitectura defensiva a orillas del lago."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063782/cgs_portfolio/Catedral-St-Pierre-Ginebra.webp",
+        location: "Catedral de San Pedro (Cathédrale Saint-Pierre), Ginebra, Suiza",
+        caption: "Cimas espirituales: Agujas góticas y policromía en la Cathédrale Saint-Pierre",
+        tags: ["Cathédrale Saint-Pierre", "Ginebra", "Arquitectura Gótica", "Reforma Protestante", "Suiza"],
+        alt: "Detalle de la sección superior de la Catedral de San Pedro en Ginebra, mostrando sus pináculos góticos y el colorido tejado de tejas esmaltadas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063800/cgs_portfolio/Cementerio-Reyes-Ginebra-Tumba-Jean-Calvin-Juan-Calvino.webp",
+        location: "Cimetière des Rois (Cementerio de los Reyes), Plainpalais, Ginebra, Suiza",
+        caption: "Sencillez eterna: La austera tumba de Juan Calvino en el Cimetière des Rois",
+        tags: ["Cimetière Des Rois", "Juan Calvino", "Plainpalais", "Reforma Protestante", "Ginebra", "Suiza"],
+        alt: "La sencilla y austera tumba del reformador Juan Calvino en Ginebra, con una jardinera rodeada por una valla baja de hierro."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063796/cgs_portfolio/Ginebra-Batiment-des-Forces-Motrices.webp",
+        location: "Bâtiment des Forces Motrices (BFM), Río Ródano, Ginebra, Suiza",
+        caption: "Maquinaria cultural: El Bâtiment des Forces Motrices sobre el cauce del Ródano",
+        tags: ["Bâtiment Des Forces Motrices", "Río Ródano", "Patrimonio Industrial", "Ginebra", "Suiza"],
+        alt: "Panorámica del Bâtiment des Forces Motrices, una antigua central eléctrica sobre el Ródano reconvertida en teatro, con su fachada barroca iluminada por el sol."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063797/cgs_portfolio/Ginebra-Banos-Paquis.webp",
+        location: "Bains des Pâquis, lago Léman, Ginebra, Suiza",
+        caption: "Sol y lago: El animado baño estival en los Bains des Pâquis frente al Quai du Mont-Blanc",
+        tags: ["Bains Des Pâquis", "Lago Léman", "Quai Du Mont-Blanc", "Verano", "Ginebra", "Suiza"],
+        alt: "Escena estival en el popular balneario de los Bains des Pâquis, con gente disfrutando del sol en el muelle frente a los edificios clásicos del Quai du Mont-Blanc."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063801/cgs_portfolio/Gstaad-casa-olla.webp",
+        location: "Paseo central de Gstaad, Saanenland, Cantón de Berna, Suiza",
+        caption: "Herencia alpina: Artesanía en madera y caldero de cobre tradicional en Gstaad",
+        tags: ["Gstaad", "Saanenland", "Chalet Alpino", "Madera Tallada", "Tradición Suiza", "Suiza"],
+        alt: "Detalle de la fachada de madera tallada de un chalet tradicional en Gstaad, con un gran caldero de hierro oxidado colgando de las vigas del tejado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063802/cgs_portfolio/Gstaad-fachadas-floridas.webp",
+        location: "Paseo peatonal de Gstaad, Saanenland, Suiza",
+        caption: "Primavera en el Oberland: Chalets de madera con balconadas floridas en Gstaad",
+        tags: ["Gstaad", "Chalets Suizos", "Balcones Floridos", "Arquitectura Vernácula", "Suiza"],
+        alt: "Calle peatonal del pueblo de Gstaad con sus característicos chalets de madera adornados con profusión de flores en los balcones bajo un sol radiante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063802/cgs_portfolio/Jardin-Botanico-Ginebra-Noria.webp",
+        location: "Conservatorio y Jardín Botánico de Ginebra, Chem. de l'Impératrice, Ginebra, Suiza",
+        caption: "Fantasía mecánica: Esculturas cinéticas integradas entre los árboles del Jardín Botánico",
+        tags: ["Jardín Botánico De Ginebra", "Arte Cinético", "Escultura Contemporánea", "Ginebra", "Suiza"],
+        alt: "Esculturas mecánicas de estilo 'steampunk' representando un caballo y otros elementos fantásticos integrados en los jardines del Jardín Botánico de Ginebra."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063803/cgs_portfolio/Jet-d-Eau-ave.webp",
+        location: "Jet d'Eau, muelle de Ginebra, lago Léman, Ginebra, Suiza",
+        caption: "Vigía del Léman: Gaviota en el puerto ante la verticalidad del Jet d'Eau",
+        tags: ["Jet D'Eau", "Lago Léman", "Puerto De Ginebra", "Símbolo De Ginebra", "Ginebra", "Suiza"],
+        alt: "Una gaviota posada en un poste de madera en el puerto de Ginebra, con el gran chorro de agua del Jet d'Eau elevándose al fondo entre los edificios."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063778/cgs_portfolio/Lago-Leman-barco.webp",
+        location: "Lago Léman, frente a Montreux y Vevey, Suiza",
+        caption: "Navegación de época: El histórico vapor de ruedas 'La Suisse' surcando el Léman",
+        tags: ["Lago Léman", "La Suisse", "Barco De Vapor", "Riviera Suiza", "Suiza"],
+        alt: "El vapor de ruedas 'La Suisse' navegando por las aguas turquesas del lago Léman, con la bandera suiza en proa y las montañas alpinas de fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063803/cgs_portfolio/Lago-Leman.webp",
+        location: "Paseo ribereño del lago Léman, Montreux, Suiza",
+        caption: "Elegancia lacustre: El vapor 'La Suisse' alejándose hacia los picos alpinos",
+        tags: ["Lago Léman", "Montreux", "La Suisse", "Paisaje Alpino", "Suiza"],
+        alt: "El histórico barco 'La Suisse' alejándose por el lago, visto desde la orilla sombreada de un parque donde el mobiliario urbano de color rojo destaca entre el verde."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063804/cgs_portfolio/Lausana-caminantes-con-cuadro.webp",
+        location: "Palais de Rumine, Place de la Riponne, Lausana, Suiza",
+        caption: "Arte en tránsito: Lienzo monumental cruzando la explanada del Palais de Rumine",
+        tags: ["Palais De Rumine", "Place De La Riponne", "Lausana", "Museo", "Suiza"],
+        alt: "Personas transportando un gran panel artístico a través de la plaza frente a la monumental fachada neorrenacentista del Palais de Rumine en Lausana."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063806/cgs_portfolio/Lausana-esculturas.webp",
+        location: "Île Rousseau, río Ródano, Ginebra, Suiza",
+        caption: "Homenaje al filósofo: Estatua en bronce de Jean-Jacques Rousseau en su isla ginebrina",
+        tags: ["Île Rousseau", "Jean-Jacques Rousseau", "James Pradier", "Río Ródano", "Ginebra", "Suiza"],
+        alt: "Estatua de bronce de Jean-Jacques Rousseau sedente en su isla en Ginebra, con un relieve clásico de mármol blanco al fondo enmarcado por vegetación."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063811/cgs_portfolio/Lausana-monumento.webp",
+        location: "Plaza del Palais de Rumine, Lausana, Suiza",
+        caption: "Esfinge en bronce: Criatura alada y bajorrelieves custodiando el legado de Lausana",
+        tags: ["Palais De Rumine", "Escultura En Bronce", "Esfinge Alada", "Lausana", "Suiza"],
+        alt: "Una esfinge alada de bronce con pátina verde envejecida sobre un pedestal, ante los relieves de piedra de un edificio institucional en Lausana."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063807/cgs_portfolio/Montreux-vistas.webp",
+        location: "Paseo marítimo de Montreux, Riviera Suiza, Suiza",
+        caption: "La Riviera Suiza: Miradores y fachadas palaciegas abiertas al lago Léman",
+        tags: ["Montreux", "Riviera Suiza", "Lago Léman", "Belle Époque", "Suiza"],
+        alt: "Perspectiva de los elegantes edificios de Montreux y sus balcones hacia las aguas azules del lago y las montañas brumosas de Saboya."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063813/cgs_portfolio/Monumento-Nacional-Ginebra.webp",
+        location: "Jardin Anglais, Ginebra, Suiza",
+        caption: "Unión helvética: El abrazo en bronce de Ginebra y Helvetia en el Jardin Anglais",
+        tags: ["Jardin Anglais", "Monumento Nacional", "Robert Dorer", "Ginebra", "Suiza"],
+        alt: "Detalle de las dos figuras femeninas de bronce abrazadas en el Jardin Anglais, simbolizando la entrada de Ginebra en la Confederación Helvética."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063814/cgs_portfolio/ONU-Ginebra-arquitectura.webp",
+        location: "Palais des Nations (Sede de la ONU), Ginebra, Suiza",
+        caption: "Diplomacia en piedra: La columnata neoclásica del Palais des Nations y sus jardines",
+        tags: ["Palais Des Nations", "ONU", "Arquitectura Institucional", "Ginebra", "Suiza"],
+        alt: "Vista del ala clásica del Palais des Nations en Ginebra, resaltando sus sobrias columnas de piedra y los cuidados jardines parterres."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063814/cgs_portfolio/ONU-Ginebra-ciclista.webp",
+        location: "Parc de l'Ariana, Palais des Nations, Ginebra, Suiza",
+        caption: "Armonía global: La esfera 'La Boule Harmonique' y el pabellón de banderas",
+        tags: ["Parc De L'Ariana", "Palais Des Nations", "ONU", "La Boule Harmonique", "Ginebra", "Suiza"],
+        alt: "La escultura esférica de bronce en el Parc de l'Ariana, con la bandera de las Naciones Unidas ondeando ante el paisaje del lago Léman."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063816/cgs_portfolio/Parque-de-Mon-Repos-Ginebra.webp",
+        location: "Parc Mon Repos, orilla norte del lago Léman, Ginebra, Suiza",
+        caption: "Reflejo señorial: Pabellones históricos entre el follaje a orillas del Léman",
+        tags: ["Parc Mon Repos", "Lago Léman", "Paisajismo", "Ginebra", "Suiza"],
+        alt: "El edificio del hotel La Réserve Genève destacando entre el follaje otoñal sobre el lago, con la bandera suiza en primer plano."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063816/cgs_portfolio/Rochers-de-Naye.webp",
+        location: "Mirador de Rochers-de-Naye (2042 m), Montreux, Suiza",
+        caption: "Desde las nubes: Panorámica vertiginosa del lago Léman y la cordillera alpina",
+        tags: ["Rochers-De-Naye", "Alpes Suizos", "Mirador Alpino", "Montreux", "Suiza"],
+        alt: "Vistas espectaculares desde el pico Rochers-de-Naye, con las nubes acariciando las montañas y la ciudad de Montreux a orillas del inmenso lago azul."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063817/cgs_portfolio/Rochers-de-Naye-animales.webp",
+        location: "Parque de las marmotas, Rochers-de-Naye, Suiza",
+        caption: "Vigilantes de la cumbre: Marmotas alpinas atentas sobre los riscos rocosos",
+        tags: ["Rochers-De-Naye", "Marmotas", "Fauna Alpina", "Alta Montaña", "Suiza"],
+        alt: "Dos marmotas atentas sobre el césped alpino de Rochers-de-Naye, integradas perfectamente en su hábitat natural de alta montaña."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063818/cgs_portfolio/Rochers-de-Naye-niebla.webp",
+        location: "Cresta de Rochers-de-Naye, Suiza",
+        caption: "Sendero entre brumas: La cornisa protegida envolviéndose en las nieblas alpinas",
+        tags: ["Rochers-De-Naye", "Niebla Alpina", "Senderismo", "Cumbres", "Suiza"],
+        alt: "Un sendero de montaña al borde del precipicio protegido por una barandilla, con la niebla envolviendo parte de la cresta en Rochers-de-Naye."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063822/cgs_portfolio/Teleferico-de-Saleve.webp",
+        location: "Téléphérique du Salève, Pas de l'Échelle / Haute-Savoie, frontera Francia-Suiza",
+        caption: "Hacia el balcón de Ginebra: La cabina del teleférico del Salève sobre el valle",
+        tags: ["Téléphérique Du Salève", "Mont Salève", "Mirador De Ginebra", "Haute-Savoie", "Francia"],
+        alt: "La cabina del teleférico que asciende al monte Salève, ofreciendo una vista aérea del valle y la expansión urbana de Ginebra al fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063821/cgs_portfolio/Vevey-Chaplin-tenedor.webp",
+        location: "Quai Perdonnet, orilla del lago Léman, Vevey, Suiza",
+        caption: "Surrealismo lacustre: El tenedor de Jean-Pierre Zaugg y el tributo a Chaplin en Vevey",
+        tags: ["Vevey", "Quai Perdonnet", "El Tenedor De Vevey", "Charlie Chaplin", "Lago Léman", "Suiza"],
+        alt: "La estatua de Charlie Chaplin a orillas del lago en Vevey, con la inesperada escultura del tenedor gigante emergiendo de las aguas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063820/cgs_portfolio/Vevey-saltadores.webp",
+        location: "Playa urbana de Vevey, lago Léman, Suiza",
+        caption: "Vitalidad estival: Saltos al lago Léman bajo el sol de la Riviera Suiza",
+        tags: ["Vevey", "Lago Léman", "Ocio Estival", "Riviera Suiza", "Suiza"],
+        alt: "Jóvenes saltando al lago desde un trampolín natural en Vevey, capturando un momento de vitalidad y frescor en un día soleado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063822/cgs_portfolio/Castillo-de-Chillon-persona.webp",
+        location: "Muelle del Castillo de Chillon, lago Léman, Suiza",
+        caption: "Composición en azul: Sombra y quietud en el muelle lacustre bajo la bóveda de piedra",
+        tags: ["Castillo De Chillon", "Lago Léman", "Muelle De Madera", "Minimalismo", "Suiza"],
+        alt: "Silueta de una persona en un muelle de madera proyectando largas sombras sobre las aguas azules turquesas del lago, vista a través de un arco de piedra."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063823/cgs_portfolio/Vevey-tenedor-lago-aves.webp",
+        location: "Quai Perdonnet, Vevey, Suiza",
+        caption: "Paz al amanecer: Cisnes navegando ante el colosal tenedor de acero de Vevey",
+        tags: ["Vevey", "El Tenedor De Vevey", "Cisnes", "Lago Léman", "Serenidad", "Suiza"],
+        alt: "Cisnes nadando tranquilamente en el lago al amanecer, con la escultura del tenedor gigante destacando sobre las montañas envueltas en bruma azulada."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063823/cgs_portfolio/Lausana-torre.webp",
+        location: "Catedral de Notre-Dame de Lausana, Place de la Cathédrale, Lausana, Suiza",
+        caption: "Verticalidad gótica: La torre del campanario de la Cathédrale de Lausanne",
+        tags: ["Cathédrale De Lausanne", "Gótico Flamígero", "Campanario", "Lausana", "Suiza"],
+        alt: "Primer plano de la torre principal de la Catedral gótica de Lausana, con sus agujas y tejados cónicos recortados contra un cielo azul."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063827/cgs_portfolio/ONU-Ginebra-silla-agua.webp",
+        location: "Place des Nations, frente a la sede de la ONU, Ginebra, Suiza",
+        caption: "Grito contra las minas: La monumental 'Broken Chair' ante la sede de Naciones Unidas",
+        tags: ["Broken Chair", "Place Des Nations", "Daniel Berset", "ONU", "Derechos Humanos", "Ginebra", "Suiza"],
+        alt: "El monumental banco de madera con una pata rota diseñado por Daniel Berset, situado en la Place des Nations frente a la sede de la ONU en Ginebra."
+      }
     ]
   },
   {
@@ -296,26 +1070,146 @@ De regreso a las calles, el arte público cobra vida: me topo con la esculpida f
 Este registro urbano cambia en las elegantes Galerías Hubert, con sus techos de cristal y sus tiendas refinadas. No muy lejos, el diminuto Manneken Pis cumple resignado con su eterna tarea fisiológica, rodeado de turistas sonrientes que buscan el ángulo perfecto para una foto millones de veces tomada. El Palacio Real, con sus salones suntuosos, enormes lámparas de araña y decoración exquisita, me recuerdan que estoy en un Reino con monarquía constitucional y parlamentaria, aunque su papel en la política sea fundamentalmente simbólico y representativo. Y avanzada la tarde, paseo hasta la silueta futurista del Atomium, esa estructura de hierro gigantesca que simula un átomo, aunque aumentado 165 mil millones de veces.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063866/cgs_portfolio/Brujas-Markplatz-casas-flamencas-Markplatz.webp", categoria: "Europa", fecha: "Septiembre 2014", equipo: "Canon PowerShot SX200 IS",
     galeria: [
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063831/cgs_portfolio/Brujas-canal.webp", "caption": "Reflejos medievales en los canales de Brujas", "tags": ["Canal", "Arquitectura", "Brujas", "Bélgica", "Patrimonio", "Europa"], "alt": "Una pintoresca vista de edificios históricos a lo largo de un canal en Brujas, Bélgica. La imagen muestra tejados de terracota, fachadas de ladrillo y ventanas tradicionales reflejándose en el agua." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063835/cgs_portfolio/Brujas-Convento.webp", "caption": "Paz y silencio en el Beguinaje de Brujas", "tags": ["Beguinaje", "Brujas", "Arquitectura", "Jardín", "Tranquilidad"], "alt": "Serena vista del Begijnhof con un vibrante césped verde y sombras de árboles centenarios. Al fondo, una hilera de casas blancas con tejados oscuros crea un ambiente de calma." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063837/cgs_portfolio/Brujas-dos-caballos.webp", "caption": "Tradición viva: Carruajes frente a La Dentelle", "tags": ["Brujas", "Carruaje", "Estatua", "Restaurante", "Tradición"], "alt": "Un caballo de carruaje frente al restaurante La Dentelle en Brujas. En primer plano, una estatua de bronce de la cabeza de un caballo añade profundidad a la escena urbana." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063839/cgs_portfolio/Brujas-edificio.webp", "caption": "Detalles góticos del Ayuntamiento de Brujas", "tags": ["Ayuntamiento", "Gótico", "Escultura", "Detalle", "Arquitectura"], "alt": "Vista detallada de la ornamentada fachada gótica del Ayuntamiento de Brujas, con intrincados tallados en piedra y estatuas doradas." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063841/cgs_portfolio/Brujas-fachadas-torre.webp", "caption": "Perspectivas de Brujas: De las fachadas flamencas a la Catedral", "tags": ["Brujas", "Arquitectura Flamenca", "Catedral", "Historia", "Bélgica"], "alt": "Animada calle en Brujas con edificios de ladrillo y fachadas escalonadas. Al fondo, la imponente torre de piedra de la Catedral de San Salvador domina el horizonte." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063843/cgs_portfolio/Brujas-fachadas.webp", "caption": "Ritmo y textura en las fachadas de Genthof", "tags": ["Fachada", "Ladrillo", "Arquitectura", "Brujas", "Urbano"], "alt": "Detalle de varias fachadas de edificios históricos de ladrillo rojo en Brujas, destacando los arcos decorativos y los tejados escalonados típicos flamencos." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063844/cgs_portfolio/Brujas-grabado-pared.webp", "caption": "Poesía urbana: El colibrí de la calle Genthof", "tags": ["Arte callejero", "Grafiti", "Textura", "Brujas", "Detalle"], "alt": "Primer plano de una puerta metálica oxidada adornada con un grabado de un colibrí en tonos anaranjados, contrastando con la textura rugosa del metal y los ladrillos antiguos." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063846/cgs_portfolio/Brujas-Miguel-Angel-Madonna.webp", "caption": "La Madonna de Brujas: El genio de Miguel Ángel en Flandes", "tags": ["Miguel Ángel", "Escultura", "Renacimiento", "Arte religioso", "Mármol"], "alt": "La Virgen y el Niño de Miguel Ángel en mármol. La obra destaca por la expresión serena de la Virgen y la fluidez de los ropajes, resaltando sobre un fondo oscuro." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063848/cgs_portfolio/Brujas-Minnewater.webp", "caption": "Serenidad otoñal en el Minnewater", "tags": ["Minnewater", "Lago del Amor", "Brujas", "Castillo", "Reflejo"], "alt": "Vista pintoresca del Minnewater o Lago del Amor, con un edificio histórico de ladrillo reflejado en las tranquilas aguas rodeadas de vegetación exuberante." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063855/cgs_portfolio/Brujas-perro.webp", "caption": "Siesta al sol en las calles de Brujas", "tags": ["Bulldog", "Brujas", "Descanso", "Mascota", "Cotidiano"], "alt": "Un bulldog blanco descansa plácidamente sobre el adoquinado gris de una calle de Brujas, transmitiendo una sensación de calma y paz urbana." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063857/cgs_portfolio/Brujas-puente-ciclista.webp", "caption": "Vida pausada sobre los canales", "tags": ["Canal", "Puente", "Bicicleta", "Reflejo", "Europa"], "alt": "Un puente de piedra sobre un canal tranquilo en Brujas. Al fondo, edificios de ladrillo se reflejan en el agua mientras un ciclista cruza lentamente." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063859/cgs_portfolio/Brujas-tiempo-perdido.webp", "caption": "El tiempo detenido en una cesta de relojes", "tags": ["Relojes", "Nostalgia", "Arte mural", "Óxido", "Detalle"], "alt": "Una cesta de metal oxidado cuelga de una pared rústica, llena de relojes antiguos de diversos tamaños que sugieren el paso inexorable del tiempo." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063863/cgs_portfolio/Brujas-trabajadores.webp", "caption": "Preservando el legado: Restauración de fachadas", "tags": ["Restauración", "Trabajo manual", "Fachada", "Arquitectura", "Historia"], "alt": "Dos trabajadores realizan labores de mantenimiento en la fachada de un antiguo edificio de ladrillo en Brujas, concentrados en la preservación del patrimonio." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063866/cgs_portfolio/Brujas-Markplatz-casas-flamencas-Markplatz.webp", "caption": "El colorido abrazo de la Marktplatz burguense", "tags": ["Marktplatz", "Plaza", "Arquitectura Flamenca", "Terrazas", "Brujas"], "alt": "Vista de la plaza principal de Brujas con su hilera de edificios históricos de fachadas coloridas y animadas terrazas de cafeterías bajo el sol." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063868/cgs_portfolio/Bruselas-Aeropuerto.webp", "caption": "Arquitectura de despedida en el aeropuerto de Bruselas", "tags": ["Aeropuerto", "Arquitectura Moderna", "Atardecer", "Viaje", "Bruselas"], "alt": "Estructura metálica y grandes ventanales de una terminal de aeropuerto iluminados por la luz dorada del atardecer, evocando la nostalgia de la partida." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063870/cgs_portfolio/Bruselas-Atomium.webp", "caption": "El Atomium: Icono futurista bajo el cielo belga", "tags": ["Atomium", "Bruselas", "Arquitectura", "Monumento", "FUTURO"], "alt": "El icónico monumento del Atomium en Bruselas, con sus esferas de acero reluciendo bajo un cielo azul vibrante, símbolo de la modernidad belga." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063872/cgs_portfolio/Bruselas-fachada-taverna.webp", "caption": "Contrastes urbanos: Murales y tabernas tradicionales", "tags": ["Arte urbano", "Mural", "Arquitectura", "Bruselas", "Tradición"], "alt": "Fachada decorada con un mural de patrones orgánicos junto a una taberna tradicional de piedra, mostrando la mezcla de modernidad y herencia en Bruselas." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063875/cgs_portfolio/Bruselas-Grande-Place-Casa-del-Rey.webp", "caption": "La magnificencia gótica de la Maison du Roi", "tags": ["Maison du Roi", "Grand Place", "Bruselas", "Gótico", "Historia"], "alt": "Vista detallada de la Casa del Rey en la Grand Place, resaltando su elaborada arquitectura gótica con estatuas y chapiteles bajo un cielo despejado." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063876/cgs_portfolio/Bruselas-Grande-Place.webp", "caption": "Luz y sombra en la Grand Place", "tags": ["Grand Place", "Bruselas", "Arquitectura", "Luz y Sombra", "Europa"], "alt": "Perspectiva desde la sombra de un arco hacia la luminosa Grand Place, donde las fachadas ricamente decoradas brillan en el corazón de la ciudad." },
-      { "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063878/cgs_portfolio/Bruselas-SG.webp", "caption": "Pasado y presente en las calles de Brujas", "tags": ["Brujas", "Arquitectura Flamenca", "Calle", "Bicicletas", "Historia"], "alt": "Calle adoquinada de Brujas con bicicletas estacionadas frente a edificios históricos de ladrillo, capturando la esencia cotidiana de la ciudad." }
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063831/cgs_portfolio/Brujas-canal.webp",
+        location: "Canal Groenerei (Muelle Verde), Brujas, Bélgica",
+        caption: "Reflejos medievales en los canales de Brujas",
+        tags: ["Canal Groenerei", "Canales De Brujas", "Arquitectura Medieval", "Brujas", "Flandes", "Bélgica"],
+        alt: "Una pintoresca vista de edificios históricos a lo largo de un canal en Brujas, Bélgica. La imagen muestra tejados de terracota, fachadas de ladrillo y ventanas tradicionales reflejándose en el agua."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063835/cgs_portfolio/Brujas-Convento.webp",
+        location: "Beguinaje de Brujas (Begijnhof Ten Wijngaerde), Brujas, Bélgica",
+        caption: "Paz y silencio en el Beguinaje de Brujas",
+        tags: ["Begijnhof", "Beguinaje", "Patrimonio Unesco", "Brujas", "Flandes", "Bélgica"],
+        alt: "Serena vista del Begijnhof con un vibrante césped verde y sombras de árboles centenarios. Al fondo, una hilera de casas blancas con tejados oscuros crea un ambiente de calma."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063837/cgs_portfolio/Brujas-dos-caballos.webp",
+        location: "Wollestraat, frente a La Dentelle, Brujas, Bélgica",
+        caption: "Tradición viva: Carruajes frente a La Dentelle",
+        tags: ["Wollestraat", "Carruajes", "Escultura De Bronce", "Tradición", "Brujas", "Bélgica"],
+        alt: "Un caballo de carruaje frente al restaurante La Dentelle en Brujas. En primer plano, una estatua de bronce de la cabeza de un caballo añade profundidad a la escena urbana."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063839/cgs_portfolio/Brujas-edificio.webp",
+        location: "Plaza Burg y Ayuntamiento (Stadhuis), Brujas, Bélgica",
+        caption: "Detalles góticos del Ayuntamiento de Brujas",
+        tags: ["Stadhuis", "Plaza Burg", "Gótico Flamenco", "Escultura", "Brujas", "Bélgica"],
+        alt: "Vista detallada de la ornamentada fachada gótica del Ayuntamiento de Brujas, con intrincados tallados en piedra y estatuas doradas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063841/cgs_portfolio/Brujas-fachadas-torre.webp",
+        location: "Steenstraat y torre de la Catedral de San Salvador, Brujas, Bélgica",
+        caption: "Perspectivas de Brujas: De las fachadas flamencas a la Catedral",
+        tags: ["Steenstraat", "Catedral De San Salvador", "Arquitectura Flamenca", "Brujas", "Bélgica"],
+        alt: "Animada calle en Brujas con edificios de ladrillo y fachadas escalonadas. Al fondo, la imponente torre de piedra de la Catedral de San Salvador domina el horizonte."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063843/cgs_portfolio/Brujas-fachadas.webp",
+        location: "Muelle de Spiegelrei y calle Genthof, Brujas, Bélgica",
+        caption: "Ritmo y textura en las fachadas de Genthof",
+        tags: ["Spiegelrei", "Genthof", "Fachadas Flamencas", "Ladrillo Visto", "Brujas", "Bélgica"],
+        alt: "Detalle de varias fachadas de edificios históricos de ladrillo rojo en Brujas, destacando los arcos decorativos y los tejados escalonados típicos flamencos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063844/cgs_portfolio/Brujas-grabado-pared.webp",
+        location: "Callejón histórico en el barrio de Genthof, Brujas, Bélgica",
+        caption: "Poesía urbana: El colibrí de la calle Genthof",
+        tags: ["Arte Urbano", "Genthof", "Texturas", "Forja", "Brujas", "Bélgica"],
+        alt: "Primer plano de una puerta metálica oxidada adornada con un grabado de un colibrí en tonos anaranjados, contrastando con la textura rugosa del metal y los ladrillos antiguos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063846/cgs_portfolio/Brujas-Miguel-Angel-Madonna.webp",
+        location: "Iglesia de Nuestra Señora (Onze-Lieve-Vrouwekerk), Brujas, Bélgica",
+        caption: "La Madonna de Brujas: El genio de Miguel Ángel en Flandes",
+        tags: ["Madonna De Brujas", "Miguel Ángel", "Onze-Lieve-Vrouwekerk", "Escultura En Mármol", "Renacimiento", "Brujas", "Bélgica"],
+        alt: "La Virgen y el Niño de Miguel Ángel en mármol. La obra destaca por la expresión serena de la Virgen y la fluidez de los ropajes, resaltando sobre un fondo oscuro."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063848/cgs_portfolio/Brujas-Minnewater.webp",
+        location: "Minnewater (Lago del Amor), Brujas, Bélgica",
+        caption: "Serenidad otoñal en el Minnewater",
+        tags: ["Minnewater", "Lago Del Amor", "Paisaje Fluvial", "Brujas", "Flandes", "Bélgica"],
+        alt: "Vista pintoresca del Minnewater o Lago del Amor, con un edificio histórico de ladrillo reflejado en las tranquilas aguas rodeadas de vegetación exuberante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063855/cgs_portfolio/Brujas-perro.webp",
+        location: "Centro histórico de Brujas, Bélgica",
+        caption: "Siesta al sol en las calles de Brujas",
+        tags: ["Adoquines", "Vida Cotidiana", "Bulldog", "Centro Histórico", "Brujas", "Bélgica"],
+        alt: "Un bulldog blanco descansa plácidamente sobre el adoquinado gris de una calle de Brujas, transmitiendo una sensación de calma y paz urbana."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063857/cgs_portfolio/Brujas-puente-ciclista.webp",
+        location: "Puente sobre el canal Groenerei, Brujas, Bélgica",
+        caption: "Vida pausada sobre los canales",
+        tags: ["Canal Groenerei", "Puente De Piedra", "Cicloturismo", "Reflejos", "Brujas", "Bélgica"],
+        alt: "Un puente de piedra sobre un canal tranquilo en Brujas. Al fondo, edificios de ladrillo se reflejan en el agua mientras un ciclista cruza lentamente."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063859/cgs_portfolio/Brujas-tiempo-perdido.webp",
+        location: "Rincón de antigüedades en el casco histórico, Brujas, Bélgica",
+        caption: "El tiempo detenido en una cesta de relojes",
+        tags: ["Antigüedades", "Relojes Vintage", "Casco Histórico", "Brujas", "Bélgica"],
+        alt: "Una cesta de metal oxidado cuelga de una pared rústica, llena de relojes antiguos de diversos tamaños que sugieren el paso inexorable del tiempo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063863/cgs_portfolio/Brujas-trabajadores.webp",
+        location: "Calle histórica en el centro de Brujas, Bélgica",
+        caption: "Preservando el legado: Restauración de fachadas",
+        tags: ["Restauración", "Patrimonio", "Arquitectura Tradicional", "Brujas", "Bélgica"],
+        alt: "Dos trabajadores realizan labores de mantenimiento en la fachada de un antiguo edificio de ladrillo en Brujas, concentrados en la preservación del patrimonio."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063866/cgs_portfolio/Brujas-Markplatz-casas-flamencas-Markplatz.webp",
+        location: "Plaza Mayor (Marktplatz), Brujas, Bélgica",
+        caption: "El colorido abrazo de la Marktplatz burguense",
+        tags: ["Marktplatz", "Casas Gremiales", "Arquitectura Flamenca", "Brujas", "Flandes", "Bélgica"],
+        alt: "Vista de la plaza principal de Brujas con su hilera de edificios históricos de fachadas coloridas y animadas terrazas de cafeterías bajo el sol."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063868/cgs_portfolio/Bruselas-Aeropuerto.webp",
+        location: "Aeropuerto de Bruselas-Zaventem, Bruselas, Bélgica",
+        caption: "Arquitectura de despedida en el aeropuerto de Bruselas",
+        tags: ["Aeropuerto De Bruselas", "Zaventem", "Arquitectura Contemporánea", "Bruselas", "Bélgica"],
+        alt: "Estructura metálica y grandes ventanales de una terminal de aeropuerto iluminados por la luz dorada del atardecer, evocando la nostalgia de la partida."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063870/cgs_portfolio/Bruselas-Atomium.webp",
+        location: "Square de l'Atomium, Heysel, Bruselas, Bélgica",
+        caption: "El Atomium: Icono futurista bajo el cielo belga",
+        tags: ["Atomium", "Heysel", "Arquitectura Vanguardista", "Expo 58", "Bruselas", "Bélgica"],
+        alt: "El icónico monumento del Atomium en Bruselas, con sus esferas de acero reluciendo bajo un cielo azul vibrante, símbolo de la modernidad belga."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063872/cgs_portfolio/Bruselas-fachada-taverna.webp",
+        location: "Barrio histórico y ruta del cómic, Bruselas, Bélgica",
+        caption: "Contrastes urbanos: Murales y tabernas tradicionales",
+        tags: ["Ruta Del Cómic", "Muralismo", "Taberna Tradicional", "Bruselas", "Bélgica"],
+        alt: "Fachada decorada con un mural de patrones orgánicos junto a una taberna tradicional de piedra, mostrando la mezcla de modernidad y herencia en Bruselas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063875/cgs_portfolio/Bruselas-Grande-Place-Casa-del-Rey.webp",
+        location: "Casa del Rey (Maison du Roi / Broodhuis), Grand Place, Bruselas, Bélgica",
+        caption: "La magnificencia gótica de la Maison du Roi",
+        tags: ["Maison Du Roi", "Grand Place", "Gótico Flamenco", "Patrimonio Unesco", "Bruselas", "Bélgica"],
+        alt: "Vista detallada de la Casa del Rey en la Grand Place, resaltando su elaborada arquitectura gótica con estatuas y chapiteles bajo un cielo despejado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063876/cgs_portfolio/Bruselas-Grande-Place.webp",
+        location: "Grand Place (Grote Markt), Bruselas, Bélgica",
+        caption: "Luz y sombra en la Grand Place",
+        tags: ["Grand Place", "Grote Markt", "Casas Gremiales", "Patrimonio Unesco", "Bruselas", "Bélgica"],
+        alt: "Perspectiva desde la sombra de un arco hacia la luminosa Grand Place, donde las fachadas ricamente decoradas brillan en el corazón de la ciudad."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063878/cgs_portfolio/Bruselas-SG.webp",
+        location: "Centro histórico de Brujas, Bélgica",
+        caption: "Pasado y presente en las calles de Brujas",
+        tags: ["Casco Histórico", "Bicicletas", "Arquitectura Flamenca", "Brujas", "Bélgica"],
+        alt: "Calle adoquinada de Brujas con bicicletas estacionadas frente a edificios históricos de ladrillo, capturando la esencia cotidiana de la ciudad."
+      }
     ]
   },
   {
@@ -329,31 +1223,181 @@ Mi última noche la dedico a la gastronomía local en el Restaurant Prater Garde
 Definitivamente, Berlín es una metrópolis que ha sabido transformar sus cicatrices en arte y su historia en futuro.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063952/cgs_portfolio/Konzerthaus-1.webp", categoria: "Europa", fecha: "Septiembre 2011", equipo: "Canon PowerShot SX200 IS",
     galeria: [
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063884/cgs_portfolio/Alexanderplatz-1.webp", "caption": "Ritmo urbano en Alexanderplatz: El icónico tranvía amarillo de Berlín", "tags": ["Alexanderplatz", "Berlín", "Tranvía", "Escena Urbana", "Transporte Público", "Mural", "Alemania"], "alt": "Una vibrante escena urbana en Alexanderplatz, Berlín. Un tranvía amarillo brillante cruza la plaza mientras las personas caminan bajo el sol. Al fondo, un edificio luce un mural abstracto de colores primarios y se aprecia el letrero azul de la estación de metro 'U Alexanderplatz'."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063881/cgs_portfolio/Catedral.webp", "caption": "Esplendor neobarroco: La Catedral de Berlín y la Torre de Televisión bajo el sol estival", "tags": ["Berliner Dom", "Berlín", "Catedral", "Arquitectura", "Torre De Televisión", "Lustgarten", "Patrimonio"], "alt": "La majestuosa Catedral de Berlín (Berliner Dom) destaca con su cúpula verde y torres ornamentadas bajo un cielo azul despejado. En primer plano, el verde del Lustgarten invita al descanso, mientras al fondo la Fernsehturm añade un contrapunto moderno al horizonte histórico."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063885/cgs_portfolio/Charlottenburg-1.webp", "caption": "Legado prusiano: La estatua ecuestre del Gran Elector frente al Palacio de Charlottenburg", "tags": ["Palacio De Charlottenburg", "Estatua Ecuestre", "Barroco", "Escultura De Bronce", "Berlín", "Historia"], "alt": "Imponente estatua ecuestre de bronce del Gran Elector Federico Guillermo, situada frente a la elegante fachada barroca de color ocre del Palacio de Charlottenburg. La arquitectura del palacio muestra columnas clásicas y ricos relieves escultóricos."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063909/cgs_portfolio/Charlottenburg-7.webp", "caption": "Serenidad lacustre: Reflejos del Palacio de Charlottenburg en el foso real", "tags": ["Palacio De Charlottenburg", "Jardines Reales", "Arquitectura", "Reflejos", "Puente De Hierro", "Berlín"], "alt": "Vista simétrica del Palacio de Charlottenburg reflejado en las tranquilas aguas de su foso. Un puente de hierro ornamental cruza el agua en primer plano, mientras los jardines laterales enmarcan la cúpula verde del palacio contra un cielo suave."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063910/cgs_portfolio/Columna-de-la-victoria-1.webp", "caption": "Victoria dorada: La 'Goldelse' custodiando el Tiergarten", "tags": ["Columna De La Victoria", "Siegessäule", "Berlín", "Escultura Dorada", "Victoria", "Tiergarten"], "alt": "Plano detallado de la estatua dorada de Victoria, la 'Goldelse', que corona la Columna de la Victoria en Berlín. La diosa alada reluce bajo el sol, sosteniendo una corona de laurel sobre el gran parque del Tiergarten."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063948/cgs_portfolio/Fernsehturm.webp", "caption": "Perspectivas tecnológicas: El observatorio facetado de la Torre de Televisión", "tags": ["Fernsehturm", "Berlín", "Torre De Televisión", "Arquitectura Moderna", "Comunicación", "Alexanderplatz"], "alt": "Primer plano de la gran esfera de acero facetado de la Fernsehturm en Berlín. La luz se refleja intensamente en sus paneles metálicos, mientras la estructura de la antena se eleva sobre la ciudad bajo un cielo azul profundo."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063952/cgs_portfolio/Konzerthaus-1.webp", "caption": "Templo del sonido: Candelabros y órganos en el Konzerthaus de Berlín", "tags": ["Konzerthaus", "Berlín", "Gendarmenmarkt", "Arquitectura", "Música Clásica", "Órgano De Tubos", "Lujo"], "alt": "Magnífico interior del Konzerthaus de Berlín decorado con suntuosos candelabros de cristal y oro. Al fondo, un gran órgano de tubos preside la sala, evocando la opulencia y el prestigio de los grandes conciertos de la capital alemana."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063954/cgs_portfolio/Konzerthaus-4.webp", "caption": "Expectación en la sala: El anfiteatro del Konzerthaus antes del concierto", "tags": ["Konzerthaus", "Auditorio", "Artes Escénicas", "Diseño De Interiores", "Berlín", "Concierto"], "alt": "Vista desde la parte superior del auditorio del Konzerthaus, mostrando hileras de butacas clásicas tapizadas en borgoña. El ambiente sereno y la iluminación suave sugieren los instantes previos a una interpretación de música clásica."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063957/cgs_portfolio/Monumento-del-holocausto-7.webp", "caption": "Silencio y laberinto: El Memorial a los Judíos Asesinados de Europa", "tags": ["Memorial Del Holocausto", "Peter Eisenman", "Berlín", "Arquitectura Conmemorativa", "Historia", "Geometría"], "alt": "Campo de estelas de hormigón gris del Memorial del Holocausto en Berlín. Los bloques rectangulares de diferentes alturas crean un laberinto geométrico de luces y sombras profundas, invitando a la reflexión solemne sobre la historia europea."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063959/cgs_portfolio/Por-Berlin-cupula.webp", "caption": "Cúpulas neoclásicas: La Catedral de Santa Eduviges bajo la luz del ocaso", "tags": ["Catedral De Santa Eduviges", "Arquitectura Neoclásica", "Domo De Cobre", "Berlín", "Relieves", "Historia"], "alt": "Vista parcial de la cúpula de cobre verde de la Catedral de Santa Eduviges en Berlín. La luz cálida del atardecer resalta los relieves clásicos y las inscripciones en latín de la fachada de piedra arenisca."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063960/cgs_portfolio/Por-Berlin.webp", "caption": "Resplandor bizantino: La cúpula dorada de la Nueva Sinagoga de Berlín", "tags": ["Nueva Sinagoga", "Oranienburger Straße", "Arquitectura Árabe-Bizantina", "Dorado", "Berlín", "Patrimonio"], "alt": "La cúpula principal de la Nueva Sinagoga de Berlín brilla con sus intrincados diseños dorados y azules durante el atardecer. La cúpula se alza majestuosa entre los árboles, simbolizando la resiliencia y el legado cultural judío."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063962/cgs_portfolio/Postdamerplatz.webp", "caption": "Modernidad vertical: Rascacielos y vanguardia en Potsdamer Platz", "tags": ["Potsdamer Platz", "Arquitectura Moderna", "Rascacielos", "Berlín", "Deutsche Bahn", "Urbano"], "alt": "Vista diurna de los rascacielos de Potsdamer Platz, destacando el edificio de cristal curvado con el logo de Deutsche Bahn. El diseño moderno y las fachadas acristaladas reflejan el dinamismo empresarial del nuevo Berlín."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063964/cgs_portfolio/Puerta-de-Brandenburgo-1.webp", "caption": "Símbolo de unidad: La Cuadriga coronando la Puerta de Brandeburgo", "tags": ["Puerta De Brandeburgo", "Victoria", "Cuadriga", "Berlín", "Monumento", "Arquitectura Neoclásica"], "alt": "Primer plano de la famosa Cuadriga en la cima de la Puerta de Brandeburgo en Berlín. La diosa Victoria conduce su carro tirado por cuatro caballos de bronce contra un cielo parcialmente nublado."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063967/cgs_portfolio/Puerta-de-Brandenburgo-7.webp", "caption": "Noche histórica: La Puerta de Brandeburgo iluminada", "tags": ["Puerta De Brandeburgo", "Berlín Nocturno", "Iluminación Monumental", "Monumento", "Historia", "Landmark"], "alt": "Majestuosa vista nocturna de la Puerta de Brandeburgo, bañada por una luz cálida que resalta sus columnas dóricas y la suntuosidad de la Cuadriga bajo un cielo azul noche."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063968/cgs_portfolio/Ritz-perros.webp", "caption": "Husky Taxi: Contrastes curiosos frente al Ritz-Carlton de Berlín", "tags": ["The Ritz-Carlton", "Berlín", "Husky Taxi", "Contraste Urbano", "Perros Siberianos", "Lujo", "Curiosidad"], "alt": "Un grupo de perros husky descansan frente a la entrada del hotel Ritz-Carlton en Berlín, junto a un portero uniformado. La escena muestra el servicio de 'Husky Taxi', un contraste fascinante entre la naturaleza ártica y el entorno de lujo urbano."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063969/cgs_portfolio/Sony-Center.webp", "caption": "Bajo la gran carpa: El dinamismo arquitectónico del Sony Center", "tags": ["Sony Center", "Potsdamer Platz", "Helmut Jahn", "Arquitectura Moderna", "Ocio", "Berlín"], "alt": "Interior del Sony Center en Potsdamer Platz, con su espectacular techo cónico de vidrio y lona que filtra la luz sobre la plaza. Edificios futuristas abrazan el espacio donde la gente disfruta de cafeterías y cines."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063970/cgs_portfolio/Sony-Center-jirafa-Lego.webp", "caption": "Creatividad en bloques: La jirafa gigante de LEGO en el Sony Center", "tags": ["LEGO", "Sony Center", "Arte Lúdico", "Escultura", "Jirafa", "Berlín", "Curiosidad"], "alt": "Escultura a gran escala de una jirafa construida íntegramente con ladrillos LEGO amarillos y marrones. Se sitúa orgullosa frente a los edificios de cristal del Sony Center, atrayendo las miradas de los transeúntes con su colorido diseño."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789729139/Zoo_de_Berl%C3%ADn-27.webp", "location": "Zoo de Berlín", "caption": "Fortaleza serena: La imponente presencia del rinoceronte en el Zoo de Berlín", "tags": ["Zoo De Berlín", "Zoologischer Garten", "Rinoceronte", "Fauna", "Naturaleza", "Berlín"], "alt": "Primer plano lateral de la cabeza de un rinoceronte gris con dos cuernos prominentes, comiendo hierba verde sobre un suelo de tierra arenosa en el zoológico de Berlín."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789729141/Zoo_de_Berl%C3%ADn-32.webp", "location": "Zoo de Berlín", "caption": "Elegancia coronada: La grulla crestada reposando entre la espesura del zoológico", "tags": ["Zoo De Berlín", "Zoologischer Garten", "Grulla Coronada", "Aves Exóticas", "Fauna", "Naturaleza"], "alt": "Fotografía detallada de una grulla coronada reposando sobre el suelo cubierto de hierba y ramas en el Zoológico de Berlín, destacando su elegante plumaje gris, alas blancas y negras, y su distintiva cresta dorada en forma de abanico."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789729141/Zoo_de_Berl%C3%ADn-47.webp", "location": "Zoo de Berlín", "caption": "Mirada soberana: Vivos contrastes y texturas en el perfil del zopilote rey", "tags": ["Zoo De Berlín", "Zoologischer Garten", "Zopilote Rey", "Aves Rapaces", "Biodiversidad", "Retrato Animal"], "alt": "Fotografía en primer plano de la cabeza de un zopilote rey en el Zoológico de Berlín. Destaca su ojo blanco con un anillo rojo brillante, la piel arrugada de color gris oscuro en la coronilla y una carúncula carnosa, prominente y de tonos anaranjados y amarillos sobre el pico curvo."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789729145/Zoo_de_Berl%C3%ADn-49.webp", "location": "Zoo de Berlín", "caption": "Sosiego ártico: El plácido descanso del oso polar en el Zoo de Berlín", "tags": ["Zoo De Berlín", "Zoologischer Garten", "Oso Polar", "Fauna Ártica", "Naturaleza", "Berlín"], "alt": "Primer plano de un oso polar descansando en el Zoológico de Berlín, apoyando su cabeza y hocico cerca de una pata con garras visibles sobre un tronco de madera."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789729136/Zoo_de_Berl%C3%ADn-6.webp", "location": "Zoo de Berlín", "caption": "Piel de tierra: La nobleza milenaria del elefante asiático en el Zoo de Berlín", "tags": ["Zoo De Berlín", "Zoologischer Garten", "Elefante Asiático", "Fauna", "Naturaleza", "Tiergarten"], "alt": "Primer plano lateral de la cabeza y el cuello de un gran elefante cubierto de barro marrón, mostrando su piel rugosa, una oreja pequeña y un largo colmillo blanco brillante."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789729137/Zoo_de_Berl%C3%ADn-7.webp", "location": "Zoo de Berlín", "caption": "Sinfonía en rosa: Reflejos y quietud en la colonia de flamencos del Zoo de Berlín", "tags": ["Zoo De Berlín", "Zoologischer Garten", "Flamencos", "Aves Acuáticas", "Reflejos", "Naturaleza"], "alt": "Numerosos flamencos rosados y blancos están agrupados junto a la orilla de un estanque. Muchos tienen la cabeza escondida bajo el ala o descansan sobre una sola pata, creando una hermosa y simétrica imagen reflejada en la superficie oscura del agua."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789729138/Zoo_de_Berl%C3%ADn-9.webp", "location": "Zoo de Berlín", "caption": "El pensador silvestre: El porte reflexivo del gorila sobre la hierba del Zoo de Berlín", "tags": ["Zoo De Berlín", "Zoologischer Garten", "Gorila", "Primates", "Fauna", "Berlín"], "alt": "Primer plano lateral de un gorila de lomo plateado sentado sobre un frondoso prado verde en el Zoo de Berlín, apoyando pensativo su mano oscura bajo la barbilla."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789729147/Zoo_de_Berl%C3%ADn-panda.webp", "location": "Zoo de Berlín", "caption": "Festín y ternura: El almuerzo del panda gigante bajo miradas curiosas en el Zoo de Berlín", "tags": ["Zoo De Berlín", "Zoologischer Garten", "Panda Gigante", "Fauna", "Tiergarten", "Berlín"], "alt": "Un oso panda gigante está sentado en su recinto del Zoo de Berlín sosteniendo una pequeña zanahoria con sus patas. Al fondo, a través de una ventana de cristal, se asoman dos niños curiosos observando al animal con atención."}
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063884/cgs_portfolio/Alexanderplatz-1.webp",
+        location: "Alexanderplatz, Mitte, Berlín, Alemania",
+        caption: "Ritmo urbano en Alexanderplatz: El icónico tranvía amarillo de Berlín",
+        tags: ["Alexanderplatz", "Tranvía", "Transporte Público", "Mitte", "Berlín", "Alemania"],
+        alt: "Una vibrante escena urbana en Alexanderplatz, Berlín. Un tranvía amarillo brillante cruza la plaza mientras las personas caminan bajo el sol. Al fondo, un edificio luce un mural abstracto de colores primarios y se aprecia el letrero azul de la estación de metro 'U Alexanderplatz'."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063881/cgs_portfolio/Catedral.webp",
+        location: "Lustgarten y Catedral de Berlín (Berliner Dom), Mitte, Berlín, Alemania",
+        caption: "Esplendor neobarroco: La Catedral de Berlín y la Torre de Televisión bajo el sol estival",
+        tags: ["Berliner Dom", "Catedral De Berlín", "Lustgarten", "Fernsehturm", "Mitte", "Berlín", "Alemania"],
+        alt: "La majestuosa Catedral de Berlín (Berliner Dom) destaca con su cúpula verde y torres ornamentadas bajo un cielo azul despejado. En primer plano, el verde del Lustgarten invita al descanso, mientras al fondo la Fernsehturm añade un contrapunto moderno al horizonte histórico."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063885/cgs_portfolio/Charlottenburg-1.webp",
+        location: "Patio de Honor del Palacio de Charlottenburg, Berlín, Alemania",
+        caption: "Legado prusiano: La estatua ecuestre del Gran Elector frente al Palacio de Charlottenburg",
+        tags: ["Palacio De Charlottenburg", "Gran Elector", "Estatua Ecuestre", "Barroco Prusiano", "Berlín", "Alemania"],
+        alt: "Imponente estatua ecuestre de bronce del Gran Elector Federico Guillermo, situada frente a la elegante fachada barroca de color ocre del Palacio de Charlottenburg. La arquitectura del palacio muestra columnas clásicas y ricos relieves escultóricos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063909/cgs_portfolio/Charlottenburg-7.webp",
+        location: "Jardines y foso del Palacio de Charlottenburg, Berlín, Alemania",
+        caption: "Serenidad lacustre: Reflejos del Palacio de Charlottenburg en el foso real",
+        tags: ["Palacio De Charlottenburg", "Jardines Barrocos", "Puente De Hierro", "Reflejos", "Berlín", "Alemania"],
+        alt: "Vista simétrica del Palacio de Charlottenburg reflejado en las tranquilas aguas de su foso. Un puente de hierro ornamental cruza el agua en primer plano, mientras los jardines laterales enmarcan la cúpula verde del palacio contra un cielo suave."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063910/cgs_portfolio/Columna-de-la-victoria-1.webp",
+        location: "Columna de la Victoria (Siegessäule), Großer Tiergarten, Berlín, Alemania",
+        caption: "Victoria dorada: La 'Goldelse' custodiando el Tiergarten",
+        tags: ["Siegessäule", "Columna De La Victoria", "Goldelse", "Tiergarten", "Berlín", "Alemania"],
+        alt: "Plano detallado de la estatua dorada de Victoria, la 'Goldelse', que corona la Columna de la Victoria en Berlín. La diosa alada reluce bajo el sol, sosteniendo una corona de laurel sobre el gran parque del Tiergarten."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063948/cgs_portfolio/Fernsehturm.webp",
+        location: "Torre de Televisión (Fernsehturm), Alexanderplatz, Berlín, Alemania",
+        caption: "Perspectivas tecnológicas: El observatorio facetado de la Torre de Televisión",
+        tags: ["Fernsehturm", "Torre De Televisión", "Alexanderplatz", "Arquitectura", "Berlín", "Alemania"],
+        alt: "Primer plano de la gran esfera de acero facetado de la Fernsehturm en Berlín. La luz se refleja intensamente en sus paneles metálicos, mientras la estructura de la antena se eleva sobre la ciudad bajo un cielo azul profundo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063952/cgs_portfolio/Konzerthaus-1.webp",
+        location: "Sala principal del Konzerthaus, Gendarmenmarkt, Berlín, Alemania",
+        caption: "Templo del sonido: Candelabros y órganos en el Konzerthaus de Berlín",
+        tags: ["Konzerthaus", "Gendarmenmarkt", "Música Clásica", "Órgano", "Berlín", "Alemania"],
+        alt: "Magnífico interior del Konzerthaus de Berlín decorado con suntuosos candelabros de cristal y oro. Al fondo, un gran órgano de tubos preside la sala, evocando la opulencia y el prestigio de los grandes conciertos de la capital alemana."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063954/cgs_portfolio/Konzerthaus-4.webp",
+        location: "Auditorio del Konzerthaus, Gendarmenmarkt, Berlín, Alemania",
+        caption: "Expectación en la sala: El anfiteatro del Konzerthaus antes del concierto",
+        tags: ["Konzerthaus", "Gendarmenmarkt", "Sala De Conciertos", "Neoclasicismo", "Berlín", "Alemania"],
+        alt: "Vista desde la parte superior del auditorio del Konzerthaus, mostrando hileras de butacas clásicas tapizadas en borgoña. El ambiente sereno y la iluminación suave sugieren los instantes previos a una interpretación de música clásica."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063957/cgs_portfolio/Monumento-del-holocausto-7.webp",
+        location: "Monumento a los Judíos Asesinados de Europa, Mitte, Berlín, Alemania",
+        caption: "Silencio y laberinto: El Memorial a los Judíos Asesinados de Europa",
+        tags: ["Monumento Al Holocausto", "Peter Eisenman", "Memorial", "Mitte", "Berlín", "Alemania"],
+        alt: "Campo de estelas de hormigón gris del Memorial del Holocausto en Berlín. Los bloques rectangulares de diferentes alturas crean un laberinto geométrico de luces y sombras profundas, invitando a la reflexión solemne sobre la historia europea."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063959/cgs_portfolio/Por-Berlin-cupula.webp",
+        location: "Catedral de Santa Eduviges (St. Hedwigs-Kathedrale), Bebelplatz, Berlín, Alemania",
+        caption: "Cúpulas neoclásicas: La Catedral de Santa Eduviges bajo la luz del ocaso",
+        tags: ["St. Hedwigs-Kathedrale", "Bebelplatz", "Cúpula Neoclásica", "Mitte", "Berlín", "Alemania"],
+        alt: "Vista parcial de la cúpula de cobre verde de la Catedral de Santa Eduviges en Berlín. La luz cálida del atardecer resalta los relieves clásicos y las inscripciones en latín de la fachada de piedra arenisca."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063960/cgs_portfolio/Por-Berlin.webp",
+        location: "Nueva Sinagoga (Neue Synagoge), Oranienburger Straße, Spandauer Vorstadt, Berlín, Alemania",
+        caption: "Resplandor bizantino: La cúpula dorada de la Nueva Sinagoga de Berlín",
+        tags: ["Neue Synagoge", "Oranienburger Straße", "Arquitectura Morisca", "Spandauer Vorstadt", "Berlín", "Alemania"],
+        alt: "La cúpula principal de la Nueva Sinagoga de Berlín brilla con sus intrincados diseños dorados y azules durante el atardecer. La cúpula se alza majestuosa entre los árboles, simbolizando la resiliencia y el legado cultural judío."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063962/cgs_portfolio/Postdamerplatz.webp",
+        location: "Potsdamer Platz, Mitte/Tiergarten, Berlín, Alemania",
+        caption: "Modernidad vertical: Rascacielos y vanguardia en Potsdamer Platz",
+        tags: ["Potsdamer Platz", "BahnTower", "Arquitectura Contemporánea", "Rascacielos", "Berlín", "Alemania"],
+        alt: "Vista diurna de los rascacielos de Potsdamer Platz, destacando el edificio de cristal curvado con el logo de Deutsche Bahn. El design moderno y las fachadas acristaladas reflejan el dinamismo empresarial del nuevo Berlín."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063964/cgs_portfolio/Puerta-de-Brandenburgo-1.webp",
+        location: "Cuadriga de la Puerta de Brandeburgo, Pariser Platz, Berlín, Alemania",
+        caption: "Símbolo de unidad: La Cuadriga coronando la Puerta de Brandeburgo",
+        tags: ["Puerta De Brandeburgo", "Cuadriga De Schadow", "Pariser Platz", "Monumento", "Berlín", "Alemania"],
+        alt: "Primer plano de la famosa Cuadriga en la cima de la Puerta de Brandeburgo en Berlín. La diosa Victoria conduce su carro tirado por cuatro caballos de bronce contra un cielo parcialmente nublado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063967/cgs_portfolio/Puerta-de-Brandenburgo-7.webp",
+        location: "Puerta de Brandeburgo, Pariser Platz, Berlín, Alemania",
+        caption: "Noche histórica: La Puerta de Brandeburgo iluminada",
+        tags: ["Puerta De Brandeburgo", "Pariser Platz", "Iluminación Nocturna", "Monumento", "Berlín", "Alemania"],
+        alt: "Majestuosa vista nocturna de la Puerta de Brandeburgo, bañada por una luz cálida que resalta sus columnas dóricas y la suntuosidad de la Cuadriga bajo un cielo azul noche."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063968/cgs_portfolio/Ritz-perros.webp",
+        location: "The Ritz-Carlton Berlin, Potsdamer Platz, Berlín, Alemania",
+        caption: "Husky Taxi: Contrastes curiosos frente al Ritz-Carlton de Berlín",
+        tags: ["The Ritz-Carlton", "Potsdamer Platz", "Husky Taxi", "Curiosidades", "Berlín", "Alemania"],
+        alt: "Un grupo de perros husky descansan frente a la entrada del hotel Ritz-Carlton en Berlín, junto a un portero uniformado. La escena muestra el servicio de 'Husky Taxi', un contraste fascinante entre la naturaleza ártica y el entorno de lujo urbano."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063969/cgs_portfolio/Sony-Center.webp",
+        location: "Cúpula del Sony Center, Potsdamer Platz, Berlín, Alemania",
+        caption: "Bajo la gran carpa: El dinamismo arquitectónico del Sony Center",
+        tags: ["Sony Center", "Helmut Jahn", "Potsdamer Platz", "Arquitectura Vanguardista", "Berlín", "Alemania"],
+        alt: "Interior del Sony Center en Potsdamer Platz, con su espectacular techo cónico de vidrio y lona que filtra la luz sobre la plaza. Edificios futuristas abrazan el espacio donde la gente disfruta de cafeterías y cines."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063970/cgs_portfolio/Sony-Center-jirafa-Lego.webp",
+        location: "Sony Center (Legoland Discovery Centre), Potsdamer Platz, Berlín, Alemania",
+        caption: "Creatividad en bloques: La jirafa gigante de LEGO en el Sony Center",
+        tags: ["Sony Center", "Lego Giraffe", "Legoland", "Potsdamer Platz", "Berlín", "Alemania"],
+        alt: "Escultura a gran escala de una jirafa construida íntegramente con ladrillos LEGO amarillos y marrones. Se sitúa orgullosa frente a los edificios de cristal del Sony Center, atrayendo las miradas de los transeúntes con su colorido diseño."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789729139/Zoo_de_Berl%C3%ADn-27.webp",
+        location: "Zoológico de Berlín (Zoologischer Garten), Tiergarten, Berlín, Alemania",
+        caption: "Fortaleza serena: La imponente presencia del rinoceronte en el Zoo de Berlín",
+        tags: ["Zoo De Berlín", "Zoologischer Garten", "Rinoceronte", "Fauna", "Naturaleza", "Berlín"],
+        alt: "Primer plano lateral de la cabeza de un rinoceronte gris con dos cuernos prominentes, comiendo hierba verde sobre un suelo de tierra arenosa en el zoológico de Berlín."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789729141/Zoo_de_Berl%C3%ADn-32.webp",
+        location: "Zoológico de Berlín (Zoologischer Garten), Tiergarten, Berlín, Alemania",
+        caption: "Elegancia coronada: La grulla crestada reposando entre la espesura del zoológico",
+        tags: ["Zoo De Berlín", "Zoologischer Garten", "Grulla Coronada", "Aves Exóticas", "Fauna", "Naturaleza"],
+        alt: "Fotografía detallada de una grulla coronada reposando sobre el suelo cubierto de hierba y ramas en el Zoológico de Berlín, destacando su elegante plumaje gris, alas blancas y negras, y su distintiva cresta dorada en forma de abanico."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789729141/Zoo_de_Berl%C3%ADn-47.webp",
+        location: "Zoológico de Berlín (Zoologischer Garten), Tiergarten, Berlín, Alemania",
+        caption: "Mirada soberana: Vivos contrastes y texturas en el perfil del zopilote rey",
+        tags: ["Zoo De Berlín", "Zoologischer Garten", "Zopilote Rey", "Aves Rapaces", "Biodiversidad", "Retrato Animal"],
+        alt: "Fotografía en primer plano de la cabeza de un zopilote rey en el Zoológico de Berlín. Destaca su ojo blanco con un anillo rojo brillante, la piel arrugada de color gris oscuro en la coronilla y una carúncula carnosa, prominente y de tonos anaranjados y amarillos sobre el pico curvo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789729145/Zoo_de_Berl%C3%ADn-49.webp",
+        location: "Zoológico de Berlín (Zoologischer Garten), Tiergarten, Berlín, Alemania",
+        caption: "Sosiego ártico: El plácido descanso del oso polar en el Zoo de Berlín",
+        tags: ["Zoo De Berlín", "Zoologischer Garten", "Oso Polar", "Fauna Ártica", "Naturaleza", "Berlín"],
+        alt: "Primer plano de un oso polar descansando en el Zoológico de Berlín, apoyando su cabeza y hocico cerca de una pata con garras visibles sobre un tronco de madera."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789729136/Zoo_de_Berl%C3%ADn-6.webp",
+        location: "Zoológico de Berlín (Zoologischer Garten), Tiergarten, Berlín, Alemania",
+        caption: "Piel de tierra: La nobleza milenaria del elefante asiático en el Zoo de Berlín",
+        tags: ["Zoo De Berlín", "Zoologischer Garten", "Elefante Asiático", "Fauna", "Naturaleza", "Tiergarten"],
+        alt: "Primer plano lateral de la cabeza y el cuello de un gran elefante cubierto de barro marrón, mostrando su piel rugosa, una oreja pequeña y un largo colmillo blanco brillante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789729137/Zoo_de_Berl%C3%ADn-7.webp",
+        location: "Zoológico de Berlín (Zoologischer Garten), Tiergarten, Berlín, Alemania",
+        caption: "Sinfonía en rosa: Reflejos y quietud en la colonia de flamencos del Zoo de Berlín",
+        tags: ["Zoo De Berlín", "Zoologischer Garten", "Flamencos", "Aves Acuáticas", "Reflejos", "Naturaleza"],
+        alt: "Numerosos flamencos rosados y blancos están agrupados junto a la orilla de un estanque. Muchos tienen la cabeza escondida bajo el ala o descansan sobre una sola pata, creando una hermosa y simétrica imagen reflejada en la superficie oscura del agua."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789729138/Zoo_de_Berl%C3%ADn-9.webp",
+        location: "Zoológico de Berlín (Zoologischer Garten), Tiergarten, Berlín, Alemania",
+        caption: "El pensador silvestre: El porte reflexivo del gorila sobre la hierba del Zoo de Berlín",
+        tags: ["Zoo De Berlín", "Zoologischer Garten", "Gorila", "Primates", "Fauna", "Berlín"],
+        alt: "Primer plano lateral de un gorila de lomo plateado sentado sobre un frondoso prado verde en el Zoo de Berlín, apoyando pensativo su mano oscura bajo la barbilla."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789729147/Zoo_de_Berl%C3%ADn-panda.webp",
+        location: "Zoológico de Berlín (Zoologischer Garten), Tiergarten, Berlín, Alemania",
+        caption: "Festín y ternura: El almuerzo del panda gigante bajo miradas curiosas en el Zoo de Berlín",
+        tags: ["Zoo De Berlín", "Zoologischer Garten", "Panda Gigante", "Fauna", "Tiergarten", "Berlín"],
+        alt: "Un oso panda gigante está sentado en su recinto del Zoo de Berlín sosteniendo una pequeña zanahoria con sus patas. Al fondo, a través de una ventana de cristal, se asoman dos niños curiosos observando al animal con atención."
+      }
     ]
   },
 
@@ -581,19 +1625,97 @@ Luego, la Iglesia de Týn emerge como una aparición de cuento de hadas. Sus agu
 Antes de partir, paseamos por los Jardines Reales, cuyos parterres geométricos y fuentes cantarinas ofrecen un respiro de la intensidad urbana. Es una buena imagen para despedirse de Praga: con las hojas de los árboles centenarios danzando con la brisa primaveral, mientras una pareja pasea tranquilamente por los senderos bien cuidados, bajo el azul cielo bohemio.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063976/cgs_portfolio/Casas-danzantes-Frank-Ghery.webp", categoria: "Europa", fecha: "Septiembre 1996 - 2008", equipo: "Minolta X300s - NIKON COOLPIX L4",
     galeria: [
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063974/cgs_portfolio/Casas-danzantes-3-_3_.webp", "caption": "El baile asimétrico de Ginger y Fred sobre el Moldava", "tags": ["Casas Danzantes", "arquitectura", "Frank Gehry", "Praga", "Moldava"], "alt": "Una vista icónica en blanco y negro de la orilla del río Moldava en Praga, destacando la famosa Casa Danzante y edificios adyacentes. Las estructuras se reflejan nítidamente en la tranquila superficie del agua."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063976/cgs_portfolio/Casas-danzantes-Frank-Ghery.webp", "caption": "Deconstrucción y movimiento en la arquitectura de Gehry", "tags": ["Casas Danzantes", "arquitectura", "Frank Gehry", "Praga", "deconstructivismo"], "alt": "La Casa Danzante, también conocida como Fred y Ginger, es un icónico edificio deconstructivista ubicado en Praga, diseñado por Vlado Milunić y Frank Gehry."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063977/cgs_portfolio/Catedral-de-San-Vito-10.webp", "caption": "Gótico majestuoso en la Catedral de San Vito", "tags": ["Catedral de San Vito", "gótico", "arquitectura religiosa", "Praga", "vitrales"], "alt": "Interior de la majestuosa Catedral de San Vito en Praga, mostrando su impresionante arquitectura gótica con altas columnas estriadas y grandes ventanales de vidrieras."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063979/cgs_portfolio/Cementeria-judio-05.webp", "caption": "Lápidas amontonadas por el tiempo en el barrio de Josefov", "tags": ["cementerio judío", "Josefov", "historia", "lápidas", "Praga", "antigüedad"], "alt": "Una vista del Antiguo Cementerio Judío de Praga, mostrando una multitud densa de lápidas antiguas y desgastadas, muchas cubiertas de musgo y apiñadas de forma irregular."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063982/cgs_portfolio/DSCN1014.webp", "caption": "Rincones ocultos en las callejuelas de la Ciudad Vieja", "tags": ["calle", "arquitectura", "Praga", "Ciudad Vieja", "urbano", "blanco y negro"], "alt": "Una vista en blanco y negro de una hilera de edificios históricos, caracterizados por tejados de tejas inclinadas, buhardillas y fachadas con rica ornamentación."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063983/cgs_portfolio/DSCN1145.webp", "caption": "La pátina del tiempo en los muros de la capital bohemia", "tags": ["arquitectura", "fachada", "Praga", "historia", "detalle", "tres violines"], "alt": "Detalle arquitectónico que presenta un relieve artístico de tres violines de madera, dispuestos dinámicamente sobre un fondo azul pintado que simula un cielo con soles y estrellas."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063984/cgs_portfolio/Hus-e-Iglesia-del-Tyn.webp", "caption": "Las torres negras de Týn vigilando la Plaza de la Ciudad Vieja", "tags": ["Iglesia de Týn", "Jan Hus", "plaza", "Praga", "arquitectura gótica"], "alt": "Vista icónica de la Plaza de la Ciudad Vieja en Praga, destacando la imponente Iglesia de Nuestra Señora de Týn con sus distintivas torres góticas y el monumento a Jan Hus."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063985/cgs_portfolio/Paseos-por-Praga-06.webp", "caption": "Sombras y luces en fachadas que cruzan la historia", "tags": ["arquitectura", "fachada", "Praga", "urbano", "historia", "colores"], "alt": "La imagen muestra una hilera de edificios históricos de estilo arquitectónico europeo, destacando por sus fachadas de colores vibrantes como amarillo intenso y verde pastel."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063987/cgs_portfolio/Paseos-por-Praga-08.webp", "caption": "Siluetas que narran leyendas de Praga", "tags": ["silueta", "arquitectura", "Praga", "noche", "contraste"], "alt": "Una vista exterior de una calle en Praga, mostrando una interesante mezcla arquitectónica donde coexisten la famosa Casa Danzante y edificios históricos de estilo clásico."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063990/cgs_portfolio/Paseos-por-Praga-09.webp", "caption": "La melancolía de una ciudad que nunca duerme del todo", "tags": ["calle", "noche", "Praga", "urbano", "Art Nouveau"], "alt": "Una hilera de edificios históricos con fachadas ornamentadas bajo un cielo azul vibrante, destacando el estilo Art Nouveau con elaborados balcones de hierro forjado."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063991/cgs_portfolio/Vistas-desde-el-parque-de-Petrin-04.webp", "caption": "El mar de tejados rojos desde la colina de Petrín", "tags": ["vistas aéreas", "tejados", "Praga", "Petrín", "Puente de Carlos"], "alt": "Vista panorámica de Praga destacando el icónico Puente de Carlos abarrotado de gente sobre el río Moldava, capturando la arquitectura de tejados rojos y cúpulas."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063994/cgs_portfolio/Vistas-desde-el-parque-de-Petrin-08.webp", "caption": "Plano inclinado bajo la luz de la tarde", "tags": ["vistas aéreas", "Praga", "Petrín", "paisaje", "Catedral de San Vito"], "alt": "Una escena serena en Praga, mostrando a dos personas relajándose en una colina de hierba verde con la majestuosa Catedral de San Vito al fondo bajo un cielo nublado."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789730654/Zoo-Praga-hipopotamo.webp", "location": "Zoo de Praga", "caption": "Bostezo descomunal: Un hipopótamo en el Zoo de Praga parece querer tragarse el mundo", "tags": ["Zoo De Praga", "Hipopótamo", "Fauna", "Zoológico", "Praga", "Naturaleza"], "alt": "Primer plano de un hipopótamo en el Zoo de Praga con las fauces abiertas de par en par en un descomunal bostezo, dejando a la vista sus dientes y poderosa mandíbula."}
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063974/cgs_portfolio/Casas-danzantes-3-_3_.webp",
+        location: "Riberas del río Moldava (Casa Danzante), Nové Město, Praga, República Checa",
+        caption: "El baile asimétrico de Ginger y Fred sobre el Moldava",
+        tags: ["Casa Danzante", "Frank Gehry", "Río Moldava", "Nové Město", "Praga", "República Checa"],
+        alt: "Una vista icónica en blanco y negro de la orilla del río Moldava en Praga, destacando la famosa Casa Danzante y edificios adyacentes. Las estructuras se reflejan nítidamente en la tranquila superficie del agua."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063976/cgs_portfolio/Casas-danzantes-Frank-Ghery.webp",
+        location: "Casa Danzante (Nationale-Nederlanden), Nové Město, Praga, República Checa",
+        caption: "Deconstrucción y movimiento en la arquitectura de Gehry",
+        tags: ["Casa Danzante", "Frank Gehry", "Vlado Milunić", "Deconstructivismo", "Praga", "República Checa"],
+        alt: "La Casa Danzante, también conocida como Fred y Ginger, es un icónico edificio deconstructivista ubicado en Praga, diseñado por Vlado Milunić y Frank Gehry."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063977/cgs_portfolio/Catedral-de-San-Vito-10.webp",
+        location: "Catedral de San Vito, Castillo de Praga, Hradčany, Praga, República Checa",
+        caption: "Gótico majestuoso en la Catedral de San Vito",
+        tags: ["Catedral De San Vito", "Castillo De Praga", "Gótico Bohemio", "Vitrales", "Hradčany", "Praga", "República Checa"],
+        alt: "Interior de la majestuosa Catedral de San Vito en Praga, mostrando su impresionante arquitectura gótica con altas columnas estriadas y grandes ventanales de vidrieras."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063979/cgs_portfolio/Cementeria-judio-05.webp",
+        location: "Antiguo Cementerio Judío, Josefov, Praga, República Checa",
+        caption: "Lápidas amontonadas por el tiempo en el barrio de Josefov",
+        tags: ["Cementerio Judío", "Josefov", "Lápidas Históricas", "Patrimonio Judío", "Praga", "República Checa"],
+        alt: "Una vista del Antiguo Cementerio Judío de Praga, mostrando una multitud densa de lápidas antiguas y desgastadas, muchas cubiertas de musgo y apiñadas de forma irregular."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063982/cgs_portfolio/DSCN1014.webp",
+        location: "Callejuelas de Staré Město (Ciudad Vieja), Praga, República Checa",
+        caption: "Rincones ocultos en las callejuelas de la Ciudad Vieja",
+        tags: ["Staré Město", "Ciudad Vieja", "Arquitectura Tradicional", "Tejados", "Praga", "República Checa"],
+        alt: "Una vista en blanco y negro de una hilera de edificios históricos, caracterizados por tejados de tejas inclinadas, buhardillas y fachadas con rica ornamentación."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063983/cgs_portfolio/DSCN1145.webp",
+        location: "Casa de los Tres Violines (U tří housliček), Nerudova, Malá Strana, Praga, República Checa",
+        caption: "La pátina del tiempo en los muros de la capital bohemia",
+        tags: ["Casa De Los Tres Violines", "Nerudova", "Malá Strana", "Relieves", "Praga", "República Checa"],
+        alt: "Detalle arquitectónico que presenta un relieve artístico de tres violines de madera, dispuestos dinámicamente sobre un fondo azul pintado que simula un cielo con soles y estrellas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063984/cgs_portfolio/Hus-e-Iglesia-del-Tyn.webp",
+        location: "Plaza de la Ciudad Vieja (Staroměstské náměstí), Praga, República Checa",
+        caption: "Las torres negras de Týn vigilando la Plaza de la Ciudad Vieja",
+        tags: ["Iglesia De Týn", "Jan Hus", "Staroměstské Náměstí", "Gótico", "Praga", "República Checa"],
+        alt: "Vista icónica de la Plaza de la Ciudad Vieja en Praga, destacando la imponente Iglesia de Nuestra Señora de Týn con sus distintivas torres góticas y el monumento a Jan Hus."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063985/cgs_portfolio/Paseos-por-Praga-06.webp",
+        location: "Casco histórico de Praga, República Checa",
+        caption: "Sombras y luces en fachadas que cruzan la historia",
+        tags: ["Fachadas Tradicionales", "Barroco Bohemio", "Arquitectura", "Praga", "República Checa"],
+        alt: "La imagen muestra una hilera de edificios históricos de estilo arquitectónico europeo, destacando por sus fachadas de colores vibrantes como amarillo intenso y verde pastel."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063987/cgs_portfolio/Paseos-por-Praga-08.webp",
+        location: "Riberas del Moldava junto a la Casa Danzante, Praga, República Checa",
+        caption: "Siluetas que narran leyendas de Praga",
+        tags: ["Río Moldava", "Casa Danzante", "Contraste Urbano", "Praga", "República Checa"],
+        alt: "Una vista exterior de una calle en Praga, mostrando una interesante mezcla arquitectónica donde coexisten la famosa Casa Danzante y edificios históricos de estilo clásico."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063990/cgs_portfolio/Paseos-por-Praga-09.webp",
+        location: "Avenida Národní y entorno Art Nouveau, Praga, República Checa",
+        caption: "La melancolía de una ciudad que nunca duerme del todo",
+        tags: ["Art Nouveau", "Arquitectura Secesión", "Escena Urbana", "Praga", "República Checa"],
+        alt: "Una hilera de edificios históricos con fachadas ornamentadas bajo un cielo azul vibrante, destacando el estilo Art Nouveau con elaborados balcones de hierro forjado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063991/cgs_portfolio/Vistas-desde-el-parque-de-Petrin-04.webp",
+        location: "Colina de Petřín con vistas al Puente de Carlos y Moldava, Praga, República Checa",
+        caption: "El mar de tejados rojos desde la colina de Petrín",
+        tags: ["Colina De Petřín", "Puente De Carlos", "Río Moldava", "Vistas Panorámicas", "Praga", "República Checa"],
+        alt: "Vista panorámica de Praga destacando el icónico Puente de Carlos abarrotado de gente sobre el río Moldava, capturando la arquitectura de tejados rojos y cúpulas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063994/cgs_portfolio/Vistas-desde-el-parque-de-Petrin-08.webp",
+        location: "Jardines de la Colina de Petřín frente al Castillo de Praga, República Checa",
+        caption: "Plano inclinado bajo la luz de la tarde",
+        tags: ["Colina De Petřín", "Catedral De San Vito", "Castillo De Praga", "Jardines", "Praga", "República Checa"],
+        alt: "Una escena serena en Praga, mostrando a dos personas relajándose en una colina de hierba verde con la majestuosa Catedral de San Vito al fondo bajo un cielo nublado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1789730654/Zoo-Praga-hipopotamo.webp",
+        location: "Zoológico de Praga (Zoo Praha), Troja, Praga, República Checa",
+        caption: "Bostezo descomunal: Un hipopótamo en el Zoo de Praga parece querer tragarse el mundo",
+        tags: ["Zoo De Praga", "Zoo Praha", "Hipopótamo", "Fauna", "Troja", "Praga", "República Checa"],
+        alt: "Primer plano de un hipopótamo en el Zoo de Praga con las fauces abiertas de par en par en un descomunal bostezo, dejando a la vista sus dientes y poderosa mandíbula."
+      }
     ]
   },
   {
@@ -692,31 +1814,163 @@ Volví a la música para escuchar los acordes del órgano de la Westerkerk bajo 
 Dejé la capital neerlandesa tras haber recorrido en sus calles, parques, canales y museos el equivalente a dos maratones, y con la sensación de que cada metro caminado valió la pena.`,
     urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064062/cgs_portfolio/EYE-Instituto-Holandes-de-Cine-006.webp", categoria: "Europa", fecha: "Septiembre 2013", equipo: "Canon PowerShot SX200 IS",
     galeria: [
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063998/cgs_portfolio/Enjambre-Bicicletas.webp", "caption": "Caosmosis urbana: el enjambre de bicicletas frente a la Basílica de San Nicolás", "tags": ["movilidad", "bicicletas", "Basílica de San Nicolás", "arquitectura", "Ámsterdam", "caos dinámico"], "alt": "Perspectiva de gran angular que muestra cientos de bicicletas estacionadas en densas hileras en primer plano, con la imponente Basílica de San Nicolás y sus cúpulas gemelas dominando el horizonte bajo un cielo azul vibrante."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064000/cgs_portfolio/Por-la-ciudad-chica-ventana.webp", "caption": "Transparencia y cotidianeidad: la luz de la tarde en un alféizar de De Pijp", "tags": ["cotidianidad", "luz natural", "arquitectura", "ventana", "Ámsterdam", "estilo de vida"], "alt": "Primer plano de una joven sentada de forma relajada y descalza en el alféizar de un ventanal de una casa de ladrillo rojo, capturada en un momento de introspección bañado por una cálida luz lateral."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064002/cgs_portfolio/Por-la-ciudad-004-fachadas.webp", "caption": "El ritmo de los gabletes: fachadas históricas que se asoman al canal", "tags": ["arquitectura", "Casas de Canal", "historia", "Patrimonio", "Ámsterdam", "diseño"], "alt": "Vista frontal de una hilera de casas tradicionales de Ámsterdam con diferentes terminaciones de gabletes (cuello, campana y escalón), destacando los contrastes entre ladrillo oscuro, marcos blancos y el cielo despejado."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064004/cgs_portfolio/Stadssshouwburg-001.webp", "caption": "Verticalidad barroca: los palcos dorados del Stadsschouwburg", "tags": ["teatro", "ópera", "interiores", "arquitectura barroca", "Ámsterdam", "cultura"], "alt": "Vista en contrapicado de los múltiples niveles de palcos circulares de un teatro clásico, mostrando una opulenta decoración en oro, terciopelo rojo y la inscripción SPQA en el arco del proscenio."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064059/cgs_portfolio/Westerkerk-002.webp", "caption": "La voz de la Westerkerk: el monumental órgano barroco y su espacio sagrado", "tags": ["Westerkerk", "órgano", "barroco", "arquitectura religiosa", "Ámsterdam", "música"], "alt": "Interior de la iglesia Westerkerk destacando el gigantesco órgano ricamente tallado y decorado con figuras doradas, rodeado por la austeridad de los arcos blancos y la luz cenital del templo."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064062/cgs_portfolio/EYE-Instituto-Holandes-de-Cine-006.webp", "caption": "Futurismo sobre el IJ: la proa de cristal del EYE Filmmuseum", "tags": ["EYE Filmmuseum", "arquitectura contemporánea", "río IJ", "museo", "Ámsterdam", "vanguardia"], "alt": "Arquitectura deconstructivista del Museo del Cine EYE en Ámsterdam, un edificio blanco y angulado que recuerda a un ojo o un barco moderno, situado frente a las aguas del río IJ bajo una luz nítida."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064064/cgs_portfolio/Estacion-Central-001.webp", "caption": "Geometría luminosa: el techo caleidoscópico de la Estación Central", "tags": ["ingeniería", "arquitectura moderna", "Estación Central", "lucernario", "Ámsterdam", "abstracción"], "alt": "Detalle abstracto del techo curvo de la estación, compuesto por paneles geométricos translúcidos en tonos naranjas y rojos que filtran la luz solar creando un patrón rítmico y futurista."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064066/cgs_portfolio/Quesos-holandeses.webp", "caption": "Bodegón urbano: ruedas de Gouda bajo el sol de mediodía", "tags": ["gastronomía", "queso holandés", "tradición", "escaparate", "Ámsterdam", "detalle"], "alt": "Composición centrada en una ventana de ladrillo donde se exhiben verticalmente grandes ruedas de queso de color naranja intenso, iluminadas por un rayo de sol que destaca su textura y color."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064068/cgs_portfolio/Plaza-Rembrandt-001.webp", "caption": "La Ronda de Noche en 3D: diálogo entre el bronce y el paseante", "tags": ["Rembrandt", "escultura", "La Ronda de Noche", "Rembrandtplein", "Ámsterdam", "arte público"], "alt": "Conjunto escultórico de bronce en la Plaza Rembrandt que recrea a los personajes de la famosa pintura de Rembrandt, con un turista real posando entre las figuras de los milicianos."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064071/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum-009.webp", "caption": "Perspectivas de Moore: el Rijksmuseum enmarcado en bronce", "tags": ["Henry Moore", "escultura", "Rijksmuseum", "arte moderno", "Ámsterdam", "perspectiva"], "alt": "Fotografía creativa tomada a través de una abertura orgánica en una escultura de Henry Moore, enmarcando a lo lejos otra estatua y el flujo de gente en los jardines del museo."},
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063998/cgs_portfolio/Enjambre-Bicicletas.webp",
+        location: "Prins Hendrikkade, frente a la Basílica de San Nicolás, Ámsterdam, Países Bajos",
+        caption: "Caosmosis urbana: el enjambre de bicicletas frente a la Basílica de San Nicolás",
+        tags: ["Bicicletas", "Basílica De San Nicolás", "Prins Hendrikkade", "Movilidad Urbana", "Ámsterdam", "Países Bajos"],
+        alt: "Perspectiva de gran angular que muestra cientos de bicicletas estacionadas en densas hileras en primer plano, con la imponente Basílica de San Nicolás y sus cúpulas gemelas dominando el horizonte bajo un cielo azul vibrante."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064000/cgs_portfolio/Por-la-ciudad-chica-ventana.webp",
+        location: "Barrio de De Pijp, Ámsterdam, Países Bajos",
+        caption: "Transparencia y cotidianeidad: la luz de la tarde en un alféizar de De Pijp",
+        tags: ["De Pijp", "Vida Cotidiana", "Arquitectura Tradicional", "Luz Natural", "Ámsterdam", "Países Bajos"],
+        alt: "Primer plano de una joven sentada de forma relajada y descalza en el alféizar de un ventanal de una casa de ladrillo rojo, capturada en un momento de introspección bañado por una cálida luz lateral."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064002/cgs_portfolio/Por-la-ciudad-004-fachadas.webp",
+        location: "Canales del cinturón de Grachtengordel, Ámsterdam, Países Bajos",
+        caption: "El ritmo de los gabletes: fachadas históricas que se asoman al canal",
+        tags: ["Casas De Canal", "Gabletes Flamencos", "Grachtengordel", "Patrimonio Unesco", "Ámsterdam", "Países Bajos"],
+        alt: "Vista frontal de una hilera de casas tradicionales de Ámsterdam con diferentes terminaciones de gabletes (cuello, campana y escalón), destacando los contrastes entre ladrillo oscuro, marcos blancos y el cielo despejado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064004/cgs_portfolio/Stadssshouwburg-001.webp",
+        location: "Teatro Municipal (Stadsschouwburg), Leidseplein, Ámsterdam, Países Bajos",
+        caption: "Verticalidad barroca: los palcos dorados del Stadsschouwburg",
+        tags: ["Stadsschouwburg", "Leidseplein", "Teatro Clásico", "Palcos Dorados", "Ámsterdam", "Países Bajos"],
+        alt: "Vista en contrapicado de los múltiples niveles de palcos circulares de un teatro clásico, mostrando una opulenta decoración en oro, terciopelo rojo y la inscripción SPQA en el arco del proscenio."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064059/cgs_portfolio/Westerkerk-002.webp",
+        location: "Iglesia Westerkerk, barrio de Jordaan, Ámsterdam, Países Bajos",
+        caption: "La voz de la Westerkerk: el monumental órgano barroco y su espacio sagrado",
+        tags: ["Westerkerk", "Órgano Barroco", "Jordaan", "Arquitectura Religiosa", "Ámsterdam", "Países Bajos"],
+        alt: "Interior de la iglesia Westerkerk destacando el gigantesco órgano ricamente tallado y decorado con figuras doradas, rodeado por la austeridad de los arcos blancos y la luz cenital del templo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064062/cgs_portfolio/EYE-Instituto-Holandes-de-Cine-006.webp",
+        location: "EYE Filmmuseum, orilla norte del río IJ, Ámsterdam, Países Bajos",
+        caption: "Futurismo sobre el IJ: la proa de cristal del EYE Filmmuseum",
+        tags: ["EYE Filmmuseum", "Río IJ", "Arquitectura Contemporánea", "Delugan Meissl", "Ámsterdam", "Países Bajos"],
+        alt: "Arquitectura deconstructivista del Museo del Cine EYE en Ámsterdam, un edificio blanco y angulado que recuerda a un ojo o un barco moderno, situado frente a las aguas del río IJ bajo una luz nítida."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064064/cgs_portfolio/Estacion-Central-001.webp",
+        location: "Estación Central (Amsterdam Centraal), Ámsterdam, Países Bajos",
+        caption: "Geometría luminosa: el techo caleidoscópico de la Estación Central",
+        tags: ["Amsterdam Centraal", "Cubierta Acristalada", "Ingeniería Ferroviaria", "Ámsterdam", "Países Bajos"],
+        alt: "Detalle abstracto del techo curvo de la estación, compuesto por paneles geométricos translúcidos en tonos naranjas y rojos que filtran la luz solar creando un patrón rítmico y futurista."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064066/cgs_portfolio/Quesos-holandeses.webp",
+        location: "Tienda tradicional de quesos en el centro histórico, Ámsterdam, Países Bajos",
+        caption: "Bodegón urbano: ruedas de Gouda bajo el sol de mediodía",
+        tags: ["Queso Gouda", "Gastronomía Holandesa", "Escaparate", "Tradición", "Ámsterdam", "Países Bajos"],
+        alt: "Composición centrada en una ventana de ladrillo donde se exhiben verticalmente grandes ruedas de queso de color naranja intenso, iluminadas por un rayo de sol que destaca su textura y color."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064068/cgs_portfolio/Plaza-Rembrandt-001.webp",
+        location: "Rembrandtplein (Plaza Rembrandt), Ámsterdam, Países Bajos",
+        caption: "La Ronda de Noche en 3D: diálogo entre el bronce y el paseante",
+        tags: ["Rembrandtplein", "La Ronda De Noche", "Esculturas De Bronce", "Rembrandt", "Ámsterdam", "Países Bajos"],
+        alt: "Conjunto escultórico de bronce en la Plaza Rembrandt que recrea a los personajes de la famosa pintura de Rembrandt, con un turista real posando entre las figuras de los milicianos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064071/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum-009.webp",
+        location: "Jardines del Rijksmuseum, Museumplein, Ámsterdam, Países Bajos",
+        caption: "Perspectivas de Moore: el Rijksmuseum enmarcado en bronce",
+        tags: ["Henry Moore", "Jardines Del Rijksmuseum", "Museumplein", "Escultura Moderna", "Ámsterdam", "Países Bajos"],
+        alt: "Fotografía creativa tomada a través de una abertura orgánica en una escultura de Henry Moore, enmarcando a lo lejos otra estatua y el flujo de gente en los jardines del museo."
+      },
       FOTO_AMSTERDAM_VAN_GOGH,
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064073/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum.webp", "caption": "Un abrazo de metal frente a la historia", "tags": ["escultura", "bronce", "Rijksmuseum", "arte abstracto", "Ámsterdam"], "alt": "Escultura de bronce de formas fluidas situada en primer plano, con la majestuosa fachada neorrenacentista del Rijksmuseum de fondo."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064076/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum-008.webp", "caption": "Figura reclinada: armonía entre arte moderno y arquitectura del siglo XIX", "tags": ["Henry Moore", "Rijksmuseum", "jardines", "escultura", "Ámsterdam", "bronce"], "alt": "Vista lateral de una escultura reclinada de Moore que contrasta su modernidad con los arcos y torres de ladrillo del museo nacional."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064079/cgs_portfolio/Canales-de-Amsterdam-031.webp", "caption": "El pulso del canal: barcos de recreo, bicicletas y el viejo Ámsterdam", "tags": ["canal", "transporte", "vidau urbana", "barcos", "Ámsterdam", "verano"], "alt": "Panorámica de un canal con barcos de excursión, filas de bicicletas en el muelle y edificios históricos que se curvan siguiendo la vía de agua."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064080/cgs_portfolio/Musicos-en-el-barrio-de-Jordaan.webp", "caption": "Melodías en Jordaan: el espíritu bohemio del barrio de las flores", "tags": ["música callejera", "Jordaan", "acordeón", "violonchelo", "Ámsterdam", "atmósfera"], "alt": "Un trío de músicos tocando en una intersección soleada del barrio Jordaan, rodeados de terrazas de café, bicicletas y la luz dorada del atardecer."},
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064073/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum.webp",
+        location: "Jardines del Rijksmuseum, Museumplein, Ámsterdam, Países Bajos",
+        caption: "Un abrazo de metal frente a la historia",
+        tags: ["Henry Moore", "Rijksmuseum", "Escultura De Bronce", "Museumplein", "Ámsterdam", "Países Bajos"],
+        alt: "Escultura de bronce de formas fluidas situada en primer plano, con la majestuosa fachada neorrenacentista del Rijksmuseum de fondo."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064076/cgs_portfolio/Esculturas-de-Henry-Moore-Rijks-Museum-008.webp",
+        location: "Jardines del Rijksmuseum, Museumplein, Ámsterdam, Países Bajos",
+        caption: "Figura reclinada: armonía entre arte moderno y arquitectura del siglo XIX",
+        tags: ["Henry Moore", "Figura Reclinada", "Jardines Del Rijksmuseum", "Escultura", "Ámsterdam", "Países Bajos"],
+        alt: "Vista lateral de una escultura reclinada de Moore que contrasta su modernidad con los arcos y torres de ladrillo del museo nacional."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064079/cgs_portfolio/Canales-de-Amsterdam-031.webp",
+        location: "Canal Prinsengracht, cinturón de Grachtengordel, Ámsterdam, Países Bajos",
+        caption: "El pulso del canal: barcos de recreo, bicicletas y el viejo Ámsterdam",
+        tags: ["Prinsengracht", "Grachtengordel", "Canales", "Paseo Fluvial", "Ámsterdam", "Países Bajos"],
+        alt: "Panorámica de un canal con barcos de excursión, filas de bicicletas en el muelle y edificios históricos que se curvan siguiendo la vía de agua."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064080/cgs_portfolio/Musicos-en-el-barrio-de-Jordaan.webp",
+        location: "Barrio de Jordaan, Ámsterdam, Países Bajos",
+        caption: "Melodías en Jordaan: el espíritu bohemio del barrio de las flores",
+        tags: ["Jordaan", "Música Callejera", "Vida Bohemia", "Acordeón", "Ámsterdam", "Países Bajos"],
+        alt: "Un trío de músicos tocando en una intersección soleada del barrio Jordaan, rodeados de terrazas de café, bicicletas y la luz dorada del atardecer."
+      },
       FOTO_AMSTERDAM_UITMARKT_CONCIERTO,
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064091/cgs_portfolio/Plaza-DAM-004.webp", "caption": "Atlas soporta los cielos: el guardián de la Plaza Dam", "tags": ["Plaza Dam", "Atlas", "escultura", "mitología", "Ámsterdam", "monumento"], "alt": "Escultura de bronce en contrapicado de Atlas sosteniendo la esfera celeste, situada en la parte superior del Palacio Real en la Plaza Dam, recortada contra el cielo azul."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064093/cgs_portfolio/Cultura-del-reciclaje.webp", "caption": "Civismo temprano: niños recolectando vasos en el Uitmarkt", "tags": ["ecología", "niños", "reciclaje", "festival", "cultura holandesa", "Uitmarkt"], "alt": "Escena costumbrista que muestra a varios niños apilando con entusiasmo vasos de plástico para cambiarlos por monedas, educando en la sostenibilidad."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064094/cgs_portfolio/Canales-de-Amsterdam-027.webp", "caption": "Vida a ras de agua: tarde de ocio en una casa flotante", "tags": ["casa flotante", "canal", "estilo de vida", "verano", "Ámsterdam", "barco"], "alt": "Un grupo de amigos descansa en la cubierta de madera de una casa flotante decorada con plantas y muebles sencillos, reflejando la vida relajada sobre los canales."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064097/cgs_portfolio/Homenaje-a-musicos-de-jazz.webp", "caption": "Johnny Jordaan y su eterna sonrisa de bronce", "tags": ["Jordaan", "estatua", "Johnny Jordaan", "música", "Ámsterdam", "folclore"], "alt": "Estatua de bronce dedicada al cantante folclórico Johnny Jordaan sentado con su acordeón y una pipa, en una callejuela pintoresca de su barrio natal."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064098/cgs_portfolio/Festival-Uitmarkt-Explanada-de-los-Museos-017.webp", "caption": "Pequeñas divas: la pureza del arte infantil en el Uitmarkt", "tags": ["festival", "niños", "actuación", "teatro", "Ámsterdam", "pureza"], "alt": "Una niña pequeña vestida de princesa blanca sentada ante un micrófono profesional en un escenario, capturando la inocencia y el valor del debut artístico."},
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064091/cgs_portfolio/Plaza-DAM-004.webp",
+        location: "Palacio Real (Koninklijk Paleis), Plaza Dam, Ámsterdam, Países Bajos",
+        caption: "Atlas soporta los cielos: el guardián de la Plaza Dam",
+        tags: ["Plaza Dam", "Palacio Real", "Estatua De Atlas", "Escultura", "Ámsterdam", "Países Bajos"],
+        alt: "Escultura de bronce en contrapicado de Atlas sosteniendo la esfera celeste, situada en la parte superior del Palacio Real en la Plaza Dam, recortada contra el cielo azul."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064093/cgs_portfolio/Cultura-del-reciclaje.webp",
+        location: "Museumplein (Festival Uitmarkt), Ámsterdam, Países Bajos",
+        caption: "Civismo temprano: niños recolectando vasos en el Uitmarkt",
+        tags: ["Uitmarkt", "Museumplein", "Civismo", "Reciclaje", "Sostenibilidad", "Ámsterdam", "Países Bajos"],
+        alt: "Escena costumbrista que muestra a varios niños apilando con entusiasmo vasos de plástico para cambiarlos por monedas, educando en la sostenibilidad."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064094/cgs_portfolio/Canales-de-Amsterdam-027.webp",
+        location: "Casa flotante en los canales de Ámsterdam, Países Bajos",
+        caption: "Vida a ras de agua: tarde de ocio en una casa flotante",
+        tags: ["Casas Flotantes", "Canales De Ámsterdam", "Estilo De Vida", "Verano", "Ámsterdam", "Países Bajos"],
+        alt: "Un grupo de amigos descansa en la cubierta de madera de una casa flotante decorada con plantas y muebles sencillos, reflejando la vida relajada sobre los canales."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064097/cgs_portfolio/Homenaje-a-musicos-de-jazz.webp",
+        location: "Elandsgracht, barrio de Jordaan, Ámsterdam, Países Bajos",
+        caption: "Johnny Jordaan y su eterna sonrisa de bronce",
+        tags: ["Johnny Jordaan", "Elandsgracht", "Jordaan", "Música Folclórica", "Escultura", "Ámsterdam", "Países Bajos"],
+        alt: "Estatua de bronce dedicada al cantante folclórico Johnny Jordaan sentado con su acordeón y una pipa, en una callejuela pintoresca de su barrio natal."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064098/cgs_portfolio/Festival-Uitmarkt-Explanada-de-los-Museos-017.webp",
+        location: "Escenario infantil del Uitmarkt, Museumplein, Ámsterdam, Países Bajos",
+        caption: "Pequeñas divas: la pureza del arte infantil en el Uitmarkt",
+        tags: ["Uitmarkt", "Museumplein", "Artes Escénicas", "Teatro Infantil", "Ámsterdam", "Países Bajos"],
+        alt: "Una niña pequeña vestida de princesa blanca sentada ante un micrófono profesional en un escenario, capturando la inocencia y el valor del debut artístico."
+      },
       FOTO_AMSTERDAM_RIJKSMUSEUM,
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064101/cgs_portfolio/Stedelijk-Museum-La-banera-Explanada-de-los-Museos-001-Explanada-de-los-Museos-001.webp", "caption": "La bañera blanca: el atrevido anexo del Museo Stedelijk", "tags": ["Stedelijk Museum", "arquitectura moderna", "Museumplein", "diseño", "Ámsterdam"], "alt": "Fachada futurista del Museo Stedelijk conocida como la 'bañera' por sus paredes blancas y curvas, con gente descansando en el césped de la Explanada de los Museos."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064103/cgs_portfolio/Rijks-Museum-Museo-Nacional-002.webp", "caption": "El café del museo: un refugio de diseño en el corazón del Rijksmuseum", "tags": ["Rijksmuseum", "café", "interiores", "ocio", "Ámsterdam"], "alt": "Vista interior de la moderna cafetería del Rijksmuseum, con sus lámparas colgantes y la gente disfrutando de un descanso entre obras de arte."},
-      {"url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064105/cgs_portfolio/Vondelpark-siesta.webp", "caption": "Pausa en el verde: una siesta bajo el cielo del Vondelpark", "tags": ["Vondelpark", "descanso", "naturaleza", "parque urbano", "Ámsterdam"], "alt": "Una persona duerme plácidamente boca abajo sobre la hierba fresca del Vondelpark, rodeada de la inmensidad verde del parque más famoso de la ciudad."}
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064101/cgs_portfolio/Stedelijk-Museum-La-banera-Explanada-de-los-Museos-001-Explanada-de-los-Museos-001.webp",
+        location: "Museo Stedelijk (La Bañera), Museumplein, Ámsterdam, Países Bajos",
+        caption: "La bañera blanca: el atrevido anexo del Museo Stedelijk",
+        tags: ["Stedelijk Museum", "La Bañera", "Benthem Crouwel", "Museumplein", "Arquitectura Contemporánea", "Ámsterdam", "Países Bajos"],
+        alt: "Fachada futurista del Museo Stedelijk conocida como la 'bañera' por sus paredes blancas y curvas, con gente descansando en el césped de la Explanada de los Museos."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064103/cgs_portfolio/Rijks-Museum-Museo-Nacional-002.webp",
+        location: "Café del Rijksmuseum, Museumplein, Ámsterdam, Países Bajos",
+        caption: "El café del museo: un refugio de diseño en el corazón del Rijksmuseum",
+        tags: ["Rijksmuseum", "Atrio Del Museo", "Cafetería De Diseño", "Museumplein", "Ámsterdam", "Países Bajos"],
+        alt: "Vista interior de la moderna cafetería del Rijksmuseum, con sus lámparas colgantes y la gente disfrutando de un descanso entre obras de arte."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789064105/cgs_portfolio/Vondelpark-siesta.webp",
+        location: "Praderas del Vondelpark, Ámsterdam, Países Bajos",
+        caption: "Pausa en el verde: una siesta bajo el cielo del Vondelpark",
+        tags: ["Vondelpark", "Parque Urbano", "Descanso", "Naturaleza", "Ámsterdam", "Países Bajos"],
+        alt: "Una persona duerme plácidamente boca abajo sobre la hierba fresca del Vondelpark, rodeada de la inmensidad verde del parque más famoso de la ciudad."
+      }
     ]
   },
 ];

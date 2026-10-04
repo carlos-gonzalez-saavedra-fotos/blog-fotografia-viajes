@@ -138,12 +138,13 @@ export const Lightbox: React.FC<LightboxProps> = ({
           </div>
 
           {/* Metadatos Superiores (Ubicación/Título y Contador) */}
-          <div className="w-full px-6 md:px-20 py-2 flex justify-between items-center gap-4 z-[90] shrink-0">
-            <div className="flex-1 flex items-center gap-2 text-gold text-[10px] sm:text-xs uppercase tracking-[0.3em] sm:tracking-[0.4em] font-medium leading-relaxed truncate">
-              {headerText && <MapPin size={13} strokeWidth={1.5} className="shrink-0 text-gold" />}
-              <span className="truncate">{headerText}</span>
+          {/* No usar truncate aquí: regresión recurrente, ver ubicación en header completa sin recortar en móviles */}
+          <div className="w-full px-6 md:px-20 py-2 flex justify-between items-start gap-4 z-[90] shrink-0">
+            <div className="flex-1 flex items-start gap-2 text-gold text-[10px] sm:text-xs uppercase tracking-[0.15em] sm:tracking-[0.3em] md:tracking-[0.4em] font-medium leading-relaxed min-w-0">
+              {headerText && <MapPin size={13} strokeWidth={1.5} className="shrink-0 text-gold mt-0.5" />}
+              <span className="break-words">{headerText}</span>
             </div>
-            <span className="shrink-0 text-white/40 text-[10px] tracking-[0.5em] uppercase self-center pt-0.5">
+            <span className="shrink-0 text-white/40 text-[10px] tracking-[0.3em] sm:tracking-[0.5em] uppercase self-start pt-0.5 whitespace-nowrap">
               {currentIndex + 1} / {photos.length}
             </span>
           </div>
