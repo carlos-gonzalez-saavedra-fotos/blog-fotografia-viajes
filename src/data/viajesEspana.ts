@@ -891,14 +891,98 @@ Seguimos ruta hacia Logroño. Tras contemplar la solemne grandeza de su catedral
 El día del sepelio amaneció frío pero sereno. El cementerio de Haro, rodeado de viñedos invernales, parecía un lugar de paz más que de tristeza. La presencia de una bodega junto al camposanto, con su bien surtida tienda, nos pareció un guiño del destino: nuestros amigos, amantes del buen vivir y conocedores del mundo del vino, seguramente habrían apreciado esta peculiar vecindad.
 Como broche final del viaje, ya en el camino de regreso, admiramos la Bodega Baigorri en Samaniego, diseño del arquitecto vasco Iñaki Aspiazu Iza. Este impresionante cubo de cristal, que emerge entre los viñedos, representa la perfecta fusión de tradición e innovación. La estructura, mayormente enterrada y coronada por ese lucernario cristalino, nos recordó cómo la vida siempre encuentra formas de brotar desde las profundidades.
 Regresamos a Cambrils en paz pues este viaje, aunque nacido de la tristeza, nos regaló momentos de belleza, reflexión y esperanza. Como los vinos de las tierras riojanas, la vida está hecha de capas complejas donde se mezclan la alegría y la pena, la tradición y la modernidad, la muerte y la renovación.`,
-    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063721/cgs_portfolio/Pais-Vasco.webp", categoria: "España", fecha: "Febrero 2016", equipo: "Sony ILSE-6000",
+    urlImagen: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Pais-Vasco-carretera.webp", categoria: "España", fecha: "Febrero 2016", equipo: "Sony ILSE-6000",
     galeria: [
       {
-        url: "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063721/cgs_portfolio/Pais-Vasco.webp",
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Bodega-Baigorri-Samaniego-1.webp",
+        location: "Bodega Baigorri, Samaniego, Rioja Alavesa, Álava",
+        caption: "Vanguardia en el viñedo: El cubo de cristal de la Bodega Baigorri emergiendo sobre las cepas de Samaniego",
+        tags: ["Bodega Baigorri", "Samaniego", "Rioja Alavesa", "Iñaki Aspiazu", "Arquitectura Del Vino", "Viñedos", "Álava"],
+        alt: "Vista panorámica diurna de la Bodega Baigorri en Samaniego, Álava. En primer plano se aprecian cepas de viñedo antiguas y retorcidas sobre tierra seca. Al fondo, sobre una colina verde, destaca el edificio principal de diseño contemporáneo, caracterizado por una estructura acristalada y un gran tejado plano, integrado armoniosamente en el paisaje rural."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Haro-cementerio.webp",
+        location: "Cementerio Municipal de Haro, La Rioja",
+        caption: "Elegía en piedra: La figura del duelo y la memoria en el camposanto de Haro",
+        tags: ["Haro", "Cementerio Municipal", "Escultura Funeraria", "Duelo", "Arte Sacro", "La Rioja"],
+        alt: "Plano medio de una escultura de piedra erosionada que representa a una figura humana sentada y agachada, cubriéndose el rostro con ambas manos en señal de profundo luto. La estatua, cubierta parcialmente de musgo, se sitúa sobre un pedestal de piedra ante un fondo difuminado de árboles y vegetación densa."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Haro-madrugada.webp",
+        location: "Casco histórico de Haro, La Rioja",
+        caption: "Paso en la bruma: El despertar invernal y la soledad matinal en las calles de Haro",
+        tags: ["Haro", "La Rioja", "Madrugada", "Bruma", "Blanco Y Negro", "Escena Urbana"],
+        alt: "Fotografía en blanco y negro de una calle urbana desierta en Haro durante la madrugada. Una densa niebla envuelve los edificios tradicionales a ambos lados, mientras las farolas emiten un brillo difuso. En primer plano, una persona solitaria cruza un paso de cebra."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Haro-vinedos-invierno.webp",
         location: "Viñedos de Haro, La Rioja Alta",
-        caption: "Silencio de sarmientos: Los viñedos en reposo invernal arropados por la sierra riojana",
-        tags: ["Haro", "La Rioja Alta", "Viñedos", "Paisaje Invernal", "Enología", "La Rioja"],
-        alt: "Extensos campos de viñedos en reposo invernal en las cercanías de Haro, con las montañas al fondo bajo un cielo nublado. La imagen captura la esencia de la región vitivinícola de La Rioja."
+        caption: "Letargo y sarmientos: El reposo invernal de los viñedos riojanos bajo la niebla matinal",
+        tags: ["Haro", "La Rioja Alta", "Viñedos", "Invierno", "Cepas", "Paisaje Agrícola"],
+        alt: "Vista horizontal de unos viñedos desnudos en invierno en Haro. En primer plano se aprecian las cepas retorcidas y oscuras sobre la tierra húmeda y escarchada. Al fondo, las líneas de alambre de los viñedos se extienden hacia un campo verde brumoso bajo un cielo gris y cubierto de niebla."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Logrono-1.webp",
+        location: "Concatedral de Santa María de la Redonda, Logroño, La Rioja",
+        caption: "Fulgurante retablo nocturno: La portada barroca de Santa María de la Redonda en Logroño",
+        tags: ["Concatedral De La Redonda", "Logroño", "La Rioja", "Barroco", "Retablo En Piedra", "Nocturna"],
+        alt: "Vista nocturna y en primer plano de la elaborada portada barroca en piedra de la Concatedral de Santa María de la Redonda en Logroño, destacando los numerosos relieves de figuras religiosas y hornacinas bajo un arco abovedado."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Pais-Vasco-carretera-1.webp",
+        location: "Carretera comarcal de la Rioja Alavesa, Álava",
+        caption: "Mar de nubes: El manto brumoso envolviendo los valles y viñedos de la Rioja Alavesa",
+        tags: ["Rioja Alavesa", "Mar De Niebla", "Viñedos", "Paisaje Rural", "Álava", "País Vasco"],
+        alt: "Paisaje matinal en el País Vasco con un denso mar de nubes bajas o niebla cubriendo un valle rodeado de suaves colinas y viñedos, bajo un cielo claro y pálido. En primer plano se aprecian ramas secas y vegetación otoñal."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Pais-Vasco-carretera-2.webp",
+        location: "Mirador de la Rioja Alavesa, Álava",
+        caption: "Centinela en la bruma: Farola solitaria custodiando las viñas de la Rioja Alavesa",
+        tags: ["Rioja Alavesa", "Farola", "Niebla", "Blanco Y Negro", "Viñedos", "Álava"],
+        alt: "Fotografía en blanco y negro de un paisaje rural en el País Vasco. En el primer plano a la izquierda, una clásica farola urbana se erige esbelta. Al fondo, amplios campos de viñedos y colinas se difuminan bajo una densa niebla matutina que cubre el horizonte."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Pais-Vasco-carretera.webp",
+        location: "Ruta de la Rioja Alavesa, Álava",
+        caption: "Destellos de despedida: Silueta vegetal atrapando los últimos oros del invierno riojano",
+        tags: ["Rioja Alavesa", "Contraluz", "Atardecer", "Naturaleza", "Cardo", "Álava"],
+        alt: "Fotografía en primer plano que muestra la silueta oscura de una planta seca y marchita contra un fondo difuminado de tonos dorados y ocres, donde el sol se asoma suavemente. Entre las ramas finas y quebradizas se aprecian delicadas telarañas que atrapan la luz tenue del ocaso, creando una atmósfera melancólica y poética."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Sto-Domingo-de-la-Calzada-1.webp",
+        location: "Torre exenta de la Catedral de Santo Domingo de la Calzada, La Rioja",
+        caption: "Faro del Camino: La esbelta torre barroca exenta de Santo Domingo de la Calzada",
+        tags: ["Santo Domingo De La Calzada", "Torre Exenta", "Catedral De Santo Domingo", "Barroco", "Camino De Santiago", "La Rioja"],
+        alt: "Vista en contrapicado de la esbelta torre exenta de la catedral de Santo Domingo de la Calzada iluminada por el sol de la tarde, destacando su elaborada arquitectura barroca en piedra dorada contra un cielo azul despejado. En la esquina superior derecha se asoma una artística estructura metálica forjada."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Sto-Domingo-de-la-Calzada-2.webp",
+        location: "Catedral de Santo Domingo de la Calzada, La Rioja",
+        caption: "Palma gótica: Nervaduras de crucería y calidez lumínica en la nave de la catedral",
+        tags: ["Catedral De Santo Domingo", "Santo Domingo De La Calzada", "Bóvedas De Crucería", "Gótico", "Arquitectura Sacra", "La Rioja"],
+        alt: "Vista interior en plano contrapicado de las elegantes bóvedas de crucería y los pilares de piedra arenisca en la Catedral de Santo Domingo de la Calzada, resaltadas por una iluminación cálida que realza las nervaduras góticas."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200468/Sto-Domingo-de-la-Calzada-3.webp",
+        location: "Catedral de Santo Domingo de la Calzada, La Rioja",
+        caption: "Geometría sagrada: Ritmo de arcos apuntados y sillares en blanco y negro",
+        tags: ["Catedral De Santo Domingo", "Santo Domingo De La Calzada", "Bóvedas De Crucería", "Gótico", "Blanco Y Negro", "La Rioja"],
+        alt: "Fotografía en blanco y negro tomada desde un plano picado que muestra las complejas y elegantes bóvedas de crucería y los pilares de piedra del interior de la Catedral de Santo Domingo de la Calzada, transmitiendo solemnidad y grandeza arquitectónica."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200468/Sto-Domingo-de-la-Calzada-5a.webp",
+        location: "Catedral de Santo Domingo de la Calzada, La Rioja",
+        caption: "Emblema del milagro: El gallo dorado que canta después de asado en Santo Domingo de la Calzada",
+        tags: ["Santo Domingo De La Calzada", "Milagro Del Gallo", "Gallo Dorado", "Catedral", "Camino De Santiago", "La Rioja"],
+        alt: "Primer plano del gallo dorado situado en el interior de la Catedral de Santo Domingo de la Calzada, una pieza clave vinculada a la famosa leyenda del peregrino."
+      },
+      {
+        url: "https://res.cloudinary.com/tsruit2h/image/upload/v1791200468/Sto-Domingo-de-la-Calzada-milagro.webp",
+        location: "Gallinero de la Catedral de Santo Domingo de la Calzada, La Rioja",
+        caption: "Testimonio vivo: La hornacina gótica del gallinero catedralicio en Santo Domingo de la Calzada",
+        tags: ["Santo Domingo De La Calzada", "Gallinero Gótico", "Milagro Del Gallo", "Catedral", "Camino De Santiago", "La Rioja"],
+        alt: "Vista detallada del ventanal enrejado del gallinero en la Catedral de Santo Domingo de la Calzada, decorado con relieves de gallos y motivos góticos, donde se custodian un gallo y una gallina vivos en honor al milagro jacobeo."
       }
     ]
   },

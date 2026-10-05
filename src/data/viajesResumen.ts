@@ -204,7 +204,7 @@ export const VIAJES_RESUMEN: ViajeResumen[] = [
     "titulo": "Al corazón de La Rioja",
     "ubicacion": "Haro-La Rioja",
     "resumen": "En aquel febrero riojano el cielo era plomizo y soplaba una brisa fría incapaz de mover los viñedos desnudos. Habíamos partido desde Cambrils con el corazón encogido...",
-    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063721/cgs_portfolio/Pais-Vasco.webp",
+    "urlImagen": "https://res.cloudinary.com/tsruit2h/image/upload/v1791200467/Pais-Vasco-carretera.webp",
     "categoria": "España",
     "fecha": "Febrero 2016",
     "equipo": "Sony ILSE-6000",
