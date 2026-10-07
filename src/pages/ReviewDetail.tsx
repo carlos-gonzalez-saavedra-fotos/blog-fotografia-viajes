@@ -24,6 +24,13 @@ export const ReviewDetail = () => {
   // Una galería es temática si tiene el campo galeriaTematica OR si su ID empieza por "Gale"
   const esTematica = !!viaje?.galeriaTematica || viaje?.id?.startsWith('Gale');
 
+  // Normalización automática de URL canónica en el cliente (evita duplicidad por mayúsculas/minúsculas)
+  useEffect(() => {
+    if (viaje && id && id !== viaje.id) {
+      navigate(`/viaje/${viaje.id}${location.hash || ''}`, { replace: true });
+    }
+  }, [id, viaje, navigate, location.hash]);
+
   useEffect(() => {
     setSelectedIndex(null);
     setIsPortrait(false);
