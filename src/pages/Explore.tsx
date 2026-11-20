@@ -10,6 +10,7 @@ import { getOptimizedImageUrl } from '../utils/image';
 interface PhotoItem {
   url: string;
   caption: string;
+  alt?: string;
   tags: string[];
   ubicacion: string;
   location?: string;
@@ -41,11 +42,13 @@ export const Explore = () => {
           seenUrls.add(url);
           
           const caption = typeof item === 'string' ? '' : item.caption || '';
+          const alt = typeof item === 'string' ? undefined : item.alt;
           const tags = typeof item === 'string' ? [] : item.tags || [];
           const itemLocation = typeof item === 'string' ? undefined : item.location;
           photos.push({ 
             url, 
             caption, 
+            alt,
             tags, 
             ubicacion: itemLocation || viaje.ubicacion, 
             location: itemLocation || viaje.ubicacion,
@@ -64,11 +67,13 @@ export const Explore = () => {
           seenUrls.add(url);
 
           const caption = typeof item === 'string' ? '' : item.caption || '';
+          const alt = typeof item === 'string' ? undefined : item.alt;
           const tags = typeof item === 'string' ? [] : item.tags || [];
           const itemLocation = typeof item === 'string' ? undefined : item.location;
           photos.push({ 
             url, 
             caption, 
+            alt,
             tags, 
             ubicacion: itemLocation || foto.ubicacion, 
             location: itemLocation || foto.ubicacion,
@@ -172,12 +177,26 @@ export const Explore = () => {
         <title>Explorar Archivo Visual | Carlos González Saavedra</title>
         <meta httpEquiv="content-language" content="es" />
         <meta property="og:locale" content="es_ES" />
+        <meta property="og:type" content="website" />
         <meta name="description" content="Explora el archivo visual completo de fotografías y crónicas de viajes de Carlos González Saavedra. Búsqueda por temas, lugares y etiquetas." />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
         <link rel="canonical" href="https://carlos-gonzalez-saavedra.vercel.app/explorar" />
         <meta property="og:title" content="Explorar Archivo Visual | Carlos González Saavedra" />
         <meta property="og:description" content="Explora el archivo visual completo de fotografías y crónicas de viajes de Carlos González Saavedra." />
         <meta property="og:url" content="https://carlos-gonzalez-saavedra.vercel.app/explorar" />
+        <meta property="og:image" content="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_800,h_800,c_fill/v1789064350/cgs_portfolio/Carlos_Gonzalez_Saavedra.webp" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Explorar Archivo Visual | Carlos González Saavedra" />
+        <meta name="twitter:description" content="Explora el archivo visual completo de fotografías y crónicas de viajes de Carlos González Saavedra." />
+        <script type="application/ld+json">{JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'CollectionPage',
+          name: 'Explorar Archivo Visual | Carlos González Saavedra',
+          description: 'Archivo visual de fotografías de viaje, arquitectura, naturaleza y crónicas por temas y lugares.',
+          url: 'https://carlos-gonzalez-saavedra.vercel.app/explorar',
+          inLanguage: 'es',
+          author: { '@type': 'Person', name: 'Carlos González Saavedra' }
+        })}</script>
       </Helmet>
 
       <div className="max-w-7xl mx-auto">
@@ -212,11 +231,11 @@ export const Explore = () => {
 
         <div ref={resultsRef} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {filteredPhotos.map((photo, index) => (
-            <div key={index} className="cursor-zoom-in group transition-transform duration-300 hover:scale-[1.02]" onClick={() => setSelectedPhotoIndex(index)}>
+            <figure key={index} className="m-0 cursor-zoom-in group transition-transform duration-300 hover:scale-[1.02]" onClick={() => setSelectedPhotoIndex(index)}>
               <div className="aspect-square bg-white/5 overflow-hidden mb-2">
                 <img 
                   src={getOptimizedImageUrl(photo.url, { width: 360, height: 360, crop: 'fill' })} 
-                  alt={photo.caption} 
+                  alt={photo.alt || photo.caption || photo.titulo} 
                   width={300}
                   height={300}
                   loading="lazy" 
@@ -225,8 +244,8 @@ export const Explore = () => {
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" 
                 />
               </div>
-              <p className="text-white/60 text-[10px] italic line-clamp-2 leading-relaxed">{photo.caption}</p>
-            </div>
+              <figcaption className="text-white/60 text-[10px] italic line-clamp-2 leading-relaxed">{photo.caption}</figcaption>
+            </figure>
           ))}
         </div>
       </div>
@@ -240,6 +259,7 @@ export const Explore = () => {
         photos={filteredPhotos.map(p => ({
           url: p.url,
           caption: p.caption,
+          alt: p.alt,
           ubicacion: p.ubicacion,
           location: p.location || p.ubicacion,
           titulo: p.titulo,

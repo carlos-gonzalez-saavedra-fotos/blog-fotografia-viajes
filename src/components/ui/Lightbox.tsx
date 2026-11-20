@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 interface LightboxPhoto {
   url: string;
   caption?: string;
+  alt?: string;
   ubicacion?: string;
   location?: string;
   titulo?: string;
@@ -184,7 +185,7 @@ export const Lightbox: React.FC<LightboxProps> = ({
                 transition={{ duration: 0.25 }}
                 onPanEnd={handlePanEnd}
                 src={currentPhoto.url}
-                alt={currentPhoto.caption || currentPhoto.titulo || 'Fotografía'}
+                alt={currentPhoto.alt || currentPhoto.caption || currentPhoto.titulo || 'Fotografía'}
                 referrerPolicy="no-referrer"
                 decoding="async"
                 className="max-w-full max-h-full shadow-2xl object-contain z-10 select-none"

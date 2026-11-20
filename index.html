@@ -11,9 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+    <!-- SSR_PRELOAD_START -->
     <!-- Preload Hero LCP Image for Mobile and Desktop (Home) -->
     <link rel="preload" as="image" href="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_800,c_limit/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp" media="(max-width: 768px)" fetchpriority="high" />
     <link rel="preload" as="image" href="https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto,w_1920,c_limit/v1789063601/cgs_portfolio/Playa-de-las-Catedrales.webp" media="(min-width: 769px)" fetchpriority="high" />
+    <!-- SSR_PRELOAD_END -->
 
     <!-- Inmediata sincronización síncrona de URL canónica y precarga de Hero antes de React/JS -->
     <script>
@@ -81,6 +83,7 @@
         }, { once: true });
       }
     </script>
+    <!-- SSR_SEO_START -->
     <title>Carlos González Saavedra | Fotografía & Relatos de Viaje</title>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -128,11 +131,12 @@
         "description": "Portafolio de crónicas de viaje y fotografía contemplativa."
       }
     </script>
+    <!-- SSR_SEO_END -->
 
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>">
   </head>
   <body>
-    <div id="root">
+    <!-- SSR_ROOT_START --><div id="root">
       <nav class="fixed top-0 left-0 right-0 z-[120] transition-all duration-500 translate-y-0 py-8 bg-transparent px-6">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
           <a href="/" data-discover="true">
@@ -183,7 +187,8 @@
           </section>
         </main>
       </div>
-    </div>
+    </div><!-- SSR_ROOT_END -->
+    <!-- SSR_FALLBACK_START -->
     <script>
       if (window.location.pathname !== '/' && window.location.pathname !== '') {
         var r = document.getElementById('root');
@@ -197,6 +202,7 @@
         }
       }
     </script>
+    <!-- SSR_FALLBACK_END -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

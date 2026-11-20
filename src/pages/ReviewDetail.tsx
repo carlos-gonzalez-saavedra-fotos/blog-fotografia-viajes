@@ -4,6 +4,7 @@ import { VIAJES_COMPLETOS, FOTOS_COMPLETAS, getViajeCompletoById } from '../data
 import { MapPin, ArrowLeft, Quote, Search, BookOpen } from 'lucide-react';
 import { useEffect, useState, useRef, lazy, Suspense } from 'react';
 import { getOptimizedImageUrl } from '../utils/image';
+import { buildReviewSeoData } from '../utils/seo';
 
 const Lightbox = lazy(() => import('../components/ui/Lightbox').then(m => ({ default: m.Lightbox })));
 
@@ -93,19 +94,29 @@ export const ReviewDetail = () => {
     );
   }
 
+  const seo = buildReviewSeoData(viaje);
+
   return (
     <div className="min-h-screen bg-black text-white font-light">
       <Helmet htmlAttributes={{ lang: 'es' }}>
-        <title>{`${viaje.titulo} | Carlos González Saavedra`}</title>
+        <title>{seo.fullTitle}</title>
         <meta httpEquiv="content-language" content="es" />
         <meta property="og:locale" content="es_ES" />
-        <meta name="description" content={viaje.resumen || (viaje.reseña ? viaje.reseña.slice(0, 160) : '')} />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`https://carlos-gonzalez-saavedra.vercel.app/viaje/${viaje.id}`} />
-        <meta property="og:title" content={`${viaje.titulo} | Carlos González Saavedra`} />
-        <meta property="og:description" content={viaje.resumen || (viaje.reseña ? viaje.reseña.slice(0, 160) : '')} />
-        <meta property="og:url" content={`https://carlos-gonzalez-saavedra.vercel.app/viaje/${viaje.id}`} />
-        <meta property="og:image" content={viaje.urlImagen || viaje.url} />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Carlos González Saavedra | Fotografía & Relatos de Viaje" />
+        <meta name="description" content={seo.description} />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <link rel="canonical" href={seo.canonicalUrl} />
+        <meta property="og:title" content={seo.fullTitle} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content={seo.canonicalUrl} />
+        <meta property="og:image" content={seo.heroImage} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={seo.canonicalUrl} />
+        <meta name="twitter:title" content={seo.fullTitle} />
+        <meta name="twitter:description" content={seo.description} />
+        <meta name="twitter:image" content={seo.heroImage} />
+        <script type="application/ld+json">{JSON.stringify(seo.jsonLd)}</script>
         <link 
           rel="preload" 
           as="image" 
@@ -118,7 +129,7 @@ export const ReviewDetail = () => {
       <div className="relative h-[70vh] w-full overflow-hidden">
         <img 
           src={getOptimizedImageUrl(viaje.urlImagen || viaje.url, { width: 1920, crop: 'limit' })} 
-          alt={viaje.titulo}
+          alt={`${viaje.titulo} — ${viaje.ubicacion}`}
           referrerPolicy="no-referrer"
           width={1920}
           height={1080}
@@ -212,16 +223,18 @@ export const ReviewDetail = () => {
                     const isLast = !esTematica && i === 5 && fotosGaleria.length > 6;
                     const itemUrl = typeof item === 'string' ? item : item.url;
                     const itemCaption = typeof item === 'string' ? '' : item.caption;
+                    const itemAlt = typeof item === 'string' ? '' : item.alt;
                     const itemLocation = typeof item === 'string' ? viaje.ubicacion : (item.location || viaje.ubicacion);
+                    const computedAlt = itemAlt || itemCaption || `${viaje.titulo}${itemLocation ? ` — ${itemLocation}` : ''}`;
                     return (
-                      <div 
+                      <figure 
                         key={i} 
                         onClick={() => setSelectedIndex(i)} 
-                        className="aspect-square cursor-zoom-in overflow-hidden relative group bg-neutral-900"
+                        className="m-0 aspect-square cursor-zoom-in overflow-hidden relative group bg-neutral-900"
                       >
                         <img 
                           src={getOptimizedImageUrl(itemUrl, { width: 400, height: 400, crop: 'fill' })} 
-                          alt={itemCaption || viaje.titulo}
+                          alt={computedAlt}
                           loading="lazy"
                           decoding="async"
                           referrerPolicy="no-referrer"
@@ -236,7 +249,7 @@ export const ReviewDetail = () => {
                             <p className="text-2xl font-serif text-white">+{fotosGaleria.length - 5}</p>
                           </div>
                         ) : (
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-4">
+                          <figcaption className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-4">
                             {itemLocation && (
                               <p className="text-[10px] text-gold uppercase tracking-wider mb-1 line-clamp-1 flex items-center gap-1 font-medium">
                                 <MapPin size={10} className="shrink-0" />
@@ -250,9 +263,9 @@ export const ReviewDetail = () => {
                               <Search className="w-3.5 h-3.5 stroke-thin" />
                               <span>Ampliar</span>
                             </div>
-                          </div>
+                          </figcaption>
                         )}
-                      </div>
+                      </figure>
                     );
                   })}
                 </div>
@@ -273,6 +286,7 @@ export const ReviewDetail = () => {
             photos={fotosGaleria.map((item: any) => ({
               url: typeof item === 'string' ? item : item.url,
               caption: typeof item === 'string' ? undefined : item.caption,
+              alt: typeof item === 'string' ? undefined : item.alt,
               titulo: viaje.titulo,
               ubicacion: typeof item === 'string' ? viaje.ubicacion : (item.location || viaje.ubicacion),
               location: typeof item === 'string' ? viaje.ubicacion : (item.location || viaje.ubicacion),
