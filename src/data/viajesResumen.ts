@@ -451,7 +451,7 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "fecha": "1995-2004",
     "url": "https://res.cloudinary.com/tsruit2h/image/upload/v1789731982/La-Concha-San-Sebastian-1995.webp",
     "equipo": "Minolta X-300s",
-    "fotosCount": 34
+    "fotosCount": 35
   },
   {
     "id": "GaleArteCalle",
@@ -466,10 +466,10 @@ export const FOTOS_RESUMEN: PhotoResumen[] = [
     "id": "GaleArte",
     "titulo": "Contemplar el arte",
     "ubicacion": "Personas en museos",
-    "fecha": "2006-2022",
+    "fecha": "1995-2022",
     "url": "https://res.cloudinary.com/tsruit2h/image/upload/f_auto,q_auto/v1789063603/cgs_portfolio/Gego-en-el-Macba-2006-04.webp",
     "equipo": "",
-    "fotosCount": 8
+    "fotosCount": 9
   }
 ];
 
